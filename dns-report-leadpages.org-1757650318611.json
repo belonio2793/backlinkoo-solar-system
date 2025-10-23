@@ -1,0 +1,35 @@
+{
+  "domain": "leadpages.org",
+  "timestamp": "2025-09-12T04:11:57.846Z",
+  "checks": {
+    "aRecords": {
+      "success": true,
+      "records": [
+        "75.2.60.5"
+      ]
+    },
+    "cnameRecords": {
+      "success": false,
+      "error": "queryCname ENODATA leadpages.org",
+      "records": []
+    },
+    "wwwRecords": {
+      "success": true,
+      "records": [
+        "apex-loadbalancer.netlify.com"
+      ]
+    },
+    "txtRecords": {
+      "success": false,
+      "error": "queryTxt ENODATA leadpages.org",
+      "records": []
+    },
+    "mxRecords": {
+      "success": false,
+      "error": "queryMx ENODATA leadpages.org",
+      "records": []
+    }
+  },
+  "recommendations": [],
+  "status": "good"
+}

@@ -1,0 +1,50 @@
+.scrape-progress{position:sticky;top:0;z-index:40;height:4px;background:linear-gradient(to right,rgba(168,85,247,.15),rgba(99,102,241,.15))}
+.scrape-progress__bar{height:100%;width:0;background:linear-gradient(90deg,#a855f7,#6366f1);transition:width .15s ease}
+.scrape-hero{padding:2.5rem 0 1.5rem;border-bottom:1px solid rgba(15,23,42,.06);position:relative;overflow:visible}
+.scrape-hero::after{content:'';position:absolute;inset:auto -10% -40% auto;width:600px;height:400px;background:radial-gradient(closest-side,rgba(99,102,241,.08),transparent 40%);transform:translateY(-20%);filter:blur(36px);pointer-events:none}
+.scrape-kicker{font-size:.75rem;letter-spacing:.08em;color:#6366f1;text-transform:uppercase;margin-bottom:.25rem}
+.scrape-title{font-size:clamp(2rem,3.2vw,3rem);font-weight:900;line-height:1.02;letter-spacing:-0.02em}
+.scrape-subtitle{color:#334155;max-width:70ch;margin-top:.5rem}
+.scrape-hero__meta{display:flex;gap:.75rem;flex-wrap:wrap;color:#64748b;margin-top:.75rem}
+.scrape-hero__cta{display:flex;gap:.75rem;align-items:center;margin-top:1rem}
+
+.scrape-layout{display:grid;grid-template-columns:300px 1fr;gap:2.25rem;margin-top:1.75rem}
+@media (max-width: 1024px){.scrape-layout{grid-template-columns:1fr;padding:0 0.75rem}}
+
+.scrape-toc{position:sticky;top:96px;height:fit-content;border:1px solid rgba(15,23,42,.06);border-radius:12px;padding:1rem;background:linear-gradient(180deg,rgba(255,255,255,0.85),rgba(246,248,255,0.6));backdrop-filter:blur(6px);box-shadow:0 6px 18px rgba(13,12,38,0.04)}
+.scrape-toc__title{font-weight:700;margin-bottom:.5rem}
+.scrape-toc ul{list-style:none;padding:0;margin:0}
+.scrape-toc li{margin:.4rem 0}
+.scrape-toc a{color:#0f172a;text-decoration:none;padding:.25rem .35rem;border-radius:.375rem;display:inline-block}
+.scrape-toc a:hover{background:linear-gradient(90deg,rgba(99,102,241,.06),rgba(99,102,241,.03));text-decoration:none}
+
+.scrape-article{padding-bottom:3rem}
+.scrape-section{scroll-margin-top:100px;padding-top:1rem;margin-top:1.25rem;border-top:1px dashed rgba(15,23,42,.06);transition:transform .35s ease,opacity .35s ease}
+.scrape-section[data-visible="true"]{transform:none;opacity:1}
+.scrape-section[data-visible="false"]{transform:translateY(8px);opacity:.0}
+.scrape-loader,.scrape-error{padding:1rem;border:1px solid rgba(15,23,42,.08);border-radius:.5rem;background:#fff}
+
+.prose.scrape-expanded h2,.prose.scrape-expanded h3{scroll-margin-top:88px}
+
+/* Card hover */
+.scrape-layout .card{transition:transform .25s ease,box-shadow .25s ease}
+.scrape-layout .card:hover{transform:translateY(-6px);box-shadow:0 10px 30px rgba(99,102,241,.08)}
+
+/* Simulator */
+.scrape-sim{max-width:820px}
+.scrape-sim__bar{width:0%;transition:width .9s cubic-bezier(.2,.9,.3,1)}
+
+/* CTA banner */
+.scrape-cta-banner{background:linear-gradient(90deg,#7c3aed,#4f46e5);color:white;padding:1rem;border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.scrape-cta-banner .left{max-width:70%}
+.scrape-cta-banner h3{font-weight:800}
+
+/* Tiny micro-interactions */
+.scrape-hero .scrape-title{background:linear-gradient(90deg,#4f46e5,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* Section reveal using intersection observer */
+@keyframes floatUp {from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.scrape-section{animation:floatUp .6s ease both}
+
+/* Responsive tweaks */
+@media (max-width:640px){.scrape-layout{grid-template-columns:1fr}.scrape-hero::after{display:none}}

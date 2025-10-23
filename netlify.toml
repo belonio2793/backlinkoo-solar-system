@@ -1,0 +1,165 @@
+##############################
+# Netlify Build Settings
+##############################
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
+[build]
+  publish = "dist"
+  command = "pnpm run build"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NETLIFY_USE_PNPM = "true"
+  PNPM_VERSION = "9.0.0"
+  PNPM_FLAGS = "--no-frozen-lockfile"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3001
+  port = 8888
+  framework = "vite"
+
+##############################
+# Function Bundling
+##############################
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = [
+    "@supabase/supabase-js",
+    "openai",
+    "stripe",
+    "@stripe/stripe-js",
+    "resend"
+  ]
+
+##############################
+# Global Security & Caching Headers
+##############################
+# Base security headers (safe with Cloudflare in front)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Long cache for built assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Never cache the HTML shell
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Pragma = "no-cache"
+    Expires = "0"
+
+# Root path should also be uncached
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Pragma = "no-cache"
+    Expires = "0"
+
+# CORS for serverless functions (no cookies)
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PATCH, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Vary = "Origin"
+
+##############################
+# Redirect Rules
+##############################
+# Pass-through for assets so they are not SPA-rewritten
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+  force = true
+
+# Pass-through for well-known paths (cert verification, etc.)
+[[redirects]]
+  from = "/.well-known/*"
+  to = "/.well-known/:splat"
+  status = 200
+  force = true
+
+
+# API proxy to Netlify Functions (client code uses /api/*)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Shortcut alias for specific function
+[[redirects]]
+  from = "/api/domains"
+  to = "/.netlify/functions/domainsNetlify"
+  status = 200
+  force = true
+
+# Allow Netlify subdomains to serve the app directly (no canonical redirect)
+# This avoids redirecting previews to the apex while DNS/SSL is still propagating
+
+# Canonicalize www → apex (Cloudflare-friendly)
+[[redirects]]
+  from = "/*"
+  to = "https://backlinkoo.com/:splat"
+  status = 301
+  force = true
+  conditions = { Host = ["www.backlinkoo.com"] }
+
+# SPA fallback (keep LAST) — serve index.html for any client-side route
+[[redirects]]
+  from = "/senuke"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# SPA fallback (last) for primary domain hosts
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = { Host = [
+    "backlinkoo.com",
+    "www.backlinkoo.com",
+    "*.backlinkoo.com"
+  ] }
+
+##############################
+# 🧱 Environment Variables
+##############################
+[[redirects]]
+  from = "/senuke/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/userp"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/userp/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true

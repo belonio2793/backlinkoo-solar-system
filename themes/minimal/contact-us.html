@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Us — {{domain}}</title>
+  <meta name="description" content="Contact {{domain}} for inquiries, partnerships, or support.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Contact — {{domain}}">
+  <meta property="og:description" content="Get in touch with the {{domain}} team.">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;--text:#e2e8f0;--accent:#60a5fa;--accent2:#22d3ee}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(1200px 800px at 10% -10%, rgba(34,211,238,.22), transparent 60%),radial-gradient(1000px 700px at 90% 10%, rgba(96,165,250,.18), transparent 60%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Inter,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:720px;margin:0 auto;padding:28px}
+    header,footer{display:flex;justify-content:space-between;align-items:center;gap:16px}
+    a{color:var(--accent);text-decoration:none}
+    .panel{margin-top:22px;border:1px solid rgba(148,163,184,.18);border-radius:14px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01));padding:22px}
+    h1{margin:4px 0 8px;font-size:32px}
+    label{display:block;margin:10px 0 6px;color:#cbd5e1}
+    input,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(148,163,184,.25);background:#0b1220;color:#e2e8f0}
+    button{margin-top:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;color:#0b1220;font-weight:700;padding:10px 14px;border-radius:10px;cursor:pointer}
+    .tag{color:var(--muted);font-size:12px}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div><span class="tag">Contact</span><h1>Contact Us</h1></div>
+      <nav><a href="/">Home</a> · <a id="themeHome" href="#">Theme</a></nav>
+    </header>
+
+    <section class="panel">
+      <p>We’d love to hear from you. This page follows the Minimal theme — simple and focused.</p>
+      <form action="mailto:" method="post" enctype="text/plain" onsubmit="this.action='mailto:'+document.getElementById('to').textContent;">
+        <label>Your Email</label>
+        <input type="email" name="from" required placeholder="you@example.com" />
+        <label>Subject</label>
+        <input type="text" name="subject" required placeholder="How can we help?" />
+        <label>Message</label>
+        <textarea name="message" rows="6" required placeholder="Tell us more…"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p class="tag" style="margin-top:10px">Prefer email? Write to <span id="to">contact@<span class="domain">{{domain}}</span></span></p>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> <span class="domain">{{domain}}</span></div>
+    </footer>
+  </div>
+  <script>
+    (function(){
+      var host=location.hostname||'your-domain.com';
+      document.querySelectorAll('.domain').forEach(function(n){n.textContent=host});
+      var mail='contact@'+host; document.getElementById('to').textContent=mail;
+      document.getElementById('y').textContent=new Date().getFullYear();
+      var th=document.getElementById('themeHome'); if(th){var p=location.pathname.split('/').filter(Boolean); var t=p[0]||'minimal'; th.href='/' + t + '/';}
+    })();
+  </script>
+</body>
+</html>

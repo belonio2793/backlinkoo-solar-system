@@ -1,0 +1,58 @@
+.rhinorank-hero {
+  position: relative;
+  background: radial-gradient(1200px 500px at 10% 10%, rgba(59,130,246,0.25), transparent 60%),
+              radial-gradient(900px 400px at 90% 20%, rgba(147,51,234,0.22), transparent 60%),
+              linear-gradient(180deg, rgba(255,255,255,0.0), rgba(255,255,255,0.0));
+}
+.rhinorank-gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.rhinorank-prose h2 {
+  scroll-margin-top: 100px;
+}
+.rhinorank-toc {
+  position: sticky;
+  top: 100px;
+  max-height: calc(100vh - 140px);
+  overflow: auto;
+}
+.rhinorank-toc a {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: rgb(71 85 105);
+}
+.rhinorank-toc a.active {
+  background: rgba(59,130,246,0.12);
+  color: rgb(30 64 175);
+  font-weight: 600;
+}
+.rhinorank-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(8px);
+}
+.rhinorank-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.rhinorank-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0));
+  transform: translateX(-120%);
+  animation: rrShimmer 3s infinite;
+}
+@keyframes rrShimmer {
+  0% { transform: translateX(-120%); }
+  50% { transform: translateX(120%); }
+  100% { transform: translateX(120%); }
+}
+.rhinorank-section {
+  scroll-margin-top: 90px;
+}

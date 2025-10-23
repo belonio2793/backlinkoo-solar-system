@@ -1,0 +1,433 @@
+/* InterShipFlow Page Styles - SEO Optimized & Beautiful */
+
+.intershipflow-page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.intershipflow-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.intershipflow-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="dots" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="1200" height="600" fill="none"/><rect width="1200" height="600" fill="url(%23dots)"/></svg>');
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.intershipflow-hero > div {
+  position: relative;
+  z-index: 1;
+}
+
+.intershipflow-hero h1 {
+  animation: slideDown 0.8s ease-out;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.intershipflow-hero p {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+/* Metric Cards */
+.intershipflow-hero [className*="grid"] [className*="bg-white"] {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.intershipflow-hero [className*="grid"] [className*="bg-white"]:nth-child(1) { animation-delay: 0.5s; }
+.intershipflow-hero [className*="grid"] [className*="bg-white"]:nth-child(2) { animation-delay: 0.6s; }
+.intershipflow-hero [className*="grid"] [className*="bg-white"]:nth-child(3) { animation-delay: 0.7s; }
+.intershipflow-hero [className*="grid"] [className*="bg-white"]:nth-child(4) { animation-delay: 0.8s; }
+
+/* Content Sections */
+.intershipflow-content {
+  background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+  padding: 2rem 0;
+}
+
+.intershipflow-content h2 {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.intershipflow-content h3 {
+  color: #1f2937;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.intershipflow-content p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+/* Feature Cards */
+[className*="rounded-xl"][className*="border"] {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+[className*="rounded-xl"][className*="border"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3b82f6 0%, #10b981 50%, #3b82f6 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+[className*="rounded-xl"][className*="border"]:hover::before {
+  transform: scaleX(1);
+}
+
+[className*="rounded-xl"][className*="border"]:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+}
+
+/* Testimonial Cards */
+.testimonial-quote {
+  font-style: italic;
+  color: #4b5563;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.testimonial-role {
+  color: #6b7280;
+  font-size: 0.9375rem;
+}
+
+/* Comparison Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background: #f3f4f6;
+  color: #1f2937;
+  font-weight: 700;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid #d1d5db;
+}
+
+table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #4b5563;
+}
+
+table tr:hover {
+  background: #f9fafb;
+}
+
+/* Accordion Styling */
+[data-state="open"] {
+  border-color: #3b82f6 !important;
+}
+
+[data-state="open"] {
+  background: linear-gradient(to right, #eff6ff, #ffffff);
+}
+
+[role="region"] {
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Typography */
+.intershipflow-page h1 {
+  font-weight: 900;
+  font-size: clamp(2rem, 8vw, 3.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.intershipflow-page h2 {
+  font-weight: 800;
+  font-size: clamp(1.875rem, 5vw, 2.25rem);
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+.intershipflow-page h3 {
+  font-weight: 700;
+  font-size: clamp(1rem, 3vw, 1.375rem);
+  line-height: 1.4;
+}
+
+.intershipflow-page li {
+  margin-bottom: 0.75rem;
+}
+
+/* Links */
+.intershipflow-page a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.intershipflow-page a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.intershipflow-page a:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intershipflow-hero {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .intershipflow-page h1 {
+    font-size: 1.875rem;
+  }
+
+  .intershipflow-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .intershipflow-page h3 {
+    font-size: 1.125rem;
+  }
+
+  .intershipflow-page p {
+    font-size: 1rem;
+  }
+
+  [className*="rounded-2xl"] {
+    padding: 2rem 1.5rem !important;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .intershipflow-page {
+    background: #111827;
+    color: #f3f4f6;
+  }
+
+  .intershipflow-content {
+    background: linear-gradient(180deg, #1f2937 0%, #111827 100%);
+  }
+
+  .intershipflow-page h2,
+  .intershipflow-page h3 {
+    color: #f3f4f6;
+  }
+
+  .intershipflow-page p {
+    color: #d1d5db;
+  }
+
+  [className*="rounded-xl"][className*="border"] {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  table {
+    background: #1f2937;
+  }
+
+  table th {
+    background: #111827;
+    color: #f3f4f6;
+    border-color: #374151;
+  }
+
+  table td {
+    border-color: #374151;
+    color: #d1d5db;
+  }
+
+  table tr:hover {
+    background: #111827;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .intershipflow-hero {
+    display: none;
+  }
+
+  .intershipflow-page {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+}
+
+/* Accessibility */
+.intershipflow-page * {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intershipflow-page *,
+  .intershipflow-page *::before,
+  .intershipflow-page *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Code Styling */
+code {
+  background: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background: #374151;
+    color: #f3f4f6;
+  }
+}
+
+/* Border Utilities */
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+/* Spacing */
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+/* Text Utilities */
+.text-center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+/* Gradient Text */
+.bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Shadow Utilities */
+.shadow-lg {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:shadow-lg:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Advanced Selectors for Special Content */
+.intershipflow-content blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.intershipflow-content ul,
+.intershipflow-content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.intershipflow-content li {
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}

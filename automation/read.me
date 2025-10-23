@@ -1,0 +1,30 @@
+/automation (our link building automation) is a separate feature from /blog. We setup a domains interface on /domains so users can point and propagate their DNS settings to our host.
+
+The /automation (link building automation) takes the user campaign (keyword(s), anchor text(s), target_url) and generates content through our open ai API (chat gpt 3.5 turbo or 4 model) and creates a blog post on each of the domains that are associated with the signed in user_id. This is done through rotational posting across all domains. As the user creates a campaign, the system will queue and post 1 blog post per domain, save the URL and insert a new row into automation_posts return it to the users Link Building Automation (/automation) dashboard and continue across all domains. Updating the Supabase database including the campaign ID, target url, keyword(s), anchor text(s), user ID, blog post slug, meta tags and data, content (beautifully formatted).
+
+Step by step process for /automation:
+
+- User creates campaigns by entering keyword(s), anchor text(s), target url. 
+- Campaign is created in database in table: automation_campaigns 
+- Process initiates by taking keyword, anchor text, url and runs prompts into open ai (OPENAI_API_KEY): "Write a 750 word article on {keyword} that hyperlinks {anchhor_text} with {target_url} naturally within the post content similarly written like a Medium article."and fetches the response, stores into content column within (automation_posts) for formatting.
+- Content is  published across the first domain found associated with user_id based in database table: domains
+- Sources selected_theme from the domains table for each domain to designate which post.html template is to be used, and found within the 'themes' bucket on Supabase. https://supabase.com/dashboard/project/dfhanacsmsvvkpunurnp/storage/buckets/themes and then content is well formmated across the  template.
+- Post url is generated (eg. domain.com/themes/{themename}/{slug} )permalink generated based on title fetched from open ai or under the 'title' column in automation_posts which can then be formatted using title-words-separated-with-hyphens).
+- Post is made live and URL is inserted as a new row in table: automation_posts and fills all respective columns with campaign field values: keywords, anchor texts, url, selected_theme.
+- Post URL is returned to the /automation page as a live link is published, as well as retrieved into the posts tab in the main container for user results monitoring and reporting.
+- Automation will continue across the next domain associated with the user based on the table: domains, and the process is repeated across all domains.
+- Final verifications are made to ensure the post count is relative to the number of domains associated with the user and campaign is marked as completed.
+
+Theme post templates are post.html located within each respective theme folder.
+
+business
+custom-layout
+ecommerce
+elegant-editorial
+lifestyle
+magazine
+minimal
+modern
+portfolio
+seo-optimized
+tech-blog

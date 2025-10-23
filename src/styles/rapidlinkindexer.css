@@ -1,0 +1,4 @@
+/* Subtle extras for the Rapid Link Indexer page */
+.rapid-glow {
+  box-shadow: 0 0 0 1px hsl(var(--primary) / 0.15), 0 10px 30px -10px hsl(var(--primary) / 0.35);
+}

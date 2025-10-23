@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Netlify → Supabase Domain Sync</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        .button { padding: 10px 20px; background: #3b82f6; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 10px 5px; }
+        .button:hover { background: #2563eb; }
+        .button:disabled { background: #9ca3af; cursor: not-allowed; }
+        .result { margin: 20px 0; padding: 15px; border-radius: 5px; }
+        .success { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+        .error { background: #fef2f2; border: 1px solid #fecaca; color: #dc2626; }
+        .info { background: #f0f9ff; border: 1px solid #bae6fd; color: #0c4a6e; }
+        .code { background: #f3f4f6; padding: 10px; border-radius: 5px; font-family: monospace; margin: 10px 0; }
+        .domain-list { background: #f9fafb; padding: 15px; border-radius: 5px; margin: 10px 0; }
+        .domain-item { padding: 5px 0; border-bottom: 1px solid #e5e7eb; }
+        .domain-item:last-child { border-bottom: none; }
+        .status-badge { padding: 2px 8px; border-radius: 3px; font-size: 12px; margin-left: 10px; }
+        .status-verified { background: #dcfce7; color: #166534; }
+        .status-new { background: #dbeafe; color: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <h1>🔄 Netlify → Supabase Domain Sync Test</h1>
+    
+    <div class="info">
+        <h3>What this does:</h3>
+        <ul>
+            <li>✅ Fetches all domains/aliases from your Netlify site</li>
+            <li>✅ Checks which ones exist in your Supabase domains table</li>
+            <li>✅ Inserts missing domains with proper metadata</li>
+            <li>✅ Updates existing domains to mark them as Netlify verified</li>
+        </ul>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <button class="button" onclick="testSync()" id="syncBtn">
+            🚀 Run Sync Test
+        </button>
+        <button class="button" onclick="listCurrentDomains()" id="listBtn">
+            📋 List Current Domains
+        </button>
+        <button class="button" onclick="listNetlifyAliases()" id="netlifyBtn">
+            🌐 List Netlify Aliases
+        </button>
+    </div>
+
+    <div id="results"></div>
+
+    <script>
+        const resultsDiv = document.getElementById('results');
+
+        function addResult(type, title, content) {
+            const div = document.createElement('div');
+            div.className = `result ${type}`;
+            div.innerHTML = `<h3>${title}</h3><div>${content}</div>`;
+            resultsDiv.appendChild(div);
+        }
+
+        function addLoading(message) {
+            addResult('info', '⏳ Loading...', message);
+        }
+
+        async function testSync() {
+            const btn = document.getElementById('syncBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Syncing...';
+            
+            try {
+                addLoading('Calling domains edge function with sync action...');
+                
+                const response = await fetch('/supabase/functions/v1/domains', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + (window.supabaseKey || 'anon-key')
+                    },
+                    body: JSON.stringify({
+                        action: 'sync'
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (response.ok && result.success) {
+                    addResult('success', '✅ Sync Completed Successfully!', `
+                        <p><strong>Synced:</strong> ${result.synced || 0} domains</p>
+                        <p><strong>Total Netlify Domains:</strong> ${result.total_netlify_domains || 0}</p>
+                        <div class="domain-list">
+                            <strong>Domains found in Netlify:</strong>
+                            ${(result.domains || []).map(domain => 
+                                `<div class="domain-item">${domain} <span class="status-badge status-verified">Netlify ✓</span></div>`
+                            ).join('')}
+                        </div>
+                    `);
+                } else {
+                    addResult('error', '❌ Sync Failed', `
+                        <p><strong>Error:</strong> ${result.error || 'Unknown error'}</p>
+                        <div class="code">${JSON.stringify(result, null, 2)}</div>
+                    `);
+                }
+            } catch (error) {
+                addResult('error', '❌ Network Error', `
+                    <p>Failed to connect to the sync function.</p>
+                    <p><strong>Error:</strong> ${error.message}</p>
+                    <div class="code">${error.stack || error}</div>
+                `);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🚀 Run Sync Test';
+            }
+        }
+
+        async function listCurrentDomains() {
+            try {
+                addLoading('Fetching current domains from Supabase...');
+                
+                // This would require the Supabase client to be available
+                if (typeof window.supabase !== 'undefined') {
+                    const { data, error } = await window.supabase
+                        .from('domains')
+                        .select('domain, netlify_verified, status, created_at')
+                        .order('created_at', { ascending: false });
+
+                    if (error) {
+                        addResult('error', '❌ Database Error', `
+                            <p><strong>Error:</strong> ${error.message}</p>
+                        `);
+                    } else {
+                        addResult('success', '📊 Current Domains in Database', `
+                            <div class="domain-list">
+                                ${data.map(domain => `
+                                    <div class="domain-item">
+                                        ${domain.domain}
+                                        <span class="status-badge ${domain.netlify_verified ? 'status-verified' : 'status-new'}">
+                                            ${domain.netlify_verified ? 'Netlify ✓' : 'Manual'}
+                                        </span>
+                                        <span class="status-badge status-new">
+                                            ${domain.status}
+                                        </span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <p><strong>Total:</strong> ${data.length} domains</p>
+                        `);
+                    }
+                } else {
+                    addResult('error', '❌ Supabase Client Not Available', `
+                        <p>The Supabase client is not available on this page.</p>
+                        <p>Try running this test from your main application page.</p>
+                    `);
+                }
+            } catch (error) {
+                addResult('error', '❌ Error', error.message);
+            }
+        }
+
+        async function listNetlifyAliases() {
+            try {
+                addLoading('Fetching Netlify aliases...');
+                
+                const response = await fetch('/supabase/functions/v1/domains', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + (window.supabaseKey || 'anon-key')
+                    },
+                    body: JSON.stringify({
+                        action: 'list'
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (response.ok && result.success) {
+                    addResult('success', '🌐 Netlify Domain Aliases', `
+                        <div class="domain-list">
+                            ${(result.aliases || []).map(alias => 
+                                `<div class="domain-item">${alias} <span class="status-badge status-verified">Netlify</span></div>`
+                            ).join('')}
+                        </div>
+                        <p><strong>Total Aliases:</strong> ${result.count || 0}</p>
+                    `);
+                } else {
+                    addResult('error', '❌ Failed to List Aliases', `
+                        <p><strong>Error:</strong> ${result.error || 'Unknown error'}</p>
+                    `);
+                }
+            } catch (error) {
+                addResult('error', '❌ Network Error', error.message);
+            }
+        }
+
+        // Add initial instructions
+        addResult('info', '📋 Instructions', `
+            <ol>
+                <li><strong>List Netlify Aliases</strong> - See what domains are currently in Netlify</li>
+                <li><strong>List Current Domains</strong> - See what's in your Supabase database</li>
+                <li><strong>Run Sync Test</strong> - Sync Netlify domains into Supabase</li>
+            </ol>
+            <p><em>The sync will automatically create rows for missing domains and mark them as netlify_verified.</em></p>
+        `);
+    </script>
+</body>
+</html>

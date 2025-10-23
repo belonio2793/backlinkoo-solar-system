@@ -1,0 +1,1226 @@
+/**
+ * Content formatting utilities for blog posts
+ * Ensures proper paragraph, headline, and spacing structure
+ */
+
+import { LinkAttributeFixer } from './linkAttributeFixer';
+
+export class ContentFormatter {
+  /**
+   * Format blog content with proper paragraph and headline structure
+   */
+  static formatBlogContent(content: string, title?: string): string {
+    if (!content) return '';
+
+    // CRITICAL: Add debug logging for production issues
+    console.log('ContentFormatter: Original content length:', content.length);
+
+    // ENHANCED: Remove author notes and conclusions early in the process
+    content = this.removeAuthorNotes(content);
+
+    // FIRST: Fix malformed links before any other processing
+    content = LinkAttributeFixer.fixMalformedLinks(content);
+
+    // ULTRA-EARLY FIX: Prevent malformed bold patterns before any other processing
+    console.log('ContentFormatter: Before bold fix, content contains:',
+      content.includes('**Enhanced SEO Performance:**') ? '**Enhanced SEO Performance:**' :
+      content.includes('**E**nhanced') ? '**E**nhanced (malformed)' : 'unknown pattern');
+
+    content = content
+      // Fix patterns like **E**nhanced SEO Performance: -> **Enhanced SEO Performance:**
+      .replace(/\*\*([A-Z])\*\*([a-z][^:*\n]*:)/g, '**$1$2**')
+      // Fix any double-malformed patterns
+      .replace(/\*\*([A-Z])\*\*([a-z][^:*\n]*)\*\*([^*]*:)/g, '**$1$2$3**')
+      // More comprehensive patterns
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s]+:)/g, '**$1$2**')
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s]+ Performance:)/g, '**$1$2**')
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s]+ Generation:)/g, '**$1$2**')
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s]+ Credibility:)/g, '**$1$2**');
+
+    console.log('ContentFormatter: After bold fix, content contains:',
+      content.includes('**Enhanced SEO Performance:**') ? '**Enhanced SEO Performance:**' :
+      content.includes('**E**nhanced') ? '**E**nhanced (still malformed)' : 'unknown pattern');
+
+    // VERY EARLY preprocessing to fix critical issues before any HTML processing
+    content = content
+      // Preserve user anchor text by converting common patterns to markdown format first
+      .replace(/\b([A-Z][A-Za-z\s]+)\s+(https?:\/\/[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g, '[$1]($2)')
+      .replace(/\b(Go High Level Stars)\s*([a-zA-Z0-9.-]+\.com)/gi, '[Go High Level Stars](https://$2)')
+
+      // CRITICAL: Fix malformed link HTML that might already exist
+      .replace(/<a\s+hrefhttps\s*=""\s*:\s*=""\s*([a-zA-Z0-9.-]+)\s*=""\s*stylecolor:[^>]*>/gi,
+        '<a href="https://$1" target="_blank" rel="noopener" style="color:#2563eb;font-weight:500;text-decoration:underline;">')
+      .replace(/<a\s+hrefhttps[^>]*gohighlevelstars\.com[^>]*>/gi,
+        '<a href="https://gohighlevelstars.com" target="_blank" rel="noopener" style="color:#2563eb;font-weight:500;text-decoration:underline;">')
+
+      // Fix the specific issue: ## &lt; h2&gt;Pro Tip pattern
+      .replace(/##\s*&lt;\s*h[1-6]\s*&gt;\s*Pro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*&lt;\s*\/\s*h[1-6]\s*&gt;\s*Pro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*&lt;\s*$/gm, '') // Remove lines that are just ## &lt;
+
+      // Fix HTML syntax artifacts that shouldn't be displayed
+      .replace(/Hook Introduction:\s*["=]+\s*H1:\s*/gi, '')
+      .replace(/["=]+\s*H[1-6]:\s*/gi, '')
+      .replace(/^\s*H[1-6]:\s*/gmi, '') // Remove H1:, H2:, etc. at line start
+      .replace(/Hook Introduction:\s*/gi, '') // Remove standalone "Hook Introduction:" text
+      .replace(/Conclusion:\s*/gi, '') // Remove "Conclusion:" prefix
+      .replace(/Call-to-Action:\s*/gi, '') // Remove "Call-to-Action:" prefix
+      .replace(/Call to Action:\s*/gi, '') // Remove "Call to Action:" prefix (variant)
+      .replace(/^\s*Conclusion:\s*/gmi, '') // Remove "Conclusion:" at line start
+      .replace(/^\s*Call-to-Action:\s*/gmi, '') // Remove "Call-to-Action:" at line start
+      .replace(/^\s*Call to Action:\s*/gmi, '') // Remove "Call to Action:" at line start
+
+      // Remove empty heading lines (just ##)
+      .replace(/^\s*##\s*$/gm, '')
+      .replace(/^\s*###\s*$/gm, '')
+      .replace(/^\s*####\s*$/gm, '')
+
+      // Fix malformed HTML entities that break headings
+      .replace(/##\s*&lt;[^&]*&gt;\s*([A-Za-z][^\n]*)/gi, '## $1')
+      .replace(/&lt;\s*\/\s*[a-zA-Z]+\s*&gt;/g, '') // Remove &lt;/tag&gt; patterns
+      .replace(/&lt;\s*[a-zA-Z]+[^&]*&gt;/g, '') // Remove &lt;tag&gt; patterns
+
+      // Fix Pro Tip issue immediately - most aggressive patterns
+      .replace(/##\s*P\s*[\n\r\s]*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*<[^>]*>\s*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*(?:<[^>]*>)?\s*ro\s*(?:<[^>]*>)?\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*\n?\s*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s+ro\s*Tip/gi, '## Pro Tip')
+
+      // Clean up malformed sentences and links
+      .replace(/([A-Za-z])\s*&lt;[^&]*&gt;\s*([A-Za-z])/g, '$1 $2') // Remove HTML entities between words
+      .replace(/\.\s*&lt;[^&]*&gt;\s*([A-Z])/g, '. $1') // Clean sentence breaks
+
+      // Remove any displayed HTML tag syntax that shouldn't be visible
+      .replace(/\s*&lt;\/?[a-zA-Z][^&]*&gt;\s*/g, ' ') // Remove any remaining HTML entity tags
+      .replace(/\s*<\/?[a-zA-Z][^>]*>\s*/g, ' '); // Remove actual HTML tags that shouldn't be displayed
+
+    // Split content into lines and clean up - MINIMAL PROCESSING
+    let formattedContent = content
+      // Only normalize line breaks, preserve all other spacing
+      .replace(/\r\n/g, '\n')
+      .replace(/\r/g, '\n');
+
+    // Process the content in correct order - add comprehensive cleanup first
+    formattedContent = this.removeSpecificMalformedPatterns(formattedContent);
+    console.log('After removeSpecificMalformedPatterns:', formattedContent.includes('**Enhanced') ? 'Has Enhanced' : 'No Enhanced');
+
+    formattedContent = this.cleanupMarkdownArtifacts(formattedContent);
+    console.log('After cleanupMarkdownArtifacts:', formattedContent.includes('**Enhanced') ? 'Has Enhanced' : formattedContent.includes('**E**') ? 'Has **E**' : 'No Enhanced');
+
+    formattedContent = this.convertMarkdownToHtml(formattedContent);
+    console.log('After convertMarkdownToHtml:', formattedContent.includes('<strong') ? 'Has strong tags' : 'No strong tags');
+    formattedContent = this.removeDuplicateTitle(formattedContent, title);
+    formattedContent = this.fixContentIssues(formattedContent);
+    formattedContent = this.cleanMalformedLinks(formattedContent);
+    formattedContent = this.processHeadings(formattedContent);
+    formattedContent = this.processParagraphs(formattedContent);
+    formattedContent = this.processLists(formattedContent);
+    formattedContent = this.processBlockquotes(formattedContent);
+    formattedContent = this.fixSpacing(formattedContent);
+    formattedContent = this.postProcessLists(formattedContent);
+
+    // FINAL: Ensure all links have proper styling and attributes
+    formattedContent = LinkAttributeFixer.ensureLinkStyling(formattedContent);
+
+    // ENHANCED: Final cleanup to remove any remaining issues
+    formattedContent = this.finalCleanup(formattedContent);
+
+    // CRITICAL: Ensure we have proper HTML structure for production
+    if (!formattedContent.includes('<p>') && !formattedContent.includes('<h')) {
+      // If no HTML tags detected, force paragraph formatting
+      console.warn('ContentFormatter: No HTML structure detected, forcing paragraph formatting');
+      formattedContent = this.forceBasicHtmlStructure(formattedContent);
+    }
+
+    console.log('ContentFormatter: Final formatted content has HTML tags:',
+      formattedContent.includes('<p>') || formattedContent.includes('<h'));
+
+    return formattedContent;
+  }
+
+  /**
+   * Force basic HTML structure when all else fails
+   */
+  private static forceBasicHtmlStructure(content: string): string {
+    if (!content || !content.trim()) return '';
+
+    // Split by double line breaks for paragraphs
+    const paragraphs = content.split(/\n\s*\n/);
+
+    return paragraphs
+      .map(paragraph => {
+        paragraph = paragraph.trim();
+        if (!paragraph) return '';
+
+        // Check if it's a heading
+        if (paragraph.startsWith('#')) {
+          const headingMatch = paragraph.match(/^(#{1,6})\s+(.+)$/);
+          if (headingMatch) {
+            const level = Math.min(headingMatch[1].length, 6);
+            return `<h${level}>${headingMatch[2]}</h${level}>`;
+          }
+        }
+
+        // Otherwise treat as paragraph
+        return `<p>${paragraph}</p>`;
+      })
+      .filter(p => p.length > 0)
+      .join('\n\n');
+  }
+
+  /**
+   * Clean up markdown artifacts and formatting issues
+   */
+  private static cleanupMarkdownArtifacts(content: string): string {
+    return content
+      // Remove markdown frontmatter (YAML frontmatter between triple hyphens)
+      .replace(/^---[\s\S]*?---\s*/m, '')
+      // Remove standalone triple hyphens (horizontal rules)
+      .replace(/^---+\s*$/gm, '')
+      .replace(/\n---+\n/g, '\n\n')
+      .replace(/\n---+$/gm, '')
+      // Remove malformed headings that are just single letters or abbreviations
+      .replace(/^##?\s+[A-Z]\.\s*(Assessment|needed|required|evaluation)\s*$/gmi, '')
+      // Fix common markdown formatting issues - DISABLED to prevent interference with legitimate bold text
+      // .replace(/^\s*\*\*([A-Z])\.\s*([A-Za-z\s]*)\*\*\s*$/gmi, (match, letter, rest) => {
+      //   // Convert malformed bold patterns to regular text
+      //   if (rest.trim().length < 5) {
+      //     return `**${letter}.** ${rest}`;
+      //   }
+      //   return match;
+      // })
+      // Remove empty markdown headings
+      .replace(/^#{1,6}\s*$$/gm, '')
+      // Fix malformed bold patterns before cleaning up excessive symbols
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s&,.-]*:)/g, '**$1$2**')
+      .replace(/\*\*([A-Z])\*\*([a-z][^:*\n]*:)/g, '**$1$2**')
+
+      // Clean up excessive markdown symbols
+      .replace(/\*{3,}/g, '**')
+      .replace(/_{3,}/g, '__')
+      // Remove orphaned colons from headings
+      .replace(/^(#{1,6})\s*([^:]+):\s*$/gm, '$1 $2')
+      // Clean up whitespace around hyphens
+      .replace(/\s*---+\s*/g, ' ')
+      .trim();
+  }
+
+  /**
+   * Remove duplicate title from content if it appears at the beginning
+   */
+  private static removeDuplicateTitle(content: string, title?: string): string {
+    if (!title) return content;
+
+    // Clean the title for comparison - handle multiple formats and remove all * symbols
+    const cleanTitle = title
+      .replace(/^\*\*H1\*\*:\s*/i, '')
+      .replace(/^\*\*([^*]+?)\*\*:\s*/i, '$1')
+      .replace(/^\*\*(.+?)\*\*$/i, '$1') // Handle **title** format
+      .replace(/^Title:\s*/i, '') // Remove "Title:" prefix
+      .replace(/\*\*/g, '') // Remove all ** symbols
+      .replace(/\*/g, '') // Remove all * symbols
+      .replace(/^#{1,6}\s+/, '')
+      .trim();
+
+    // First, aggressively remove any "Title:" patterns at the very beginning
+    content = content.replace(/^[\s\n]*Title:\s*[^\n]*\n?/i, '');
+
+    // Remove any lines that are just "Title:" followed by the actual title
+    content = content.replace(/^[\s\n]*Title:\s*(.+?)\n?/i, '');
+
+    // Remove H2 tags that contain title with "Title:" prefix (most common issue)
+    const h2TitlePrefixPattern = new RegExp(`^\\s*<h2[^>]*>\\s*Title:\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/h2>\\s*`, 'i');
+    content = content.replace(h2TitlePrefixPattern, '');
+
+    // Remove H1 tags that contain the same title at the beginning of content
+    const titlePattern = new RegExp(`^\\s*<h1[^>]*>\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/h1>\\s*`, 'i');
+    content = content.replace(titlePattern, '');
+
+    // Remove H1 with "Title:" prefix pattern: <h1>Title: actual title</h1>
+    const titlePrefixPattern = new RegExp(`^\\s*<h1[^>]*>\\s*Title:\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/h1>\\s*`, 'i');
+    content = content.replace(titlePrefixPattern, '');
+
+    // Remove H2 with exact title match
+    const h2TitlePattern = new RegExp(`^\\s*<h2[^>]*>\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/h2>\\s*`, 'i');
+    content = content.replace(h2TitlePattern, '');
+
+    // Remove H1 with strong tags pattern: <h1><strong>title</strong></h1>
+    const strongTitlePattern = new RegExp(`^\\s*<h1[^>]*>\\s*<strong[^>]*>\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/strong>\\s*<\\/h1>\\s*`, 'i');
+    content = content.replace(strongTitlePattern, '');
+
+    // Remove H1 with strong tags and Title prefix: <h1><strong>Title: title</strong></h1>
+    const strongTitlePrefixPattern = new RegExp(`^\\s*<h1[^>]*>\\s*<strong[^>]*>\\s*Title:\\s*${this.escapeRegex(cleanTitle)}\\s*<\\/strong>\\s*<\\/h1>\\s*`, 'i');
+    content = content.replace(strongTitlePrefixPattern, '');
+
+    // Also remove markdown H1 that matches the title
+    const markdownTitlePattern = new RegExp(`^\\s*#\\s+${this.escapeRegex(cleanTitle)}\\s*\\n`, 'i');
+    content = content.replace(markdownTitlePattern, '');
+
+    // Remove markdown H1 with Title prefix
+    const markdownTitlePrefixPattern = new RegExp(`^\\s*#\\s+Title:\\s*${this.escapeRegex(cleanTitle)}\\s*\\n`, 'i');
+    content = content.replace(markdownTitlePrefixPattern, '');
+
+    // Remove **H1**: title pattern at the beginning
+    const boldTitlePattern = new RegExp(`^\\s*\\*\\*H1\\*\\*:\\s*${this.escapeRegex(cleanTitle)}\\s*\\n?`, 'i');
+    content = content.replace(boldTitlePattern, '');
+
+    // Remove **title** pattern at the beginning (for cases like **The Unforgettable Legacy...**)
+    const starTitlePattern = new RegExp(`^\\s*\\*\\*${this.escapeRegex(cleanTitle)}\\*\\*\\s*\\n?`, 'i');
+    content = content.replace(starTitlePattern, '');
+
+    // Remove **Title: title** pattern at the beginning
+    const starTitlePrefixPattern = new RegExp(`^\\s*\\*\\*Title:\\s*${this.escapeRegex(cleanTitle)}\\*\\*\\s*\\n?`, 'i');
+    content = content.replace(starTitlePrefixPattern, '');
+
+    // ENHANCED: Remove partial title matches (handle truncated titles)
+    if (cleanTitle.length > 20) {
+      // For longer titles, try to match truncated versions
+      const shortTitle = cleanTitle.substring(0, Math.min(50, cleanTitle.length - 5));
+      const partialTitlePattern = new RegExp(`^\\s*<h[1-6][^>]*>\\s*${this.escapeRegex(shortTitle)}[^<]*<\\/h[1-6]>\\s*`, 'i');
+      content = content.replace(partialTitlePattern, '');
+
+      // Remove markdown truncated titles
+      const markdownPartialPattern = new RegExp(`^\\s*#{1,6}\\s+${this.escapeRegex(shortTitle)}[^\\n]*\\n`, 'i');
+      content = content.replace(markdownPartialPattern, '');
+    }
+
+    // Final cleanup - remove any remaining "Title:" patterns at the beginning of content
+    content = content.replace(/^[\s\n]*Title:\s*[^\n]*\n?/gi, '');
+
+    return content.trim();
+  }
+
+  /**
+   * Escape special regex characters
+   */
+  private static escapeRegex(text: string): string {
+    return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  /**
+   * Convert markdown syntax to HTML
+   */
+  private static convertMarkdownToHtml(content: string): string {
+    return content
+      // Fix "## P" + "ro Tip" pattern early (before any other processing)
+      .replace(/##\s*P\s*[\n\r\s]*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*<[^>]*>\s*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*(?:<[^>]*>)?\s*ro\s*(?:<[^>]*>)?\s*Tip/gi, '## Pro Tip')
+      // Fix already separated HTML structure: "## P <p>ro Tip"
+      .replace(/##\s*P\s*<p[^>]*>\s*ro\s*Tip/gi, '<h2>Pro Tip</h2>')
+      .replace(/##\s*P\s*<p[^>]*>\s*ro\s*Tip/gi, '<h2>Pro Tip</h2><p>')
+
+      // Fix malformed HTML entity patterns in headings
+      .replace(/##\s*&lt;\s*h[1-6]\s*&gt;\s*([^&<]+)/gi, '## $1')
+      .replace(/##\s*&lt;\s*\/\s*h[1-6]\s*&gt;\s*([^&<]+)/gi, '## $1')
+
+      // Remove markdown frontmatter separators (triple hyphens)
+      .replace(/^---[\s\S]*?---/gm, '')
+      .replace(/^---.*$/gm, '')
+      .replace(/\n---\n/g, '\n')
+      .replace(/\n---$/gm, '')
+      // Remove any "Title:" patterns at the very beginning of content (most aggressive)
+      .replace(/^[\s\n]*Title:\s*[^\n]*\n?/i, '')
+      // Convert markdown links [text](url) to simple <a> tags - preserve user anchor text
+      .replace(/\[([^\]]+?)\]\(([^)]+?)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:#2563eb;font-weight:500;text-decoration:underline;">$1</a>')
+
+      // Convert plain URLs to simple clickable links
+      .replace(/(^|[^<"'])(https?:\/\/[^\s<>"']+)/gi, '$1<a href="$2">$2</a>')
+
+      // Handle specific case: "Play now at Runescape.com" pattern
+      .replace(/(Play now at\s+)([a-zA-Z0-9.-]+\.com)/gi, '$1<a href="https://$2">$2</a>')
+
+      // Handle malformed "Claim your place" patterns that may be broken by HTML entities
+      .replace(/Claim\s+your\s+place\s+among\s+the\s+legends[^.]*\.\s*Play\s+now\s+at\s+([a-zA-Z0-9.-]+\.com)/gi,
+        'Claim your place among the legends. Play now at <a href="https://$1">$1</a>.')
+      // Convert **H1**: patterns to <h1> tags
+      .replace(/\*\*H1\*\*:\s*(.+?)(?=\n|$)/gi, '<h1>$1</h1>')
+      // Convert **Title**: patterns to nothing (remove completely since it's duplicate)
+      .replace(/^\*\*Title\*\*:\s*(.+?)(?=\n|$)/gmi, '')
+      // Fix specific case: "## P" should be "## Pro Tip" (comprehensive patterns)
+      .replace(/^##\s*P\s*$/gmi, '## Pro Tip')
+      .replace(/^##\s*P\s*ro\s*Tip.*$/gmi, '## Pro Tip')
+      .replace(/##\s*P\s*\n?\s*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P\s*<[^>]*>\s*ro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*P[\s\n\r]*ro\s*Tip/gi, '## Pro Tip')
+      // Handle cases where HTML tags are already present
+      .replace(/<[^>]*>##\s*P\s*<\/[^>]*>\s*<[^>]*>\s*ro\s*Tip/gi, '<h2>Pro Tip</h2>')
+      .replace(/##\s*P\s*<\/[^>]*>\s*ro\s*Tip/gi, '## Pro Tip')
+
+      // Fix malformed headings like "## P. Assessment" - only create proper headings from meaningful text
+      .replace(/^##?\s+([A-Z])\.\s*([A-Za-z\s]{0,15})\s*$/gmi, (match, letter, rest) => {
+        // If it's a single letter followed by a short word, it's likely malformed - convert to paragraph
+        if (rest.trim().length < 3 || /^(Assessment|needed|required)$/i.test(rest.trim())) {
+          return `<p><strong>${letter}. ${rest}</strong></p>`;
+        }
+        return `<h2>${letter}. ${rest}</h2>`;
+      })
+      // Convert **text**: patterns at start of line to <h2> tags (common heading pattern)
+      // But avoid single letters with colons that create malformed headings
+      .replace(/^\*\*([^*]+?)\*\*:\s*(.+?)(?=\n|$)/gmi, (match, prefix, content) => {
+        // If prefix is just a single letter, treat as regular text
+        if (prefix.trim().length === 1) {
+          return `<p><strong>${prefix}:</strong> ${content}</p>`;
+        }
+        return `<h2>${prefix}: ${content}</h2>`;
+      })
+      // Convert **text** patterns at start of line to <h2> tags (standalone bold headings)
+      .replace(/^\*\*([^*]+?)\*\*(?=\s*\n|$)/gmi, '<h2>$1</h2>')
+      // CRITICAL: Fix malformed bold patterns before conversion
+      // Pattern: **E**nhanced SEO Performance: -> **Enhanced SEO Performance:**
+      .replace(/\*\*([A-Z])\*\*([a-z][^:]*:)/g, '**$1$2**')
+
+      // Handle section headers with trailing asterisks first (like "Data Point:**")
+      .replace(/\b([A-Za-z][A-Za-z\s&,.-]+?):\*\*/g, '<strong class="font-bold text-inherit">$1:</strong>')
+      .replace(/^([A-Za-z][^:\n]*?):\*\*/gm, '<strong class="font-bold text-inherit">$1:</strong>')
+
+      // Handle multi-line bold text where ** is followed by newline
+      .replace(/\*\*\s*\n\s*([^*]+?)(?=\n\s*\n|\n\s*$|$)/gs, '<strong class="font-bold text-inherit">$1</strong>')
+      .replace(/^\*\*\s*\n\s*(.+?)(?=\n\s*\n|\n\s*$|$)/gms, '<strong class="font-bold text-inherit">$1</strong>')
+
+      // Convert remaining **text** to <strong> tags (inline bold) - improved pattern matching
+      .replace(/\*\*([^*\n]+?)\*\*/g, (match, content) => {
+        console.log('Converting bold text:', match, '->', content);
+        return `<strong class="font-bold text-inherit">${content}</strong>`;
+      })
+
+      // Multi-line bold patterns (fallback for complex cases)
+      .replace(/\*\*([^*]+?)\*\*/gs, (match, content) => {
+        console.log('Converting multi-line bold text:', match);
+        return `<strong class="font-bold text-inherit">${content}</strong>`;
+      })
+      // Convert *text* to <em> tags (italic)
+      .replace(/\*([^*]+?)\*/g, '<em>$1</em>')
+      // Convert ### headings to h3
+      .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+      // Convert ## headings to h2, but filter out malformed ones
+      .replace(/^## (.+)$/gm, (match, content) => {
+        // Skip if it's a malformed heading like "P. Assessment"
+        if (/^[A-Z]\.\s*[A-Za-z\s]{0,15}$/.test(content.trim())) {
+          return `<p><strong>${content}</strong></p>`;
+        }
+
+        // Fix content that contains HTML entities or malformed patterns
+        const cleanContent = content
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
+          .replace(/^\s*<\s*$/, '') // Remove standalone <
+          .replace(/^\s*>\s*$/, '') // Remove standalone >
+          .trim();
+
+        if (!cleanContent) {
+          return ''; // Remove empty headings
+        }
+
+        return `<h2>${cleanContent}</h2>`;
+      })
+      // Convert # headings to h1
+      .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+      // Remove any remaining standalone "Title:" patterns at start of lines
+      .replace(/^Title:\s*[^\n]*\n?/gmi, '')
+      // Clean up any remaining triple hyphens that might be inline
+      .replace(/---+/g, '');
+  }
+
+  /**
+   * Process and format headings with proper structure - MINIMAL PROCESSING
+   */
+  private static processHeadings(content: string): string {
+    return content
+      // Only normalize H3 to H2, NO SPACING CHANGES, but limit length
+      .replace(/<h3([^>]*)>(.*?)<\/h3>/gi, (match, attrs, heading) => {
+        const cleanHeading = this.limitHeadingLength(heading.trim());
+        return `<h2${attrs}>${cleanHeading}</h2>`;
+      })
+      .replace(/<h2([^>]*)>(.*?)<\/h2>/gi, (match, attrs, heading) => {
+        const cleanHeading = this.limitHeadingLength(heading.trim());
+        return `<h2${attrs}>${cleanHeading}</h2>`;
+      })
+      .replace(/<h1([^>]*)>(.*?)<\/h1>/gi, (match, attrs, heading) => {
+        const cleanHeading = this.limitHeadingLength(heading.trim());
+        return `<h1${attrs}>${cleanHeading}</h1>`;
+      })
+      // Fix heading hierarchy - normalize H3+ to H2
+      .replace(/#{3,6}/g, '##');
+  }
+
+  /**
+   * Limit heading length to one sentence maximum
+   */
+  private static limitHeadingLength(heading: string): string {
+    // Remove any remaining prefixes
+    heading = heading
+      .replace(/^(Conclusion|Call-to-Action):\s*/gi, '')
+      .replace(/^H[1-6]:\s*/gi, '')
+      .trim();
+
+    // If heading contains multiple sentences, take only the first one
+    const sentences = heading.split(/[.!?]+/);
+    if (sentences.length > 1 && sentences[0].trim().length > 0) {
+      return sentences[0].trim();
+    }
+
+    // If single sentence is too long (over 80 characters), truncate at logical break
+    if (heading.length > 80) {
+      const words = heading.split(' ');
+      let truncated = '';
+      for (const word of words) {
+        if ((truncated + ' ' + word).length > 80) break;
+        truncated += (truncated ? ' ' : '') + word;
+      }
+      return truncated || heading.substring(0, 80);
+    }
+
+    return heading;
+  }
+
+  /**
+   * Process paragraphs with proper spacing
+   */
+  private static processParagraphs(content: string): string {
+    return content
+      // Split into paragraphs and process each
+      .split(/\n\s*\n/)
+      .map(paragraph => {
+        paragraph = paragraph.trim();
+        if (!paragraph) return '';
+
+        // Skip HTML headings, lists, and blockquotes
+        if (paragraph.match(/^<h[1-6]|^<\/h[1-6]|^#{1,6}\s|^[\*\-\+]\s|^>\s|^\d+\.\s|^<(ul|ol|blockquote)/i)) {
+          return paragraph;
+        }
+
+        // Wrap regular paragraphs in <p> tags if they aren't already wrapped in block elements
+        if (!paragraph.match(/^<(p|div|h[1-6]|ul|ol|blockquote|pre)/i)) {
+          return `<p>${paragraph}</p>`;
+        }
+
+        return paragraph;
+      })
+      .filter(p => p.length > 0)
+      .join('\n\n');
+  }
+
+  /**
+   * Process lists with proper formatting
+   */
+  private static processLists(content: string): string {
+    // First, convert content that should be bullet points but is formatted as headings
+    // Look for patterns like: "## Short Title\nLonger description" and convert to bullet format
+    content = content
+      .replace(/^##\s+([A-Z][^\n]{5,50})\n([A-Z][^\n#*]{20,})/gm, '* **$1:** $2')
+      .replace(/^###\s+([A-Z][^\n]{5,40})\n([A-Z][^\n#*]{20,})/gm, '* **$1:** $2')
+      // Fix broken strong tags in list items like: * **E**nhanced -> * **Enhanced
+      .replace(/^(\s*[\*\-\+]\s+)\*\*([A-Z])\*\*([a-z][^:\n]*:)/gm, '$1**$2$3**')
+      // Fix list items with HTML artifacts
+      .replace(/^(\s*[\*\-\+]\s+)([^\n]*?)H[1-6]:[^\n]*/gm, '$1$2')
+      // Clean up any remaining HTML syntax in list items
+      .replace(/^(\s*[\*\-\+]\s+)([^\n]*?)["=]+H[1-6]:[^\n]*/gm, '$1$2');
+
+    // Process unordered lists - improved to handle markdown bold
+    content = content.replace(
+      /((^[\*\-\+]\s.+\n?)+)/gm,
+      (match) => {
+        const items = match.trim().split('\n')
+          .map(line => {
+            let cleanLine = line.replace(/^[\*\-\+]\s/, '').trim();
+            // Convert markdown bold to HTML strong tags with proper styling
+            cleanLine = cleanLine.replace(/\*\*([^*]+)\*\*/g, '<strong class="font-bold text-inherit">$1</strong>');
+            return `  <li>${cleanLine}</li>`;
+          })
+          .join('\n');
+        return `\n<ul>\n${items}\n</ul>\n\n`;
+      }
+    );
+
+    // Merge consecutive <ul> elements that got separated
+    content = content.replace(/<\/ul>\s*<ul>/g, '');
+
+    // Process ordered lists - improved to handle markdown bold
+    content = content.replace(
+      /((^\d+\.\s.+\n?)+)/gm,
+      (match) => {
+        const items = match.trim().split('\n')
+          .map(line => {
+            let cleanLine = line.replace(/^\d+\.\s/, '').trim();
+            // Convert markdown bold to HTML strong tags with proper styling
+            cleanLine = cleanLine.replace(/\*\*([^*]+)\*\*/g, '<strong class="font-bold text-inherit">$1</strong>');
+            return `  <li>${cleanLine}</li>`;
+          })
+          .join('\n');
+        return `\n<ol>\n${items}\n</ol>\n\n`;
+      }
+    );
+
+    // Merge consecutive <ol> elements that got separated
+    content = content.replace(/<\/ol>\s*<ol>/g, '');
+
+    return content;
+  }
+
+  /**
+   * Process blockquotes with proper formatting
+   */
+  private static processBlockquotes(content: string): string {
+    return content.replace(
+      /((^>\s.+\n?)+)/gm,
+      (match) => {
+        const quote = match.trim()
+          .split('\n')
+          .map(line => line.replace(/^>\s/, '').trim())
+          .join(' ');
+        return `\n<blockquote><p>${quote}</p></blockquote>\n\n`;
+      }
+    );
+  }
+
+  /**
+   * Post-process lists to fix merging and markdown issues
+   */
+  private static postProcessLists(content: string): string {
+    return content
+      // Merge consecutive <ul> elements that might have been separated
+      .replace(/<\/ul>\s*<ul>/g, '')
+      // Merge consecutive <ol> elements that might have been separated
+      .replace(/<\/ol>\s*<ol>/g, '')
+      // Fix any remaining markdown bold syntax in HTML
+      .replace(/\*\*([^*<>]+?)\*\*/g, '<strong class="font-bold text-inherit">$1</strong>')
+      // Clean up any double-encoded strong tags
+      .replace(/<strong>\s*<strong>([^<]+?)<\/strong>\s*<\/strong>/g, '<strong>$1</strong>');
+  }
+
+  /**
+   * Fix spacing throughout the content - DISABLED to prevent formatting issues
+   */
+  private static fixSpacing(content: string): string {
+    return content; // Return content unchanged - no space manipulation
+  }
+
+  /**
+   * Capitalize heading text properly
+   */
+  private static capitalizeHeading(text: string): string {
+    // List of words that should remain lowercase unless they're the first word
+    const lowercaseWords = ['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'in', 'nor', 'of', 'on', 'or', 'so', 'the', 'to', 'up', 'yet'];
+    
+    return text
+      .toLowerCase()
+      .split(' ')
+      .map((word, index) => {
+        // Always capitalize first word
+        if (index === 0) {
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        }
+        
+        // Keep lowercase words lowercase unless they're important
+        if (lowercaseWords.includes(word)) {
+          return word;
+        }
+        
+        // Capitalize other words
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(' ');
+  }
+
+  /**
+   * Add proper spacing between sections - DISABLED to prevent formatting issues
+   */
+  static addSectionSpacing(content: string): string {
+    return content; // Return content unchanged - no section spacing manipulation
+  }
+
+  /**
+   * Sanitize and clean content for display
+   */
+  static sanitizeContent(content: string): string {
+    return content
+      // Remove dangerous HTML tags but keep formatting
+      .replace(/<script[^>]*>.*?<\/script>/gi, '')
+      .replace(/<style[^>]*>.*?<\/style>/gi, '')
+      .replace(/<iframe[^>]*>.*?<\/iframe>/gi, '')
+
+      // FIRST: Decode all levels of HTML entity encoding immediately
+      .replace(/&amp;lt;/g, '<')
+      .replace(/&amp;gt;/g, '>')
+      .replace(/&amp;amp;/g, '&')
+      .replace(/&amp;quot;/g, '"')
+
+      // EARLIEST CATCH: Fix specific Pro Tip pattern before any other processing
+      .replace(/<h2[^>]*>\s*&lt;\s*<\/h2>\s*<p[^>]*>\s*h2&gt;\s*Pro\s*Tip[\s\S]*?<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;\s*Pro\s*Tip[\s\S]*?<\/p>/gi, '<h2>Pro Tip</h2>')
+
+      // AGGRESSIVE removal of the specific malformed pattern first
+      .replace(/##\s*(&amp;lt;|&lt;)[\s\S]*?h[1-6]\s*(&amp;gt;|&gt;)\s*Pro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*(&amp;lt;|&lt;).*$/gm, '') // Remove any line starting with ## <
+
+      // Fix malformed HTML entities first (most critical)
+      .replace(/&lt;\s*\/\s*[a-zA-Z]+\s*&gt;/g, '') // Remove &lt;/tag&gt; patterns
+      .replace(/&lt;\s*[a-zA-Z]+[^&]*&gt;/g, '') // Remove &lt;tag&gt; patterns
+      .replace(/##\s*&lt;\s*h[1-6]\s*&gt;\s*(Pro\s*Tip|[^<]*)/gi, '## $1') // Fix ## &lt;h2&gt;Pro Tip patterns
+      .replace(/&lt;\s*\/\s*p\s*&gt;\s*#\s*\d+\s*&lt;\s*p\s*&gt;/g, '') // Remove malformed p tag patterns
+
+      // Clean up corrupted style attributes with malformed content
+      .replace(/style="[^"]*&lt;[^"]*&gt;[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+      .replace(/style="[^"]*color:[^#]*#[^0-9a-f]*([0-9a-f]{6})[^"]*"/gi, 'style="color:#$1;font-weight:500;"')
+
+      // ENHANCED: Remove author notes and conclusions
+      .replace(/---\s*\n\s*In this blog post[\s\S]*?enhance[\s\S]*?subscriber base\./gi, '')
+      .replace(/---\s*\n\s*In conclusion[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*To summarize[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*This article[\s\S]*?covered[\s\S]*?$/gi, '')
+      .replace(/---\s*\n[\s\S]*?actionable tips[\s\S]*?subscriber base[\s\S]*?$/gi, '')
+
+      // Remove triple dash patterns followed by author notes
+      .replace(/---\s*\n[\s\S]*?(?:strategies|tips|practices)[\s\S]*?(?:performance|visibility|growth)[\s\S]*?$/gi, '')
+
+      // Remove standalone numbers at the end (like random "0")
+      .replace(/\n\s*\d+\s*$/g, '')
+      .replace(/<p[^>]*>\s*\d+\s*<\/p>\s*$/gi, '')
+      .replace(/^\s*\d+\s*$/gm, '') // Remove lines that are just numbers
+
+      // Remove any remaining markdown artifacts
+      .replace(/---+/g, '')
+      .replace(/^\s*---\s*$/gm, '')
+      // Remove malformed HTML headings with single letters
+      .replace(/<h[1-6][^>]*>\s*[A-Z]\.\s*(Assessment|needed|required|evaluation)\s*<\/h[1-6]>/gi, '')
+      // Remove empty headings
+      .replace(/<h[1-6][^>]*>\s*<\/h[1-6]>/gi, '')
+
+      // Final cleanup for remaining malformed markdown headings
+      .replace(/^\s*#{1,6}\s*&lt;[^&>]*&gt;\s*$/gm, '') // Remove headings that are just ## &lt;tag&gt;
+      .replace(/^\s*#{1,6}\s*$/gm, '') // Remove empty headings like just ##
+
+      // Fix common HTML issues
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+
+      // VERY CONSERVATIVE HTML entity decoding to prevent corruption
+      .replace(/&amp;(?!lt;|gt;|amp;|quot;|#\d)/g, '&')
+
+      // Don't decode &lt; and &gt; in sanitizeContent at all!
+      // Let our specialized fixing functions handle these cases
+      // This prevents corruption of our generated HTML tags
+
+      // Normalize quotes
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/[\u201C\u201D]/g, '"')
+
+      // NO WHITESPACE MANIPULATION - preserve all original spacing
+      .replace(/\r\n/g, '\n')
+      .replace(/\r/g, '\n');
+  }
+
+  /**
+   * Fix content issues including Pro Tip headings and link styling
+   */
+  private static fixContentIssues(content: string): string {
+    return content
+      // Fix malformed HTML entities in headings first
+      .replace(/##\s*&lt;\s*h[1-6]\s*&gt;\s*(Pro\s*Tip|[^<]*)/gi, '## $1')
+      .replace(/##\s*&lt;\s*\/\s*h[1-6]\s*&gt;\s*(Pro\s*Tip|[^<]*)/gi, '## $1')
+
+      // Fix Pro Tip heading issues
+      .replace(/##\s*P\s*<p[^>]*>\s*ro\s*Tip/gi, '<h2>Pro Tip</h2><p>')
+      .replace(/##\s*P\s*<p[^>]*data-[^>]*>\s*ro\s*Tip/gi, '<h2>Pro Tip</h2><p>')
+      .replace(/##\s*P\s*(?:<[^>]*>)?\s*ro\s*(?:<[^>]*>)?\s*Tip/gi, '<h2>Pro Tip</h2>')
+      // Fix literal "## P" text that's not being processed as markdown
+      .replace(/^##\s*P\s+/gm, '<h2>Pro Tip</h2>\n')
+      .replace(/##\s*P\s+/g, '<h2>Pro Tip</h2> ')
+
+      // Fix corrupted color styles (e.g., "color:&lt;/p&gt; # 2 &lt;p&gt; 563eb;")
+      .replace(/style="[^"]*color:[^#]*#[^0-9a-f]*([0-9a-f]{6})[^"]*"/gi, 'style="color:#$1;font-weight:500;"')
+      .replace(/style="[^"]*&lt;[^"]*&gt;[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+
+      // Remove unwanted text-decoration and hover events from existing links
+      .replace(/(<a[^>]*) onmouseover="[^"]*"/gi, '$1')
+      .replace(/(<a[^>]*) onmouseout="[^"]*"/gi, '$1')
+      .replace(/(<a[^>]*) onmouseenter="[^"]*"/gi, '$1')
+      .replace(/(<a[^>]*) onmouseleave="[^"]*"/gi, '$1')
+      .replace(/(<a[^>]*style="[^"]*);?\s*text-decoration:[^;"]*;?([^"]*"[^>]*>)/gi, '$1$2')
+
+      // Clean up link text that contains malformed HTML entities
+      .replace(/>([^<]*&lt;[^<]*&gt;[^<]*)</g, (match, linkText) => {
+        const cleanText = linkText.replace(/&lt;[^&]*&gt;/g, '').trim();
+        return `>${cleanText}<`;
+      })
+
+      // Fix links missing color entirely
+      .replace(/<a([^>]*href[^>]*)style="([^"]*)"([^>]*)>/gi, (match, beforeStyle, styleContent, afterStyle) => {
+        // If style doesn't contain color, add it
+        if (!styleContent.includes('color:')) {
+          const newStyle = `color:#2563eb;font-weight:500;${styleContent}`;
+          return `<a${beforeStyle}style="${newStyle}"${afterStyle}>`;
+        }
+        return match;
+      })
+
+      // Ensure all links without any style have proper styling and remove hover attributes
+      .replace(/<a([^>]*href[^>]*)(?!.*style=)([^>]*)>/gi, '<a$1 style="color:#2563eb;font-weight:500;"$2>');
+  }
+
+  /**
+   * Clean malformed links, especially gaming site patterns
+   */
+  private static cleanMalformedLinks(content: string): string {
+    return content
+      // Fix the specific ## &lt; h2&gt;Pro Tip issue that gets split
+      .replace(/##\s*&lt;\s*[\n\r]*\s*h[1-6]\s*&gt;\s*Pro\s*Tip/gi, '## Pro Tip')
+      .replace(/##\s*&lt;\s*[\n\r]*\s*([A-Za-z][^\n]*)/gi, '## $1')
+
+      // Remove standalone ## &lt; patterns
+      .replace(/^\s*##\s*&lt;\s*$/gm, '')
+      .replace(/^\s*##\s*&lt;[^&>]*&gt;\s*$/gm, '')
+
+      // Fix text with malformed HTML entities breaking up words
+      .replace(/([A-Za-z])\s*&lt;[^&]*&gt;\s*([a-zA-Z0-9.-]+\.com)/g, '$1 $2')
+      .replace(/([A-Za-z])\s*&lt;[^&]*&gt;\s*([A-Za-z])/g, '$1$2')
+
+      // Fix specific gaming site patterns like "Play now at Runescape.com"
+      .replace(/(Play\s+now\s+at)\s*&lt;[^&]*&gt;\s*([a-zA-Z0-9.-]+\.com)/gi,
+        '$1 <a href="https://$2">$2</a>')
+
+      // Fix "Claim your place among the legends" patterns
+      .replace(/Claim\s+your\s+place\s+among\s+the\s+legends[^.]*\.\s*Play\s+now\s+at\s+([a-zA-Z0-9.-]+\.com)/gi,
+        'Claim your place among the legends. Play now at <a href="https://$1">$1</a>.')
+
+      // ENHANCED: Fix malformed link attributes (missing spaces)
+      .replace(/<a\s+href([^=\s]+?)=""\s+([^"]+?)"=""\s+target([^=\s]+?)=""\s+rel([^=\s]+?)=""\s+style([^>]*?)"=""([^>]*)>/gi,
+        '<a href="$1://$2" target="_$3" rel="$4" style="color:#2563eb;font-weight:500;text-decoration:underline;">$6')
+
+      // Fix the specific broken pattern: hrefhttps target_blank relnoopener noreferrer
+      .replace(/<a\s+hrefhttps\s*=""\s*([^"\s]+)\s*=""\s*target_blank\s*=""\s*rel([^\s]+?)\s*=""\s*([^>]*?)>/gi,
+        '<a href="https://$1" target="_blank" rel="noopener noreferrer" style="color:#2563eb;font-weight:500;text-decoration:underline;">$3')
+
+      // General cleanup of malformed HTML entities in text
+      .replace(/&lt;\s*\/\s*[a-zA-Z]+\s*&gt;/g, '') // Remove &lt;/tag&gt; patterns
+      .replace(/&lt;\s*[a-zA-Z]+[^&]*&gt;/g, '') // Remove &lt;tag&gt; patterns
+
+      // Fix broken sentences caused by HTML entities
+      .replace(/\.\s*&lt;[^&]*&gt;\s*([A-Z])/g, '. $1')
+      .replace(/([.!?])\s*&lt;[^&]*&gt;\s*([A-Z])/g, '$1 $2')
+
+      // Final cleanup: remove any remaining empty headings
+      .replace(/^\s*#{1,6}\s*$/gm, '')
+      .replace(/\n\s*\n\s*\n/g, '\n\n'); // Clean up multiple line breaks
+  }
+
+  /**
+   * Remove specific malformed patterns that cause rendering issues
+   */
+  private static removeSpecificMalformedPatterns(content: string): string {
+    return content
+      // FIRST: Decode all levels of HTML entity encoding
+      .replace(/&amp;lt;/g, '<')
+      .replace(/&amp;gt;/g, '>')
+      .replace(/&amp;amp;/g, '&')
+      .replace(/&amp;quot;/g, '"')
+
+      // ULTIMATE AGGRESSIVE: Remove the exact pattern that persists
+      // Pattern: ## &lt; <p>h2&gt;Pro Tip </p>
+      .replace(/##\s*(&amp;lt;|&lt;)\s*<p[^>]*>\s*h[1-6]\s*(&amp;gt;|&gt;)\s*Pro\s*Tip[\s\S]*?<\/p>/gi, '## Pro Tip')
+      .replace(/##\s*(&amp;lt;|&lt;)\s*h[1-6]\s*(&amp;gt;|&gt;)\s*Pro\s*Tip/gi, '## Pro Tip')
+
+      // Remove any standalone ## with encoded entities
+      .replace(/^\s*##\s*(&amp;lt;|&lt;)\s*$/gm, '')
+      .replace(/##\s*(&amp;lt;|&lt;)(?!.*Pro\s*Tip).*$/gm, '') // Remove ## < lines that don't contain Pro Tip
+
+      // MOST AGGRESSIVE: Remove any ## followed by encoded HTML
+      .replace(/##\s*(&amp;lt;|&lt;)[\s\S]*?h[1-6]\s*(&amp;gt;|&gt;)\s*Pro\s*Tip[\s\S]*?$/gm, '## Pro Tip')
+      .replace(/##\s*(&amp;lt;|&lt;).*$/gm, '') // Remove any line starting with ## <
+
+      // Remove any content that looks like HTML entities after ##
+      .replace(/##\s*(&amp;lt;|&lt;)[^&>]*(&amp;gt;|&gt;)[^\n]*/g, '')
+
+      // Clean up corrupted inline styles with any level of encoding
+      .replace(/style="[^"]*(&amp;lt;|&lt;)[^"]*(&amp;gt;|&gt;)[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+
+      // Remove orphaned HTML entity fragments (all encoding levels)
+      .replace(/(&amp;lt;|&lt;)\s*\/?\s*[a-zA-Z]+[^&>]*(&amp;gt;|&gt;)/g, '')
+
+      // Clean up any remaining malformed heading patterns
+      .replace(/^\s*##\s*(&amp;lt;|&lt;).*$/gm, '')
+      .replace(/^\s*##\s*$/gm, '');
+  }
+
+  /**
+   * Pre-process content to fix specific malformed patterns before main processing
+   */
+  static preProcessMalformedHtml(content: string): string {
+    return content
+      // CRITICAL: Fix bold text that got malformed into first-letter-only patterns
+      // Pattern: **E**nhanced SEO Performance: -> **Enhanced SEO Performance:**
+      .replace(/\*\*([A-Z])\*\*([a-z][^:]*:)/g, '**$1$2**')
+      // Fix patterns like **T**itle Tags and Meta Descriptions: -> **Title Tags and Meta Descriptions:**
+      .replace(/\*\*([A-Z])\*\*([a-z][A-Za-z\s&,.-]*:)/g, '**$1$2**')
+
+      // Fix malformed bold patterns with line breaks
+      .replace(/\*\*\s*\n\s*([A-Z])/g, '**$1')
+      .replace(/([A-Za-z])\s*\n\s*\*\*/g, '$1**')
+
+      // CRITICAL: Fix malformed markdown headings that will cause DOM issues
+      // Pattern: ## <strong>Title</strong> or ## &lt;strong&gt;Title&lt;/strong&gt;
+      .replace(/^##\s*&lt;strong[^&>]*&gt;([^&<]+)&lt;\/strong&gt;\s*$/gm, '## $1')
+      .replace(/^##\s*<strong[^>]*>([^<]+)<\/strong>\s*$/gm, '## $1')
+
+      // Fix the EXACT patterns we see in the DOM:
+
+      // 1. Fix "strong&gt;text" pattern (missing opening < and closing tag)
+      .replace(/(\s*)strong&gt;([^<>\n]+)/gi, '$1<strong class="font-bold text-inherit">$2</strong>')
+
+      // 2. Fix "&lt;" at start of content
+      .replace(/(\s*)&lt;(\s*)/gi, '$1<$2')
+
+      // 3. Fix pattern with class: "strong class="..." missing opening <
+      .replace(/(\s*)strong\s+class="[^"]*"&gt;([^<>\n&]+)/gi, '$1<strong class="font-bold text-inherit">$2</strong>')
+
+      // 4. Fix fully encoded strong tags
+      .replace(/&lt;strong\s+class="[^"]*"&gt;([^<&]+)&lt;\/strong&gt;/gi, '<strong class="font-bold text-inherit">$1</strong>')
+
+      // 5. Fix standalone &lt; and &gt; that appear as text
+      .replace(/(\s+)&lt;(\s+)/g, '$1<$2')
+      .replace(/(\s+)&gt;(\s+)/g, '$1>$2')
+
+      // 6. Remove stray encoded brackets at line starts
+      .replace(/^\s*&gt;/gm, '')
+      .replace(/^\s*&lt;(?!\w)/gm, '');
+  }
+
+  /**
+   * Clean up any HTML that's being displayed as text instead of rendered
+   */
+  static fixDisplayedHtmlAsText(content: string): string {
+    // Final aggressive fix for HTML displaying as text
+    return content
+      // Fix the most common broken patterns from the DOM:
+
+      // 1. "strong&gt;text" -> "<strong>text</strong>"
+      .replace(/(\s*)strong&gt;([^<>\n&]+?)(?=\s|$|\n)/gi, '$1<strong class="font-bold text-inherit">$2</strong>')
+
+      // 2. "&lt;" at start of lines or content
+      .replace(/(^|\s)&lt;/gm, '$1<')
+
+      // 3. "strong class="..."&gt;text" -> "<strong class="...">text</strong>"
+      .replace(/(\s*)strong\s+class="[^"]*"&gt;([^<>\n&]+)/gi, '$1<strong class="font-bold text-inherit">$2</strong>')
+
+      // 4. Standalone &gt; that should be >
+      .replace(/&gt;(?=\s|$)/g, '>')
+
+      // 5. Any remaining encoded HTML tags
+      .replace(/&lt;(\/?(?:strong|em|h[1-6]|p|a|ul|ol|li|blockquote|span|div)[^&>]*)&gt;/gi, '<$1>')
+
+      // 6. Fix malformed opening tags missing <
+      .replace(/(\s*)([a-zA-Z]+)\s+(class|style|id)="[^"]*"&gt;/gi, '$1<$2 $3>')
+
+      // 7. Clean up any remaining stray entities
+      .replace(/(\s+)&lt;(\s+)/g, '$1<$2')
+      .replace(/(\s+)&gt;(\s+)/g, '$1>$2')
+      .replace(/^&gt;\s*/gm, '')
+      .replace(/^\s*&lt;(?!\w)/gm, '')
+
+      // 8. Final pass: fix any text that looks like HTML
+      .replace(/(\s+)(strong|em|h[1-6]|p|a|span|div)&gt;([^<>&\n]+)/gi, '$1<$2 class="font-bold text-inherit">$3</$2>');
+  }
+
+  /**
+   * Ultra-aggressive final fix for the exact DOM patterns we see
+   */
+  static fixDOMDisplayIssues(content: string): string {
+    return content
+      // CRITICAL FIX: The exact broken pattern from DOM
+      // <h2>&lt;</h2><p> strong&gt;Hook Introduction...</p> -> <h2>Hook Introduction...</h2>
+      .replace(/<h([1-6])[^>]*>&lt;<\/h[1-6]>\s*<p[^>]*>\s*strong&gt;([^<]+?)<\/p>/gi, '<h$1><strong>$2</strong></h$1>')
+
+      // Fix standalone strong&gt; patterns
+      .replace(/(\s*)strong&gt;([^<>\n&]+?)(?=\s*<|\s*$|\n)/gi, '$1<strong class="font-bold text-inherit">$2</strong>')
+
+      // Fix &lt; in headings
+      .replace(/<h([1-6])[^>]*>&lt;<\/h[1-6]>/gi, '')
+
+      // Fix stray &lt; and &gt;
+      .replace(/(^|\n|\s)&lt;/g, '$1<')
+      .replace(/(\s)&gt;(\s)/g, '$1>$2')
+      .replace(/^&gt;/gm, '')
+
+      // Ensure proper strong tag structure
+      .replace(/<strong([^>]*)>([^<]+?)(?!<\/strong>)/gi, '<strong$1>$2</strong>')
+
+      // Fix broken HTML entities
+      .replace(/&lt;(\w+)/g, '<$1')
+      .replace(/(\w+)&gt;/g, '$1>');
+  }
+
+  /**
+   * Remove author notes and conclusion sections that appear at the end of posts
+   */
+  private static removeAuthorNotes(content: string): string {
+    return content
+      // Remove author notes starting with triple dashes
+      .replace(/---\s*\n\s*In this blog post[\s\S]*?enhance[\s\S]*?performance[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*In this blog post[\s\S]*?covered[\s\S]*?strategies[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*In this blog post[\s\S]*?actionable tips[\s\S]*?subscriber base[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*In this article[\s\S]*?covered[\s\S]*?strategies[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*This comprehensive guide[\s\S]*?strategies[\s\S]*?performance[\s\S]*?$/gi, '')
+
+      // Remove other conclusion patterns
+      .replace(/---\s*\n\s*In conclusion[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*To summarize[\s\S]*?$/gi, '')
+      .replace(/---\s*\n\s*To conclude[\s\S]*?$/gi, '')
+
+      // Remove general author note patterns
+      .replace(/---\s*\n[\s\S]*?(?:following these|implementing these|by following)[\s\S]*?(?:strategies|tips|practices)[\s\S]*?(?:performance|visibility|growth|success)[\s\S]*?$/gi, '')
+      .replace(/---\s*\n[\s\S]*?essential strategies[\s\S]*?performance[\s\S]*?$/gi, '')
+      .replace(/---\s*\n[\s\S]*?actionable tips[\s\S]*?best practices[\s\S]*?$/gi, '')
+
+      // Clean up any remaining triple dashes
+      .replace(/\n\s*---\s*$/g, '')
+      .replace(/---\s*$/g, '');
+  }
+
+  /**
+   * Final cleanup to remove remaining issues like random numbers
+   */
+  private static finalCleanup(content: string): string {
+    return content
+      // Remove standalone numbers at the end
+      .replace(/\n\s*\d+\s*$/g, '')
+      .replace(/<p[^>]*>\s*\d+\s*<\/p>\s*$/gi, '')
+      .replace(/^\s*\d+\s*$/gm, '') // Remove lines that are just numbers
+
+      // Remove empty paragraphs at the end
+      .replace(/<p[^>]*>\s*<\/p>\s*$/gi, '')
+
+      // Clean up excessive whitespace at the end
+      .replace(/\s+$/g, '')
+
+      // Remove any remaining HTML artifacts
+      .replace(/<\s*>/g, '') // Remove empty tags
+      .replace(/<\/\s*>/g, '') // Remove malformed closing tags
+
+      // Final trim
+      .trim();
+  }
+
+  /**
+   * Final post-processing cleanup to catch patterns that slip through
+   */
+  static postProcessCleanup(content: string): string {
+    return content
+      // Fix malformed link attributes FIRST before any other processing
+      .replace(/<a\s+href([^=\s]+?)=""\s+([^"]+?)"=""\s+target([^=\s]+?)"=""\s+rel([^=\s]+?)"=""\s+style([^>]*?)"=""([^>]*)>/gi,
+        '<a href="$1://$2" target="_$3" rel="$4" style="color:#2563eb;font-weight:500;">$6')
+
+      // ULTIMATE FIX: Handle double-encoded HTML entities
+      .replace(/&amp;lt;/g, '<')
+      .replace(/&amp;gt;/g, '>')
+      .replace(/&amp;amp;/g, '&')
+
+      // Fix specific malformed link patterns from DOM
+      .replace(/<a\s+hrefhttps\s*=""\s*:\s*=""\s*([a-zA-Z0-9.-]+)\s*=""\s*target_blank\s*=""\s*rel([^\s]+?)\s*=""\s*([^>]*?)>/gi,
+        '<a href="https://$1" target="_blank" rel="$2" style="color:#2563eb;font-weight:500;">')
+
+      // Fix corrupted link attributes before other processing
+      .replace(/<a\s+([^>]*?)\s*>/gi, (match, attrs) => {
+        // Handle severely malformed attributes
+        if (attrs.includes('hrefhttps') && attrs.includes('gohighlevelstars.com')) {
+          return '<a href="https://gohighlevelstars.com">';
+        }
+
+        // Fix malformed attributes by ensuring proper key="value" format
+        const fixedAttrs = attrs
+          .replace(/\s*([a-zA-Z-]+)([^\s=]*?)="/g, ' $1="')  // Fix missing = signs
+          .replace(/([a-zA-Z-]+)([^\s=]+?)\s/g, '$1="$2" ')  // Fix missing quotes
+          .replace(/href([^\s="]+)/g, 'href="$1"')  // Fix href specifically
+          .replace(/target([^\s="]+)/g, 'target="$1"')  // Fix target
+          .replace(/rel([^\s="]+)/g, 'rel="$1"')  // Fix rel
+          .replace(/style([^\s="]+)/g, 'style="$1"');  // Fix style
+        return `<a${fixedAttrs}>`;
+      })
+
+      // Remove HTML syntax artifacts that shouldn't be displayed
+      .replace(/Hook Introduction:\s*["=]*\s*H[1-6]:\s*/gi, '')
+      .replace(/["=]+\s*H[1-6]:\s*/gi, '')
+      .replace(/\bH[1-6]:\s*/gi, '') // Remove H1:, H2:, etc. anywhere in text
+      .replace(/Hook Introduction:\s*/gi, '') // Remove standalone Hook Introduction: text
+      .replace(/Conclusion:\s*/gi, '') // Remove "Conclusion:" text
+      .replace(/Call-to-Action:\s*/gi, '') // Remove "Call-to-Action:" text
+
+      // CRITICAL: Fix the broken heading pattern we see in DOM
+      // Pattern: <h2>&lt;</h2><p> strong&gt;Hook Introduction...</p>
+      .replace(/<h([1-6])[^>]*>&lt;<\/h[1-6]>\s*<p[^>]*>\s*strong&gt;([^<]+?)<\/p>/gi, '<h$1><strong>$2</strong></h$1>')
+
+      // Also handle without the strong tag
+      .replace(/<h([1-6])[^>]*>&lt;<\/h[1-6]>\s*<p[^>]*>\s*([^<]+?)<\/p>/gi, '<h$1>$2</h$1>')
+
+      // Handle the exact pattern showing in DOM: ## &lt; <p>h2&gt;Pro Tip</p>
+      .replace(/##\s*&lt;\s*<p[^>]*>\s*h[1-6]\s*&gt;\s*Pro\s*Tip[\s\S]*?<\/p>/gi, '<h2>Pro Tip</h2>')
+
+      // Remove specific malformed heading patterns from DOM: <h2>&lt;</h2> <p> h2&gt;Pro Tip </p>
+      .replace(/<h[1-6][^>]*>&lt;<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;\s*Pro\s*Tip[\s\S]*?<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h[1-6][^>]*>&lt;<\/h[1-6]>/gi, '') // Remove headings that just contain &lt;
+
+      // Fix pattern where content is split: <h2>&lt;</h2> followed by <p> h2&gt;content </p>
+      .replace(/<h[1-6][^>]*>&lt;<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;([^<]*)<\/p>/gi, '<h2>$1</h2>')
+
+      // Handle all variations of the malformed pattern
+      .replace(/##\s*&amp;lt;[\s\S]*?h[1-6]\s*&amp;gt;[\s\S]*?Pro\s*Tip[\s\S]*?/gi, '<h2>Pro Tip</h2>')
+      .replace(/##\s*&lt;[\s\S]*?h[1-6]\s*&gt;[\s\S]*?Pro\s*Tip[\s\S]*?/gi, '<h2>Pro Tip</h2>')
+
+      // Remove any line starting with ## and containing HTML entities
+      .replace(/^\s*##\s*&amp;lt;.*$/gm, '')
+      .replace(/^\s*##\s*&lt;.*$/gm, '')
+
+      // Ultimate pattern removal - any ## followed by encoded tags
+      .replace(/##\s*(&amp;lt;|&lt;)[^\n]*/g, '')
+
+      // Fix corrupted style attributes with multiple encoding levels
+      .replace(/style="[^"]*(&amp;lt;|&lt;)[^"]*(&amp;gt;|&gt;)[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+
+      // Fix highly corrupted style attributes with embedded HTML
+      .replace(/style="[^"]*&lt;\/p&gt;[^"]*&lt;h[1-6]&gt;[^"]*&lt;\/h[1-6]&gt;[^"]*&lt;p&gt;[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+      .replace(/style="[^"]*color:[^"]*&lt;[^"]*&gt;[^"]*"/gi, 'style="color:#2563eb;font-weight:500;"')
+
+      // Clean up any remaining double-encoded entities
+      .replace(/&amp;lt;\s*\/?\s*[a-zA-Z]+[^&]*&amp;gt;/g, '')
+      .replace(/&lt;\s*\/?\s*[a-zA-Z]+[^&]*&gt;/g, '')
+
+      // Remove empty paragraphs and malformed content - NO LINE BREAK MANIPULATION
+      .replace(/<p[^>]*>\s*<\/p>/gi, '') // Empty paragraphs
+      .replace(/<p[^>]*>\s*&lt;[^&>]*&gt;\s*<\/p>/gi, '') // Paragraphs with only HTML entities
+      .replace(/<p[^>]*>\s*h[1-6]&gt;\s*<\/p>/gi, '') // Paragraphs with malformed heading fragments
+
+      // Clean up any remaining malformed headings that contain only symbols
+      .replace(/<h[1-6][^>]*>\s*[&<>]+\s*<\/h[1-6]>/gi, '')
+
+      // REMOVE DISPLAYED HTML ENTITY TEXT - no code should be visible
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>/gi, '') // Remove headings showing just &lt;
+      .replace(/<p[^>]*>\s*h[1-6]&gt;[^<]*<\/p>/gi, '') // Remove paragraphs showing h2&gt; text
+      .replace(/<[^>]*>\s*&lt;\s*<\/[^>]*>/gi, '') // Remove any tag containing just &lt;
+      .replace(/<[^>]*>\s*&gt;\s*<\/[^>]*>/gi, '') // Remove any tag containing just &gt;
+
+      // ULTIMATE REMOVAL: The exact pattern from the image/DOM
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;\s*Pro\s*Tip\s*<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;[^<]*<\/p>/gi, '') // Remove any similar pattern
+
+      // SPECIFIC FIX: Remove broken <h2>&lt;</h2> and reformat following Pro Tip paragraph
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;\s*Pro\s*Tip[^<]*<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>\s*h[1-6]&gt;([^<]*)<\/p>/gi, '<h2>$1</h2>')
+
+      // Handle the exact pattern with data-loc attributes from the DOM
+      .replace(/<h[1-6][^>]*data-loc[^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*data-loc[^>]*>\s*h[1-6]&gt;\s*Pro\s*Tip[^<]*<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h[1-6][^>]*data-loc[^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*data-loc[^>]*>\s*h[1-6]&gt;([^<]*)<\/p>/gi, '<h2>$1</h2>')
+
+      // MOST AGGRESSIVE: Catch any h2 containing just &lt; followed by p containing h2&gt;
+      .replace(/<h2[^>]*>\s*&lt;\s*<\/h2>\s*<p[^>]*>\s*h2&gt;\s*Pro\s*Tip[^<]*<\/p>/gi, '<h2>Pro Tip</h2>')
+      .replace(/<h2[^>]*>\s*&lt;\s*<\/h2>\s*<p[^>]*>\s*h2&gt;([^<]*)<\/p>/gi, '<h2>$1</h2>')
+
+      // Ultra specific for the exact DOM pattern visible
+      .replace(/<h2[^>]*>&lt;<\/h2>\s*<p[^>]*>\s*h2&gt;Pro\s*Tip\s*<\/p>/gi, '<h2>Pro Tip</h2>')
+
+      // Remove standalone malformed heading + paragraph combinations
+      .replace(/<h[1-6][^>]*>\s*&lt;\s*<\/h[1-6]>\s*<p[^>]*>[^<]*h[1-6]&gt;[^<]*<\/p>/gi, '')
+
+      // Remove text fragments that are HTML entities being displayed
+      .replace(/&lt;\s*h[1-6]\s*&gt;/gi, '') // Remove &lt; h2&gt; type patterns
+      .replace(/&lt;\s*\/\s*h[1-6]\s*&gt;/gi, '') // Remove &lt;/h2&gt; type patterns
+      .replace(/&lt;\s*p\s*&gt;/gi, '') // Remove &lt;p&gt; patterns
+      .replace(/&lt;\s*\/\s*p\s*&gt;/gi, '') // Remove &lt;/p&gt; patterns
+
+      // Final pass: ensure any remaining ## patterns become proper headings
+      .replace(/^\s*##\s+([A-Za-z][^\n]*)/gm, '<h2>$1</h2>')
+
+      // COMPREHENSIVE HEADLINE PROTOCOL ENFORCEMENT
+      // Ensure all headings follow proper HTML structure
+      .replace(/<h([1-6])[^>]*>\s*([^<]*?)\s*<\/h[1-6]>/gi, (match, level, text) => {
+        const cleanText = text.trim().replace(/[*#]+/g, '').trim();
+        if (cleanText) {
+          return `<h${level}>${cleanText}</h${level}>`;
+        }
+        return ''; // Remove empty headings
+      })
+
+      // Convert any remaining markdown-style headings to HTML
+      .replace(/^\s*(#{1,6})\s+(.+?)\s*$/gm, (match, hashes, text) => {
+        const level = Math.min(hashes.length, 6);
+        const cleanText = text.trim().replace(/[*#]+/g, '').trim();
+        if (cleanText) {
+          return `<h${level}>${cleanText}</h${level}>`;
+        }
+        return ''; // Remove empty headings
+      })
+
+      // Fix any remaining malformed strong tag patterns that might show as text
+      .replace(/strong\s+class="font-bold\s+text-inherit"&gt;([^<]+)/gi, '<strong class="font-bold text-inherit">$1</strong>')
+      .replace(/&lt;strong\s+class="font-bold\s+text-inherit"&gt;([^<]+)&lt;\/strong&gt;/gi, '<strong class="font-bold text-inherit">$1</strong>')
+      .replace(/&lt;strong([^&>]*)&gt;([^<]+)&lt;\/strong&gt;/gi, '<strong$1>$2</strong>')
+
+      // Ensure all strong tags have proper classes for bold styling (safer approach)
+      .replace(/<strong>/gi, '<strong class="font-bold text-inherit">')
+      .replace(/<strong(\s+[^>]*?)>/gi, (match, attrs) => {
+        // If it already has classes, don't override
+        if (attrs.includes('class=')) {
+          return match;
+        }
+        return `<strong class="font-bold text-inherit"${attrs}>`;
+      })
+
+      // Fix broken strong tags where only first letter is bold (includes hyphens)
+      .replace(/<strong\s+class([^=]*)=""\s+([^"]+?)"="">([A-Z])<\/strong>([a-z][A-Za-z\s-]*:)/gi,
+        '<strong class="font-bold text-inherit">$3$4</strong>')
+
+      // Fix general malformed class attributes in strong tags
+      .replace(/<strong\s+class([^=]*)=""\s+([^>]*?)>/gi, '<strong class="font-bold text-inherit">')
+
+      // FINAL CLEANUP: Remove any remaining visible asterisks that weren't processed
+      .replace(/^\*\*\s*/gm, '') // Remove ** at the start of lines
+      .replace(/\*\*\s*$/gm, '') // Remove ** at the end of lines
+      .replace(/>\*\*\s*</g, '><') // Remove ** between tags
+      .replace(/>\*\*\s*/g, '>') // Remove ** after opening tags
+      .replace(/\s*\*\*</g, '<') // Remove ** before closing tags
+      .replace(/(\s)\*\*(\s)/g, '$1$2') // Remove ** surrounded by spaces
+
+      // FINAL LINK RESTORATION: Fix malformed link attributes
+      .replace(/<a\s+([^>]*?)>/gi, (match, attrs) => {
+        console.log('🔧 Fixing malformed link attributes:', attrs);
+
+        // Handle the specific broken pattern: hrefhttps="" :="" gohighlevelstars.com="" stylecolor:#2563eb;font-weight:500;"=""
+        if (attrs.includes('hrefhttps') && attrs.includes('gohighlevelstars.com')) {
+          console.log('✅ Fixed Go High Level Stars link');
+          return '<a href="https://gohighlevelstars.com" target="_blank" rel="noopener" style="color:#2563eb;font-weight:500;text-decoration:underline;">';
+        }
+
+        // Handle other severely broken patterns like: hrefhttps="" :="" domain.com="" target_blank="" etc.
+        if (attrs.includes('hrefhttps') || attrs.includes('target_blank') || attrs.includes('relnoopene')) {
+          // Extract domain if possible
+          const domainMatch = attrs.match(/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
+          const domain = domainMatch ? domainMatch[1] : 'example.com';
+          console.log('✅ Fixed malformed link for domain:', domain);
+          return `<a href="https://${domain}" target="_blank" rel="noopener" style="color:#2563eb;font-weight:500;text-decoration:underline;">`;
+        }
+
+        // Fix common malformed patterns
+        const fixedAttrs = attrs
+          .replace(/href([^\s=]+?)=""\s+([^"]+?)"=""/g, 'href="$1://$2"')
+          .replace(/target([^\s=]+?)=""\s+([^"]+?)"=""/g, 'target="_$1"')
+          .replace(/rel([^\s=]+?)=""\s+([^"]+?)"=""/g, 'rel="$1"')
+          .replace(/style([^"]*?)"=""/g, 'style="color:#2563eb;font-weight:500;text-decoration:underline;"');
+
+        let result = `<a ${fixedAttrs}>`;
+
+        // Ensure all links have proper attributes
+        if (!result.includes('target=')) {
+          result = result.replace('>', ' target="_blank">');
+        }
+        if (!result.includes('rel=')) {
+          result = result.replace('>', ' rel="noopener">');
+        }
+        if (!result.includes('style=')) {
+          result = result.replace('>', ' style="color:#2563eb;font-weight:500;text-decoration:underline;">');
+        }
+
+        return result;
+      });
+  }
+}

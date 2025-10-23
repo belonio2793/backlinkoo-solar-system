@@ -1,0 +1,31 @@
+.sherlock-progress{position:sticky;top:0;z-index:40;height:4px;background:linear-gradient(to right,rgba(16,185,129,.15),rgba(14,165,233,.15))}
+.sherlock-progress__bar{height:100%;width:0;background:linear-gradient(90deg,#10b981,#0ea5e9);transition:width .15s ease}
+.sherlock-hero{padding:2rem 0 1.25rem;border-bottom:1px solid rgba(15,23,42,.06)}
+.sherlock-kicker{font-size:.75rem;letter-spacing:.08em;color:#0ea5e9;text-transform:uppercase;margin-bottom:.25rem}
+.sherlock-title{font-size:clamp(1.875rem,3vw,2.75rem);font-weight:800;line-height:1.1}
+.sherlock-subtitle{color:#334155;max-width:65ch;margin-top:.5rem}
+.sherlock-hero__meta{display:flex;gap:.75rem;flex-wrap:wrap;color:#64748b;margin-top:.75rem}
+.sherlock-hero__cta{display:flex;gap:.75rem;align-items:center;margin-top:1rem}
+
+.sherlock-layout{display:grid;grid-template-columns:280px 1fr;gap:2rem;margin-top:1.5rem}
+@media (max-width: 1024px){.sherlock-layout{grid-template-columns:1fr}}
+
+.sherlock-toc{position:sticky;top:96px;height:fit-content;border:1px solid rgba(15,23,42,.08);border-radius:.75rem;padding:1rem;background:linear-gradient(180deg,#fff,rgba(241,245,249,.6))}
+.sherlock-toc__title{font-weight:600;margin-bottom:.5rem}
+.sherlock-toc ul{list-style:none;padding:0;margin:0}
+.sherlock-toc li{margin:.25rem 0}
+.sherlock-toc a{color:#0f172a;text-decoration:none}
+.sherlock-toc a:hover{text-decoration:underline}
+
+.sherlock-article{padding-bottom:2rem}
+.sherlock-section{scroll-margin-top:88px;padding-top:1rem;margin-top:1rem;border-top:1px dashed rgba(15,23,42,.08)}
+.sherlock-loader,.sherlock-error{padding:1rem;border:1px solid rgba(15,23,42,.08);border-radius:.5rem;background:#fff}
+
+/* Subtle cards and shadows */
+.sherlock-card{background:#fff;border:1px solid rgba(15,23,42,.06);border-radius:.75rem;box-shadow:0 1px 2px rgba(2,6,23,.06)}
+
+/* Typography tweaks for long form */
+.prose.sherlock-expanded h2,.prose.sherlock-expanded h3{scroll-margin-top:88px}
+
+/* Ensure content within the sherlock article retains original capitalization */
+.sherlock-article, .sherlock-article *{text-transform:none !important}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{domain}} — Lifestyle</title>
+  <meta name="description" content="Stories, travel, and culture from {{domain}}">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{domain}} — Lifestyle">
+  <meta property="og:description" content="Stories, travel, and culture from {{domain}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f97316">
+  <style>
+    :root{--ink:#0f172a;--muted:#475569;--paper:#ffffff;--accent:#f97316;--accent2:#fb923c;--border:rgba(2,6,23,.10)}
+    *{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#fff 0%,#fff7ed 100%);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif}
+    .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+    .brand{display:flex;align-items:center;gap:10px}
+    .badge{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 12px 36px rgba(249,115,22,.35)}
+    nav a{color:var(--muted);text-decoration:none;margin:0 10px}
+
+    .hero{border:1px solid var(--border);border-radius:24px;padding:44px;background:linear-gradient(135deg,rgba(249,115,22,.08),rgba(251,146,60,.08))}
+    .hero h2{margin:0 0 6px;font-size:40px}
+    .hero p{margin:0;color:var(--muted);max-width:760px}
+
+    .gallery{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:18px 0}
+    .g{height:220px;border-radius:16px;background:#fff7ed;border:1px solid var(--border)}
+
+    .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px;box-shadow:0 12px 30px rgba(2,6,23,.06)}
+
+    .moodboard{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+    .mood{height:120px;border-radius:12px;background:#ffedd5;border:1px solid var(--border)}
+
+    .recipes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .recipe{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px}
+
+    .playlists{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .playlist{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .quote{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px;color:var(--muted)}
+
+    .posts{margin:26px 0}
+    .pagination{display:flex;gap:8px;justify-content:center;margin:22px 0}
+    .pagination .page{display:inline-block;padding:6px 10px;border:1px solid rgba(2,6,23,.2);border-radius:8px;text-decoration:none;color:var(--ink)}
+    .pagination .current{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent;font-weight:700}
+
+    footer{margin:30px 0;color:var(--muted);font-size:14px;text-align:center}
+    @media (max-width:980px){.features,.testimonials,.recipes,.playlists{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr}.moodboard{grid-template-columns:1fr 1fr 1fr}}
+    @media (max-width:640px){.hero{padding:28px;border-radius:18px}.hero h2{font-size:28px}.features,.testimonials,.recipes,.playlists,.moodboard{grid-template-columns:1fr}}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-lifestyle">
+  <div class="wrap">
+    <header><div class="brand"><div class="badge"></div><h1>{{domain}}</h1></div><nav><a href="#gallery">Gallery</a><a href="#recipes">Recipes</a><a href="#playlists">Playlists</a></nav></header>
+    <main>
+      <section class="hero"><h2>Stories to Savor</h2><p>Culture, travel, and rituals from the {{domain}} community — presented in a warm, colorful editorial one‑pager.</p></section>
+      <section id="gallery" class="gallery" aria-label="Gallery"><div class="g"></div><div class="g"></div></section>
+      <section class="features" aria-label="Highlights"><div class="card">Slow living, beautifully arranged.</div><div class="card">Candid interviews and profiles.</div><div class="card">Travel notes and rituals.</div></section>
+      <section class="moodboard" aria-label="Moodboard"><div class="mood"></div><div class="mood"></div><div class="mood"></div><div class="mood"></div><div class="mood"></div><div class="mood"></div><div class="mood"></div><div class="mood"></div></section>
+      <section id="recipes" class="recipes" aria-label="Recipes"><article class="recipe"><h4>Weekend Pasta</h4><p>Olive oil, garlic, basil — simple and bright.</p></article><article class="recipe"><h4>Summer Salad</h4><p>Stone fruit, feta, mint, and a lime zest dressing.</p></article><article class="recipe"><h4>Cozy Soup</h4><p>Ginger, miso, and roasted veggies.</p></article></section>
+      <section id="playlists" class="playlists" aria-label="Playlists"><div class="playlist"><strong>Morning Light</strong><p>Acoustic and ambient to ease in.</p></div><div class="playlist"><strong>Golden Hour</strong><p>Warm synths and gentle beats.</p></div><div class="playlist"><strong>Midnight Drive</strong><p>Downtempo and late‑night jazz.</p></div></section>
+      <section class="testimonials" aria-label="Praise"><div class="quote">“Vibrant and human.” — <strong>Reader</strong></div><div class="quote">“Feels like a premium journal.” — <strong>Subscriber</strong></div><div class="quote">“Warm and bold.” — <strong>Editor</strong></div></section>
+      <section id="posts" class="posts" aria-label="Posts"><!-- POSTS --></section>
+      <div class="pagination"><!-- PAGINATION --></div>
+    </main>
+    <footer>© <span id="y1"></span> {{domain}} • Lifestyle theme<div class="legal-links" style="font-size:12px;color:#64748b;margin-top:8px"><a href="privacy-policy.html" style="color:inherit">Privacy Policy</a> · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a> · <a href="contact-us.html" style="color:inherit">Contact Us</a></div></footer>
+  </div>
+  <script>document.getElementById('y1').textContent=new Date().getFullYear()</script>
+</body>
+</html>

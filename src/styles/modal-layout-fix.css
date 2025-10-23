@@ -1,0 +1,49 @@
+/* Modal layout and transform conflict fixes */
+
+/* Ensure Radix/Portal content is isolated from parent transforms */
+[data-radix-portal] {
+  isolation: isolate;
+  contain: layout style;
+  z-index: 9999;
+}
+
+
+/* Preserve stacking order for dialogs above animated containers */
+.DialogOverlay { z-index: 9998; }
+.DialogContent { z-index: 9999; }
+
+/* Prevent transform inheritance issues on common form elements inside modals */
+.DialogContent input,
+.DialogContent button,
+.DialogContent label,
+.DialogContent textarea,
+.DialogContent select {
+  transform: none !important;
+}
+
+/* Hide toast notifications on domains page */
+body.hide-toasts .toaster,
+body.hide-toasts [data-sonner-toaster],
+body.hide-toasts .sonner,
+body.hide-toasts .sonner-toast,
+body.hide-toasts .sonner-close-button {
+  display: none !important;
+}
+
+/* Normalize text spacing inside modals (Radix portals) to avoid inconsistent letter/word spacing
+   Some theme/template CSS set letter-spacing/word-spacing globally which can affect modal text.
+   We enforce normal spacing for all dialog content to match expected UI. */
+[data-radix-portal] {
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  /* Ensure font smoothing and legibility inside portal */
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+/* Also apply to all descendants inside the portal to override utility classes if needed */
+[data-radix-portal] * {
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+}

@@ -1,0 +1,54 @@
+/* Indexceptional page styles */
+
+:root {
+  --ix-bg: 222 100% 99%;
+  --ix-ink: 222 35% 20%;
+  --ix-ink-soft: 222 12% 36%;
+  --ix-primary: 243 84% 60%;
+  --ix-primary-strong: 243 84% 52%;
+  --ix-accent: 193 95% 48%;
+  --ix-ring: 222 20% 80%;
+}
+
+.ix-article { color: hsl(var(--ix-ink)); line-height: 1.75; }
+.ix-article h2 { font-size: 1.6rem; margin: 2.25rem 0 0.75rem; font-weight: 750; letter-spacing: -0.01em; }
+.ix-article h3 { font-size: 1.25rem; margin: 1.25rem 0 0.5rem; font-weight: 700; }
+.ix-article p { margin: 0.75rem 0; color: hsl(var(--ix-ink-soft)); }
+.ix-article ul { margin: 0.5rem 0 1rem 1.25rem; list-style: disc; }
+.ix-article ol { margin: 0.5rem 0 1rem 1.25rem; list-style: decimal; }
+
+.ix-hero { position: relative; isolation: isolate; background: radial-gradient(1200px 600px at 20% 0%, rgba(59,130,246,.16), transparent), radial-gradient(1200px 600px at 80% 10%, rgba(99,102,241,.18), transparent); padding: 4.5rem 1rem 2.5rem; border-radius: 1.25rem; box-shadow: 0 10px 30px rgba(2,6,23,.06) inset; overflow: hidden; }
+.ix-kicker { font-size: .8rem; text-transform: uppercase; letter-spacing: .18em; color: hsl(var(--ix-primary)); font-weight: 700; }
+.ix-title { font-size: clamp(1.75rem, 3vw + 1rem, 2.6rem); line-height: 1.2; font-weight: 850; margin-top: .5rem; background: linear-gradient(90deg, hsl(var(--ix-ink)), hsl(var(--ix-primary))); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ix-subtitle { max-width: 72ch; font-size: 1.05rem; margin-top: .75rem; }
+.ix-meta { display: flex; flex-wrap: wrap; gap: .75rem 1rem; margin-top: 1rem; font-size: .9rem; color: hsl(var(--ix-ink-soft)); }
+.ix-meta time { color: hsl(var(--ix-primary)); font-weight: 600; }
+
+.ix-toc { position: sticky; top: 1rem; z-index: 10; background: white; border: 1px solid hsl(var(--ix-ring)); box-shadow: 0 6px 18px rgba(15,23,42,.06); padding: 1rem; margin: 1.25rem 0 1.75rem; border-radius: .9rem; }
+.ix-toc__title { font-weight: 700; color: hsl(var(--ix-ink)); margin-bottom: .5rem; }
+.ix-toc ul { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .2rem .75rem; }
+.ix-toc a { color: hsl(var(--ix-ink-soft)); text-decoration: none; padding: .25rem .35rem; border-radius: .5rem; display: inline-block; }
+.ix-toc a:hover { background: hsl(var(--ix-bg)); color: hsl(var(--ix-ink)); }
+
+.ix-section { background: white; border: 1px solid hsl(var(--ix-ring)); border-radius: 1rem; padding: 1.25rem 1.25rem; margin: 1.25rem 0; box-shadow: 0 8px 28px rgba(2,6,23,.04); position: relative; }
+.ix-section::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: radial-gradient(600px 200px at 10% 0%, rgba(99,102,241,.08), transparent); mix-blend-mode: multiply; }
+
+.ix-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.25rem; }
+@media (max-width: 900px) { .ix-grid { grid-template-columns: 1fr; } }
+
+.ix-cards { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 1rem; }
+@media (max-width: 1200px) { .ix-cards { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+@media (max-width: 900px) { .ix-cards { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 640px) { .ix-cards { grid-template-columns: 1fr; } }
+.ix-card { border: 1px solid hsl(var(--ix-ring)); border-radius: .9rem; padding: 1rem; background: linear-gradient(180deg, white, hsl(var(--ix-bg)/.6)); transition: transform .25s ease, box-shadow .25s ease; }
+.ix-card:hover { transform: translateY(-3px); box-shadow: 0 12px 26px rgba(2,6,23,.08); }
+
+.ix-features { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .5rem 1rem; }
+@media (max-width: 800px) { .ix-features { grid-template-columns: 1fr; } }
+
+.ix-progress { position: fixed; top: 0; left: 0; right: 0; height: 4px; z-index: 60; background: linear-gradient(90deg, transparent, transparent); }
+.ix-progress__bar { height: 100%; width: 0%; background: linear-gradient(90deg, hsl(var(--ix-accent)), hsl(var(--ix-primary))); transition: width .1s linear; }
+
+.ix-error { margin: 1rem 0; border: 1px solid #fecaca; background: #fff1f2; color: #7f1d1d; padding: .875rem 1rem; border-radius: .75rem; }
+.ix-loader { position: relative; height: 10px; background: hsl(var(--ix-ring)); border-radius: 999px; overflow: hidden; margin: 1rem 0; }
+.ix-loader__bar { height: 100%; background: linear-gradient(90deg, hsl(var(--ix-primary)), hsl(var(--ix-accent))); box-shadow: 0 8px 18px rgba(59,130,246,.35); }

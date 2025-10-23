@@ -1,0 +1,73 @@
+/* Import text spacing fixes */
+@import './styles/text-spacing-fix.css';
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+/* Ensure logo has no shadows or filters (overrides) */
+.logo, .logo img, .logo svg {
+  filter: none !important;
+  -webkit-filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove focus outline and any hover/focus visual changes for header links */
+header [role="link"], header [role="link"]:focus, header [role="link"]:hover, header [role="link"]:active {
+  outline: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  background: transparent !important;
+  transform: none !important;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Disable hover/animation effects in the site header */
+header, header * {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Remove gradients, shadows and filters from header elements */
+header button, header a, header .rounded-lg, header .group, header .p-1.5 {
+  background-image: none !important;
+  background: transparent !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure hover states don't change appearance */
+header button:hover, header a:hover, header .group:hover, header .p-1.5:hover {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Specific override for header brand badge (gradient container) */
+header .p-1.5.rounded-lg {
+  background: transparent !important;
+}
+
+/* Ensure icons inside header have no filters */
+header svg, header img {
+  filter: none !important;
+  box-shadow: none !important;
+}

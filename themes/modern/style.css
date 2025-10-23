@@ -1,0 +1,42 @@
+/* Base typography and post formatting for Modern theme */
+html, body { margin: 0; padding: 0; font-family: Inter, system-ui, -apple-system, Roboto, 'Segoe UI', sans-serif; background:#0b1220; color:#e5e7eb; line-height:1.7; font-size:16px }
+.wrap{max-width:960px;margin:0 auto;padding:28px}
+.post-container{max-width:780px;margin:0 auto}
+.content p{margin:1rem 0}
+.content h1,.content h2,.content h3{margin:1.25rem 0}
+::where(article.post, .content) :where(h1,h2,h3,h4,p,ul,ol,li,pre,code) { box-sizing: border-box; }
+article.post .content h1, article.post .content h2, article.post .content h3, article.post .content h4, .content h1, .content h2, .content h3, .content h4 { display:block; margin-top:1.2em; margin-bottom:0.6em; line-height:1.2; }
+article.post .content p, .content p { margin: 1rem 0; white-space: pre-wrap; word-break: break-word; }
+article.post .content ul, .content ul, article.post .content ol, .content ol { margin: 1rem 0 1rem 1.25rem; padding-left: 1.25rem; list-style-position: outside; }
+article.post .content li, .content li { margin: 0.5rem 0; line-height: 1.6; }
+article.post .content pre, .content pre { white-space: pre-wrap; word-break: break-word; }
+article.post .content p strong:first-child:last-child, .content p strong:first-child:last-child { display:block; margin-bottom:0.6em; font-size:1.15em; font-weight:700; }
+
+/* UX Content Enhancements */
+article.post .summary-box, .content .summary-box {border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);border-radius:12px;padding:12px 16px;margin:1rem 0 1.25rem;font-size:.95rem}
+article.post .summary-box .summary-meta, .content .summary-box .summary-meta {display:flex;gap:.5rem;margin-bottom:.5rem}
+article.post .summary-box .reading-time, .content .summary-box .reading-time {display:inline-block;background:rgba(255,255,255,.08);color:#e5e7eb;border-radius:999px;padding:2px 8px;font-size:.75rem}
+
+article.post .toc, .content .toc {border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);border-radius:10px;padding:10px 12px;margin:1rem 0;font-size:.9rem}
+article.post .toc ul, .content .toc ul {margin:0;padding:0;list-style:none}
+article.post .toc li, .content .toc li {margin:.25rem 0}
+article.post .toc a, .content .toc a {color:#c7d2fe;text-decoration:none;border-bottom:1px dotted #94a3b8}
+article.post .toc a:hover, .content .toc a:hover {color:#60a5fa}
+
+article.post .callout, .content .callout {padding:.75rem 1rem;border-radius:10px;margin:1rem 0;font-size:.95rem}
+article.post .callout.tip, .content .callout.tip {background:rgba(16,185,129,.12);border-left:4px solid #10b981;color:#d1fae5}
+article.post .callout.note, .content .callout.note {background:rgba(59,130,246,.12);border-left:4px solid #3b82f6;color:#dbeafe}
+article.post .callout.warning, .content .callout.warning {background:rgba(245,158,11,.12);border-left:4px solid #f59e0b;color:#ffedd5}
+
+article.post blockquote.pull-quote, .content blockquote.pull-quote {border-left:4px solid #38bdf8;background:rgba(56,189,248,.12);color:#e0f2fe;padding:1rem 1.25rem;border-radius:10px;font-style:italic}
+
+article.post figure.figure, .content figure.figure {margin:1.25rem 0;text-align:center}
+article.post figure.figure img, .content figure.figure img {max-width:100%;height:auto;border-radius:10px}
+article.post figure.figure figcaption, .content figure.figure figcaption {font-size:.85rem;color:#94a3b8;margin-top:.5rem}
+
+article.post table.table, .content table.table {width:100%;border-collapse:collapse;margin:1.25rem 0;background:transparent;border:1px solid rgba(255,255,255,.12)}
+article.post table.table th, article.post table.table td, .content table.table th, .content table.table td {padding:.6rem .75rem;border-bottom:1px solid rgba(255,255,255,.12);text-align:left}
+article.post table.table tr:nth-child(odd), .content table.table tr:nth-child(odd) {background:rgba(255,255,255,.03)}
+
+article.post ul.markdown-list, .content ul.markdown-list, article.post ol.markdown-list, .content ol.markdown-list {margin:1rem 0 1rem 1.25rem; padding-left:1.25rem}
+article.post ul.markdown-list li, .content ul.markdown-list li, article.post ol.markdown-list li, .content ol.markdown-list li {margin:.5rem 0}

@@ -1,0 +1,33 @@
+.bhw-hero{padding:2.5rem 0 1rem;display:grid;gap:.75rem}
+.bhw-kicker{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#0ea5e9;font-weight:600}
+.bhw-title{font-size:2rem;line-height:1.2;font-weight:800;background:linear-gradient(90deg,#0f172a,#334155);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media (min-width:768px){.bhw-title{font-size:2.75rem}}
+.bhw-subtitle{color:#334155;max-width:72ch}
+.bhw-meta{display:flex;gap:.5rem;flex-wrap:wrap;color:#64748b}
+
+.bhw-toc{margin:1rem 0 2rem;border:1px solid rgba(14,165,233,.18);border-radius:.75rem;padding:1rem;background:linear-gradient(180deg,rgba(14,165,233,.05),rgba(99,102,241,.03))}
+.bhw-toc__title{font-weight:700;color:#0f172a;margin-bottom:.5rem}
+.bhw-toc ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.25rem .75rem}
+.bhw-toc a{color:#0ea5e9;text-decoration:none}
+.bhw-toc a:hover{text-decoration:underline}
+
+.bhw-section{padding:1.25rem 0;border-top:1px solid rgba(100,116,139,.15)}
+.bhw-section h2{font-size:1.5rem;font-weight:800;margin-bottom:.5rem;color:#0f172a}
+.bhw-section h3{font-weight:700;margin-top:.5rem;color:#0f172a}
+.bhw-section p{color:#334155;margin:.5rem 0;max-width:80ch}
+.bhw-section ul{list-style:disc;padding-left:1.25rem;color:#334155}
+.bhw-section ol{list-style:decimal;padding-left:1.25rem;color:#334155}
+
+.bhw-grid{display:grid;gap:1rem}
+@media (min-width:768px){.bhw-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.bhw-card{border:1px solid rgba(100,116,139,.18);border-radius:.75rem;padding:1rem;background:linear-gradient(180deg,#fff,rgba(248,250,252,.6));word-break:break-word;overflow-wrap:anywhere}
+
+.bhw-error{margin-top:1rem;border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.06);color:#991b1b;border-radius:.75rem;padding:.75rem}
+.bhw-loader{height:8px;border-radius:6px;background:rgba(99,102,241,.12);overflow:hidden;margin:.75rem 0}
+.bhw-loader__bar{height:100%;background:linear-gradient(90deg,#22d3ee,#6366f1)}
+
+.bhw-article details{border:1px solid rgba(100,116,139,.18);border-radius:.75rem;padding:.5rem .75rem;margin:.5rem 0;background:linear-gradient(180deg,#fff,rgba(248,250,252,.6))}
+.bhw-article summary{cursor:pointer;font-weight:600;color:#0f172a}
+
+.bhw-progress{position:sticky;top:0;height:4px;background:transparent;z-index:40}
+.bhw-progress__bar{height:100%;background:linear-gradient(90deg,#22d3ee,#6366f1);width:0%}

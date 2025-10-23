@@ -1,0 +1,66 @@
+# Dependencies
+node_modules
+/npm-debug.log*
+/yarn-error.log*
+/yarn.log*
+/lerna-debug.log*
+
+# Build outputs
+dist
+.output
+.vite
+.vercel
+.netlify
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files with hardcoded secrets
+test-admin-login.html
+admin-setup-help.html
+fix-login-now.html
+emergency-fix.html
+fix-database-emergency.html
+fix-database-error-now.html
+fix-database-now.html
+fix-missing-columns-now.html
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# Logs
+logs
+*.log
+
+# Lock files
+bun.lockb
+package-lock.json
+
+# Supabase
+.branches
+.temp
+supabase/.temp

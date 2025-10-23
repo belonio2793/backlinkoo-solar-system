@@ -1,0 +1,9 @@
+/* Force pure white text for wizard/overlay prose content on /rank-tracker */
+.rt-overlay .prose,
+.rt-overlay .prose :is(p, li, ul, ol, blockquote, strong, em, a, code, pre, h1, h2, h3, h4, h5, h6) {
+  color: #ffffff !important;
+}
+.rt-overlay .prose :is(ul li::marker, ol li::marker) {
+  color: #ffffff !important;
+}
+.rt-overlay .prose a { text-decoration: underline; }

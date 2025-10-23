@@ -1,0 +1,13 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Backlinkoo Blog Widget",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.0",
+    "openai": "^4.24.7",
+    "resend": "^2.1.0",
+    "stripe": "^13.11.0",
+    "qs": "^6.12.1",
+    "node-html-parser": "^7.0.1"
+  }
+}

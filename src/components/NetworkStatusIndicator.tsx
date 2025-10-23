@@ -1,0 +1,208 @@
+import React, { useState, useEffect } from 'react';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Wifi, WifiOff, RefreshCw, AlertTriangle } from 'lucide-react';
+import { safeFetch, fetchTextByXHR } from '@/utils/fullstoryWorkaround';
+
+interface NetworkStatusIndicatorProps {
+  className?: string;
+  showDetails?: boolean;
+}
+
+export const NetworkStatusIndicator: React.FC<NetworkStatusIndicatorProps> = ({
+  className = '',
+  showDetails = false
+}) => {
+  const [isOnline, setIsOnline] = useState(navigator?.onLine ?? true);
+  const [connectionQuality, setConnectionQuality] = useState<'good' | 'poor' | 'offline'>('good');
+  const [lastNetworkError, setLastNetworkError] = useState<string | null>(null);
+  const [showNetworkError, setShowNetworkError] = useState(false);
+  const [componentError, setComponentError] = useState<string | null>(null);
+
+  // If there's a component error, show a minimal indicator
+  if (componentError) {
+    return (
+      <Badge variant="outline" className={`flex items-center gap-1 ${className}`}>
+        <Wifi className="w-3 h-3" />
+        Network Status
+      </Badge>
+    );
+  }
+
+  useEffect(() => {
+    try {
+      const handleOnline = () => {
+        setIsOnline(true);
+        setConnectionQuality('good');
+        setShowNetworkError(false);
+      };
+
+      const handleOffline = () => {
+        setIsOnline(false);
+        setConnectionQuality('offline');
+      };
+
+      // Listen for browser online/offline events (safe)
+      window.addEventListener('online', handleOnline);
+      window.addEventListener('offline', handleOffline);
+
+      // Test connection quality periodically without overriding fetch
+      const testConnection = async () => {
+        try {
+          const start = Date.now();
+          // Use a simple controller for timeout - no global fetch override
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+          let ok = false; let status = 0;
+          try {
+            const res = await safeFetch('/favicon.svg', { method: 'GET', cache: 'no-cache', signal: controller.signal });
+            status = res.status; ok = res.ok;
+          } catch (e) {
+            // Fallback to XHR-based check
+            try {
+              const { status: s, ok: k } = await fetchTextByXHR('/favicon.svg', { method: 'GET' });
+              status = s; ok = k;
+            } catch {}
+          }
+
+          clearTimeout(timeoutId);
+          const duration = Date.now() - start;
+
+          if (!ok) {
+            setConnectionQuality('poor');
+            setLastNetworkError(`Server responded with ${status || 'network error'}`);
+            setShowNetworkError(true);
+          } else if (duration > 5000) {
+            setConnectionQuality('poor');
+            setLastNetworkError('Slow connection detected');
+            setShowNetworkError(true);
+          } else {
+            setConnectionQuality('good');
+            setShowNetworkError(false);
+            setLastNetworkError(null);
+          }
+        } catch (error: any) {
+          setConnectionQuality('poor');
+          setLastNetworkError(error.message || 'Network connection failed');
+          setShowNetworkError(true);
+        }
+      };
+
+      // Listen for unhandled promise rejections that might indicate network issues
+      const handleUnhandledRejection = (event: PromiseRejectionEvent) => {
+        const reason = event.reason?.toString() || '';
+        if (reason.includes('Failed to fetch') ||
+            reason.includes('NetworkError') ||
+            reason.includes('Network request blocked')) {
+          setConnectionQuality('poor');
+          setLastNetworkError(reason);
+          setShowNetworkError(true);
+        }
+      };
+
+      window.addEventListener('unhandledrejection', handleUnhandledRejection);
+
+      // Test connection every 30 seconds if online
+      const interval = setInterval(() => {
+        if (isOnline) {
+          testConnection().catch(console.warn);
+        }
+      }, 30000);
+
+      // Initial connection test
+      testConnection().catch(console.warn);
+
+      return () => {
+        window.removeEventListener('online', handleOnline);
+        window.removeEventListener('offline', handleOffline);
+        window.removeEventListener('unhandledrejection', handleUnhandledRejection);
+        clearInterval(interval);
+      };
+    } catch (error: any) {
+      console.warn('NetworkStatusIndicator setup failed:', error);
+      setComponentError(error.message);
+    }
+  }, [isOnline]);
+
+  const getStatusBadge = () => {
+    if (!isOnline || connectionQuality === 'offline') {
+      return (
+        <Badge variant="destructive" className="flex items-center gap-1">
+          <WifiOff className="w-3 h-3" />
+          Offline
+        </Badge>
+      );
+    }
+
+    if (connectionQuality === 'poor') {
+      return (
+        <Badge variant="outline" className="flex items-center gap-1 border-yellow-300 text-yellow-700 bg-yellow-50">
+          <AlertTriangle className="w-3 h-3" />
+          Poor Connection
+        </Badge>
+      );
+    }
+
+    return (
+      <Badge variant="outline" className="flex items-center gap-1 border-green-300 text-green-700 bg-green-50">
+        <Wifi className="w-3 h-3" />
+        Online
+      </Badge>
+    );
+  };
+
+  const handleRetryConnection = async () => {
+    try {
+      await safeFetch('/favicon.svg', { method: 'GET', cache: 'no-cache' });
+      setConnectionQuality('good');
+      setShowNetworkError(false);
+      setLastNetworkError(null);
+    } catch (error: any) {
+      setConnectionQuality('poor');
+      setLastNetworkError(error.message);
+    }
+  };
+
+  return (
+    <div className={className}>
+      {getStatusBadge()}
+      
+      {showDetails && showNetworkError && lastNetworkError && (
+        <Alert className="mt-2 border-yellow-200 bg-yellow-50">
+          <AlertTriangle className="h-4 w-4 text-yellow-600" />
+          <AlertDescription className="text-yellow-800">
+            <div className="space-y-2">
+              <div>
+                <strong>Network Issue Detected</strong>
+                <p className="text-sm">{lastNetworkError}</p>
+              </div>
+              <div className="flex gap-2">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={handleRetryConnection}
+                  className="border-yellow-300 text-yellow-700 hover:bg-yellow-100"
+                >
+                  <RefreshCw className="w-3 h-3 mr-1" />
+                  Test Connection
+                </Button>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => window.location.reload()}
+                  className="border-yellow-300 text-yellow-700 hover:bg-yellow-100"
+                >
+                  Refresh Page
+                </Button>
+              </div>
+            </div>
+          </AlertDescription>
+        </Alert>
+      )}
+    </div>
+  );
+};
+
+export default NetworkStatusIndicator;

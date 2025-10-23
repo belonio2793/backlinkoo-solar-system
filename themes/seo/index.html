@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{domain}} — SEO</title>
+  <meta name="description" content="SEO insights and audits by {{domain}}">
+  <meta name="theme-color" content="#16a34a">
+  <style>
+    :root{--ink:#0f172a;--muted:#475569;--bg:#f6fff7;--accent:#16a34a;--accent2:#22c55e;--border:rgba(2,6,23,.10)}
+    *{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Inter,Roboto,Arial,sans-serif}
+    .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+    .brand{display:flex;align-items:center;gap:10px}
+    .badge{width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+
+    .hero{border:1px solid var(--border);border-radius:24px;padding:44px;background:linear-gradient(135deg,rgba(22,163,74,.08),rgba(34,197,94,.08))}
+    .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px;box-shadow:0 12px 30px rgba(2,6,23,.06)}
+
+    .audits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+    .audit{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px}
+
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0}
+    .stat{background:#fff;border:1px solid var(--border);border-radius:14px;padding:16px;text-align:center}
+
+    .checklist{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+    .item{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px}
+
+    .posts{margin:26px 0}
+    .pagination{display:flex;gap:8px;justify-content:center;margin:22px 0}
+    .pagination .page{display:inline-block;padding:6px 10px;border:1px solid rgba(2,6,23,.2);border-radius:8px;text-decoration:none;color:var(--ink)}
+    .pagination .current{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent;font-weight:700}
+
+    footer{margin:30px 0;color:var(--muted);font-size:14px;text-align:center}
+    @media (max-width:980px){.features{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.audits{grid-template-columns:1fr 1fr}.checklist{grid-template-columns:1fr}}
+    @media (max-width:640px){.features,.stats,.audits{grid-template-columns:1fr}.hero{padding:28px;border-radius:18px}}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-seo">
+  <div class="wrap">
+    <header><div class="brand"><div class="badge"></div><h1>{{domain}}</h1></div><nav><a href="#features">Playbooks</a><a href="#audits">Audits</a><a href="#posts">Posts</a></nav></header>
+    <main>
+      <section class="hero"><h2>SEO That Looks as Good as It Performs</h2><p>Audits, on‑page playbooks, and technical guides — presented in a conversion‑ready one‑pager for {{domain}}.</p></section>
+      <section id="features" class="features" aria-label="Highlights"><div class="card">On‑page frameworks</div><div class="card">Technical checklists</div><div class="card">Content strategy</div><div class="card">Keyword discovery</div><div class="card">Link strategy</div><div class="card">Site architecture</div></section>
+      <section class="stats" aria-label="Stats"><div class="stat"><strong>+120%</strong>Organic growth</div><div class="stat"><strong>98</strong>Best‑practice score</div><div class="stat"><strong>0.7s</strong>FCP</div><div class="stat"><strong>100%</strong>Indexability</div></section>
+      <section id="audits" class="audits" aria-label="Audits"><div class="audit"><strong>Technical</strong><p>Core Web Vitals, sitemaps, robots.</p></div><div class="audit"><strong>On‑page</strong><p>Title, headings, content quality.</p></div><div class="audit"><strong>Off‑page</strong><p>Backlinks, mentions, authority.</p></div><div class="audit"><strong>Content</strong><p>Clusters, freshness, intent.</p></div></section>
+      <section class="checklist" aria-label="Checklist"><div class="item">Canonical tags set correctly</div><div class="item">Mobile‑friendly viewport</div><div class="item">Meta descriptions present</div><div class="item">Structured data in place</div><div class="item">Images optimized</div><div class="item">Pagination with rel next/prev</div></section>
+      <section id="posts" class="posts" aria-label="Posts"><!-- POSTS --></section>
+      <div class="pagination"><!-- PAGINATION --></div>
+    </main>
+    <footer>© <span id="y5"></span> {{domain}} • SEO theme<div class="legal-links" style="font-size:12px;color:#64748b;margin-top:8px"><a href="privacy-policy.html" style="color:inherit">Privacy Policy</a> · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a> · <a href="contact-us.html" style="color:inherit">Contact Us</a></div></footer>
+  </div>
+  <script>document.getElementById('y5').textContent=new Date().getFullYear()</script>
+</body>
+</html>

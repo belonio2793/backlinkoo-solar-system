@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{post_title}} — {{domain}} (Tech)</title>
+  <style>
+    :root { --bg:#0b1020; --fg:#e2e8f0; --muted:#94a3b8; --card:#0f172a; --accent:#38bdf8 }
+    body { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; background:var(--bg); color:var(--fg); margin:0 }
+    .wrap { max-width:860px; margin:24px auto; padding:0 16px }
+    .card { background:var(--card); border:1px solid #1f2a44; border-radius:10px; padding:22px; box-shadow: 0 10px 24px rgba(0,0,0,.25) }
+    h1 { margin:6px 0 8px }
+    .meta { color:var(--muted); margin:0 0 16px }
+    article { line-height:1.75 }
+    a.back { color:var(--accent); text-decoration:none }
+    /* Rich content defaults */
+    article, .content { line-height: 1.85; font-size: 1.05rem; }
+    article p, .content p { margin: 1em 0; }
+    article h2, .content h2, article h3, .content h3, article h4, .content h4 { margin-top: 1.75em; margin-bottom: .6em; line-height: 1.25; scroll-margin-top: 80px; }
+    article ul, .content ul, article ol, .content ol { margin: 1em 0; padding-left: 1.25em; }
+    article li, .content li { margin: .4em 0; }
+    article blockquote, .content blockquote { margin: 1.25em 0; padding: .75em 1em; border-left: 3px solid rgba(0,0,0,.15); background: rgba(0,0,0,.03); border-radius: 8px; }
+    @media (prefers-color-scheme: dark) { article blockquote, .content blockquote { border-left-color: rgba(255,255,255,.25); background: rgba(255,255,255,.05); } }
+    article code, .content code { background: rgba(0,0,0,.04); padding: .15em .35em; border-radius: .35em; font-size: .95em; }
+    @media (prefers-color-scheme: dark) { article code, .content code { background: rgba(255,255,255,.08); } }
+    article pre, .content pre { background: rgba(0,0,0,.06); padding: 1em; border-radius: 12px; overflow: auto; border: 1px solid rgba(0,0,0,.08); }
+    @media (prefers-color-scheme: dark) { article pre, .content pre { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); } }
+    article img, .content img, article video, .content video { max-width: 100%; height: auto; border-radius: 12px; display: block; margin: 1em auto; }
+    article table, .content table { width: 100%; border-collapse: separate; border-spacing: 0; overflow: auto; display: block; }
+    article th, .content th, article td, .content td { border-bottom: 1px solid rgba(0,0,0,.1); padding: .6em .75em; text-align: left; }
+    @media (prefers-color-scheme: dark) { article th, .content th, article td, .content td { border-bottom-color: rgba(255,255,255,.15); } }
+    article hr, .content hr { border: 0; height: 1px; background: rgba(0,0,0,.1); margin: 2em 0; }
+    @media (prefers-color-scheme: dark) { article hr, .content hr { background: rgba(255,255,255,.2); } }
+    article a, .content a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    article figure, .content figure { margin: 1.5em 0; }
+    article figcaption, .content figcaption { font-size: .9em; opacity: .8; text-align: center; margin-top: .5em; }
+    article iframe, .content iframe { width: 100%; border: 0; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; }
+    .post-container{max-width:780px;margin:0 auto}
+    /* Auto-formatting and featured image sizing */
+    .content .featured-image, .content figure.featured-image { max-width: 100%; margin: 12px auto 20px; overflow: hidden; }
+    .content .featured-image img { width: 100% !important; height: auto !important; display: block; }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-tech-blog">
+  <div class="wrap">
+    <div class="card">
+      <h1 id="post-title">{{post_title}}</h1>
+      <div id="post-meta" class="meta">Published {{published_at}}</div>
+      <article id="post-article">
+        <div class="content"><div id="post-content" class="post-container"><!--POST_CONTENT--></div></div>
+      </article>
+    </div>
+  </div>
+  <footer style="margin:16px 0;text-align:center;color:#94a3b8;font-size:14px">
+    <nav aria-label="Legal" class="legal-links">
+      <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a>
+      · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a>
+      · <a href="contact-us.html" style="color:inherit">Contact Us</a>
+    </nav>
+  </footer>
+  <script>
+    (function(){
+      var root=document.getElementById('post-content')||document.querySelector('.content');
+      if(!root) return;
+      function isHeadingText(t){
+        t=(t||'').trim();
+        var ws=t.split(/\s+/); if(t.length<10||t.length>120||ws.length>16) return false;
+        if((t.match(/[.!?]/g)||[]).length>1) return false;
+        var caps=ws.filter(function(w){return /^[A-Z][a-z]/.test(w)}).length;
+        var allCaps=ws.filter(function(w){return /^[A-Z]+$/.test(w)}).length===ws.length;
+        return t.endsWith(':')||t.endsWith('?')||caps/ws.length>0.6||allCaps;
+      }
+      Array.from(root.querySelectorAll('p')).forEach(function(p){
+        if(p.querySelector('img, figure, pre, code, table, iframe')) return;
+        var onlyStrong=p.childNodes.length===1 && p.firstElementChild && p.firstElementChild.tagName.toLowerCase()==='strong';
+        var text=p.textContent||'';
+        if(onlyStrong||isHeadingText(text)){
+          var h=document.createElement('h2');
+          h.textContent=text.replace(/\s*[:.]\s*$/,'').trim();
+          p.replaceWith(h);
+        }
+      });
+      var fig=root.querySelector('figure')||root.querySelector('p>img, img');
+      if(fig){ var el=fig.tagName?fig:(fig.parentElement||fig); if(el && !el.classList.contains('featured-image')) el.classList.add('featured-image'); }
+    })();
+  </script>
+  <script>
+    (function(){
+      var h=document.querySelector('h1#post-title, h1'); if(!h) return;
+      var txt=(h.textContent||'').trim();
+      // Consider this a bad header if it contains attribute-like dumps or common metadata tokens
+      var badTokens = /\b(target|rel|href|itemprop|itemscope|itemtype|schema|class|noopener|noreferrer|figure|img|meta|contenturl|width|height|author)\b/i;
+      var hasEquals = /=/.test(txt);
+      var startsWithTag = /^(?:<|&lt;)/.test(txt);
+      var bad = startsWithTag || hasEquals || badTokens.test(txt);
+      if(!bad) return;
+      var seg=(location.pathname.replace(/\/+$/,'').split('/').filter(Boolean).pop()||'').replace(/\.html$/i,'');
+      var pretty=seg.split('-').map(function(s){return s? s[0].toUpperCase()+s.slice(1):''}).join(' ').trim()||'Post';
+      h.textContent=pretty;
+      document.title=pretty+' — '+(document.title.split(' — ').pop()||document.domain);
+      function setMeta(name,value,attr){attr=attr||'name';var m=document.querySelector('meta['+attr+'="'+name+'"]'); if(m) m.setAttribute('content', value)}
+      var desc='Read “'+pretty+'” on '+location.hostname; setMeta('og:title', pretty, 'property'); setMeta('twitter:title', pretty, 'name'); setMeta('description', desc, 'name'); setMeta('og:description', desc, 'property');
+    })();
+  </script>
+</body>
+</html>

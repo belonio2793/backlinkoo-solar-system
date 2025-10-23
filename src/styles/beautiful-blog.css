@@ -1,0 +1,747 @@
+/* Beautiful Blog Post Template - Premium Design System */
+
+/* Import both existing styles for full compatibility */
+@import url('./blog-template.css');
+@import url('./elite-blog.css');
+
+/* Enhanced Beautiful Blog Styles */
+.beautiful-blog-wrapper {
+  font-feature-settings: "liga" 1, "onum" 1, "kern" 1, "swsh" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Magazine-style layout enhancements */
+.beautiful-blog-hero {
+  background: linear-gradient(135deg, 
+    rgba(59, 130, 246, 0.02) 0%, 
+    rgba(147, 51, 234, 0.02) 25%, 
+    rgba(219, 39, 119, 0.02) 50%, 
+    rgba(59, 130, 246, 0.02) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.beautiful-blog-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(147, 51, 234, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Enhanced typography with perfect spacing */
+.beautiful-blog-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
+  color: rgb(17, 24, 39);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.beautiful-blog-subtitle {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(107, 114, 128);
+  font-size: 1.25rem;
+}
+
+/* Premium content styling */
+.beautiful-blog-content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+  line-height: 1.7;
+  color: rgb(55, 65, 81);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enhanced drop cap with better positioning */
+.beautiful-blog-content p:first-of-type:first-letter {
+  float: left;
+  font-size: 4.5rem;
+  line-height: 0.8;
+  margin: 0.05em 0.15em 0.05em 0;
+  font-weight: 900;
+  color: black;
+  font-family: 'Georgia', serif;
+  position: relative;
+  z-index: 1;
+}
+
+/* Floating elements styling */
+.floating-action-bar {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.floating-action-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+}
+
+.floating-action-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced card styling */
+.beautiful-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(229, 231, 235, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.beautiful-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 35px 70px -12px rgba(0, 0, 0, 0.15);
+}
+
+/* Reading progress enhancements */
+.reading-progress-bar {
+  background: linear-gradient(90deg, 
+    rgb(59 130 246) 0%, 
+    rgb(147 51 234) 50%, 
+    rgb(219 39 119) 100%);
+  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Enhanced badge styling */
+.beautiful-badge {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.beautiful-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Meta information styling */
+.beautiful-meta {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(229, 231, 235, 0.5);
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgb(107, 114, 128);
+  transition: all 0.3s ease;
+}
+
+.beautiful-meta:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(59, 130, 246, 0.3);
+  color: rgb(59, 130, 246);
+}
+
+/* Enhanced button styling */
+.beautiful-button {
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.beautiful-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.beautiful-button:hover::before {
+  transform: translateX(100%);
+}
+
+.beautiful-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Warning and info boxes */
+.beautiful-warning {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(245, 158, 11, 0.1));
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.beautiful-info {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.beautiful-success {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(22, 163, 74, 0.1));
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+/* Navigation enhancements */
+.beautiful-nav {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  transition: all 0.3s ease;
+}
+
+.beautiful-nav:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Enhanced prose styling for content */
+.beautiful-prose {
+  color: rgb(55, 65, 81);
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+}
+
+/* Professional paragraph styling */
+.beautiful-prose-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: rgb(55, 65, 81);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+}
+
+/* Enhanced title hierarchy */
+.beautiful-main-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: rgb(17, 24, 39);
+  text-rendering: optimizeLegibility;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .beautiful-main-title {
+    font-size: clamp(2rem, 4.5vw, 3rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .beautiful-main-title {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+  }
+}
+
+.beautiful-prose h2 {
+  position: relative;
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: black;
+  margin: 3rem 0 1.5rem 0;
+  line-height: 1.3;
+}
+
+.beautiful-prose h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  margin: 2.5rem 0 1rem 0;
+  line-height: 1.4;
+}
+
+.beautiful-prose p {
+  margin: 1.5rem 0;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgb(55, 65, 81);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.beautiful-prose a {
+  color: rgb(59, 130, 246);
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  border-radius: 4px;
+  padding: 0.125rem 0.25rem;
+}
+
+/* Remove all hover effects from headline links */
+.beautiful-prose h1 a,
+.beautiful-prose h2 a,
+.beautiful-prose h3 a,
+.beautiful-prose h4 a,
+.beautiful-prose h5 a,
+.beautiful-prose h6 a {
+  color: inherit;
+  font-weight: inherit;
+  padding: 0;
+  border-radius: 0;
+  transition: none;
+  position: static;
+}
+
+.beautiful-prose h1 a:hover,
+.beautiful-prose h2 a:hover,
+.beautiful-prose h3 a:hover,
+.beautiful-prose h4 a:hover,
+.beautiful-prose h5 a:hover,
+.beautiful-prose h6 a:hover {
+  color: inherit;
+  background: none;
+  transform: none;
+}
+
+/* Keep hover effects only for regular paragraph links */
+.beautiful-prose p a,
+.beautiful-prose li a {
+  transition: all 0.3s ease;
+}
+
+.beautiful-prose p a::before,
+.beautiful-prose li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, rgb(59 130 246), rgb(147 51 234));
+  transition: width 0.3s ease;
+}
+
+.beautiful-prose p a:hover,
+.beautiful-prose li a:hover {
+  color: rgb(147, 51, 234);
+  background: rgba(59, 130, 246, 0.05);
+  transform: translateY(-1px);
+}
+
+.beautiful-prose p a:hover::before,
+.beautiful-prose li a:hover::before {
+  width: 100%;
+}
+
+.beautiful-prose blockquote {
+  position: relative;
+  font-style: italic;
+  font-size: 1.25rem;
+  margin: 2.5rem 0;
+  padding: 2rem 2.5rem 2rem 3rem;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), rgba(147, 51, 234, 0.05));
+  border-left: 4px solid rgb(59, 130, 246);
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.beautiful-prose blockquote::before {
+  content: '"';
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-size: 3rem;
+  color: rgb(59, 130, 246);
+  opacity: 0.3;
+  line-height: 1;
+  font-family: 'Georgia', serif;
+}
+
+/* Enhanced bullet point formatting */
+.beautiful-prose ul, .beautiful-prose ol {
+  margin: 2rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.beautiful-prose ul li, .beautiful-prose ol li {
+  position: relative;
+  margin: 1rem 0;
+  padding: 0.75rem 0 0.75rem 3rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: rgb(55, 65, 81);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.02), rgba(147, 51, 234, 0.02));
+  border-radius: 0.5rem;
+  border-left: 3px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.beautiful-prose ul li:hover, .beautiful-prose ol li:hover {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), rgba(147, 51, 234, 0.05));
+  border-left-color: rgb(59, 130, 246);
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+}
+
+/* Custom bullet points for unordered lists */
+.beautiful-prose ul li::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(147, 51, 234));
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+/* Custom numbers for ordered lists */
+.beautiful-prose ol {
+  counter-reset: list-counter;
+}
+
+.beautiful-prose ol li {
+  counter-increment: list-counter;
+}
+
+.beautiful-prose ol li::before {
+  content: counter(list-counter);
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(147, 51, 234));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+/* Nested lists */
+.beautiful-prose ul ul, .beautiful-prose ol ol,
+.beautiful-prose ul ol, .beautiful-prose ol ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.beautiful-prose ul ul li, .beautiful-prose ol ol li,
+.beautiful-prose ul ol li, .beautiful-prose ol ul li {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0 0.5rem 2.5rem;
+  font-size: 1rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.02), rgba(168, 85, 247, 0.02));
+  border-left-color: rgba(99, 102, 241, 0.3);
+}
+
+.beautiful-prose ul ul li::before {
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, rgb(99, 102, 241), rgb(168, 85, 247));
+}
+
+.beautiful-prose ol ol li::before {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, rgb(99, 102, 241), rgb(168, 85, 247));
+  font-size: 0.75rem;
+}
+
+.beautiful-prose code {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));
+  color: rgb(147, 51, 234);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 600;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* Responsive enhancements */
+@media (max-width: 768px) {
+  .beautiful-blog-title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  .beautiful-blog-subtitle {
+    font-size: 1rem;
+  }
+
+  .beautiful-blog-content p:first-of-type:first-letter {
+    font-size: 3.5rem;
+    margin: 0.05em 0.1em 0 0;
+  }
+
+  .beautiful-prose h2 {
+    font-size: 1.5rem;
+  }
+
+  .beautiful-prose h3 {
+    font-size: 1.25rem;
+  }
+
+  .beautiful-prose p,
+  .beautiful-prose li {
+    font-size: 1rem;
+  }
+
+  .floating-action-bar {
+    right: 1rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .beautiful-blog-content {
+    color: rgb(229, 231, 235);
+  }
+  
+  .beautiful-card {
+    background: rgba(31, 41, 55, 0.8);
+    border-color: rgba(75, 85, 99, 0.3);
+  }
+  
+  .beautiful-meta {
+    background: rgba(31, 41, 55, 0.9);
+    border-color: rgba(75, 85, 99, 0.5);
+    color: rgb(156, 163, 175);
+  }
+  
+  .beautiful-nav {
+    background: rgba(31, 41, 55, 0.9);
+    border-bottom-color: rgba(75, 85, 99, 0.5);
+  }
+  
+  .floating-action-bar {
+    background: rgba(31, 41, 55, 0.95);
+    border-color: rgba(75, 85, 99, 0.3);
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .beautiful-button:hover,
+  .floating-action-button:hover,
+  .beautiful-card:hover {
+    transform: none;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .beautiful-blog-title {
+    background: none;
+    -webkit-text-fill-color: initial;
+    color: black;
+  }
+  
+  .beautiful-prose h2 {
+    background: none;
+    -webkit-text-fill-color: initial;
+    color: black;
+  }
+  
+  .beautiful-prose a {
+    background: none;
+    text-decoration: underline;
+    color: blue;
+  }
+}
+
+/* Enhanced Typography and Spacing Improvements */
+.enhanced-blog-content {
+  /* Advanced typography settings */
+  font-feature-settings: "liga" 1, "onum" 1, "kern" 1, "calt" 1;
+  font-variant-ligatures: common-ligatures contextual;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smart text spacing */
+.enhanced-blog-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  word-spacing: 0.05em;
+  letter-spacing: 0.01em;
+}
+
+/* Enhanced heading hierarchy */
+.enhanced-blog-content h1,
+.enhanced-blog-content h2,
+.enhanced-blog-content h3,
+.enhanced-blog-content h4,
+.enhanced-blog-content h5,
+.enhanced-blog-content h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: rgb(17, 24, 39);
+}
+
+/* Improved list styling */
+.enhanced-blog-content ul,
+.enhanced-blog-content ol {
+  margin: 2rem 0;
+  padding-left: 0;
+}
+
+.enhanced-blog-content li {
+  margin: 0.75rem 0;
+  line-height: 1.8;
+  word-spacing: 0.05em;
+}
+
+/* Enhanced quote styling */
+.enhanced-blog-content blockquote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid rgb(59, 130, 246);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.03), rgba(147, 51, 234, 0.03));
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-style: italic;
+  font-size: 1.1em;
+  line-height: 1.7;
+  position: relative;
+}
+
+/* Improved code styling */
+.enhanced-blog-content code {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-radius: 0.375rem;
+  color: rgb(147, 51, 234);
+  font-weight: 500;
+}
+
+/* Enhanced link styling */
+.enhanced-blog-content a {
+  color: rgb(59, 130, 246);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.2s ease;
+  padding: 0.1em 0.2em;
+  border-radius: 0.25rem;
+}
+
+.enhanced-blog-content a:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-bottom-color: rgb(59, 130, 246);
+  color: rgb(37, 99, 235);
+}
+
+/* Improved emphasis styling */
+.enhanced-blog-content strong {
+  font-weight: 700;
+  color: rgb(17, 24, 39);
+}
+
+.enhanced-blog-content em {
+  font-style: italic;
+  color: rgb(55, 65, 81);
+  font-weight: 500;
+}
+
+/* Better spacing for inline elements */
+.enhanced-blog-content strong,
+.enhanced-blog-content em,
+.enhanced-blog-content code {
+  margin: 0 0.1em;
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 768px) {
+  .enhanced-blog-content p {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .enhanced-blog-content h1,
+  .enhanced-blog-content h2,
+  .enhanced-blog-content h3 {
+    margin-top: 2rem;
+    line-height: 1.2;
+  }
+}
+
+/* Print styles */
+@media print {
+  .beautiful-blog-wrapper {
+    background: white;
+    color: black;
+  }
+
+  .beautiful-blog-title,
+  .beautiful-prose h2 {
+    background: none;
+    -webkit-text-fill-color: initial;
+    color: black;
+  }
+
+  .floating-action-bar,
+  .beautiful-nav {
+    display: none;
+  }
+
+  .beautiful-card {
+    background: white;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+
+  .beautiful-prose a {
+    color: black;
+    text-decoration: underline;
+    background: none;
+  }
+}

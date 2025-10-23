@@ -1,0 +1,1514 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import './styles/blog-template.css';
+@import './styles/elite-blog.css';
+@import './styles/blog-production-fix.css';
+@import './styles/modal-layout-fix.css';
+@import './styles/strong-fix.css';
+@import './styles/text-spacing-fix.css';
+@import './styles/markdown-fix.css';
+@import './styles/overlay-prose-fix.css';
+@import './styles/rhinorank.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced animations for super beautiful UI */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes glareSweep {
+  0% {
+    transform: translateX(-145%) skewX(-18deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.65;
+  }
+  38% {
+    transform: translateX(145%) skewX(-18deg);
+    opacity: 0.85;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(145%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+.glare-sweep {
+  background: linear-gradient(105deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 80%);
+  mix-blend-mode: screen;
+  transform: translateX(-145%) skewX(-18deg);
+  will-change: transform, opacity;
+  animation: glareSweep 3.5s ease-in-out infinite;
+  opacity: 0;
+}
+
+.learn-glare-border {
+  position: relative;
+  padding: 2px;
+  border-radius: 1rem;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.9)) padding-box,
+    linear-gradient(120deg, rgba(37, 99, 235, 0.85), rgba(124, 58, 237, 0.9), rgba(20, 184, 166, 0.85), rgba(37, 99, 235, 0.85)) border-box;
+  background-clip: padding-box, border-box;
+  background-size: 100% 100%, 280% 280%;
+  animation: premiumBorderFlow 7s linear infinite;
+  box-shadow: 0 25px 45px -20px rgba(15, 23, 42, 0.35);
+}
+
+.learn-glare-border::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 45%, rgba(255, 255, 255, 0) 75%);
+  opacity: 0.45;
+  mix-blend-mode: screen;
+  animation: glareSweep 5.6s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.learn-glare-border__inner {
+  position: relative;
+  border-radius: inherit;
+  overflow: hidden;
+  background: #fff;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.8), 0 0 30px rgba(147, 51, 234, 0.6);
+  }
+}
+
+@keyframes gradientPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 20%,
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0)
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.premium-banner-clouds {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  overflow: hidden;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(135deg, rgba(72, 118, 255, 0.94), rgba(143, 79, 255, 0.92)) padding-box,
+    linear-gradient(120deg, #ff6b6b, #ffd93d, #6ef3ff, #9f67ff, #ff6bdf, #ff6b6b) border-box;
+  background-clip: padding-box, border-box;
+  background-size: 100% 100%, 260% 260%;
+  background-position: 0 0, 0% 50%;
+  transition: background-position 0.4s ease, transform 0.3s ease;
+  box-shadow: none;
+  filter: none;
+  animation: premiumBorderFlow 6s linear infinite;
+}
+
+.premium-banner-clouds::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background:
+    radial-gradient(140% 120% at 12% 22%, rgba(255, 255, 255, 0.35), rgba(90, 125, 255, 0) 65%),
+    radial-gradient(120% 135% at 88% 45%, rgba(255, 255, 255, 0.28), rgba(143, 79, 255, 0) 72%),
+    radial-gradient(160% 180% at 50% 120%, rgba(110, 205, 255, 0.16), rgba(72, 118, 255, 0) 85%);
+  mix-blend-mode: screen;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: -1;
+  animation: premiumCloudWash 14s ease-in-out infinite;
+}
+
+.premium-banner-clouds:hover {
+  background-position: 0 0, 100% 50%;
+}
+
+.premium-banner-clouds:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.35);
+  outline-offset: 2px;
+}
+
+@keyframes premiumBorderFlow {
+  0% {
+    background-position: 0 0, 0% 50%;
+  }
+  50% {
+    background-position: 0 0, 100% 50%;
+  }
+  100% {
+    background-position: 0 0, 0% 50%;
+  }
+}
+
+@keyframes premiumCloudWash {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.88;
+  }
+  55% {
+    transform: translate3d(-3%, -2%, 0) scale(1.04);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.88;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animate-gradient-shift {
+  position: relative;
+  overflow: hidden;
+  /* Light gray technology-themed layered background: soft gradient + subtle pattern */
+  background-image:
+    linear-gradient(90deg, rgba(246,247,250,0.95) 0%, rgba(238,240,244,0.95) 30%, rgba(228,232,238,0.95) 60%, rgba(246,247,250,0.95) 100%),
+    repeating-linear-gradient(45deg, rgba(70,80,95,0.03) 0 2px, rgba(255,255,255,0) 2px 40px);
+  background-size: 400% 400%, 40px 40px;
+  background-position: 0% 50%, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: normal;
+  animation: gradientShift 10s ease infinite;
+  transition: background-position 0.6s ease, filter 0.4s ease;
+}
+
+.animate-gradient-shift::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.04) 50%, rgba(255,255,255,0.02) 100%);
+  mix-blend-mode: normal;
+  opacity: 1;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* Artistic cursor bloom: rendered via ::after and positioned by --mx/--my (percent) set from JS */
+.animate-gradient-shift::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  --size: 220px;
+  --show: calc(var(--cursor-show, 0));
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.25s ease;
+  background-image: radial-gradient(circle at var(--mx, 50%) var(--my, 50%),
+    rgba(255,255,255,0.0) 0%,
+    rgba(255,255,255,0.0) 30%,
+    rgba(255,255,255,0.02) 40%,
+    rgba(255,255,255,0.04) 45%,
+    rgba(255,255,255,0.0) 60%),
+    conic-gradient(from 90deg at var(--mx, 50%) var(--my, 50%),
+    rgba(255,0,128,0.22), rgba(255,94,0,0.22), rgba(255,197,0,0.22), rgba(0,186,255,0.22), rgba(123,0,255,0.22), rgba(255,0,128,0.22));
+  background-repeat: no-repeat, no-repeat;
+  mix-blend-mode: screen;
+  transform: translate3d(0,0,0) scale(1);
+  mask-image: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), black 0px, black var(--size), transparent calc(var(--size) + 10px));
+}
+
+.animate-gradient-shift:hover {
+  /* Slow down the animation and subtly brighten on hover */
+  animation: gradientShift 22s ease infinite;
+  filter: brightness(1.04) saturate(1.02);
+}
+
+.animate-gradient-shift:hover::before {
+  opacity: 0.28;
+  transform: scale(1.02);
+}
+
+/* When cursor show flag is set, fade in the ::after bloom */
+.animate-gradient-shift[style*="--cursor-show: 1"]::after,
+.animate-gradient-shift:hover[style*="--cursor-show: 1"]::after {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+/* Animation delays */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Glass card and result styles for backlink estimate */
+.glass-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.65));
+  border-radius: 12px;
+  position: relative;
+}
+
+.result-card {
+  transition: transform 260ms ease, opacity 260ms ease;
+}
+
+.loader {
+  background: conic-gradient(from 0deg, rgba(255,255,255,0.12), rgba(255,255,255,0));
+  box-shadow: inset 0 0 10px rgba(255,255,255,0.06), 0 6px 18px rgba(59,130,246,0.08);
+  border: 4px solid rgba(255,255,255,0.12);
+  animation: rotateLoader 0.9s linear infinite;
+}
+
+@keyframes rotateLoader {
+  to { transform: rotate(360deg); }
+}
+
+/* Animated soft clouds background for sections */
+.backdrop-clouds {
+  position: relative;
+  overflow: hidden;
+}
+.backdrop-clouds::before,
+.backdrop-clouds::after {
+  content: '';
+  position: absolute;
+  inset: -20% -10% -20% -10%;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  opacity: 0.45;
+  filter: blur(24px) saturate(1.05);
+  pointer-events: none;
+}
+.backdrop-clouds::before {
+  background-image: radial-gradient(closest-side at 10% 20%, rgba(255,255,255,0.85), rgba(255,255,255,0.15) 40%, transparent 60%), radial-gradient(closest-side at 80% 70%, rgba(245,246,255,0.9), rgba(235,236,255,0.15) 35%, transparent 60%);
+  animation: cloudFloatA 18s linear infinite;
+}
+.backdrop-clouds::after {
+  background-image: radial-gradient(closest-side at 50% 40%, rgba(255,255,255,0.85), rgba(255,255,255,0.08) 30%, transparent 60%);
+  opacity: 0.35;
+  filter: blur(34px) saturate(1.02);
+  animation: cloudFloatB 26s linear infinite;
+}
+
+@keyframes cloudFloatA {
+  0% { transform: translateX(0) translateY(0) scale(1); }
+  50% { transform: translateX(-6%) translateY(2%) scale(1.02); }
+  100% { transform: translateX(0) translateY(0) scale(1); }
+}
+@keyframes cloudFloatB {
+  0% { transform: translateX(0) translateY(0) scale(1); }
+  50% { transform: translateX(6%) translateY(-2%) scale(1.04); }
+  100% { transform: translateX(0) translateY(0) scale(1); }
+}
+
+/* Result decorative wave and tilt */
+.result-wave {
+  opacity: 0.14;
+  pointer-events: none;
+  transform-origin: center;
+}
+
+.result-card:hover {
+  transform: translateY(-8px) rotateX(4deg) scale(1.01);
+  transition: transform 260ms cubic-bezier(.2,.9,.3,1);
+}
+
+.hover-tilt {
+  transform-style: preserve-3d;
+}
+
+@keyframes waveFloat {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-10%); }
+  100% { transform: translateX(0); }
+}
+
+.result-wave path {
+  filter: blur(8px);
+  animation: waveFloat 6s ease-in-out infinite;
+}
+
+/* Animated rainbow border wrapper (flowing colors along gradient) */
+.rainbow-border {
+  padding: 3px; /* border thickness */
+  border-radius: 9999px; /* outer radius to create pill */
+  background: conic-gradient(from 0deg, #ff7ecb, #ffb86b, #ffe680, #8dd7ff, #b299ff, #ff7ecb);
+  background-size: 300% 300%;
+  background-position: 0% 50%;
+  /* subtle flow animation across the gradient without rotating the element */
+  animation: rainbowShift 6s linear infinite;
+  display: block;
+  width: 100%;
+}
+
+.rainbow-border > .glass-card {
+  border-radius: 9999px; /* inner radius = outer - padding */
+}
+
+/* Adaptive rainbow border for mobile (rounded card on small screens, pill on >=sm) */
+.rainbow-border-adaptive {
+  padding: 3px;
+  border-radius: 1rem; /* rounded card on small screens */
+  background: conic-gradient(from 0deg, #ff7ecb, #ffb86b, #ffe680, #8dd7ff, #b299ff, #ff7ecb);
+  background-size: 300% 300%;
+  background-position: 0% 50%;
+  animation: rainbowShift 6s linear infinite;
+  display: block;
+  width: 100%;
+}
+.rainbow-border-adaptive > .glass-card {
+  border-radius: 0.875rem; /* inner radius = outer - padding */
+}
+@media (min-width: 640px) {
+  .rainbow-border-adaptive { border-radius: 9999px; }
+  .rainbow-border-adaptive > .glass-card { border-radius: 9999px; }
+}
+
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+/* Hover effects */
+.hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Rainbow gradient tabs for Automation/Domains switcher */
+.automation-domains-switcher .rainbow-tab {
+  border-radius: 8px;
+  padding: 8px 14px;
+  transition: box-shadow 0.18s ease, color 0.18s ease;
+  background: #ffffff;
+  color: #000 !important; /* pure black text */
+  position: relative;
+  border: 0;
+}
+
+/* Remove hover lift to prevent vertical bounce */
+.automation-domains-switcher .rainbow-tab:hover {
+  transform: none;
+}
+
+/* Strong, uniform rainbow outline on active state */
+.automation-domains-switcher .rainbow-tab[data-state="active"] {
+  position: relative;
+  z-index: 2;
+  background: #ffffff !important;
+  color: #000 !important;
+  border-radius: 8px;
+  padding: 8px 14px;
+  overflow: visible;
+  border: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Animated rainbow outline ring */
+.automation-domains-switcher .rainbow-tab[data-state="active"]::before {
+  content: "";
+  position: absolute;
+  inset: -3px; /* thickness outside */
+  border-radius: 10px;
+  background: conic-gradient(
+    from var(--angle),
+    #ff7ecb 0%,
+    #ffb86b 16%,
+    #ffe680 33%,
+    #8dd7ff 50%,
+    #b299ff 66%,
+    #ffc2e6 83%,
+    #ff7ecb 100%
+  );
+  animation: rainbowHue 8s linear infinite;
+  z-index: -1;
+  pointer-events: none;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  padding: 3px; /* border thickness */
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rainbowHue {
+  to { --angle: 360deg; }
+}
+
+@keyframes rainbowFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.automation-domains-switcher .rainbow-tab[data-state="active"] svg {
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Glass morphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Text effects */
+.text-shadow-lg {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Animated shine text effect that flows across each letter */
+.text-shine {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg,
+    rgba(17,24,39,1) 0%,
+    rgba(17,24,39,1) 35%,
+    rgba(96,165,250,1) 50%,
+    rgba(17,24,39,1) 65%,
+    rgba(17,24,39,1) 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shineFlow 2.2s linear infinite;
+}
+
+@keyframes shineFlow {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #2563eb, #7c3aed);
+}
+
+/* Backlinkoo Design System - Clean, Powerful B2B SaaS
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 11% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 15%;
+
+    --primary: 219 95% 44%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 210 11% 15%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 11% 45%;
+
+    --accent: 210 40% 96%;
+    --accent-foreground: 210 11% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 31% 91%;
+    --input: 214 31% 91%;
+    --ring: 219 95% 44%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 80% 22%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 70% 26%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 70% 26%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 218 65% 30%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 218 55% 34%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 218 55% 34%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 218 50% 38%;
+    --input: 218 50% 38%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 224 60% 24%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 224 50% 28%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 224 45% 32%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'Roboto Mono', 'Consolas', 'Monaco', monospace;
+  }
+}
+
+/* Single-line headline utility: keep headline on one line with responsive clamp sizing */
+.headline-single-line {
+  font-size: clamp(20px, 3.6vw, 36px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.05;
+}
+
+@layer utilities {
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+
+  /* Additional animations for testimonials */
+  @keyframes slide-in-from-bottom-4 {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-in-from-right-2 {
+    from {
+      opacity: 0;
+      transform: translateX(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-bottom-4 {
+    animation: slide-in-from-bottom-4 0.6s ease-out forwards;
+  }
+
+  .animate-slide-in-right-2 {
+    animation: slide-in-from-right-2 0.5s ease-out forwards;
+  }
+
+  /* HYPER-AGGRESSIVE CONVERSION POPUP ANIMATIONS */
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-bottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes hyper-bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes mega-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+    50% {
+      transform: scale(1.15);
+      opacity: 0.8;
+      box-shadow: 0 0 0 20px rgba(255, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+  }
+
+  @keyframes explosive-shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes money-rain {
+    0% {
+      transform: translateY(-100vh) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes emergency-flash {
+    0%, 50%, 100% {
+      background-color: rgba(255, 0, 0, 0.9);
+      color: white;
+    }
+    25%, 75% {
+      background-color: rgba(255, 255, 0, 0.9);
+      color: black;
+    }
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s ease-out forwards;
+  }
+
+  .animate-slide-in-bottom {
+    animation: slide-in-bottom 0.3s ease-out forwards;
+  }
+
+  .animate-hyper-bounce {
+    animation: hyper-bounce 2s infinite;
+  }
+
+  .animate-mega-pulse {
+    animation: mega-pulse 1.5s infinite;
+  }
+
+  .animate-explosive-shake {
+    animation: explosive-shake 0.5s infinite;
+  }
+
+  .animate-money-rain {
+    animation: money-rain 3s linear infinite;
+  }
+
+  .animate-emergency-flash {
+    animation: emergency-flash 1s infinite;
+  }
+
+  /* HYPER-AGGRESSIVE POPUP STYLES */
+  .hype-popup-overlay {
+    background: radial-gradient(circle at center, rgba(255,0,0,0.9) 0%, rgba(0,0,0,0.95) 100%);
+  }
+
+  .conversion-emergency {
+    box-shadow:
+      0 0 50px rgba(255, 0, 0, 0.8),
+      0 0 100px rgba(255, 165, 0, 0.6),
+      0 0 150px rgba(255, 255, 0, 0.4);
+  }
+
+  .money-glow {
+    box-shadow:
+      0 0 30px rgba(0, 255, 0, 0.8),
+      0 0 60px rgba(0, 255, 0, 0.6),
+      inset 0 0 30px rgba(0, 255, 0, 0.2);
+  }
+
+  .fire-glow {
+    box-shadow:
+      0 0 20px rgba(255, 69, 0, 0.8),
+      0 0 40px rgba(255, 140, 0, 0.6),
+      0 0 60px rgba(255, 215, 0, 0.4);
+  }
+
+  .urgent-border {
+    border: 4px solid;
+    border-image: linear-gradient(45deg, #ff0000, #ff4500, #ffa500, #ffff00) 1;
+    animation: mega-pulse 1s infinite;
+  }
+
+  /* Floating notification improvements */
+  .notification-stack {
+    pointer-events: none;
+  }
+
+  .notification-stack > * {
+    pointer-events: auto;
+  }
+}
+
+/* Reusable animated rainbow outline for hover states (used on home pricing buttons) */
+.rainbow-outline-onhover {
+  position: relative;
+  border: 0;
+  z-index: 0;
+}
+
+.rainbow-outline-onhover::before {
+  content: "";
+  position: absolute;
+  /* align with button edges to remove corner gap */
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--angle),
+    #ff7ecb 0%,
+    #ffb86b 16%,
+    #ffe680 33%,
+    #8dd7ff 50%,
+    #b299ff 66%,
+    #ffc2e6 83%,
+    #ff7ecb 100%
+  );
+  animation: rainbowHue 8s linear infinite;
+  pointer-events: none;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  padding: 3px; /* border thickness */
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+/* Show the rainbow outline when the element itself is hovered,
+   or when its parent pricing card is hovered */
+.rainbow-outline-onhover:hover::before,
+.pricing-card:hover .rainbow-outline-onhover::before {
+  opacity: 1;
+}
+
+/* Lightweight section backgrounds and effects */
+.bg-grid-slim {
+  background-image:
+    linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* New: subtle hero background to replace line-grid on home */
+.bg-hero-soft {
+  background-image: radial-gradient(1200px 600px at 10% 20%, rgba(59,130,246,0.06), transparent 18%),
+                    radial-gradient(900px 500px at 85% 80%, rgba(147,51,234,0.05), transparent 20%),
+                    linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.soft-vignette {
+  position: relative;
+}
+.soft-vignette::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 120px rgba(0,0,0,0.06);
+}
+
+.section-ambient { position: relative; overflow: hidden; }
+.section-ambient::before,
+.section-ambient::after {
+  content: "";
+  position: absolute;
+  width: 40vw; height: 40vw;
+  filter: blur(60px);
+  opacity: 0.18;
+  pointer-events: none;
+  will-change: transform, opacity;
+  transition: opacity 0.4s ease;
+}
+.section-ambient::before {
+  top: -10%; left: -10%;
+  background: radial-gradient(closest-side, rgba(59,130,246,0.5), transparent 60%);
+  animation: ambientFloat 24s ease-in-out infinite alternate;
+}
+.section-ambient::after {
+  bottom: -10%; right: -10%;
+  background: radial-gradient(closest-side, rgba(147,51,234,0.45), transparent 60%);
+  animation: ambientFloat 28s ease-in-out infinite alternate-reverse;
+}
+@keyframes ambientFloat {
+  from { transform: translate3d(0,0,0) scale(1); }
+  to { transform: translate3d(4%, -4%, 0) scale(1.06); }
+}
+
+/* Animated cloud layers for sections with line-based backgrounds */
+.clouds { position: absolute; inset: 0; pointer-events: none; overflow: visible; z-index: 0; }
+.cloud { position: absolute; left: -30%; width: 160%; height: 180px; filter: blur(36px); opacity: 0.25; background-repeat: no-repeat; background-position: 50% 50%; background-size: 160% 100%; will-change: transform, opacity; }
+.cloud--1 { top: 6%; height: 220px; opacity: 0.18; transform: translateX(0); animation: moveClouds 80s linear infinite; background-image: radial-gradient(closest-side, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.92) 40%, rgba(255,255,255,0.78) 60%, transparent 70%); }
+.cloud--2 { top: 28%; height: 160px; opacity: 0.12; filter: blur(42px); animation: moveClouds 110s linear infinite reverse; background-image: radial-gradient(closest-side, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.86) 40%, rgba(255,255,255,0.7) 60%, transparent 72%); }
+.cloud--3 { top: 52%; height: 200px; opacity: 0.14; filter: blur(38px); animation: moveClouds 95s linear infinite; background-image: radial-gradient(closest-side, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.9) 35%, rgba(255,255,255,0.75) 55%, transparent 68%); }
+.cloud--4 { top: 72%; height: 140px; opacity: 0.1; filter: blur(30px); animation: moveClouds 130s linear infinite reverse; background-image: radial-gradient(closest-side, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 36%, rgba(255,255,255,0.7) 58%, transparent 70%); }
+
+@keyframes moveClouds {
+  0% { transform: translateX(-40%); }
+  100% { transform: translateX(40%); }
+}
+
+/* Ensure cloud layers sit behind primary content but above grid lines, and improve readability */
+.bg-grid-slim { position: relative; z-index: 0; }
+.bg-grid-slim .clouds, .clouds { z-index: 0; }
+
+/* Global clouds (site-wide) */
+.global-clouds { position: fixed; inset: 0; pointer-events: none; overflow: visible; z-index: 5; mix-blend-mode: screen; }
+.gcloud { position: absolute; left: -30%; width: 160%; height: 220px; filter: blur(20px); opacity: 0.36; background-repeat: no-repeat; background-position: 50% 50%; background-size: 160% 100%; will-change: transform, opacity, filter; transition: opacity .3s ease; }
+
+/* When on the home page, make clouds stronger and richer */
+.home-clouds-active .gcloud { opacity: 0.48; filter: blur(18px); mix-blend-mode: normal; }
+.home-clouds-active .gcloud--1 { opacity: 0.62; }
+.home-clouds-active .gcloud--2 { opacity: 0.54; }
+.home-clouds-active .gcloud--3 { opacity: 0.56; }
+.home-clouds-active .gcloud--4 { opacity: 0.46; }
+.home-clouds-active .gcloud--5 { opacity: 0.40; }
+
+/* Slightly tinted, soft cloud shapes for a subtle shade */
+.gcloud--1 { top: 4%; left: -40%; height: 300px; opacity: 0.34; filter: blur(28px); animation: drift1 70s cubic-bezier(.22,.9,.36,.99) infinite; background-image: radial-gradient(closest-side, rgba(240,248,255,0.98) 0%, rgba(235,244,255,0.92) 40%, rgba(230,240,255,0.80) 60%, transparent 72%); }
+.gcloud--2 { top: 22%; left: -50%; height: 200px; opacity: 0.28; filter: blur(36px); animation: drift2 110s cubic-bezier(.18,.9,.4,1) infinite; background-image: radial-gradient(closest-side, rgba(255,243,250,0.96) 0%, rgba(255,238,246,0.86) 42%, rgba(255,232,243,0.70) 62%, transparent 75%); }
+.gcloud--3 { top: 44%; left: -45%; height: 240px; opacity: 0.30; filter: blur(30px); animation: drift3 90s cubic-bezier(.25,.8,.25,1) infinite; background-image: radial-gradient(closest-side, rgba(245,250,255,0.98) 0%, rgba(240,248,255,0.9) 36%, rgba(235,244,255,0.76) 56%, transparent 70%); }
+.gcloud--4 { top: 64%; left: -55%; height: 170px; opacity: 0.22; filter: blur(28px); animation: drift4 130s cubic-bezier(.2,.9,.3,1) infinite; background-image: radial-gradient(closest-side, rgba(250,245,255,0.95) 0%, rgba(245,240,255,0.86) 40%, rgba(240,235,255,0.72) 60%, transparent 74%); }
+.gcloud--5 { top: 82%; left: -35%; height: 140px; opacity: 0.18; filter: blur(22px); animation: drift5 160s cubic-bezier(.22,.88,.34,1) infinite; background-image: radial-gradient(closest-side, rgba(255,250,240,0.92) 0%, rgba(255,246,235,0.82) 38%, rgba(255,242,230,0.70) 58%, transparent 72%); }
+
+@keyframes drift1 {
+  0% { transform: translate3d(-60%, -4%, 0) scale(1) rotate(-4deg); }
+  20% { transform: translate3d(-15%, 2%, 0) scale(1.02) rotate(0deg); }
+  40% { transform: translate3d(10%, -6%, 0) scale(1.04) rotate(3deg); }
+  60% { transform: translate3d(35%, 3%, 0) scale(1.03) rotate(-2deg); }
+  80% { transform: translate3d(60%, -2%, 0) scale(1.01) rotate(1deg); }
+  100% { transform: translate3d(110%, 4%, 0) scale(1) rotate(-1deg); }
+}
+
+@keyframes drift2 {
+  0% { transform: translate3d(-80%, 2%, 0) scale(1) rotate(2deg); }
+  25% { transform: translate3d(-30%, -6%, 0) scale(1.01) rotate(-1deg); }
+  50% { transform: translate3d(10%, 8%, 0) scale(1.03) rotate(0deg); }
+  75% { transform: translate3d(50%, -4%, 0) scale(1.02) rotate(2deg); }
+  100% { transform: translate3d(120%, 6%, 0) scale(1) rotate(-2deg); }
+}
+
+@keyframes drift3 {
+  0% { transform: translate3d(-70%, -2%, 0) scale(1) rotate(-1deg); }
+  30% { transform: translate3d(-25%, 6%, 0) scale(1.02) rotate(2deg); }
+  60% { transform: translate3d(20%, -8%, 0) scale(1.05) rotate(4deg); }
+  100% { transform: translate3d(110%, 2%, 0) scale(1) rotate(0deg); }
+}
+
+@keyframes drift4 {
+  0% { transform: translate3d(-90%, 6%, 0) scale(1) rotate(3deg); }
+  40% { transform: translate3d(-40%, -8%, 0) scale(1.01) rotate(-2deg); }
+  80% { transform: translate3d(30%, 10%, 0) scale(1.03) rotate(2deg); }
+  100% { transform: translate3d(120%, -4%, 0) scale(1) rotate(1deg); }
+}
+
+@keyframes drift5 {
+  0% { transform: translate3d(-50%, -6%, 0) scale(1) rotate(-2deg); }
+  50% { transform: translate3d(10%, 10%, 0) scale(1.02) rotate(1deg); }
+  100% { transform: translate3d(130%, -2%, 0) scale(1) rotate(-1deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gcloud, .gcloud--1, .gcloud--2, .gcloud--3, .gcloud--4, .gcloud--5 { animation: none !important; }
+}
+
+/* Per-section ambient cloud overlay (stronger shading for home sections) */
+.section-ambient { position: relative; overflow: hidden; }
+.section-ambient::before {
+  content: "";
+  position: absolute;
+  inset: -10% 0 -10% 0;
+  pointer-events: none;
+  background-image: radial-gradient(60% 40% at 10% 20%, rgba(255,250,250,0.12), transparent 30%), radial-gradient(50% 30% at 90% 80%, rgba(240,248,255,0.10), transparent 35%);
+  filter: blur(26px);
+  opacity: 1;
+  z-index: 2; /* above grid, below content (content z-index is 10) */
+  animation: sectionDrift 40s linear infinite;
+}
+
+@keyframes sectionDrift {
+  0% { transform: translate3d(-8%,0,0) scale(1); }
+  50% { transform: translate3d(8%,2%,0) scale(1.02); }
+  100% { transform: translate3d(-8%,0,0) scale(1); }
+}
+
+/* Push page content above clouds */
+.container, .section-ambient, header, main, footer { position: relative; z-index: 10; }
+
+/* Button glare on hover only (no continuous animation) */
+.btn-glare { position: relative; overflow: hidden; }
+
+/* Disable only the rainbow outline layer when combined with btn-glare (keep glare active) */
+.btn-glare.rainbow-outline-onhover::before {
+  display: none !important;
+  opacity: 0 !important;
+  animation: none !important;
+}
+.btn-glare::after {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: 0;
+  width: 70%;
+  height: 220%;
+  background: linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0) 100%);
+  transform: translateX(-200%) skewX(-20deg);
+  pointer-events: none;
+  will-change: transform, opacity;
+  opacity: 0;
+  filter: drop-shadow(0 6px 18px rgba(255,255,255,0.12));
+  animation: glareSweep 6s cubic-bezier(.25,.1,.25,1) infinite reverse;
+}
+.btn-glare:hover::after {
+  animation-direction: normal;
+  animation-duration: 2s;
+  opacity: 1;
+}
+
+@keyframes glareSweep {
+  0%, 18% { transform: translateX(-200%) skewX(-20deg); opacity: 0; }
+  30% { opacity: .9; }
+  55% { transform: translateX(200%) skewX(-20deg); opacity: 0; }
+  100% { transform: translateX(200%) skewX(-20deg); opacity: 0; }
+}
+
+/* Pricing card hover glow (subtle) */
+.pricing-card { transition: box-shadow 0.25s ease, transform 0.25s ease; }
+.pricing-card:hover { box-shadow: 0 16px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+.pricing-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(120deg, rgba(59,130,246,0.25), rgba(147,51,234,0.18));
+  transition: opacity 0.25s ease;
+}
+.pricing-card:hover::after { opacity: 1; }
+
+/* Rainbow flow border for pricing cards (applies conic-gradient animated border) */
+.pricing-card-rainbow { position: relative; border-radius: 16px; }
+.pricing-card-rainbow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 2px; /* border thickness */
+  background: conic-gradient(
+    from 0deg,
+    #ff7ecb,
+    #ffb86b,
+    #ffe680,
+    #8dd7ff,
+    #b299ff,
+    #ff7ecb
+  );
+  background-size: 300% 300%;
+  animation: rainbowShift 8s linear infinite;
+  animation-play-state: paused;
+  opacity: 0;
+  transition: opacity .25s ease;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+.pricing-card-rainbow:hover::before {
+  opacity: 1;
+  animation-play-state: running;
+}
+/* Remove existing hover background to avoid conflict when rainbow overlay/border is present */
+.pricing-card.pricing-card-rainbow:hover::after { opacity: 0 !important; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-shimmer, .animate-gradient-shift, .section-ambient::before, .section-ambient::after { animation: none !important; }
+  .btn-glare::after { transition: none; animation: none !important; }
+  .seo-feature-overlay-inner::after { animation: none !important; }
+  .learn-glare-border { animation: none !important; }
+  .learn-glare-border::after { animation: none !important; opacity: 0 !important; }
+}
+
+/* Freeze surrounding visual effects while a form field is focused */
+.ui-freeze-on-input:focus-within,
+.ui-freeze-on-input:focus-within::before,
+.ui-freeze-on-input:focus-within::after {
+  animation: none !important;
+}
+.ui-freeze-on-input:focus-within * {
+  animation-play-state: paused !important;
+  transition: none !important;
+}
+
+/* SEO feature hover overlay with animated rainbow border */
+.seo-feature-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem; /* match rounded-xl */
+  padding: 2px; /* border thickness */
+  background: conic-gradient(from 0deg, #ff7ecb, #ffb86b, #ffe680, #8dd7ff, #b299ff, #ff7ecb);
+  background-size: 300% 300%;
+  animation: rainbowShift 8s linear infinite;
+  animation-play-state: paused;
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity .25s ease, transform .25s ease; box-shadow: 0 0 0 1px rgba(255,255,255,0.6) inset; will-change: opacity, transform, background-position;
+  pointer-events: none; /* purely decorative */
+  display: flex;
+}
+
+/* Activate overlay animation and reveal only on hover */
+.group:hover .seo-feature-overlay,
+.pricing-card-rainbow:hover .seo-feature-overlay {
+  opacity: 1;
+  transform: scale(1);
+  animation-play-state: running;
+}
+.seo-feature-overlay-inner {
+  border-radius: 0.625rem;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  padding-bottom: 56px; /* reserve space for the Select button */
+  position: relative;
+  overflow: visible;
+}
+
+/* Decorative 'Select' button inside overlay (pure CSS). Clicks pass through to underlying card so the card's click handler still works. */
+.pricing-card-rainbow .seo-feature-overlay-inner::after {
+  content: "Select";
+  position: absolute;
+  top: 62%; /* closer to center, but still below the text */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000; /* black button */
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  pointer-events: none;
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+  opacity: 1; /* always visible; glare is periodic only */
+  z-index: 3;
+
+  /* subtle periodic glare */
+  background-image: linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.35) 50%, rgba(255,255,255,0) 100%);
+  background-size: 300% 100%;
+  background-position: -200% 0;
+  animation: selectGlare 12s ease-in-out infinite reverse;
+}
+
+/* Keep Select button visible but do NOT modify its glare on hover; glare remains driven by the periodic animation */
+.pricing-card-rainbow:hover .seo-feature-overlay-inner::after {
+  transform: translateX(-50%) translateY(-2px); /* slight lift only */
+}
+
+@keyframes selectGlare {
+  /* periodic timed glare: idle -> visible -> idle. Animate background position + brief brightness/box-shadow peak */
+  0%, 72% {
+    background-position: -200% 0;
+    box-shadow: 0 6px 18px rgba(14,165,233,0.12);
+    filter: brightness(1);
+  }
+  78% {
+    background-position: 0% 0;
+    box-shadow: 0 14px 36px rgba(255,255,255,0.18), 0 12px 28px rgba(14,165,233,0.18);
+    filter: brightness(1.14);
+  }
+  86% {
+    background-position: 200% 0;
+    box-shadow: 0 6px 18px rgba(14,165,233,0.12);
+    filter: brightness(1);
+  }
+  100% {
+    background-position: 200% 0;
+    box-shadow: 0 6px 18px rgba(14,165,233,0.12);
+    filter: brightness(1);
+  }
+}
+
+/* Keep generic overlay reveal for other overlays but without Select button */
+.group:hover .seo-feature-overlay { opacity: 1; transform: scale(1); }
+
+/* Ensure the "MOST POPULAR" badge is not visually affected on hover */
+.most-popular-badge { z-index: 60; isolation: isolate; }
+.pricing-card:hover .most-popular-badge,
+.pricing-card-rainbow:hover .most-popular-badge,
+.group:hover .most-popular-badge {
+  transform: translateX(-50%) !important; /* preserve centering */
+  left: 50% !important;
+  filter: none !important;
+  opacity: 1 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Also change Search/primary interactive pill (btn-glare) from blue to black on hover */
+.btn-glare:hover, .btn-glare:focus {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+/* Ensure glare pseudo doesn't visually conflict when background becomes black */
+.btn-glare::after { background: linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.35) 50%, rgba(255,255,255,0) 100%); }
+.btn-glare:hover::after { animation-direction: normal; animation-duration: 2.5s; opacity: 1; }
+
+/* Normalize lead paragraph styling across templates: smaller, muted body text */
+.lead,
+.post-content .lead,
+.blog-post .lead {
+  font-size: 0.875rem !important; /* 14px */
+  color: #4b5563 !important; /* gray-600 */
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Also ensure generated templates with inline CSS get a baseline */
+html body .lead { font-size: 0.875rem !important; color: #4b5563 !important; }
+
+/* Google Translate element hardening: hide default banner and iframe artifacts */
+#google_translate_element { position: fixed; left: -9999px; top: -9999px; height: 0; width: 0; overflow: hidden; visibility: hidden; }
+.goog-te-banner-frame.skiptranslate { display: none !important; }
+body { top: 0 !important; }
+.goog-logo-link { display: none !important; }
+.goog-te-gadget { height: 0 !important; overflow: hidden !important; }
+
+/* Route-scoped rainbow border flow on hover (for /keyword-research and /rank-tracker) */
+.rainbow-hover-scope .rainbow-hover-target:hover {
+  position: relative;
+  z-index: 2;
+}
+.rainbow-hover-scope .rainbow-hover-target:hover::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--angle),
+    #ff7ecb 0%,
+    #ffb86b 16%,
+    #ffe680 33%,
+    #8dd7ff 50%,
+    #b299ff 66%,
+    #ffc2e6 83%,
+    #ff7ecb 100%
+  );
+  animation: rainbowHue 8s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+/* Always-visible rainbow border (use on buttons or elements that should glow continuously) */
+.always-rainbow {
+  position: relative;
+  z-index: 2;
+}
+.always-rainbow::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--angle),
+    #ff7ecb 0%,
+    #ffb86b 16%,
+    #ffe680 33%,
+    #8dd7ff 50%,
+    #b299ff 66%,
+    #ffc2e6 83%,
+    #ff7ecb 100%
+  );
+  animation: rainbowHue 8s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+.rainbow-tabs-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  background: rgba(148, 163, 184, 0.12);
+  backdrop-filter: blur(8px);
+  box-shadow: none;
+}
+
+.dark .rainbow-tabs-wrapper {
+  background: rgba(15, 23, 42, 0.55);
+  box-shadow: none;
+}
+
+.rainbow-tab {
+  position: relative;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+}
+
+.rainbow-tab::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--angle),
+    #ff7ecb 0%,
+    #ffb86b 16%,
+    #ffe680 33%,
+    #8dd7ff 50%,
+    #b299ff 66%,
+    #ffc2e6 83%,
+    #ff7ecb 100%
+  );
+  animation: rainbowHue 8s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.rainbow-tab[data-state="active"] {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  box-shadow: none;
+  transform: translateY(-1px);
+}
+
+.dark .rainbow-tab[data-state="active"] {
+  background: rgba(15, 23, 42, 0.9);
+  box-shadow: none;
+}
+
+.rainbow-tab:not([data-state="active"]) {
+  color: hsl(var(--muted-foreground));
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.dark .rainbow-tab:not([data-state="active"]) {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.rainbow-tab[data-state="active"]::after {
+  opacity: 1;
+}
+
+/* Glare / shine effect for buttons */
+.glare-button {
+  position: relative;
+  overflow: hidden;
+}
+.glare-button::before {
+  content: "";
+  position: absolute;
+  left: -80%;
+  top: -40%;
+  width: 40%;
+  height: 220%;
+  background: linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.65) 50%, rgba(255,255,255,0) 100%);
+  transform: rotate(25deg);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: glareMove 2.2s linear infinite;
+}
+
+@keyframes glareMove {
+  0% { left: -80%; }
+  100% { left: 160%; }
+}

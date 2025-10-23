@@ -1,0 +1,5 @@
+:root{--ok:#16a34a;--warn:#f59e0b;--err:#ef4444}
+.theme-seo .pill{display:inline-block;border:1px solid rgba(2,6,23,.12);border-radius:999px;padding:4px 8px;font-size:12px}
+.theme-seo .ok{color:#065f46}
+.theme-seo .warn{color:#7c2d12}
+.theme-seo .err{color:#7f1d1d}

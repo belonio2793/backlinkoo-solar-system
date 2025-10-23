@@ -1,0 +1,80 @@
+.sureoak-progress{position:sticky;top:0;z-index:40;height:6px;background:rgba(15,118,110,0.12);backdrop-filter:saturate(160%) blur(8px)}
+.sureoak-progress__bar{height:100%;width:0;background:linear-gradient(90deg,#0ea5e9,#6366f1);transition:width .2s ease-out}
+
+.sureoak-hero{padding:3rem 0 2rem;border-bottom:1px solid rgba(15,23,42,0.08)}
+.sureoak-hero__badge{display:flex;align-items:center;gap:.75rem;margin-bottom:1.25rem}
+.sureoak-badge{background:rgba(14,165,233,0.12);color:#0369a1;font-weight:600;border-radius:999px;padding:.35rem 1.1rem}
+.sureoak-hero__date{font-size:.9rem;color:#475569}
+.sureoak-title{font-size:clamp(2.5rem,4vw,3.5rem);font-weight:800;line-height:1.05;max-width:16ch;margin-bottom:1rem;color:#0f172a}
+.sureoak-subtitle{max-width:78ch;font-size:1.05rem;line-height:1.8;color:#334155}
+
+.sureoak-stats{margin-top:2.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem}
+.sureoak-stat{background:linear-gradient(145deg,rgba(15,118,110,0.08),rgba(59,130,246,0.12));border-radius:1rem;padding:1.25rem;box-shadow:0 18px 30px -24px rgba(15,23,42,0.45)}
+.sureoak-stat__label{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#0f172a87;margin-bottom:.35rem}
+.sureoak-stat__value{font-size:1rem;font-weight:600;color:#0f172a}
+
+.sureoak-cta-bar{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem}
+.sureoak-cta{background:linear-gradient(120deg,#0ea5e9,#2563eb);border:none;color:white;font-weight:600;box-shadow:0 16px 40px -24px rgba(14,165,233,0.8)}
+.sureoak-cta.secondary{background:white;color:#0f172a;border:1px solid rgba(15,23,42,0.1)}
+
+.sureoak-frameworks{margin-top:3.5rem}
+.sureoak-frameworks h2{font-size:1.75rem;font-weight:700;color:#0f172a;margin-bottom:1.5rem}
+.sureoak-frameworks__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}
+.sureoak-card{background:white;border:1px solid rgba(15,23,42,0.08);border-radius:1rem;padding:1.2rem;box-shadow:0 16px 30px -28px rgba(15,23,42,0.5)}
+.sureoak-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.5rem;color:#0f172a}
+.sureoak-card p{color:#334155;line-height:1.7}
+
+.sureoak-layout{display:grid;grid-template-columns:280px 1fr;gap:2.5rem;margin-top:3.5rem}
+@media (max-width:1100px){.sureoak-layout{grid-template-columns:1fr}}
+
+.sureoak-toc{position:sticky;top:92px;align-self:flex-start;border:1px solid rgba(15,23,42,0.08);border-radius:1rem;padding:1.15rem;background:rgba(255,255,255,0.85);backdrop-filter:saturate(180%) blur(12px);box-shadow:0 20px 40px -36px rgba(14,116,144,0.65)}
+.sureoak-toc__title{font-size:.95rem;font-weight:700;color:#0f172a;margin-bottom:.65rem}
+.sureoak-toc ul{margin:0;padding:0;list-style:none;display:grid;gap:.35rem}
+.sureoak-toc a{display:block;padding:.45rem .65rem;border-radius:.65rem;color:#334155;text-decoration:none;font-size:.95rem}
+.sureoak-toc a:hover{background:rgba(14,165,233,0.12);color:#0f172a;font-weight:600}
+
+.sureoak-article{max-width:860px}
+.sureoak-section{padding:1.75rem 0;border-bottom:1px dashed rgba(15,23,42,0.12)}
+.sureoak-section:last-of-type{border-bottom:none}
+.sureoak-section__header h2{font-size:1.65rem;font-weight:800;color:#0f172a;margin-bottom:.75rem}
+.sureoak-section p{color:#1e293b;line-height:1.9;margin-top:.85rem;font-size:1.02rem}
+.sureoak-section strong{color:#0f172a}
+.sureoak-list{margin-top:1.25rem;border-left:3px solid rgba(14,165,233,0.4);padding-left:1rem}
+.sureoak-list h3{font-size:1.1rem;font-weight:700;color:#0f172a;margin-bottom:.5rem}
+.sureoak-list ul{padding-left:1.15rem;display:grid;gap:.45rem;color:#334155}
+
+.sureoak-table__wrap{margin-top:1.25rem;border:1px solid rgba(15,23,42,0.08);border-radius:1rem;overflow:hidden;background:white;box-shadow:0 24px 40px -28px rgba(15,23,42,0.35)}
+.sureoak-table{width:100%;border-collapse:separate;border-spacing:0}
+.sureoak-table th,.sureoak-table td{padding:.85rem 1rem;text-align:left;vertical-align:top;border-bottom:1px solid rgba(15,23,42,0.08);line-height:1.7;color:#1e293b}
+.sureoak-table thead th{background:rgba(14,165,233,0.12);font-weight:700;color:#0f172a}
+.sureoak-table tbody tr:last-child td{border-bottom:none}
+
+.sureoak-timeline{position:relative;margin-top:1.5rem;padding-left:1rem}
+.sureoak-timeline::before{content:"";position:absolute;left:.4rem;top:.25rem;bottom:.25rem;width:2px;background:linear-gradient(180deg,#0ea5e9,#6366f1)}
+.sureoak-timeline__item{position:relative;padding-left:1.75rem;margin-bottom:1.5rem}
+.sureoak-timeline__marker{position:absolute;left:-.08rem;top:.35rem;width:.9rem;height:.9rem;border-radius:999px;background:white;border:3px solid #0ea5e9;box-shadow:0 0 0 6px rgba(14,165,233,0.18)}
+.sureoak-timeline__content h3{font-size:1.15rem;font-weight:700;color:#0f172a;margin-bottom:.35rem}
+.sureoak-timeline__label{display:inline-block;font-size:.8rem;text-transform:uppercase;letter-spacing:.18em;color:#0ea5e9;margin-bottom:.35rem}
+.sureoak-timeline__content p{color:#334155;line-height:1.75}
+
+.sureoak-kpi-grid{margin-top:1.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem}
+.sureoak-kpi{background:white;border:1px solid rgba(15,23,42,0.08);border-radius:.95rem;padding:1.25rem;box-shadow:0 20px 36px -28px rgba(15,23,42,0.38)}
+.sureoak-kpi h3{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:.65rem}
+.sureoak-kpi ul{margin:0;padding-left:1.1rem;display:grid;gap:.4rem;color:#334155}
+
+.sureoak-accordion{margin-top:1rem;border:1px solid rgba(15,23,42,0.08);border-radius:1rem;background:white;box-shadow:0 20px 38px -30px rgba(15,23,42,0.4)}
+.sureoak-accordion__trigger{font-size:1.05rem;font-weight:600;color:#0f172a;padding:1rem 1.25rem}
+.sureoak-accordion__content{color:#334155;line-height:1.8;padding:0 1.25rem 1rem}
+
+.sureoak-cta-section{background:linear-gradient(120deg,rgba(14,165,233,0.08),rgba(56,189,248,0.12));border-radius:1.2rem;padding:2.5rem 2rem;margin-top:2.5rem;box-shadow:0 30px 60px -32px rgba(14,165,233,0.55)}
+.sureoak-cta-section p{max-width:68ch}
+
+@media (max-width:768px){
+  .sureoak-progress{top:-1px}
+  .sureoak-hero{padding:2.5rem 0 1.5rem}
+  .sureoak-title{font-size:2.25rem}
+  .sureoak-layout{gap:1.5rem}
+  .sureoak-toc{position:relative;top:auto}
+  .sureoak-stats{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .sureoak-cta-bar{flex-direction:column;align-items:flex-start}
+}

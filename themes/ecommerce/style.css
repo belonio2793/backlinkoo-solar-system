@@ -1,0 +1,124 @@
+/* Global Reset & Base Typography */
+html, body { margin: 0; padding: 0; font-family: "Georgia", "Times New Roman", serif; color: #1f2937; background: #fafafa; line-height: 1.8; font-size: 18px; }
+
+/* Container */
+article.post, .content.post, .post-container { max-width: 760px; margin: 3rem auto; padding: 0 1rem; background: #ffffff; border-radius: 14px; box-shadow: 0 10px 28px rgba(0,0,0,0.08); }
+
+/* Headings */
+article.post h1, article.post h2, article.post h3, article.post h4, .content h1, .content h2, .content h3, .content h4 { font-family: system-ui, -apple-system, Segoe UI, Inter, Roboto, Arial, sans-serif; margin: 2rem 0 1rem; font-weight: 800; line-height: 1.3; }
+article.post h1, .content h1 { font-size: 2.3rem; border-bottom: 3px solid #e5e7eb; padding-bottom: .5rem; }
+article.post h2, .content h2 { font-size: 1.7rem; color: #111827; }
+article.post h3, .content h3 { font-size: 1.35rem; color: #374151; }
+
+/* Text Elements */
+article.post p, .content p { margin: 1.2rem 0; }
+article.post strong, .content strong { font-weight: 600; color: #111827; }
+article.post a, .content a { color: #16a34a; text-decoration: none; border-bottom: 1px dashed #16a34a; transition: color .2s ease; }
+article.post a:hover, .content a:hover { color: #166534; border-bottom: 1px solid #166534; }
+
+/* Lists */
+article.post ul, article.post ol, .content ul, .content ol { margin: 1rem 0 1rem 2rem; padding: 0; }
+article.post li, .content li { margin: .5rem 0; }
+
+/* Images */
+article.post img, .content img { max-width: 100%; height: auto; border-radius: 10px; margin: 1.25rem 0; box-shadow: 0 8px 24px rgba(0,0,0,0.07); }
+
+/* Blockquotes */
+article.post blockquote, .content blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: 4px solid #16a34a; background: #ecfdf5; color: #065f46; font-style: italic; border-radius: 8px; }
+
+/* Tables */
+article.post table, .content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+article.post th, article.post td, .content th, .content td { border: 1px solid #e5e7eb; padding: .75rem; }
+article.post th, .content th { background: #16a34a; color: #fff; text-align: left; }
+
+/* Code */
+article.post pre, article.post code, .content pre, .content code { font-family: "Courier New", ui-monospace, monospace; background: #f3f4f6; padding: .3rem .6rem; border-radius: 6px; font-size: .95rem; overflow-x: auto; }
+article.post pre, .content pre { padding: 1rem; margin: 1.5rem 0; white-space: pre-wrap; }
+
+/* HR */
+article.post hr, .content hr { border: 0; height: 1px; background: #e5e7eb; margin: 2rem 0; }
+
+@media (max-width: 768px) { article.post, .content.post, .post-container { padding: 1rem; margin: 1.5rem; } article.post h1, .content h1 { font-size: 1.85rem; } article.post h2, .content h2 { font-size: 1.45rem; } article.post h3, .content h3 { font-size: 1.2rem; } }
+
+/* Post formatting fixes - Scoped per-theme */
+::where(article.post, .content) :where(h1,h2,h3,h4,p,ul,ol,li,pre,code) { box-sizing: border-box; }
+
+article.post .content h1, article.post .content h2, article.post .content h3, article.post .content h4, .content h1, .content h2, .content h3, .content h4 {
+  display: block;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+article.post .content p, .content p {
+  margin: 1rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+article.post .content ul, .content ul, article.post .content ol, .content ol {
+  margin: 1rem 0 1rem 1.25rem;
+  padding-left: 1.25rem;
+  list-style-position: outside;
+}
+
+article.post .content li, .content li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+article.post .content ul li::marker, .content ul li::marker {
+  font-size: inherit;
+}
+
+article.post .content pre, .content pre { white-space: pre-wrap; word-break: break-word; }
+
+article.post .content p strong:first-child:last-child, .content p strong:first-child:last-child {
+  display: block;
+  margin-bottom: 0.6em;
+  font-size: 1.12em;
+  font-weight: 600;
+}
+
+/* UX Content Enhancements */
+article.post .summary-box, .content .summary-box {border:1px solid rgba(2,6,23,.12);background:#f8fafc;border-radius:12px;padding:12px 16px;margin:1rem 0 1.25rem;font-size:.95rem}
+article.post .summary-box .summary-meta, .content .summary-box .summary-meta {display:flex;gap:.5rem;margin-bottom:.5rem}
+article.post .summary-box .reading-time, .content .summary-box .reading-time {display:inline-block;background:#e2e8f0;color:#0f172a;border-radius:999px;padding:2px 8px;font-size:.75rem}
+
+article.post .toc, .content .toc {border:1px solid rgba(2,6,23,.12);background:#ffffff;border-radius:10px;padding:10px 12px;margin:1rem 0;font-size:.9rem}
+article.post .toc ul, .content .toc ul {margin:0;padding:0;list-style:none}
+article.post .toc li, .content .toc li {margin:.25rem 0}
+article.post .toc a, .content .toc a {color:#0f172a;text-decoration:none;border-bottom:1px dotted #94a3b8}
+article.post .toc a:hover, .content .toc a:hover {color:#0a4c8a}
+
+article.post .callout, .content .callout {padding:.75rem 1rem;border-radius:10px;margin:1rem 0;font-size:.95rem}
+article.post .callout.tip, .content .callout.tip {background:#ecfdf5;border-left:4px solid #10b981;color:#065f46}
+article.post .callout.note, .content .callout.note {background:#eff6ff;border-left:4px solid #3b82f6;color:#1e3a8a}
+article.post .callout.warning, .content .callout.warning {background:#fffbeb;border-left:4px solid #f59e0b;color:#7c2d12}
+
+article.post blockquote.pull-quote, .content blockquote.pull-quote {border-left:4px solid #0ea5e9;background:#f0f9ff;color:#0c4a6e;padding:1rem 1.25rem;border-radius:10px;font-style:italic}
+
+article.post figure.figure, .content figure.figure {margin:1.25rem 0;text-align:center}
+article.post figure.figure img, .content figure.figure img {max-width:100%;height:auto;border-radius:10px}
+article.post figure.figure figcaption, .content figure.figure figcaption {font-size:.85rem;color:#64748b;margin-top:.5rem}
+
+article.post table.table, .content table.table {width:100%;border-collapse:collapse;margin:1.25rem 0;background:#ffffff;border:1px solid #e5e7eb}
+article.post table.table th, article.post table.table td, .content table.table th, .content table.table td {padding:.6rem .75rem;border-bottom:1px solid #e5e7eb;text-align:left}
+article.post table.table tr:nth-child(odd), .content table.table tr:nth-child(odd) {background:#fafafa}
+
+article.post ul.markdown-list, .content ul.markdown-list, article.post ol.markdown-list, .content ol.markdown-list {margin:1rem 0 1rem 1.25rem; padding-left:1.25rem}
+article.post ul.markdown-list li, .content ul.markdown-list li, article.post ol.markdown-list li, .content ol.markdown-list li {margin:.5rem 0}
+
+@media (prefers-color-scheme: dark) {
+  article.post .summary-box, .content .summary-box {background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.12);color:#e5e7eb}
+  article.post .summary-box .reading-time, .content .summary-box .reading-time {background:rgba(255,255,255,.08);color:#e5e7eb}
+  article.post .toc, .content .toc {background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.12)}
+  article.post .toc a, .content .toc a {color:#bfdbfe;border-bottom-color:#64748b}
+  article.post blockquote.pull-quote, .content blockquote.pull-quote {background:rgba(14,165,233,.08);color:#0c4a6e}
+  article.post table.table, .content table.table {background:transparent;border-color:rgba(255,255,255,.12)}
+  article.post table.table th, article.post table.table td, .content table.table th, .content table.table td {border-bottom-color:rgba(255,255,255,.1)}
+}
+
+/* Keyword emphasis helper */
+.kw { font-weight:700; font-style:italic; text-decoration: underline; text-decoration-thickness:.08em; text-underline-offset:2px; }

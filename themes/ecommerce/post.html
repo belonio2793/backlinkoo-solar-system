@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecommerce Theme</title>
+
+  <!-- Google font for ecommerce theme -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --text:#0b1220; --muted:#6b7280; --accent:#0ea5a3; --card:#ffffff; --brand:#111827;
+      --ecom-font: 'Poppins', system-ui, -apple-system, Roboto, 'Segoe UI', sans-serif;
+      --max-width:900px;
+    }
+    html,body{height:100%;}
+    body { font-family: var(--ecom-font); background:#ffffff; color:var(--text); margin:0; -webkit-font-smoothing:antialiased; }
+    .wrap { max-width:var(--max-width); margin:28px auto; padding:0 16px }
+    .meta { color:var(--muted); margin:0 0 16px }
+    article { line-height:1.75 }
+    a.back { color:var(--brand); text-decoration:none }
+
+    /* Rich content defaults */
+    article, .content { line-height: 1.85; font-size: 1.06rem; }
+    article p, .content p { margin: 1em 0; }
+
+    /* Cascading headline styles (h1 handled by template) */
+    article h1, .content h1 { font-size: 2.25rem; margin: .25em 0 .6em; font-weight:700; letter-spacing:-0.01em }
+    #post-title { text-align:center; font-size: 2.25rem; margin: .25em 0 .6em; font-weight:700; letter-spacing:-0.01em }
+    article h2, .content h2 { font-size: 1.5rem; margin-top: 1.6em; margin-bottom: .4em; line-height: 1.18; font-weight:600 }
+    article h3, .content h3 { font-size: 1.25rem; margin-top:1.4em; margin-bottom:.35em; font-weight:600 }
+    article h4, .content h4 { font-size: 1.05rem; margin-top:1.2em; margin-bottom:.3em; font-weight:600 }
+    article h5, .content h5 { font-size: .98rem; margin-top:1em; margin-bottom:.25em; font-weight:600; color:var(--muted) }
+    article h1, article h2, article h3, article h4, article h5 { scroll-margin-top: 88px }
+
+    /* Lists */
+    article ul, .content ul { margin: 1em 0; padding-left: 1.2em; list-style: none; }
+    article ul li, .content ul li { position: relative; margin: .5em 0; padding-left: 1.2em; }
+    article ul li::before, .content ul li::before { content: ''; position: absolute; left:0; top:.45em; width:.5em; height:.5em; border-radius:.15em; background: linear-gradient(135deg,var(--accent),#7dd3fc); transform: rotate(15deg); }
+    article ol, .content ol { margin: 1em 0; padding-left: 1.5em; }
+    article ol li, .content ol li { margin: .45em 0; }
+
+    /* Blockquote */
+    article blockquote, .content blockquote { margin: 1.25em 0; padding: .9em 1em; border-left: 4px solid rgba(14,165,163,.15); background: rgba(14,165,163,.03); border-radius: 10px; }
+
+    /* Code and pre */
+    article code, .content code { background: rgba(0,0,0,.04); padding: .15em .35em; border-radius: .35em; font-size: .95em; }
+    article pre, .content pre { background: rgba(0,0,0,.06); padding: 1em; border-radius: 12px; overflow: auto; border: 1px solid rgba(0,0,0,.08); }
+
+    /* Media */
+    article img, .content img, article video, .content video { max-width: 100%; height: auto; border-radius: 12px; display: block; margin: 1em auto; }
+    article figure, .content figure { margin: 1.5em 0; }
+    article figcaption, .content figcaption { font-size: .92em; opacity: .85; text-align: center; margin-top: .5em; }
+
+    /* Tables */
+    article table, .content table { width: 100%; border-collapse: separate; border-spacing: 0; overflow: auto; display: block; }
+    article th, .content th, article td, .content td { border-bottom: 1px solid rgba(0,0,0,.06); padding: .75em .9em; text-align: left; }
+
+    /* HR divider */
+    article hr, .content hr { border: 0; height: 1px; background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,.08), rgba(0,0,0,0)); margin: 2em 0; }
+
+    /* Featured image */
+    .post-container{max-width:780px;margin:0 auto}
+    .content .featured-image, .content figure.featured-image { max-width: 100%; margin: 12px auto 20px; overflow: hidden; border-radius:12px }
+    .content .featured-image img { width: 100% !important; height: auto !important; display: block; }
+
+    /* Ecommerce cards and slider (pure CSS) */
+    .cards { display:flex; gap:16px; overflow:auto; scroll-snap-type:x mandatory; padding-bottom:8px }
+    .cards .card { min-width:220px; flex:0 0 70%; background:var(--card); border-radius:12px; padding:16px; box-shadow:0 6px 20px rgba(16,24,40,.06); scroll-snap-align:start; transition: transform .25s ease, box-shadow .25s ease }
+    .cards .card:hover { transform: translateY(-6px); box-shadow:0 12px 30px rgba(16,24,40,.12) }
+    .cards .card .title{font-weight:600;margin-bottom:.5em}
+    .cards .card .excerpt{color:var(--muted);font-size:.95rem}
+
+    /* FAQ widget */
+    .faq{border-radius:12px;padding:12px;border:1px solid rgba(0,0,0,.04);background:linear-gradient(180deg,#fff,#fbfbfd)}
+    .faq summary{cursor:pointer;font-weight:600}
+    .faq details{margin:8px 0}
+
+    /* Simple text animations */
+    .reveal { opacity:0; transform: translateY(8px); animation:reveal .6s ease forwards }
+    @keyframes reveal { to { opacity:1; transform:none } }
+
+    /* Hover / interactive */
+    a:hover, .card:hover{filter:brightness(.98)}
+
+    /* Responsive tweaks */
+    @media (min-width:900px){ .cards .card{flex-basis:40%} }
+
+    /* Accessibility: focus states */
+    a:focus, button:focus { outline:3px solid rgba(14,165,163,.18); outline-offset:3px }
+
+    /* Small utilities */
+    .muted{color:var(--muted)}
+    article strong, .content strong { font-weight:600; }
+    .kw { font-weight:700; font-style:italic; text-decoration: underline; text-decoration-thickness:.08em; text-underline-offset:2px; }
+  </style>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="theme-ecommerce">
+  <div class="wrap">
+    <h1 id="post-title"></h1>
+
+    <article id="post-article">
+      <div class="content">
+        <div id="post-content" class="post-container"><!--POST_CONTENT--></div>
+      </div>
+
+    </article>
+  </div>
+
+  <footer style="margin:16px 0;text-align:center;color:var(--muted);font-size:14px">
+    <nav aria-label="Legal" class="legal-links">
+      <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a> ·
+      <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a> ·
+      <a href="contact-us.html" style="color:inherit">Contact Us</a>
+    </nav>
+  </footer>
+
+  <script>
+  (function () {
+    'use strict';
+
+    // Root content node
+    const root = document.getElementById('post-content');
+    if (!root) return;
+
+    // ---------- Utility helpers ----------
+    const safeText = s => (s == null ? '' : String(s));
+    const trim = s => safeText(s).replace(/\u200B/g, '').trim();
+
+    function decodeEntitiesBasic(s) {
+      return safeText(s)
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/&amp;/gi, '&')
+        .replace(/&lt;/gi, '<')
+        .replace(/&gt;/gi, '>')
+        .replace(/&quot;/gi, '"')
+        .replace(/&#39;/gi, "'");
+    }
+    function decodeEntitiesDeep(s, maxDepth = 4) {
+      let prev = safeText(s);
+      for (let i = 0; i < maxDepth; i++) {
+        const next = decodeEntitiesBasic(prev);
+        if (next === prev) break;
+        prev = next;
+      }
+      return prev;
+    }
+
+    function escapeHtml(s) {
+      return safeText(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function escapeAttr(s) {
+      return safeText(s)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function stripTags(s) {
+      return safeText(s).replace(/<[^>]+>/g, '');
+    }
+
+    // Keep a set of block tags we will not touch inside
+    const SAFE_BLOCKS = ['PRE','CODE','FIGURE','TABLE','BLOCKQUOTE','UL','OL','LI','IFRAME'];
+
+    function isInsideSafeBlock(node) {
+      let p = node && node.parentElement;
+      while (p && p !== root) {
+        if (SAFE_BLOCKS.includes(p.tagName)) return true;
+        p = p.parentElement;
+      }
+      return false;
+    }
+
+    // ---------- Sanitization passes ----------
+    function removeInlineStyleWrappers() {
+      // unwrap <span style> and <font> preserving text, remove empty spans/divs
+      Array.from(root.querySelectorAll('span, font, div')).forEach(el => {
+        try {
+          if (!el || el === root) return;
+          if (isInsideSafeBlock(el)) return;
+          // If element has no attributes or only style/class but contains plain text/inline tags, unwrap it
+          const keep = el.hasAttribute && el.hasAttribute('data-keep');
+          if (keep) return;
+          const hasInteractive = el.querySelector && el.querySelector('a,button,input,textarea,select');
+          if (hasInteractive) return;
+          // If element contains only text or inline formatting, replace with text nodes or children
+          const children = Array.from(el.childNodes);
+          let texty = children.every(c => c.nodeType === 3 || (c.nodeType === 1 && /^(A|EM|STRONG|CODE|B|I|SPAN|IMG)$/i.test(c.tagName)));
+          if (!texty) return;
+          // unwrap: replace element with its children
+          const frag = document.createDocumentFragment();
+          children.forEach(c => frag.appendChild(c.cloneNode(true)));
+          el.parentNode.replaceChild(frag, el);
+        } catch (e) { /* swallow */ }
+      });
+    }
+
+    function stripDangerousTagsAndAttrs() {
+      // Remove script/style/iframe/object/embed/meta/link/form tags entirely
+      Array.from(root.querySelectorAll('script, style, iframe, object, embed, form, link, meta')).forEach(n => n.remove());
+
+      // Remove on* attributes and javascript: href/src
+      Array.from(root.querySelectorAll('*')).forEach(el => {
+        try {
+          // remove event handlers
+          Array.from(el.attributes || []).forEach(attr => {
+            const name = attr.name || '';
+            const val = attr.value || '';
+            if (/^on/i.test(name)) el.removeAttribute(name);
+            if ((/^(href|src|xlink:href)$/i.test(name)) && /^\s*javascript:/i.test(val)) el.removeAttribute(name);
+            if (name === 'style') el.removeAttribute('style'); // strip inline styles
+            // limit dangerous attributes
+            if (name === 'onclick' || name === 'onmouseover' || name === 'onerror') el.removeAttribute(name);
+          });
+        } catch (e) {}
+      });
+    }
+
+    // ---------- Grammar & punctuation cleanup ----------
+    function normalizePunctuationAndSpacing(text) {
+      let s = safeText(text);
+      // remove control chars
+      s = s.replace(/[\u0000-\u001F\u007F\u200B-\u200F\uFEFF]/g, ' ');
+      // collapse multiple spaces
+      s = s.replace(/\s{2,}/g, ' ');
+      // collapse repeated punctuation like !! ?? -> ! ?
+      s = s.replace(/([!?]){2,}/g, '$1');
+      // normalize ellipses
+      s = s.replace(/\.{3,}/g, '…');
+      // ensure space after punctuation
+      s = s.replace(/\s*([,.:;!?])\s*/g, '$1 ');
+      // fix misplaced spaces before punctuation
+      s = s.replace(/\s+([,.:;!?])/g, '$1');
+      // ensure single space after period if followed by uppercase/lowercase (preserve abbreviations as best-effort)
+      s = s.replace(/([a-z0-9\)])\.\s*([A-Z0-9])/g, '$1. $2');
+      // trim
+      s = s.trim();
+      // capitalize sentence starts naive
+      s = s.replace(/(^|[.!?]\s+)([a-z])/g, (m, p, c) => p + c.toUpperCase());
+      return s;
+    }
+
+    // Split into sentences (naive but practical): keep abbreviations short list
+    function splitSentences(text) {
+      if (!text) return [];
+      const abbr = '(Mr|Mrs|Ms|Dr|Prof|Sr|Jr|vs|e\.g|i\.e|etc|U\.S|U\.K|Ph\.D|Inc|Ltd)\.';
+      const re = new RegExp(`(?<!${abbr})(?<=[.!?…])\\s+|\\n+`, 'gi');
+      return safeText(text).split(re).map(s => s.trim()).filter(Boolean);
+    }
+
+    // Extract leading Markdown H1 as page title and remove it from content
+    function extractMarkdownTitle() {
+      try {
+        const h1El = document.getElementById('post-title');
+        if (!h1El) return;
+        // Look for the first paragraph or div starting with "# "
+        const blocks = Array.from(root.querySelectorAll('p, div'));
+        for (const b of blocks) {
+          if (isInsideSafeBlock(b)) continue;
+          const txt = (b.textContent || '').replace(/^\u200B+/g, '').trim();
+          const m = txt.match(/^#\s+(.+)$/);
+          if (m && m[1]) {
+            const title = m[1].trim().replace(/\s*[:.]+\s*$/, '');
+            if (title) {
+              h1El.textContent = title;
+              // Remove this block from content as it represents the title line
+              b.remove();
+            }
+            break;
+          }
+        }
+      } catch (e) { console.error(e); }
+    }
+
+    // ---------- Structural conversions ----------
+    function convertHeadingMarkersToHtml(container) {
+      // Convert lines starting with #, ##, ### into heading tags, but only when they are in plain text nodes or isolated paragraphs
+      Array.from(container.querySelectorAll('p,div')).forEach(node => {
+        if (isInsideSafeBlock(node)) return;
+        const html = node.innerHTML || '';
+        // check for markup like "# Title" or "## Title"
+        const m = html.match(/^\s{0,3}(#{1,6})\s+(.+)$/m);
+        if (m) {
+          const level = Math.min(6, m[1].length);
+          const content = m[2].trim();
+          if (content) {
+            const h = document.createElement('h' + Math.max(2, level)); // keep h1 reserved for page header
+            h.innerHTML = sanitizeInlineHtml(content);
+            node.parentNode.replaceChild(h, node);
+          }
+        }
+      });
+    }
+
+    function convertSimpleMarkdownLists(container) {
+      // Convert runs of lines starting with -, *, or number. We handle plain text and paragraphs.
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_ELEMENT, null, false);
+      const toProcess = [];
+      while (walker.nextNode()) {
+        const n = walker.currentNode;
+        if (n.tagName === 'P' && !isInsideSafeBlock(n)) {
+          const text = n.textContent || '';
+          if (/^\s*([-*•]\s+|\d+\.\s+)/.test(text)) toProcess.push(n);
+        }
+      }
+      toProcess.forEach(p => {
+        try {
+          const lines = (p.textContent || '').split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+          let inList = false;
+          let listEl = null;
+          const frag = document.createDocumentFragment();
+          lines.forEach(line => {
+            const ulm = line.match(/^[-*•]\s+(.+)/);
+            const olm = line.match(/^(\d+)\.\s+(.+)/);
+            if (ulm) {
+              if (!inList || listEl.tagName !== 'UL') {
+                listEl = document.createElement('ul');
+                frag.appendChild(listEl);
+                inList = true;
+              }
+              const li = document.createElement('li');
+              li.innerHTML = sanitizeInlineHtml(ulm[1].trim());
+              listEl.appendChild(li);
+            } else if (olm) {
+              if (!inList || listEl.tagName !== 'OL') {
+                listEl = document.createElement('ol');
+                frag.appendChild(listEl);
+                inList = true;
+              }
+              const li = document.createElement('li');
+              li.innerHTML = sanitizeInlineHtml(olm[2].trim());
+              listEl.appendChild(li);
+            } else {
+              // plain paragraph
+              const p2 = document.createElement('p');
+              p2.innerHTML = sanitizeInlineHtml(line);
+              frag.appendChild(p2);
+              inList = false;
+              listEl = null;
+            }
+          });
+          p.parentNode.replaceChild(frag, p);
+        } catch (e) {}
+      });
+    }
+
+    // ---------- Inline sanitizers & safe html ----------
+    function sanitizeInlineHtml(str) {
+      // We allow only a small set of inline tags: a, strong, em, code, br, img (with limited attrs)
+      // Remove dangerous attributes and tags.
+      let s = decodeEntitiesDeep(str || '', 3);
+      // Replace encoded tags like &lt;strong&gt;Text&lt;/strong&gt;
+      s = s.replace(/&lt;(\/?)(strong|em|code|a|br|img)&gt;/gi, '<$1$2>');
+      // Remove any <script> etc.
+      s = s.replace(/<\s*(script|style|iframe|object|embed|form|link|meta)[^>]*>[\s\S]*?<\/\s*\1\s*>/gi, '');
+      // Remove attributes we don't allow
+      s = s.replace(/<([aA])\b([^>]*)>/gi, (m, tag, attrs) => {
+        // keep href only and sanitize it
+        const hrefMatch = attrs.match(/href\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>]+))/i);
+        const hrefRaw = hrefMatch ? (hrefMatch[1] || hrefMatch[2] || hrefMatch[3] || '') : '';
+        const href = normalizeUrl(hrefRaw);
+        return href ? `<a href="${escapeAttr(href)}" rel="noopener noreferrer">` : '<a>';
+      });
+      // For img tags, keep src and alt only, make them lazy
+      s = s.replace(/<img\b([^>]*)>/gi, (m, attrs) => {
+        const srcMatch = attrs.match(/src\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>]+))/i);
+        const altMatch = attrs.match(/alt\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>]+))/i);
+        const src = srcMatch ? normalizeUrl(srcMatch[1] || srcMatch[2] || srcMatch[3] || '') : '';
+        const alt = altMatch ? escapeAttr(altMatch[1] || altMatch[2] || altMatch[3] || '') : '';
+        if (!src) return '';
+        return `<img src="${escapeAttr(src)}" alt="${alt}" loading="lazy" decoding="async">`;
+      });
+      // Remove any remaining attributes on allowed tags
+      s = s.replace(/<\s*(strong|em|code|br|a|img)([^>]*)>/gi, (m, tag) => `<${tag}>`);
+      // Escape any other tags
+      s = s.replace(/<(?!\/?(strong|em|code|br|a|img)\b)[^>]+>/gi, '');
+      // Fix unmatched tags
+      return balanceSimpleInlineTags(s);
+    }
+
+    function balanceSimpleInlineTags(html) {
+      // Very small balancing for strong/em/code tags: ensure closed counts
+      let out = String(html || '');
+      ['strong', 'em', 'code'].forEach(tag => {
+        const open = (out.match(new RegExp(`<${tag}\\b[^>]*>`, 'gi')) || []).length;
+        const close = (out.match(new RegExp(`</${tag}>`, 'gi')) || []).length;
+        if (open > close) out += Array(open - close).fill(`</${tag}>`).join('');
+        if (close > open) out = out.replace(new RegExp(`(</${tag}>)`, 'i'), (m, p1) => '');
+      });
+      return out;
+    }
+
+    function normalizeUrl(u) {
+      const s = safeText(u).trim();
+      if (!s) return '';
+      if (/^https?:\/\//i.test(s)) return s;
+      if (/^[a-z0-9-]+\.[a-z]{2,}(?:\/.*)?$/i.test(s)) return `https://${s}`;
+      return s;
+    }
+
+    // ---------- Paragraph & sentence structuring ----------
+    function ensureParagraphWrappers() {
+      // Convert top-level text nodes into paragraphs if they are not inside existing blocks
+      const children = Array.from(root.childNodes);
+      children.forEach(node => {
+        if (node.nodeType === 3 && node.nodeValue && node.nodeValue.trim()) {
+          const p = document.createElement('p');
+          p.textContent = node.nodeValue.trim();
+          node.parentNode.replaceChild(p, node);
+        }
+      });
+    }
+
+    function splitParagraphsSafely() {
+      // For paragraphs with many line breaks or multi-sentence blobs, split into readable chunks (~3-5 sentences)
+      Array.from(root.querySelectorAll('p')).forEach(p => {
+        if (isInsideSafeBlock(p)) return;
+        const html = p.innerHTML || '';
+        // if paragraph contains block tags, skip splitting
+        if (/<(ul|ol|pre|code|figure|table|blockquote|iframe)\b/i.test(html)) return;
+        const text = decodeEntitiesDeep(stripTags(html));
+        const sentences = splitSentences(text);
+        if (sentences.length <= 1) {
+          // still normalize grammar/punctuation inside the paragraph
+          p.textContent = normalizePunctuationAndSpacing(text);
+          return;
+        }
+        // group sentences into paragraphs of up to 4 sentences
+        const groups = [];
+        let buf = [];
+        sentences.forEach(s => {
+          s = normalizePunctuationAndSpacing(s);
+          if (!s) return;
+          buf.push(s);
+          if (buf.length >= 4) {
+            groups.push(buf.join(' ')); buf = [];
+          }
+        });
+        if (buf.length) groups.push(buf.join(' '));
+        if (groups.length <= 1) {
+          p.textContent = groups[0] || '';
+          return;
+        }
+        const frag = document.createDocumentFragment();
+        groups.forEach(g => {
+          const np = document.createElement('p');
+          np.textContent = g;
+          frag.appendChild(np);
+        });
+        p.parentNode.replaceChild(frag, p);
+      });
+    }
+
+    // ---------- Headline detection (cautious) ----------
+    function demoteInBodyH1s() {
+      Array.from(root.querySelectorAll('h1')).forEach(h1 => {
+        if (h1.closest('#post-content')) {
+          const h2 = document.createElement('h2');
+          h2.innerHTML = sanitizeInlineHtml(h1.innerHTML);
+          h1.parentNode.replaceChild(h2, h1);
+        }
+      });
+    }
+
+    function detectLikelyHeadings() {
+      // Convert short, title-like paragraphs into h2/h3 (conservative heuristics)
+      const candidates = Array.from(root.querySelectorAll('p'));
+      let headingIndex = 0;
+      candidates.forEach(p => {
+        if (isInsideSafeBlock(p)) return;
+        const txt = trim(p.textContent || '');
+        if (!txt) return;
+        // Too long or contains punctuation -> not a heading
+        if (txt.length > 140 || /[.!?]$/.test(txt)) return;
+        const words = txt.split(/\s+/);
+        if (words.length < 2 || words.length > 16) return;
+        const caps = words.filter(w => /^[A-Z][a-z]/.test(w)).length;
+        const allCaps = words.every(w => /^[A-Z0-9\(\)]+$/.test(w));
+        const looksHeading = txt.endsWith(':') || allCaps || (caps / Math.max(1, words.length) > 0.6);
+        if (!looksHeading) return;
+        headingIndex++;
+        const level = headingIndex <= 1 ? 'h2' : headingIndex <= 3 ? 'h3' : 'h4';
+        const h = document.createElement(level);
+        h.innerHTML = escapeHtml(txt).replace(/\s*[:.]\s*$/, '');
+        p.parentNode.replaceChild(h, p);
+      });
+    }
+
+    // ---------- Lists & numbered blocks ----------
+    function transformNumberedParagraphs() {
+      Array.from(root.querySelectorAll('p')).forEach(p => {
+        if (isInsideSafeBlock(p)) return;
+        const txt = p.textContent || '';
+        // Quick detection: lines that contain "1. " and multiple numeric markers
+        if (!/(^|\s)1\.\s+/.test(txt)) return;
+        const items = [];
+        const re = /(?:^|\s)(\d+)\.\s+([^]+?)(?=(?:\s+\d+\.\s+)|$)/g;
+        let m;
+        while ((m = re.exec(txt))) {
+          items.push(m[2].trim());
+        }
+        if (items.length >= 2) {
+          const ol = document.createElement('ol');
+          items.forEach(it => {
+            const li = document.createElement('li');
+            li.innerHTML = sanitizeInlineHtml(it);
+            ol.appendChild(li);
+          });
+          p.parentNode.replaceChild(ol, p);
+        }
+      });
+    }
+
+    // ---------- Link & image normalization ----------
+    function normalizeLinksAndImages() {
+      // links: ensure rel/target, sanitize hrefs
+      Array.from(root.querySelectorAll('a')).forEach(a => {
+        try {
+          const href = a.getAttribute('href') || '';
+          const n = normalizeUrl(href);
+          if (!n) {
+            // non-http hrefs: keep mailto but strip JS
+            if (/^mailto:/i.test(href)) {
+              a.setAttribute('href', href);
+            } else a.removeAttribute('href');
+          } else {
+            a.setAttribute('href', n);
+            a.setAttribute('rel', 'noopener noreferrer');
+            a.setAttribute('target', '_blank');
+          }
+          // limit long link text
+          const txt = (a.textContent || '').trim();
+          if (txt.length > 180) a.textContent = txt.slice(0, 140) + '…';
+        } catch (e) {}
+      });
+
+      Array.from(root.querySelectorAll('img')).forEach(img => {
+        try {
+          if (!img.getAttribute('loading')) img.setAttribute('loading', 'lazy');
+          if (!img.getAttribute('decoding')) img.setAttribute('decoding', 'async');
+          const src = img.getAttribute('src') || img.getAttribute('data-src') || '';
+          const n = normalizeUrl(src);
+          if (n) img.setAttribute('src', n);
+          if (!img.getAttribute('alt')) img.setAttribute('alt', '');
+        } catch (e) {}
+      });
+    }
+
+    // ---------- Keyword detection & emphasis (conservative) ----------
+    function findKeywordCandidate() {
+      // 1) try to find explicit placeholders like {{keyword: ...}}
+      const html = root.innerHTML || '';
+      const explicit = html.match(/\{\{?\s*keyword\s*[:=]\s*([^}]+?)\s*\}?\}/i);
+      if (explicit && explicit[1]) return explicit[1].trim();
+      // 2) derive from title: longest capitalized phrase that appears multiple times in body
+      const title = (document.getElementById('post-title')?.textContent || '').trim();
+      if (!title) return '';
+      const phrases = title.match(/([A-Z][\w-]*(?:\s+[A-Z][\w-]*){0,3})/g) || [];
+      phrases.sort((a, b) => b.length - a.length);
+      const bodyText = (root.textContent || '').toLowerCase();
+      for (const p of phrases) {
+        const count = (bodyText.match(new RegExp(p.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+        if (count >= 2) return p;
+      }
+      return (phrases[0] || '').trim();
+    }
+
+    function emphasizeKeyword(kw) {
+      if (!kw) return;
+      const limit = 4;
+      let used = 0;
+      const re = new RegExp('\\b' + kw.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\$&') + '\\b', 'i');
+      // Walk text nodes and replace first N hits with <span class="kw">...</span>
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const n of nodes) {
+        if (used >= limit) break;
+        if (!n.nodeValue || !n.nodeValue.trim()) continue;
+        if (isInsideSafeBlock(n)) continue;
+        const match = re.exec(n.nodeValue);
+        if (!match) continue;
+        const before = n.nodeValue.slice(0, match.index);
+        const matched = n.nodeValue.slice(match.index, match.index + match[0].length);
+        const after = n.nodeValue.slice(match.index + match[0].length);
+        const frag = document.createDocumentFragment();
+        if (before) frag.appendChild(document.createTextNode(before));
+        const span = document.createElement('span');
+        span.className = 'kw';
+        span.textContent = matched;
+        frag.appendChild(span);
+        if (after) frag.appendChild(document.createTextNode(after));
+        n.parentNode.replaceChild(frag, n);
+        used++;
+      }
+    }
+
+    // ---------- Misc improvements ----------
+    function dedupeConsecutiveParagraphs() {
+      const nodes = Array.from(root.querySelectorAll('p, h2, h3, h4, h5'));
+      const seen = new Set();
+      nodes.forEach(node => {
+        const norm = (stripTags(node.innerText || '') || '').replace(/\s+/g, ' ').trim().toLowerCase();
+        if (!norm) return;
+        const key = node.tagName + '|' + norm;
+        if (seen.has(key)) node.remove();
+        else seen.add(key);
+      });
+    }
+
+    function splitLongParagraphs(maxChars = 900) {
+      Array.from(root.querySelectorAll('p')).forEach(p => {
+        if (isInsideSafeBlock(p)) return;
+        const text = p.textContent || '';
+        if (text.length <= maxChars) return;
+        // split by sentence boundaries
+        const sents = splitSentences(text);
+        if (sents.length <= 1) return;
+        const groups = [];
+        let buf = [];
+        for (const s of sents) {
+          buf.push(s);
+          if (buf.join(' ').length >= Math.floor(maxChars / 2)) {
+            groups.push(buf.join(' ')); buf = [];
+          }
+        }
+        if (buf.length) groups.push(buf.join(' '));
+        if (groups.length <= 1) return;
+        const frag = document.createDocumentFragment();
+        groups.forEach(g => {
+          const np = document.createElement('p'); np.textContent = normalizePunctuationAndSpacing(g);
+          frag.appendChild(np);
+        });
+        p.parentNode.replaceChild(frag, p);
+      });
+    }
+
+    function tagFeaturedImage() {
+      // mark first image/figure as featured-image if not already
+      const firstFigure = root.querySelector('figure, .featured-image, p>img, img');
+      if (firstFigure) {
+        let el = firstFigure;
+        if (el.tagName !== 'FIGURE' && el.closest && el.querySelector && el.querySelector('img')) {
+          // if <p><img></p> style
+          const parent = el.parentElement;
+          if (parent && parent.tagName === 'P') parent.classList.add('featured-image');
+          else el.classList.add && el.classList.add('featured-image');
+        } else if (el.tagName === 'FIGURE') el.classList.add('featured-image');
+      }
+    }
+
+    function addRevealAnimation() {
+      Array.from(root.querySelectorAll('p,h2,h3,h4,h5,figure')).forEach((n, i) => {
+        if (!n.classList.contains('reveal')) {
+          n.classList.add('reveal');
+          n.style.animationDelay = (i * 25) + 'ms';
+        }
+      });
+    }
+
+    // ---------- Execution pipeline (safe order) ----------
+    try { stripDangerousTagsAndAttrs(); } catch (e) { console.error(e); }
+    try { removeInlineStyleWrappers(); } catch (e) { console.error(e); }
+    try { ensureParagraphWrappers(); } catch (e) { console.error(e); }
+    try { extractMarkdownTitle(); } catch (e) { console.error(e); }
+    try { convertHeadingMarkersToHtml(root); } catch (e) { console.error(e); }
+    try { convertSimpleMarkdownLists(root); } catch (e) { console.error(e); }
+    try { transformNumberedParagraphs(); } catch (e) { console.error(e); }
+    try { demoteInBodyH1s(); } catch (e) { console.error(e); }
+    try { detectLikelyHeadings(); } catch (e) { console.error(e); }
+    try { splitParagraphsSafely(); } catch (e) { console.error(e); }
+    try { splitLongParagraphs(900); } catch (e) { console.error(e); }
+    try { normalizeLinksAndImages(); } catch (e) { console.error(e); }
+    try { dedupeConsecutiveParagraphs(); } catch (e) { console.error(e); }
+    try { tagFeaturedImage(); } catch (e) { console.error(e); }
+    try { addRevealAnimation(); } catch (e) { console.error(e); }
+
+    // Keyword emphasis (conservative)
+    try {
+      const kw = findKeywordCandidate();
+      if (kw) emphasizeKeyword(kw);
+    } catch (e) { console.error(e); }
+
+    // Final safe pass: ensure paragraphs have tidy punctuation/casing
+    try {
+      Array.from(root.querySelectorAll('p')).forEach(p => {
+        if (isInsideSafeBlock(p)) return;
+        p.textContent = normalizePunctuationAndSpacing(p.textContent || '');
+      });
+    } catch (e) { console.error(e); }
+
+    // Make sure page title matches H1 and update <title> meta
+    try {
+      const h1 = document.getElementById('post-title');
+      if (h1 && h1.textContent) {
+        document.title = h1.textContent + ' — ' + (document.title.split(' — ').slice(1).join(' — ') || location.hostname);
+        // update meta tags if present
+        const og = document.querySelector('meta[property="og:title"]');
+        const tw = document.querySelector('meta[name="twitter:title"]');
+        if (og) og.setAttribute('content', h1.textContent);
+        if (tw) tw.setAttribute('content', h1.textContent);
+      }
+    } catch (e) {}
+
+    // Idempotence note: re-running this script should be safe; the operations normalize and are non-destructive.
+
+  })();
+  </script>
+</body>
+</html>

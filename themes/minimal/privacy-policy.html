@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Policy — {{domain}}</title>
+  <meta name="description" content="Privacy Policy for {{domain}} explaining data collection, cookies, and user rights.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Privacy Policy - {{domain}}">
+  <meta property="og:description" content="How {{domain}} handles your data and privacy.">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;--text:#e2e8f0;--accent:#60a5fa;--accent2:#22d3ee}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(1200px 800px at 10% -10%, rgba(34,211,238,.22), transparent 60%),radial-gradient(1000px 700px at 90% 10%, rgba(96,165,250,.18), transparent 60%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Inter,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:960px;margin:0 auto;padding:28px}
+    header,footer{display:flex;justify-content:space-between;align-items:center;gap:16px}
+    a{color:var(--accent);text-decoration:none}
+    .panel{margin-top:22px;border:1px solid rgba(148,163,184,.18);border-radius:14px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01));padding:22px}
+    h1{margin:4px 0 8px;font-size:32px}
+    h2{margin:18px 0 8px;font-size:18px}
+    p{color:var(--muted);margin:0 0 12px}
+    .tag{color:var(--muted);font-size:12px;letter-spacing:.3px}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div><span class="tag">Policy</span><h1>Privacy Policy</h1></div>
+      <nav><a href="/" aria-label="Home">Home</a> · <a id="themeHome" href="#">Theme</a></nav>
+    </header>
+
+    <section class="panel">
+      <p>This Privacy Policy describes how <strong><span class="domain">{{domain}}</span></strong> collects, uses, and safeguards information. Minimal theme presentation — clear, concise, and readable.</p>
+      <h2>Information We Collect</h2>
+      <p>We collect basic analytics (pages visited, device information) to improve content quality. If you contact us, we retain your message and contact details to respond.</p>
+      <h2>Cookies</h2>
+      <p>Essential cookies maintain site performance. You can control cookies in your browser settings.</p>
+      <h2>Your Rights</h2>
+      <p>You may request access, correction, or deletion of your personal information where applicable.</p>
+      <h2>Contact</h2>
+      <p>Questions? Email <a id="email" href="#">contact@<span class="domain">{{domain}}</span></a>.</p>
+      <p class="tag">Effective date: <span id="date"></span></p>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> <span class="domain">{{domain}}</span></div>
+      <nav aria-label="Legal" class="legal-links" style="text-align:center;font-size:12px;opacity:.85;margin-top:6px">
+    <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a>
+    · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a>
+    · <a href="contact-us.html" style="color:inherit">Contact Us</a>
+  </nav>
+</footer>
+  </div>
+  <script>
+    (function(){
+      var host=location.hostname||'your-domain.com';
+      document.querySelectorAll('.domain').forEach(function(n){n.textContent=host});
+      var mail='contact@'+host; var e=document.getElementById('email'); if(e){e.href='mailto:'+mail; e.textContent=mail}
+      document.getElementById('y').textContent=new Date().getFullYear();
+      document.getElementById('date').textContent=new Date().toISOString().slice(0,10);
+      var th=document.getElementById('themeHome'); if(th){var p=location.pathname.split('/').filter(Boolean); var t=p[0]||'minimal'; th.href='/' + t + '/';}
+    })();
+  </script>
+</body>
+</html>

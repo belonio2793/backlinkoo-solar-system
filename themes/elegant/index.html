@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{domain}} — Editorial</title>
+  <meta name="description" content="Latest editorials and insights from {{domain}}">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{domain}} — Editorial">
+  <meta property="og:description" content="Thoughtful essays and analysis from {{domain}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#111827">
+  <style>
+    :root{--paper:#ffffff;--ink:#111827;--muted:#6b7280;--rule:#e5e7eb}
+    *{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.8 ui-serif, Georgia, Cambria, Times, serif}
+    .wrap{max-width:1060px;margin:0 auto;padding:0 28px}
+    header{display:flex;align-items:flex-end;justify-content:space-between;padding:22px 0;border-bottom:2px solid var(--ink)}
+    .brand{display:flex;flex-direction:column;gap:6px}
+    .brand h1{margin:0;font-size:30px}
+    .deck{margin:0;color:var(--muted)}
+    nav a{color:var(--ink);text-decoration:none;margin-left:16px}
+    nav a:hover{border-bottom:2px solid var(--ink)}
+
+    .lede{margin:28px 0 12px}
+    .lede h2{margin:0;font:700 44px/1.1 ui-serif, Georgia}
+    .lede p{margin:10px 0 0;color:var(--muted);max-width:760px}
+
+    .series{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin:24px 0}
+    .card{padding:18px 0;border-bottom:1px solid var(--rule)}
+    .card h3{margin:0 0 6px;font:700 22px/1.35 ui-serif, Georgia}
+    .card p{margin:0;color:var(--muted)}
+    .meta{margin-top:6px;color:var(--muted);font:13px}
+
+    .columns{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}
+    .pull{margin:20px 0;padding:18px;border-left:4px solid #111827;background:#f9fafb}
+    .newsletter{margin:22px 0;padding:18px;border:2px dashed var(--ink)}
+
+    .reading-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+    .r{border:1px solid var(--rule);border-radius:12px;padding:14px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:18px 0}
+    .quote{border:1px solid var(--rule);border-radius:12px;padding:16px;color:var(--muted)}
+
+    .posts{margin:26px 0}
+    .pagination{display:flex;gap:8px;justify-content:center;margin:24px 0}
+    .pagination .page{display:inline-block;padding:6px 10px;border:1px solid var(--ink);border-radius:6px;text-decoration:none;color:var(--ink)}
+    .pagination .current{background:var(--ink);color:#fff}
+
+    footer{margin:40px 0;padding-top:14px;border-top:2px solid var(--ink);display:flex;align-items:center;justify-content:space-between;color:var(--muted);font:14px}
+    @media (max-width:920px){.series{grid-template-columns:1fr}.lede h2{font-size:34px}.testimonials{grid-template-columns:1fr 1fr}.reading-list{grid-template-columns:1fr 1fr}.columns{grid-template-columns:1fr}}
+    @media (max-width:640px){.testimonials,.reading-list{grid-template-columns:1fr}}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><h1>{{domain}}</h1><p class="deck">An elegant editorial of ideas and perspectives</p></div>
+      <nav aria-label="Primary"><a href="#series">Series</a><a href="#reading">Reading list</a><a href="#posts">Posts</a></nav>
+    </header>
+
+    <main>
+      <section class="lede">
+        <h2>Editors' Picks & Deep Dives</h2>
+        <p>Curated essays and timeless guides published by {{domain}}. Designed for quiet, focused reading.</p>
+      </section>
+
+      <section id="series" class="series" aria-label="Featured series">
+        <div>
+          <article class="card"><h3>Building in Public</h3><p>Stories on transparency, momentum, and compounding trust.</p><div class="meta">Series · 6 parts</div></article>
+          <article class="card"><h3>Design Systems</h3><p>Principles behind cohesive interfaces that scale.</p><div class="meta">Series · 8 parts</div></article>
+          <article class="card"><h3>Market Playbooks</h3><p>Frameworks for positioning, pricing, and growth.</p><div class="meta">Series · 5 parts</div></article>
+          <article class="card"><h3>Writing for Clarity</h3><p>Edit until every sentence earns its place.</p><div class="meta">Series · 4 parts</div></article>
+        </div>
+        <aside>
+          <div class="newsletter">Join the {{domain}} newsletter — essays, monthly.</div>
+          <div class="pull">“Editing is the art of making the complicated simple.”</div>
+          <div class="deck"><a class="deck" href="#posts">Browse the archive →</a></div>
+        </aside>
+      </section>
+
+      <section class="columns" aria-label="Columns">
+        <div>
+          <h3>On Craft</h3>
+          <p class="deck">Refinement through subtraction. The goal is clarity.</p>
+        </div>
+        <div>
+          <h3>On Strategy</h3>
+          <p class="deck">Pick your battles carefully. Concentrate force.</p>
+        </div>
+      </section>
+
+      <section id="reading" class="reading-list" aria-label="Reading list">
+        <div class="r">The Elements of Style</div>
+        <div class="r">Thinking in Systems</div>
+        <div class="r">On Writing Well</div>
+        <div class="r">Refactoring UI</div>
+        <div class="r">Good Strategy/Bad Strategy</div>
+        <div class="r">The Pyramid Principle</div>
+      </section>
+
+      <section class="testimonials" aria-label="Praise">
+        <div class="quote">“Feels like a premium magazine.” — <strong>Reader</strong></div>
+        <div class="quote">“Quiet, elegant, and substantive.” — <strong>Subscriber</strong></div>
+        <div class="quote">“The most readable long‑form layout.” — <strong>Editor</strong></div>
+      </section>
+
+      <section id="posts" class="posts" aria-label="Posts"><!-- POSTS --></section>
+      <div class="pagination"><!-- PAGINATION --></div>
+    </main>
+
+    <footer>
+      <div>© <span id="y"></span> {{domain}}</div>
+      <nav aria-label="Legal" class="legal-links" style="font-size:12px;color:var(--muted)">
+        <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a>
+        · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a>
+        · <a href="contact-us.html" style="color:inherit">Contact Us</a>
+      </nav>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

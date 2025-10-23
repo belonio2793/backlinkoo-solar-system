@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{post_title}} — {{domain}}</title>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="{{post_title}} — A new article from {{domain}}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{post_title}} — {{domain}}">
+  <meta property="og:description" content="{{post_title}} — from {{domain}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root{--bg:#0f172a;--panel:#0b1220;--text:#e2e8f0;--muted:#94a3b8;--border:rgba(148,163,184,.16);--accent:#60a5fa;--accent-2:#22d3ee;--ring:rgba(96,165,250,.35)}
+    *{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0;background:
+      radial-gradient(1200px 800px at 10% -10%, rgba(34,211,238,.22), transparent 60%),
+      radial-gradient(1000px 700px at 90% 10%, rgba(96,165,250,.18), transparent 60%),
+      var(--bg);color:var(--text);font:16px/1.75 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    a{color:#a5b4fc}
+
+    .progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--accent),var(--accent-2));z-index:50;box-shadow:0 6px 12px rgba(34,211,238,.35)}
+
+    .article{border:1px solid var(--border);background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01));padding:34px;border-radius:18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 20px 60px rgba(0,0,0,.35)}
+    h1{margin:0 0 8px;font-size:36px;line-height:1.15}
+    .meta{color:var(--muted);font-size:14px;margin-bottom:20px}
+
+    .content{line-height:1.9}
+    .content img{max-width:100%;height:auto;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+    .content h2,.content h3{margin-top:28px;scroll-margin-top:80px}
+    .content pre{background:#0b1220;border:1px solid var(--border);border-radius:12px;padding:14px;overflow:auto}
+    .content code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .content blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid var(--accent);background:rgba(96,165,250,.12);border-radius:8px}
+    .content table{border-collapse:separate;border-spacing:0;width:100%;overflow:auto;display:block}
+    .content th,.content td{border-bottom:1px solid var(--border);padding:10px;text-align:left}
+
+    .layout{display:grid;grid-template-columns:1fr;gap:24px}
+    .toc{display:none}
+    .toc h4{margin:0 0 8px;font-size:13px;color:var(--muted);letter-spacing:.3px}
+    .toc a{display:block;color:var(--muted);text-decoration:none;font-size:14px;padding:6px 0}
+    .toc a.active{color:#fff}
+
+    .back{display:inline-block;margin-top:22px;padding:10px 14px;border-radius:10px;text-decoration:none;color:#0b1220;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 30px rgba(34,211,238,.35)}
+
+    footer{margin-top:28px;color:var(--muted);font-size:14px;text-align:center}
+    @media (max-width:980px){.layout{grid-template-columns:1fr}}
+    @media (max-width:720px){h1{font-size:28px}.article{padding:24px}}
+    /* Rich content defaults */
+    article, .content { line-height: 1.85; font-size: 1.05rem; }
+    article p, .content p { margin: 1em 0; }
+    article h2, .content h2, article h3, .content h3, article h4, .content h4 { margin-top: 1.75em; margin-bottom: .6em; line-height: 1.25; scroll-margin-top: 80px; }
+    article ul, .content ul, article ol, .content ol { margin: 1em 0; padding-left: 1.25em; }
+    article li, .content li { margin: .4em 0; }
+    article blockquote, .content blockquote { margin: 1.25em 0; padding: .75em 1em; border-left: 3px solid rgba(0,0,0,.15); background: rgba(0,0,0,.03); border-radius: 8px; }
+    @media (prefers-color-scheme: dark) { article blockquote, .content blockquote { border-left-color: rgba(255,255,255,.25); background: rgba(255,255,255,.05); } }
+    article code, .content code { background: rgba(0,0,0,.04); padding: .15em .35em; border-radius: .35em; font-size: .95em; }
+    @media (prefers-color-scheme: dark) { article code, .content code { background: rgba(255,255,255,.08); } }
+    article pre, .content pre { background: rgba(0,0,0,.06); padding: 1em; border-radius: 12px; overflow: auto; border: 1px solid rgba(0,0,0,.08); }
+    @media (prefers-color-scheme: dark) { article pre, .content pre { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); } }
+    article img, .content img, article video, .content video { max-width: 100%; height: auto; border-radius: 12px; display: block; margin: 1em auto; }
+    article table, .content table { width: 100%; border-collapse: separate; border-spacing: 0; overflow: auto; display: block; }
+    article th, .content th, article td, .content td { border-bottom: 1px solid rgba(0,0,0,.1); padding: .6em .75em; text-align: left; }
+    @media (prefers-color-scheme: dark) { article th, .content th, article td, .content td { border-bottom-color: rgba(255,255,255,.15); } }
+    article hr, .content hr { border: 0; height: 1px; background: rgba(0,0,0,.1); margin: 2em 0; }
+    @media (prefers-color-scheme: dark) { article hr, .content hr { background: rgba(255,255,255,.2); } }
+    article a, .content a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    article figure, .content figure { margin: 1.5em 0; }
+    article figcaption, .content figcaption { font-size: .9em; opacity: .8; text-align: center; margin-top: .5em; }
+    article iframe, .content iframe { width: 100%; border: 0; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; }
+    .post-container{max-width:780px;margin:0 auto}
+    /* Auto-formatting and featured image sizing */
+    .content .featured-image, .content figure.featured-image { max-width: 100%; margin: 12px auto 20px; overflow: hidden; }
+    .content .featured-image img { width: 100%; height: auto; display: block; }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="container">
+    <header>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div style="width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent-2))" aria-hidden="true"></div>
+        <a href="/" style="text-decoration:none;color:inherit;font-weight:600">{{domain}}</a>
+      </div>
+    </header>
+
+    <div class="layout">
+      <article id="post-article" class="article">
+        <h1 id="post-title">{{post_title}}</h1>
+        <div id="post-meta" class="meta">Published {{published_at}} • {{domain}}</div>
+        <div class="content"><div id="post-content" class="post-container"><!--POST_CONTENT--></div></div>
+      </article>
+      <aside class="toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <nav id="toc"></nav>
+      </aside>
+    </div>
+
+    <footer>© <span id="y"></span> {{domain}}
+      <nav aria-label="Legal" class="legal-links" style="font-size:12px;color:var(--muted)">
+        <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a>
+        · <a href="terms-and-conditions.html" style="color:inherit">Terms &amp; Conditions</a>
+        · <a href="contact-us.html" style="color:inherit">Contact Us</a>
+      </nav>
+    </footer>
+  </div>
+  <script>
+    // Year
+    document.getElementById('y').textContent=new Date().getFullYear();
+    // Progress bar
+    const bar=document.getElementById('progress');
+    const onScroll=()=>{const h=document.documentElement;const sc=h.scrollTop;const max=h.scrollHeight-h.clientHeight;bar.style.width=(max>0?(sc/max)*100:0)+"%"};
+    document.addEventListener('scroll',onScroll,{passive:true});onScroll();
+    // Build TOC from h2/h3
+    const toc=document.getElementById('toc');
+    const content=document.querySelector('.content');
+    if(toc&&content){
+      const hs=[...content.querySelectorAll('h2, h3')];
+      hs.forEach((h)=>{
+        if(!h.id){h.id=h.textContent.trim().toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').slice(0,80)}
+        const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;toc.appendChild(a);
+      });
+      const links=[...toc.querySelectorAll('a')];
+      const obs=new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{const id=e.target.id;const link=links.find(l=>l.hash==='#'+id);if(link){if(e.isIntersecting)link.classList.add('active');else link.classList.remove('active');}});
+      },{rootMargin:'-40% 0% -55% 0%'});
+      hs.forEach(h=>obs.observe(h));
+    }
+    // Fix broken titles by deriving from slug when necessary
+    (function(){
+      const h=document.querySelector('h1');
+      if(!h) return;
+      const txt=(h.textContent||'').trim();
+      // Consider this a bad header if it contains attribute-like dumps or common metadata tokens
+      const badTokens = /\b(target|rel|href|itemprop|itemscope|itemtype|schema|class|noopener|noreferrer|figure|img|meta|contenturl|width|height|author)\b/i;
+      const hasEquals = /=/.test(txt);
+      const startsWithTag = /^(?:<|&lt;)/.test(txt);
+      const bad = startsWithTag || hasEquals || badTokens.test(txt);
+      if(!bad) return;
+      const seg=(location.pathname.replace(/\/+$/,'').split('/').filter(Boolean).pop()||'').replace(/\.html$/i,'');
+      const pretty=seg.split('-').map(s=>s?s[0].toUpperCase()+s.slice(1):'').join(' ').trim()||'Post';
+      h.textContent=pretty;
+      document.title=pretty+' — '+(document.title.split(' — ').pop()||document.domain);
+      const setMeta=(name,value,attr='name')=>{const m=document.querySelector(`meta[${attr}="${name}"]`); if(m) m.setAttribute('content', value)};
+      const desc=`Read “${pretty}” on ${location.hostname}`;
+      setMeta('og:title', pretty, 'property');
+      setMeta('twitter:title', pretty, 'name');
+      setMeta('description', desc, 'name');
+      setMeta('og:description', desc, 'property');
+    })();
+  </script>
+  <script>
+    (function(){
+      var root=document.getElementById('post-content')||document.querySelector('.content');
+      if(!root) return;
+      function isHeadingText(t){
+        t=(t||'').trim();
+        var ws=t.split(/\s+/); if(t.length<10||t.length>120||ws.length>16) return false;
+        if((t.match(/[.!?]/g)||[]).length>1) return false;
+        var caps=ws.filter(function(w){return /^[A-Z][a-z]/.test(w)}).length;
+        var allCaps=ws.filter(function(w){return /^[A-Z]+$/.test(w)}).length===ws.length;
+        return t.endsWith(':')||t.endsWith('?')||caps/ws.length>0.6||allCaps;
+      }
+      Array.from(root.querySelectorAll('p')).forEach(function(p){
+        if(p.querySelector('img, figure, pre, code, table, iframe')) return;
+        var onlyStrong=p.childNodes.length===1 && p.firstElementChild && p.firstElementChild.tagName && p.firstElementChild.tagName.toLowerCase()==='strong';
+        var text=p.textContent||'';
+        if(onlyStrong||isHeadingText(text)){
+          var h=document.createElement('h2');
+          h.textContent=text.replace(/\s*[:.]\s*$/,'').trim();
+          p.replaceWith(h);
+        }
+      });
+      var fig=root.querySelector('figure')||root.querySelector('p>img, img');
+      if(fig){ var el=fig.tagName?fig:(fig.parentElement||fig); if(el && !el.classList.contains('featured-image')) el.classList.add('featured-image'); }
+    })();
+  </script>
+  <script>
+    (function(){
+      var h=document.querySelector('h1#post-title, h1'); if(!h) return;
+      var txt=(h.textContent||'').trim();
+      // Consider this a bad header if it contains attribute-like dumps or common metadata tokens
+      var badTokens = /\b(target|rel|href|itemprop|itemscope|itemtype|schema|class|noopener|noreferrer|figure|img|meta|contenturl|width|height|author)\b/i;
+      var hasEquals = /=/.test(txt);
+      var startsWithTag = /^(?:<|&lt;)/.test(txt);
+      var bad = startsWithTag || hasEquals || badTokens.test(txt);
+      if(!bad) return;
+      var seg=(location.pathname.replace(/\/+$/,'').split('/').filter(Boolean).pop()||'').replace(/\.html$/i,'');
+      var pretty=seg.split('-').map(function(s){return s? s[0].toUpperCase()+s.slice(1):''}).join(' ').trim()||'Post';
+      h.textContent=pretty;
+      document.title=pretty+' — '+(document.title.split(' — ').pop()||document.domain);
+      function setMeta(name,value,attr){attr=attr||'name';var m=document.querySelector('meta['+attr+'="'+name+'"]'); if(m) m.setAttribute('content', value)}
+      var desc='Read “'+pretty+'” on '+location.hostname; setMeta('og:title', pretty, 'property'); setMeta('twitter:title', pretty, 'name'); setMeta('description', desc, 'name'); setMeta('og:description', desc, 'property');
+    })();
+  </script>
+</body>
+</html>

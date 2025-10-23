@@ -1,0 +1,33 @@
+::root{--rule:#e5e7eb}
+.theme-magazine .rule{border-top:1px solid var(--rule)}
+.theme-magazine .eyebrow{letter-spacing:.08em;text-transform:uppercase;font-size:12px;color:#475569}
+.theme-magazine .byline{font-size:12px;color:#64748b}
+
+/* UX Content Enhancements */
+article.post .summary-box, .content .summary-box {border:1px solid rgba(2,6,23,.12);background:#f8fafc;border-radius:12px;padding:12px 16px;margin:1rem 0 1.25rem;font-size:.95rem}
+article.post .summary-box .summary-meta, .content .summary-box .summary-meta {display:flex;gap:.5rem;margin-bottom:.5rem}
+article.post .summary-box .reading-time, .content .summary-box .reading-time {display:inline-block;background:#e2e8f0;color:#0f172a;border-radius:999px;padding:2px 8px;font-size:.75rem}
+
+article.post .toc, .content .toc {border:1px solid rgba(2,6,23,.12);background:#ffffff;border-radius:10px;padding:10px 12px;margin:1rem 0;font-size:.9rem}
+article.post .toc ul, .content .toc ul {margin:0;padding:0;list-style:none}
+article.post .toc li, .content .toc li {margin:.25rem 0}
+article.post .toc a, .content .toc a {color:#0f172a;text-decoration:none;border-bottom:1px dotted #94a3b8}
+article.post .toc a:hover, .content .toc a:hover {color:#0a4c8a}
+
+article.post .callout, .content .callout {padding:.75rem 1rem;border-radius:10px;margin:1rem 0;font-size:.95rem}
+article.post .callout.tip, .content .callout.tip {background:#ecfdf5;border-left:4px solid #10b981;color:#065f46}
+article.post .callout.note, .content .callout.note {background:#eff6ff;border-left:4px solid #3b82f6;color:#1e3a8a}
+article.post .callout.warning, .content .callout.warning {background:#fffbeb;border-left:4px solid #f59e0b;color:#7c2d12}
+
+article.post blockquote.pull-quote, .content blockquote.pull-quote {border-left:4px solid #0ea5e9;background:#f0f9ff;color:#0c4a6e;padding:1rem 1.25rem;border-radius:10px;font-style:italic}
+
+article.post figure.figure, .content figure.figure {margin:1.25rem 0;text-align:center}
+article.post figure.figure img, .content figure.figure img {max-width:100%;height:auto;border-radius:10px}
+article.post figure.figure figcaption, .content figure.figure figcaption {font-size:.85rem;color:#64748b;margin-top:.5rem}
+
+article.post table.table, .content table.table {width:100%;border-collapse:collapse;margin:1.25rem 0;background:#ffffff;border:1px solid #e5e7eb}
+article.post table.table th, article.post table.table td, .content table.table th, .content table.table td {padding:.6rem .75rem;border-bottom:1px solid #e5e7eb;text-align:left}
+article.post table.table tr:nth-child(odd), .content table.table tr:nth-child(odd) {background:#fafafa}
+
+article.post ul.markdown-list, .content ul.markdown-list, article.post ol.markdown-list, .content ol.markdown-list {margin:1rem 0 1rem 1.25rem; padding-left:1.25rem}
+article.post ul.markdown-list li, .content ul.markdown-list li, article.post ol.markdown-list li, .content ol.markdown-list li {margin:.5rem 0}

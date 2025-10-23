@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth & Premium Modal Flow Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #f5f5f5; }
+        .section { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .test { margin: 10px 0; padding: 10px; border-left: 4px solid #ddd; }
+        .pass { border-left-color: #4caf50; background: #f1f8e9; }
+        .fail { border-left-color: #f44336; background: #ffebee; }
+        .warn { border-left-color: #ff9800; background: #fff3e0; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; border: none; border-radius: 4px; background: #2196F3; color: white; }
+        button:hover { background: #1976D2; }
+        .output { background: #263238; color: #aed581; padding: 15px; border-radius: 4px; font-size: 12px; max-height: 400px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Auth & Premium Modal Flow Test Suite</h1>
+    
+    <div class="section">
+        <h2>Test Steps:</h2>
+        <button onclick="runTests()">▶️ Run All Tests</button>
+        <button onclick="testLocalStorage()">📦 Check LocalStorage</button>
+        <button onclick="testAuthState()">🔐 Check Auth State</button>
+        <button onclick="testPremiumModal()">💎 Check Premium Modal</button>
+        <button onclick="clearAll()">🗑️ Clear All</button>
+    </div>
+
+    <div class="section">
+        <h2>Test Results:</h2>
+        <div id="results"></div>
+    </div>
+
+    <div class="section">
+        <h2>Console Output:</h2>
+        <div class="output" id="console"></div>
+    </div>
+
+    <script>
+        const consoleEl = document.getElementById('console');
+        const resultsEl = document.getElementById('results');
+        let logs = [];
+
+        function log(msg, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const logEntry = `[${timestamp}] ${msg}`;
+            logs.push(logEntry);
+            consoleEl.innerHTML += logEntry + '\n';
+            consoleEl.scrollTop = consoleEl.scrollHeight;
+            console.log(msg);
+        }
+
+        function addResult(title, pass, message) {
+            const className = pass ? 'pass' : 'fail';
+            const icon = pass ? '✅' : '❌';
+            resultsEl.innerHTML += `<div class="test ${className}">${icon} <strong>${title}</strong>: ${message}</div>`;
+        }
+
+        function testLocalStorage() {
+            log('--- Testing LocalStorage ---', 'info');
+            
+            const authToken = localStorage.getItem('auth_token');
+            const authEmail = localStorage.getItem('auth_email');
+            const authId = localStorage.getItem('auth_id');
+
+            addResult('auth_token', !!authToken, authToken ? `Found: ${authToken.substring(0, 20)}...` : 'Missing');
+            addResult('auth_email', !!authEmail, authEmail ? `Found: ${authEmail}` : 'Missing');
+            addResult('auth_id', !!authId, authId ? `Found: ${authId.substring(0, 20)}...` : 'Missing (optional)');
+
+            if (authToken && authEmail) {
+                log(`✅ Dev-fallback auth detected: ${authEmail}`, 'success');
+            } else {
+                log('⚠️ No dev-fallback auth tokens in localStorage', 'warn');
+            }
+        }
+
+        function testAuthState() {
+            log('--- Testing Auth State ---', 'info');
+
+            // Check if Supabase is configured
+            const supabaseUrl = 'https://dfhanacsmsvvkpunurnp.supabase.co';
+            addResult('Supabase URL', true, `Configured: ${supabaseUrl}`);
+
+            // Check if auth_token is set (dev-fallback)
+            const authToken = localStorage.getItem('auth_token');
+            addResult('Auth Token', !!authToken, authToken ? 'Present' : 'Missing');
+
+            // Check auth_email for user identity
+            const authEmail = localStorage.getItem('auth_email');
+            addResult('Auth Email', !!authEmail, authEmail ? authEmail : 'Missing');
+
+            if (authToken && authEmail) {
+                log(`✅ User should be authenticated as: ${authEmail}`, 'success');
+            } else {
+                log('⚠️ User appears to be unauthenticated (auth_token/auth_email missing)', 'warn');
+            }
+        }
+
+        function testPremiumModal() {
+            log('--- Testing Premium Modal ---', 'info');
+
+            const authEmail = localStorage.getItem('auth_email');
+            const isAuthenticated = !!authEmail && !!localStorage.getItem('auth_token');
+
+            addResult('User Authenticated', isAuthenticated, isAuthenticated ? 'Yes' : 'No');
+            
+            if (isAuthenticated) {
+                log('✅ Premium modal should be able to open for authenticated user', 'success');
+            } else {
+                log('⚠️ Premium modal will show login first, then open after authentication', 'warn');
+            }
+        }
+
+        function runTests() {
+            logs = [];
+            resultsEl.innerHTML = '';
+            consoleEl.innerHTML = '';
+            
+            log('🚀 Starting Auth & Premium Modal Flow Tests', 'info');
+            log('');
+            
+            testLocalStorage();
+            log('');
+            testAuthState();
+            log('');
+            testPremiumModal();
+            
+            log('');
+            log('✅ Test suite completed', 'success');
+        }
+
+        function clearAll() {
+            localStorage.removeItem('auth_token');
+            localStorage.removeItem('auth_email');
+            localStorage.removeItem('auth_id');
+            logs = [];
+            resultsEl.innerHTML = '';
+            consoleEl.innerHTML = '';
+            log('🗑️ All auth data cleared from localStorage', 'info');
+        }
+
+        // Auto-run on load
+        window.addEventListener('load', () => {
+            log('📄 Page loaded - Auth & Premium Modal Test Suite ready', 'info');
+            log('Tip: Check the console output and results above', 'info');
+        });
+    </script>
+</body>
+</html>

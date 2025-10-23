@@ -1,0 +1,57 @@
+.stellar-progress{position:sticky;top:0;z-index:60;height:4px;background:transparent}.stellar-progress__bar{height:4px;width:0;background:linear-gradient(90deg,#22c55e,#0ea5e9,#8b5cf6);transition:width .15s ease}
+.stellar-hero{padding:2rem 0 1rem;border-bottom:1px solid hsl(var(--border,0_0%_90%))}
+.stellar-kicker{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:rgb(99,102,241)}
+.stellar-title{font-size:clamp(2rem,2.5vw,3rem);font-weight:800;line-height:1.1}
+.stellar-subtitle{max-width:68ch;color:rgb(71,85,105);margin-top:.5rem}
+.stellar-hero__meta{display:flex;gap:.75rem;flex-wrap:wrap;color:rgb(100,116,139);margin-top:.75rem;font-size:.875rem}
+.stellar-lang{display:flex;gap:.25rem;justify-content:flex-end}
+.stellar-lang__btn{border:1px solid hsl(var(--border,0_0%_88%));background:white;border-radius:.5rem;padding:.25rem .5rem;font-size:.75rem;color:#334155}
+.stellar-lang__btn.active{background:#eef2ff;border-color:#c7d2fe;color:#4338ca}
+
+.stellar-layout{display:grid;grid-template-columns:280px 1fr;gap:2rem;margin-top:1.5rem}
+@media (max-width:1024px){.stellar-layout{grid-template-columns:1fr}}
+
+.stellar-toc{position:sticky;top:72px;align-self:start;border:1px solid hsl(var(--border,0_0%_92%));border-radius:.75rem;padding:1rem;background:rgba(255,255,255,.75);backdrop-filter:saturate(180%) blur(8px)}
+.stellar-toc__title{font-weight:600;margin-bottom:.5rem}
+.stellar-toc ul{list-style:none;margin:0;padding:0;display:grid;gap:.25rem}
+.stellar-toc a{display:block;padding:.35rem .5rem;border-radius:.5rem;color:rgb(71,85,105);text-decoration:none}
+.stellar-toc a:hover{background:rgba(99,102,241,.08);color:rgb(67,56,202)}
+
+.stellar-article{max-width:850px}
+.stellar-section{padding:1.25rem 0;border-bottom:1px dashed hsl(var(--border,0_0%_92%))}
+.stellar-section:last-child{border-bottom:0}
+.stellar-section h2{font-size:1.5rem;font-weight:800;margin:.25rem 0 1rem}
+.stellar-section h3{font-size:1.125rem;font-weight:700;margin:1rem 0 .5rem}
+.stellar-section p{margin:.75rem 0;line-height:1.8;color:rgb(31,41,55)}
+.stellar-section ul,.stellar-section ol{padding-left:1.25rem;margin:.5rem 0;display:grid;gap:.35rem}
+.stellar-list{list-style:decimal}
+
+/* Cases */
+.stellar-cases{display:grid;grid-template-columns:1fr;gap:1rem}
+@media (min-width:768px){.stellar-cases{grid-template-columns:1fr 1fr}}
+.stellar-case{border:1px solid hsl(var(--border,0_0%_92%));border-radius:.75rem;padding:1rem;background:white}
+
+/* Tables */
+.stellar-table__wrap{overflow:auto;border:1px solid hsl(var(--border,0_0%_92%));border-radius:.75rem}
+.stellar-table{width:100%;border-collapse:separate;border-spacing:0}
+.stellar-table th,.stellar-table td{padding:.6rem .75rem;border-bottom:1px solid hsl(var(--border,0_0%_92%));text-align:left}
+.stellar-table thead th{background:#f8fafc;font-weight:700}
+.stellar-table tr:last-child td{border-bottom:0}
+
+/* Calculator */
+.stellar-calculator{border:1px solid hsl(var(--border,0_0%_92%));border-radius:.75rem;padding:1rem;background:white}
+.stellar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+@media (min-width:1024px){.stellar-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.stellar-calculator label{display:grid;gap:.25rem;font-size:.875rem;color:#334155}
+.stellar-calculator input{border:1px solid hsl(var(--border,0_0%_88%));border-radius:.5rem;padding:.5rem}
+.stellar-roi__out{margin-top:.75rem}
+.stellar-roi__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;background:#f8fafc;border:1px solid #e5e7eb;border-radius:.5rem;padding:.75rem}
+
+/* CTAs */
+.stellar-ctas{background:linear-gradient(180deg,rgba(99,102,241,.06),transparent);padding:2rem 0}
+.stellar-ctas__inner{max-width:1000px;margin:0 auto;padding:0 1rem}
+.stellar-ctas__title{font-size:1.35rem;font-weight:800;margin-bottom:1rem}
+.stellar-ctas__row{display:flex;gap:.75rem;flex-wrap:wrap}
+.stellar-cta{display:inline-block;background:#111827;color:white;padding:.6rem 1rem;border-radius:.6rem;text-decoration:none}
+.stellar-cta--ghost{background:white;color:#111827;border:1px solid #e5e7eb}
+.stellar-cta--invert{background:#0ea5e9}
