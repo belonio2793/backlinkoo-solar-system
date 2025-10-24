@@ -246,22 +246,22 @@ const DaftMusic = () => {
                 highlights: ['Stable connections', 'Faster switching', 'Better reliability', 'Multi-device support'],
               },
             ].map((feature, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-purple-500/20 hover:border-purple-400/30 transition group">
+              <Card key={idx} className="card">
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-2">
-                    <div className="p-3 rounded-lg bg-purple-500/20 text-purple-400 group-hover:bg-purple-500/30 transition">
+                    <div className="p-3 rounded-lg dm-badge">
                       {feature.icon}
                     </div>
-                    <CardTitle className="text-xl group-hover:text-purple-400 transition">
+                    <CardTitle className="text-xl">
                       {feature.title}
                     </CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-4">{feature.description}</p>
+                  <p className="text-muted mb-4">{feature.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {feature.highlights.map((highlight) => (
-                      <Badge key={highlight} className="bg-purple-500/20 text-purple-300 border-purple-400/30">
+                      <Badge key={highlight} className="dm-badge">
                         {highlight}
                       </Badge>
                     ))}
