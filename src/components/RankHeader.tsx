@@ -7,7 +7,7 @@ import { Infinity, Star, Menu, Home, BookOpen, Search, LineChart, LogIn, UserPlu
 import { usePremiumModal } from '@/contexts/ModalContext';
 import { useAuth } from '@/hooks/useAuth';
 
-export default function RankHeader({ showTabs = true, ctaMode = 'premium' }: { showTabs?: boolean; ctaMode?: 'premium' | 'navigation' }) {
+export default function RankHeader({ showTabs = true, ctaMode = 'premium', logoSrc, logoAlt }: { showTabs?: boolean; ctaMode?: 'premium' | 'navigation'; logoSrc?: string; logoAlt?: string }) {
   const location = useLocation();
   const navigate = useNavigate();
   const { openPremiumModal } = usePremiumModal();
@@ -31,7 +31,11 @@ export default function RankHeader({ showTabs = true, ctaMode = 'premium' }: { s
               aria-label="Backlinkoo home"
             >
               <div className="p-1.5 rounded-lg">
-                <Infinity className="h-6 w-6 text-primary" />
+                {logoSrc ? (
+                  <img src={logoSrc} alt={logoAlt || 'Backlink logo'} className="h-6 w-6 object-contain" />
+                ) : (
+                  <Infinity className="h-6 w-6 text-primary" />
+                )}
               </div>
               <h1 className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink ∞</h1>
             </div>
