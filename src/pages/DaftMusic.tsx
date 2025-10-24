@@ -148,13 +148,13 @@ const DaftMusic = () => {
             </a>
           </div>
 
-          <div className="bg-white/5 border border-purple-500/20 rounded-lg p-6 backdrop-blur">
-            <p className="text-sm text-gray-400 mb-4">Why music enthusiasts choose Daft Music:</p>
+          <div className="card">
+            <p className="text-sm text-muted mb-4">Why music enthusiasts choose Daft Music:</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {['Native Performance', 'Privacy-First', 'Elegant Design', 'Full Scrobbling'].map((item) => (
                 <div key={item} className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-purple-400" />
-                  <span className="text-sm text-gray-300">{item}</span>
+                  <CheckCircle className="w-4 h-4 dm-accent" />
+                  <span className="text-sm text-muted">{item}</span>
                 </div>
               ))}
             </div>
