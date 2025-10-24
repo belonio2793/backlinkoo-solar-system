@@ -368,21 +368,21 @@ const Claude = () => {
                 icon: <Shield className="w-6 h-6" />,
               },
             ].map((sector, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-white/10 hover:border-amber-400/30 transition">
+              <Card key={idx} className="bg-white border-slate-200 hover:border-blue-300 transition">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2.5 rounded-lg bg-amber-500/20 text-amber-400">
+                    <div className="p-2.5 rounded-lg bg-blue-100 text-blue-600">
                       {sector.icon}
                     </div>
-                    <CardTitle>{sector.industry}</CardTitle>
+                    <CardTitle className="text-slate-900">{sector.industry}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     {sector.use_cases.map((use_case, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <CheckCircle className="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-300">{use_case}</span>
+                        <CheckCircle className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-700">{use_case}</span>
                       </li>
                     ))}
                   </ul>
