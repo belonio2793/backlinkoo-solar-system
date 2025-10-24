@@ -679,48 +679,48 @@ const Claude = () => {
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border-green-500/20">
+            <Card className="bg-slate-50 border-slate-200">
               <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Code2 className="w-5 h-5 text-green-400" />
+                <CardTitle className="text-lg flex items-center gap-2 text-slate-900">
+                  <Code2 className="w-5 h-5 text-blue-600" />
                   Software Development
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <p className="text-sm text-gray-300">Generate and review production code across languages</p>
-                <p className="text-sm text-gray-300">Design scalable system architectures</p>
-                <p className="text-sm text-gray-300">Modernize legacy codebases efficiently</p>
-                <p className="text-sm text-gray-300">Debug complex issues with detailed explanations</p>
+                <p className="text-sm text-slate-600">Generate and review production code across languages</p>
+                <p className="text-sm text-slate-600">Design scalable system architectures</p>
+                <p className="text-sm text-slate-600">Modernize legacy codebases efficiently</p>
+                <p className="text-sm text-slate-600">Debug complex issues with detailed explanations</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border-blue-500/20">
+            <Card className="bg-slate-50 border-slate-200">
               <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <TrendingUp className="w-5 h-5 text-blue-400" />
+                <CardTitle className="text-lg flex items-center gap-2 text-slate-900">
+                  <TrendingUp className="w-5 h-5 text-blue-600" />
                   Business Intelligence
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <p className="text-sm text-gray-300">Analyze market trends and competitive landscapes</p>
-                <p className="text-sm text-gray-300">Generate strategic business recommendations</p>
-                <p className="text-sm text-gray-300">Process financial data and identify patterns</p>
-                <p className="text-sm text-gray-300">Create compelling data-driven narratives</p>
+                <p className="text-sm text-slate-600">Analyze market trends and competitive landscapes</p>
+                <p className="text-sm text-slate-600">Generate strategic business recommendations</p>
+                <p className="text-sm text-slate-600">Process financial data and identify patterns</p>
+                <p className="text-sm text-slate-600">Create compelling data-driven narratives</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 border-purple-500/20">
+            <Card className="bg-slate-50 border-slate-200">
               <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <BookOpen className="w-5 h-5 text-purple-400" />
+                <CardTitle className="text-lg flex items-center gap-2 text-slate-900">
+                  <BookOpen className="w-5 h-5 text-blue-600" />
                   Content & Research
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <p className="text-sm text-gray-300">Conduct deep research and synthesize findings</p>
-                <p className="text-sm text-gray-300">Create original, well-cited content</p>
-                <p className="text-sm text-gray-300">Generate comprehensive documentation</p>
-                <p className="text-sm text-gray-300">Develop training materials and guides</p>
+                <p className="text-sm text-slate-600">Conduct deep research and synthesize findings</p>
+                <p className="text-sm text-slate-600">Create original, well-cited content</p>
+                <p className="text-sm text-slate-600">Generate comprehensive documentation</p>
+                <p className="text-sm text-slate-600">Develop training materials and guides</p>
               </CardContent>
             </Card>
           </div>
