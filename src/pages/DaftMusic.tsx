@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Seo from "@/components/Seo";
-import { Header } from '@/components/Header';
+import RankHeader from '@/components/RankHeader';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -117,7 +117,7 @@ const DaftMusic = () => {
   return (
     <>
       <div className="daftmusic-page min-h-screen">
-      <Header />
+      <RankHeader showTabs={false} ctaMode="navigation" />
 
       {/* Hero Section */}
       <section className="hero relative pt-20 pb-32 px-6 overflow-hidden">
