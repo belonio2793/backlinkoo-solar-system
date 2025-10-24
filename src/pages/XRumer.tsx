@@ -143,13 +143,13 @@ export default function XRumerPage() {
   }, [ids]);
 
   useEffect(() => {
-    document.title = "XRumer: Comprehensive, Ethical Analysis for Modern SEO";
+    document.title = title;
     const meta = document.querySelector('meta[name="description"]') || document.createElement("meta");
     meta.setAttribute("name", "description");
-    meta.setAttribute("content", "Comprehensive analysis and responsible recommendations regarding XRumer and automation in SEO.");
+    meta.setAttribute("content", description);
     document.head.appendChild(meta);
 
-    const canonicalHref = window.location.origin + "/xrumer";
+    const canonicalHref = canonical;
     let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!link) {
       link = document.createElement("link");
