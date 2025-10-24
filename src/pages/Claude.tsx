@@ -728,10 +728,10 @@ const Claude = () => {
       </section>
 
       {/* Getting Started Guide */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">Getting Started with Claude</h2>
-          <p className="text-center text-gray-400 mb-12 text-lg">
+          <h2 className="text-3xl font-bold mb-4 text-center text-slate-900">Getting Started with Claude</h2>
+          <p className="text-center text-slate-600 mb-12 text-lg">
             Quick steps to begin leveraging Claude for your needs
           </p>
 
