@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { normalizeContent as formatNormalize, titleCase as formatTitleCase, extractTitleFromContent } from '@/lib/autoPostFormatter';
 import { useAuthState } from '@/hooks/useAuthState';
 import DeleteCampaignDialog from '@/components/campaigns/DeleteCampaignDialog';
-import { useState } from 'react';
 
 const formatDate = (d: string | null) => {
   if (!d) return '-';
