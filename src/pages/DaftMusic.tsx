@@ -115,7 +115,7 @@ const DaftMusic = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-950 via-slate-900 to-purple-950 text-white overflow-hidden">
+    <div className="daftmusic-page min-h-screen">
       <Header />
 
       {/* Hero Section */}
