@@ -27,17 +27,18 @@ function walkDir(dir, filelist = []) {
 }
 
 function toUrlSegment(name) {
-  // Remove extension if present
   name = name.replace(/\.[^/.]+$/, '');
-  // Handle index specially
   if (name.toLowerCase() === 'index') return '';
-  // Replace spaces and underscores
   name = name.replace(/[_\s]+/g, '-');
-  // Convert CamelCase/PascalCase to kebab-case: FooBar -> foo-bar
   name = name.replace(/([a-z0-9])([A-Z])/g, '$1-$2');
-  // Remove characters not URL-friendly
   name = name.replace(/[^a-zA-Z0-9-]/g, '');
   return name.toLowerCase();
+}
+
+function isValidRoute(route) {
+  // allow only lower-case letters, numbers, dashes and slashes (and root)
+  if (!route || route === '/') return true;
+  return /^\/[a-z0-9\-\/]*$/.test(route);
 }
 
 function collectRoutes() {
@@ -54,7 +55,6 @@ function collectRoutes() {
     }
   }
 
-  // Regexes to find route-like references in code
   const routeRegexes = [
     /<Route\s+[^>]*\bpath\s*=\s*["'`]([^"'`]+)["'`]/g,
     /\bpath\s*=\s*{\s*["'`]([^"'`]+)["'`]\s*}/g,
@@ -72,36 +72,34 @@ function collectRoutes() {
       while ((m = re.exec(src))) {
         const p = m[1];
         if (!p) continue;
-        // ignore absolute external links
         if (/^https?:\/\//i.test(p)) continue;
-        // normalize mailto, tel, anchors
         if (p.startsWith('mailto:') || p.startsWith('tel:') || p.startsWith('#')) continue;
-        // skip wildcard or parameterized client routes that cannot be resolved statically
         if (p.includes('*') || p.includes(':') || p.includes('{') || p.includes('}')) continue;
-        const normalized = p.startsWith('/') ? p : `/${p}`;
-        if (excludePrefixes.some((pre) => normalized.startsWith(pre))) continue;
-        // collapse trailing slashes
-        const cleaned = normalized.replace(/\/+$|(?<=.)\/+$/g, '') || '/';
-        routes.add(cleaned);
+        // remove query/hash fragments and collapse slashes
+        let cleaned = p.split(/[?#]/)[0];
+        const normalized = cleaned.startsWith('/') ? cleaned : `/${cleaned}`;
+        const collapsed = normalized.replace(/\/+/g, '/').replace(/\/$/, '') || '/';
+        if (excludePrefixes.some((pre) => collapsed.startsWith(pre))) continue;
+        if (!isValidRoute(collapsed)) continue;
+        routes.add(collapsed);
       }
     }
   }
 
-  // Discover pages by filename under src/pages (file-system based mapping)
   const pagesDir = path.resolve('src/pages');
   if (fs.existsSync(pagesDir)) {
     const pageFiles = walkDir(pagesDir).filter((f) => exts.includes(path.extname(f)));
     for (const pf of pageFiles) {
       const rel = path.relative(pagesDir, pf);
-      // Split into segments and convert each to URL-safe segment
-      const parts = rel.split(path.sep).map((seg) => toUrlSegment(seg));
+      const rawParts = rel.split(path.sep);
+      const parts = rawParts.map((seg) => toUrlSegment(seg));
       let route = '/' + parts.filter(Boolean).join('/');
       if (route === '') route = '/';
       if (route.endsWith('/index')) route = route.replace(/\/index$/, '') || '/';
-      // skip excluded prefixes
       if (excludePrefixes.some((pre) => route.startsWith(pre))) continue;
-      // skip dynamic segments
       if (route.includes(':') || route.includes('*') || route.includes('[') || route.includes(']')) continue;
+      // final validation
+      if (!isValidRoute(route)) continue;
       routes.add(route);
     }
   }
