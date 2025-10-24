@@ -124,20 +124,20 @@ const Claude = () => {
 
         <div className="relative max-w-5xl mx-auto text-center">
           <div className="inline-block mb-6">
-            <Badge className="bg-amber-500/20 text-amber-300 border border-amber-400/30 px-4 py-2">
+            <Badge className="bg-blue-100 text-blue-700 border border-blue-200 px-4 py-2">
               <Sparkles className="w-4 h-4 mr-2" />
               Advanced AI Thinking Partner
             </Badge>
           </div>
 
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-slate-900">
             Meet Your{' '}
-            <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+            <span className="text-blue-600">
               Thinking Partner
             </span>
           </h1>
 
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             Claude is an AI assistant designed to help you tackle complex problems, analyze vast datasets, write 
             sophisticated code, and collaborate on challenging projects. Powered by Anthropic's Constitutional AI 
             approach, Claude delivers helpful, honest, and harmless responses built for enterprise reliability.
