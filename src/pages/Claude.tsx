@@ -429,9 +429,9 @@ const Claude = () => {
       </section>
 
       {/* Performance Metrics Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Industry-Leading Performance</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-slate-900">Industry-Leading Performance</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -450,13 +450,13 @@ const Claude = () => {
                 description: 'Constitutional AI enables rapid iteration and continuous improvements',
               },
             ].map((stat, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-white/10 text-center">
+              <Card key={idx} className="bg-slate-50 border-slate-200 text-center">
                 <CardContent className="pt-8">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent mb-2">
+                  <div className="text-5xl font-bold text-blue-600 mb-2">
                     {stat.metric}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">{stat.label}</h3>
-                  <p className="text-gray-400">{stat.description}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-slate-900">{stat.label}</h3>
+                  <p className="text-slate-600">{stat.description}</p>
                 </CardContent>
               </Card>
             ))}
