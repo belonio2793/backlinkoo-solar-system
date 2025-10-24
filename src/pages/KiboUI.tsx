@@ -156,7 +156,7 @@ export default function KiboUI() {
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Unlike traditional component libraries that lock you into specific design systems, Kibo UI embraces the shadcn/ui philosophy of composability and developer freedom. Every component is built on industry-standard technologies—React, TypeScript, Tailwind CSS, Radix UI primitives, and Lucide icons—ensuring compatibility and predictability across your projects.
+                Unlike traditional component libraries that lock you into specific design systems, Kibo UI embraces the shadcn/ui philosophy of composability and developer freedom. Every component is built on industry-standard technologies—React, TypeScript, Tailwind CSS, Radix UI primitives, and Lucide icons��ensuring compatibility and predictability across your projects.
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed">
@@ -170,7 +170,7 @@ export default function KiboUI() {
                   <Layers className="w-8 h-8 text-purple-400 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">1000+ Components</h3>
-                    <p className="text-gray-400">A comprehensive collection covering everything from basic inputs to complex interactive patterns and pre-built blocks ready to copy and use.</p>
+                    <p className="text-slate-600">A comprehensive collection covering everything from basic inputs to complex interactive patterns and pre-built blocks ready to copy and use.</p>
                   </div>
                 </div>
               </Card>
@@ -180,7 +180,7 @@ export default function KiboUI() {
                   <Sparkles className="w-8 h-8 text-pink-400 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold mb-2">Fully Composable</h3>
-                    <p className="text-gray-400">Build, customize, and extend every component to match your exact needs. Composability is at the core of Kibo UI's design philosophy.</p>
+                    <p className="text-slate-600">Build, customize, and extend every component to match your exact needs. Composability is at the core of Kibo UI's design philosophy.</p>
                   </div>
                 </div>
               </Card>
@@ -194,7 +194,7 @@ export default function KiboUI() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">Comprehensive Component Categories</h2>
-            <p className="text-xl text-gray-400 text-center mb-16">Kibo UI organizes thousands of components into intuitive categories, making it easy to find exactly what you need.</p>
+            <p className="text-xl text-slate-600 text-center mb-16">Kibo UI organizes thousands of components into intuitive categories, making it easy to find exactly what you need.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
               {[
@@ -234,7 +234,7 @@ export default function KiboUI() {
                     <feature.icon className="w-8 h-8 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                      <p className="text-gray-400 text-sm">{feature.description}</p>
+                      <p className="text-slate-600 text-sm">{feature.description}</p>
                     </div>
                   </div>
                 </Card>
@@ -397,7 +397,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">🎨</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Color Picker</h3>
-                  <p className="text-gray-400">Professional color selection component modeled after Figma's color picker. Includes color spectrum, HEX/RGB input fields, and real-time preview.</p>
+                  <p className="text-slate-600">Professional color selection component modeled after Figma's color picker. Includes color spectrum, HEX/RGB input fields, and real-time preview.</p>
                 </div>
               </div>
 
@@ -405,7 +405,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">🔍</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Image Zoom</h3>
-                  <p className="text-gray-400">Advanced image zoom functionality with smooth zoom controls, pan support, and touch gestures for mobile devices.</p>
+                  <p className="text-slate-600">Advanced image zoom functionality with smooth zoom controls, pan support, and touch gestures for mobile devices.</p>
                 </div>
               </div>
 
@@ -413,7 +413,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📱</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">QR Code Generator</h3>
-                  <p className="text-gray-400">Generate QR codes dynamically from any string or URL. Includes customization options for colors, size, and format.</p>
+                  <p className="text-slate-600">Generate QR codes dynamically from any string or URL. Includes customization options for colors, size, and format.</p>
                 </div>
               </div>
 
@@ -421,7 +421,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">💻</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Code Block</h3>
-                  <p className="text-gray-400">Syntax-highlighted code blocks with language detection, line numbers, copy-to-clipboard functionality, and theme customization.</p>
+                  <p className="text-slate-600">Syntax-highlighted code blocks with language detection, line numbers, copy-to-clipboard functionality, and theme customization.</p>
                 </div>
               </div>
 
@@ -429,7 +429,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📤</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Dropzone</h3>
-                  <p className="text-gray-400">Drag-and-drop file upload area with click-to-upload fallback, file type validation, and visual feedback during upload.</p>
+                  <p className="text-slate-600">Drag-and-drop file upload area with click-to-upload fallback, file type validation, and visual feedback during upload.</p>
                 </div>
               </div>
 
@@ -437,7 +437,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📊</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Gantt Chart</h3>
-                  <p className="text-gray-400">Interactive project timeline visualization with drag-to-resize tasks, multiple view modes (Gantt, Calendar, List, Kanban), and real-time updates.</p>
+                  <p className="text-slate-600">Interactive project timeline visualization with drag-to-resize tasks, multiple view modes (Gantt, Calendar, List, Kanban), and real-time updates.</p>
                 </div>
               </div>
             </div>
@@ -490,7 +490,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-purple-600/30 border border-purple-500 rounded-full flex items-center justify-center text-2xl font-bold text-purple-400">1</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Visit Kibo UI Website</h3>
-                  <p className="text-gray-400">Browse the comprehensive component library at kibo-ui.com. Explore thousands of components, patterns, and blocks organized by category.</p>
+                  <p className="text-slate-600">Browse the comprehensive component library at kibo-ui.com. Explore thousands of components, patterns, and blocks organized by category.</p>
                 </div>
               </div>
 
@@ -498,7 +498,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-pink-600/30 border border-pink-500 rounded-full flex items-center justify-center text-2xl font-bold text-pink-400">2</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Choose Your Components</h3>
-                  <p className="text-gray-400">Find the components you need for your project. Each component includes a live preview, code example, and detailed documentation.</p>
+                  <p className="text-slate-600">Find the components you need for your project. Each component includes a live preview, code example, and detailed documentation.</p>
                 </div>
               </div>
 
@@ -506,7 +506,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-cyan-600/30 border border-cyan-500 rounded-full flex items-center justify-center text-2xl font-bold text-cyan-400">3</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Copy and Customize</h3>
-                  <p className="text-gray-400">Copy the component code directly into your project. Since components are yours to own, customize them exactly as needed for your application.</p>
+                  <p className="text-slate-600">Copy the component code directly into your project. Since components are yours to own, customize them exactly as needed for your application.</p>
                 </div>
               </div>
 
@@ -514,7 +514,7 @@ export default function KiboUI() {
                 <div className="flex-shrink-0 w-12 h-12 bg-green-600/30 border border-green-500 rounded-full flex items-center justify-center text-2xl font-bold text-green-400">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Build Your App</h3>
-                  <p className="text-gray-400">Compose, combine, and integrate components into your application. Enjoy faster development time and focus on unique business logic.</p>
+                  <p className="text-slate-600">Compose, combine, and integrate components into your application. Enjoy faster development time and focus on unique business logic.</p>
                 </div>
               </div>
             </div>
@@ -534,8 +534,8 @@ export default function KiboUI() {
                   <tr className="border-b border-gray-700">
                     <th className="text-left py-4 px-4 text-lg font-bold">Feature</th>
                     <th className="text-center py-4 px-4 text-lg font-bold text-purple-400">Kibo UI</th>
-                    <th className="text-center py-4 px-4 text-lg font-bold text-gray-400">Component Libraries</th>
-                    <th className="text-center py-4 px-4 text-lg font-bold text-gray-400">UI Frameworks</th>
+                    <th className="text-center py-4 px-4 text-lg font-bold text-slate-600">Component Libraries</th>
+                    <th className="text-center py-4 px-4 text-lg font-bold text-slate-600">UI Frameworks</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -602,19 +602,19 @@ export default function KiboUI() {
               <Card className="bg-white border border-slate-200 p-6">
                 <Rocket className="w-8 h-8 text-purple-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Rank Higher</h3>
-                <p className="text-sm text-gray-400">Strategic backlinks signal authority to search engines, improving your rankings for competitive keywords and driving organic visibility.</p>
+                <p className="text-sm text-slate-600">Strategic backlinks signal authority to search engines, improving your rankings for competitive keywords and driving organic visibility.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-6">
                 <BookOpen className="w-8 h-8 text-pink-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Build Authority</h3>
-                <p className="text-sm text-gray-400">Quality backlinks from authoritative domains enhance your site's credibility and domain authority, creating a strong foundation for long-term growth.</p>
+                <p className="text-sm text-slate-600">Quality backlinks from authoritative domains enhance your site's credibility and domain authority, creating a strong foundation for long-term growth.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-6">
                 <Users className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Drive Traffic</h3>
-                <p className="text-sm text-gray-400">Higher rankings lead to consistent organic traffic from users actively searching for solutions you provide.</p>
+                <p className="text-sm text-slate-600">Higher rankings lead to consistent organic traffic from users actively searching for solutions you provide.</p>
               </Card>
             </div>
 
