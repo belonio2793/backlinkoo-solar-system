@@ -542,9 +542,9 @@ const Claude = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-slate-900">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
               {
