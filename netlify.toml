@@ -120,6 +120,19 @@
   conditions = { Host = ["www.backlinkoo.com"] }
 
 # SPA fallback (keep LAST) — serve index.html for any client-side route
+
+# Serve sitemap and robots as static files (avoid SPA rewrite)
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
 [[redirects]]
   from = "/senuke"
   to = "/index.html"
