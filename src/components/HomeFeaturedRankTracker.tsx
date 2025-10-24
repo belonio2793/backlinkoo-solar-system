@@ -176,7 +176,7 @@ export function HomeFeaturedRankTracker() {
             <CardHeader className="pb-0 text-center">
               <CardTitle onClick={() => setShowRankOverlay(true)} className="flex items-center gap-2 justify-center text-2xl font-semibold text-slate-900 cursor-pointer select-none">
                 <Search className="w-5 h-5 text-blue-600" />
-                How many backlinks do I need for {url ? url : 'your site'}?
+                How Many Backlinks Do I Need For My Website?
               </CardTitle>
             </CardHeader>
 
