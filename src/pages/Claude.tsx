@@ -613,7 +613,7 @@ const Claude = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 rounded-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg">
                 Get Backlinks & Traffic
               </Button>
             </a>
@@ -622,9 +622,9 @@ const Claude = () => {
       </section>
 
       {/* Additional Context & Benefits Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-center">Why Choose Claude?</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center text-slate-900">Why Choose Claude?</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-white/5 to-white/10 border border-white/10 rounded-lg p-8">
               <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
