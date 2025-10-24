@@ -1,4 +1,4 @@
-import { useState, useEffect, startTransition, useRef } from "react";
+import React, { useState, useEffect, startTransition, useRef, memo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -30,7 +30,6 @@ import {
   LineChart
 } from "lucide-react";
 import { PricingModal } from "@/components/PricingModal";
-import { memo } from "react";
 import { ToastAction } from "@/components/ui/toast";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog";
 import { FeatureShowcaseModal } from "@/components/FeatureShowcaseModal";
