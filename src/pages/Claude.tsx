@@ -780,16 +780,16 @@ const Claude = () => {
       </section>
 
       {/* Backlink Integration CTA */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-indigo-600/20 to-blue-600/20 border border-indigo-500/30 rounded-2xl p-12">
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-12">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <Badge className="mb-4 bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">
+                <Badge className="mb-4 bg-blue-100 text-blue-700 border border-blue-200">
                   SEO Enhancement
                 </Badge>
-                <h2 className="text-4xl font-bold mb-6">Maximize Your Content's Reach</h2>
-                <p className="text-gray-300 mb-6">
+                <h2 className="text-4xl font-bold mb-6 text-slate-900">Maximize Your Content's Reach</h2>
+                <p className="text-slate-600 mb-6">
                   You've learned about Claude's incredible capabilities. Now ensure your valuable insights—whether created
                   with or without Claude—reach their full potential audience through strategic SEO and high-authority backlinks.
                 </p>
