@@ -145,20 +145,20 @@ const Claude = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-6 text-lg rounded-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
                 Power Your SEO with Backlink ∞
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </a>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-lg p-6 backdrop-blur">
-            <p className="text-sm text-gray-400 mb-4">Trusted by leading enterprises for:</p>
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+            <p className="text-sm text-slate-600 mb-4">Trusted by leading enterprises for:</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {['Data Analysis', 'Code Generation', 'Research', 'Strategic Planning'].map((item) => (
                 <div key={item} className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-amber-400" />
-                  <span className="text-sm text-gray-300">{item}</span>
+                  <CheckCircle className="w-4 h-4 text-blue-600" />
+                  <span className="text-sm text-slate-700">{item}</span>
                 </div>
               ))}
             </div>
