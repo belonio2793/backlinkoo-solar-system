@@ -141,7 +141,7 @@ const DaftMusic = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-purple-500 hover:bg-purple-600 text-white px-8 py-6 text-lg rounded-lg">
+              <Button className="btn">
                 Register for Backlink ∞
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
