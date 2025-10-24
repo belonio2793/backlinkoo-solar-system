@@ -646,12 +646,12 @@ const Claude = () => {
                 The model's deep understanding enables sophisticated analysis across diverse domains.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white/5 to-white/10 border border-white/10 rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <Code2 className="w-6 h-6 text-amber-400" />
+            <div className="bg-white border border-slate-200 rounded-lg p-8">
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-slate-900">
+                <Code2 className="w-6 h-6 text-blue-600" />
                 Programming Excellence
               </h3>
-              <p className="text-gray-300">
+              <p className="text-slate-600">
                 From writing production-ready code to debugging complex systems, Claude demonstrates mastery across
                 multiple programming languages and frameworks. Perfect for developers and architects.
               </p>
