@@ -656,12 +656,12 @@ const Claude = () => {
                 multiple programming languages and frameworks. Perfect for developers and architects.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white/5 to-white/10 border border-white/10 rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <Sparkles className="w-6 h-6 text-amber-400" />
+            <div className="bg-white border border-slate-200 rounded-lg p-8">
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-slate-900">
+                <Sparkles className="w-6 h-6 text-blue-600" />
                 Creative Excellence
               </h3>
-              <p className="text-gray-300">
+              <p className="text-slate-600">
                 Claude balances analytical rigor with creative thinking. It generates original ideas, compelling narratives,
                 and strategic innovations that drive business results.
               </p>
