@@ -120,9 +120,6 @@ const DaftMusic = () => {
 
       {/* Hero Section */}
       <section className="hero relative pt-20 pb-32 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl opacity-20" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl opacity-20" />
 
         <div className="relative max-w-5xl mx-auto text-center">
           <div className="inline-block mb-6">
