@@ -292,29 +292,29 @@ const Claude = () => {
             ].map((model, idx) => (
               <Card
                 key={idx}
-                className="relative overflow-hidden bg-gradient-to-br from-white/5 to-white/10 border-white/10 hover:border-white/20 transition group"
+                className="relative overflow-hidden bg-white border-slate-200 hover:border-slate-300 transition group"
               >
                 {model.badge && (
                   <div className="absolute top-4 right-4">
-                    <Badge className="bg-amber-500/30 text-amber-300 border-amber-400/50">
+                    <Badge className="bg-blue-100 text-blue-700 border-blue-200">
                       {model.badge}
                     </Badge>
                   </div>
                 )}
                 <CardHeader>
-                  <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${model.color} p-2.5 mb-4 text-white`}>
+                  <div className={`w-12 h-12 rounded-lg bg-blue-100 p-2.5 mb-4 text-blue-600`}>
                     {model.icon}
                   </div>
-                  <CardTitle className="text-2xl">{model.name}</CardTitle>
-                  <p className="text-amber-400 text-sm font-semibold mt-2">{model.tagline}</p>
+                  <CardTitle className="text-2xl text-slate-900">{model.name}</CardTitle>
+                  <p className="text-blue-600 text-sm font-semibold mt-2">{model.tagline}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-6">{model.description}</p>
+                  <p className="text-slate-600 mb-6">{model.description}</p>
                   <div className="space-y-2 mb-6">
                     {model.strengths.map((strength) => (
                       <div key={strength} className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-amber-400" />
-                        <span className="text-sm text-gray-300">{strength}</span>
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-sm text-slate-700">{strength}</span>
                       </div>
                     ))}
                   </div>
