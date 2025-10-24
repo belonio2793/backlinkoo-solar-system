@@ -411,17 +411,17 @@ const Claude = () => {
                   'Harmless: Built with safety guardrails to prevent misuse and harmful outputs.',
                 ].map((point, idx) => (
                   <div key={idx} className="flex gap-3">
-                    <CheckCircle className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-                    <p className="text-gray-300">{point}</p>
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <p className="text-slate-700">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/20 rounded-2xl p-8 flex items-center justify-center min-h-96">
+            <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <Shield className="w-24 h-24 text-amber-400 mx-auto mb-4 opacity-80" />
-                <p className="text-gray-400">Constitutional AI Framework</p>
-                <p className="text-sm text-gray-500 mt-2">Ethical, safe, and reliable AI assistant</p>
+                <Shield className="w-24 h-24 text-blue-600 mx-auto mb-4 opacity-80" />
+                <p className="text-slate-700">Constitutional AI Framework</p>
+                <p className="text-sm text-slate-600 mt-2">Ethical, safe, and reliable AI assistant</p>
               </div>
             </div>
           </div>
