@@ -117,6 +117,8 @@ The practical guidance is straightforward: prioritize permission, respect platfo
 
 export default function XRumerPage() {
   const title = "XRumer: Comprehensive, Ethical Analysis for Modern SEO";
+  const description = "Comprehensive analysis and responsible recommendations regarding XRumer and automation in SEO.";
+  const canonical = typeof window !== 'undefined' ? (window.location.origin + "/xrumer") : "/xrumer";
 
   const ids = useMemo(() => SECTIONS.map((s) => s.key), []);
   const [active, setActive] = useState<string>(ids[0] || "overview");
