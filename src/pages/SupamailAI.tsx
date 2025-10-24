@@ -113,25 +113,25 @@ const SupamailAI = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-slate-900 to-indigo-950 text-white overflow-hidden">
+    <div className="min-h-screen bg-white text-slate-900">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-black/40 backdrop-blur-lg border-b border-indigo-500/10">
+      <nav className="sticky top-0 z-50 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Mail className="w-6 h-6 text-indigo-400" />
-            <div className="text-2xl font-bold text-indigo-400">Supamail AI</div>
+            <Mail className="w-6 h-6 text-blue-600" />
+            <div className="text-2xl font-bold text-slate-900">Supamail AI</div>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-sm text-gray-300 hover:text-white transition">
+            <a href="#features" className="text-sm text-slate-600 hover:text-slate-900">
               Features
             </a>
-            <a href="#benefits" className="text-sm text-gray-300 hover:text-white transition">
+            <a href="#benefits" className="text-sm text-slate-600 hover:text-slate-900">
               Benefits
             </a>
-            <a href="#faq" className="text-sm text-gray-300 hover:text-white transition">
+            <a href="#faq" className="text-sm text-slate-600 hover:text-slate-900">
               FAQ
             </a>
-            <a href="https://supamail.ai" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-300 hover:text-white transition">
+            <a href="https://supamail.ai" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 hover:text-slate-900">
               Download
             </a>
           </div>
@@ -139,27 +139,20 @@ const SupamailAI = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl opacity-20" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl opacity-20" />
-
+      <section className="relative pt-20 pb-32 px-6">
         <div className="relative max-w-5xl mx-auto text-center">
           <div className="inline-block mb-6">
-            <Badge className="bg-indigo-500/20 text-indigo-300 border border-indigo-400/30 px-4 py-2">
+            <Badge className="bg-blue-50 text-blue-700 border border-blue-200 px-4 py-2">
               <Sparkles className="w-4 h-4 mr-2" />
               Privacy-First AI Assistant
             </Badge>
           </div>
 
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
-            Reclaim Your{' '}
-            <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-              Inbox with Intelligence
-            </span>
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight text-slate-900">
+            Reclaim Your Inbox with Intelligence
           </h1>
 
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             Supamail AI transforms email management on iOS with intelligent summarization, automatic categorization, 
             and smart reply suggestions. Reduce email overload, organize your messages effortlessly, and focus on 
             what truly matters with CASA Tier 2 certified privacy protection.
@@ -167,20 +160,20 @@ const SupamailAI = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-6 text-lg rounded-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
                 Register for Backlink ∞
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </a>
           </div>
 
-          <div className="bg-white/5 border border-indigo-500/20 rounded-lg p-6 backdrop-blur">
-            <p className="text-sm text-gray-400 mb-4">Why professionals choose Supamail AI:</p>
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
+            <p className="text-sm text-slate-600 mb-4">Why professionals choose Supamail AI:</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {['AI Summaries', 'Smart Organization', 'AI Replies', 'Privacy Protected'].map((item) => (
                 <div key={item} className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-indigo-400" />
-                  <span className="text-sm text-gray-300">{item}</span>
+                  <CheckCircle className="w-4 h-4 text-blue-600" />
+                  <span className="text-sm text-slate-700">{item}</span>
                 </div>
               ))}
             </div>
@@ -189,19 +182,19 @@ const SupamailAI = () => {
       </section>
 
       {/* Problem & Solution Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12">The Email Overload Problem</h2>
+          <h2 className="text-4xl font-bold mb-12 text-slate-900">The Email Overload Problem</h2>
           <div className="space-y-8">
-            <div className="border-l-4 border-indigo-500 pl-8">
-              <h3 className="text-2xl font-semibold mb-4">Modern Email Overwhelm</h3>
-              <p className="text-gray-300 mb-4">
+            <div className="border-l-4 border-blue-600 pl-8">
+              <h3 className="text-2xl font-semibold mb-4 text-slate-900">Modern Email Overwhelm</h3>
+              <p className="text-slate-700 mb-4">
                 The average professional receives between 85-120 emails daily, with only 20-30% being truly important. 
                 Email fatigue has become a significant productivity challenge, with workers spending 28% of their workday 
                 managing inbox clutter, prioritizing non-urgent messages, and searching for critical communications buried 
                 beneath promotional content and notifications.
               </p>
-              <p className="text-gray-300">
+              <p className="text-slate-700">
                 Traditional email clients offer no intelligence layer—they simply present all messages equally, forcing 
                 users to manually sort, prioritize, and respond to each message. This creates mental overhead, reduces 
                 focus on meaningful work, and contributes to the widespread phenomenon of "email anxiety" across professional 
@@ -209,15 +202,15 @@ const SupamailAI = () => {
               </p>
             </div>
 
-            <div className="border-l-4 border-cyan-500 pl-8">
-              <h3 className="text-2xl font-semibold mb-4">The Supamail AI Solution</h3>
-              <p className="text-gray-300 mb-4">
+            <div className="border-l-4 border-blue-500 pl-8">
+              <h3 className="text-2xl font-semibold mb-4 text-slate-900">The Supamail AI Solution</h3>
+              <p className="text-slate-700 mb-4">
                 Supamail AI introduces an intelligent layer to email management by deploying advanced AI algorithms to 
                 understand context, extract meaning, and provide actionable insights from your email stream. Rather than 
                 eliminating emails (which would be irresponsible), Supamail AI makes every email faster to consume, easier 
                 to understand, and simpler to respond to—all while protecting your privacy.
               </p>
-              <p className="text-gray-300">
+              <p className="text-slate-700">
                 By combining one-line summaries, intelligent threading, automatic categorization, and context-aware reply 
                 suggestions, Supamail AI can reduce the time spent processing emails by 40-60% while ensuring you never 
                 miss important communications.
@@ -228,11 +221,11 @@ const SupamailAI = () => {
       </section>
 
       {/* Core Features Section */}
-      <section id="features" className="py-24 px-6">
+      <section id="features" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Powerful AI-Driven Features</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-5xl font-bold mb-4 text-slate-900">Powerful AI-Driven Features</h2>
+            <p className="text-xl text-slate-600">
               Comprehensive email intelligence designed for the modern professional
             </p>
           </div>
@@ -282,22 +275,22 @@ const SupamailAI = () => {
                 highlights: ['Selective muting', 'Custom alerts', 'Focus time', 'Smart timing'],
               },
             ].map((feature, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-indigo-500/20 hover:border-indigo-400/30 transition group">
+              <Card key={idx} className="bg-white border border-slate-200">
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-2">
-                    <div className="p-3 rounded-lg bg-indigo-500/20 text-indigo-400 group-hover:bg-indigo-500/30 transition">
+                    <div className="p-3 rounded-lg bg-blue-50 text-blue-600">
                       {feature.icon}
                     </div>
-                    <CardTitle className="text-xl group-hover:text-indigo-400 transition">
+                    <CardTitle className="text-xl text-slate-900">
                       {feature.title}
                     </CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-4">{feature.description}</p>
+                  <p className="text-slate-700 mb-4">{feature.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {feature.highlights.map((highlight) => (
-                      <Badge key={highlight} className="bg-indigo-500/20 text-indigo-300 border-indigo-400/30">
+                      <Badge key={highlight} className="bg-blue-50 text-blue-700 border-blue-200">
                         {highlight}
                       </Badge>
                     ))}
@@ -310,12 +303,12 @@ const SupamailAI = () => {
       </section>
 
       {/* Privacy & Security Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Privacy-First Architecture</h2>
-              <p className="text-gray-300 mb-6">
+              <h2 className="text-4xl font-bold mb-6 text-slate-900">Privacy-First Architecture</h2>
+              <p className="text-slate-700 mb-6">
                 Supamail AI is CASA Tier 2 certified, meaning your email data is protected by enterprise-grade security 
                 standards. We do not store emails beyond what's necessary to provide our features, and your data is never 
                 used for training, improvement, or any other purpose without explicit consent.
@@ -330,17 +323,17 @@ const SupamailAI = () => {
                   'Transparent privacy policy and practices',
                 ].map((point, idx) => (
                   <div key={idx} className="flex gap-3">
-                    <CheckCircle className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />
-                    <p className="text-gray-300">{point}</p>
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <p className="text-slate-700">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="bg-gradient-to-br from-indigo-500/10 to-cyan-500/10 border border-indigo-500/20 rounded-2xl p-8 flex items-center justify-center min-h-96">
+            <div className="bg-blue-50 border border-slate-200 rounded-2xl p-8 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <Shield className="w-24 h-24 text-indigo-400 mx-auto mb-4 opacity-80" />
-                <p className="text-gray-400">Enterprise Security Standard</p>
-                <p className="text-sm text-gray-500 mt-2">CASA Tier 2 Certified</p>
+                <Shield className="w-24 h-24 text-blue-600 mx-auto mb-4 opacity-80" />
+                <p className="text-slate-700">Enterprise Security Standard</p>
+                <p className="text-sm text-slate-600 mt-2">CASA Tier 2 Certified</p>
               </div>
             </div>
           </div>
@@ -348,11 +341,11 @@ const SupamailAI = () => {
       </section>
 
       {/* Benefits Section */}
-      <section id="benefits" className="py-24 px-6">
+      <section id="benefits" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Transformative Benefits</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-5xl font-bold mb-4 text-slate-900">Transformative Benefits</h2>
+            <p className="text-xl text-slate-600">
               Measurable improvements to productivity and wellbeing
             </p>
           </div>
@@ -380,12 +373,12 @@ const SupamailAI = () => {
                 description: 'With smart categorization, important emails are reliably surfaced. No more critical messages buried under promotional clutter.',
               },
             ].map((benefit, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-indigo-500/10 to-indigo-500/5 border-indigo-500/20">
+              <Card key={idx} className="bg-blue-50 border border-blue-200">
                 <CardContent className="pt-8">
                   <div className="mb-6">
-                    <div className="text-4xl font-bold text-indigo-400 mb-2">{benefit.stat}</div>
-                    <h3 className="text-2xl font-semibold mb-3">{benefit.title}</h3>
-                    <p className="text-gray-300">{benefit.description}</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">{benefit.stat}</div>
+                    <h3 className="text-2xl font-semibold text-slate-900 mb-3">{benefit.title}</h3>
+                    <p className="text-slate-700">{benefit.description}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -395,9 +388,9 @@ const SupamailAI = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Perfect For</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-slate-900">Perfect For</h2>
           <div className="space-y-6">
             {[
               {
@@ -425,12 +418,12 @@ const SupamailAI = () => {
                 description: 'Remote team members can better manage asynchronous communication and stay focused during deep work sessions.',
               },
             ].map((useCase, idx) => (
-              <div key={idx} className="bg-gradient-to-r from-indigo-500/10 to-cyan-500/10 border border-indigo-500/20 rounded-lg p-6 hover:border-indigo-400/30 transition">
-                <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-indigo-400" />
+              <div key={idx} className="bg-white border border-slate-200 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-2 flex items-center gap-2 text-slate-900">
+                  <CheckCircle className="w-5 h-5 text-blue-600" />
                   {useCase.title}
                 </h3>
-                <p className="text-gray-300">{useCase.description}</p>
+                <p className="text-slate-700">{useCase.description}</p>
               </div>
             ))}
           </div>
@@ -438,11 +431,11 @@ const SupamailAI = () => {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-4xl font-bold mb-4 text-slate-900">Simple, Transparent Pricing</h2>
+            <p className="text-xl text-slate-600">
               Get started free, upgrade when you're ready
             </p>
           </div>
@@ -464,28 +457,28 @@ const SupamailAI = () => {
                 badge: 'Recommended',
               },
             ].map((plan, idx) => (
-              <Card key={idx} className={`relative overflow-hidden bg-gradient-to-br from-white/5 to-white/10 border-indigo-500/20 hover:border-indigo-400/30 transition ${plan.badge ? 'ring-2 ring-indigo-500/50' : ''}`}>
+              <Card key={idx} className={`relative overflow-hidden bg-white border border-slate-200 ${plan.badge ? 'ring-2 ring-blue-500' : ''}`}>
                 {plan.badge && (
                   <div className="absolute top-4 right-4">
-                    <Badge className="bg-indigo-500/30 text-indigo-200 border-indigo-400/50">
+                    <Badge className="bg-blue-100 text-blue-700 border-blue-300">
                       {plan.badge}
                     </Badge>
                   </div>
                 )}
                 <CardHeader>
-                  <CardTitle className="text-2xl">{plan.name}</CardTitle>
-                  <p className="text-gray-400 text-sm mt-2">{plan.description}</p>
+                  <CardTitle className="text-2xl text-slate-900">{plan.name}</CardTitle>
+                  <p className="text-slate-600 text-sm mt-2">{plan.description}</p>
                 </CardHeader>
                 <CardContent>
                   <div className="mb-6">
-                    <div className="text-4xl font-bold text-indigo-400">{plan.price}</div>
-                    {plan.period && <div className="text-gray-400 text-sm">{plan.period}</div>}
+                    <div className="text-4xl font-bold text-blue-600">{plan.price}</div>
+                    {plan.period && <div className="text-slate-600 text-sm">{plan.period}</div>}
                   </div>
                   <ul className="space-y-3">
                     {plan.features.map((feature) => (
                       <li key={feature} className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-indigo-400" />
-                        <span className="text-sm text-gray-300">{feature}</span>
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
+                        <span className="text-sm text-slate-700">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -497,9 +490,9 @@ const SupamailAI = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-24 px-6 bg-black/40">
+      <section id="faq" className="py-24 px-6 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-slate-900">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
               {
@@ -537,22 +530,22 @@ const SupamailAI = () => {
             ].map((faq, idx) => (
               <div
                 key={idx}
-                className="border border-indigo-500/20 rounded-lg overflow-hidden hover:border-indigo-400/30 transition"
+                className="border border-slate-200 rounded-lg overflow-hidden bg-white"
               >
                 <button
                   onClick={() => setExpandedFeature(expandedFeature === `faq-${idx}` ? null : `faq-${idx}`)}
-                  className="w-full px-6 py-4 flex items-center justify-between hover:bg-white/5 transition"
+                  className="w-full px-6 py-4 flex items-center justify-between hover:bg-slate-50"
                 >
-                  <h3 className="font-semibold text-left">{faq.question}</h3>
+                  <h3 className="font-semibold text-left text-slate-900">{faq.question}</h3>
                   <ChevronDown
-                    className={`w-5 h-5 transition-transform ${
+                    className={`w-5 h-5 text-slate-600 transition-transform ${
                       expandedFeature === `faq-${idx}` ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
                 {expandedFeature === `faq-${idx}` && (
-                  <div className="px-6 py-4 bg-white/5 border-t border-indigo-500/20">
-                    <p className="text-gray-300">{faq.answer}</p>
+                  <div className="px-6 py-4 bg-slate-50 border-t border-slate-200">
+                    <p className="text-slate-700">{faq.answer}</p>
                   </div>
                 )}
               </div>
@@ -562,10 +555,10 @@ const SupamailAI = () => {
       </section>
 
       {/* Getting Started Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">Get Started with Supamail AI</h2>
-          <p className="text-center text-gray-400 mb-12 text-lg">
+          <h2 className="text-3xl font-bold mb-4 text-center text-slate-900">Get Started with Supamail AI</h2>
+          <p className="text-center text-slate-600 mb-12 text-lg">
             Three simple steps to intelligent email management
           </p>
 
@@ -587,15 +580,15 @@ const SupamailAI = () => {
                 description: 'Immediately begin enjoying one-line summaries, smart organization, reply suggestions, and daily digests.',
               },
             ].map((item, idx) => (
-              <div key={idx} className="flex gap-6 bg-white/5 border border-indigo-500/20 rounded-lg p-6 hover:border-indigo-400/30 transition">
+              <div key={idx} className="flex gap-6 bg-slate-50 border border-slate-200 rounded-lg p-6">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white font-bold">
                     {item.step}
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                  <p className="text-gray-300">{item.description}</p>
+                  <h3 className="text-lg font-semibold mb-2 text-slate-900">{item.title}</h3>
+                  <p className="text-slate-700">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -604,21 +597,21 @@ const SupamailAI = () => {
       </section>
 
       {/* Backlink Integration CTA */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-indigo-600/20 to-cyan-600/20 border border-indigo-500/30 rounded-2xl p-12">
+          <div className="bg-white border border-slate-200 rounded-2xl p-12">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <Badge className="mb-4 bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">
+                <Badge className="mb-4 bg-blue-50 text-blue-700 border border-blue-200">
                   SEO & Growth
                 </Badge>
-                <h2 className="text-4xl font-bold mb-6">Amplify Your Digital Visibility</h2>
-                <p className="text-gray-300 mb-6">
+                <h2 className="text-4xl font-bold mb-6 text-slate-900">Amplify Your Digital Visibility</h2>
+                <p className="text-slate-700 mb-6">
                   If you're building productivity apps, developing email solutions, or operating in the tech space, 
                   your digital presence determines your market reach. Just as Supamail AI intelligently optimizes email 
                   management, strategic SEO optimization ensures your product reaches the right audience.
                 </p>
-                <p className="text-gray-300 mb-8">
+                <p className="text-slate-700 mb-8">
                   Backlink ∞ combines white-hat link building with comprehensive SEO strategies to establish domain authority 
                   and drive qualified organic traffic to your digital properties and products.
                 </p>
@@ -630,33 +623,33 @@ const SupamailAI = () => {
                     'Full transparency with detailed reporting and analytics',
                   ].map((benefit, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle className="w-5 h-5 text-indigo-400" />
-                      <span className="text-gray-300">{benefit}</span>
+                      <CheckCircle className="w-5 h-5 text-blue-600" />
+                      <span className="text-slate-700">{benefit}</span>
                     </li>
                   ))}
                 </ul>
                 <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg rounded-lg">
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
                     Register for Backlink ∞
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </a>
               </div>
-              <div className="bg-gradient-to-br from-indigo-500/10 to-cyan-500/10 border border-indigo-500/20 rounded-2xl p-8">
+              <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8">
                 <div className="space-y-8">
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-indigo-400 mb-2">3-6 Months</div>
-                    <p className="text-gray-400">Average time to reach top 10 rankings</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">3-6 Months</div>
+                    <p className="text-slate-600">Average time to reach top 10 rankings</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+                  <div className="h-px bg-slate-200" />
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-cyan-400 mb-2">+350%</div>
-                    <p className="text-gray-400">Average organic traffic increase</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">+350%</div>
+                    <p className="text-slate-600">Average organic traffic increase</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+                  <div className="h-px bg-slate-200" />
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-indigo-400 mb-2">100%</div>
-                    <p className="text-gray-400">White-hat ethical practices</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                    <p className="text-slate-600">White-hat ethical practices</p>
                   </div>
                 </div>
               </div>
@@ -666,14 +659,14 @@ const SupamailAI = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-16 px-6 border-t border-indigo-500/10">
+      <section className="py-16 px-6 border-t border-slate-200 bg-white">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Transform Your Email Experience Today</h2>
-          <p className="text-lg text-gray-400 mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-slate-900">Transform Your Email Experience Today</h2>
+          <p className="text-lg text-slate-600 mb-8">
             Download Supamail AI for free and discover how AI can revolutionize your inbox management. Register for Backlink ∞ to maximize your digital presence and SEO authority.
           </p>
           <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg">
               Register for Backlink ∞
             </Button>
           </a>
