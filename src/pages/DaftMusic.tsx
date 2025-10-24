@@ -117,7 +117,7 @@ const DaftMusic = () => {
   return (
     <>
       <div className="daftmusic-page min-h-screen">
-      <RankHeader showTabs={false} ctaMode="navigation" />
+      <RankHeader showTabs={false} ctaMode="navigation" logoSrc="https://cdn.builder.io/api/v1/image/assets%2F70dc6d85778643ed9d76f84998311e99%2Faf07704e673d4f13a7aec412517c8a0c?format=webp&width=800" logoAlt="Backlink logo" />
 
       {/* Hero Section */}
       <section className="hero relative pt-20 pb-32 px-6 overflow-hidden">
