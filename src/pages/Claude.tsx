@@ -671,10 +671,10 @@ const Claude = () => {
       </section>
 
       {/* Comparison & Integration Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">Claude in Action</h2>
-          <p className="text-center text-gray-400 mb-12 text-lg">
+          <h2 className="text-3xl font-bold mb-4 text-center text-slate-900">Claude in Action</h2>
+          <p className="text-center text-slate-600 mb-12 text-lg">
             Real-world applications across industries demonstrating Claude's transformative impact
           </p>
 
