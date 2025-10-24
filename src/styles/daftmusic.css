@@ -1,5 +1,4 @@
-/* DaftMusic — Plain & Simple Theme
-   Minimal, neutral palette and uncluttered layout.
+/* Minimal, neutral palette and uncluttered layout.
    Applied when page wrapper has .daftmusic-page class.
 */
 
@@ -116,3 +115,34 @@
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce){ .daftmusic-page *{ transition:none!important; animation:none!important; } }
+
+/* Strong overrides: force white backgrounds for all page content EXCEPT header and footer.
+   This covers Tailwind utility classes like bg-black/40, bg-gradient-*, from-*, to-*, and other bg-* utilities.
+   We intentionally exclude header and footer so global chrome remains unchanged.
+*/
+.daftmusic-page :not(header):not(footer) {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+.daftmusic-page :not(header):not(footer) [class*="bg-"] ,
+.daftmusic-page :not(header):not(footer) [class*="bg-gradient"],
+.daftmusic-page :not(header):not(footer) [class*="from-"],
+.daftmusic-page :not(header):not(footer) [class*="to-"],
+.daftmusic-page :not(header):not(footer) [class*="gradient-"] {
+  background: var(--surface) !important;
+  background-image: none !important;
+  border-color: rgba(15,23,42,0.04) !important;
+  color: var(--text) !important;
+}
+
+/* Specific override for inline bg color utilities on sections (common pattern) */
+.daftmusic-page section[class*="bg-"] {
+  background: var(--surface) !important;
+}
+
+/* Preserve explicit interactive elements that must remain visible (badges/buttons) by keeping their text/icon colors
+   but still ensuring their container backgrounds are neutral */
+.daftmusic-page .dm-badge, .daftmusic-page .btn, .daftmusic-page .card {
+  color: inherit !important;
+}
