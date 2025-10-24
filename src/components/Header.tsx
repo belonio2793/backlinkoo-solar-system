@@ -144,7 +144,8 @@ export function Header({
   const isWhiteBg = typeof location?.pathname === 'string' && (
     location.pathname.startsWith('/keyword-research') ||
     location.pathname.startsWith('/rank-tracker') ||
-    location.pathname.startsWith('/kiboui')
+    location.pathname.startsWith('/kiboui') ||
+    location.pathname.startsWith('/zippcall')
   );
 
   return (
