@@ -123,7 +123,7 @@ const DaftMusic = () => {
 
         <div className="relative max-w-5xl mx-auto text-center">
           <div className="inline-block mb-6">
-            <Badge className="bg-purple-500/20 text-purple-300 border border-purple-400/30 px-4 py-2">
+            <Badge className="dm-badge">
               <Sparkles className="w-4 h-4 mr-2" />
               Premium macOS Music Experience
             </Badge>
