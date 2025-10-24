@@ -6,7 +6,7 @@ import { Card } from '@/components/ui/card';
 import { ExternalLink, Code2, Palette, Zap, Lock, Layers, GitBranch, Sparkles, CheckCircle, ArrowRight, Users, Rocket, BookOpen, Github } from 'lucide-react';
 import '@/styles/kiboui.css';
 
-// Fix text colors: replace light gray (text-gray-300/400) with dark slate (text-slate-600/700) for visibility on white bg
+// Fix text colors: replace light gray (text-slate-700/400) with dark slate (text-slate-600/700) for visibility on white bg
 const colorFixes = true;
 
 function upsertMeta(name: string, content: string) {
@@ -151,15 +151,15 @@ export default function KiboUI() {
             <h2 className="text-4xl md:text-5xl font-bold mb-8">What is Kibo UI?</h2>
             
             <div className="prose max-w-none mb-12">
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 Kibo UI is a revolutionary component registry designed to extend and complement shadcn/ui with over 1000 free, open-source, fully composable components. Created to address the gap between basic UI primitives and complex production-ready components, Kibo UI empowers developers to build sophisticated interfaces faster without sacrificing customization or accessibility.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 Unlike traditional component libraries that lock you into specific design systems, Kibo UI embraces the shadcn/ui philosophy of composability and developer freedom. Every component is built on industry-standard technologies—React, TypeScript, Tailwind CSS, Radix UI primitives, and Lucide icons—ensuring compatibility and predictability across your projects.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-slate-700 leading-relaxed">
                 Whether you're building a simple form, a complex dashboard, or an intricate data visualization interface, Kibo UI provides the building blocks you need. The library covers everything from basic buttons and inputs to advanced components like color pickers, code editors, drag-and-drop zones, QR code generators, image zoom tools, and sophisticated data visualization patterns.
               </p>
             </div>
@@ -257,7 +257,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">Completely Free and Open Source</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     Kibo UI is 100% free, forever. With its open-source license, you have complete freedom to use, modify, and distribute components in your projects without any licensing restrictions or hidden costs. The community-driven development model ensures continuous improvements and new features.
                   </p>
                 </div>
@@ -269,7 +269,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">Built on Battle-Tested Technologies</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     Every Kibo UI component leverages proven technologies: React for component architecture, TypeScript for type safety, Tailwind CSS for styling, Radix UI for accessible primitives, and Lucide icons for consistent iconography. This foundation ensures reliability and integrates seamlessly with modern development workflows.
                   </p>
                 </div>
@@ -281,7 +281,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">Accessibility as a First-Class Citizen</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     Every component in Kibo UI is built with accessibility in mind. Full keyboard navigation support, proper ARIA attributes, semantic HTML structure, and adherence to WCAG guidelines ensure your applications are usable by everyone, regardless of ability or assistive technology.
                   </p>
                 </div>
@@ -293,7 +293,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">True Composability Without Restrictions</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     Kibo UI embraces the shadcn/ui philosophy where components are yours to own and customize. Copy components directly into your codebase, modify them to your exact specifications, combine them in unlimited ways, and build exactly what your application needs without vendor lock-in.
                   </p>
                 </div>
@@ -305,7 +305,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">Accelerates Development Timeline</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     With 1000+ pre-built components and patterns, Kibo UI dramatically reduces development time. Instead of building common UI patterns from scratch, you can copy production-ready components and focus on business logic and unique features that differentiate your application.
                   </p>
                 </div>
@@ -317,7 +317,7 @@ export default function KiboUI() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-3">Active Community and Regular Updates</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-slate-700 leading-relaxed">
                     The Kibo UI community is vibrant and engaged, with regular additions of new components and patterns. The GitHub repository shows active development with thousands of stars, ensuring the library stays current with modern design trends and web standards.
                   </p>
                 </div>
@@ -339,7 +339,7 @@ export default function KiboUI() {
                   <span className="text-2xl">📊</span>
                   SaaS Applications
                 </h3>
-                <p className="text-gray-300">Build comprehensive dashboards, analytics interfaces, and admin panels with pre-built data visualization components and complex UI patterns.</p>
+                <p className="text-slate-700">Build comprehensive dashboards, analytics interfaces, and admin panels with pre-built data visualization components and complex UI patterns.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-8">
@@ -347,7 +347,7 @@ export default function KiboUI() {
                   <span className="text-2xl">🛍️</span>
                   E-Commerce Platforms
                 </h3>
-                <p className="text-gray-300">Create beautiful product galleries, shopping carts, checkout flows, and customer management interfaces with form and interactive components.</p>
+                <p className="text-slate-700">Create beautiful product galleries, shopping carts, checkout flows, and customer management interfaces with form and interactive components.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-8">
@@ -355,7 +355,7 @@ export default function KiboUI() {
                   <span className="text-2xl">🎨</span>
                   Design Tools & Editors
                 </h3>
-                <p className="text-gray-300">Leverage components like color pickers, drag-and-drop zones, and advanced editors to build creative applications without reinventing the wheel.</p>
+                <p className="text-slate-700">Leverage components like color pickers, drag-and-drop zones, and advanced editors to build creative applications without reinventing the wheel.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-8">
@@ -363,7 +363,7 @@ export default function KiboUI() {
                   <span className="text-2xl">📱</span>
                   Mobile Apps & Progressive Web Apps
                 </h3>
-                <p className="text-gray-300">Build responsive interfaces that work seamlessly across devices with fully accessible, mobile-optimized components.</p>
+                <p className="text-slate-700">Build responsive interfaces that work seamlessly across devices with fully accessible, mobile-optimized components.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-8">
@@ -371,7 +371,7 @@ export default function KiboUI() {
                   <span className="text-2xl">🎯</span>
                   Project Management Tools
                 </h3>
-                <p className="text-gray-300">Create sophisticated project management interfaces with Kanban boards, Gantt charts, task lists, and collaborative components.</p>
+                <p className="text-slate-700">Create sophisticated project management interfaces with Kanban boards, Gantt charts, task lists, and collaborative components.</p>
               </Card>
 
               <Card className="bg-white border border-slate-200 p-8">
@@ -379,7 +379,7 @@ export default function KiboUI() {
                   <span className="text-2xl">📚</span>
                   Educational Platforms
                 </h3>
-                <p className="text-gray-300">Build learning management systems, course platforms, and educational content viewers with code blocks, markdown editors, and interactive components.</p>
+                <p className="text-slate-700">Build learning management systems, course platforms, and educational content viewers with code blocks, markdown editors, and interactive components.</p>
               </Card>
             </div>
           </div>
@@ -468,10 +468,10 @@ export default function KiboUI() {
             </div>
 
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 Kibo UI is built on a carefully curated technology stack that prioritizes quality, compatibility, and developer experience. Each technology choice was made intentionally to ensure components work seamlessly together.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-slate-700 leading-relaxed">
                 React provides the component architecture, TypeScript ensures type safety and better developer tooling, Tailwind CSS handles styling with utility-first approach, Radix UI supplies accessible primitives, and Lucide icons provide a consistent icon system. This combination creates a powerful, cohesive development experience.
               </p>
             </div>
@@ -620,7 +620,7 @@ export default function KiboUI() {
 
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-4">Why Choose Backlink ∞?</h3>
-              <ul className="text-left space-y-3 text-gray-300 max-w-2xl mx-auto">
+              <ul className="text-left space-y-3 text-slate-700 max-w-2xl mx-auto">
                 <li className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
                   Vetted, high-authority domains for maximum SEO impact
@@ -641,7 +641,7 @@ export default function KiboUI() {
             </div>
 
             <div className="space-y-4">
-              <p className="text-lg text-gray-300">
+              <p className="text-lg text-slate-700">
                 Combine powerful components from Kibo UI with strategic SEO. Build better, rank higher, drive more traffic.
               </p>
               <Button 
