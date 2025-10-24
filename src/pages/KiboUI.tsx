@@ -6,6 +6,9 @@ import { Card } from '@/components/ui/card';
 import { ExternalLink, Code2, Palette, Zap, Lock, Layers, GitBranch, Sparkles, CheckCircle, ArrowRight, Users, Rocket, BookOpen, Github } from 'lucide-react';
 import '@/styles/kiboui.css';
 
+// Fix text colors: replace light gray (text-gray-300/400) with dark slate (text-slate-600/700) for visibility on white bg
+const colorFixes = true;
+
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;
   const sel = `meta[name="${name}"]`;
