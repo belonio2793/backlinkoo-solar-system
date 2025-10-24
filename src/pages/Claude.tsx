@@ -508,8 +508,8 @@ const Claude = () => {
                     'White-hat link building techniques',
                   ].map((benefit, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle className="w-5 h-5 text-blue-400" />
-                      <span className="text-gray-300">{benefit}</span>
+                      <CheckCircle className="w-5 h-5 text-blue-600" />
+                      <span className="text-slate-700">{benefit}</span>
                     </li>
                   ))}
                 </ul>
@@ -520,19 +520,19 @@ const Claude = () => {
                   </Button>
                 </a>
               </div>
-              <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-2xl p-8 flex flex-col justify-center">
+              <div className="bg-white border border-slate-200 rounded-2xl p-8 flex flex-col justify-center">
                 <div className="space-y-6">
                   <div>
-                    <div className="text-3xl font-bold text-blue-400 mb-2">350%+</div>
-                    <p className="text-gray-400">Average traffic increase with SEO backlinks</p>
+                    <div className="text-3xl font-bold text-blue-600 mb-2">350%+</div>
+                    <p className="text-slate-600">Average traffic increase with SEO backlinks</p>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-purple-400 mb-2">Top 10</div>
-                    <p className="text-gray-400">Search rankings achievable in 90 days</p>
+                    <div className="text-3xl font-bold text-blue-600 mb-2">Top 10</div>
+                    <p className="text-slate-600">Search rankings achievable in 90 days</p>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-blue-400 mb-2">100%</div>
-                    <p className="text-gray-400">White-hat, ethical link building</p>
+                    <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
+                    <p className="text-slate-600">White-hat, ethical link building</p>
                   </div>
                 </div>
               </div>
