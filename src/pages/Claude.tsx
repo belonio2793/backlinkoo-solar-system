@@ -326,11 +326,11 @@ const Claude = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section id="use-cases" className="py-24 px-6 bg-black/40">
+      <section id="use-cases" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Industry Applications</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-4xl font-bold mb-4 text-slate-900">Industry Applications</h2>
+            <p className="text-lg text-slate-600">
               Claude transforms workflows across diverse sectors
             </p>
           </div>
