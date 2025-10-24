@@ -222,24 +222,24 @@ const Claude = () => {
                 highlights: ['Team collaboration', 'Iterative refinement', 'Multi-perspective analysis'],
               },
             ].map((capability, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-white/10 hover:border-amber-400/30 transition group cursor-pointer" onClick={() => setExpandedFeature(expandedFeature === capability.title ? null : capability.title)}>
+              <Card key={idx} className="bg-white border-slate-200 hover:border-blue-300 transition group cursor-pointer" onClick={() => setExpandedFeature(expandedFeature === capability.title ? null : capability.title)}>
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-2">
-                    <div className="p-3 rounded-lg bg-amber-500/20 text-amber-400 group-hover:bg-amber-500/30 transition">
+                    <div className="p-3 rounded-lg bg-blue-100 text-blue-600 group-hover:bg-blue-200 transition">
                       {capability.icon}
                     </div>
-                    <CardTitle className="text-xl group-hover:text-amber-400 transition">
+                    <CardTitle className="text-xl group-hover:text-blue-600 transition text-slate-900">
                       {capability.title}
                     </CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-4">{capability.description}</p>
+                  <p className="text-slate-600 mb-4">{capability.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {capability.highlights.map((highlight) => (
                       <Badge
                         key={highlight}
-                        className="bg-amber-500/20 text-amber-300 border-amber-400/30"
+                        className="bg-blue-100 text-blue-700 border-blue-200"
                       >
                         {highlight}
                       </Badge>
