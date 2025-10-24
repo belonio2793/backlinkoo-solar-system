@@ -605,10 +605,10 @@ const Claude = () => {
       </section>
 
       {/* Footer CTA */}
-      <section className="py-16 px-6 border-t border-white/10">
+      <section className="py-16 px-6 border-t border-slate-200 bg-white">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Workflow?</h2>
-          <p className="text-lg text-gray-400 mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-slate-900">Ready to Transform Your Workflow?</h2>
+          <p className="text-lg text-slate-600 mb-8">
             Start using Claude today and register for Backlink ∞ to amplify your digital presence
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
