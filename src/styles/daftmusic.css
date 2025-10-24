@@ -20,13 +20,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Force header white and simple */
-.daftmusic-page header{
-  background: var(--surface) !important;
-  color: var(--text) !important;
-  border-bottom: 1px solid rgba(15,23,42,0.06);
-}
-.daftmusic-page header * { color: var(--text) !important; }
+/* Do not override header/footer styles — keep global header/footer appearance */
+/* Header/footer will remain as defined globally; page content styles below are scoped to .daftmusic-page elements */
 
 /* Limit layout width */
 .daftmusic-page .container,
@@ -91,12 +86,33 @@
   .daftmusic-page .features-grid{ gap:12px; }
 }
 
-/* Force neutral backgrounds and text on this page */
-.daftmusic-page [class*="bg-"] { background: var(--surface) !important; }
-.daftmusic-page [class*="text-"] { color: var(--text) !important; }
-.daftmusic-page p, .daftmusic-page h1, .daftmusic-page h2, .daftmusic-page h3, .daftmusic-page h4, .daftmusic-page h5, .daftmusic-page h6, .daftmusic-page span { color: var(--text) !important; }
-.daftmusic-page svg { color: var(--accent) !important; }
-.daftmusic-page .dm-badge { background: transparent !important; color: var(--accent) !important; border:1px solid rgba(15,23,42,0.04); }
+/* Scope content color/background rules to page content only (exclude header/footer)
+   Target common content blocks used by this page to ensure white surfaces and black text.
+*/
+.daftmusic-page .hero,
+.daftmusic-page section,
+.daftmusic-page .card,
+.daftmusic-page .features-grid,
+.daftmusic-page .feature-item,
+.daftmusic-page .hero-subtitle,
+.daftmusic-page .hero-title,
+.daftmusic-page .btn,
+.daftmusic-page .dm-badge,
+.daftmusic-page .text-muted,
+.daftmusic-page .dm-accent {
+  color: var(--text) !important;
+  background: transparent !important;
+}
+
+/* Ensure cards have white surfaces */
+.daftmusic-page .card { background: var(--surface) !important; }
+.daftmusic-page .btn { background: var(--accent) !important; color: #fff !important; }
+.daftmusic-page .dm-badge { background: transparent !important; border:1px solid rgba(15,23,42,0.04); color:var(--accent) !important; }
+
+/* SVG accent color for icons inside content */
+.daftmusic-page .card svg,
+.daftmusic-page .feature-item svg,
+.daftmusic-page .dm-badge svg { color: var(--accent) !important; }
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce){ .daftmusic-page *{ transition:none!important; animation:none!important; } }
