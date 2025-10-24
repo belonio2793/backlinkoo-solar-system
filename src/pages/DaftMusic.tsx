@@ -166,7 +166,7 @@ const DaftMusic = () => {
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-8">What is Daft Music?</h2>
-          <div className="space-y-6 text-gray-300 leading-relaxed">
+          <div className="space-y-6 text-muted leading-relaxed">
             <p>
               Daft Music is a revolutionary third-party Apple Music client designed specifically for macOS, 
               offering music enthusiasts a faster, more elegant alternative to the native Apple Music app. 
