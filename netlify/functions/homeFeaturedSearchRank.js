@@ -84,7 +84,7 @@ export async function handler(event) {
 
     // Construct prompt for AI to analyze the website
     // Request unique analysis without templated format
-    const prompt = `Analyze Google search results for the domain: ${normalizedUrl}. Discover search phrases and queries that return this domain in search results, return the exact ranking pages and positions for any keyword(s). Estimate the number of backlinks the first result for that search phrase by returning the first position ranking domain URL, stating it's the number one competitor. Provide an estimated daily traffic value if any of the keywords or search phrases that exist on Google were ranked number one for my website.
+    const prompt = `how many backlinks would you recommend for ${normalizedUrl} and what keywords would you target?
 `;
 
     const messages = [
@@ -101,7 +101,7 @@ export async function handler(event) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'grok-2-latest',
+        model: 'grok-4',
         messages: messages,
         temperature: 0.3,
         max_tokens: 2048
