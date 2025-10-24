@@ -1,40 +1,12 @@
-/* Light theme redesign for Kibo UI page */
-.kiboui-page {
-  background: #ffffff;
-  color: #0f172a; /* slate-900 */
-}
+/* Ultra-plain, minimal styling for /kiboui */
+.kiboui-page { background:#fff; color:#0f172a; }
 
-/* Header spacing alignment for sticky header overlap */
-.kiboui-page .kiboui-hero { padding-top: 48px; }
+/* Keep spacing below sticky header */
+.kiboui-hero { background:#fff; border-bottom:1px solid #e5e7eb; padding-top:48px; }
+.kiboui-hero h1 { font-size:clamp(2rem,6vw,3rem); font-weight:800; letter-spacing:-.01em; color:#0f172a; }
+.kiboui-hero p { color:#475569; }
 
-/* Hero Section */
-.kiboui-hero {
-  position: relative;
-  overflow: hidden;
-  background: radial-gradient(1200px 600px at 20% 0%, rgba(59,130,246,.08), transparent 60%),
-              radial-gradient(800px 400px at 80% 20%, rgba(168,85,247,.06), transparent 60%),
-              #ffffff;
-  border-bottom: 1px solid #e5e7eb; /* slate-200 */
-}
-.kiboui-hero::before { display: none; }
-.kiboui-hero > * { position: relative; z-index: 1; }
-.kiboui-hero h1 {
-  font-size: clamp(2.25rem, 7vw, 3.5rem);
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  color: #0f172a !important; /* ensure dark on light bg */
-  background: none !important;
-  -webkit-text-fill-color: currentColor !important;
-  animation: slideUp 0.6s ease-out;
-}
-.kiboui-hero p { color: #334155; /* slate-700 */ animation: slideUp 0.6s ease-out 0.06s both; }
-.kiboui-hero .container { max-width: 1200px; }
-.kiboui-hero button { transition: transform .25s cubic-bezier(.34,1.56,.64,1), box-shadow .25s; }
-.kiboui-hero button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(59,130,246,.18); }
-
-@keyframes slideUp { from { opacity:0; transform: translateY(20px);} to {opacity:1; transform:none;} }
-
-/* Generic section heading reset to dark text */
+/* Headings unified */
 .kiboui-what h2,
 .kiboui-features h2,
 .kiboui-why h2,
@@ -44,93 +16,34 @@
 .kiboui-getting-started h2,
 .kiboui-comparison h2,
 .kiboui-cta h2,
-.kiboui-final-cta h3 {
-  color: #0f172a !important;
-  background: none !important;
-  -webkit-text-fill-color: currentColor !important;
-}
+.kiboui-final-cta h3 { color:#0f172a; }
 
-/* What is Kibo UI */
-.kiboui-what {
-  background: #ffffff;
-  border-top: 1px solid #f1f5f9; /* slate-100 */
-  border-bottom: 1px solid #f1f5f9;
-}
-.kiboui-what .prose { color: #475569; /* slate-600 */ }
-.kiboui-what .prose p { margin-bottom: 1.25rem; animation: fadeIn .5s ease-out forwards; }
-@keyframes fadeIn { from {opacity:0} to {opacity:1} }
+/* Section backgrounds kept simple */
+.kiboui-what, .kiboui-why, .kiboui-components, .kiboui-getting-started, .kiboui-cta { background:#fff; }
+.kiboui-features, .kiboui-use-cases, .kiboui-tech, .kiboui-comparison { background:#f8fafc; border-top:1px solid #e5e7eb; border-bottom:1px solid #e5e7eb; }
+.kiboui-final-cta { background:#f1f5f9; }
 
-/* Features */
-.kiboui-features {
-  background: #f8fafc; /* slate-50 */
-  border-top: 1px solid #e5e7eb;
-  border-bottom: 1px solid #e5e7eb;
-}
-.kiboui-features > .container > .max-w-4xl > p { color: #64748b; /* slate-500 */ }
-.kiboui-features .grid > * { transition: transform .25s, box-shadow .25s, border-color .25s; }
-.kiboui-features .grid > *:hover { transform: translateY(-6px); border-color: #a78bfa !important; box-shadow: 0 14px 28px rgba(17,24,39,.08); background: #ffffff !important; }
+/* Plain text colors */
+.kiboui-page p { color:#475569; }
+.kiboui-why h3, .kiboui-components h3, .kiboui-getting-started h3 { color:#0f172a; }
 
-/* Why */
-.kiboui-why { background: #ffffff; }
-.kiboui-why h3 { color: #0f172a; }
-.kiboui-why p { color: #475569; }
+/* Cards: white, thin border, no shadow */
+.kiboui-page .shadow-sm { box-shadow:none !important; }
+.kiboui-page .border { border-color:#e5e7eb !important; }
+.kiboui-page .rounded-full { box-shadow:none; }
 
-/* Use Cases */
-.kiboui-use-cases {
-  background: #f8fafc;
-  border-top: 1px solid #e5e7eb;
-  border-bottom: 1px solid #e5e7eb;
-}
-.kiboui-use-cases .grid > * { transition: transform .25s, box-shadow .25s; }
-.kiboui-use-cases .grid > *:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 14px 28px rgba(17,24,39,.08); }
+/* Remove fancy hovers/animations */
+.kiboui-page * { transition:none !important; animation:none !important; }
+.kiboui-page .grid > *:hover { transform:none !important; box-shadow:none !important; }
 
-/* Components */
-.kiboui-components { background: #ffffff; }
-.kiboui-components .space-y-8 > * {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  padding: 1.5rem;
-  border-left: 3px solid #a78bfa; /* accent */
-  transition: transform .25s, border-color .25s, box-shadow .25s;
-}
-.kiboui-components .space-y-8 > *:hover { transform: translateX(6px); border-left-color: #7c3aed; box-shadow: 0 10px 24px rgba(17,24,39,.08); }
-.kiboui-components h3 { color: #0f172a; }
-.kiboui-components p { color: #475569; }
-
-/* Tech */
-.kiboui-tech { background: #f8fafc; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
-.kiboui-tech .grid > * { transition: transform .25s, box-shadow .25s, border-color .25s; }
-.kiboui-tech .grid > *:hover { transform: translateY(-4px); border-color: #a78bfa !important; box-shadow: 0 12px 24px rgba(17,24,39,.08); }
-.kiboui-tech .prose { color: #475569; }
-
-/* Getting Started */
-.kiboui-getting-started { background: #ffffff; }
-.kiboui-getting-started h3 { color: #0f172a; }
-.kiboui-getting-started p { color: #475569; }
-
-/* Comparison */
-.kiboui-comparison { background: #f8fafc; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
-.kiboui-comparison th { background: #ffffff; border-bottom: 2px solid #e5e7eb; color: #0f172a; }
-.kiboui-comparison td { color: #475569; border-bottom: 1px solid #e5e7eb; }
-.kiboui-comparison tbody tr:hover { background: #ffffff; }
+/* Tables */
+.kiboui-comparison table { border-collapse:collapse; width:100%; font-size:1rem; }
+.kiboui-comparison th { background:#fff; border-bottom:2px solid #e5e7eb; color:#0f172a; }
+.kiboui-comparison td { color:#475569; border-bottom:1px solid #e5e7eb; }
+.kiboui-comparison tbody tr:hover { background:#fff; }
 
 /* CTA */
-.kiboui-cta { background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); border-top: 2px solid #e5e7eb; border-bottom: 2px solid #e5e7eb; }
-.kiboui-cta p { color: #475569; }
-.kiboui-cta .grid > *:hover { border-color: #a78bfa !important; box-shadow: 0 14px 28px rgba(17,24,39,.08); }
-
-/* Final CTA */
-.kiboui-final-cta { background: #f1f5f9; }
-.kiboui-final-cta p { color: #64748b; }
+.kiboui-cta p { color:#475569; }
 
 /* Responsive tweaks */
-@media (max-width: 768px) {
-  .kiboui-hero { padding-top: 24px; }
-  .kiboui-hero h1 { font-size: 2rem; }
-  .kiboui-hero p { font-size: 1rem; }
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .kiboui-page * { animation: none !important; transition: none !important; }
-}
+@media (max-width:768px){ .kiboui-hero{ padding-top:24px; } .kiboui-hero h1{ font-size:2rem; } .kiboui-hero p{ font-size:1rem; } }
