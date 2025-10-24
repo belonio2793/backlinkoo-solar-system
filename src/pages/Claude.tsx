@@ -626,12 +626,12 @@ const Claude = () => {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center text-slate-900">Why Choose Claude?</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-white/5 to-white/10 border border-white/10 rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <Shield className="w-6 h-6 text-amber-400" />
+            <div className="bg-white border border-slate-200 rounded-lg p-8">
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-slate-900">
+                <Shield className="w-6 h-6 text-blue-600" />
                 Enterprise-Grade Security
               </h3>
-              <p className="text-gray-300">
+              <p className="text-slate-600">
                 Anthropic has implemented rigorous safety protocols through Constitutional AI. Claude respects user privacy,
                 maintains data confidentiality, and operates within ethical guidelines suitable for enterprise deployment.
               </p>
