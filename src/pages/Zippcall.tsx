@@ -71,9 +71,9 @@ export default function Zippcall() {
   }, []);
 
   return (
-    <div className="zippcall-page bg-black text-white">
+    <div className="zippcall-page bg-white text-gray-900">
       <Header minimal />
-      <main className="max-w-4xl mx-auto px-6 py-16 prose prose-invert">
+      <main className="max-w-4xl mx-auto px-6 py-16">
         <header>
           <h1>Zippcall: Fast, Private Group Voice & Video Calls</h1>
           <p className="lead">Lightweight conferencing designed for privacy-first teams, creators, and communities — minimal setup, low latency, and strong privacy controls.</p>
