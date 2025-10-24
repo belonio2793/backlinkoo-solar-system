@@ -129,11 +129,8 @@ const DaftMusic = () => {
             </Badge>
           </div>
 
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
-            Music that{' '}
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-              Feels Right
-            </span>
+          <h1 className="hero-title">
+            Music that <span className="hero-accent">Feels Right</span>
           </h1>
 
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
