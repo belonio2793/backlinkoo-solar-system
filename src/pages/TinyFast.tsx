@@ -3,7 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { ExternalLink, Download, Shield, Zap, Lock, FileIcon, Image, Video, FileText, Smartphone, Award, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
+import { ExternalLink, Download, Shield, Zap, Lock, FileIcon, Image, Video, FileText, Smartphone, Award, TrendingUp, CheckCircle, ArrowRight, Globe } from 'lucide-react';
 import '@/styles/tinyfast.css';
 
 function upsertMeta(name: string, content: string) {
