@@ -580,22 +580,22 @@ const Claude = () => {
             ].map((faq, idx) => (
               <div
                 key={idx}
-                className="border border-white/10 rounded-lg overflow-hidden hover:border-amber-400/30 transition"
+                className="border border-slate-200 rounded-lg overflow-hidden hover:border-blue-300 transition bg-white"
               >
                 <button
                   onClick={() => setExpandedFeature(expandedFeature === `faq-${idx}` ? null : `faq-${idx}`)}
-                  className="w-full px-6 py-4 flex items-center justify-between hover:bg-white/5 transition"
+                  className="w-full px-6 py-4 flex items-center justify-between hover:bg-slate-50 transition"
                 >
-                  <h3 className="font-semibold text-left">{faq.question}</h3>
+                  <h3 className="font-semibold text-left text-slate-900">{faq.question}</h3>
                   <ChevronDown
-                    className={`w-5 h-5 transition-transform ${
+                    className={`w-5 h-5 transition-transform text-slate-600 ${
                       expandedFeature === `faq-${idx}` ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
                 {expandedFeature === `faq-${idx}` && (
-                  <div className="px-6 py-4 bg-white/5 border-t border-white/10">
-                    <p className="text-gray-300">{faq.answer}</p>
+                  <div className="px-6 py-4 bg-slate-50 border-t border-slate-200">
+                    <p className="text-slate-700">{faq.answer}</p>
                   </div>
                 )}
               </div>
