@@ -137,7 +137,7 @@ export default function TinyFast() {
       </section>
 
       {/* What is TinyFast Section */}
-      <section className="tinyfast-what py-20 md:py-32 bg-slate-50">
+      <section className="tinyfast-what py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-slate-900">What is TinyFast?</h2>
@@ -221,7 +221,7 @@ export default function TinyFast() {
                   description: 'Intelligent compression algorithms adapt to file type and content. Achieve optimal file sizes with sophisticated, automatic optimization.'
                 }
               ].map((feature, idx) => (
-                <Card key={idx} className="bg-slate-50 border border-slate-200 p-6">
+                <Card key={idx} className="bg-white border border-slate-200 p-6">
                   <div className="flex items-start gap-4">
                     <feature.icon className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
                     <div>
@@ -237,7 +237,7 @@ export default function TinyFast() {
       </section>
 
       {/* Why TinyFast Section */}
-      <section className="tinyfast-why py-20 md:py-32 bg-slate-50">
+      <section className="tinyfast-why py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-slate-900">Why Choose TinyFast?</h2>
@@ -367,7 +367,7 @@ export default function TinyFast() {
       </section>
 
       {/* How It Works Section */}
-      <section className="tinyfast-how py-20 md:py-32 bg-slate-50">
+      <section className="tinyfast-how py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-slate-900">How TinyFast Works</h2>
@@ -476,7 +476,7 @@ export default function TinyFast() {
       </section>
 
       {/* Key Statistics Section */}
-      <section className="tinyfast-stats py-20 md:py-32 bg-slate-50">
+      <section className="tinyfast-stats py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-slate-900">Why Thousands Choose TinyFast</h2>
@@ -529,7 +529,7 @@ export default function TinyFast() {
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-slate-900">Frequently Asked Questions</h2>
 
             <div className="space-y-6">
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   Is TinyFast truly private?
@@ -537,7 +537,7 @@ export default function TinyFast() {
                 <p className="text-slate-700">Yes, absolutely. All compression processing happens locally on your Mac. No files are uploaded to servers, no personal data is collected, and no tracking occurs. TinyFast doesn't require an account, and your files never leave your computer.</p>
               </Card>
 
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   What file types does TinyFast support?
@@ -545,7 +545,7 @@ export default function TinyFast() {
                 <p className="text-slate-700">TinyFast supports all common file types including: images (PNG, JPG, GIF, WebP), videos (MP4, MOV, MKV), documents (PDF, DOCX), and more. The application is regularly updated to support additional formats.</p>
               </Card>
 
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   Will compression affect file quality?
@@ -553,7 +553,7 @@ export default function TinyFast() {
                 <p className="text-slate-700">TinyFast uses intelligent compression algorithms that minimize quality loss while maximizing file size reduction. For images and videos, you can adjust the quality slider to find the perfect balance for your needs.</p>
               </Card>
 
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   Can I compress multiple files at once?
@@ -561,7 +561,7 @@ export default function TinyFast() {
                 <p className="text-slate-700">Yes, TinyFast excels at batch processing. Drag entire folders or select multiple files, and the application will compress them all simultaneously. This significantly speeds up your workflow for large collections.</p>
               </Card>
 
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   What macOS versions are supported?
@@ -569,7 +569,7 @@ export default function TinyFast() {
                 <p className="text-slate-700">TinyFast is compatible with modern macOS versions. Check the official website for the minimum version requirement. The application is optimized for the latest macOS releases and receives regular updates.</p>
               </Card>
 
-              <Card className="bg-slate-50 border border-slate-200 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-slate-900">
                   <ArrowRight className="w-5 h-5 text-blue-600" />
                   Is there a free trial or lifetime license?
@@ -582,7 +582,7 @@ export default function TinyFast() {
       </section>
 
       {/* CTA Section - Backlink Infinity */}
-      <section className="tinyfast-cta py-20 md:py-32 bg-blue-50 border-t border-blue-200">
+      <section className="tinyfast-cta py-20 md:py-32 bg-white border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">Boost Your Online Presence With Backlinks</h2>
@@ -653,7 +653,7 @@ export default function TinyFast() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="tinyfast-final-cta py-16 md:py-20 bg-slate-50 border-t border-slate-200">
+      <section className="tinyfast-final-cta py-16 md:py-20 bg-white border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-3xl font-bold mb-4 text-slate-900">Ready to Compress Files Faster?</h3>
