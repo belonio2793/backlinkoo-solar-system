@@ -1,6 +1,5 @@
-import React from 'react'
+import * as React from 'react'
 import { createRoot } from 'react-dom/client'
-import * as ReactModule from 'react'
 
 // Install safety patches BEFORE importing the app so any module-level access
 // to sessionStorage/document.cookie doesn't crash in sandboxed preview iframes.
@@ -31,7 +30,7 @@ import { patchReactStripReplacement } from '@/lib/emojiSanitizer'
 
 // Strip any Unicode replacement characters from rendered text using the React module directly
 try {
-  patchReactStripReplacement(ReactModule);
+  patchReactStripReplacement(React);
 } catch {
   // ignore - patch is best-effort
 }
