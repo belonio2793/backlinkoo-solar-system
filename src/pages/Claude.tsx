@@ -394,12 +394,12 @@ const Claude = () => {
       </section>
 
       {/* Technical Excellence Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Built on Constitutional AI</h2>
-              <p className="text-gray-300 mb-6">
+              <h2 className="text-4xl font-bold mb-6 text-slate-900">Built on Constitutional AI</h2>
+              <p className="text-slate-600 mb-6">
                 Anthropic developed Claude using Constitutional AI, a novel approach that aligns the model 
                 with human values and safety considerations. This methodology ensures Claude delivers responses 
                 that are not only intelligent but also responsible and ethical.
