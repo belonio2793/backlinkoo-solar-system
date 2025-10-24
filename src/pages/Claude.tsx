@@ -253,11 +253,11 @@ const Claude = () => {
       </section>
 
       {/* Claude Models Section */}
-      <section id="models" className="py-24 px-6">
+      <section id="models" className="py-24 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Claude Model Family</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-4xl font-bold mb-4 text-slate-900">Claude Model Family</h2>
+            <p className="text-lg text-slate-600">
               Choose the perfect Claude model optimized for your specific use case
             </p>
           </div>
