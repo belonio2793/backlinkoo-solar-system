@@ -793,7 +793,7 @@ const Claude = () => {
                   You've learned about Claude's incredible capabilities. Now ensure your valuable insights—whether created
                   with or without Claude—reach their full potential audience through strategic SEO and high-authority backlinks.
                 </p>
-                <p className="text-gray-300 mb-8">
+                <p className="text-slate-600 mb-8">
                   Backlink ∞ combines white-hat link building with comprehensive SEO strategies to establish domain authority
                   and drive qualified organic traffic to your content.
                 </p>
@@ -805,33 +805,33 @@ const Claude = () => {
                     'Full transparency with reporting and analytics',
                   ].map((benefit, idx) => (
                     <li key={idx} className="flex items-center gap-3">
-                      <CheckCircle className="w-5 h-5 text-indigo-400" />
-                      <span className="text-gray-300">{benefit}</span>
+                      <CheckCircle className="w-5 h-5 text-blue-600" />
+                      <span className="text-slate-700">{benefit}</span>
                     </li>
                   ))}
                 </ul>
                 <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg rounded-lg">
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
                     Register for Backlink ∞ Today
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </a>
               </div>
-              <div className="bg-gradient-to-br from-indigo-500/10 to-blue-500/10 border border-indigo-500/20 rounded-2xl p-8">
+              <div className="bg-white border border-slate-200 rounded-2xl p-8">
                 <div className="space-y-8">
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-indigo-400 mb-2">3-6 Months</div>
-                    <p className="text-gray-400">Average time to reach top 10 rankings</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">3-6 Months</div>
+                    <p className="text-slate-600">Average time to reach top 10 rankings</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+                  <div className="h-px bg-slate-200" />
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-blue-400 mb-2">+350%</div>
-                    <p className="text-gray-400">Average organic traffic increase</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">+350%</div>
+                    <p className="text-slate-600">Average organic traffic increase</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+                  <div className="h-px bg-slate-200" />
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-indigo-400 mb-2">100%</div>
-                    <p className="text-gray-400">White-hat ethical practices</p>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                    <p className="text-slate-600">White-hat ethical practices</p>
                   </div>
                 </div>
               </div>
