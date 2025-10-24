@@ -15,8 +15,8 @@ type TickerItem = {
 
 const items: TickerItem[] = [
   {
-    name: 'Backlink ∞',
-    price: 1.4,
+    name: 'Backlink ���',
+    price: 140,
     note: 'Per Backlink',
     description: 'Automated link building campaigns with live progress and indexing signals.',
     ours: true,
