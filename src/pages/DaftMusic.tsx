@@ -115,7 +115,8 @@ const DaftMusic = () => {
   }, []);
 
   return (
-    <div className="daftmusic-page min-h-screen">
+    <>
+      <div className="daftmusic-page min-h-screen">
       <Header />
 
       {/* Hero Section */}
@@ -611,6 +612,8 @@ const DaftMusic = () => {
       </section>
 
     </div>
+      <Footer />
+    </>
   );
 };
 
