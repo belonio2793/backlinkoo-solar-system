@@ -91,5 +91,12 @@
   .daftmusic-page .features-grid{ gap:12px; }
 }
 
+/* Force neutral backgrounds and text on this page */
+.daftmusic-page [class*="bg-"] { background: var(--surface) !important; }
+.daftmusic-page [class*="text-"] { color: var(--text) !important; }
+.daftmusic-page p, .daftmusic-page h1, .daftmusic-page h2, .daftmusic-page h3, .daftmusic-page h4, .daftmusic-page h5, .daftmusic-page h6, .daftmusic-page span { color: var(--text) !important; }
+.daftmusic-page svg { color: var(--accent) !important; }
+.daftmusic-page .dm-badge { background: transparent !important; color: var(--accent) !important; border:1px solid rgba(15,23,42,0.04); }
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce){ .daftmusic-page *{ transition:none!important; animation:none!important; } }
