@@ -490,13 +490,13 @@ const Claude = () => {
       </section>
 
       {/* CTA Section for Backlink ∞ */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-2xl p-12">
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-4xl font-bold mb-4">Amplify Your Digital Presence with SEO Mastery</h2>
-                <p className="text-lg text-gray-300 mb-6">
+                <h2 className="text-4xl font-bold mb-4 text-slate-900">Amplify Your Digital Presence with SEO Mastery</h2>
+                <p className="text-lg text-slate-600 mb-6">
                   While Claude powers your content creation and analysis, Backlink ∞ ensures your valuable insights 
                   reach their maximum audience through proven SEO strategies and high-authority backlinks.
                 </p>
