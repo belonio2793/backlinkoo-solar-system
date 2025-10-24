@@ -474,14 +474,14 @@ const Claude = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-6 text-lg rounded-lg">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
                   <ExternalLink className="w-5 h-5 mr-2" />
                   Backlink ∞ Pro SEO
                 </Button>
               </a>
             </div>
-            <div className="bg-white/5 rounded-lg p-6 border border-white/10 inline-block">
-              <p className="text-sm text-gray-300">
+            <div className="bg-slate-100 rounded-lg p-6 border border-slate-200 inline-block">
+              <p className="text-sm text-slate-700">
                 Free tier available • Enterprise plans • API access • Custom integrations
               </p>
             </div>
