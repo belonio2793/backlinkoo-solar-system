@@ -156,7 +156,7 @@ export default function KiboUI() {
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Unlike traditional component libraries that lock you into specific design systems, Kibo UI embraces the shadcn/ui philosophy of composability and developer freedom. Every component is built on industry-standard technologies—React, TypeScript, Tailwind CSS, Radix UI primitives, and Lucide icons��ensuring compatibility and predictability across your projects.
+                Unlike traditional component libraries that lock you into specific design systems, Kibo UI embraces the shadcn/ui philosophy of composability and developer freedom. Every component is built on industry-standard technologies—React, TypeScript, Tailwind CSS, Radix UI primitives, and Lucide icons—ensuring compatibility and predictability across your projects.
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed">
@@ -542,8 +542,8 @@ export default function KiboUI() {
                   <tr className="border-b border-gray-700/50 hover:bg-gray-900/30">
                     <td className="py-4 px-4 font-semibold">Component Count</td>
                     <td className="text-center py-4 px-4 text-purple-300">1000+</td>
-                    <td className="text-center py-4 px-4 text-gray-500">100-500</td>
-                    <td className="text-center py-4 px-4 text-gray-500">200-400</td>
+                    <td className="text-center py-4 px-4 text-slate-600">100-500</td>
+                    <td className="text-center py-4 px-4 text-slate-600">200-400</td>
                   </tr>
                   <tr className="border-b border-gray-700/50 hover:bg-gray-900/30">
                     <td className="py-4 px-4 font-semibold">Free Forever</td>
@@ -651,7 +651,7 @@ export default function KiboUI() {
                 <span>Register for Backlink ∞</span>
                 <ArrowRight className="w-6 h-6" />
               </Button>
-              <p className="text-sm text-gray-500 mt-4">
+              <p className="text-sm text-slate-600 mt-4">
                 Start building authority and dominating your niche with quality backlinks
               </p>
             </div>
