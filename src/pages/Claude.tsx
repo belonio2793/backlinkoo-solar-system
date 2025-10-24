@@ -115,15 +115,12 @@ const Claude = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
+    <div className="min-h-screen bg-white text-slate-900 overflow-hidden">
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32 px-6 overflow-hidden">
-        {/* Animated background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-amber-500/10 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl opacity-20" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl opacity-20" />
+      <section className="relative py-20 px-6 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
+        {/* Simple subtle background */}
 
         <div className="relative max-w-5xl mx-auto text-center">
           <div className="inline-block mb-6">
