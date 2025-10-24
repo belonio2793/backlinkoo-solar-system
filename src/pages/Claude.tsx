@@ -167,11 +167,11 @@ const Claude = () => {
       </section>
 
       {/* Key Capabilities Section */}
-      <section id="capabilities" className="py-24 px-6 bg-black/40">
+      <section id="capabilities" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Powerful AI Capabilities</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-4xl font-bold mb-4 text-slate-900">Powerful AI Capabilities</h2>
+            <p className="text-lg text-slate-600">
               Claude combines cutting-edge AI technology with practical utility across numerous domains. Each capability
               is built on Constitutional AI for safe, reliable, and ethical responses.
             </p>
