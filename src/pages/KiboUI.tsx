@@ -110,31 +110,31 @@ export default function KiboUI() {
       <section className="kiboui-hero">
         <div className="container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-purple-600/20 to-pink-600/20 border border-purple-500/30">
-              <p className="text-sm font-semibold text-purple-400">Free Open-Source Component Library</p>
+            <div className="inline-block mb-6 px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200">
+              <p className="text-sm font-medium text-slate-600">Free Open-Source Component Library</p>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900 leading-tight">
               Kibo UI: Build Faster with 1000+ Components
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-600 mb-6 leading-relaxed max-w-3xl mx-auto">
               The most comprehensive collection of free, composable, and accessible UI components built on shadcn/ui. Accelerate your React development with pre-built blocks, patterns, and fully customizable components.
             </p>
             
 
             <div className="mt-12 grid grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-purple-400">1000+</div>
-                <p className="text-sm text-gray-400 mt-2">Components & Blocks</p>
+                <div className="text-3xl font-bold text-slate-900">1000+</div>
+                <p className="text-sm text-slate-500 mt-2">Components & Blocks</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-pink-400">100%</div>
-                <p className="text-sm text-gray-400 mt-2">Free & Open Source</p>
+                <div className="text-3xl font-bold text-slate-900">100%</div>
+                <p className="text-sm text-slate-500 mt-2">Free & Open Source</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-purple-400">3.2K</div>
-                <p className="text-sm text-gray-400 mt-2">GitHub Stars</p>
+                <div className="text-3xl font-bold text-slate-900">3.2K</div>
+                <p className="text-sm text-slate-500 mt-2">GitHub Stars</p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function KiboUI() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">What is Kibo UI?</h2>
             
-            <div className="prose prose-invert max-w-none mb-12">
+            <div className="prose max-w-none mb-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 Kibo UI is a revolutionary component registry designed to extend and complement shadcn/ui with over 1000 free, open-source, fully composable components. Created to address the gap between basic UI primitives and complex production-ready components, Kibo UI empowers developers to build sophisticated interfaces faster without sacrificing customization or accessibility.
               </p>
@@ -162,7 +162,7 @@ export default function KiboUI() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Card className="bg-gradient-to-br from-purple-900/30 to-pink-900/30 border-purple-500/20 p-6">
+              <Card className="bg-white border border-slate-200 p-6">
                 <div className="flex items-start gap-4">
                   <Layers className="w-8 h-8 text-purple-400 flex-shrink-0 mt-1" />
                   <div>
@@ -172,7 +172,7 @@ export default function KiboUI() {
                 </div>
               </Card>
 
-              <Card className="bg-gradient-to-br from-pink-900/30 to-purple-900/30 border-pink-500/20 p-6">
+              <Card className="bg-white border border-slate-200 p-6">
                 <div className="flex items-start gap-4">
                   <Sparkles className="w-8 h-8 text-pink-400 flex-shrink-0 mt-1" />
                   <div>
@@ -187,7 +187,7 @@ export default function KiboUI() {
       </section>
 
       {/* Core Features Section */}
-      <section className="kiboui-features py-20 md:py-32 bg-black/30">
+      <section className="kiboui-features py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">Comprehensive Component Categories</h2>
@@ -226,7 +226,7 @@ export default function KiboUI() {
                   description: 'Pre-built dashboard sections, metrics cards, charts, analytics displays, and complete dashboard layout patterns.'
                 }
               ].map((feature, idx) => (
-                <Card key={idx} className="bg-gradient-to-br from-gray-900/50 to-gray-950/50 border-gray-700/50 p-6 hover:border-purple-500/30 transition-all duration-300">
+                <Card key={idx} className="bg-white border border-slate-200 p-6">
                   <div className="flex items-start gap-4">
                     <feature.icon className="w-8 h-8 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
@@ -325,13 +325,13 @@ export default function KiboUI() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="kiboui-use-cases py-20 md:py-32 bg-black/30">
+      <section className="kiboui-use-cases py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Perfect for Every Project</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Card className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 border-purple-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">📊</span>
                   SaaS Applications
@@ -339,7 +339,7 @@ export default function KiboUI() {
                 <p className="text-gray-300">Build comprehensive dashboards, analytics interfaces, and admin panels with pre-built data visualization components and complex UI patterns.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-blue-900/20 to-cyan-900/20 border-blue-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🛍️</span>
                   E-Commerce Platforms
@@ -347,7 +347,7 @@ export default function KiboUI() {
                 <p className="text-gray-300">Create beautiful product galleries, shopping carts, checkout flows, and customer management interfaces with form and interactive components.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 border-green-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🎨</span>
                   Design Tools & Editors
@@ -355,7 +355,7 @@ export default function KiboUI() {
                 <p className="text-gray-300">Leverage components like color pickers, drag-and-drop zones, and advanced editors to build creative applications without reinventing the wheel.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-orange-900/20 to-yellow-900/20 border-orange-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">📱</span>
                   Mobile Apps & Progressive Web Apps
@@ -363,7 +363,7 @@ export default function KiboUI() {
                 <p className="text-gray-300">Build responsive interfaces that work seamlessly across devices with fully accessible, mobile-optimized components.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-red-900/20 to-rose-900/20 border-red-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🎯</span>
                   Project Management Tools
@@ -371,7 +371,7 @@ export default function KiboUI() {
                 <p className="text-gray-300">Create sophisticated project management interfaces with Kanban boards, Gantt charts, task lists, and collaborative components.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-indigo-900/20 to-purple-900/20 border-indigo-500/20 p-8">
+              <Card className="bg-white border border-slate-200 p-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">📚</span>
                   Educational Platforms
@@ -391,7 +391,7 @@ export default function KiboUI() {
 
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600/30 border border-purple-500 rounded-full flex items-center justify-center text-2xl font-bold text-purple-400">🎨</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">🎨</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Color Picker</h3>
                   <p className="text-gray-400">Professional color selection component modeled after Figma's color picker. Includes color spectrum, HEX/RGB input fields, and real-time preview.</p>
@@ -399,7 +399,7 @@ export default function KiboUI() {
               </div>
 
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-pink-600/30 border border-pink-500 rounded-full flex items-center justify-center text-2xl font-bold text-pink-400">🔍</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">🔍</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Image Zoom</h3>
                   <p className="text-gray-400">Advanced image zoom functionality with smooth zoom controls, pan support, and touch gestures for mobile devices.</p>
@@ -407,7 +407,7 @@ export default function KiboUI() {
               </div>
 
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-cyan-600/30 border border-cyan-500 rounded-full flex items-center justify-center text-2xl font-bold text-cyan-400">📱</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📱</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">QR Code Generator</h3>
                   <p className="text-gray-400">Generate QR codes dynamically from any string or URL. Includes customization options for colors, size, and format.</p>
@@ -415,7 +415,7 @@ export default function KiboUI() {
               </div>
 
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-green-600/30 border border-green-500 rounded-full flex items-center justify-center text-2xl font-bold text-green-400">💻</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">💻</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Code Block</h3>
                   <p className="text-gray-400">Syntax-highlighted code blocks with language detection, line numbers, copy-to-clipboard functionality, and theme customization.</p>
@@ -423,7 +423,7 @@ export default function KiboUI() {
               </div>
 
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-yellow-600/30 border border-yellow-500 rounded-full flex items-center justify-center text-2xl font-bold text-yellow-400">📤</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📤</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Dropzone</h3>
                   <p className="text-gray-400">Drag-and-drop file upload area with click-to-upload fallback, file type validation, and visual feedback during upload.</p>
@@ -431,7 +431,7 @@ export default function KiboUI() {
               </div>
 
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-600/30 border border-purple-500 rounded-full flex items-center justify-center text-2xl font-bold text-purple-400">📊</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center text-2xl font-bold text-slate-600">📊</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-2">Gantt Chart</h3>
                   <p className="text-gray-400">Interactive project timeline visualization with drag-to-resize tasks, multiple view modes (Gantt, Calendar, List, Kanban), and real-time updates.</p>
@@ -443,7 +443,7 @@ export default function KiboUI() {
       </section>
 
       {/* Technology Stack Section */}
-      <section className="kiboui-tech py-20 md:py-32 bg-black/30">
+      <section className="kiboui-tech py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Built on Modern Stack</h2>
@@ -457,14 +457,14 @@ export default function KiboUI() {
                 { name: 'Lucide Icons', icon: '✨' },
                 { name: 'shadcn/ui', icon: '🏗️' }
               ].map((tech, idx) => (
-                <Card key={idx} className="bg-gradient-to-br from-gray-900/50 to-gray-950/50 border-gray-700/50 p-6 text-center hover:border-purple-500/30 transition-all duration-300">
+                <Card key={idx} className="bg-white border border-slate-200 p-6 text-center">
                   <div className="text-4xl mb-3">{tech.icon}</div>
                   <h3 className="font-bold text-white">{tech.name}</h3>
                 </Card>
               ))}
             </div>
 
-            <div className="prose prose-invert max-w-none">
+            <div className="prose max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 Kibo UI is built on a carefully curated technology stack that prioritizes quality, compatibility, and developer experience. Each technology choice was made intentionally to ensure components work seamlessly together.
               </p>
@@ -520,7 +520,7 @@ export default function KiboUI() {
       </section>
 
       {/* Comparison Section */}
-      <section className="kiboui-comparison py-20 md:py-32 bg-black/30">
+      <section className="kiboui-comparison py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Why Kibo UI Stands Out</h2>
@@ -586,36 +586,36 @@ export default function KiboUI() {
       </section>
 
       {/* CTA Section - Backlink Infinity */}
-      <section className="kiboui-cta py-20 md:py-32 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20 border-t border-purple-500/20">
+      <section className="kiboui-cta py-20 md:py-32 bg-white border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Amplify Your Project's Reach</h2>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Building with Kibo UI gives you powerful components, but reaching your target audience requires a different strategy. Backlink ∞ helps you dominate search rankings, build domain authority, and drive quality organic traffic to your projects and websites.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <Card className="bg-purple-900/20 border-purple-500/30 p-6">
+              <Card className="bg-white border border-slate-200 p-6">
                 <Rocket className="w-8 h-8 text-purple-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Rank Higher</h3>
                 <p className="text-sm text-gray-400">Strategic backlinks signal authority to search engines, improving your rankings for competitive keywords and driving organic visibility.</p>
               </Card>
 
-              <Card className="bg-pink-900/20 border-pink-500/30 p-6">
+              <Card className="bg-white border border-slate-200 p-6">
                 <BookOpen className="w-8 h-8 text-pink-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Build Authority</h3>
                 <p className="text-sm text-gray-400">Quality backlinks from authoritative domains enhance your site's credibility and domain authority, creating a strong foundation for long-term growth.</p>
               </Card>
 
-              <Card className="bg-cyan-900/20 border-cyan-500/30 p-6">
+              <Card className="bg-white border border-slate-200 p-6">
                 <Users className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Drive Traffic</h3>
                 <p className="text-sm text-gray-400">Higher rankings lead to consistent organic traffic from users actively searching for solutions you provide.</p>
               </Card>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-600/10 to-pink-600/10 border border-purple-500/20 rounded-lg p-8 mb-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-4">Why Choose Backlink ∞?</h3>
               <ul className="text-left space-y-3 text-gray-300 max-w-2xl mx-auto">
                 <li className="flex items-center gap-3">
@@ -642,7 +642,7 @@ export default function KiboUI() {
                 Combine powerful components from Kibo UI with strategic SEO. Build better, rank higher, drive more traffic.
               </p>
               <Button 
-                className="px-10 py-8 text-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg font-bold flex items-center gap-3 mx-auto"
+                className="px-8 py-4 text-lg bg-blue-600 hover:bg-blue-700 rounded-md font-semibold text-white flex items-center gap-3 mx-auto"
                 onClick={() => window.open('https://backlinkoo.com/register', '_blank')}
               >
                 <span>Register for Backlink ∞</span>
@@ -657,11 +657,11 @@ export default function KiboUI() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="kiboui-final-cta py-16 md:py-20 bg-black/50 border-t border-gray-700">
+      <section className="kiboui-final-cta py-16 md:py-20 border-t border-slate-200 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-3xl font-bold mb-4">Ready to Build Faster?</h3>
-            <p className="text-gray-400 mb-6">Start using Kibo UI's 1000+ components today. Free, open-source, and built for developers who care about quality and efficiency.</p>
+            <p className="text-slate-600 mb-6">Start using Kibo UI's 1000+ components today. Free, open-source, and built for developers who care about quality and efficiency.</p>
           </div>
         </div>
       </section>
