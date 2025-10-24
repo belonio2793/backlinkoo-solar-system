@@ -636,12 +636,12 @@ const Claude = () => {
                 maintains data confidentiality, and operates within ethical guidelines suitable for enterprise deployment.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white/5 to-white/10 border border-white/10 rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <Brain className="w-6 h-6 text-amber-400" />
+            <div className="bg-white border border-slate-200 rounded-lg p-8">
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-slate-900">
+                <Brain className="w-6 h-6 text-blue-600" />
                 Advanced Reasoning
               </h3>
-              <p className="text-gray-300">
+              <p className="text-slate-600">
                 Claude excels at complex reasoning tasks, breaking down multi-layered problems and providing nuanced solutions.
                 The model's deep understanding enables sophisticated analysis across diverse domains.
               </p>
