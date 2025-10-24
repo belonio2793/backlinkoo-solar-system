@@ -119,7 +119,7 @@ const DaftMusic = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32 px-6 overflow-hidden">
+      <section className="hero relative pt-20 pb-32 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 via-transparent to-transparent pointer-events-none" />
         <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl opacity-20" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl opacity-20" />
@@ -169,7 +169,7 @@ const DaftMusic = () => {
       </section>
 
       {/* What is Daft Music Section */}
-      <section className="py-24 px-6 bg-black/40">
+      <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-8">What is Daft Music?</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
