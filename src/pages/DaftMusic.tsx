@@ -610,7 +610,6 @@ const DaftMusic = () => {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 };
