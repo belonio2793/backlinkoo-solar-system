@@ -1,5 +1,5 @@
 export function AnimatedBlogHeadline() {
-  const words = ["Claim", "a", "Free", "Trial", "Backlink"];
+  const words = ["Generate", "a", "Blog", "Post", "For", "a", "Backlink"];
   const subtitle = "Generate a high quality, powerful blog post with your targeted keyword and boost your SEO score and search engine rankings in seconds.";
 
   return (
