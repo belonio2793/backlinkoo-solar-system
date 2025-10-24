@@ -465,11 +465,11 @@ const Claude = () => {
       </section>
 
       {/* Access Claude Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/30 rounded-2xl p-12 text-center">
-            <h2 className="text-4xl font-bold mb-6">Access Claude Today</h2>
-            <p className="text-lg text-gray-300 mb-8">
+          <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center">
+            <h2 className="text-4xl font-bold mb-6 text-slate-900">Access Claude Today</h2>
+            <p className="text-lg text-slate-600 mb-8">
               Start using Claude for free or integrate it into your enterprise workflow
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
