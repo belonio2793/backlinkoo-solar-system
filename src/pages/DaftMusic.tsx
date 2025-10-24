@@ -133,9 +133,9 @@ const DaftMusic = () => {
             Music that <span className="hero-accent">Feels Right</span>
           </h1>
 
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Daft Music transforms your Apple Music experience on macOS. With lightning-fast performance, 
-            a beautiful liquid glass interface, and powerful features like Last.fm scrobbling, discover 
+          <p className="hero-subtitle">
+            Daft Music transforms your Apple Music experience on macOS. With lightning-fast performance,
+            a simple, elegant interface, and powerful features like Last.fm scrobbling, discover
             why thousands of music lovers have made the switch from the standard Apple Music app.
           </p>
 
