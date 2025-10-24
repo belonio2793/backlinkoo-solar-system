@@ -1,24 +1,17 @@
-/* TinyFast Page - Premium Styling */
+/* TinyFast Page - Simple White Theme */
 
 .tinyfast-page {
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #1a1a2e 100%);
-  color: #e0e0e0;
+  background: #ffffff;
+  color: #1f2937;
 }
 
 /* Hero Section */
 .tinyfast-hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(10, 10, 20, 0.8) 50%,
-    rgba(26, 26, 46, 0.8) 100%
-  ),
-  radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
-  radial-gradient(circle at 80% 80%, rgba(34, 197, 94, 0.05) 0%, transparent 50%);
+  background: #ffffff;
   padding-top: 40px;
-  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-hero::before {
@@ -28,10 +21,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.08) 0%, transparent 30%),
-    radial-gradient(circle at 0% 100%, rgba(99, 102, 241, 0.06) 0%, transparent 40%),
-    radial-gradient(circle at 100% 100%, rgba(34, 197, 94, 0.04) 0%, transparent 40%);
   pointer-events: none;
   z-index: 0;
 }
@@ -45,10 +34,12 @@
   font-size: clamp(2.5rem, 8vw, 3.75rem);
   font-weight: 900;
   letter-spacing: -0.02em;
+  color: #111827;
   animation: slideUp 0.8s ease-out;
 }
 
 .tinyfast-hero p {
+  color: #374151;
   animation: slideUp 0.8s ease-out 0.1s both;
 }
 
@@ -79,35 +70,28 @@
 
 /* What is TinyFast Section */
 .tinyfast-what {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(10, 10, 20, 0.3) 50%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
-  border-top: 1px solid rgba(59, 130, 246, 0.05);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.05);
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-what h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
   margin-bottom: 2rem;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
 }
 
 .tinyfast-what .prose {
   font-size: 1.125rem;
   line-height: 1.75;
-  color: #cbd5e1;
+  color: #374151;
 }
 
 .tinyfast-what .prose p {
   margin-bottom: 1.5rem;
   animation: fadeIn 0.8s ease-out forwards;
+  color: #374151;
 }
 
 .tinyfast-what .prose p:nth-child(1) {
@@ -133,29 +117,21 @@
 
 /* Features Section */
 .tinyfast-features {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(10, 10, 20, 0.3) 50%,
-    rgba(26, 26, 46, 0.2) 100%
-  );
-  border-top: 1px solid rgba(59, 130, 246, 0.05);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.05);
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-features h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .tinyfast-features > .container > .max-w-4xl > p {
   font-size: 1.25rem;
-  color: #a0aec0;
+  color: #374151;
   margin-bottom: 3rem;
 }
 
@@ -185,31 +161,18 @@
 .tinyfast-features .grid > *:hover {
   transform: translateY(-8px);
   border-color: rgba(59, 130, 246, 0.5) !important;
-  background: linear-gradient(
-    135deg,
-    rgba(59, 130, 246, 0.1) 0%,
-    rgba(34, 197, 94, 0.05) 100%
-  ) !important;
   box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
 }
 
 /* Why TinyFast Section */
 .tinyfast-why {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(10, 10, 20, 0.2) 50%,
-    rgba(0, 0, 0, 0.4) 100%
-  );
+  background: #ffffff;
 }
 
 .tinyfast-why h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 3rem;
 }
 
@@ -237,35 +200,27 @@
 .tinyfast-why h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .tinyfast-why p {
   font-size: 1.0625rem;
   line-height: 1.75;
-  color: #cbd5e1;
+  color: #374151;
 }
 
 /* Use Cases Section */
 .tinyfast-use-cases {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(10, 10, 20, 0.3) 50%,
-    rgba(26, 26, 46, 0.2) 100%
-  );
-  border-top: 1px solid rgba(59, 130, 246, 0.05);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.05);
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-use-cases h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
 }
 
 .tinyfast-use-cases .grid > * {
@@ -299,21 +254,13 @@
 
 /* How It Works Section */
 .tinyfast-how {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(10, 10, 20, 0.2) 50%,
-    rgba(0, 0, 0, 0.4) 100%
-  );
+  background: #ffffff;
 }
 
 .tinyfast-how h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 3rem;
 }
 
@@ -323,7 +270,7 @@
   border-left: 3px solid transparent;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(34, 197, 94, 0.02) 100%);
+  background: #f9fafb;
 }
 
 .tinyfast-how .space-y-8 > *:nth-child(1) { animation-delay: 0s; border-left-color: rgba(59, 130, 246, 0.5); }
@@ -334,41 +281,33 @@
 .tinyfast-how .space-y-8 > *:hover {
   border-left-width: 4px;
   transform: translateX(8px);
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(34, 197, 94, 0.05) 100%);
+  background: #f3f4f6;
 }
 
 .tinyfast-how h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .tinyfast-how p {
   font-size: 1rem;
   line-height: 1.7;
-  color: #cbd5e1;
+  color: #374151;
 }
 
 /* Comparison Section */
 .tinyfast-comparison {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(10, 10, 20, 0.3) 50%,
-    rgba(26, 26, 46, 0.2) 100%
-  );
-  border-top: 1px solid rgba(59, 130, 246, 0.05);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.05);
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-comparison h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 3rem;
 }
 
@@ -380,39 +319,31 @@
 }
 
 .tinyfast-comparison th {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(34, 197, 94, 0.05) 100%);
-  border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+  background: #f3f4f6;
+  border-bottom: 2px solid #d1d5db;
   font-weight: 700;
-  color: #ffffff;
+  color: #111827;
 }
 
 .tinyfast-comparison td {
   padding: 1rem;
-  border-bottom: 1px solid rgba(59, 130, 246, 0.15);
-  color: #cbd5e1;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
 }
 
 .tinyfast-comparison tbody tr:hover {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(34, 197, 94, 0.04) 100%);
+  background: #f9fafb;
 }
 
 /* Statistics Section */
 .tinyfast-stats {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(10, 10, 20, 0.2) 50%,
-    rgba(0, 0, 0, 0.4) 100%
-  );
+  background: #ffffff;
 }
 
 .tinyfast-stats h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 3rem;
 }
 
@@ -447,31 +378,20 @@
 .tinyfast-stats .grid > * div:first-child {
   font-size: 3rem;
   font-weight: 900;
-  background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #2563eb;
 }
 
 /* FAQ Section */
 .tinyfast-faq {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(10, 10, 20, 0.3) 50%,
-    rgba(26, 26, 46, 0.2) 100%
-  );
-  border-top: 1px solid rgba(59, 130, 246, 0.05);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.05);
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .tinyfast-faq h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   margin-bottom: 3rem;
 }
 
@@ -500,11 +420,6 @@
 
 .tinyfast-faq .space-y-6 > *:hover {
   border-color: rgba(59, 130, 246, 0.5) !important;
-  background: linear-gradient(
-    135deg,
-    rgba(59, 130, 246, 0.1) 0%,
-    rgba(34, 197, 94, 0.05) 100%
-  ) !important;
   box-shadow: 0 15px 35px rgba(59, 130, 246, 0.15);
   transform: translateX(8px);
 }
@@ -512,20 +427,21 @@
 .tinyfast-faq h3 {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .tinyfast-faq p {
   font-size: 1rem;
   line-height: 1.7;
-  color: #cbd5e1;
+  color: #374151;
 }
 
 /* CTA Section */
 .tinyfast-cta {
-  border-top: 2px solid rgba(59, 130, 246, 0.3);
-  border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+  background: #ffffff;
+  border-top: 2px solid #e5e7eb;
+  border-bottom: 2px solid #e5e7eb;
   position: relative;
   overflow: hidden;
 }
@@ -537,9 +453,6 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: 
-    radial-gradient(circle at 30% 30%, rgba(59, 130, 246, 0.1) 0%, transparent 40%),
-    radial-gradient(circle at 70% 70%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
   animation: gradientShift 8s ease-in-out infinite;
   pointer-events: none;
 }
@@ -561,17 +474,14 @@
 .tinyfast-cta h2 {
   font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   animation: slideUp 0.8s ease-out;
 }
 
 .tinyfast-cta p {
   font-size: 1.125rem;
   line-height: 1.75;
-  color: #cbd5e1;
+  color: #374151;
   animation: slideUp 0.8s ease-out 0.1s both;
 }
 
@@ -606,26 +516,18 @@
 
 /* Final CTA Section */
 .tinyfast-final-cta {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(10, 10, 20, 0.4) 50%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
+  background: #ffffff;
 }
 
 .tinyfast-final-cta h3 {
   font-size: 2rem;
   font-weight: 900;
-  background: linear-gradient(135deg, #ffffff 0%, #a0aec0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #111827;
   animation: slideUp 0.8s ease-out;
 }
 
 .tinyfast-final-cta p {
-  color: #a0aec0;
+  color: #374151;
   font-size: 1.0625rem;
   animation: slideUp 0.8s ease-out 0.1s both;
 }
@@ -691,9 +593,9 @@
   }
 }
 
-/* Dark mode optimizations */
-@media (prefers-color-scheme: dark) {
+/* Light mode optimizations */
+@media (prefers-color-scheme: light) {
   .tinyfast-page {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
