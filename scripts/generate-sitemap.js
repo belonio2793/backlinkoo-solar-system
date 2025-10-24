@@ -11,6 +11,7 @@ const excludePrefixes = [
 ];
 
 function walkDir(dir, filelist = []) {
+  if (!fs.existsSync(dir)) return filelist;
   const files = fs.readdirSync(dir);
   for (const f of files) {
     const fp = path.join(dir, f);
@@ -23,6 +24,20 @@ function walkDir(dir, filelist = []) {
     }
   }
   return filelist;
+}
+
+function toUrlSegment(name) {
+  // Remove extension if present
+  name = name.replace(/\.[^/.]+$/, '');
+  // Handle index specially
+  if (name.toLowerCase() === 'index') return '';
+  // Replace spaces and underscores
+  name = name.replace(/[_\s]+/g, '-');
+  // Convert CamelCase/PascalCase to kebab-case: FooBar -> foo-bar
+  name = name.replace(/([a-z0-9])([A-Z])/g, '$1-$2');
+  // Remove characters not URL-friendly
+  name = name.replace(/[^a-zA-Z0-9-]/g, '');
+  return name.toLowerCase();
 }
 
 function collectRoutes() {
@@ -39,6 +54,7 @@ function collectRoutes() {
     }
   }
 
+  // Regexes to find route-like references in code
   const routeRegexes = [
     /<Route\s+[^>]*\bpath\s*=\s*["'`]([^"'`]+)["'`]/g,
     /\bpath\s*=\s*{\s*["'`]([^"'`]+)["'`]\s*}/g,
@@ -60,25 +76,32 @@ function collectRoutes() {
         if (/^https?:\/\//i.test(p)) continue;
         // normalize mailto, tel, anchors
         if (p.startsWith('mailto:') || p.startsWith('tel:') || p.startsWith('#')) continue;
-        // skip dynamic patterns
+        // skip wildcard or parameterized client routes that cannot be resolved statically
         if (p.includes('*') || p.includes(':') || p.includes('{') || p.includes('}')) continue;
         const normalized = p.startsWith('/') ? p : `/${p}`;
         if (excludePrefixes.some((pre) => normalized.startsWith(pre))) continue;
-        routes.add(normalized.replace(/\/+$|(?<=.)\/+$/g, ''));
+        // collapse trailing slashes
+        const cleaned = normalized.replace(/\/+$|(?<=.)\/+$/g, '') || '/';
+        routes.add(cleaned);
       }
     }
   }
 
-  // Also discover pages by filename under src/pages (common pattern)
+  // Discover pages by filename under src/pages (file-system based mapping)
   const pagesDir = path.resolve('src/pages');
   if (fs.existsSync(pagesDir)) {
     const pageFiles = walkDir(pagesDir).filter((f) => exts.includes(path.extname(f)));
     for (const pf of pageFiles) {
       const rel = path.relative(pagesDir, pf);
-      let route = '/' + rel.replace(path.extname(rel), '');
+      // Split into segments and convert each to URL-safe segment
+      const parts = rel.split(path.sep).map((seg) => toUrlSegment(seg));
+      let route = '/' + parts.filter(Boolean).join('/');
+      if (route === '') route = '/';
       if (route.endsWith('/index')) route = route.replace(/\/index$/, '') || '/';
+      // skip excluded prefixes
       if (excludePrefixes.some((pre) => route.startsWith(pre))) continue;
-      if (route.includes(':') || route.includes('*')) continue;
+      // skip dynamic segments
+      if (route.includes(':') || route.includes('*') || route.includes('[') || route.includes(']')) continue;
       routes.add(route);
     }
   }
@@ -95,7 +118,6 @@ function escapeXml(s) {
 }
 
 function buildSitemap(urls) {
-  // Build a standard XML sitemap following sitemap protocol.
   const base = baseUrl.replace(/\/$/, '');
   const today = new Date().toISOString().slice(0,10);
   const lines = urls.map((r) => {
