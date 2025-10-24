@@ -84,7 +84,7 @@ export async function handler(event) {
 
     // Construct prompt for AI to analyze the website
     // Request unique analysis without templated format
-    const prompt = `how many backlinks would you recommend for ${normalizedUrl} and what keywords would you target?
+    const prompt = `how many backlinks would you recommend for ${normalizedUrl} and what keywords would you target? Respond in one paragraph or a few sentences.
 `;
 
     const messages = [
