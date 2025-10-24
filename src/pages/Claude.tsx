@@ -763,15 +763,15 @@ const Claude = () => {
                 description: 'For production use, integrate Claude via the Anthropic API. Scale your applications with enterprise support and custom deployment options.',
               },
             ].map((item, idx) => (
-              <div key={idx} className="flex gap-6 bg-white/5 border border-white/10 rounded-lg p-6 hover:border-amber-400/30 transition">
+              <div key={idx} className="flex gap-6 bg-white border border-slate-200 rounded-lg p-6 hover:border-blue-300 transition">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white font-bold">
                     {item.step}
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                  <p className="text-gray-300">{item.description}</p>
+                  <h3 className="text-lg font-semibold mb-2 text-slate-900">{item.title}</h3>
+                  <p className="text-slate-600">{item.description}</p>
                 </div>
               </div>
             ))}
