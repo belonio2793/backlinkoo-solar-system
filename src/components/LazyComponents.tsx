@@ -1,76 +1,82 @@
-import { lazy } from 'react';
+// Direct imports instead of lazy loading to eliminate chunk.js files
+import AdminDashboard from '@/pages/AdminDashboard';
+import EmailMarketing from '@/pages/EmailMarketing';
+import BacklinkReport from '@/pages/BacklinkReport';
+import ReportViewer from '@/pages/ReportViewer';
+import SavedReports from '@/pages/SavedReports';
+import NoHandsSEO from '@/pages/NoHandsSEO';
+import PromotionMaterials from '@/pages/PromotionMaterials';
+import Affiliate from '@/pages/Affiliate';
+import { CampaignDeliverables } from '@/pages/CampaignDeliverables';
+import { BlogCreator } from '@/pages/BlogCreator';
+import { BlogPost } from '@/pages/BlogPost';
+import Blog from '@/pages/Blog';
+import { BlogListing } from '@/pages/BlogListing';
+import { BlogCreation } from '@/pages/BlogCreation';
+import { EnhancedBlogListing } from '@/components/EnhancedBlogListing';
+import { SuperEnhancedBlogListing } from '@/components/SuperEnhancedBlogListing';
+import { BeautifulBlogPost } from '@/components/BeautifulBlogPost';
+import { BeautifulBlogTemplate } from '@/components/BeautifulBlogTemplate';
+import BlogValidator from '@/pages/BlogValidator';
+import { TrialDashboard } from '@/pages/TrialDashboard';
+import AIContentTest from '@/pages/AIContentTest';
+import { ClaimSystemDebug } from '@/components/ClaimSystemDebug';
+import { EnhancedDashboardRouter } from '@/components/EnhancedDashboardRouter';
+import { UserBlogManagement } from '@/components/UserBlogManagement';
+import { BlogEditPage } from '@/pages/BlogEditPage';
+import { EnhancedAILive } from '@/components/EnhancedAILive';
+import { GuestDashboard } from '@/components/GuestDashboard';
+import SEOBlogGenerator from '@/pages/SEOBlogGenerator';
+import ScrapePage from '@/pages/ScrapePage';
+import Automation from '@/pages/Automation';
+import DomainsManager from '@/pages/DomainsManager';
+import AdminCampaignManager from '@/pages/AdminCampaignManager';
+import OpenAITest from '@/pages/OpenAITest';
+import { SystemTest } from '@/components/SystemTest';
+import PaymentDiagnostic from '@/pages/PaymentDiagnostic';
+import EdgeFunctionDiagnostic from '@/pages/EdgeFunctionDiagnostic';
+import RouteSyncTest from '@/pages/RouteSyncTest';
+import EmailAuthenticationAudit from '@/pages/EmailAuthenticationAudit';
+import EmailDiagnostic from '@/pages/EmailDiagnostic';
 
-// Lazy load heavy page components for better code splitting
-export const LazyAdminDashboard = lazy(() => import('@/pages/AdminDashboard'));
-export const LazyEmailMarketing = lazy(() => import('@/pages/EmailMarketing'));
-export const LazyBacklinkReport = lazy(() => import('@/pages/BacklinkReport'));
-export const LazyReportViewer = lazy(() => import('@/pages/ReportViewer'));
-export const LazySavedReports = lazy(() => import('@/pages/SavedReports'));
-export const LazyNoHandsSEO = lazy(() => import('@/pages/NoHandsSEO'));
-export const LazyPromotionMaterials = lazy(() => import('@/pages/PromotionMaterials'));
-export const LazyAffiliateProgram = lazy(() => import('@/pages/Affiliate'));
-export const LazyCampaignDeliverables = lazy(() => import('@/pages/CampaignDeliverables').then(module => ({ default: module.CampaignDeliverables })));
-export const LazyBlogCreator = lazy(() => import('@/pages/BlogCreator').then(module => ({ default: module.BlogCreator })));
-export const LazyBlogPost = lazy(() => import('@/pages/BlogPost').then(module => ({ default: module.BlogPost })));
-export const LazyBlog = lazy(() => import('@/pages/Blog'));
-
-// New blog system components
-export const LazyBlogListing = lazy(() => import('@/pages/BlogListing').then(module => ({ default: module.BlogListing })));
-export const LazyBlogCreation = lazy(() => import('@/pages/BlogCreation').then(module => ({ default: module.BlogCreation })));
-export const LazyBlogPostView = lazy(() => import('@/pages/BlogPost').then(module => ({ default: module.BlogPost })));
-
-// Enhanced blog system components
-export const LazyEnhancedBlogListing = lazy(() => import('@/components/EnhancedBlogListing').then(module => ({ default: module.EnhancedBlogListing })));
-export const LazySuperEnhancedBlogListing = lazy(() => import('@/components/SuperEnhancedBlogListing').then(module => ({ default: module.SuperEnhancedBlogListing })));
-export const LazyBeautifulBlogPost = lazy(() => import('@/components/BeautifulBlogPost').then(module => ({ default: module.BeautifulBlogPost })));
-export const LazyBeautifulBlogTemplate = lazy(() => import('@/components/BeautifulBlogTemplate').then(module => ({ default: module.BeautifulBlogTemplate })));
-export const LazyBlogValidator = lazy(() => import('@/pages/BlogValidator'));
-
-export const LazyTrialDashboard = lazy(() => import('@/pages/TrialDashboard').then(module => ({ default: module.TrialDashboard })));
-export const LazyAIContentTest = lazy(() => import('@/pages/AIContentTest'));
-
-// Debug components (only in development)
-export const LazyClaimSystemDebug = lazy(() => import('@/components/ClaimSystemDebug').then(module => ({ default: module.ClaimSystemDebug })));
-
-// Lazy load heavy components
-export const LazyEnhancedDashboardRouter = lazy(() => import('@/components/EnhancedDashboardRouter').then(module => ({ default: module.EnhancedDashboardRouter })));
-export const LazyUserBlogManagement = lazy(() => import('@/components/UserBlogManagement').then(module => ({ default: module.UserBlogManagement })));
-export const LazyBlogEditPage = lazy(() => import('@/pages/BlogEditPage').then(module => ({ default: module.BlogEditPage })));
-export const LazyEnhancedAILive = lazy(() => import('@/components/EnhancedAILive').then(module => ({ default: module.EnhancedAILive })));
-export const LazyGuestDashboard = lazy(() => import('@/components/GuestDashboard').then(module => ({ default: module.GuestDashboard })));
-
-// SEO-optimized blog components
-export const LazySEOOptimizedBlogGenerator = lazy(() => import('@/pages/SEOBlogGenerator'));
-
-// Email scraping component
-export const LazyScrapePage = lazy(() => import('@/pages/ScrapePage'));
-
-// Automation component
-export const LazyAutomation = lazy(() => import('@/pages/Automation'));
-
-// Domains Manager component
-export const LazyDomainsManager = lazy(() => import('@/pages/DomainsManager'));
-
-
-// Admin campaign management component
-export const LazyAdminCampaignManager = lazy(() => import('@/pages/AdminCampaignManager'));
-
-// API Testing components
-export const LazyOpenAITest = lazy(() => import('@/pages/OpenAITest'));
-export const LazySystemTest = lazy(() => import('@/components/SystemTest').then(module => ({ default: module.SystemTest })));
-
-
-// Payment Diagnostic component
-export const LazyPaymentDiagnostic = lazy(() => import('@/pages/PaymentDiagnostic'));
-
-// Edge Function Diagnostic component
-export const LazyEdgeFunctionDiagnostic = lazy(() => import('@/pages/EdgeFunctionDiagnostic'));
-
-// Route Sync Test component
-export const LazyRouteSyncTest = lazy(() => import('@/pages/RouteSyncTest'));
-
-// Email Authentication Audit component
-export const LazyEmailAuthenticationAudit = lazy(() => import('@/pages/EmailAuthenticationAudit'));
-
-// Email Diagnostic component
-export const LazyEmailDiagnostic = lazy(() => import('@/pages/EmailDiagnostic'));
+// Export as "Lazy" names for backward compatibility (they're just direct imports now)
+export const LazyAdminDashboard = AdminDashboard;
+export const LazyEmailMarketing = EmailMarketing;
+export const LazyBacklinkReport = BacklinkReport;
+export const LazyReportViewer = ReportViewer;
+export const LazySavedReports = SavedReports;
+export const LazyNoHandsSEO = NoHandsSEO;
+export const LazyPromotionMaterials = PromotionMaterials;
+export const LazyAffiliateProgram = Affiliate;
+export const LazyCampaignDeliverables = CampaignDeliverables;
+export const LazyBlogCreator = BlogCreator;
+export const LazyBlogPost = BlogPost;
+export const LazyBlog = Blog;
+export const LazyBlogListing = BlogListing;
+export const LazyBlogCreation = BlogCreation;
+export const LazyBlogPostView = BlogPost;
+export const LazyEnhancedBlogListing = EnhancedBlogListing;
+export const LazySuperEnhancedBlogListing = SuperEnhancedBlogListing;
+export const LazyBeautifulBlogPost = BeautifulBlogPost;
+export const LazyBeautifulBlogTemplate = BeautifulBlogTemplate;
+export const LazyBlogValidator = BlogValidator;
+export const LazyTrialDashboard = TrialDashboard;
+export const LazyAIContentTest = AIContentTest;
+export const LazyClaimSystemDebug = ClaimSystemDebug;
+export const LazyEnhancedDashboardRouter = EnhancedDashboardRouter;
+export const LazyUserBlogManagement = UserBlogManagement;
+export const LazyBlogEditPage = BlogEditPage;
+export const LazyEnhancedAILive = EnhancedAILive;
+export const LazyGuestDashboard = GuestDashboard;
+export const LazySEOOptimizedBlogGenerator = SEOBlogGenerator;
+export const LazyScrapePage = ScrapePage;
+export const LazyAutomation = Automation;
+export const LazyDomainsManager = DomainsManager;
+export const LazyAdminCampaignManager = AdminCampaignManager;
+export const LazyOpenAITest = OpenAITest;
+export const LazySystemTest = SystemTest;
+export const LazyPaymentDiagnostic = PaymentDiagnostic;
+export const LazyEdgeFunctionDiagnostic = EdgeFunctionDiagnostic;
+export const LazyRouteSyncTest = RouteSyncTest;
+export const LazyEmailAuthenticationAudit = EmailAuthenticationAudit;
+export const LazyEmailDiagnostic = EmailDiagnostic;
