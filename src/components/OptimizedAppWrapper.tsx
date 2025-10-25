@@ -39,7 +39,7 @@ import { TrialNotificationBanner } from '@/components/TrialNotificationBanner';
 import { AdminDiagnostic } from '@/components/AdminDiagnostic';
 import InstantAdminLanding from '@/components/InstantAdminLanding';
 
-// Import lazy-loaded components
+// Import all components directly (no lazy loading to avoid chunk.js)
 import {
   LazyAdminDashboard,
   LazyEmailMarketing,
@@ -61,7 +61,6 @@ import {
   LazySuperEnhancedBlogListing,
   LazyBeautifulBlogPost,
   LazyBeautifulBlogTemplate,
-
   LazyTrialDashboard,
   LazyAIContentTest,
   LazyEnhancedDashboardRouter,
@@ -152,257 +151,168 @@ export const OptimizedAppWrapper = () => {
       <RouteSync />
       <TrialNotificationBanner />
       <ScrollToTop />
-      <Suspense fallback={<PageLoader />}>
-        <Routes>
-          {/* Public routes - no authentication required (loaded immediately) */}
-          <Route path="/" element={<Index />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/auth/confirm" element={<EmailConfirmation />} />
-          <Route path="/auth/callback" element={<AuthCallback />} />
-          <Route path="/auth/reset-password" element={<PasswordReset />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/preview/:slug" element={<BlogPreview />} />
-          <Route path="/pageonepower" element={<LazyPageOnePower />} />
-          <Route path="/_debug/location" element={<DebugRoute />} />
-          <Route path="/techdomains" element={<DotTechDomains />} />
-          <Route path="*" element={<DynamicPageLoader />} />
+      <Routes>
+        {/* Public routes - no authentication required (loaded immediately) */}
+        <Route path="/" element={<Index />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/auth/confirm" element={<EmailConfirmation />} />
+        <Route path="/auth/callback" element={<AuthCallback />} />
+        <Route path="/auth/reset-password" element={<PasswordReset />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/preview/:slug" element={<BlogPreview />} />
+        <Route path="/pageonepower" element={<PageOnePower />} />
+        <Route path="/_debug/location" element={<DebugRoute />} />
+        <Route path="/techdomains" element={<DotTechDomains />} />
+        <Route path="*" element={<DynamicPageLoader />} />
 
-          {/* Blog routes - enhanced system */}
-          <Route path="/blog" element={<LazySuperEnhancedBlogListing />} />
-          <Route path="/blog/create" element={<LazyBlogCreation />} />
-          <Route path="/blog/seo-generator" element={<LazySEOOptimizedBlogGenerator />} />
-          <Route path="/blog/validator" element={<LazyBlogValidator />} />
-          <Route path="/blog/:slug" element={<LazyBeautifulBlogPost />} />
-          <Route path="/article/:slug" element={<LazyBeautifulBlogTemplate />} />
+        {/* Blog routes - enhanced system */}
+        <Route path="/blog" element={<LazySuperEnhancedBlogListing />} />
+        <Route path="/blog/create" element={<LazyBlogCreation />} />
+        <Route path="/blog/seo-generator" element={<LazySEOOptimizedBlogGenerator />} />
+        <Route path="/blog/validator" element={<LazyBlogValidator />} />
+        <Route path="/blog/:slug" element={<LazyBeautifulBlogPost />} />
+        <Route path="/article/:slug" element={<LazyBeautifulBlogTemplate />} />
 
-          {/* Legacy blog routes for backward compatibility */}
-          <Route path="/blog-old" element={<LazyBlog />} />
-          <Route path="/blog-creator" element={<LazyBlogCreator />} />
+        {/* Legacy blog routes for backward compatibility */}
+        <Route path="/blog-old" element={<LazyBlog />} />
+        <Route path="/blog-creator" element={<LazyBlogCreator />} />
 
-          {/* Dashboard routes */}
-          <Route path="/trial" element={<LazyTrialDashboard />} />
-          <Route path="/trial-dashboard" element={<LazyGuestDashboard />} />
-          <Route path="/ai-test" element={<LazyAIContentTest />} />
-          <Route path="/ai-live" element={<LazyEnhancedAILive />} />
+        {/* Dashboard routes */}
+        <Route path="/trial" element={<LazyTrialDashboard />} />
+        <Route path="/trial-dashboard" element={<LazyGuestDashboard />} />
+        <Route path="/ai-test" element={<LazyAIContentTest />} />
+        <Route path="/ai-live" element={<LazyEnhancedAILive />} />
 
-          {/* Protected routes - require authentication and email verification */}
-          <Route path="/dashboard" element={
-            <InstantEmailVerificationGuard>
-              <Suspense fallback={<PageLoader />}>
-                <Dashboard />
-              </Suspense>
-            </InstantEmailVerificationGuard>
-          } />
+        {/* Protected routes - require authentication and email verification */}
+        <Route path="/dashboard" element={
+          <InstantEmailVerificationGuard>
+            <Dashboard />
+          </InstantEmailVerificationGuard>
+        } />
 
-          <Route path="/my-dashboard" element={
-            <InstantEmailVerificationGuard>
-              <Suspense fallback={<PageLoader />}>
-                <Dashboard />
-              </Suspense>
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/my-blog" element={
-            <InstantEmailVerificationGuard>
-              <LazyUserBlogManagement />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/blog/:postId/edit" element={
-            <InstantEmailVerificationGuard>
-              <LazyBlogEditPage />
-            </InstantEmailVerificationGuard>
-          } />
+        <Route path="/my-dashboard" element={
+          <InstantEmailVerificationGuard>
+            <Dashboard />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/my-blog" element={
+          <InstantEmailVerificationGuard>
+            <LazyUserBlogManagement />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/blog/:postId/edit" element={
+          <InstantEmailVerificationGuard>
+            <LazyBlogEditPage />
+          </InstantEmailVerificationGuard>
+        } />
 
-          {/* Admin routes */}
-          <Route path="/admin" element={
-            <Suspense fallback={<PageLoader />}>
-              <InstantAdminLanding />
-            </Suspense>
-          } />
+        {/* Admin routes */}
+        <Route path="/admin" element={<InstantAdminLanding />} />
 
-          <Route path="/admin/diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <AdminDiagnostic />
-            </Suspense>
-          } />
+        <Route path="/admin/diagnostic" element={<AdminDiagnostic />} />
 
-          <Route path="/admin/campaigns" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyAdminCampaignManager />
-            </Suspense>
-          } />
+        <Route path="/admin/campaigns" element={<LazyAdminCampaignManager />} />
 
-          <Route path="/admin/stripe-test" element={
-          } />
+        {/* Emergency fix routes - accessible in all environments */}
+        <Route path="/emergency/rls-fix" element={<EmergencyRLSFix />} />
 
+        {/* Debug routes - only in development */}
+        {import.meta.env.DEV && (
+          <Route path="/debug/claim-system" element={<LazyClaimSystemDebug />} />
+        )}
 
-          {/* Emergency fix routes - accessible in all environments */}
-          <Route path="/emergency/rls-fix" element={
-            <Suspense fallback={<PageLoader />}>
-              <EmergencyRLSFix />
-            </Suspense>
-          } />
+        {/* Blog system diagnostic - accessible in all environments */}
+        <Route path="/diagnostic/blog-system" element={<BlogSystemDiagnostic />} />
+        <Route path="/diagnostic/blog-post/:slug" element={
+          <div className="min-h-screen bg-gray-50">
+            <BlogPostDiagnostic />
+          </div>
+        } />
 
-          {/* Debug routes - only in development */}
-          {import.meta.env.DEV && (
-            <Route path="/debug/claim-system" element={<LazyClaimSystemDebug />} />
-          )}
+        {/* Authentication diagnostic - accessible in all environments */}
+        <Route path="/auth-diagnostic" element={<AuthDiagnostic />} />
 
-          {/* Blog system diagnostic - accessible in all environments */}
-          <Route path="/diagnostic/blog-system" element={
-            <Suspense fallback={<PageLoader />}>
-              <BlogSystemDiagnostic />
-            </Suspense>
-          } />
-          <Route path="/diagnostic/blog-post/:slug" element={
-            <div className="min-h-screen bg-gray-50">
-              <BlogPostDiagnostic />
-            </div>
-          } />
+        {/* Payment routes - lightweight, immediate load */}
+        <Route path="/payment-success" element={
+          <InstantEmailVerificationGuard>
+            <PaymentSuccess />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/payment-cancelled" element={
+          <InstantEmailVerificationGuard>
+            <PaymentCancelled />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/subscription-success" element={
+          <InstantEmailVerificationGuard>
+            <SubscriptionSuccess />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/subscription-cancelled" element={
+          <InstantEmailVerificationGuard>
+            <SubscriptionCancelled />
+          </InstantEmailVerificationGuard>
+        } />
 
-          {/* Authentication diagnostic - accessible in all environments */}
-          <Route path="/auth-diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <AuthDiagnostic />
-            </Suspense>
-          } />
+        {/* Feature routes - no longer lazy loaded */}
+        <Route path="/scrape" element={<LazyScrapePage />} />
+        <Route path="/automation" element={<LazyAutomation />} />
+        <Route path="/domains" element={<DomainsPage />} />
+        <Route path="/automation/discovery" element={<PlatformDiscovery />} />
+        <Route path="/campaign/:campaignId" element={
+          <InstantEmailVerificationGuard>
+            <LazyCampaignDeliverables />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/email" element={
+          <InstantEmailVerificationGuard>
+            <LazyEmailMarketing />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/backlink-report" element={<LazyBacklinkReport />} />
+        <Route path="/report" element={<LazyBacklinkReport />} />
+        <Route path="/saved-reports" element={
+          <InstantEmailVerificationGuard>
+            <LazySavedReports />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/report/:reportId" element={<LazyReportViewer />} />
+        <Route path="/automation-link-building" element={
+          <InstantEmailVerificationGuard>
+            <LazyNoHandsSEO />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/affiliate" element={
+          <InstantEmailVerificationGuard>
+            <LazyAffiliateProgram />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/affiliate/test" element={
+          <InstantEmailVerificationGuard>
+            <LazyAffiliateProgram />
+          </InstantEmailVerificationGuard>
+        } />
+        <Route path="/affiliate/promotion-materials" element={
+          <InstantEmailVerificationGuard>
+            <LazyPromotionMaterials />
+          </InstantEmailVerificationGuard>
+        } />
 
-          {/* Payment routes - lightweight, immediate load */}
-          <Route path="/payment-success" element={
-            <InstantEmailVerificationGuard>
-              <PaymentSuccess />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/payment-cancelled" element={
-            <InstantEmailVerificationGuard>
-              <PaymentCancelled />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/subscription-success" element={
-            <InstantEmailVerificationGuard>
-              <SubscriptionSuccess />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/subscription-cancelled" element={
-            <InstantEmailVerificationGuard>
-              <SubscriptionCancelled />
-            </InstantEmailVerificationGuard>
-          } />
+        {/* API Testing Route */}
+        <Route path="/test-openai" element={<LazyOpenAITest />} />
+        <Route path="/system-test" element={<LazySystemTest />} />
+        <Route path="/payment-diagnostic" element={<LazyPaymentDiagnostic />} />
+        <Route path="/edge-function-diagnostic" element={<LazyEdgeFunctionDiagnostic />} />
+        <Route path="/email-diagnostic" element={<EmailDiagnosticPage />} />
+        <Route path="/route-sync-test" element={<LazyRouteSyncTest />} />
+        <Route path="/email-auth-audit" element={<LazyEmailAuthenticationAudit />} />
 
-          {/* Feature routes - lazy loaded */}
-          <Route path="/scrape" element={<LazyScrapePage />} />
-          <Route path="/automation" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyAutomation />
-            </Suspense>
-          } />
-          <Route path="/domains" element={<DomainsPage />} />
-          <Route path="/automation/discovery" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyPlatformDiscovery />
-            </Suspense>
-          } />
-          <Route path="/campaign/:campaignId" element={
-            <InstantEmailVerificationGuard>
-              <LazyCampaignDeliverables />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/email" element={
-            <InstantEmailVerificationGuard>
-              <LazyEmailMarketing />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/backlink-report" element={<LazyBacklinkReport />} />
-          <Route path="/report" element={<LazyBacklinkReport />} />
-          <Route path="/saved-reports" element={
-            <InstantEmailVerificationGuard>
-              <LazySavedReports />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/report/:reportId" element={<LazyReportViewer />} />
-          <Route path="/automation-link-building" element={
-            <InstantEmailVerificationGuard>
-              <LazyNoHandsSEO />
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/affiliate" element={
-            <InstantEmailVerificationGuard>
-              <Suspense fallback={<PageLoader />}>
-                <LazyAffiliateProgram />
-              </Suspense>
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/affiliate/test" element={
-            <InstantEmailVerificationGuard>
-              <Suspense fallback={<PageLoader />}>
-                <LazyAffiliateProgram />
-              </Suspense>
-            </InstantEmailVerificationGuard>
-          } />
-          <Route path="/affiliate/promotion-materials" element={
-            <InstantEmailVerificationGuard>
-              <LazyPromotionMaterials />
-            </InstantEmailVerificationGuard>
-          } />
-
-          {/* API Testing Route */}
-          <Route path="/test-openai" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyOpenAITest />
-            </Suspense>
-          } />
-          <Route path="/system-test" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazySystemTest />
-            </Suspense>
-          } />
-          <Route path="/test-webhooks" element={
-          } />
-          <Route path="/payment-diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyPaymentDiagnostic />
-            </Suspense>
-          } />
-          <Route path="/edge-function-diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyEdgeFunctionDiagnostic />
-            </Suspense>
-          } />
-          <Route path="/email-diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <EmailDiagnosticPage />
-            </Suspense>
-          } />
-          <Route path="/route-sync-test" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyRouteSyncTest />
-            </Suspense>
-          } />
-          <Route path="/email-auth-audit" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyEmailAuthenticationAudit />
-            </Suspense>
-          } />
-          <Route path="/email-diagnostic" element={
-            <Suspense fallback={<PageLoader />}>
-              <LazyEmailDiagnostic />
-            </Suspense>
-          } />
-
-          {/* 404 routes */}
-          <Route
-            path="/siliconvalleygirl"
-            element={
-              <Suspense fallback={<PageLoader />}>
-                {React.createElement(React.lazy(() => import('../pages/SiliconValleyGirl')))}
-              </Suspense>
-            }
-          />
-          <Route path="/404" element={<NotFound />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Suspense>
+        {/* 404 routes */}
+        <Route path="/404" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </ReportSyncProvider>
   );
 };
