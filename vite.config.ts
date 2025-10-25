@@ -66,6 +66,7 @@ export default defineConfig(({ mode }) => ({
     outDir: "dist",
     assetsDir: "assets",
     sourcemap: false,
+    cssCodeSplit: false,
     target: "es2018",
     chunkSizeWarningLimit: 1500,
     reportCompressedSize: false,
@@ -99,51 +100,10 @@ export default defineConfig(({ mode }) => ({
           return false;
         },
       output: {
-        manualChunks: {
-          // Core React chunks
-          vendor: ["react", "react-dom"],
-          router: ["react-router-dom"],
-
-          // Database and external services
-          supabase: ["@supabase/supabase-js"],
-          query: ["@tanstack/react-query"],
-
-          // UI components (chunked by usage)
-          "radix-core": [
-            "@radix-ui/react-dialog",
-            "@radix-ui/react-dropdown-menu",
-            "@radix-ui/react-alert-dialog",
-            "@radix-ui/react-popover",
-          ],
-          "radix-form": [
-            "@radix-ui/react-label",
-            "@radix-ui/react-checkbox",
-            "@radix-ui/react-radio-group",
-            "@radix-ui/react-select",
-            "@radix-ui/react-switch",
-          ],
-          "radix-data": [
-            "@radix-ui/react-tabs",
-            "@radix-ui/react-accordion",
-            "@radix-ui/react-collapsible",
-            "@radix-ui/react-scroll-area",
-          ],
-
-          // Form handling
-          forms: ["react-hook-form", "@hookform/resolvers", "zod"],
-
-          // Charts and data visualization
-          charts: ["recharts"],
-
-          // Date handling
-          dates: ["date-fns", "react-day-picker"],
-
-          // Icons
-          icons: ["lucide-react"],
-
-          // Utilities
-          utils: ["clsx", "tailwind-merge", "class-variance-authority"],
-        },
+        inlineDynamicImports: true,
+        entryFileNames: 'assets/app-[hash].js',
+        chunkFileNames: 'assets/app-[hash].js',
+        assetFileNames: 'assets/[name]-[hash][extname]'
       },
     },
   },
