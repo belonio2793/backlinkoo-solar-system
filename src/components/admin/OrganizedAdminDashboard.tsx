@@ -27,7 +27,7 @@ import PlatformProgressFixer from '@/components/debug/PlatformProgressFixer';
 import { MissingColumnsFix } from '@/components/system/MissingColumnsFix';
 import CampaignMetricsDBVerifier from '@/components/CampaignMetricsDBVerifier';
 import { DatabaseTestComponent } from '@/components/DatabaseTestComponent';
-import { DeploymentStatus } from '@/components/DeploymentStatus';
+import DeploymentStatus from '@/components/DeploymentStatus';
 import FullStoryTestComponent from '@/components/FullStoryTestComponent';
 import { ServiceConnectionStatus } from '@/components/admin/ServiceConnectionStatus';
 import { GlobalNotificationsTester } from '@/components/admin/GlobalNotificationsTester';
