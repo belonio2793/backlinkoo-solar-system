@@ -102,4 +102,34 @@ try {
   }
 } catch (e) {}
 
+// Suppress unhandled promise rejections and global errors from iframe eval timeouts (preview host noise)
+try {
+  if (typeof window !== 'undefined') {
+    window.addEventListener('unhandledrejection', (event) => {
+      try {
+        const reason = event?.reason;
+        const msg = reason && reason.message ? String(reason.message) : String(reason || '');
+        if (/iframe evaluation timeout/i.test(msg) || /iframe eval/i.test(msg) || /IFrame evaluation timeout/i.test(msg)) {
+          // prevent noisy console output for preview iframe evaluation timeouts
+          event.preventDefault();
+          return;
+        }
+      } catch (e) {}
+      // allow other handlers to process
+    }, { passive: true });
+
+    window.addEventListener('error', (event) => {
+      try {
+        const msg = event?.message ? String(event.message) : '';
+        if (/iframe evaluation timeout/i.test(msg) || /iframe eval/i.test(msg) || /IFrame evaluation timeout/i.test(msg)) {
+          // swallow this specific noisy preview error
+          event.preventDefault();
+          return;
+        }
+      } catch (e) {}
+      // allow normal processing
+    }, true);
+  }
+} catch (e) {}
+
 export {};
