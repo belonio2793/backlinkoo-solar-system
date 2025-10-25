@@ -214,9 +214,7 @@ export function OrganizedAdminDashboard() {
       <div className="container mx-auto px-4 sm:px-6 pt-2 sm:pt-3 pb-4 sm:pb-8">
         {/* Section Content */}
         {activeSection === "overview" && (
-          <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Loading overview…</div>}>
-            <LazyEnhancedAdminOverview />
-          </Suspense>
+          <LazyEnhancedAdminOverview />
         )}
 
         {activeSection === "users" && (
