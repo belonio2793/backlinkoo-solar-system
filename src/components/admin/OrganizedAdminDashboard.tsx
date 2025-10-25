@@ -219,9 +219,7 @@ export function OrganizedAdminDashboard() {
 
         {activeSection === "users" && (
           <div className="space-y-6">
-            <Suspense fallback={<div className="p-4 text-sm text-muted-foreground">Loading users…</div>}>
-              <LazyComprehensiveUserManagement />
-            </Suspense>
+            <LazyComprehensiveUserManagement />
           </div>
         )}
 
