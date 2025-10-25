@@ -105,14 +105,38 @@ try {
   }
 } catch (e) {}
 
-// Suppress unhandled promise rejections and global errors from iframe eval timeouts (preview host noise)
+// Handle iframe eval timeout errors: capture a single stack for diagnostics, then suppress further noisy occurrences
 try {
   if (typeof window !== 'undefined') {
+    // limit how many times we log the diagnostic stack to avoid spamming
+    const __iframeTimeoutLogCounter = { count: 0 } as { count: number };
+    const MAX_LOGS = 3;
+
+    function shouldHandleIframeTimeout(msg: string) {
+      const lower = msg || '';
+      return /iframe evaluation timeout/i.test(lower) || /iframe eval/i.test(lower) || /no response received within/i.test(lower);
+    }
+
+    function logIframeTimeoutDiagnostic(reason: any) {
+      try {
+        if (__iframeTimeoutLogCounter.count >= MAX_LOGS) return;
+        __iframeTimeoutLogCounter.count++;
+        const stack = reason && (reason.stack || reason.stacktrace || reason.stackTrace) ? (reason.stack || reason.stacktrace || reason.stackTrace) : null;
+        const msg = reason && reason.message ? reason.message : String(reason || 'IFrame evaluation timeout');
+        // Log a concise diagnostic to debug channel (console.debug) so it is visible when needed but not noisy by default
+        console.debug('[Diagnostics] IFrame evaluation timeout captured', { message: msg, stack: stack ? String(stack).split('\n').slice(0,8).join('\n') : 'no-stack' });
+      } catch (e) {
+        // ignore
+      }
+    }
+
     window.addEventListener('unhandledrejection', (event) => {
       try {
         const reason = event?.reason;
         const msg = reason && reason.message ? String(reason.message) : String(reason || '');
-        if (/iframe evaluation timeout/i.test(msg) || /iframe eval/i.test(msg) || /IFrame evaluation timeout/i.test(msg)) {
+        if (shouldHandleIframeTimeout(msg)) {
+          // capture diagnostic stack once or up to MAX_LOGS
+          logIframeTimeoutDiagnostic(reason);
           // prevent noisy console output for preview iframe evaluation timeouts
           event.preventDefault();
           return;
@@ -121,12 +145,13 @@ try {
       // allow other handlers to process
     }, { passive: true });
 
-    window.addEventListener('error', (event) => {
+    window.addEventListener('error', (event: ErrorEvent) => {
       try {
         const msg = event?.message ? String(event.message) : '';
-        if (/iframe evaluation timeout/i.test(msg) || /iframe eval/i.test(msg) || /IFrame evaluation timeout/i.test(msg)) {
+        if (shouldHandleIframeTimeout(msg)) {
+          logIframeTimeoutDiagnostic((event as any).error || event.message || msg);
           // swallow this specific noisy preview error
-          event.preventDefault();
+          try { event.preventDefault(); } catch (e) {}
           return;
         }
       } catch (e) {}
