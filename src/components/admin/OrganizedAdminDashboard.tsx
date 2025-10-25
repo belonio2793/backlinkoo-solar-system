@@ -83,8 +83,6 @@ const LazyNetlifyAliasPurger = NetlifyAliasPurger;
 import ResendDirectTest from "@/components/ResendDirectTest";
 import CORSEmailAlert from "@/components/CORSEmailAlert";
 import DatabaseSchemaFix from "@/components/DatabaseSchemaFix";
-import { DeploymentStatus } from "@/components/DeploymentStatus";
-import { DatabaseTestComponent } from "../DatabaseTestComponent";
 
 import {
   Users,
