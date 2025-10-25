@@ -79,7 +79,6 @@ const LazyNetlifyAliasPurger = NetlifyAliasPurger;
 
 // Admin Components
 import { EnhancedSecurityDashboard } from "@/components/EnhancedSecurityDashboard";
-import { CampaignManager } from "@/components/CampaignManager";
 import { EmailSystemManagerSafe } from "@/components/admin/EmailSystemManagerSafe";
 import { AdminBlogManager } from "@/components/admin/AdminBlogManager";
 import AdminCampaignsManagement from "@/components/admin/AdminCampaignsManagement";
