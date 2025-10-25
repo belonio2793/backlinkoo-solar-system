@@ -78,26 +78,6 @@ const LazyNetlifyEnvironmentManager = NetlifyEnvironmentManager;
 const LazyNetlifyAliasPurger = NetlifyAliasPurger;
 
 // Admin Components
-import { EnhancedSecurityDashboard } from "@/components/EnhancedSecurityDashboard";
-import { EmailSystemManagerSafe } from "@/components/admin/EmailSystemManagerSafe";
-import { AdminBlogManager } from "@/components/admin/AdminBlogManager";
-import AdminCampaignsManagement from "@/components/admin/AdminCampaignsManagement";
-import { TrialPostCleanupManager } from "@/components/admin/TrialPostCleanupManager";
-import { BlogManagementPanel } from "@/components/admin/BlogManagementPanel";
-import { ContentFilterManager } from "@/components/admin/ContentFilterManager";
-import { ContentModerationQueue } from "@/components/admin/ContentModerationQueue";
-import { AIPostsManager } from "@/components/admin/AIPostsManager";
-import { BlogPostClaimsManager } from "@/components/admin/BlogPostClaimsManager";
-import { BlogSystemAdmin } from "@/components/admin/BlogSystemAdmin";
-import { SystemsAssessmentDashboard } from "@/components/admin/SystemsAssessmentDashboard";
-import { EnvironmentVariablesManager } from "@/components/admin/EnvironmentVariablesManager";
-import { NetlifyEnvironmentManager } from "@/components/admin/NetlifyEnvironmentManager";
-import { ServiceConnectionStatus } from "@/components/admin/ServiceConnectionStatus";
-import { DirectOpenAITest } from "@/components/admin/DirectOpenAITest";
-import { UserManagement } from "@/components/admin/UserManagement";
-import { CampaignMetricsDBVerifier } from "@/components/CampaignMetricsDBVerifier";
-import { TextCleanerControls } from "@/components/admin/TextCleanerControls";
-import PlatformProgressFixer from "@/components/debug/PlatformProgressFixer";
 
 // Testing Tools
 import { AuthEmailTest } from "@/components/AuthEmailTest";
