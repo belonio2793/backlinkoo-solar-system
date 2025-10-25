@@ -1,5 +1,5 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Suspense, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useReferralTracking } from '@/hooks/useAffiliate';
 import { Skeleton } from '@/components/ui/skeleton';
 import { scrollToTop } from '@/utils/scrollToTop';
