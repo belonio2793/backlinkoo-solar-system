@@ -33,6 +33,9 @@ console.error = (...args: any[]) => {
     if (msg.includes('Loading chunk') || msg.includes('loading chunk') || msg.includes('ChunkLoadError')) return;
     // Suppress ResizeObserver errors
     if (msg.includes('ResizeObserver loop limit exceeded')) return;
+    // Suppress noisy iframe evaluation timeout messages from preview hosts
+    const lower = msg.toLowerCase();
+    if (lower.includes('iframe evaluation timeout') || lower.includes('iframe eval') || lower.includes('no response received within')) return;
   } catch (e) {
     // ignore
   }
