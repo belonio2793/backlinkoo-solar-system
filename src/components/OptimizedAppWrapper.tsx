@@ -84,10 +84,9 @@ import {
   LazyBlogValidator
 } from './LazyComponents';
 
-// Platform Discovery page import
-const LazyPlatformDiscovery = lazy(() => import('@/pages/PlatformDiscovery'));
-// Brand review pages
-const LazyPageOnePower = lazy(() => import('@/pages/PageOnePower'));
+// Import remaining pages directly (no lazy loading)
+import PlatformDiscovery from '@/pages/PlatformDiscovery';
+import PageOnePower from '@/pages/PageOnePower';
 
 // Loading component for better UX
 const PageLoader = () => (
