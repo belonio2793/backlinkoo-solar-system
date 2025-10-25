@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState, Suspense, lazy } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import '@/styles/indexceptional.css';
