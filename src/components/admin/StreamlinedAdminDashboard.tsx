@@ -21,7 +21,7 @@ import { BlogManagerTestButton } from "@/components/admin/BlogManagerTestButton"
 import { AdminBlogManager } from "@/components/admin/AdminBlogManager";
 import { SystemStatusPanelWithTester } from "@/components/admin/SystemStatusPanel";
 import { ServiceConnectionStatus } from "@/components/admin/ServiceConnectionStatus";
-import { DeploymentStatus } from "@/components/DeploymentStatus";
+import DeploymentStatus from "@/components/DeploymentStatus";
 import { NetlifyEnvironmentManager } from "@/components/admin/NetlifyEnvironmentManager";
 import { EmailSystemManagerSafe } from "@/components/admin/EmailSystemManagerSafe";
 import { SecurityDashboard } from "@/components/SecurityDashboard";
