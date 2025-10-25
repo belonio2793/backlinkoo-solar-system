@@ -80,19 +80,11 @@ const LazyNetlifyAliasPurger = NetlifyAliasPurger;
 // Admin Components
 
 // Testing Tools
-import { AuthEmailTest } from "@/components/AuthEmailTest";
-import { EmailTest } from "@/components/EmailTest";
-import { SupabaseEmailTest } from "@/components/SupabaseEmailTest";
-import { SupabaseEmailGuide } from "@/components/SupabaseEmailGuide";
-import EmailConfigurationTester from "@/components/EmailConfigurationTester";
-import FullStoryTestComponent from "@/components/FullStoryTestComponent";
 import ResendDirectTest from "@/components/ResendDirectTest";
 import CORSEmailAlert from "@/components/CORSEmailAlert";
 import DatabaseSchemaFix from "@/components/DatabaseSchemaFix";
-import { SMTPConfigTest } from "@/components/SMTPConfigTest";
 import { DeploymentStatus } from "@/components/DeploymentStatus";
 import { DatabaseTestComponent } from "../DatabaseTestComponent";
-import { MissingColumnsFix } from "@/components/system/MissingColumnsFix";
 
 import {
   Users,
