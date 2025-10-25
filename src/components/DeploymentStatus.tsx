@@ -12,7 +12,7 @@ import {
   Server
 } from 'lucide-react';
 
-export function DeploymentStatus() {
+export default function DeploymentStatus() {
   const [isChecking, setIsChecking] = useState(false);
   const [routeStatus, setRouteStatus] = useState<'checking' | 'working' | 'failed' | 'unknown'>('unknown');
 
