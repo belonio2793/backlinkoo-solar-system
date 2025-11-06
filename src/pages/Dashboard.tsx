@@ -849,7 +849,7 @@ const Dashboard = () => {
               )}
 
               {isPremiumSubscriber && (
-                <Card className="border-blue-200 bg-gradient-to-r from-blue-50 via-slate-50 to-blue-100 text-slate-800">
+                <Card className="border-border bg-white text-slate-800">
                   <CardHeader>
                     <CardTitle className="text-blue-900 flex items-center gap-2">
                       <Crown className="h-5 w-5" />
@@ -1042,7 +1042,7 @@ const Dashboard = () => {
 
 
               {campaigns.length > 0 && (
-                <Card className="shadow-lg border-0 bg-gradient-to-br from-card to-card/50">
+                <Card className="border border-border bg-white">
                   <CardHeader className="pb-4">
                     <div className="flex items-center gap-3">
                       <div className="p-2 rounded-lg bg-primary/10">
