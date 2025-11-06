@@ -179,10 +179,16 @@ export function Header({
             ) : null}
           </div>
           <div className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-end">
-            <Button variant="default" size="sm" className="hidden sm:inline-flex bg-blue-600 text-white hover:bg-blue-700 h-8 rounded-full px-3">
-              Navigation
+            <Button
+              variant="default"
+              size="sm"
+              className="hidden sm:inline-flex bg-blue-600 text-white hover:bg-blue-700 h-8 rounded-full px-3"
+              onClick={() => setNavOpen((v) => !v)}
+              aria-expanded={navOpen}
+            >
+              Open Navigation
             </Button>
-            <DropdownMenu>
+            <DropdownMenu open={navOpen} onOpenChange={setNavOpen}>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
                   <Menu className="h-4 w-4" />
