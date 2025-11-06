@@ -109,18 +109,24 @@ export class BlogCleanupService {
       return { count: 0 };
     }
     try {
-      const { count, error } = await supabase
+      const { data, error } = await supabase
         .from('blog_posts')
-        .select('*', { count: 'exact', head: true })
-        .eq('claimed', false)
-        .neq('expires_at', null)
-        .lte('expires_at', new Date().toISOString());
+        .select('id, expires_at')
+        .eq('claimed', false);
 
       if (error) {
         return { count: 0, error: error.message };
       }
 
-      return { count: count || 0 };
+      const now = Date.now();
+      const isValidDate = (v: any) => {
+        if (v == null) return false;
+        const t = typeof v === 'string' || typeof v === 'number' ? Date.parse(String(v)) : (v instanceof Date ? v.getTime() : NaN);
+        return Number.isFinite(t);
+      };
+
+      const expiredCount = (data || []).filter((row: any) => isValidDate(row.expires_at) && Date.parse(String(row.expires_at)) <= now).length;
+      return { count: expiredCount };
     } catch (error: any) {
       return { count: 0, error: error.message };
     }
