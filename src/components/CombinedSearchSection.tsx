@@ -300,7 +300,7 @@ export function CombinedSearchSection() {
                 <div className="text-center mb-6">
                   <h3 className="flex items-center gap-2 justify-center text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
                     <Search className="w-5 h-5 text-blue-600" />
-                    Enter any keyword and find out how many backlinks you need for number one rankings
+                    Enter any keyword and find out how many backlinks
                   </h3>
                 </div>
                 <div className="mb-6 flex justify-center">
