@@ -113,8 +113,7 @@ function PricingSectionComponent({ pricingPlans, customCredits, customCreditsInp
   return (
     <section
       id="pricing"
-      className="relative py-24 px-0 md:px-6 bg-white section-ambient bg-hero-soft soft-vignette"
-      style={{ backgroundColor: '#ffffff' }}
+      className="relative py-24 px-0 md:px-6 bg-white"
     >
       <div className="w-full max-w-6xl mx-auto relative z-10 px-4 md:px-6">
         <div className="text-center mb-16">
