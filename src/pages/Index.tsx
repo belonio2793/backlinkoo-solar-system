@@ -1288,24 +1288,22 @@ const Index = () => {
             </div>
             </div>
 
-            <div className="min-h-[48px] mt-4 flex items-center justify-center">
-              {estimateLoading ? (
-                <div className="text-sm text-muted-foreground">Analyzing keyword…</div>
-              ) : showEstimateOverlay ? (
-                <div className="text-sm text-muted-foreground">Result displayed in the popup overlay.</div>
-              ) : estimateText ? (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95"
-                  onClick={() => setShowEstimateOverlay(true)}
-                >
-                  Show latest estimate
-                </Button>
-              ) : (
-                <div className="text-sm text-muted-foreground">Results will appear in a popup overlay.</div>
-              )}
-            </div>
+            {(estimateLoading || (!showEstimateOverlay && !!estimateText)) && (
+              <div className="mt-4 flex items-center justify-center">
+                {estimateLoading ? (
+                  <div className="text-sm text-muted-foreground">Analyzing keyword…</div>
+                ) : (
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95"
+                    onClick={() => setShowEstimateOverlay(true)}
+                  >
+                    Show latest estimate
+                  </Button>
+                )}
+              </div>
+            )}
 
           </div>
         </div>
