@@ -42,7 +42,7 @@ import { BlogSystemAdmin } from '@/components/admin/BlogSystemAdmin';
 import { TrialPostCleanupManager } from '@/components/admin/TrialPostCleanupManager';
 import { SystemsAssessmentDashboard } from '@/components/admin/SystemsAssessmentDashboard';
 import { NetlifyEnvironmentManager } from '@/components/admin/NetlifyEnvironmentManager';
-import { NetlifyAliasPurger } from '@/components/admin/NetlifyAliasPurger';
+import NetlifyAliasPurger from '@/components/admin/NetlifyAliasPurger';
 
 // Alias exports for backward compatibility
 const LazyEnhancedAdminOverview = EnhancedAdminOverview;
