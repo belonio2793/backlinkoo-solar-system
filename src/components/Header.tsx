@@ -186,14 +186,6 @@ export function Header({
                   <Infinity className="h-4 w-4 sm:mr-2" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
-                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard#automation')}>
-                  <Wand2 className="h-4 w-4 sm:mr-2" />
-                  <span className="hidden sm:inline">Automation</span>
-                </Button>
-                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard#trial')}>
-                  <Sparkles className="h-4 w-4 sm:mr-2" />
-                  <span className="hidden sm:inline">Community Blog</span>
-                </Button>
                 <Button variant="ghost" size="sm" className="px-3" onClick={handlePremiumClick}>
                   <Star className="h-4 w-4 sm:mr-2" />
                   <span className="hidden sm:inline">Premium</span>
@@ -243,10 +235,6 @@ export function Header({
                 <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
                   <LineChart className="mr-2 h-4 w-4" />
                   Rank Tracker
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
-                  <Sparkles className="mr-2 h-4 w-4" />
-                  Community Blog
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
