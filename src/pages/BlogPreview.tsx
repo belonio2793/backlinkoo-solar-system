@@ -245,7 +245,7 @@ export function BlogPreview() {
             </div>
 
             {/* Claim Button Section */}
-            <div className="p-6 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
+            <div className="p-6 bg-white">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                 <div>
                   <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-100">
@@ -303,7 +303,7 @@ export function BlogPreview() {
 
           {/* Post Footer */}
           <div className="mt-12 pt-8 border-t border-border">
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20 rounded-lg p-6">
+            <div className="bg-white">
               <div className="text-center space-y-4">
                 <h3 className="text-xl font-semibold">Want More High-Quality Backlinks?</h3>
                 <p className="text-muted-foreground">

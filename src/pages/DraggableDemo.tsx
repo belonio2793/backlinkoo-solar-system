@@ -19,14 +19,14 @@ export const DraggableDemo: React.FC = () => {
   const [showOriginalPricing, setShowOriginalPricing] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 via-blue-600/10 to-pink-600/10" />
+        <div className="absolute inset-0 bg-white" />
         <div className="relative max-w-6xl mx-auto px-6 py-16">
           <div className="text-center space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 bg-clip-text text-transparent">
+              <h1 className="text-5xl font-bold bg-white">
                 Draggable Windows & Modals
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -38,7 +38,7 @@ export const DraggableDemo: React.FC = () => {
             <div className="flex items-center justify-center gap-4 flex-wrap">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+                className="bg-white"
                 onClick={() => setShowDraggablePricing(true)}
               >
                 <Sparkles className="h-5 w-5 mr-2" />
@@ -233,12 +233,12 @@ export const DraggableDemo: React.FC = () => {
       </div>
 
       {/* Demo Section */}
-      <div className="bg-gradient-to-r from-purple-600/10 via-blue-600/10 to-pink-600/10">
+      <div className="bg-white">
         <DraggableWindowDemo />
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <div className="bg-white">
         <div className="max-w-4xl mx-auto px-6 py-16 text-center space-y-8">
           <h2 className="text-4xl font-bold">Ready to Enhance Your Interface?</h2>
           <p className="text-xl opacity-90">

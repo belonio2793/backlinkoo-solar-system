@@ -607,7 +607,7 @@ export default function KeywordResearch() {
   }, [timeline, recentKeywords]);
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 rainbow-hover-scope min-h-screen">
+    <div className="bg-white">
       <RankHeader showTabs={false} ctaMode="navigation" />
       <div className="flex">
         {/* Sidebar Navigation */}

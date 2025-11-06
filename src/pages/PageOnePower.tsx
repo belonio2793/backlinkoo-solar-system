@@ -577,7 +577,7 @@ Thanks,
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-sky-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
 
       <div className="pop-progress"><div className="pop-progress__bar" /></div>

@@ -106,7 +106,7 @@ export default function AidyPage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-rose-50 to-pink-50 text-rose-700 border border-rose-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <HeartIcon className="w-5 h-5" />
               <span className="text-sm font-medium">IBD tracking • reports • care coordination</span>
             </div>

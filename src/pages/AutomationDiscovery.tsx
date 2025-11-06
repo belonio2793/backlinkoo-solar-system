@@ -314,12 +314,12 @@ const AutomationDiscovery = () => {
   const stats = getStats();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-100">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-2">
+          <h1 className="text-4xl font-bold bg-white">
             Automation-Compatible URL Discovery
           </h1>
           <p className="text-lg text-gray-600">
@@ -371,7 +371,7 @@ const AutomationDiscovery = () => {
 
               <div className="flex gap-2 pt-4">
                 {!isDiscovering ? (
-                  <Button onClick={startDiscovery} className="flex-1 text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+                  <Button onClick={startDiscovery} className="flex-1 text-white bg-white">
                     <Play className="h-4 w-4 mr-2" />
                     Start Discovery (500 URLs)
                   </Button>

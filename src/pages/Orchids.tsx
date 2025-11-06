@@ -380,7 +380,7 @@ export default function Orchids() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 md:px-6 lg:px-8">
-        <section className="relative overflow-hidden rounded-3xl border border-border/60 bg-gradient-to-br from-purple-50 via-white to-blue-50 p-6 md:p-10">
+        <section className="relative overflow-hidden rounded-3xl border border-border/60 bg-white">
           <div className="relative z-10 flex flex-col gap-6">
             <span className="inline-flex w-fit items-center gap-2 rounded-full border border-purple-200 bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-purple-700">
               Definitive Orchid Keyword Resource
@@ -495,7 +495,7 @@ export default function Orchids() {
               <p className="mt-3 text-xs text-slate-500">Quotes are representative composites of common community advice shared by experienced growers.</p>
             </section>
 
-            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-purple-50 p-6 shadow-sm md:p-8">
+            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-white">
               <header className="mb-3">
                 <h2 className="text-2xl font-bold text-slate-900 md:text-3xl">Get Traffic with SEO: Buy Quality Backlinks</h2>
                 <p className="mt-2 text-slate-700">If you build content people love, search engines will follow. When you’re ready to accelerate growth, register to get backlinks and scale traffic with Backlink ∞.</p>

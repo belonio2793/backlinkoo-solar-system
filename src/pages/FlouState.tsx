@@ -141,7 +141,7 @@ export default function FlouStatePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="floustate-hero bg-gradient-to-b from-slate-950 via-blue-950 to-slate-900 text-white pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="floustate-hero bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block mb-6 px-4 py-2 bg-blue-500/20 border border-blue-400/30 rounded-full text-blue-200 text-sm font-semibold">
@@ -380,7 +380,7 @@ export default function FlouStatePage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-600 rounded-xl p-8 relative">
+              <div className="bg-white">
                 <div className="absolute -top-4 left-6 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">RECOMMENDED</div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Pro Plan</h3>
                 <div className="mb-2">

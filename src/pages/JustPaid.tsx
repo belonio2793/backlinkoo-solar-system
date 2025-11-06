@@ -98,7 +98,7 @@ export default function JustPaid() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-100">
+    <div className="min-h-screen bg-white">
       <Header variant="translucent" />
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -181,7 +181,7 @@ export default function JustPaid() {
         <section className="mb-20">
           <h2 className="text-4xl font-bold mb-12 text-white">Powerful AI-Driven Features</h2>
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Autonomous Accounts Receivable Management</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Just Paid's autonomous AR system manages your entire accounts receivable function. It automatically tracks outstanding invoices, analyzes payment patterns by customer, and identifies collection risks before they become problems. The system intelligently sequences reminder communications based on customer response patterns and payment history, maximizing collection rates while maintaining positive customer relationships.
@@ -194,7 +194,7 @@ export default function JustPaid() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Contract and Billing AI Engine</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Understanding contract terms is the foundation of accurate billing. Just Paid's AI reads and interprets complex contracts, extracting billing terms, pricing schedules, renewal dates, and usage thresholds. This intelligent analysis powers automatic invoicing that's always aligned to the actual contract—supporting flat-rate subscriptions, usage-based billing, tiered pricing, and hybrid models simultaneously.
@@ -207,7 +207,7 @@ export default function JustPaid() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Unified Revenue Insights Dashboard</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Real-time visibility into your revenue operations is essential for informed decision-making. Just Paid's unified dashboard consolidates billing, payment, and revenue data from all connected systems into a single, real-time view. Finance leaders can instantly see cash flow status, outstanding receivables by customer, revenue trends, and customer payment behavior without switching between multiple platforms.
@@ -220,7 +220,7 @@ export default function JustPaid() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Revenue Recognition & Compliance Automation</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Financial compliance requirements are complex and constantly evolving. Just Paid automates revenue recognition calculations according to ASC 606 and IFRS 15 standards, applies tax rules for each jurisdiction, and maintains detailed compliance documentation. The platform handles deferred revenue, subscription accounting, and tax compliance automatically, reducing accounting team workload and eliminating compliance risks.
@@ -233,7 +233,7 @@ export default function JustPaid() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Flexible System Integration</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Your existing systems represent valuable business data and established workflows. Just Paid integrates seamlessly with major invoicing platforms, payment processors, accounting software, and CRM systems. The platform bridges these systems without requiring workflow changes, letting your teams continue working with familiar tools while benefiting from unified billing intelligence.
@@ -246,7 +246,7 @@ export default function JustPaid() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Intelligent Upsell and Renewal Management</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Revenue growth extends beyond new customer acquisition. Just Paid tracks contract renewal dates, usage patterns, and growth indicators to identify upsell and renewal opportunities automatically. The system alerts teams to high-value renewals coming due, identifies customers with usage suggesting willingness to upgrade, and manages pricing changes and contract modifications seamlessly.
@@ -749,7 +749,7 @@ export default function JustPaid() {
         </section>
 
         {/* Final CTA Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-16 text-center border border-blue-500">
+        <section className="bg-white">
           <h2 className="text-4xl font-bold text-white mb-6">Transform Your Revenue Operations Today</h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8 leading-relaxed">
             Finance teams are replacing manual billing processes with intelligent automation. Just Paid accelerates cash collection, improves billing accuracy, and gives you real-time revenue visibility. Start your revenue operations transformation today.

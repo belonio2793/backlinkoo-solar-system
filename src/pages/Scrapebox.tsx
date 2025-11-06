@@ -29,7 +29,7 @@ function ScrapeboxSearchSimulator() {
   };
 
   return (
-    <div className="scrape-sim p-4 rounded-lg bg-gradient-to-r from-purple-50 to-indigo-50 border border-purple-100 shadow-sm">
+    <div className="scrape-sim p-4 rounded-lg bg-white">
       <div className="flex items-center gap-3">
         <input
           aria-label="Simulate Scrapebox query"
@@ -47,7 +47,7 @@ function ScrapeboxSearchSimulator() {
       <div className="mt-3">
         <div className="h-2 bg-purple-100 rounded overflow-hidden">
           <div
-            className="scrape-sim__bar h-full bg-gradient-to-r from-purple-400 to-indigo-500 transition-all"
+            className="scrape-sim__bar h-full bg-white"
             style={{ width: results ? '100%' : running ? '60%' : '0%' }}
           />
         </div>
@@ -214,7 +214,7 @@ export default function Scrapebox() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-fuchsia-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="scrape-progress" aria-hidden="true"><div className="scrape-progress__bar" /></div>

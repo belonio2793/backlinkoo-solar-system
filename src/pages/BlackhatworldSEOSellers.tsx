@@ -311,7 +311,7 @@ export default function BlackhatworldSEOSellers() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
       <div className="bhw-progress" aria-hidden="true"><div className="bhw-progress__bar" /></div>
       <main ref={contentRef} className="container mx-auto max-w-7xl px-4 py-8">

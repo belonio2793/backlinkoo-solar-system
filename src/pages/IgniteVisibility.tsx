@@ -200,7 +200,7 @@ export default function IgniteVisibilityPage() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="iv-progress" aria-hidden="true"><div className="iv-progress__bar" /></div>

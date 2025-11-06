@@ -77,12 +77,12 @@ const GensparkToObsidian = () => {
 
       <ContentContainer variant="wide" hero={(
         <div className="mb-12 text-center">
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-purple-100 to-blue-100 text-purple-600 border border-purple-200 shadow-sm mb-6">
+          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
             <BookOpen className="w-5 h-5" />
             <span className="text-sm font-semibold">Knowledge Management • AI Integration</span>
           </div>
 
-          <h1 className="mt-8 text-5xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+          <h1 className="mt-8 text-5xl md:text-6xl font-extrabold leading-tight bg-white">
             Genspark to Obsidian: Transform Your AI Conversations into Organized Knowledge
           </h1>
           
@@ -136,7 +136,7 @@ const GensparkToObsidian = () => {
               Rather than manually copying and pasting conversations—a time-consuming and error-prone process—the extension handles the entire workflow automatically. It extracts conversation data, formats it according to your preferences, and delivers organized Markdown files ready for immediate use in your knowledge management system.
             </p>
 
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-xl p-8 my-8">
+            <div className="bg-white">
               <h4 className="font-bold text-purple-900 mb-4">Key Capability</h4>
               <p className="text-purple-800 mb-0">
                 The extension processes all data locally within your browser—your Genspark conversations never leave your device or are sent to external servers, ensuring complete privacy and security while maintaining compatibility across all major knowledge management platforms.
@@ -257,7 +257,7 @@ const GensparkToObsidian = () => {
             <h2 className="text-3xl font-bold mb-6">Step-by-Step Guide: Getting Started with Genspark to Obsidian</h2>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-purple-50 to-transparent border-l-4 border-purple-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">1</div>
                   <div>
@@ -267,7 +267,7 @@ const GensparkToObsidian = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-blue-50 to-transparent border-l-4 border-blue-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">2</div>
                   <div>
@@ -277,7 +277,7 @@ const GensparkToObsidian = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-indigo-50 to-transparent border-l-4 border-indigo-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">3</div>
                   <div>
@@ -287,7 +287,7 @@ const GensparkToObsidian = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-cyan-50 to-transparent border-l-4 border-cyan-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-cyan-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">4</div>
                   <div>
@@ -297,7 +297,7 @@ const GensparkToObsidian = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-teal-50 to-transparent border-l-4 border-teal-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-teal-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">5</div>
                   <div>
@@ -307,7 +307,7 @@ const GensparkToObsidian = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-green-50 to-transparent border-l-4 border-green-600 rounded p-6">
+              <div className="bg-white">
                 <div className="flex gap-4">
                   <div className="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-sm">6</div>
                   <div>
@@ -367,7 +367,7 @@ const GensparkToObsidian = () => {
                   "This extension completely transformed my research workflow. I can now systematically organize months of Genspark conversations into a searchable knowledge base. The batch export feature alone saves me hours every week."
                 </p>
                 <div className="flex items-center gap-3 border-t pt-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 flex items-center justify-center text-white font-bold">SC</div>
+                  <div className="w-10 h-10 rounded-full bg-white">SC</div>
                   <div>
                     <p className="font-semibold text-slate-900">Sarah Chen</p>
                     <p className="text-xs text-slate-600">PhD Student, Neuroscience</p>
@@ -385,7 +385,7 @@ const GensparkToObsidian = () => {
                   "As a content creator producing 30+ articles monthly, this tool is invaluable. I export all my research conversations, link them in Obsidian, and build comprehensive outlines. It's like having a research assistant that never forgets."
                 </p>
                 <div className="flex items-center gap-3 border-t pt-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-emerald-400 flex items-center justify-center text-white font-bold">MT</div>
+                  <div className="w-10 h-10 rounded-full bg-white">MT</div>
                   <div>
                     <p className="font-semibold text-slate-900">Mark Thompson</p>
                     <p className="text-xs text-slate-600">Content Strategist & Writer</p>
@@ -403,7 +403,7 @@ const GensparkToObsidian = () => {
                   "The privacy-first approach sealed the deal for me. All my sensitive research stays on my device. Combined with Obsidian's local-first design, I have complete peace of mind about data security."
                 </p>
                 <div className="flex items-center gap-3 border-t pt-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-400 to-pink-400 flex items-center justify-center text-white font-bold">AR</div>
+                  <div className="w-10 h-10 rounded-full bg-white">AR</div>
                   <div>
                     <p className="font-semibold text-slate-900">Alex Rodriguez</p>
                     <p className="text-xs text-slate-600">Software Engineer & PKM Enthusiast</p>

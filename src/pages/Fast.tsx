@@ -224,7 +224,7 @@ export default function Fast() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-white">
       <Header />
       <div className="container py-12">
         <h1 className="text-3xl font-bold tracking-tight mb-2">Change Launch Your Idea With Blast Off</h1>
@@ -477,7 +477,7 @@ export default function Fast() {
                     </div>
                     <div className="mt-3">
                       <div className="w-full bg-slate-100 rounded h-2 overflow-hidden">
-                        <div className="h-2 bg-gradient-to-r from-indigo-500 to-purple-500 transition-all" style={{ width: `${progress}%` }} />
+                        <div className="h-2 bg-white" style={{ width: `${progress}%` }} />
                       </div>
                     </div>
                     {st.payload && (

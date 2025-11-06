@@ -259,7 +259,7 @@ export default function SigmaMindAI() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 md:px-6 lg:px-8">
-        <section className="rounded-3xl border border-border/60 bg-gradient-to-br from-emerald-50 via-white to-sky-50 p-6 md:p-10">
+        <section className="rounded-3xl border border-border/60 bg-white">
           <div className="flex flex-col gap-6">
             <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-700">Build Human‑Like Conversations</span>
             <div>
@@ -317,7 +317,7 @@ export default function SigmaMindAI() {
               </section>
             ))}
 
-            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-emerald-50 p-6 shadow-sm md:p-8">
+            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-white">
               <header className="mb-3">
                 <h2 className="text-2xl font-bold text-slate-900 md:text-3xl">Register for Backlink ∞ to Accelerate Organic Reach</h2>
                 <p className="mt-2 text-slate-700">Amplify visibility for product pages like this one: strategic backlinks from relevant, authoritative sites increase topical authority and referral traffic.</p>

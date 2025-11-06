@@ -1113,7 +1113,7 @@ AND table_name IN ('blog_campaigns', 'crawler_targets', 'form_maps', 'blog_accou
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="min-h-screen bg-white">
         <Header />
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-center min-h-[400px]">
@@ -1129,14 +1129,14 @@ AND table_name IN ('blog_campaigns', 'crawler_targets', 'form_maps', 'blog_accou
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <div className="container mx-auto px-4 py-8">
         {/* Enhanced Page Header */}
         <div className="mb-8">
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+            <div className="w-14 h-14 bg-white">
               <Network className="h-7 w-7 text-white" />
             </div>
             <div>

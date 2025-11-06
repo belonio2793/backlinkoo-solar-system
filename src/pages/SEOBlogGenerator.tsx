@@ -5,7 +5,7 @@ import { Footer } from '@/components/Footer';
 
 export default function SEOBlogGenerator() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+    <div className="min-h-screen bg-white">
       <Header />
       <main className="container mx-auto px-6 py-12">
         <SEOOptimizedBlogGenerator />

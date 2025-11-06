@@ -8,7 +8,7 @@ import { AuthErrorTest } from '@/components/AuthErrorTest';
 
 export default function AuthErrorDebug() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 p-6">
+    <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto space-y-6">
         <div className="text-center space-y-4">
           <h1 className="text-3xl font-bold text-gray-900">

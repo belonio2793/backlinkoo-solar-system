@@ -222,7 +222,7 @@ export default function TwitterAdGenerator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50/30">
+    <div className="min-h-screen bg-white">
       {/* Header */}
       <ToolsHeader user={user} currentTool="ad-generator" />
 
@@ -236,7 +236,7 @@ export default function TwitterAdGenerator() {
                 <Twitter className="h-10 w-10 text-blue-500" />
                 <Video className="h-5 w-5 text-purple-500 absolute -top-1 -right-1" />
               </div>
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
+              <h1 className="text-5xl font-bold bg-white">
                 Twitter Video Ad Generator
               </h1>
               <Sparkles className="h-8 w-8 text-yellow-500" />
@@ -563,7 +563,7 @@ export default function TwitterAdGenerator() {
                         onClick={generateVideo}
                         disabled={!selectedTemplate || !adConfig.headline || !adConfig.description}
                         size="lg"
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 h-12 px-8"
+                        className="bg-white"
                       >
                         <Sparkles className="h-5 w-5 mr-2" />
                         Generate Video Ad
@@ -617,7 +617,7 @@ export default function TwitterAdGenerator() {
                       <div className="flex justify-center">
                         <div className={`bg-gray-100 rounded-lg p-4 transition-all ${getDevicePreviewClass()}`}>
                           {generatedVideoUrl ? (
-                            <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg flex items-center justify-center">
+                            <div className="w-full h-full bg-white">
                               <div className="text-center">
                                 <Video className="h-16 w-16 text-blue-600 mx-auto mb-4" />
                                 <p className="text-lg font-semibold text-gray-800">{adConfig.headline}</p>

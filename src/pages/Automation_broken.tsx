@@ -220,7 +220,7 @@ const Automation = () => {
   // Show loading state while checking authentication
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div className="min-h-screen bg-white">
         <div className="text-center space-y-4">
           <Loader2 className="w-8 h-8 animate-spin mx-auto text-blue-600" />
           <div>
@@ -238,7 +238,7 @@ const Automation = () => {
   // Show progress tracker if active
   if (showProgress && campaignProgress) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6 flex items-center justify-center">
+      <div className="min-h-screen bg-white">
         <CampaignProgressTracker
           progress={campaignProgress}
           onClose={handleProgressClose}
@@ -250,7 +250,7 @@ const Automation = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto space-y-6">
         
         {/* Header */}

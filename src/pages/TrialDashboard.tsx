@@ -173,7 +173,7 @@ export function TrialDashboard() {
           </div>
 
           {/* Create New Post */}
-          <Card className="mb-8 bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+          <Card className="mb-8 bg-white">
             <CardContent className="pt-6">
               <div className="flex items-center justify-between">
                 <div>

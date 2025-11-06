@@ -529,7 +529,7 @@ export default function Learn() {
 
   return (
     <div className="relative">
-      <main className="relative z-10 min-h-screen bg-gradient-to-br from-blue-50 to-purple-50/30 py-8 px-4">
+      <main className="relative z-10 min-h-screen bg-white">
         <div className="w-full max-w-5xl mx-auto">
           <header className="mb-6 flex items-center justify-between bg-transparent">
             <div className="flex items-center gap-3">

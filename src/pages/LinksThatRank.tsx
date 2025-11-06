@@ -437,7 +437,7 @@ export default function LinksThatRankPage() {
   }, [sections, extraSections]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-fuchsia-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="ltr-progress"><div className="ltr-progress__bar" /></div>

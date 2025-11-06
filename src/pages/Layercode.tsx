@@ -344,7 +344,7 @@ export default function Layercode() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 md:px-6 lg:px-8">
-        <section className="rounded-3xl border border-border/60 bg-gradient-to-br from-emerald-50 via-white to-blue-50 p-6 md:p-10">
+        <section className="rounded-3xl border border-border/60 bg-white">
           <div className="flex flex-col gap-6">
             <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-700">Voice AI Agents for Developers</span>
             <div>
@@ -402,7 +402,7 @@ export default function Layercode() {
               </section>
             ))}
 
-            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-emerald-50 p-6 shadow-sm md:p-8">
+            <section id="register" className="scroll-mt-24 rounded-3xl border border-blue-200 bg-white">
               <header className="mb-3">
                 <h2 className="text-2xl font-bold text-slate-900 md:text-3xl">Register for Backlink ∞ to Grow with SEO</h2>
                 <p className="mt-2 text-slate-700">Increase authority and organic traffic with quality backlinks. When your Layercode‑powered assistants earn coverage and references from relevant sites, you compound discoverability over time.</p>

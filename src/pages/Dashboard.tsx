@@ -685,7 +685,7 @@ const Dashboard = () => {
 
                   {/* Premium subscription status - separate from credits */}
                   {isPremiumSubscriber && (
-                    <Badge variant="default" className="gap-1 text-xs sm:text-sm bg-gradient-to-r from-purple-600 to-blue-600">
+                    <Badge variant="default" className="gap-1 text-xs sm:text-sm bg-white">
                       <Crown className="h-3 w-3" />
                       <span className="hidden sm:inline">Premium Active</span>
                       <span className="sm:hidden">Premium</span>

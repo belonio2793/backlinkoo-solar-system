@@ -13,7 +13,7 @@ const AuthFix = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-4">
+    <div className="min-h-screen bg-white">
       <div className="container mx-auto max-w-4xl py-8">
         {/* Header */}
         <div className="mb-8">

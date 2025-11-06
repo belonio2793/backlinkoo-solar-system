@@ -105,11 +105,11 @@ export default function HeyGrid() {
       <section className="heygrid-hero">
         <div className="container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-600/20 to-teal-600/20 border border-emerald-500/30">
+            <div className="inline-block mb-6 px-4 py-2 rounded-full bg-white">
               <p className="text-sm font-semibold text-emerald-400">Advanced Link-in-Bio Platform</p>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-white">
               HeyGrid: Unlimited Links, Infinite Possibilities
             </h1>
             
@@ -157,7 +157,7 @@ export default function HeyGrid() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Card className="bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border-emerald-500/20 p-6">
+              <Card className="bg-white">
                 <div className="flex items-start gap-4">
                   <Layout className="w-8 h-8 text-emerald-400 flex-shrink-0 mt-1" />
                   <div>
@@ -167,7 +167,7 @@ export default function HeyGrid() {
                 </div>
               </Card>
 
-              <Card className="bg-gradient-to-br from-teal-900/30 to-emerald-900/30 border-teal-500/20 p-6">
+              <Card className="bg-white">
                 <div className="flex items-start gap-4">
                   <Sparkles className="w-8 h-8 text-teal-400 flex-shrink-0 mt-1" />
                   <div>
@@ -221,7 +221,7 @@ export default function HeyGrid() {
                   description: 'Fast-loading pages, SEO optimization, and performance monitoring built-in for better visibility.'
                 }
               ].map((feature, idx) => (
-                <Card key={idx} className="bg-gradient-to-br from-gray-900/50 to-gray-950/50 border-gray-700/50 p-6 hover:border-emerald-500/30 transition-all duration-300">
+                <Card key={idx} className="bg-white">
                   <div className="flex items-start gap-4">
                     <feature.icon className="w-8 h-8 text-emerald-400 flex-shrink-0 mt-1" />
                     <div>
@@ -326,7 +326,7 @@ export default function HeyGrid() {
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Perfect for Every Creator and Brand</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Card className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 border-emerald-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">⭐</span>
                   Influencers & Content Creators
@@ -334,7 +334,7 @@ export default function HeyGrid() {
                 <p className="text-slate-700">Centralize your presence across platforms. Link to your YouTube, Twitch, podcasts, merchandise, and more—all in one visually appealing hub.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-teal-900/20 to-emerald-900/20 border-teal-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🏪</span>
                   E-Commerce & Small Business
@@ -342,7 +342,7 @@ export default function HeyGrid() {
                 <p className="text-slate-700">Drive traffic to your store, showcase products, offer promotions, and collect customer information—all from a single bio link.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-blue-900/20 to-cyan-900/20 border-blue-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">📈</span>
                   Digital Marketers & Agencies
@@ -350,7 +350,7 @@ export default function HeyGrid() {
                 <p className="text-slate-700">Create landing pages for campaigns, offer funnels, lead generation tools, and client portfolios with white-label customization.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-cyan-900/20 to-blue-900/20 border-cyan-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🎤</span>
                   Musicians & Artists
@@ -358,7 +358,7 @@ export default function HeyGrid() {
                 <p className="text-slate-700">Showcase your music, embed streaming players, sell merchandise, connect with fans, and gather contact information for your fanbase.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 border-purple-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">💼</span>
                   Professionals & Consultants
@@ -366,7 +366,7 @@ export default function HeyGrid() {
                 <p className="text-slate-700">Create professional landing pages, book consultations, share your portfolio, display testimonials, and manage client relationships.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-pink-900/20 to-purple-900/20 border-pink-500/20 p-8">
+              <Card className="bg-white">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <span className="text-2xl">🎓</span>
                   Educators & Online Courses
@@ -494,25 +494,25 @@ export default function HeyGrid() {
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Maximize Engagement with HeyGrid</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <Card className="bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border-emerald-500/20 p-8">
+              <Card className="bg-white">
                 <BarChart3 className="w-8 h-8 text-emerald-400 mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Higher Click-Through Rates</h3>
                 <p className="text-slate-700">Interactive grids with visual hierarchy naturally guide users to click. Creators report 40-60% higher CTR compared to basic link lists.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-teal-900/30 to-emerald-900/30 border-teal-500/20 p-8">
+              <Card className="bg-white">
                 <Users className="w-8 h-8 text-teal-400 mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Increased Audience Time</h3>
                 <p className="text-slate-700">Beautiful presentations encourage exploration. Users spend longer engaging with your content, increasing conversion opportunities.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 border-blue-500/20 p-8">
+              <Card className="bg-white">
                 <Rocket className="w-8 h-8 text-blue-400 mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Better Monetization</h3>
                 <p className="text-slate-700">Showcase products, services, and sponsorships more effectively. Turn your bio link into a revenue-generating asset.</p>
               </Card>
 
-              <Card className="bg-gradient-to-br from-cyan-900/30 to-blue-900/30 border-cyan-500/20 p-8">
+              <Card className="bg-white">
                 <BookOpen className="w-8 h-8 text-cyan-400 mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Professional Branding</h3>
                 <p className="text-slate-700">Replace generic link-in-bio tools with a custom branded experience that reflects your professional standards and unique style.</p>
@@ -523,7 +523,7 @@ export default function HeyGrid() {
       </section>
 
       {/* CTA Section - Backlink Infinity */}
-      <section className="heygrid-cta py-20 md:py-32 bg-gradient-to-br from-emerald-50 via-white to-teal-50 border-t border-emerald-100">
+      <section className="heygrid-cta py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Drive Traffic Beyond Your Bio Link</h2>
@@ -552,7 +552,7 @@ export default function HeyGrid() {
               </Card>
             </div>
 
-            <div className="bg-gradient-to-r from-emerald-600/10 to-teal-600/10 border border-emerald-500/20 rounded-lg p-8 mb-8">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold mb-4">Why Creators Choose Backlink ∞</h3>
               <ul className="text-left space-y-3 text-slate-700 max-w-2xl mx-auto">
                 <li className="flex items-center gap-3">
@@ -579,7 +579,7 @@ export default function HeyGrid() {
                 Create beautiful link hubs with HeyGrid, then amplify their reach with strategic backlinks from Backlink ∞.
               </p>
               <Button 
-                className="px-10 py-8 text-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 rounded-lg font-bold flex items-center gap-3 mx-auto"
+                className="px-10 py-8 text-xl bg-white"
                 onClick={() => window.open('https://backlinkoo.com/register', '_blank')}
               >
                 <span>Register for Backlink ∞</span>

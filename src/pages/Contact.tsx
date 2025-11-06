@@ -82,7 +82,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
       <main className="container mx-auto px-4 py-8 max-w-3xl">
         <Card>
@@ -147,7 +147,7 @@ export default function Contact() {
         </Card>
 
         <div className="mt-8">
-          <Card className="bg-gradient-to-br from-purple-50 to-blue-50 border-purple-100 shadow-md">
+          <Card className="bg-white">
             <CardHeader className="bg-white/60 rounded-t-lg border-b">
               <CardTitle className="text-xl">Frequently Asked Questions</CardTitle>
             </CardHeader>

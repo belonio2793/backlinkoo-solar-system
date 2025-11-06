@@ -141,7 +141,7 @@ export default function ProximityLockSystemPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <main className="container mx-auto px-4 py-12 max-w-6xl">
@@ -168,7 +168,7 @@ export default function ProximityLockSystemPage() {
 
           <div className="lg:col-span-3" ref={contentRef}>
             <article>
-              <header className="mb-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg p-8 text-white">
+              <header className="mb-8 bg-white">
                 <div className="flex items-start gap-4 mb-4">
                   <Lock className="w-10 h-10 flex-shrink-0" />
                   <div>
@@ -503,7 +503,7 @@ export default function ProximityLockSystemPage() {
               </section>
 
               <section id="cta" className="mb-16">
-                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg p-8 text-white">
+                <div className="bg-white">
                   <div className="max-w-3xl mx-auto text-center">
                     <h2 className="text-3xl font-bold mb-4">Ready to Strengthen Your Security?</h2>
                     <p className="text-blue-50 text-lg mb-6 leading-relaxed">If you want to protect unattended systems, reduce compliance risk, and give your users a frictionless experience, start with a small pilot. Proximity lock systems are practical, affordable, and effective when implemented with the right controls.</p>

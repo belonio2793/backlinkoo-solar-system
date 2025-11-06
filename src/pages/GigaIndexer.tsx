@@ -40,7 +40,7 @@ function useSEO(meta: { title: string; description: string; url?: string; image?
 const Feature = ({ icon: Icon, title, desc }: { icon: React.ComponentType<any>; title: string; desc: string }) => (
   <div className="group rounded-xl border bg-white/70 dark:bg-white/5 backdrop-blur p-6 hover:shadow-lg transition-shadow">
     <div className="flex items-center gap-3">
-      <div className="h-10 w-10 grid place-items-center rounded-md bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-sm">
+      <div className="h-10 w-10 grid place-items-center rounded-md bg-white">
         <Icon className="h-5 w-5" />
       </div>
       <h3 className="text-lg font-semibold tracking-tight">{title}</h3>
@@ -188,7 +188,7 @@ export default function GigaIndexer() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-white dark:from-slate-950 dark:via-slate-950 dark:to-black">
+    <div className="min-h-screen bg-white">
       <JsonLDSnippets />
 
       <section className="relative overflow-hidden">
@@ -224,10 +224,10 @@ export default function GigaIndexer() {
             </div>
             <div className="md:col-span-5">
               <div className="relative">
-                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-600 blur opacity-30 animate-pulse-glow" />
+                <div className="absolute -inset-1 rounded-2xl bg-white" />
                 <div className="relative rounded-2xl border bg-white/70 dark:bg-white/5 backdrop-blur p-6">
                   <div className="flex items-center gap-3">
-                    <div className="h-12 w-12 grid place-items-center rounded-md bg-gradient-to-br from-indigo-600 to-purple-600 text-white">
+                    <div className="h-12 w-12 grid place-items-center rounded-md bg-white">
                       <Rocket className="h-6 w-6" />
                     </div>
                     <div>
@@ -505,7 +505,7 @@ export default function GigaIndexer() {
 
             {/* Final CTA */}
             <section className="mt-16 mb-24">
-              <div className="rounded-2xl border p-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/20">
+              <div className="rounded-2xl border p-8 bg-white">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                   <div>
                     <h3 className="text-2xl font-bold">Ready to accelerate indexation?</h3>

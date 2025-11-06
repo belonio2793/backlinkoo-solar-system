@@ -5,7 +5,7 @@ import DomainsTest from '@/components/debug/DomainsTest';
 
 const DomainsTestPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <div className="container mx-auto px-4 py-8">

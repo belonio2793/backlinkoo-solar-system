@@ -215,11 +215,11 @@ export default function ScrapePage() {
   const uniqueDomains = [...new Set(emails.map(email => email.domain))];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30 p-6">
+    <div className="min-h-screen bg-white">
       <div className="max-w-6xl mx-auto space-y-6">
         {/* Header */}
         <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold bg-white">
             Email Scraper
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">

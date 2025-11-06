@@ -4,7 +4,7 @@ import { SavedBacklinkReports } from '@/components/SavedBacklinkReports';
 
 export default function SavedReports() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white text-gray-900">
+    <div className="min-h-screen bg-white">
       <Header />
       
       {/* Page Header */}

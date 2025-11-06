@@ -201,14 +201,14 @@ export default function OpenAITest() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <main className="container mx-auto px-6 py-8">
         <div className="max-w-7xl mx-auto space-y-8">
           
           {/* Header Section */}
-          <Card className="bg-gradient-to-r from-blue-600 to-purple-600 text-white border-0">
+          <Card className="bg-white">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl font-bold flex items-center justify-center gap-3">
                 <TestTube className="h-8 w-8" />
@@ -233,7 +233,7 @@ export default function OpenAITest() {
               <CardContent>
                 <Button 
                   onClick={testAllQueries} 
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                  className="w-full bg-white"
                   size="lg"
                 >
                   <TestTube className="h-5 w-5 mr-2" />

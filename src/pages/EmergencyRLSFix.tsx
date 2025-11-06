@@ -7,7 +7,7 @@ export const EmergencyRLSFix = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50 p-4">
+    <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <Button

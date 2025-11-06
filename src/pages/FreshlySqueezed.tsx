@@ -118,13 +118,13 @@ export default function FreshlySqueezed() {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#0b1220] to-[#0e1529]">
+      <section className="bg-white">
         <div className="container mx-auto px-4 py-20 md:py-28">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block mb-5 px-3 py-1 rounded-full border border-purple-400/30 bg-purple-500/10 text-white text-xs tracking-wide">
               Newsletter Automation & Curation Platform
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-white via-violet-100 to-indigo-100 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-white">
               Freshly Squeezed: Curate Brilliant Newsletters in Half the Time
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto">

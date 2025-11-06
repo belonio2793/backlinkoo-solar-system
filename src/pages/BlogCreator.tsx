@@ -141,7 +141,7 @@ export function BlogCreator() {
 
           {/* Call to Action */}
           {!isLoggedIn && (
-            <div className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center text-white">
+            <div className="mt-16 bg-white">
               <h2 className="text-3xl font-bold mb-4">
                 Ready to Scale Your SEO?
               </h2>

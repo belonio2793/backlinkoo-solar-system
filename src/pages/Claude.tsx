@@ -119,7 +119,7 @@ const Claude = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative py-20 px-6 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
+      <section className="relative py-20 px-6 overflow-hidden bg-white">
         {/* Simple subtle background */}
 
         <div className="relative max-w-5xl mx-auto text-center">

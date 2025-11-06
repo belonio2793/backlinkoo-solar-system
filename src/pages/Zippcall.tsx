@@ -89,7 +89,7 @@ export default function Zippcall() {
       <Header minimal />
       <main className="w-full">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+        <section className="bg-white">
           <div className="max-w-4xl mx-auto">
             <header className="text-center mb-12">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -360,7 +360,7 @@ export default function Zippcall() {
           </section>
 
           {/* Final CTA */}
-          <section className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg p-8 md:p-12 text-white text-center mb-16">
+          <section className="bg-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
             <p className="text-lg mb-6 text-blue-50">
               Zippcall offers a lightweight, privacy-first approach to group calling. Combined with strategic SEO and quality backlinks, you can amplify your project's visibility and reach.

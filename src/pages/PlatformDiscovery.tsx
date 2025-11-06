@@ -406,7 +406,7 @@ const PlatformDiscovery = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 bg-gradient-to-br from-slate-50 to-blue-50 px-4 py-6 sm:px-6 lg:px-8 xl:px-12">
+      <main className="flex-1 bg-white">
         <div className="w-full max-w-[1800px] mx-auto space-y-6">
           
           {/* Page Header */}
@@ -628,7 +628,7 @@ const PlatformDiscovery = () => {
                   </div>
 
                   {/* Bulk Discovery */}
-                  <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+                  <Card className="bg-white">
                     <CardContent className="p-4">
                       <div className="flex items-center justify-between">
                         <div>

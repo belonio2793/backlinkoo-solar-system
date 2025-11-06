@@ -99,7 +99,7 @@ export default function Buildrrr() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-100">
+    <div className="min-h-screen bg-white">
       <Header variant="translucent" />
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -182,7 +182,7 @@ export default function Buildrrr() {
         <section className="mb-20">
           <h2 className="text-4xl font-bold mb-12 text-white">Powerful Features That Save Time</h2>
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Visual Layout Designer</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Buildrrr's intuitive drag-and-drop layout designer lets you arrange DMG contents visually. Position your application, add the Applications alias, insert custom icons, and include instructional text—all without touching a single terminal command. The live preview shows exactly what users will see during installation.
@@ -195,7 +195,7 @@ export default function Buildrrr() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Template System for Consistency</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Once you've designed the perfect installer layout, save it as a reusable template. This ensures every release maintains identical branding and layout without redesigning each time. Templates preserve all layout decisions, brand elements, and customizations for instant application to new builds.
@@ -208,7 +208,7 @@ export default function Buildrrr() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">One-Click Signing & Notarization</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 The most complex part of DMG creation is automating code signing and Apple notarization. Buildrrr handles everything automatically after you provide your Apple Developer credentials (securely stored in Keychain). One click initiates code signing, submits the DMG to Apple for notarization, polls for completion, and applies the notarization staple automatically.
@@ -221,7 +221,7 @@ export default function Buildrrr() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Apple Compliance Verification</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Before you distribute, Buildrrr verifies that your DMG meets all Apple's current distribution requirements. These checks identify potential issues that could cause Gatekeeper rejection, allowing you to address problems before distribution instead of discovering them in production.
@@ -234,7 +234,7 @@ export default function Buildrrr() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Advanced Build Options</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Buildrrr provides flexibility for various distribution scenarios. Choose compression levels to optimize file size, customize build settings for specific release requirements, and configure notarization parameters to match your development workflow preferences.
@@ -483,7 +483,7 @@ export default function Buildrrr() {
         </section>
 
         {/* Pricing Section */}
-        <section className="mb-20 bg-gradient-to-r from-blue-900 via-gray-800 to-blue-900 rounded-lg p-12 border border-blue-700">
+        <section className="mb-20 bg-white">
           <h2 className="text-4xl font-bold mb-6 text-white text-center">Simple, Affordable Pricing</h2>
           <p className="text-xl text-gray-300 text-center max-w-2xl mx-auto mb-12">
             One-time payment for lifetime access. No subscriptions, no hidden fees, no per-build charges.
@@ -658,7 +658,7 @@ export default function Buildrrr() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-16 text-center border border-blue-500">
+        <section className="bg-white">
           <h2 className="text-4xl font-bold text-white mb-6">Build Professional macOS Installers Today</h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8 leading-relaxed">
             Join 2,400+ developers who have already transformed their macOS distribution process with Buildrrr. Create professional, branded, Apple-compliant installers in minutes, not hours.

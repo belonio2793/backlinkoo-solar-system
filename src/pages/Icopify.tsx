@@ -461,7 +461,7 @@ export default function Icopify() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-sky-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
       <div className="ic-progress" aria-hidden="true"><div className="ic-progress__bar" /></div>
       <main ref={contentRef} className="container mx-auto max-w-7xl px-4 py-8">

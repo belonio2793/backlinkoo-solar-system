@@ -323,7 +323,7 @@ export default function VideoGeneratorPage() {
   }, [videoUrl, config.style]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-background/70">
+    <div className="min-h-screen bg-white">
       <div className="container py-10">
         <div className="flex items-center gap-3 mb-6">
           <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">

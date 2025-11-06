@@ -106,7 +106,7 @@ export default function Traycer() {
           <p className="mt-3 text-slate-700">To evaluate Traycer, start with a short pilot: install any available SDK or trial, connect a single environment, and validate the core use-case. Track objective KPIs during the pilot—time saved, error reduction, or engagement lift—then expand scope if outcomes are positive.</p>
         </section>
 
-        <section className="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50 to-white p-6 md:p-8">
+        <section className="rounded-2xl border border-blue-200 bg-white">
           <h2 className="text-2xl font-semibold">Register for Backlink ∞ to Accelerate SEO</h2>
           <p className="mt-3 text-slate-700">If you want product pages like this to rank faster, build topical authority with quality backlinks. Register to get tailored backlink opportunities that increase organic reach and referral traffic.</p>
           <p className="mt-4">

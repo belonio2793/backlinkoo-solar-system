@@ -41,17 +41,17 @@ export const EnhancedFeedDemo: React.FC = () => {
   const [activeCampaigns, setActiveCampaigns] = useState(mockCampaigns);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/10 to-pink-600/10" />
+        <div className="absolute inset-0 bg-white" />
         <div className="relative max-w-6xl mx-auto px-6 py-16">
           <div className="text-center space-y-8">
             <div className="space-y-4">
               <Badge className="bg-blue-100 text-blue-700 border-blue-300 mb-4">
                 Enhanced UI Experience
               </Badge>
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+              <h1 className="text-5xl font-bold bg-white">
                 Enhanced Real Time Feed
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -63,7 +63,7 @@ export const EnhancedFeedDemo: React.FC = () => {
             <div className="flex items-center justify-center gap-4 flex-wrap">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                className="bg-white"
                 onClick={() => setShowEnhancedFeed(true)}
               >
                 <Sparkles className="h-5 w-5 mr-2" />
@@ -175,7 +175,7 @@ export const EnhancedFeedDemo: React.FC = () => {
       </div>
 
       {/* Features Showcase */}
-      <div className="bg-gradient-to-r from-blue-50 to-purple-50">
+      <div className="bg-white">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl font-bold text-gray-800">Key Features</h2>
@@ -266,7 +266,7 @@ export const EnhancedFeedDemo: React.FC = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <div className="bg-white">
         <div className="max-w-4xl mx-auto px-6 py-16 text-center space-y-8">
           <h2 className="text-4xl font-bold">Experience the Enhanced Feed</h2>
           <p className="text-xl opacity-90">

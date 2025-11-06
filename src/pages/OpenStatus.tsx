@@ -110,12 +110,12 @@ const OpenStatus = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 text-white overflow-hidden">
+    <div className="min-h-screen bg-white">
       <Header />
 
       {/* Hero Section */}
       <section className="relative pt-20 pb-32 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-white" />
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl opacity-20" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl opacity-20" />
 
@@ -129,7 +129,7 @@ const OpenStatus = () => {
 
           <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
             Showcase Your{' '}
-            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-white">
               Uptime with Confidence
             </span>
           </h1>
@@ -218,7 +218,7 @@ const OpenStatus = () => {
                 highlights: ['Open source', 'Community-driven', 'Customizable'],
               },
             ].map((benefit, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-blue-500/20 hover:border-blue-400/30 transition group cursor-pointer" onClick={() => setExpandedFeature(expandedFeature === benefit.title ? null : benefit.title)}>
+              <Card key={idx} className="bg-white" onClick={() => setExpandedFeature(expandedFeature === benefit.title ? null : benefit.title)}>
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-2">
                     <div className="p-3 rounded-lg bg-blue-500/20 text-blue-400 group-hover:bg-blue-500/30 transition">
@@ -294,7 +294,7 @@ const OpenStatus = () => {
                 items: ['Code-based config', 'Git integration', 'Reproducible setup', 'Team collaboration'],
               },
             ].map((feature, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-blue-500/20">
+              <Card key={idx} className="bg-white">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2.5 rounded-lg bg-blue-500/20 text-blue-400">
@@ -349,7 +349,7 @@ const OpenStatus = () => {
                 integrations: ['Jira', 'Linear', 'Asana', 'Monday.com', 'Notion', 'Changelog'],
               },
             ].map((group, idx) => (
-              <Card key={idx} className="bg-gradient-to-br from-white/5 to-white/10 border-blue-500/20">
+              <Card key={idx} className="bg-white">
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center gap-2">
                     <GitBranch className="w-6 h-6 text-blue-400" />
@@ -403,7 +403,7 @@ const OpenStatus = () => {
                 description: 'Monitor distributed IoT endpoints and connected services. Track device health across geographies with latency and availability monitoring.',
               },
             ].map((useCase, idx) => (
-              <div key={idx} className="bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-lg p-6 hover:border-blue-400/30 transition">
+              <div key={idx} className="bg-white">
                 <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-blue-400" />
                   {useCase.title}
@@ -510,7 +510,7 @@ const OpenStatus = () => {
             ].map((item, idx) => (
               <div key={idx} className="flex gap-6 bg-white/5 border border-blue-500/20 rounded-lg p-6 hover:border-blue-400/30 transition">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white">
                     {item.step}
                   </div>
                 </div>
@@ -527,7 +527,7 @@ const OpenStatus = () => {
       {/* Backlink Integration CTA */}
       <section className="py-24 px-6 bg-black/40">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-blue-600/20 to-cyan-600/20 border border-blue-500/30 rounded-2xl p-12">
+          <div className="bg-white">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Badge className="mb-4 bg-blue-500/20 text-blue-300 border border-blue-400/30">
@@ -562,18 +562,18 @@ const OpenStatus = () => {
                   </Button>
                 </a>
               </div>
-              <div className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-2xl p-8">
+              <div className="bg-white">
                 <div className="space-y-8">
                   <div className="text-center">
                     <div className="text-4xl font-bold text-blue-400 mb-2">3-6 Months</div>
                     <p className="text-gray-400">Average time to reach top 10 rankings</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
+                  <div className="h-px bg-white" />
                   <div className="text-center">
                     <div className="text-4xl font-bold text-cyan-400 mb-2">+350%</div>
                     <p className="text-gray-400">Average organic traffic increase</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
+                  <div className="h-px bg-white" />
                   <div className="text-center">
                     <div className="text-4xl font-bold text-blue-400 mb-2">100%</div>
                     <p className="text-gray-400">White-hat ethical practices</p>

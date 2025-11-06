@@ -75,7 +75,7 @@ export default function ZedPage() {
 
       <ContentContainer variant="wide" hero={(
         <div className="mb-8 text-center">
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-sky-50 to-indigo-50 text-sky-700 border border-sky-100 shadow-sm">
+          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
             <CodeSpark className="w-5 h-5" />
             <span className="text-sm font-medium">Code editor • instant feedback</span>
           </div>

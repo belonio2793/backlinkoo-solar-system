@@ -25,9 +25,9 @@ const metaKeywords = 'rapid link indexer, link indexer, backlink indexing, index
 
 const Feature: React.FC<{ icon: React.ReactNode; title: string; desc: string }> = ({ icon, title, desc }) => (
   <div className="group relative rounded-xl border bg-white/70 dark:bg-white/5 p-6 backdrop-blur shadow-sm hover:shadow-md transition-shadow">
-    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/5 to-primary/0 opacity-0 group-hover:opacity-100 transition-opacity" />
+    <div className="absolute inset-0 rounded-xl bg-white" />
     <div className="relative flex items-start gap-4">
-      <div className="h-11 w-11 shrink-0 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-primary/15 to-primary/0 text-primary">
+      <div className="h-11 w-11 shrink-0 inline-flex items-center justify-center rounded-lg bg-white">
         {icon}
       </div>
       <div>
@@ -60,7 +60,7 @@ const PriceCard: React.FC<{ title: string; credits: string; price: string; per: 
         <Crown className="h-3.5 w-3.5" /> Most Popular
       </div>
     )}
-    <div className="absolute inset-x-0 -top-10 h-28 bg-gradient-to-b from-primary/10 to-transparent" />
+    <div className="absolute inset-x-0 -top-10 h-28 bg-white" />
     <CardHeader>
       <CardTitle className="text-xl">{title}</CardTitle>
       <div className="text-sm text-muted-foreground">{credits}</div>
@@ -91,7 +91,7 @@ const RapidLinkIndexer: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-background/40">
+    <div className="min-h-screen bg-white">
       <Header />
       {/* Hero */}
       <section className="relative overflow-hidden">
@@ -142,7 +142,7 @@ const RapidLinkIndexer: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -inset-2 rounded-2xl bg-gradient-to-tr from-primary/20 via-primary/10 to-transparent blur-xl" />
+            <div className="absolute -inset-2 rounded-2xl bg-white" />
             <Card className="relative">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2"><BarChart3 className="h-5 w-5 text-primary" /> Transparent Reporting</CardTitle>
@@ -303,7 +303,7 @@ const RapidLinkIndexer: React.FC = () => {
       {/* CTA */}
       <section className="container mx-auto px-4 pb-24">
         <Card className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-tr from-primary/15 to-transparent" />
+          <div className="absolute inset-0 bg-white" />
           <CardContent className="relative p-8 md:p-10">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div>

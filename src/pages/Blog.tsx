@@ -516,17 +516,17 @@ function Blog() {
       context="loading blog posts"
       onRetry={() => window.location.reload()}
     >
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <RankHeader showTabs={false} ctaMode="navigation" />
 
       {/* Hero Header */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50/30 border-b border-border/50">
+      <div className="relative overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center space-y-6">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                Community <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Blog</span>
+              <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight bg-white">
+                Community <span className="text-transparent bg-clip-text bg-white">Blog</span>
               </h1>
             </div>
           </div>
@@ -673,7 +673,7 @@ function Blog() {
         {filteredPosts.length === 0 ? (
           <div className="text-center py-20 space-y-8">
             <div className="relative">
-              <div className="w-24 h-24 mx-auto bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
+              <div className="w-24 h-24 mx-auto bg-white">
                 <BookOpen className="h-12 w-12 text-gray-400" />
               </div>
               <Sparkles className="absolute -top-2 -right-2 h-8 w-8 text-yellow-500" />
@@ -732,7 +732,7 @@ function Blog() {
 
       {/* Claim Feature Banner (moved below posts) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-2xl p-6 md:p-8 text-white relative overflow-hidden">
+        <div className="bg-white">
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="relative z-10">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
@@ -972,11 +972,11 @@ function BlogPostCard({ post, navigate, formatDate, onLoginRequired, cleanTitle,
       onClick={() => navigate(`/blog/${post.slug}`)}
     >
       {/* Card Gradient Header */}
-      <div className="h-2 bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500"></div>
+      <div className="h-2 bg-white"></div>
 
       <CardHeader className="pb-4 space-y-4 p-6">
         <div className="flex items-start justify-between">
-          <Badge className="bg-gradient-to-r from-blue-600 to-purple-600 text-white border-0 shadow-sm px-3 py-1.5 font-medium tracking-wide">
+          <Badge className="bg-white">
             {post.category || 'Expert Content'}
           </Badge>
           <div className="flex items-center gap-2">
@@ -1041,7 +1041,7 @@ function BlogPostCard({ post, navigate, formatDate, onLoginRequired, cleanTitle,
                 onClick={handleClaimPost}
                 disabled={claiming}
                 size="sm"
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 animate-pulse"
+                className="w-full bg-white"
               >
                 {claiming ? (
                   <>
@@ -1059,7 +1059,7 @@ function BlogPostCard({ post, navigate, formatDate, onLoginRequired, cleanTitle,
               <Button
                 onClick={handleClaimRedirect}
                 size="sm"
-                className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 animate-pulse"
+                className="w-full bg-white"
               >
                 <Plus className="mr-2 h-3 w-3" />
                 Sign In to Save Post
@@ -1128,7 +1128,7 @@ function BlogPostListItem({ post, navigate, formatDate, onLoginRequired, cleanTi
         <div className="flex items-start space-x-6">
           <div className="flex-1 space-y-3">
             <div className="flex items-center gap-3">
-              <Badge className="bg-gradient-to-r from-blue-500 to-purple-500 text-white border-0">
+              <Badge className="bg-white">
                 {post.category || 'Expert Content'}
               </Badge>
               {post.is_trial_post ? (

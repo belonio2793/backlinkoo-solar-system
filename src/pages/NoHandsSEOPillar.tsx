@@ -113,7 +113,7 @@ export default function NoHandsSEOPillar() {
   const scrollTo = (id: string) => { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-indigo-50/40">
+    <div className="min-h-screen bg-white">
       <Header />
 
       {/* Hero */}
@@ -141,7 +141,7 @@ export default function NoHandsSEOPillar() {
               <div className="mt-4 text-xs text-gray-500">Approximate words on this page: {wordCount.toLocaleString()}</div>
             </div>
             <div className="relative">
-              <div className="rounded-2xl border bg-gradient-to-br from-sky-50 to-indigo-50 p-6 shadow-sm">
+              <div className="rounded-2xl border bg-white">
                 <div className="flex items-center gap-3">
                   <Hand className="h-10 w-10 text-primary" />
                   <div>

@@ -107,7 +107,7 @@ export default function WaydevPage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-indigo-50 to-cyan-50 text-indigo-700 border border-indigo-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <InsightIcon className="w-5 h-5" />
               <span className="text-sm font-medium">Engineering productivity • SPACE & DORA</span>
             </div>

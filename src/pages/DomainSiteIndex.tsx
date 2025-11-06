@@ -23,7 +23,7 @@ const MinimalLayout: React.FC<{ title?: string; html?: string }> = ({ title, htm
 );
 
 const ModernLayout: React.FC<{ title?: string; html?: string }> = ({ title, html }) => (
-  <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+  <div className="min-h-screen bg-white">
     <div className="max-w-5xl mx-auto px-6 pt-16">
       <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">{title || 'Welcome'}</h1>
       <div className="mt-6 prose lg:prose-lg">

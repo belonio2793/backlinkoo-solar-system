@@ -92,7 +92,7 @@ export default function Intryc() {
 
       <main className="w-full">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 py-16 md:py-24">
+        <section className="relative overflow-hidden bg-white">
           <div className="container max-w-5xl mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
               <Badge className="mb-4 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">Customer Experience Platform</Badge>
@@ -414,7 +414,7 @@ export default function Intryc() {
         </section>
 
         {/* Customer Success & ROI */}
-        <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-900 dark:to-slate-950">
+        <section className="py-16 md:py-24 bg-white">
           <div className="container max-w-5xl mx-auto px-4 md:px-6">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-slate-900 dark:text-white">
               Proven Results from Industry Leaders
@@ -787,7 +787,7 @@ export default function Intryc() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 md:py-32 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-900 dark:to-indigo-900">
+        <section className="py-20 md:py-32 bg-white">
           <div className="container max-w-5xl mx-auto px-4 md:px-6 text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
               Ready to Transform Your Customer Experience?
@@ -865,7 +865,7 @@ export default function Intryc() {
         </section>
 
         {/* Conclusion */}
-        <section className="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950">
+        <section className="py-16 md:py-24 bg-white">
           <div className="container max-w-5xl mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-900 dark:text-white">
@@ -890,7 +890,7 @@ export default function Intryc() {
                 </p>
               </div>
 
-              <Card className="border-0 shadow-lg bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-700">
+              <Card className="border-0 shadow-lg bg-white">
                 <CardContent className="pt-8">
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">

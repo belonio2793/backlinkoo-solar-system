@@ -108,7 +108,7 @@ function RiskMeter() {
       <div className="mt-2">
         <div className="flex items-center gap-2 text-sm"><ShieldCheck className="h-4 w-4 text-emerald-600"/> Risk</div>
         <div className="h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
-          <div className="h-full bg-gradient-to-r from-amber-400 to-red-500" style={{ width: `${risk.score}%` }} />
+          <div className="h-full bg-white" style={{ width: `${risk.score}%` }} />
         </div>
         <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">Estimated risk: <span className="font-semibold">{risk.label}</span> ({risk.score}%)</div>
       </div>
@@ -247,7 +247,7 @@ export default function Senuke() {
   ];
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-gradient-to-br from-fuchsia-50 via-white to-indigo-50">
+    <div className="min-h-screen overflow-x-hidden bg-white">
       <Header />
 
       <div className="scrape-progress" aria-hidden="true"><div className="scrape-progress__bar" /></div>

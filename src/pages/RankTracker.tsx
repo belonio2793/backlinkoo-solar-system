@@ -757,7 +757,7 @@ Actions:
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b border-border/10 bg-gradient-to-b from-background to-background/95 backdrop-blur-sm sticky top-0 z-50">
+      <header className="border-b border-border/10 bg-white">
         <div className="container mx-auto px-4 py-3 max-w-7xl">
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-3 min-w-0">
@@ -794,7 +794,7 @@ Actions:
             <div className="flex items-center gap-2">
               <button
                 onClick={() => navigate('/rank-tracker/premium')}
-                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow-md"
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white"
               >
                 <Star className="h-4 w-4" />
                 <span className="hidden md:inline">Go Premium</span>
@@ -931,7 +931,7 @@ Actions:
               {/* Wizard Tab */}
               <TabsContent value="wizard" className="mt-0">
                 <CardContent className="space-y-4">
-                  <div className="rounded-3xl p-4 border-0 bg-gradient-to-r from-purple-50 via-pink-50 to-yellow-50 ring-1 ring-purple-200">
+                  <div className="rounded-3xl p-4 border-0 bg-white">
                     <div className="space-y-4">
                       <h3 className="flex items-center gap-3 text-lg font-semibold">
                         <span>Wizard</span>
@@ -947,7 +947,7 @@ Actions:
                           className="ring-1 ring-purple-100 shadow-none"
                         />
                         <div className="flex gap-2">
-                          <Button onClick={runWizard} disabled={wizardLoading} className="sm:w-auto bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-full px-5 py-2 hover:scale-105 transform transition-all">
+                          <Button onClick={runWizard} disabled={wizardLoading} className="sm:w-auto bg-white">
                             {wizardLoading ? 'Starting...' : 'Start'}
                           </Button>
                         </div>
@@ -1209,7 +1209,7 @@ Actions:
                           <div className="flex items-center gap-2">
                             <Button
                               size="sm"
-                              className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-semibold hover:from-yellow-500 hover:to-orange-600 always-rainbow glare-button rounded-full px-4 py-2"
+                              className="bg-white"
                               onClick={() => setShowPremium(true)}
                             >
                               <Crown className="h-4 w-4 mr-2" /> Upgrade to Premium — $29/mo

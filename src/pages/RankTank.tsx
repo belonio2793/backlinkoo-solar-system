@@ -334,7 +334,7 @@ export default function RankTank() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-cyan-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
 
       <div className="rt-progress"><div className="rt-progress__bar" /></div>

@@ -150,7 +150,7 @@ export default function LinkBuildingHQPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Seo title={title} description={description} canonical={typeof canonical !== 'undefined' ? canonical : undefined} />
 
       <Header />
@@ -174,7 +174,7 @@ export default function LinkBuildingHQPage() {
             <div className="space-y-6">
               <Badge variant="secondary" className="bg-indigo-50 text-indigo-700 border-indigo-200">Expert Analysis</Badge>
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500">Link Building HQ</span> — comprehensive, data‑driven guide to services, strategy, and results
+                <span className="bg-clip-text text-transparent bg-white">Link Building HQ</span> — comprehensive, data‑driven guide to services, strategy, and results
               </h1>
               <p className="text-slate-600 text-lg md:text-xl">
                 An original, exhaustive deep dive into Link Building HQ: how they approach white‑label link building, enterprise campaigns, and Digital PR—plus the playbooks and measurements that make link acquisition safe and effective.
@@ -208,7 +208,7 @@ export default function LinkBuildingHQPage() {
                     { icon: BookOpen, label: 'Guest Posts' },
                     { icon: Sparkles, label: 'Digital PR' },
                   ].map((i, idx) => (
-                    <div key={idx} className="rounded-xl border p-4 text-center bg-gradient-to-b from-slate-50 to-white">
+                    <div key={idx} className="rounded-xl border p-4 text-center bg-white">
                       <i.icon className="h-6 w-6 mx-auto text-indigo-600"/>
                       <div className="mt-2 text-sm font-medium text-slate-700">{i.label}</div>
                     </div>

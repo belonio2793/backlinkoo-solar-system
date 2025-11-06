@@ -120,7 +120,7 @@ export default function Register() {
           {/* Left: Benefits / Marketing */}
           <section className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
+              <div className="w-12 h-12 bg-white">
                 <Infinity className="h-6 w-6 text-white" />
               </div>
               <div>
@@ -130,7 +130,7 @@ export default function Register() {
             </div>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100">
+              <div className="p-4 rounded-lg bg-white">
                 <h3 className="text-lg font-semibold">Why join?</h3>
                 <ul className="mt-2 text-sm space-y-2 text-muted-foreground">
                   <li>• Real-time backlink analysis and rank tracking</li>

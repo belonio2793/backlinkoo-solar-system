@@ -28,7 +28,7 @@ export default function SiliconValleyGirlPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <header className="mb-10">
         <div className="flex items-center gap-4">
-          <div className="rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-3 text-white shadow-lg">
+          <div className="rounded-full bg-white">
             <Image className="h-6 w-6" />
           </div>
           <div>
@@ -91,7 +91,7 @@ export default function SiliconValleyGirlPage() {
             </div>
           </nav>
 
-          <div className="mt-4 p-4 bg-gradient-to-r from-slate-50 to-white border rounded-lg">
+          <div className="mt-4 p-4 bg-white">
             <h4 className="text-sm font-semibold">Quick links</h4>
             <ul className="mt-3 text-sm space-y-2">
               <li><a href="/siliconvalleygirl#backlinks" className="text-slate-600 hover:underline">SEO checklist</a></li>

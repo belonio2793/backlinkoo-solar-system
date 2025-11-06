@@ -81,7 +81,7 @@ export default function GensparkPage() {
 
       <ContentContainer variant="wide" hero={(
         <div className="mb-8 text-center">
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-amber-50 to-rose-50 text-amber-600 border border-amber-100 shadow-sm">
+          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
             <SparkIcon className="w-5 h-5" />
             <span className="text-sm font-medium">AI workbench • rapid prototyping</span>
           </div>
@@ -102,17 +102,17 @@ export default function GensparkPage() {
           <section>
             <h2>Core pillars: Prototype, Validate, Produce</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-              <div className="p-5 rounded-2xl bg-gradient-to-b from-white to-slate-50 border border-slate-100 shadow-sm">
+              <div className="p-5 rounded-2xl bg-white">
                 <h3 className="text-lg font-semibold">Prototype</h3>
                 <p className="mt-2 text-sm text-slate-600">Quickly scaffold UI flows, generate realistic seed data, and wire up example interactions so you can demo concepts without a full build.</p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-gradient-to-b from-white to-slate-50 border border-slate-100 shadow-sm">
+              <div className="p-5 rounded-2xl bg-white">
                 <h3 className="text-lg font-semibold">Validate</h3>
                 <p className="mt-2 text-sm text-slate-600">Create user-facing prototypes and sample content to test on early users, gather feedback, and iterate on the product-market fit before heavy engineering investment.</p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-gradient-to-b from-white to-slate-50 border border-slate-100 shadow-sm">
+              <div className="p-5 rounded-2xl bg-white">
                 <h3 className="text-lg font-semibold">Produce</h3>
                 <p className="mt-2 text-sm text-slate-600">Generate marketing copy, docs, and social snippets that are ready to publish or A/B test, accelerating go-to-market activities.</p>
               </div>

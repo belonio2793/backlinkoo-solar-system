@@ -300,7 +300,7 @@ const DaftMusic = () => {
                 ))}
               </div>
             </div>
-            <div className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/20 rounded-2xl p-8 flex items-center justify-center min-h-96">
+            <div className="bg-white">
               <div className="text-center">
                 <Music className="w-24 h-24 text-purple-400 mx-auto mb-4 opacity-80" />
                 <p className="text-gray-400">Liquid Glass Interface</p>
@@ -415,7 +415,7 @@ const DaftMusic = () => {
                 description: 'Benefit from reliable performance and stable AirPlay connectivity for monitoring and reference listening.',
               },
             ].map((useCase, idx) => (
-              <div key={idx} className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 rounded-lg p-6 hover:border-purple-400/30 transition">
+              <div key={idx} className="bg-white">
                 <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
                   <Heart className="w-5 h-5 text-purple-400" />
                   {useCase.title}
@@ -520,7 +520,7 @@ const DaftMusic = () => {
             ].map((item, idx) => (
               <div key={idx} className="flex gap-6 bg-white/5 border border-purple-500/20 rounded-lg p-6 hover:border-purple-400/30 transition">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white">
                     {item.step}
                   </div>
                 </div>
@@ -537,7 +537,7 @@ const DaftMusic = () => {
       {/* Backlink Integration CTA */}
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 border border-purple-500/30 rounded-2xl p-12">
+          <div className="bg-white">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Badge className="mb-4 bg-purple-500/20 text-purple-300 border border-purple-400/30">
@@ -573,18 +573,18 @@ const DaftMusic = () => {
                   </Button>
                 </a>
               </div>
-              <div className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/20 rounded-2xl p-8">
+              <div className="bg-white">
                 <div className="space-y-8">
                   <div className="text-center">
                     <div className="text-4xl font-bold text-purple-400 mb-2">3-6 Months</div>
                     <p className="text-gray-400">Average time to reach top 10 rankings</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
+                  <div className="h-px bg-white" />
                   <div className="text-center">
                     <div className="text-4xl font-bold text-pink-400 mb-2">+350%</div>
                     <p className="text-gray-400">Average organic traffic increase</p>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
+                  <div className="h-px bg-white" />
                   <div className="text-center">
                     <div className="text-4xl font-bold text-purple-400 mb-2">100%</div>
                     <p className="text-gray-400">White-hat ethical practices</p>

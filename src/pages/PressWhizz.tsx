@@ -143,7 +143,7 @@ export default function PressWhizzPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Seo title={title} description={description} canonical={typeof canonical !== 'undefined' ? canonical : undefined} />
 
       <Header />
@@ -167,7 +167,7 @@ export default function PressWhizzPage() {
             <div className="space-y-6">
               <Badge variant="secondary" className="bg-indigo-50 text-indigo-700 border-indigo-200">Expert Marketplace Analysis</Badge>
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500">PressWhizz</span> — AI‑powered link building marketplace: curated publishers, global coverage, and fast TAT
+                <span className="bg-clip-text text-transparent bg-white">PressWhizz</span> — AI‑powered link building marketplace: curated publishers, global coverage, and fast TAT
               </h1>
               <p className="text-slate-600 text-lg md:text-xl">
                 An original, exhaustive deep dive into PressWhizz: how the marketplace works, its vetting standards, delivery speed, and the strategies to maximize ROI while safeguarding E‑E‑A‑T.
@@ -203,7 +203,7 @@ export default function PressWhizzPage() {
                     { icon: BookOpen, label: 'Niche Edits' },
                     { icon: Sparkles, label: 'Tier‑2 Boosting' },
                   ].map((i, idx) => (
-                    <div key={idx} className="rounded-xl border p-4 text-center bg-gradient-to-b from-slate-50 to-white">
+                    <div key={idx} className="rounded-xl border p-4 text-center bg-white">
                       <i.icon className="h-6 w-6 mx-auto text-indigo-600"/>
                       <div className="mt-2 text-sm font-medium text-slate-700">{i.label}</div>
                     </div>

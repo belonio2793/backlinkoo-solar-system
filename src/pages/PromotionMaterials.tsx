@@ -353,7 +353,7 @@ For fellow marketers looking to scale their SEO efforts, I recommend checking ou
                         </div>
                       </CardHeader>
                       <CardContent>
-                        <div className="bg-gradient-to-r from-primary/10 to-blue-50 p-4 rounded-lg mb-4 border-2 border-dashed border-primary/20">
+                        <div className="bg-white">
                           <div className="text-center text-sm font-mono whitespace-pre-line">
                             {banner.preview}
                           </div>

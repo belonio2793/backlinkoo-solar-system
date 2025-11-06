@@ -184,7 +184,7 @@ export default function Serpzilla() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="sz-progress" aria-hidden="true"><div className="sz-progress__bar" /></div>

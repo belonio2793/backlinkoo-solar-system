@@ -57,13 +57,13 @@ export default function GuestPostingSites() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <div className="container mx-auto px-4 py-8">
         {/* Header Section */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <div className="w-16 h-16 bg-white">
             <Globe className="h-8 w-8 text-white" />
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Guest Posting Sites Database</h1>

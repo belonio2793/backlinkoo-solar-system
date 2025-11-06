@@ -300,7 +300,7 @@ export default function ReportViewer() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white flex items-center justify-center">
+      <div className="min-h-screen bg-white">
         <div className="text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
           <p className="text-gray-600">Loading report...</p>
@@ -311,7 +311,7 @@ export default function ReportViewer() {
 
   if (!reportData) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+      <div className="min-h-screen bg-white">
         <div className="max-w-4xl mx-auto p-6">
           <div className="bg-white border border-gray-200 p-8 text-center rounded-xl shadow-sm">
             <h2 className="text-2xl font-bold mb-4">Report Not Found</h2>
@@ -341,7 +341,7 @@ export default function ReportViewer() {
   const stats = calculateStats();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white text-gray-900">
+    <div className="min-h-screen bg-white">
       <Header />
 
       {/* Page Header */}
@@ -403,7 +403,7 @@ export default function ReportViewer() {
       <div className="max-w-7xl mx-auto p-8">
         {/* Preview Banner for Demo Reports */}
         {reportData.id === 'demo_preview_12345' && (
-          <div className="mb-8 p-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl">
+          <div className="mb-8 p-4 bg-white">
             <div className="flex items-center justify-center">
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -572,7 +572,7 @@ export default function ReportViewer() {
         </div>
 
         {/* Footer */}
-        <div className="mt-6 p-8 bg-gradient-to-r from-gray-50 to-white border border-gray-200 rounded-xl text-center">
+        <div className="mt-6 p-8 bg-white">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Powered by Backlink ∞</h3>
           <p className="text-gray-600 mb-6">
             Professional URL analysis and SEO reporting tools for modern businesses

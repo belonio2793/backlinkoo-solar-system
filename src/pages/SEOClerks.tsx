@@ -189,7 +189,7 @@ export default function SEOClerksPage() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="scl-progress" aria-hidden="true"><div className="scl-progress__bar" /></div>

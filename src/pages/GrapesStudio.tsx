@@ -94,7 +94,7 @@ export default function GrapesStudioPage(): JSX.Element {
   }, [canonical]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <main className="container mx-auto max-w-5xl px-4 py-12">

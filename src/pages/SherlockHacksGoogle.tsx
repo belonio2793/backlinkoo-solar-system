@@ -171,7 +171,7 @@ export default function SherlockHacksGoogle() {
   }, [canonical]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-sky-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="sherlock-progress" aria-hidden="true"><div className="sherlock-progress__bar" /></div>

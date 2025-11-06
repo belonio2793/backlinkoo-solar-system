@@ -14,10 +14,10 @@ export default function NotFound() {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-white">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+          <div className="w-20 h-20 bg-white">
             <span className="text-3xl font-bold text-white">404</span>
           </div>
           <CardTitle className="text-2xl font-bold text-gray-900">
@@ -35,7 +35,7 @@ export default function NotFound() {
           <div className="space-y-2">
             <Button 
               onClick={() => navigate('/')}
-              className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+              className="w-full bg-white"
             >
               <Home className="mr-2 h-4 w-4" />
               Back to Home

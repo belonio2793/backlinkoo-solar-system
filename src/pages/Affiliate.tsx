@@ -70,7 +70,7 @@ const Affiliate: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="p-6">
@@ -103,7 +103,7 @@ const Affiliate: React.FC = () => {
 
           {/* VIP Benefits (Premium-only) */}
           {stats?.isVip ? (
-            <Card className="w-full col-span-1 lg:col-span-2 bg-gradient-to-r from-pink-50 to-purple-50 border-pink-200">
+            <Card className="w-full col-span-1 lg:col-span-2 bg-white">
               <CardContent className="p-6 text-center">
                 <div className="flex flex-col items-center">
                   <Crown className="h-8 w-8 text-yellow-500 mb-2" />
@@ -224,7 +224,7 @@ const Affiliate: React.FC = () => {
           </div>
 
           {/* Referral Link Section */}
-          <Card className="bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
+          <Card className="bg-white">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Link2 className="h-5 w-5" />
@@ -538,7 +538,7 @@ const Affiliate: React.FC = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
+              <Card className="bg-white">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Star className="h-5 w-5 text-yellow-500" />

@@ -64,7 +64,7 @@ const SubmitUrls: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 py-10">
+    <div className="min-h-screen bg-white">
       <div className="container max-w-3xl">
         <Card>
           <CardHeader>

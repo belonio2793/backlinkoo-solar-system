@@ -153,7 +153,7 @@ export default function AnswerThePublic() {
   ];
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-gradient-to-br from-emerald-50 via-white to-indigo-50 atp-compact">
+    <div className="min-h-screen overflow-x-hidden bg-white">
       <Header />
       <div className="atp-progress" aria-hidden="true"><div className="atp-progress__bar"/></div>
       <main className="container mx-auto max-w-7xl px-4 py-8">
@@ -222,7 +222,7 @@ export default function AnswerThePublic() {
                     <p className="mb-3">Estimate how your plan balances awareness, consideration, and decision content.</p>
                     <div className="grid grid-cols-1 gap-2 text-sm">
                       {['Awareness (what/why)','Consideration (how/which)','Decision (vs/near/pricing)'].map((l,i)=> (
-                        <div key={l} className="flex items-center gap-2"><span className="shrink-0 w-40">{l}</span><div className="grow h-2 bg-slate-200 dark:bg-slate-800 rounded"><div className="h-2 bg-gradient-to-r from-emerald-400 to-indigo-500 rounded" style={{width:`${40 + i*20}%`}}/></div></div>
+                        <div key={l} className="flex items-center gap-2"><span className="shrink-0 w-40">{l}</span><div className="grow h-2 bg-slate-200 dark:bg-slate-800 rounded"><div className="h-2 bg-white" style={{width:`${40 + i*20}%`}}/></div></div>
                       ))}
                     </div>
                   </CardContent>

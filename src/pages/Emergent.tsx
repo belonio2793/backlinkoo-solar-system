@@ -138,7 +138,7 @@ export default function EmergentPage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-50 to-sky-50 text-emerald-700 border border-emerald-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <SparkIcon className="w-5 h-5" />
               <span className="text-sm font-medium">AI app builder • conversation-driven</span>
             </div>

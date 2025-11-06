@@ -417,7 +417,7 @@ export default function Indexceptional() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
 
       <div className="ix-progress"><div className="ix-progress__bar" /></div>

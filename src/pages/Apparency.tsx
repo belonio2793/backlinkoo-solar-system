@@ -19,10 +19,10 @@ export default function Apparency() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       {/* Progress bar */}
       <div
-        className="fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-500 to-purple-600 z-50 transition-all duration-300"
+        className="fixed top-0 left-0 h-1 bg-white"
         style={{ width: `${scrollProgress * 100}%` }}
       />
 
@@ -37,7 +37,7 @@ export default function Apparency() {
             The App That Opens Apps
           </div>
 
-          <h1 className="text-5xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 leading-tight">
+          <h1 className="text-5xl sm:text-6xl font-bold bg-clip-text text-transparent bg-white">
             Apparency: Inspect Every macOS Application
           </h1>
 
@@ -48,7 +48,7 @@ export default function Apparency() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Button
               onClick={() => window.open('https://backlinkoo.com/register', '_blank')}
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-lg h-auto"
+              className="bg-white"
             >
               Register for Backlink ∞
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -67,7 +67,7 @@ export default function Apparency() {
             { number: '0$', label: 'Cost to Download' }
           ].map((stat, i) => (
             <div key={i} className="text-center p-6 bg-white rounded-lg border border-slate-200 hover:border-purple-300 transition-colors">
-              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+              <div className="text-3xl font-bold bg-white">
                 {stat.number}
               </div>
               <p className="text-slate-600">{stat.label}</p>
@@ -88,7 +88,7 @@ export default function Apparency() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl border border-blue-200">
+          <div className="bg-white">
             <p className="text-slate-700 leading-relaxed mb-4">
               macOS operates with numerous security checks happening behind the scenes. Gatekeeper validates applications, notarization verifies authenticity, sandboxing restricts capabilities, code signatures ensure integrity, and entitlements define permissions. However, most Mac users never see the results of these critical security checks. The built-in macOS tools scatter this information across different menus and dialogs, making it difficult to get a complete picture of any application's security posture and contents.
             </p>
@@ -151,7 +151,7 @@ export default function Apparency() {
             <Card key={i} className="border-slate-200 hover:border-purple-300 hover:shadow-lg transition-all">
               <CardHeader className="pb-3">
                 <div className="flex items-start gap-4">
-                  <div className="p-2 bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg">
+                  <div className="p-2 bg-white">
                     <feature.icon className="h-6 w-6 text-blue-600" />
                   </div>
                   <CardTitle className="text-xl">{feature.title}</CardTitle>
@@ -206,7 +206,7 @@ export default function Apparency() {
           ].map((item, i) => (
             <div key={i} className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 text-white font-bold">
+                <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-white">
                   {item.step}
                 </div>
               </div>
@@ -354,7 +354,7 @@ export default function Apparency() {
             <Card key={i} className="border-slate-200 hover:border-purple-300 hover:shadow-lg transition-all">
               <CardHeader className="pb-3">
                 <div className="flex items-start gap-3 mb-2">
-                  <div className="p-2 bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg">
+                  <div className="p-2 bg-white">
                     <useCase.icon className="h-5 w-5 text-blue-600" />
                   </div>
                 </div>
@@ -561,7 +561,7 @@ export default function Apparency() {
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <span className="inline-flex items-center justify-center h-8 w-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 text-white text-sm font-bold">
+                    <span className="inline-flex items-center justify-center h-8 w-8 rounded-full bg-white">
                       {i + 1}
                     </span>
                   </div>
@@ -658,7 +658,7 @@ export default function Apparency() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-blue-50 p-12 rounded-xl border border-blue-200">
+          <div className="bg-white">
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Why Transparency Matters</h3>
             <p className="text-slate-700 leading-relaxed mb-4">
               Security professionals, developers, and administrators all agree: visibility into application behavior is essential for protecting systems and data. Yet most Mac users have no idea what their applications are actually permitted to do or what security checks have verified them. macOS makes these checks, but hides the results.
@@ -675,7 +675,7 @@ export default function Apparency() {
 
       {/* Final CTA Section */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white text-center space-y-8">
+        <div className="bg-white">
           <h2 className="text-4xl font-bold">
             Take Control of Your Application Security Today
           </h2>

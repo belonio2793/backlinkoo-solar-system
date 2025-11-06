@@ -591,7 +591,7 @@ export default function WhitePress() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-slate-100">
+    <div className="min-h-screen bg-white">
       <Header minimal />
       <div className="wp-progress" aria-hidden="true">
         <div className="wp-progress__bar" style={{ width: 0 }} />

@@ -181,7 +181,7 @@ export default function Userp() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-violet-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
       <div className="up-progress"><div className="up-progress__bar" /></div>
 

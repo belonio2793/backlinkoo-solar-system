@@ -117,14 +117,14 @@ export default function HandsOff() {
 
       <Header />
 
-      <section className="bg-gradient-to-b from-[#071627] to-[#09273b]">
+      <section className="bg-white">
         <div className="container mx-auto px-4 py-20 md:py-28">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block mb-5 px-3 py-1 rounded-full border border-cyan-400/20 bg-cyan-600/10 text-white text-xs tracking-wide">
               Automate Repetitive Workflows • Ship Faster
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-sky-200 to-cyan-100">
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-white">
               Hands Off — Automate the Work You Hate, Keep the Work You Love
             </h1>
 

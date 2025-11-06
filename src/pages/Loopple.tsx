@@ -107,7 +107,7 @@ export default function LoopplePage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-pink-50 to-rose-50 text-rose-700 border border-rose-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <BrandIcon className="w-6 h-6" />
               <span className="text-sm font-medium">Templates • UI kits • Landing pages</span>
             </div>

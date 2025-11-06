@@ -78,7 +78,7 @@ CREATE INDEX IF NOT EXISTS idx_domains_domain ON domains(domain);
 CREATE INDEX IF NOT EXISTS idx_domains_validation ON domains(dns_validated, status);`;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         

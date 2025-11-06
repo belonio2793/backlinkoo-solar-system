@@ -245,7 +245,7 @@ export default function FatJoe() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
 
       <div className="fj-progress"><div className="fj-progress__bar" /></div>

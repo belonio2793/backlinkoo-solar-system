@@ -112,7 +112,7 @@ export default function FlaskPage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-pink-50 to-yellow-50 text-pink-700 border border-pink-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <VideoIcon className="w-5 h-5" />
               <span className="text-sm font-medium">Video collaboration • built for creatives</span>
             </div>

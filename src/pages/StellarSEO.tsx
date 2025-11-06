@@ -231,7 +231,7 @@ export default function StellarSEO() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       {/* Reading progress */}

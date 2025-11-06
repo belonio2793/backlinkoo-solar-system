@@ -72,7 +72,7 @@ export default function RhinoRankPage() {
   const tocItems = useMemo(() => sectionsOrder, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-white">
       <Header />
       <section className="rhinorank-hero relative overflow-hidden">
         <div className="container mx-auto px-4 py-20 md:py-28">

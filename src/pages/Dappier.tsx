@@ -129,7 +129,7 @@ export default function DappierPage() {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-slate-950 via-sky-950 to-slate-900 text-white pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block mb-6 px-4 py-2 bg-sky-500/20 border border-sky-400/30 rounded-full text-sky-200 text-sm font-semibold">

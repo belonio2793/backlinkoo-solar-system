@@ -99,7 +99,7 @@ export default function Mittalmar() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-100">
+    <div className="min-h-screen bg-white">
       <Header variant="translucent" />
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -182,7 +182,7 @@ export default function Mittalmar() {
         <section className="mb-20">
           <h2 className="text-4xl font-bold mb-12 text-white">Powerful Features That Drive Growth</h2>
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Living Niche Dashboards with 5,000+ Video Data</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Mittalmar's core intelligence engine analyzes 5,000+ videos continuously, tracking which niches are growing, which topics are trending, and where white space opportunities exist. Unlike static research, living dashboards update automatically as new data flows in. Creators see real-time signals about emerging opportunities before broader audience awareness shifts the competitive landscape.
@@ -195,7 +195,7 @@ export default function Mittalmar() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Viral Format Identification and Trend Analysis</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 The algorithm identifies which video formats are currently driving the highest engagement, which thumbnail styles convert best, and which content structures resonate most with audiences. Rather than creators guessing about format, they leverage data on what's actually working right now. This intelligence adapts daily as viral trends shift, enabling creators to stay ahead of format saturation.
@@ -208,7 +208,7 @@ export default function Mittalmar() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Day-by-Day Competitor Intelligence</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Track competitors continuously to understand their growth trajectories and strategies. See which channels are accelerating, what content they're producing, which formats they're using, and how their audiences are responding. This competitive intelligence transforms channel strategy from reactive to proactive, enabling creators to anticipate shifts and adjust their approach before competitors become threats.
@@ -221,7 +221,7 @@ export default function Mittalmar() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Video Collections and Content Curation</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Organize research into visual collections, grouping videos by topic, format, thumbnail style, or any other criteria. This curation system creates inspiration boards that guide content creation. Instead of scattered notes across multiple tools, collections provide organized visual reference for thumbnails, titles, formats, and strategies that creators want to emulate or adapt.
@@ -234,7 +234,7 @@ export default function Mittalmar() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Niche Database Building and Organization</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Build a living database of potential niches, organized with growth metrics, competition levels, and opportunity scores. As you explore niches, the database learns and organizes information, creating a searchable repository of niche opportunities. This approach transforms research from ad-hoc exploration into systematic niche evaluation and comparative analysis.
@@ -247,7 +247,7 @@ export default function Mittalmar() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-8 rounded-lg border border-gray-600">
+            <div className="bg-white">
               <h3 className="text-2xl font-bold text-white mb-4">Browser Extension for YouTube Integration</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 The YouTube Market Research Helper browser extension brings Mittalmar insights directly into the YouTube interface. As creators browse YouTube's homepage, the extension highlights outlier videos and trending content, making it easy to identify viral signals without leaving YouTube. This integration keeps research frictionless and continuous throughout creators' regular YouTube browsing.
@@ -515,7 +515,7 @@ export default function Mittalmar() {
         </section>
 
         {/* Pricing Section */}
-        <section className="mb-20 bg-gradient-to-r from-blue-900 via-gray-800 to-blue-900 rounded-lg p-12 border border-blue-700">
+        <section className="mb-20 bg-white">
           <h2 className="text-4xl font-bold mb-6 text-white text-center">Affordable Plans for Every Creator</h2>
           <p className="text-xl text-gray-300 text-center max-w-2xl mx-auto mb-12">
             Start free for 7 days with full access. Cancel anytime with no obligations. Upgrade when you're ready to scale.
@@ -723,7 +723,7 @@ export default function Mittalmar() {
         </section>
 
         {/* Final CTA Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-16 text-center border border-blue-500">
+        <section className="bg-white">
           <h2 className="text-4xl font-bold text-white mb-6">Start Growing With Data Today</h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8 leading-relaxed">
             Top YouTube creators use Mittalmar to make every content decision grounded in real data. Join thousands of creators cutting research time by 90%, launching in the right niche, and growing faster than ever before.

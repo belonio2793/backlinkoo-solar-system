@@ -471,7 +471,7 @@ export default function OutreachLabs() {
   const totalWords = countWords(baseHtml) + countWords(extendedHtml);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header minimal />
 
       <div className="ol-progress"><div className="ol-progress__bar" /></div>

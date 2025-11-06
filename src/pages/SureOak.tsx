@@ -588,7 +588,7 @@ export default function SureOak() {
   }, [canonical]);
 
   return (
-    <div className="sureoak-page min-h-screen bg-gradient-to-br from-slate-50 via-white to-sky-50">
+    <div className="sureoak-page min-h-screen bg-white">
       <Header />
       <div className="sureoak-progress" aria-hidden="true">
         <div className="sureoak-progress__bar" />

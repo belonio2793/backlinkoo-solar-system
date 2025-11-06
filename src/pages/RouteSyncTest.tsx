@@ -73,7 +73,7 @@ export default function RouteSyncTest() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white text-gray-900">
+    <div className="min-h-screen bg-white">
       <Header />
       
       <div className="max-w-4xl mx-auto p-8">

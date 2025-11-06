@@ -107,7 +107,7 @@ export default function NanochatPage() {
         variant="wide"
         hero={(
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-50 to-teal-50 text-emerald-700 border border-emerald-100 shadow-sm">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white">
               <NanoIcon className="w-6 h-6" />
               <span className="text-sm font-medium">Local-first • Minimal • Open-source</span>
             </div>

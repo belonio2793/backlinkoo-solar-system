@@ -167,7 +167,7 @@ const NoHandsSEO = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="min-h-screen bg-white">
 
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
         {/* Hero Section */}
@@ -181,7 +181,7 @@ const NoHandsSEO = () => {
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-light mb-6 sm:mb-8 text-gray-900 tracking-tight">
-            Automated <span className="text-primary bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">Link Building</span>
+            Automated <span className="text-primary bg-white">Link Building</span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-4 sm:mb-6 max-w-4xl mx-auto leading-relaxed font-light">
