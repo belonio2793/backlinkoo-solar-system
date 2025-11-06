@@ -172,9 +172,9 @@ export function Header({
                 style={{ cursor: 'pointer', textDecoration: 'none', background: 'none', border: 'none', padding: 0 }}
               >
                 <div className="flex items-center justify-center p-1.5 rounded-lg">
-                  <Infinity className="h-6 w-6 text-primary" />
+                  <Infinity className="h-6 w-6 text-primary flex-shrink-0" />
                 </div>
-                <h1 className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink ∞</h1>
+                <span className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink ∞</span>
               </div>
             ) : null}
           </div>
