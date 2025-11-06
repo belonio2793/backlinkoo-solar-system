@@ -27,7 +27,8 @@ import {
   Home,
   X,
   RotateCcw,
-  LineChart
+  LineChart,
+  Loader2
 } from "lucide-react";
 import { PricingModal } from "@/components/PricingModal";
 import { ToastAction } from "@/components/ui/toast";
