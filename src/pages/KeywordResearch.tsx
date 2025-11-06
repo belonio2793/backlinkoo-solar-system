@@ -617,22 +617,22 @@ export default function KeywordResearch() {
             onValueChange={(v) => setNavValue(v as typeof navValue)}
             className="flex flex-col w-full"
           >
-            <TabsList className="flex flex-col h-auto gap-1 bg-transparent p-0">
-              <TabsTrigger value="keyword-research" className="w-full justify-start gap-2 text-left">
+            <TabsList className="flex flex-col h-auto gap-1 bg-muted/50 p-2 rounded-md">
+              <TabsTrigger value="keyword-research" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <Search className="h-4 w-4" /> Research
               </TabsTrigger>
-              <TabsTrigger value="url" className="w-full justify-start gap-2 text-left">
+              <TabsTrigger value="url" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <Globe className="h-4 w-4" /> Website
                 {urlActive && <Badge variant="secondary" className="ml-auto text-xs">{urlActive.keywords.length}</Badge>}
               </TabsTrigger>
-              <TabsTrigger value="finder" className="w-full justify-start gap-2 text-left">
+              <TabsTrigger value="finder" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <Lightbulb className="h-4 w-4" /> Finder
                 {finderActive && <Badge variant="secondary" className="ml-auto text-xs">{finderActive.keywords.length}</Badge>}
               </TabsTrigger>
-              <TabsTrigger value="trends" className="w-full justify-start gap-2 text-left">
+              <TabsTrigger value="trends" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <TrendingUp className="h-4 w-4" /> Trends
               </TabsTrigger>
-              <TabsTrigger value="history" className="w-full justify-start gap-2 text-left">
+              <TabsTrigger value="history" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <History className="h-4 w-4" /> History
                 {history.length > 0 && <Badge variant="secondary" className="ml-auto text-xs">{history.length}</Badge>}
               </TabsTrigger>
@@ -651,26 +651,26 @@ export default function KeywordResearch() {
 
           <Tabs value={navValue} onValueChange={(v) => setNavValue(v as typeof navValue)} className="w-full">
             <div className="px-6 pb-4">
-              <TabsList className="w-full grid grid-cols-2 sm:grid-cols-5 h-auto gap-2 bg-transparent p-0">
-                <TabsTrigger value="keyword-research" className="flex items-center gap-2 text-sm">
+              <TabsList className="w-full grid grid-cols-2 sm:grid-cols-5 h-auto gap-2 bg-muted/50 p-2">
+                <TabsTrigger value="keyword-research" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <Search className="h-4 w-4" />
                   <span className="hidden sm:inline">Research</span>
                 </TabsTrigger>
-                <TabsTrigger value="url" className="flex items-center gap-2 text-sm">
+                <TabsTrigger value="url" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <Globe className="h-4 w-4" />
                   <span className="hidden sm:inline">Website</span>
                   {urlActive && <Badge variant="secondary" className="ml-1 h-5 px-1 text-xs">{urlActive.keywords.length}</Badge>}
                 </TabsTrigger>
-                <TabsTrigger value="finder" className="flex items-center gap-2 text-sm">
+                <TabsTrigger value="finder" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <Lightbulb className="h-4 w-4" />
                   <span className="hidden sm:inline">Finder</span>
                   {finderActive && <Badge variant="secondary" className="ml-1 h-5 px-1 text-xs">{finderActive.keywords.length}</Badge>}
                 </TabsTrigger>
-                <TabsTrigger value="trends" className="flex items-center gap-2 text-sm">
+                <TabsTrigger value="trends" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <TrendingUp className="h-4 w-4" />
                   <span className="hidden sm:inline">Trends</span>
                 </TabsTrigger>
-                <TabsTrigger value="history" className="flex items-center gap-2 text-sm">
+                <TabsTrigger value="history" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <History className="h-4 w-4" />
                   <span className="hidden sm:inline">History</span>
                   {history.length > 0 && <Badge variant="secondary" className="ml-1 h-5 px-1 text-xs">{history.length}</Badge>}
@@ -797,7 +797,7 @@ export default function KeywordResearch() {
                       {urlSaved.map((s, i) => (
                         <div key={`${s.url}-${s.generatedAt}`} className="flex items-center justify-between gap-2 text-sm">
                           <button
-                            className="text-left underline truncate hover:text-primary transition-colors"
+                            className="text-left underline truncate text-foreground hover:text-foreground/80 transition-colors"
                             onClick={() => setUrlActive(s)}
                             title={`Load ${s.url}`}
                           >
@@ -921,7 +921,7 @@ export default function KeywordResearch() {
                       {finderSaved.map((s, i) => (
                         <div key={`${s.keyword}-${s.generatedAt}`} className="flex items-center justify-between gap-2 text-sm">
                           <button
-                            className="text-left underline truncate hover:text-primary transition-colors"
+                            className="text-left underline truncate text-foreground hover:text-foreground/80 transition-colors"
                             onClick={() => setFinderActive(s)}
                             title={`Load ${s.keyword}`}
                           >
