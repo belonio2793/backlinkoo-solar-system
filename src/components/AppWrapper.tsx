@@ -71,6 +71,7 @@ export const AppWrapper = () => {
           <Route path="/auth/confirm" element={<EmailConfirmation />} />
           <Route path="/auth/callback" element={<AuthCallback />} />
           <Route path="/auth/reset-password" element={<PasswordReset />} />
+          <Route path="/" element={<Index />} />
 
           {/* Blog Routes - Dynamic slug handling */}
           <Route path="/preview/:slug" element={<BlogPreview />} />
