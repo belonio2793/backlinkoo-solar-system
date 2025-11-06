@@ -541,8 +541,8 @@ export default function Learn() {
                   Home
                 </Link>
               </Button>
-              <BookOpen className="h-6 w-6 text-blue-600" />
-              <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Learn: How Backlinks &amp; SEO Work</h1>
+              <BookOpen className="h-6 w-6 text-blue-600 flex-shrink-0" />
+              <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 leading-none">Learn: How Backlinks &amp; SEO Work</h1>
             </div>
 
             <div className="flex items-center gap-3">
