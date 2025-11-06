@@ -702,24 +702,72 @@ const Dashboard = () => {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56">
-                  <DropdownMenuItem onClick={() => setIsProfileOpen(true)}>
-                    <Settings className="mr-2 h-4 w-4" />
-                    Profile Settings
-                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => navigate('/') }>
+                  <Home className="mr-2 h-4 w-4" />
+                  Home
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#premium-plan')}>
+                  <Star className="mr-2 h-4 w-4" />
+                  Upgrade to Premium
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#buy-credits')}>
+                  <CreditCard className="mr-2 h-4 w-4" />
+                  Buy Credits
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => navigate('/dashboard') }>
+                  <Infinity className="mr-2 h-4 w-4 text-blue-600" />
+                  Dashboard
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/blog')}>
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  Blog
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
+                  <Search className="mr-2 h-4 w-4" />
+                  Keyword Research
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
+                  <LineChart className="mr-2 h-4 w-4" />
+                  Rank Tracker
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#automation')}>
+                  <Wand2 className="mr-2 h-4 w-4" />
+                  Link Building Automation
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  Community Blog
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
+                  <Target className="mr-2 h-4 w-4" />
+                  Ask Backlink ∞ AI
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <div className="px-2 py-2">
+                  <div className="text-xs text-muted-foreground mb-1">Language</div>
+                  <LanguageSwitcher />
+                </div>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => setIsProfileOpen(true)}>
+                  <Settings className="mr-2 h-4 w-4" />
+                  Profile Settings
+                </DropdownMenuItem>
 
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      console.log('🚪 Sign out dropdown item clicked');
-                      handleSignOut();
-                    }}
-                    className="text-red-600 focus:text-red-600 cursor-pointer"
-                  >
-                    <LogOut className="mr-2 h-4 w-4" />
-                    Sign Out
-                  </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('🚪 Sign out dropdown item clicked');
+                    handleSignOut();
+                  }}
+                  className="text-red-600 focus:text-red-600 cursor-pointer"
+                >
+                  <LogOut className="mr-2 h-4 w-4" />
+                  Sign Out
+                </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
