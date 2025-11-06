@@ -191,22 +191,8 @@ export default function Register() {
                     </Button>
                   </div>
 
-                  <div className="flex items-center gap-3">
-                    <hr className="flex-1" />
-                    <span className="text-xs text-muted-foreground">Or continue with</span>
-                    <hr className="flex-1" />
-                  </div>
 
-                  <div className="flex gap-2">
-                    <Button variant="softOutline" className="flex-1" onClick={() => handleOAuth('google')}>
-                      <GoogleIcon className="h-4 w-4 mr-2" /> Google
-                    </Button>
-                    <Button variant="softOutline" className="flex-1" onClick={() => handleOAuth('github')}>
-                      <Github className="h-4 w-4 mr-2" /> GitHub
-                    </Button>
-                  </div>
 
-                  <p className="text-xs text-muted-foreground">By continuing, you agree to our terms and consent to receive transactional emails.</p>
                 </form>
               </CardContent>
             </Card>
