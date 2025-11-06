@@ -182,16 +182,16 @@ export function Header({
             {/* Logged-in quick nav buttons (visible on sm+) */}
             {user && (
               <div className="hidden sm:flex items-center gap-2 mr-2">
-                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard')}>
-                  <Infinity className="h-4 w-4 sm:mr-2 text-blue-600" />
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center" onClick={() => navigate('/dashboard')}>
+                  <Infinity className="h-4 w-4 mr-2 text-blue-600 flex-shrink-0" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
-                <Button variant="ghost" size="sm" className="px-3" onClick={handleBuyCreditsClick}>
-                  <CreditCard className="h-4 w-4 sm:mr-2 text-green-600" />
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center" onClick={handleBuyCreditsClick}>
+                  <CreditCard className="h-4 w-4 mr-2 text-green-600 flex-shrink-0" />
                   <span className="hidden sm:inline">Buy Credits</span>
                 </Button>
-                <Button variant="ghost" size="sm" className="px-3" onClick={handlePremiumClick}>
-                  <Star className="h-4 w-4 sm:mr-2 text-yellow-500" />
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center" onClick={handlePremiumClick}>
+                  <Star className="h-4 w-4 mr-2 text-yellow-500 flex-shrink-0" />
                   <span className="hidden sm:inline">Premium</span>
                 </Button>
               </div>
