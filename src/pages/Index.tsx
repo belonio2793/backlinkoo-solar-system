@@ -70,7 +70,7 @@ import { KeywordRankSplitSection } from "@/components/home/KeywordRankSplitSecti
 import AnimatedTestimonials from "@/components/AnimatedTestimonials";
 import SEOGrowthGraph from "@/components/SEOGrowthGraph";
 import RankHeader from "@/components/RankHeader";
-import { HomeFeaturedRankTracker } from "@/components/HomeFeaturedRankTracker";
+import { CombinedSearchSection } from "@/components/CombinedSearchSection";
 
 
 type PricingPlan = {
@@ -1228,8 +1228,8 @@ const Index = () => {
       {/* Header */}
       <RankHeader showTabs={false} ctaMode="navigation" />
 
-      {/* Featured Rank Tracker Section - First Section */}
-      <HomeFeaturedRankTracker />
+      {/* Featured Rank Tracker Section - Combined with Keyword Search */}
+      <CombinedSearchSection />
 
       {/* Backlink Estimate Section */}
       <section ref={searchSectionRef} style={{ paddingTop: '24vh', paddingBottom: '24vh' }} className={`relative px-4 md:px-6 bg-white border-b border-border/50 soft-vignette`}>
