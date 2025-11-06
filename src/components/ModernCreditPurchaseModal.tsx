@@ -43,6 +43,21 @@ export function ModernCreditPurchaseModal({
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
+  // If user is signed in, prefill names from user metadata and hide inputs
+  useEffect(() => {
+    try {
+      const meta: any = (user as any)?.user_metadata || {};
+      const fullName = meta?.full_name || meta?.name || meta?.first_name || '';
+      if (fullName) {
+        const parts = fullName.trim().split(/\s+/);
+        setFirstName(parts[0] || '');
+        setLastName(parts.slice(1).join(' ') || '');
+      }
+    } catch (e) {
+      // ignore
+    }
+  }, [user]);
+
   // Credit packages pricing
   const creditPackages: CreditPackage[] = [
     { credits: 50, price: 70, pricePerCredit: 1.40 },
