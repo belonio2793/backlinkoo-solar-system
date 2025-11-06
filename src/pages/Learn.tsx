@@ -538,7 +538,7 @@ export default function Learn() {
       <Header />
       <main className="relative z-10 min-h-screen bg-white">
         <div className="w-full max-w-5xl mx-auto">
-          <header className="mb-6 flex flex-col items-center justify-center gap-3 bg-transparent text-center sm:flex-row sm:justify-between">
+          <header className="mb-6 flex flex-col items-center justify-center gap-3 bg-transparent text-center">
             <div className="flex items-center gap-3 justify-center">
               <Button asChild variant="ghost" className="px-2">
                 <Link to="/" className="inline-flex items-center gap-2">
