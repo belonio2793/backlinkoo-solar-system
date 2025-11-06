@@ -176,10 +176,10 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
 
         {/* KPI Tiles */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6 md:mb-8">
-          <KPI label="Keywords" value={fmt(selected.keywords)} glow="from-emerald-400 to-teal-500" />
-          <KPI label="Monthly Search Volume" value={fmt(selected.volume)} glow="from-blue-400 to-indigo-500" />
-          <KPI label="Daily Visitors" value={fmt(selected.traffic)} glow="from-violet-400 to-fuchsia-500" />
-          <KPI label="ROI %" value={fmtPercent(selected.roi)} glow="from-amber-400 to-orange-500" />
+          <KPI label="Keywords" value={fmt(selected.keywords)} />
+          <KPI label="Monthly Search Volume" value={fmt(selected.volume)} />
+          <KPI label="Daily Visitors" value={fmt(selected.traffic)} />
+          <KPI label="ROI %" value={fmtPercent(selected.roi)} />
         </div>
 
         {/* Chart */}
