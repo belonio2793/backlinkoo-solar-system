@@ -302,7 +302,7 @@ interface BlogGeneratorSectionProps {
 const StableBlogGeneratorSection = memo(({ user, onBlogGenerated }: BlogGeneratorSectionProps) => {
   return (
     <>
-      <section id="blog-generator" className="py-12 sm:py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section id="blog-generator" className="py-12 sm:py-16 md:py-24 px-4 md:px-6 bg-white">
         <div className="w-full max-w-6xl mx-auto px-4 md:px-0">
           <div className="w-full px-2 md:px-6">
             <BlogForm
@@ -1168,7 +1168,7 @@ const Index = () => {
 
   return (
     <div
-      className="min-h-screen bg-background font-light bg-hero-soft relative pb-12"
+      className="min-h-screen bg-white font-light relative pb-12"
       style={{ paddingBottom: "calc(5rem + env(safe-area-inset-bottom, 0px))" }}
     >
       {showEstimateOverlay && (
@@ -1231,7 +1231,7 @@ const Index = () => {
       <HomeFeaturedRankTracker />
 
       {/* Backlink Estimate Section */}
-      <section ref={searchSectionRef} style={{ paddingTop: '24vh', paddingBottom: '24vh' }} className={`relative px-4 md:px-6 bg-gradient-to-br from-blue-50 to-purple-50/30 border-b border-border/50 soft-vignette`}>
+      <section ref={searchSectionRef} style={{ paddingTop: '24vh', paddingBottom: '24vh' }} className={`relative px-4 md:px-6 bg-white border-b border-border/50 soft-vignette`}>
         <div className="w-full max-w-5xl mx-auto">
           <div className="mb-4 max-w-md sm:max-w-xl md:max-w-3xl mx-auto text-center">
             <div className="mb-2 flex justify-center -translate-y-[2vh]">
@@ -1337,7 +1337,7 @@ const Index = () => {
 
       {/* Trial Conversion Section */}
       {showTrialUpgrade && (
-        <section className="py-12 px-6 bg-gradient-to-br from-amber-50 to-orange-50">
+        <section className="py-12 px-6 bg-white">
           <div className="w-full max-w-6xl mx-auto px-6">
             <TrialConversionBanner
               onUpgrade={() => {
@@ -1442,7 +1442,7 @@ const Index = () => {
 
     
       {/* Testimonials (last section) */}
-      <div className="bg-gradient-to-b from-gray-50 to-white py-16 px-4">
+      <div className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <AnimatedTestimonials />
         </div>
