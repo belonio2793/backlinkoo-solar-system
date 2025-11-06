@@ -8,6 +8,8 @@ import { PremiumCheckoutModal } from '@/components/PremiumCheckoutModal';
 import { useAuth } from '@/hooks/useAuth';
 import { useToast } from '@/hooks/use-toast';
 import { Search, Zap, Loader2, CheckCircle2, Lock, X, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { scrollToTop } from '@/utils/scrollToTop';
 
 interface RankResult {
   success: boolean;
@@ -337,10 +339,10 @@ export function CombinedSearchSection() {
                   </div>
 
                   <div className="mt-4 flex justify-center">
-                    <a href="/learn" className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white text-blue-700 hover:bg-blue-50 px-3 py-1 text-sm shadow-sm transition-colors">
+                    <Link to="/learn" onClick={() => scrollToTop('smooth')} className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white text-blue-700 hover:bg-blue-50 px-3 py-1 text-sm shadow-sm transition-colors">
                       <BookOpen className="h-4 w-4" />
                       <span>Learn how it works</span>
-                    </a>
+                    </Link>
                   </div>
                   {(estimateLoading || (!showEstimateOverlay && !!estimateText)) && (
                     <div className="mt-4 flex items-center justify-center">

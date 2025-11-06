@@ -4,6 +4,8 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { scrollToTop } from "@/utils/scrollToTop";
 import {
   BookOpen,
   GraduationCap,
@@ -503,6 +505,10 @@ export default function Learn() {
   const { openLoginModal, openSignupModal } = useAuthModal();
 
   React.useEffect(() => {
+    try { scrollToTop('smooth'); } catch { window.scrollTo(0, 0); }
+  }, []);
+
+  React.useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight") setIndex((i) => Math.min(i + 1, pages.length - 1));
       if (e.key === "ArrowLeft") setIndex((i) => Math.max(i - 1, 0));
@@ -529,6 +535,7 @@ export default function Learn() {
 
   return (
     <div className="relative">
+      <Header />
       <main className="relative z-10 min-h-screen bg-white">
         <div className="w-full max-w-5xl mx-auto">
           <header className="mb-6 flex items-center justify-between bg-transparent">
