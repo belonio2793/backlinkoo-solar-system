@@ -351,65 +351,46 @@ export class EnhancedBlogClaimService {
    */
   static async cleanupExpiredPosts(): Promise<{ deletedCount: number; error?: string }> {
     try {
-      // Sanitize any bad string values stored as 'null' before running cleanup
-      try {
-        await supabase.rpc('exec_sql', {
-          query: `
-            UPDATE blog_posts SET expires_at = NULL WHERE expires_at::text = 'null' OR expires_at::text = '';
-            UPDATE published_blog_posts SET expires_at = NULL WHERE expires_at::text = 'null' OR expires_at::text = '';
-          `
-        });
-      } catch (sanErr) {
-        console.warn('Timestamp sanitization failed (continuing):', sanErr?.message || sanErr);
-      }
-
-      // Try the RPC function first
-      const { data, error } = await supabase.rpc('cleanup_expired_posts');
-
-      if (error) {
-        // Handle various error codes for missing function
-        if (error.code === '42883' || error.code === 'PGRST202' || error.message?.includes('Could not find the function')) {
-          console.warn('Cleanup function not available, using manual cleanup');
-        } else {
-          console.error('Cleanup function failed:', {
-            code: error.code,
-            message: error.message,
-            details: error.details
-          });
-        }
-      } else if (data !== null) {
-        return { deletedCount: data || 0 };
-      }
-
-      // If RPC function doesn't exist or failed, use manual cleanup
-      const { data: expiredPosts, error: selectError } = await supabase
+      // Avoid RPC dependencies and DB casts; handle everything client-side to be robust across schemas
+      // 1) Fetch candidate posts (claimed = false) with minimal server-side filtering
+      const { data, error: fetchError } = await supabase
         .from('blog_posts')
-        .select('id')
-        .eq('claimed', false)
-        .neq('expires_at', null)
-        .lte('expires_at', new Date().toISOString());
+        .select('id, expires_at, claimed')
+        .eq('claimed', false);
 
-      if (selectError) {
-        return { deletedCount: 0, error: selectError.message };
+      if (fetchError) {
+        return { deletedCount: 0, error: fetchError.message };
       }
 
-      if (!expiredPosts || expiredPosts.length === 0) {
+      const now = Date.now();
+      const isValidDate = (v: any) => {
+        if (v == null) return false;
+        // handle strings, numbers, Date
+        const t = typeof v === 'string' || typeof v === 'number' ? Date.parse(String(v)) : (v instanceof Date ? v.getTime() : NaN);
+        return Number.isFinite(t);
+      };
+
+      // 2) Determine expired posts safely on the client to avoid timestamp casts on the server
+      const expiredIds = (data || [])
+        .filter((row: any) => isValidDate(row.expires_at) && Date.parse(String(row.expires_at)) <= now)
+        .map((row: any) => row.id)
+        .filter(Boolean);
+
+      if (!expiredIds.length) {
         return { deletedCount: 0 };
       }
 
-      // Delete expired posts manually
+      // 3) Delete by id list to avoid server-side date comparisons on potentially text columns
       const { error: deleteError } = await supabase
         .from('blog_posts')
         .delete()
-        .eq('claimed', false)
-        .neq('expires_at', null)
-        .lte('expires_at', new Date().toISOString());
+        .in('id', expiredIds);
 
       if (deleteError) {
         return { deletedCount: 0, error: deleteError.message };
       }
 
-      return { deletedCount: expiredPosts.length };
+      return { deletedCount: expiredIds.length };
     } catch (error: any) {
       return { deletedCount: 0, error: error.message };
     }
