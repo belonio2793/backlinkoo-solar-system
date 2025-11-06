@@ -538,8 +538,8 @@ export default function Learn() {
       <Header />
       <main className="relative z-10 min-h-screen bg-white">
         <div className="w-full max-w-5xl mx-auto">
-          <header className="mb-6 flex items-center justify-between bg-transparent">
-            <div className="flex items-center gap-3">
+          <header className="mb-6 flex flex-col items-center justify-center gap-3 bg-transparent text-center sm:flex-row sm:justify-between">
+            <div className="flex items-center gap-3 justify-center">
               <Button asChild variant="ghost" className="px-2">
                 <Link to="/" className="inline-flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
@@ -552,7 +552,7 @@ export default function Learn() {
               <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 leading-none">Learn: How Backlinks &amp; SEO Work</h1>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 justify-center">
               <div className="text-sm text-slate-600">Page <strong>{index + 1}</strong> / {pages.length}</div>
               <div className="w-40 bg-slate-100 h-2 rounded overflow-hidden">
                 <div className="h-2 bg-blue-500 transition-all" style={{ width: `${((index + 1) / pages.length) * 100}%` }} />
@@ -591,7 +591,7 @@ export default function Learn() {
 
               <button
                 aria-label="Previous page"
-                onClick={() => setIndex((i) => Math.max(i - 1, 0))}
+                onClick={() => { scrollToTop('auto'); setIndex((i) => Math.max(i - 1, 0)); }}
                 className={`absolute left-3 top-1/2 -translate-y-1/2 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/90 border border-slate-200 shadow-sm transition-opacity hover:scale-105 ${index === 0 ? "opacity-40 pointer-events-none" : "opacity-100"}`}
               >
                 <ArrowLeft className="h-4 w-4 text-slate-700" />
@@ -599,7 +599,7 @@ export default function Learn() {
 
               <button
                 aria-label="Next page"
-                onClick={() => setIndex((i) => Math.min(i + 1, pages.length - 1))}
+                onClick={() => { scrollToTop('auto'); setIndex((i) => Math.min(i + 1, pages.length - 1)); }}
                 className={`absolute right-3 top-1/2 -translate-y-1/2 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/90 border border-slate-200 shadow-sm transition-opacity hover:scale-105 ${index === pages.length - 1 ? "opacity-40 pointer-events-none" : "opacity-100"}`}
               >
                 <ArrowRight className="h-4 w-4 text-slate-700" />
@@ -609,7 +609,7 @@ export default function Learn() {
                 {pages.map((_, i) => (
                   <button
                     key={i}
-                    onClick={() => setIndex(i)}
+                    onClick={() => { scrollToTop('auto'); setIndex(i); }}
                     aria-label={`Go to page ${i + 1}`}
                     className={`h-2 w-8 rounded-full transition-all ${i === index ? "bg-blue-600" : "bg-slate-200 hover:bg-slate-300"}`}
                   />
@@ -618,11 +618,11 @@ export default function Learn() {
             </div>
           </div>
 
-          <div className="mt-6 flex items-center justify-between">
+          <div className="mt-6 flex flex-col items-center gap-3">
             <div className="text-sm text-slate-600">Use ← and → keys or swipe to flip pages</div>
             <div className="flex items-center gap-3">
-              <Button variant="ghost" onClick={() => setIndex(0)}>Start over</Button>
-              <Button onClick={() => setIndex((i) => Math.min(i + 1, pages.length - 1))}>Next</Button>
+              <Button variant="ghost" onClick={() => { scrollToTop('auto'); setIndex(0); }}>Start over</Button>
+              <Button onClick={() => { scrollToTop('auto'); setIndex((i) => Math.min(i + 1, pages.length - 1)); }}>Next</Button>
             </div>
           </div>
         </div>
