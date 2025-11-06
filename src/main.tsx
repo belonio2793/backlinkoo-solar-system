@@ -26,6 +26,10 @@ import '@/utils/previewGuard'
 // Lightweight runtime patches: suppress noisy warnings, guard Quill and analytics init
 import '@/utils/runtimePatches'
 
+// Install error suppression for external tool errors (screenshot tools, extensions)
+import { installErrorSuppression } from '@/utils/errorSuppression'
+installErrorSuppression()
+
 // Initialize storage quota monitoring to prevent localStorage from overflowing
 import { initializeStorageMonitoring } from '@/utils/storageQuotaManager'
 initializeStorageMonitoring()
