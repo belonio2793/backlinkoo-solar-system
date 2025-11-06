@@ -154,8 +154,8 @@ export function Header({
   return (
     <header
       className={cn(
-        'border-b border-border/50 backdrop-blur-lg sticky top-0 z-[10001] section-ambient',
-        isWhiteBg ? 'bg-white' : (variant === 'translucent' ? 'bg-background/70' : 'bg-background/82')
+        'border-b border-border/50 sticky top-0 z-[10001] section-ambient bg-white',
+        isWhiteBg ? 'bg-white' : (variant === 'translucent' ? 'bg-white' : 'bg-white')
       )}
     >
       <div className="container mx-auto max-w-6xl px-3 sm:px-4 py-3 sm:py-4">
