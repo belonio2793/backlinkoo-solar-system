@@ -179,6 +179,28 @@ export function Header({
             ) : null}
           </div>
           <div className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-end">
+            {/* Logged-in quick nav buttons (visible on sm+) */}
+            {user && (
+              <div className="hidden sm:flex items-center gap-2 mr-2">
+                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard')}>
+                  <Infinity className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Campaigns</span>
+                </Button>
+                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard#automation')}>
+                  <Wand2 className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Automation</span>
+                </Button>
+                <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard#trial')}>
+                  <Sparkles className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Community Blog</span>
+                </Button>
+                <Button variant="ghost" size="sm" className="px-3" onClick={handlePremiumClick}>
+                  <Star className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Premium</span>
+                </Button>
+              </div>
+            )}
+
             <Button
               variant="default"
               size="sm"
@@ -188,6 +210,7 @@ export function Header({
             >
               Open Navigation
             </Button>
+
             <DropdownMenu open={navOpen} onOpenChange={setNavOpen}>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
