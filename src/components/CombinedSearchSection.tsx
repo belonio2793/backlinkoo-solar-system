@@ -198,7 +198,6 @@ export function CombinedSearchSection() {
         <div className="w-full max-w-3xl mx-auto px-4">
           <Tabs defaultValue="website" className="w-full">
             <div className="text-center mb-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-gray-900 mb-6">Search Backlinks & Rankings</h2>
               <TabsList className="inline-flex h-auto p-1 bg-slate-100 rounded-lg">
                 <TabsTrigger value="website" className="px-4 py-2 text-base font-medium rounded">Website</TabsTrigger>
                 <TabsTrigger value="keyword" className="px-4 py-2 text-base font-medium rounded">Keyword</TabsTrigger>
