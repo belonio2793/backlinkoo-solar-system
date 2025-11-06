@@ -27,7 +27,10 @@ const AuthCallback = lazy(() => import('@/pages/AuthCallback'));
 const PasswordReset = lazy(() => import('@/pages/PasswordReset'));
 const TermsOfService = lazy(() => import('@/pages/TermsOfService'));
 const PrivacyPolicy = lazy(() => import('@/pages/PrivacyPolicy'));
-const BlogPreview = lazy(() => import('@/pages/BlogPreview'));
+const BlogPreview = lazy(async () => {
+  const module = await import('@/pages/BlogPreview');
+  return { default: module.BlogPreview };
+});
 const Blog = lazy(async () => {
   const module = await import('@/pages/Blog');
   return { default: module.default || module.BlogListing };
