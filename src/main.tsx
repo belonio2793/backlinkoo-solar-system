@@ -26,6 +26,18 @@ import '@/utils/previewGuard'
 // Lightweight runtime patches: suppress noisy warnings, guard Quill and analytics init
 import '@/utils/runtimePatches'
 
+// Initialize storage quota monitoring to prevent localStorage from overflowing
+import { initializeStorageMonitoring } from '@/utils/storageQuotaManager'
+initializeStorageMonitoring()
+
+// Suppress Firebase warnings in preview environments
+import { suppressFirebaseWarnings } from '@/utils/firebaseErrorHandler'
+suppressFirebaseWarnings()
+
+// Setup deferred analytics loaders to prevent blocking initial page load
+import { initializeDeferredAnalytics } from '@/utils/deferredAnalyticsLoader'
+initializeDeferredAnalytics()
+
 import { patchReactStripReplacement } from '@/lib/emojiSanitizer'
 
 // Strip any Unicode replacement characters from rendered text using the React module directly
