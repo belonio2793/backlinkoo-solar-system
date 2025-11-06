@@ -249,7 +249,7 @@ export default function TrendingKeywordsSidebar({
             type="button"
             aria-expanded={open}
             onClick={() => setOpen(true)}
-            className="fixed left-3 top-1/2 -translate-y-1/2 z-40 bg-background/90 border rounded-r px-3 py-2 shadow flex items-center gap-2 whitespace-nowrap rainbow-outline-onhover"
+            className="fixed left-3 top-1/2 -translate-y-1/2 z-40 bg-white border rounded-r px-3 py-2 shadow flex items-center gap-2 whitespace-nowrap rainbow-outline-onhover"
           >
             <ChevronRight className="w-4 h-4 rotate-180 text-black" />
             <span className="text-xs font-medium flex items-center gap-1">Ask Backlink <span className="text-blue-500">∞</span> AI</span>
