@@ -106,6 +106,7 @@ export const AppWrapper = () => {
           <Route path="/affiliate/promotion-materials" element={<EmailVerificationGuard><PromotionMaterials /></EmailVerificationGuard>} />
           <Route path="/trial-dashboard" element={<GuestDashboard />} />
           <Route path="/ai-live" element={<EnhancedAILive />} />
+          <Route path="/keyword-research" element={<KeywordResearch />} />
 
           {/* Catch-All Route - Auto-discovers and routes to any page in /src/pages */}
           {/* Add new pages to /src/pages and they'll automatically be available without route changes */}
