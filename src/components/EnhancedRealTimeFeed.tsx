@@ -315,20 +315,18 @@ const EnhancedRealTimeFeed: React.FC<EnhancedRealTimeFeedProps> = ({
   return (
     <>
       {/* Backdrop */}
-      <div className="fixed inset-0 z-40 bg-black/10" onClick={onClose} />
+      <div className="fixed inset-0 z-40 bg-white" onClick={onClose} />
       
       {/* Draggable Modal */}
       <div
         ref={dragRef as React.RefObject<HTMLDivElement>}
         style={style}
-        className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden max-w-6xl w-[90vw]"
+        className="bg-white border border-gray-200 rounded-lg overflow-hidden max-w-6xl w-[90vw]"
       >
         {/* Draggable Header */}
         <div
           ref={handleRef as React.RefObject<HTMLDivElement>}
-          className={`flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-purple-50 border-b cursor-move select-none ${
-            isDragging ? 'bg-gradient-to-r from-blue-100 to-purple-100' : ''
-          }`}
+          className={`flex items-center justify-between p-4 bg-white border-b cursor-move select-none`}
         >
           <div className="flex items-center gap-3">
             <Move className="h-4 w-4 text-gray-500" />
