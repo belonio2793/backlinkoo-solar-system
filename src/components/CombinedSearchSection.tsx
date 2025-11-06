@@ -205,23 +205,23 @@ export function CombinedSearchSection() {
             </div>
 
             <TabsContent value="website" className="mt-8">
-              <Card className="w-full bg-transparent border-0 shadow-none">
-                <CardHeader className="pb-0 text-center">
-                  <CardTitle className="flex items-center gap-2 justify-center text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900">
+              <div className="w-full">
+                <div className="text-center mb-6">
+                  <h3 className="flex items-center gap-2 justify-center text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
                     <Search className="w-5 h-5 text-blue-600" />
                     How many backlinks do I need for my website?
-                  </CardTitle>
-                </CardHeader>
+                  </h3>
+                </div>
 
-                <CardContent className="p-6 text-center">
-                  <form onSubmit={handleCheckRanking} className="space-y-3 w-full flex flex-col items-center">
-                    <div className="w-full max-w-md mx-auto space-y-3">
-                      <div className="space-y-2">
+                <form onSubmit={handleCheckRanking} className="w-full">
+                  <div className="relative ui-freeze-on-input">
+                    <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center w-full">
+                      <div className="flex-1 w-full">
                         <Input id="rank-url" aria-label="Website URL" placeholder="enter your website here" value={url} onChange={(e) => setUrl(e.target.value)} onBlur={handleUrlBlur} disabled={loading} className="text-base w-full bg-white/0 border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:ring-0 focus:border-blue-300" />
                         {inputError && <p className="text-xs text-red-600 mt-1">{inputError}</p>}
                       </div>
 
-                      <Button type="submit" disabled={loading || !isUrlValid} className="w-full bg-blue-600 text-white hover:bg-blue-700 font-medium py-2 text-base rounded-md border-transparent">
+                      <Button type="submit" disabled={loading || !isUrlValid} className="bg-blue-600 text-white hover:bg-blue-700 font-medium py-2 text-base rounded-md border-transparent px-6">
                         {loading ? (
                           <>
                             <Loader2 className="w-5 h-5 mr-2 animate-spin" />
@@ -235,22 +235,29 @@ export function CombinedSearchSection() {
                       </Button>
                     </div>
 
+                    {(loading || (!showRankOverlay && !!result)) && (
+                      <div className="mt-4 flex items-center justify-center">
+                        {loading ? (
+                          <div className="text-sm text-muted-foreground">Analyzing website…</div>
+                        ) : (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95"
+                            onClick={() => setShowRankOverlay(true)}
+                          >
+                            View latest ranking analysis
+                          </Button>
+                        )}
+                      </div>
+                    )}
+
                     {user && !isPremium && (
-                      <p className="text-sm text-slate-500 text-center font-medium"><Lock className="w-4 h-4 inline mr-1 text-slate-400" />Upgrade to Premium to save and track rankings</p>
+                      <p className="text-sm text-slate-500 text-center font-medium mt-4"><Lock className="w-4 h-4 inline mr-1 text-slate-400" />Upgrade to Premium to save and track rankings</p>
                     )}
 
                     {user && isPremium && (
-                      <p className="text-sm text-slate-500 text-center font-medium"><CheckCircle2 className="w-4 h-4 inline mr-1 text-slate-400" />Premium: Results will be saved automatically</p>
-                    )}
-
-                    {result && (
-                      <div className="mt-6">
-                        <div className="flex items-center justify-center">
-                          <Button variant="ghost" size="sm" onClick={() => setShowRankOverlay(true)} className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95">
-                            View latest ranking analysis
-                          </Button>
-                        </div>
-                      </div>
+                      <p className="text-sm text-slate-500 text-center font-medium mt-4"><CheckCircle2 className="w-4 h-4 inline mr-1 text-slate-400" />Premium: Results will be saved automatically</p>
                     )}
 
                     {showRankOverlay && (
@@ -284,9 +291,9 @@ export function CombinedSearchSection() {
                         </div>
                       </div>
                     )}
-                  </form>
-                </CardContent>
-              </Card>
+                  </div>
+                </form>
+              </div>
             </TabsContent>
 
             <TabsContent value="keyword" className="mt-8">
@@ -333,7 +340,7 @@ export function CombinedSearchSection() {
                   {(estimateLoading || (!showEstimateOverlay && !!estimateText)) && (
                     <div className="mt-4 flex items-center justify-center">
                       {estimateLoading ? (
-                        <div className="text-sm text-muted-foreground">Analyzing keyword…</div>
+                        <div className="text-sm text-muted-foreground">Analyzing keyword��</div>
                       ) : (
                         <Button
                           variant="ghost"
