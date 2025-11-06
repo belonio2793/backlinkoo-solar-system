@@ -6,7 +6,7 @@ interface RotatingWordProps {
   className?: string;
 }
 
-export const RotatingWord = ({ words, intervalMs = 3500, className = "" }: RotatingWordProps) => {
+export const RotatingWord = ({ words, intervalMs = 10000, className = "" }: RotatingWordProps) => {
   const [index, setIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
