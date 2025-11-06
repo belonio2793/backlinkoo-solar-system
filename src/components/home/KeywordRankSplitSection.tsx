@@ -80,18 +80,8 @@ export const KeywordRankSplitSection = () => {
               <a
                 key={panel.id}
                 href={panel.href}
-                onMouseEnter={() => setActivePanel(key)}
-                onFocus={() => setActivePanel(key)}
-                className={`group relative overflow-hidden rounded-3xl border border-border/40 bg-white p-8 transition-all hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 ${
-                  isActive ? "shadow-lg" : "shadow-sm"
-                }`}
+                className={`group relative overflow-hidden rounded-3xl border border-border/40 bg-white p-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 shadow-sm`}
               >
-                <div
-                  className={`absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-70 ${
-                    isActive ? "opacity-70" : ""
-                  } bg-gradient-to-br ${panel.accent}`}
-                  aria-hidden="true"
-                />
                 <div className="relative z-10 flex h-full flex-col gap-6">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2 text-sm font-semibold text-primary">
