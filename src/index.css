@@ -1254,13 +1254,14 @@ body { top: 0 !important; }
   gap: 0.5rem;
   padding: 0.25rem;
   border-radius: 9999px;
-  background: rgba(148, 163, 184, 0.12);
-  backdrop-filter: blur(8px);
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
   box-shadow: none;
 }
 
 .dark .rainbow-tabs-wrapper {
-  background: rgba(15, 23, 42, 0.55);
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
   box-shadow: none;
 }
 
