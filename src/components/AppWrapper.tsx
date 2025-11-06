@@ -50,6 +50,7 @@ const Automation = lazy(() => import('@/pages/Automation'));
 const DomainsPage = lazy(() => import('@/pages/DomainsPage'));
 const AffiliateProgram = lazy(() => import('@/pages/Affiliate'));
 const KeywordResearch = lazy(() => import('@/pages/KeywordResearch'));
+const Index = lazy(() => import('@/pages/Index'));
 
 export const AppWrapper = () => {
   useReferralTrackingHook();
