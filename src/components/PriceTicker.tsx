@@ -93,15 +93,18 @@ export function PriceTicker({ fixedBottom = false }: { fixedBottom?: boolean }) 
                           className="flex items-center gap-2 text-xs sm:text-sm cursor-default"
                         >
                           <span className="text-black font-normal">{item.name}</span>
-                          <span className={item.ours ? 'px-1.5 py-0.5 rounded bg-primary/10 text-primary font-semibold' : 'text-gray-900 font-medium'}>
-                            {'$'}
-                            {item.price}
-                            {item.note && ' '}
-                            {item.note}
-                          </span>
-                          <span className="text-gray-400">•</span>
+                          {item.ours ? (
+                            <span className="px-1.5 py-0.5 rounded bg-primary/10 text-primary font-semibold uppercase">GUARANTEED BEST PRICE</span>
+                          ) : (
+                            <>
+                              <span className="text-gray-900 font-medium">
+                                {'$'}{item.price}{item.note && ' '}{item.note}
+                              </span>
+                              <span className="text-gray-400">•</span>
+                            </>
+                          )}
                           {item.ours && (
-                            <span className="hidden sm:inline text-xs uppercase tracking-wide font-bold text-primary">OUR PRICE</span>
+                            <span className="hidden sm:inline text-xs uppercase tracking-wide font-bold text-primary ml-2">OUR PRICE</span>
                           )}
                         </div>
                       </TooltipTrigger>
