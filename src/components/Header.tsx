@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
 import { useUserFlow } from '@/contexts/UserFlowContext';
 import { useState, useCallback } from 'react';
-import { Infinity, Home, CreditCard, Menu, LogOut, BookOpen, Star, Search, LineChart, Target } from 'lucide-react';
+import { Infinity, Home, CreditCard, Menu, LogOut, BookOpen, Star, Search, LineChart, Target, Wand2, Sparkles } from 'lucide-react';
 import { LoginModal } from './LoginModal';
 import { AuthService } from '@/services/authService';
 import { supabase } from '@/integrations/supabase/client';
