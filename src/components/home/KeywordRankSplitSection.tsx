@@ -85,8 +85,10 @@ export const KeywordRankSplitSection = () => {
                 <div className="relative z-10 flex h-full flex-col gap-6">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2 text-sm font-semibold text-primary">
-                      {key === "keyword" ? <Search className="h-4 w-4" /> : <LineChart className="h-4 w-4" />}
-                      {panel.label}
+                      <span className="flex items-center gap-2">
+                        {key === "keyword" ? <Search className="h-4 w-4 flex-shrink-0" /> : <LineChart className="h-4 w-4 flex-shrink-0" />}
+                        <span>{panel.label}</span>
+                      </span>
                     </div>
                     <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary/60">
                       {isActive ? "Selected" : "Preview"}
