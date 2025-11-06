@@ -297,6 +297,12 @@ export function CombinedSearchSection() {
 
             <TabsContent value="keyword" className="mt-8">
               <div className="w-full">
+                <div className="text-center mb-6">
+                  <h3 className="flex items-center gap-2 justify-center text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
+                    <Search className="w-5 h-5 text-blue-600" />
+                    Enter any keyword and find out how many backlinks you need for number one rankings
+                  </h3>
+                </div>
                 <div className="mb-6 flex justify-center">
                   <a href="/learn" className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white text-blue-700 hover:bg-blue-50 px-3 py-1 text-sm shadow-sm transition-colors">
                     <BookOpen className="h-4 w-4" />
@@ -311,7 +317,7 @@ export function CombinedSearchSection() {
                       <Input
                         ref={keywordInputRef}
                         id="backlinkKeyword"
-                        placeholder="Enter a keyword"
+                        placeholder="enter your keyword here"
                         value={backlinkKeyword}
                         onFocus={() => setKeywordFocused(true)}
                         onBlur={() => setKeywordFocused(false)}
