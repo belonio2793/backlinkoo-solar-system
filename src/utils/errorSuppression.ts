@@ -21,6 +21,14 @@ const EXTERNAL_ERROR_PATTERNS = [
   /FullStory namespace conflict/i,
   /Please.*_fs_namespace/i,
 
+  // Permissions Policy violations (expected in sandboxed/preview environments)
+  /\[Violation\].*permissions policy/i,
+  /payment is not allowed in this document/i,
+
+  // Resource preload warnings (non-critical performance hint)
+  /The resource.*was preloaded using link preload but not used/i,
+  /Please make sure it has an appropriate/i,
+
   // Analytics/tracking errors (already deferred)
   /Amplitude|DreamData|tracking/i,
 ];
