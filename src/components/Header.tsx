@@ -50,6 +50,8 @@ export function Header({
 
   const [showCreditModal, setShowCreditModal] = useState(false);
   const [showPremiumModal, setShowPremiumModal] = useState(false);
+  // Control the navigation dropdown (toggled by the blue "Open Navigation" button)
+  const [navOpen, setNavOpen] = useState(false);
 
   const handlePremiumClick = useCallback(() => {
     if (onPremiumClick) {
