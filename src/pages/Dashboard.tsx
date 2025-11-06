@@ -64,7 +64,8 @@ import {
   BookOpen,
   Star,
   Wand2,
-  Search
+  Search,
+  LineChart
 } from "lucide-react";
 import { CampaignForm } from "@/components/CampaignForm";
 import { KeywordResearchTool } from "@/components/KeywordResearchTool";
