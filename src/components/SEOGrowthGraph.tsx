@@ -284,13 +284,11 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
   );
 }
 
-function KPI({ label, value, glow }: { label: string; value: string | number; glow: string }) {
+function KPI({ label, value }: { label: string; value: string | number; glow?: string }) {
   return (
     <div className={cn(
-      "relative overflow-hidden rounded-2xl bg-white/90 backdrop-blur border border-border/60 shadow-md p-4 sm:p-5",
-      "transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+      "relative overflow-hidden rounded-2xl bg-white border border-border/60 shadow-sm p-4 sm:p-5"
     )}>
-      <div className={cn("absolute -inset-1 opacity-30 blur-2xl pointer-events-none bg-gradient-to-r", glow)} />
       <div className="relative z-10">
         <div className="text-[11px] uppercase tracking-wider text-gray-500">{label}</div>
         <div className="mt-1 text-xl md:text-2xl font-semibold text-gray-900">{value}</div>
