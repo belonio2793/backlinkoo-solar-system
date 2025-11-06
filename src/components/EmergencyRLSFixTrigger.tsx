@@ -62,7 +62,7 @@ export const EmergencyRLSFixTrigger = () => {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-xl max-w-md mx-4">
+      <div className="bg-white p-6 rounded-lg  max-w-md mx-4">
         <Alert variant="destructive" className="mb-4">
           <AlertTriangle className="h-4 w-4" />
           <AlertDescription>

@@ -224,7 +224,7 @@ export function AdaptiveProgressIndicator({
   if (!isActive) return null;
 
   return (
-    <Card className="border-0 shadow-2xl bg-white/95 backdrop-blur-sm">
+    <Card className="border-0  bg-white ">
       <CardContent className="p-8">
         {/* Header */}
         <div className="text-center mb-8">

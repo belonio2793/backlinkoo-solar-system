@@ -324,7 +324,7 @@ export function ModernBlogTemplate() {
             {tableOfContents.length > 0 && (
               <aside className="lg:col-span-1 order-2 lg:order-1">
                 <div className="sticky top-24">
-                  <Card className="bg-white/80 backdrop-blur-sm border-gray-200 shadow-lg">
+                  <Card className="bg-white  border-gray-200 ">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
                         <BookOpen className="h-4 w-4" />
@@ -407,7 +407,7 @@ export function ModernBlogTemplate() {
       {showScrollTop && (
         <Button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-40 rounded-full w-12 h-12 bg-blue-600 hover:bg-blue-700 shadow-lg"
+          className="fixed bottom-8 right-8 z-40 rounded-full w-12 h-12 bg-blue-600 hover:bg-blue-700 "
           size="icon"
         >
           <ChevronUp className="h-5 w-5" />

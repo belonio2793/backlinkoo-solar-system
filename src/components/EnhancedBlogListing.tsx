@@ -277,7 +277,7 @@ export function EnhancedBlogListing() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
       {/* Header */}
-      <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
+      <header className="border-b border-border/50 bg-background/80  sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 max-w-6xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4 cursor-pointer" onClick={() => navigate('/')}>
@@ -496,7 +496,7 @@ function PostCard({
 
   return (
     <Card 
-      className={`cursor-pointer hover:shadow-lg transition-shadow ${
+      className={`cursor-pointer hover: transition-shadow ${
         expiringSoon ? 'border-red-200 bg-red-50/30' : ''
       }`}
       onClick={() => navigate(`/blog/${post.slug}`)}

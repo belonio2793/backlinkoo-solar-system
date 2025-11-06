@@ -232,7 +232,7 @@ export function Community() {
             change: 'Worldwide'
           }
         ].map((stat, index) => (
-          <Card key={index} className="relative overflow-hidden group hover:shadow-lg transition-all duration-300 hover-scale">
+          <Card key={index} className="relative overflow-hidden group hover: transition-all duration-300 hover-scale">
             <CardContent className="p-6">
               <div className={`absolute inset-0 ${stat.bgColor} opacity-50 group-hover:opacity-70 transition-opacity`}></div>
               <div className="relative">

@@ -634,7 +634,7 @@ export function HomepageBlogGenerator() {
                 }}
               />
             ) : (
-              <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+              <Card className="border-0  bg-white ">
                 <CardHeader className="text-center pb-6">
                   <div className="flex items-center justify-center gap-3 mb-4">
                     <div className="p-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
@@ -746,7 +746,7 @@ export function HomepageBlogGenerator() {
                     onClick={handleGenerate}
                     disabled={isGenerating || !targetUrl || !primaryKeyword || isCheckingAuth}
                     size="lg"
-                    className="w-full text-lg py-6 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium shadow-lg relative overflow-hidden"
+                    className="w-full text-lg py-6 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium  relative overflow-hidden"
                   >
                     {isGenerating ? (
                       <>

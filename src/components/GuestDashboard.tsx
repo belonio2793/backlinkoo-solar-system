@@ -171,7 +171,7 @@ export function GuestDashboard() {
         {/* Trial Posts Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {trialPosts.map((post) => (
-            <Card key={post.id} className="border border-gray-200 hover:shadow-lg transition-shadow">
+            <Card key={post.id} className="border border-gray-200 hover: transition-shadow">
               <CardHeader>
                 <div className="flex items-start justify-between gap-2">
                   <CardTitle className="text-lg line-clamp-2">{post.title}</CardTitle>

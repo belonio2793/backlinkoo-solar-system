@@ -68,7 +68,7 @@ export function BlogDebugInfo() {
           variant="outline"
           size="sm"
           onClick={() => setShowDebug(true)}
-          className="bg-white/90 backdrop-blur-sm"
+          className="bg-white "
         >
           <Database className="h-4 w-4 mr-2" />
           Debug Blog Storage
@@ -79,7 +79,7 @@ export function BlogDebugInfo() {
 
   return (
     <div className="fixed bottom-4 right-4 z-50 w-96 max-h-96 overflow-y-auto">
-      <Card className="bg-white/95 backdrop-blur-sm border shadow-lg">
+      <Card className="bg-white  border ">
         <CardHeader className="pb-2">
           <div className="flex items-center justify-between">
             <CardTitle className="text-sm flex items-center gap-2">

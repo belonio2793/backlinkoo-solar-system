@@ -44,7 +44,7 @@ const AssetCard: React.FC<AssetCardProps> = ({ asset, onDownload, onPreview }) =
   };
 
   return (
-    <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 shadow-2xl hover:shadow-purple-500/25 transition-all duration-700 hover:scale-[1.02] group">
+    <div className="bg-white/5 -xl rounded-3xl p-8 border border-white/10  hover:shadow-purple-500/25 transition-all duration-700 hover:scale-[1.02] group">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h5 className="text-2xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">{asset.name}</h5>
@@ -58,12 +58,12 @@ const AssetCard: React.FC<AssetCardProps> = ({ asset, onDownload, onPreview }) =
         </div>
       </div>
 
-      <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-2xl p-6 mb-8 border border-purple-500/20 shadow-inner backdrop-blur-sm">
+      <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-2xl p-6 mb-8 border border-purple-500/20 shadow-inner ">
         <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 p-2 cursor-pointer hover:scale-105 transition-transform duration-300" onClick={handlePreview}>
           {asset.preview}
           {/* Hover overlay */}
           <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-xl">
-            <div className="bg-white/20 backdrop-blur-sm rounded-full p-4">
+            <div className="bg-white/20  rounded-full p-4">
               <Eye className="h-8 w-8 text-white" />
             </div>
           </div>
@@ -72,7 +72,7 @@ const AssetCard: React.FC<AssetCardProps> = ({ asset, onDownload, onPreview }) =
 
       <div className="flex gap-4">
         <Button
-          className="flex-1 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-700 hover:from-purple-700 hover:via-pink-700 hover:to-purple-800 text-white font-bold text-lg py-3 shadow-xl hover:shadow-purple-500/30 transition-all duration-300"
+          className="flex-1 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-700 hover:from-purple-700 hover:via-pink-700 hover:to-purple-800 text-white font-bold text-lg py-3  hover:shadow-purple-500/30 transition-all duration-300"
           onClick={handleDownload}
         >
           <Download className="h-5 w-5 mr-3" />
@@ -140,15 +140,15 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'High-conversion display ad',
       category: 'display',
       preview: (
-        <div className="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-xl overflow-hidden h-24 shadow-2xl">
+        <div className="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-xl overflow-hidden h-24 ">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer transform -skew-x-12"></div>
           <div className="relative h-full flex items-center justify-between px-8">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-2xl animate-pulse">
+              <div className="w-14 h-14 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center  animate-pulse">
                 <span className="text-2xl font-black text-gray-900">∞</span>
               </div>
               <div>
-                <div className="text-white font-black text-3xl drop-shadow-xl">Backlink ∞</div>
+                <div className="text-white font-black text-3xl drop-">Backlink ∞</div>
                 <div className="text-blue-100 text-lg font-bold">Revolutionary AI Link Building</div>
               </div>
             </div>
@@ -158,7 +158,7 @@ const CreativeAssetsShowcase: React.FC<{
               <div className="text-white text-lg font-bold">High-DA Links • AI Powered • 24h Results</div>
             </div>
             
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-black text-lg hover:from-yellow-300 hover:to-orange-400 transition-all cursor-pointer shadow-2xl transform hover:scale-105">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-black text-lg hover:from-yellow-300 hover:to-orange-400 transition-all cursor-pointer  transform hover:scale-105">
               START FREE TRIAL →
             </div>
           </div>
@@ -176,18 +176,18 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Premium display creative',
       category: 'display',
       preview: (
-        <div className="relative bg-gradient-to-br from-violet-900 via-purple-800 to-indigo-900 rounded-xl overflow-hidden aspect-[6/5] shadow-2xl">
+        <div className="relative bg-gradient-to-br from-violet-900 via-purple-800 to-indigo-900 rounded-xl overflow-hidden aspect-[6/5] ">
           <div className="absolute inset-0 bg-gradient-radial from-yellow-400/30 via-transparent to-transparent"></div>
           <div className="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <div className="w-20 h-20 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mb-6 shadow-2xl animate-pulse">
+            <div className="w-20 h-20 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mb-6  animate-pulse">
               <span className="text-4xl font-black text-gray-900">∞</span>
             </div>
-            <h3 className="text-white font-black text-4xl mb-3 drop-shadow-xl">Backlink ∞</h3>
+            <h3 className="text-white font-black text-4xl mb-3 drop-">Backlink ∞</h3>
             <p className="text-purple-100 text-xl mb-6 font-bold">The Ultimate AI-Powered<br/>Link Building Platform</p>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-4 py-2 rounded-full font-black text-lg mb-6 animate-bounce shadow-xl">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-4 py-2 rounded-full font-black text-lg mb-6 animate-bounce ">
               ⚡ 1000x Faster Than Manual
             </div>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-4 rounded-full font-black text-xl shadow-2xl transform hover:scale-105 transition-all cursor-pointer">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-4 rounded-full font-black text-xl  transform hover:scale-105 transition-all cursor-pointer">
               GET INSTANT ACCESS
             </div>
           </div>
@@ -204,26 +204,26 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Vertical premium ad',
       category: 'display',
       preview: (
-        <div className="relative bg-gradient-to-b from-indigo-900 via-purple-900 to-pink-900 rounded-xl overflow-hidden mx-auto shadow-2xl" style={{ width: '200px', height: '500px' }}>
+        <div className="relative bg-gradient-to-b from-indigo-900 via-purple-900 to-pink-900 rounded-xl overflow-hidden mx-auto " style={{ width: '200px', height: '500px' }}>
           <div className="absolute top-3 left-3 right-3 h-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full"></div>
           
           <div className="relative h-full flex flex-col items-center text-center p-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mt-8 mb-4 shadow-2xl">
+            <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mt-8 mb-4 ">
               <span className="text-2xl font-black text-gray-900">∞</span>
             </div>
-            <h3 className="text-white font-black text-2xl mb-3 drop-shadow-lg">Backlink ∞</h3>
+            <h3 className="text-white font-black text-2xl mb-3 drop-">Backlink ∞</h3>
             <p className="text-purple-100 text-base mb-6 leading-tight font-semibold">AI-Powered<br/>Link Building<br/>Revolution</p>
             
             <div className="space-y-3 flex-1 flex flex-col justify-center">
-              <div className="bg-white/15 backdrop-blur rounded-xl p-3 border border-white/25 shadow-lg">
+              <div className="bg-white/15  rounded-xl p-3 border border-white/25 ">
                 <div className="text-yellow-300 text-sm font-black">🎯 High-DA</div>
                 <div className="text-white text-sm font-bold">Backlinks</div>
               </div>
-              <div className="bg-white/15 backdrop-blur rounded-xl p-3 border border-white/25 shadow-lg">
+              <div className="bg-white/15  rounded-xl p-3 border border-white/25 ">
                 <div className="text-green-300 text-sm font-black">⚡ AI Outreach</div>
                 <div className="text-white text-sm font-bold">Automation</div>
               </div>
-              <div className="bg-white/15 backdrop-blur rounded-xl p-3 border border-white/25 shadow-lg">
+              <div className="bg-white/15  rounded-xl p-3 border border-white/25 ">
                 <div className="text-blue-300 text-sm font-black">📊 Real-time</div>
                 <div className="text-white text-sm font-bold">Analytics</div>
               </div>
@@ -232,7 +232,7 @@ const CreativeAssetsShowcase: React.FC<{
             <div className="text-yellow-300 font-black text-lg mb-2 animate-pulse">⚡ 500% ROI</div>
             <div className="text-white text-sm mb-4 font-semibold">Guaranteed Results</div>
             
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-3 rounded-full font-black text-lg mb-4 shadow-xl transform hover:scale-105 transition-all cursor-pointer">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-3 rounded-full font-black text-lg mb-4  transform hover:scale-105 transition-all cursor-pointer">
               TRY FREE
             </div>
             
@@ -248,14 +248,14 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Mobile-optimized ad',
       category: 'display',
       preview: (
-        <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-xl overflow-hidden h-16 shadow-2xl">
+        <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-xl overflow-hidden h-16 ">
           <div className="relative h-full flex items-center justify-between px-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center ">
                 <span className="text-lg font-black text-gray-900">∞</span>
               </div>
               <div>
-                <div className="text-white font-black text-lg drop-shadow-lg">Backlink ∞</div>
+                <div className="text-white font-black text-lg drop-">Backlink ∞</div>
                 <div className="text-blue-100 text-sm font-bold">AI Link Building</div>
               </div>
             </div>
@@ -280,26 +280,26 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Premium Instagram creative',
       category: 'social',
       preview: (
-        <div className="relative bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-2xl overflow-hidden aspect-square shadow-2xl">
+        <div className="relative bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-2xl overflow-hidden aspect-square ">
           <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/10 to-transparent"></div>
           <div className="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 border-4 border-yellow-400 shadow-2xl">
+            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 border-4 border-yellow-400 ">
               <span className="text-3xl font-black text-purple-600">∞</span>
             </div>
-            <h3 className="text-white font-black text-3xl mb-3 drop-shadow-xl">Backlink ∞</h3>
+            <h3 className="text-white font-black text-3xl mb-3 drop-">Backlink ∞</h3>
             <p className="text-purple-100 text-xl mb-6 font-bold">I just increased my<br/>organic traffic by<br/><span className="text-yellow-300 font-black text-3xl animate-pulse">300%!</span></p>
             <div className="space-y-3 mb-6">
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">✨ Automated Outreach</div>
               </div>
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">📈 High-DA Links Only</div>
               </div>
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">🚀 Instant Results</div>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-4 rounded-full font-black text-xl shadow-2xl">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-4 rounded-full font-black text-xl ">
               Link in Bio
             </div>
             <div className="text-yellow-300 text-lg font-bold mt-4">#SEO #LinkBuilding #Growth</div>
@@ -314,26 +314,26 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Engaging story template',
       category: 'social',
       preview: (
-        <div className="relative bg-gradient-to-b from-pink-500 via-purple-600 to-indigo-600 rounded-3xl overflow-hidden mx-auto shadow-2xl" style={{ width: '220px', height: '400px' }}>
+        <div className="relative bg-gradient-to-b from-pink-500 via-purple-600 to-indigo-600 rounded-3xl overflow-hidden mx-auto " style={{ width: '220px', height: '400px' }}>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/10 to-transparent animate-gradient-shift"></div>
           <div className="relative h-full flex flex-col items-center text-center p-8">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 mt-12 border-4 border-yellow-400 shadow-2xl">
+            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 mt-12 border-4 border-yellow-400 ">
               <span className="text-2xl font-black text-purple-600">∞</span>
             </div>
-            <h3 className="text-white font-black text-3xl mb-3 drop-shadow-xl">Backlink ∞</h3>
+            <h3 className="text-white font-black text-3xl mb-3 drop-">Backlink ∞</h3>
             <p className="text-purple-100 text-xl mb-8 font-bold">Secret to my<br/>SEO success?<br/><span className="text-yellow-300 font-black text-2xl">AI automation!</span></p>
             <div className="flex-1 flex flex-col justify-center space-y-4">
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">✨ 500+ Backlinks</div>
               </div>
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">📊 DA 70+ Sites</div>
               </div>
-              <div className="bg-white/20 backdrop-blur rounded-full px-6 py-3 border border-white/30">
+              <div className="bg-white/20  rounded-full px-6 py-3 border border-white/30">
                 <div className="text-white text-lg font-black">⚡ 24h Delivery</div>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-4 rounded-full font-black text-xl shadow-2xl mt-8">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-4 rounded-full font-black text-xl  mt-8">
               Swipe Up to Try
             </div>
           </div>
@@ -347,7 +347,7 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'High-conversion Facebook ad',
       category: 'social',
       preview: (
-        <div className="relative bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 rounded-2xl overflow-hidden aspect-[1200/630] shadow-2xl">
+        <div className="relative bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 rounded-2xl overflow-hidden aspect-[1200/630] ">
           {/* Animated background elements */}
           <div className="absolute inset-0 opacity-20">
             <div className="absolute top-4 left-4 w-20 h-20 bg-yellow-400 rounded-full blur-xl animate-pulse"></div>
@@ -359,7 +359,7 @@ const CreativeAssetsShowcase: React.FC<{
           <div className="relative h-full flex items-center p-10">
             <div className="flex-1 pr-8">
               {/* Success story header */}
-              <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-xl p-4 mb-6 border border-green-400/30">
+              <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20  rounded-xl p-4 mb-6 border border-green-400/30">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
                     <span className="text-white text-sm font-bold">✓</span>
@@ -370,7 +370,7 @@ const CreativeAssetsShowcase: React.FC<{
               </div>
 
               {/* Main headline */}
-              <h3 className="text-white font-black text-5xl mb-4 drop-shadow-xl leading-tight">
+              <h3 className="text-white font-black text-5xl mb-4 drop- leading-tight">
                 Backlink <span className="text-yellow-400">∞</span>
               </h3>
               <p className="text-blue-100 text-2xl mb-6 font-bold leading-relaxed">
@@ -395,14 +395,14 @@ const CreativeAssetsShowcase: React.FC<{
               </div>
 
               {/* CTA */}
-              <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white px-10 py-5 rounded-2xl font-black text-2xl shadow-2xl inline-block transform hover:scale-105 transition-all cursor-pointer">
+              <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white px-10 py-5 rounded-2xl font-black text-2xl  inline-block transform hover:scale-105 transition-all cursor-pointer">
                 🚀 Start Free Trial - Get 100 Backlinks
               </div>
             </div>
 
             {/* Right side visual */}
             <div className="flex flex-col items-center">
-              <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-2xl animate-pulse mb-6 relative">
+              <div className="w-40 h-40 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center  animate-pulse mb-6 relative">
                 <span className="text-6xl font-black text-gray-900">∞</span>
                 <div className="absolute -top-2 -right-2 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
                   <span className="text-white text-xs font-black">AI</span>
@@ -418,7 +418,7 @@ const CreativeAssetsShowcase: React.FC<{
           </div>
 
           {/* Bottom social proof */}
-          <div className="absolute bottom-4 left-10 right-10 bg-white/10 backdrop-blur-md rounded-xl p-3 border border-white/20">
+          <div className="absolute bottom-4 left-10 right-10 bg-white/10 -md rounded-xl p-3 border border-white/20">
             <div className="flex items-center justify-between text-sm">
               <span className="text-white font-bold">🔥 2,847 businesses grew 300%+ this month</span>
               <span className="text-yellow-300 font-bold">Limited Time: 50% OFF</span>
@@ -434,7 +434,7 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Professional Twitter banner',
       category: 'social',
       preview: (
-        <div className="relative bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 rounded-2xl overflow-hidden aspect-[3/1] shadow-2xl">
+        <div className="relative bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 rounded-2xl overflow-hidden aspect-[3/1] ">
           {/* Grid pattern overlay */}
           <div className="absolute inset-0 opacity-10" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)',
@@ -450,12 +450,12 @@ const CreativeAssetsShowcase: React.FC<{
           <div className="relative h-full flex items-center justify-between p-12">
             {/* Left side */}
             <div className="flex items-center gap-8">
-              <div className="w-24 h-24 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-2xl">
+              <div className="w-24 h-24 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center ">
                 <span className="text-4xl font-black text-gray-900">∞</span>
               </div>
 
               <div>
-                <h3 className="text-white font-black text-4xl mb-2 drop-shadow-xl">
+                <h3 className="text-white font-black text-4xl mb-2 drop-">
                   Backlink <span className="text-yellow-400">∞</span> Affiliate
                 </h3>
                 <p className="text-blue-200 text-xl font-bold mb-3">
@@ -474,7 +474,7 @@ const CreativeAssetsShowcase: React.FC<{
 
             {/* Right side metrics */}
             <div className="text-right">
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl">
+              <div className="bg-white/10 -md rounded-2xl p-6 border border-white/20 ">
                 <div className="text-center mb-4">
                   <div className="text-yellow-400 text-3xl font-black">JOIN THE</div>
                   <div className="text-white text-2xl font-bold">SUCCESS NETWORK</div>
@@ -499,7 +499,7 @@ const CreativeAssetsShowcase: React.FC<{
                   </div>
                 </div>
 
-                <div className="mt-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-3 rounded-full font-black text-lg text-center shadow-xl">
+                <div className="mt-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-3 rounded-full font-black text-lg text-center ">
                   START EARNING TODAY
                 </div>
               </div>
@@ -507,7 +507,7 @@ const CreativeAssetsShowcase: React.FC<{
           </div>
 
           {/* Top notification bar */}
-          <div className="absolute top-4 left-12 right-12 bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-xl p-2 border border-green-400/30">
+          <div className="absolute top-4 left-12 right-12 bg-gradient-to-r from-green-500/20 to-emerald-500/20  rounded-xl p-2 border border-green-400/30">
             <div className="text-center">
               <span className="text-green-300 font-bold text-sm">🔥 TRENDING: New affiliate earned $15,247 in their first month!</span>
             </div>
@@ -525,7 +525,7 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'High-end primary brand logo',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 rounded-2xl overflow-hidden aspect-square shadow-2xl">
+        <div className="relative bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 rounded-2xl overflow-hidden aspect-square ">
           {/* Background elements */}
           <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 via-transparent to-purple-500/10"></div>
           <div className="absolute top-8 right-8 w-4 h-4 bg-yellow-400 rounded-full animate-ping"></div>
@@ -535,10 +535,10 @@ const CreativeAssetsShowcase: React.FC<{
           <div className="relative h-full flex flex-col items-center justify-center p-8">
             {/* Premium logo circle with multiple gradients */}
             <div className="relative mb-6">
-              <div className="w-48 h-48 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl relative">
+              <div className="w-48 h-48 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center  relative">
                 <div className="absolute inset-2 bg-gradient-to-br from-yellow-300 to-orange-400 rounded-full"></div>
                 <div className="relative z-10">
-                  <span className="text-7xl font-black text-gray-900 drop-shadow-lg">∞</span>
+                  <span className="text-7xl font-black text-gray-900 drop-">∞</span>
                 </div>
               </div>
               {/* Glow ring */}
@@ -547,7 +547,7 @@ const CreativeAssetsShowcase: React.FC<{
 
             {/* Brand name with premium styling */}
             <div className="text-center">
-              <h3 className="text-white font-black text-5xl drop-shadow-2xl mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+              <h3 className="text-white font-black text-5xl drop- mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 Backlink ∞
               </h3>
               <div className="bg-gradient-to-r from-yellow-400 to-orange-500 h-1 w-32 mx-auto rounded-full"></div>
@@ -563,7 +563,7 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Corporate logo with professional tagline',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 rounded-2xl overflow-hidden aspect-video shadow-2xl">
+        <div className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 rounded-2xl overflow-hidden aspect-video ">
           {/* Subtle grid pattern */}
           <div className="absolute inset-0 opacity-10" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)',
@@ -575,12 +575,12 @@ const CreativeAssetsShowcase: React.FC<{
             <div className="text-center">
               {/* Logo and brand name combination */}
               <div className="flex items-center justify-center gap-8 mb-6">
-                <div className="w-24 h-24 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl relative">
+                <div className="w-24 h-24 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center  relative">
                   <span className="text-4xl font-black text-gray-900">∞</span>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 blur-lg opacity-30 scale-125"></div>
                 </div>
                 <div>
-                  <h3 className="text-white font-black text-6xl drop-shadow-2xl bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
+                  <h3 className="text-white font-black text-6xl drop- bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
                     Backlink ∞
                   </h3>
                   <div className="bg-gradient-to-r from-transparent via-yellow-400 to-transparent h-1 w-full mt-2"></div>
@@ -606,10 +606,10 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Modern app icon with variants',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden aspect-square shadow-2xl flex items-center justify-center">
+        <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl overflow-hidden aspect-square  flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 animate-pulse"></div>
-          <div className="relative w-40 h-40 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 rounded-full flex items-center justify-center shadow-2xl border-4 border-white/20">
-            <span className="text-6xl font-black text-white drop-shadow-xl">🎯</span>
+          <div className="relative w-40 h-40 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 rounded-full flex items-center justify-center  border-4 border-white/20">
+            <span className="text-6xl font-black text-white drop-">🎯</span>
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-white/10 rounded-2xl"></div>
         </div>
@@ -622,22 +622,22 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Partner & affiliate identification badges',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-emerald-900 via-green-800 to-teal-900 rounded-2xl overflow-hidden shadow-2xl" style={{ aspectRatio: '4/3' }}>
+        <div className="relative bg-gradient-to-br from-emerald-900 via-green-800 to-teal-900 rounded-2xl overflow-hidden " style={{ aspectRatio: '4/3' }}>
           <div className="relative h-full flex flex-col items-center justify-center p-6 text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mb-4 shadow-xl">
+            <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mb-4 ">
               <span className="text-2xl">👑</span>
             </div>
-            <div className="bg-gradient-to-r from-emerald-400 to-green-400 text-gray-900 px-6 py-3 rounded-full font-black text-xl mb-3 shadow-xl">
+            <div className="bg-gradient-to-r from-emerald-400 to-green-400 text-gray-900 px-6 py-3 rounded-full font-black text-xl mb-3 ">
               OFFICIAL PARTNER
             </div>
             <h4 className="text-white font-black text-2xl mb-2">Backlink ∞</h4>
             <p className="text-emerald-200 text-lg font-bold mb-4">Authorized Affiliate</p>
             <div className="grid grid-cols-2 gap-4 text-center">
-              <div className="bg-white/10 rounded-lg p-3 backdrop-blur">
+              <div className="bg-white/10 rounded-lg p-3 ">
                 <div className="text-yellow-300 font-black text-lg">20%</div>
                 <div className="text-white text-sm">Commission</div>
               </div>
-              <div className="bg-white/10 rounded-lg p-3 backdrop-blur">
+              <div className="bg-white/10 rounded-lg p-3 ">
                 <div className="text-green-300 font-black text-lg">24/7</div>
                 <div className="text-white text-sm">Support</div>
               </div>
@@ -653,15 +653,15 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Profile picture & cover optimized',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 rounded-2xl overflow-hidden aspect-square shadow-2xl">
+        <div className="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 rounded-2xl overflow-hidden aspect-square ">
           <div className="relative h-full flex flex-col items-center justify-center p-8 text-center">
             <div className="relative mb-6">
-              <div className="w-32 h-32 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-full flex items-center justify-center shadow-2xl relative">
+              <div className="w-32 h-32 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-full flex items-center justify-center  relative">
                 <span className="text-5xl font-black text-white">∞</span>
                 <div className="absolute inset-0 rounded-full border-4 border-white/30"></div>
               </div>
             </div>
-            <h3 className="text-white font-black text-3xl mb-2 drop-shadow-xl">@BacklinkInfinity</h3>
+            <h3 className="text-white font-black text-3xl mb-2 drop-">@BacklinkInfinity</h3>
             <p className="text-purple-200 text-lg font-bold mb-4">🚀 AI Link Building</p>
             <p className="text-indigo-200 text-sm font-medium mb-4">10K+ SEO Professionals</p>
             <div className="flex items-center gap-4 text-sm">
@@ -685,7 +685,7 @@ const CreativeAssetsShowcase: React.FC<{
       description: 'Professional slide & pitch deck ready',
       category: 'brand',
       preview: (
-        <div className="relative bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 rounded-2xl overflow-hidden aspect-video shadow-2xl">
+        <div className="relative bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 rounded-2xl overflow-hidden aspect-video ">
           <div className="relative h-full p-8">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-4">
@@ -732,11 +732,11 @@ const CreativeAssetsShowcase: React.FC<{
   return (
     <div className="space-y-16">
       {/* DISPLAY BANNERS SECTION */}
-      <div className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 rounded-3xl p-10 border border-purple-500/20 shadow-2xl relative overflow-hidden">
+      <div className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 rounded-3xl p-10 border border-purple-500/20  relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 via-transparent to-pink-500/10"></div>
         <div className="relative">
           <div className="flex items-center gap-6 mb-10">
-            <div className="p-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl shadow-xl">
+            <div className="p-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl ">
               <Monitor className="h-8 w-8 text-white" />
             </div>
             <div>
@@ -764,11 +764,11 @@ const CreativeAssetsShowcase: React.FC<{
       </div>
 
       {/* SOCIAL MEDIA SECTION */}
-      <div className="bg-gradient-to-br from-slate-900 via-pink-900 to-slate-900 rounded-3xl p-10 border border-pink-500/20 shadow-2xl relative overflow-hidden">
+      <div className="bg-gradient-to-br from-slate-900 via-pink-900 to-slate-900 rounded-3xl p-10 border border-pink-500/20  relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-pink-500/10 via-transparent to-purple-500/10"></div>
         <div className="relative">
           <div className="flex items-center gap-6 mb-10">
-            <div className="p-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-2xl shadow-xl">
+            <div className="p-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-2xl ">
               <Share2 className="h-8 w-8 text-white" />
             </div>
             <div>
@@ -798,8 +798,8 @@ const CreativeAssetsShowcase: React.FC<{
 
       {/* Asset Preview Modal */}
       {showPreviewModal && currentPreviewAsset && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg max-w-6xl w-full max-h-[90vh] overflow-hidden shadow-2xl">
+        <div className="fixed inset-0 z-50 bg-black/80  flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg max-w-6xl w-full max-h-[90vh] overflow-hidden ">
             <div className="flex items-center justify-between p-4 border-b border-gray-200">
               <div>
                 <h2 className="text-xl font-semibold">{currentPreviewAsset.name}</h2>
@@ -822,7 +822,7 @@ const CreativeAssetsShowcase: React.FC<{
                     <img
                       src={currentPreviewAsset.dataUrl}
                       alt={currentPreviewAsset.name}
-                      className="max-w-full h-auto rounded-lg shadow-lg"
+                      className="max-w-full h-auto rounded-lg "
                       style={{ maxHeight: '60vh' }}
                     />
                   </div>

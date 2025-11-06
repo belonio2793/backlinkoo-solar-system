@@ -241,7 +241,7 @@ const AdminVerificationQueue = () => {
           ) : pendingCampaigns.length > 0 ? (
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {pendingCampaigns.map((campaign) => (
-                <Card key={campaign.id} className="transition-all duration-300 hover:shadow-lg">
+                <Card key={campaign.id} className="transition-all duration-300 hover:">
                   <CardHeader className="pb-4">
                     <div className="flex items-start justify-between">
                       <div>

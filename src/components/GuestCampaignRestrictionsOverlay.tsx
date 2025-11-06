@@ -135,8 +135,8 @@ export function GuestCampaignRestrictionsOverlay({
         </div>
         
         {/* Restriction overlay */}
-        <div className="absolute inset-0 flex items-center justify-center bg-white/10 backdrop-blur-sm rounded-lg">
-          <Card className="max-w-md mx-4 shadow-lg border-2 border-orange-200 bg-white">
+        <div className="absolute inset-0 flex items-center justify-center bg-white/10  rounded-lg">
+          <Card className="max-w-md mx-4  border-2 border-orange-200 bg-white">
             <CardContent className="p-6 text-center">
               <div className="h-12 w-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white">
                 {restrictionContent.icon}

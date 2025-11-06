@@ -260,7 +260,7 @@ const RealTimeFeedModal: React.FC<RealTimeFeedModalProps> = ({
         ? 'bottom-4 right-4 w-80 h-16' 
         : 'bottom-4 right-4 w-96 h-[600px] max-h-[80vh]'
     }`}>
-      <Card className="h-full shadow-2xl border-2 bg-white">
+      <Card className="h-full  border-2 bg-white">
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">

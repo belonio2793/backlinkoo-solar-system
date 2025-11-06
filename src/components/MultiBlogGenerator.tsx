@@ -387,7 +387,7 @@ export function MultiBlogGenerator({
   // Initialization Phase
   if (phase === 'initializing') {
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
@@ -477,7 +477,7 @@ export function MultiBlogGenerator({
   // Generation Phase
   if (phase === 'generating') {
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500">
@@ -595,7 +595,7 @@ export function MultiBlogGenerator({
     const completedBlogs = blogPosts.filter(p => p.status === 'completed');
     
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-500">

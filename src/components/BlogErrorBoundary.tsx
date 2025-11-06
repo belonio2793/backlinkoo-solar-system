@@ -128,7 +128,7 @@ export const BlogErrorBoundary: React.FC<BlogErrorBoundaryProps> = ({
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
       <div className="container mx-auto px-6 py-12">
-        <Card className="max-w-2xl mx-auto border-0 shadow-xl bg-white/80 backdrop-blur-sm">
+        <Card className="max-w-2xl mx-auto border-0  bg-white ">
           <CardHeader className="text-center pb-6">
             <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-r from-red-100 to-red-200 rounded-full flex items-center justify-center">
               <IconComponent className="w-10 h-10 text-red-600" />

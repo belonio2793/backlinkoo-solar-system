@@ -67,8 +67,8 @@ export function PriceTicker({ fixedBottom = false }: { fixedBottom?: boolean }) 
     <div
       className={
         fixedBottom
-          ? 'fixed inset-x-0 bottom-0 z-[10000] border-t border-border/50 bg-white/90 shadow-[0_-10px_30px_rgba(15,23,42,0.12)] backdrop-blur supports-[backdrop-filter]:bg-white/70'
-          : 'border-b border-border/50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70'
+          ? 'fixed inset-x-0 bottom-0 z-[10000] border-t border-border/50 bg-white shadow-[0_-10px_30px_rgba(15,23,42,0.12)]  supports-[backdrop-filter]:bg-white/70'
+          : 'border-b border-border/50 bg-white  supports-[backdrop-filter]:bg-white/70'
       }
       style={fixedBottom ? { paddingBottom: 'env(safe-area-inset-bottom, 0px)' } : undefined}
     >

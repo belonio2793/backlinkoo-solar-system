@@ -49,7 +49,7 @@ export default function MobileStickyImage() {
       className="fixed bottom-0 left-0 right-0 md:hidden z-50 flex items-center justify-center px-4"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
-      <div className="w-full max-w-3xl bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl shadow-lg flex items-center justify-between p-3">
+      <div className="w-full max-w-3xl bg-white -md border border-slate-200 rounded-xl  flex items-center justify-between p-3">
         <a href="#" onClick={(e) => e.preventDefault()} className="flex items-center gap-3 flex-1">
           <img src={ATTACHMENT_URL} alt="Sticky attachment" className="h-12 w-auto object-contain rounded-md" />
           <div className="flex flex-col text-left">

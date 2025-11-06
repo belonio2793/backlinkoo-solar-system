@@ -96,7 +96,7 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
             </div>
           </div>
           <div className="hidden md:flex items-center justify-center">
-            <div className="bg-white dark:bg-slate-950 rounded-lg p-8 shadow-lg border border-blue-100 dark:border-slate-700">
+            <div className="bg-white dark:bg-slate-950 rounded-lg p-8  border border-blue-100 dark:border-slate-700">
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>

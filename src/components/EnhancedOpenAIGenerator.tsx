@@ -494,7 +494,7 @@ Ensure the anchor text placement follows SEO best practices and genuinely helps 
   );
 
   return (
-    <Card className="border-0 shadow-lg bg-gradient-to-br from-purple-50 to-blue-50">
+    <Card className="border-0  bg-gradient-to-br from-purple-50 to-blue-50">
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
           <div>
@@ -636,7 +636,7 @@ Ensure the anchor text placement follows SEO best practices and genuinely helps 
         <Button
           onClick={handleGenerate}
           disabled={isGenerating || hasErrors}
-          className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+          className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 text-lg  hover: transition-all duration-300"
         >
           {isGenerating ? (
             <>

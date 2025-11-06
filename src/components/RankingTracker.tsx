@@ -533,7 +533,7 @@ export const RankingTracker = () => {
               <Button
                 onClick={checkRanking}
                 disabled={isChecking || !url.trim() || !keyword.trim()}
-                className="min-w-[180px] h-11 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale"
+                className="min-w-[180px] h-11 bg-primary hover:bg-primary/90  hover: transition-all duration-300 hover-scale"
               >
 {isChecking ? "Scanning Google..." : "Submit"}
                 <Search className="h-4 w-4 ml-2" />
@@ -588,7 +588,7 @@ export const RankingTracker = () => {
           ) : (
             <div className="space-y-6">
               {rankings.map((result, index) => (
-                <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                <Card key={index} className="group hover: transition-all duration-300 hover-scale">
                   <CardContent className="p-6">
                     <div className="flex items-start justify-between mb-6">
                       <div className="space-y-2">
@@ -721,7 +721,7 @@ export const RankingTracker = () => {
               ) : (
                 <div className="space-y-6">
                   {savedTargets.slice(0, 20).map((target) => (
-                    <Card key={target.target_id} className="group hover:shadow-lg transition-all duration-300">
+                    <Card key={target.target_id} className="group hover: transition-all duration-300">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-6">
                           <div className="flex-1 space-y-2">

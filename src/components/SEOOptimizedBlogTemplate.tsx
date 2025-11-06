@@ -194,7 +194,7 @@ export function SEOOptimizedBlogTemplate({
         return (
           <div key={id} className="mt-20 mb-10 scroll-mt-24">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center ">
                 <Hash className="w-5 h-5 text-white" />
               </div>
               <h2 
@@ -278,7 +278,7 @@ export function SEOOptimizedBlogTemplate({
 
       case 'list':
         return (
-          <Card key={id} className="mb-10 border-gray-200 bg-gradient-to-br from-gray-50 to-blue-50 hover:shadow-xl transition-all duration-500">
+          <Card key={id} className="mb-10 border-gray-200 bg-gradient-to-br from-gray-50 to-blue-50 hover: transition-all duration-500">
             <CardContent className="p-8">
               <ul className="space-y-5">
                 {element.items.map((item: any, itemIndex: number) => (
@@ -287,7 +287,7 @@ export function SEOOptimizedBlogTemplate({
                     className="flex items-start gap-4 group hover:transform hover:scale-[1.02] transition-all duration-300"
                     style={{ animationDelay: `${itemIndex * 150}ms` }}
                   >
-                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center mt-1 group-hover:shadow-lg transition-all duration-300">
+                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center mt-1 group-hover: transition-all duration-300">
                       <CheckCircle className="w-4 h-4 text-white" />
                     </div>
                     <span 
@@ -303,7 +303,7 @@ export function SEOOptimizedBlogTemplate({
 
       case 'orderedList':
         return (
-          <Card key={id} className="mb-10 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 hover:shadow-xl transition-all duration-500">
+          <Card key={id} className="mb-10 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 hover: transition-all duration-500">
             <CardContent className="p-8">
               <ol className="space-y-5">
                 {element.items.map((item: any, itemIndex: number) => (
@@ -312,7 +312,7 @@ export function SEOOptimizedBlogTemplate({
                     className="flex items-start gap-5 group hover:transform hover:scale-[1.01] transition-all duration-300"
                     style={{ animationDelay: `${itemIndex * 150}ms` }}
                   >
-                    <div className="flex-shrink-0 w-9 h-9 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center group-hover:shadow-lg transition-all duration-300">
+                    <div className="flex-shrink-0 w-9 h-9 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center group-hover: transition-all duration-300">
                       <span className="text-white font-bold text-base">{item.number}</span>
                     </div>
                     <div className="flex-1 pt-1">
@@ -330,7 +330,7 @@ export function SEOOptimizedBlogTemplate({
 
       case 'quote':
         return (
-          <Card key={id} className="mb-10 border-l-8 border-blue-400 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 shadow-lg">
+          <Card key={id} className="mb-10 border-l-8 border-blue-400 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 ">
             <CardContent className="p-8">
               <div className="flex gap-6">
                 <Quote className="w-10 h-10 text-blue-400 flex-shrink-0 mt-2" />
@@ -460,7 +460,7 @@ export function SEOOptimizedBlogTemplate({
       {/* Article Header */}
       <header className="text-center mb-16">
         {/* Meta Information */}
-        <Card className="mb-12 border-blue-100 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 shadow-xl">
+        <Card className="mb-12 border-blue-100 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 ">
           <CardContent className="p-8">
             <div className="flex flex-wrap items-center justify-between gap-6">
               <div className="flex flex-wrap items-center gap-8">
@@ -608,7 +608,7 @@ export function SEOOptimizedBlogTemplate({
 
       {/* Call-to-Action Section */}
       {targetUrl && anchorText && (
-        <Card className="mt-20 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 border-0 text-white shadow-2xl">
+        <Card className="mt-20 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 border-0 text-white ">
           <CardContent className="p-12 text-center">
             <div className="max-w-3xl mx-auto">
               <div className="flex justify-center mb-6">
@@ -622,7 +622,7 @@ export function SEOOptimizedBlogTemplate({
                 href={targetUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 bg-white text-blue-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="inline-flex items-center gap-3 bg-white text-blue-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 "
               >
                 {anchorText}
                 <ArrowRight className="w-6 h-6" />
@@ -638,7 +638,7 @@ export function SEOOptimizedBlogTemplate({
           <Button
             onClick={scrollToTop}
             size="lg"
-            className="w-14 h-14 rounded-full bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 shadow-xl"
+            className="w-14 h-14 rounded-full bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 "
           >
             <ChevronUp className="w-6 h-6" />
           </Button>
@@ -648,7 +648,7 @@ export function SEOOptimizedBlogTemplate({
           <Button
             onClick={() => setShowTOC(!showTOC)}
             size="lg"
-            className="w-14 h-14 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 shadow-xl lg:hidden"
+            className="w-14 h-14 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600  lg:hidden"
           >
             <List className="w-6 h-6" />
           </Button>
@@ -657,7 +657,7 @@ export function SEOOptimizedBlogTemplate({
 
       {/* Reading Progress Footer */}
       <div className="mt-20 text-center">
-        <div className="inline-flex items-center gap-6 px-8 py-4 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl border border-gray-200 shadow-lg">
+        <div className="inline-flex items-center gap-6 px-8 py-4 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl border border-gray-200 ">
           <div className="w-40 h-3 bg-gray-200 rounded-full overflow-hidden">
             <div
               className="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300"

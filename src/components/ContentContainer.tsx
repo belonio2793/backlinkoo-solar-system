@@ -19,7 +19,7 @@ export default function ContentContainer({ variant = 'default', className = '', 
   return (
     <main className={`${maxWidthClass} mx-auto px-6 py-16` + (className ? ` ${className}` : '')}>
       {hero}
-      <div className="bg-white/80 dark:bg-slate-900/70 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 prose prose-slate mx-auto">
+      <div className="bg-white dark:bg-slate-900/70 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 prose prose-slate mx-auto">
         {children}
       </div>
     </main>

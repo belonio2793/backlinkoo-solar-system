@@ -740,7 +740,7 @@ export function DomainBlogTemplateManager({
                 </DialogHeader>
                 <div className="flex justify-center p-4 bg-gray-100 rounded-lg">
                   <div 
-                    className="bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300"
+                    className="bg-white  rounded-lg overflow-hidden transition-all duration-300"
                     style={getDevicePreviewStyle()}
                   >
                     <iframe

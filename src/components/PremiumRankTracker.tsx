@@ -1106,7 +1106,7 @@ export default function PremiumRankTracker() {
             {/* Research panel (preview) */}
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <aside className="md:col-span-1">
-                <div className="rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm p-4 sticky top-24">
+                <div className="rounded-xl border border-border/50 bg-card/50  p-4 sticky top-24">
                   <div className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-4 px-1">Tools</div>
                   <nav className="space-y-2">
                     <button
@@ -1134,7 +1134,7 @@ export default function PremiumRankTracker() {
                   </nav>
                 </div>
               </aside>
-              <section className="md:col-span-4 rounded-xl border border-border/50 bg-card/30 backdrop-blur-sm p-6">
+              <section className="md:col-span-4 rounded-xl border border-border/50 bg-card/30  p-6">
                 {activeTool === 'research' ? (
                   <>
                     <div className="space-y-4">
@@ -1291,7 +1291,7 @@ export default function PremiumRankTracker() {
             </div>
 
             {savedSets.length ? (
-              <div className="rounded-lg border border-border/50 bg-card/30 backdrop-blur-sm p-4 mt-6">
+              <div className="rounded-lg border border-border/50 bg-card/30  p-4 mt-6">
                 <div className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3 px-1">Saved Datasets</div>
                 <div className="flex flex-wrap gap-2">
                   {savedSets.map(s => (

@@ -233,23 +233,23 @@ const BrandGuidelinesPDF: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-5 gap-6 max-w-5xl w-full">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
+            <div className="bg-white/10  rounded-lg p-6 text-center">
               <Target className="h-10 w-10 mx-auto mb-3" />
               <div className="font-semibold text-sm">Brand Identity</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
+            <div className="bg-white/10  rounded-lg p-6 text-center">
               <Palette className="h-10 w-10 mx-auto mb-3" />
               <div className="font-semibold text-sm">Visual Language</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
+            <div className="bg-white/10  rounded-lg p-6 text-center">
               <BookOpen className="h-10 w-10 mx-auto mb-3" />
               <div className="font-semibold text-sm">SEO Academy</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
+            <div className="bg-white/10  rounded-lg p-6 text-center">
               <Globe className="h-10 w-10 mx-auto mb-3" />
               <div className="font-semibold text-sm">Global Standards</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
+            <div className="bg-white/10  rounded-lg p-6 text-center">
               <Rocket className="h-10 w-10 mx-auto mb-3" />
               <div className="font-semibold text-sm">Innovation</div>
             </div>
@@ -1474,7 +1474,7 @@ const BrandGuidelinesPDF: React.FC = () => {
               
               <div className="grid grid-cols-2 gap-6">
                 {category.items.map((service, serviceIndex) => (
-                  <div key={serviceIndex} className="bg-white border border-gray-200 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                  <div key={serviceIndex} className="bg-white border border-gray-200 p-8 rounded-xl hover: transition-shadow">
                     <div className="flex items-start gap-4">
                       <div className="w-3 h-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mt-2"></div>
                       <div className="flex-1">

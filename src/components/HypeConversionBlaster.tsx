@@ -162,9 +162,9 @@ export function HypeConversionBlaster({
         </div>
       )}
 
-      <div className="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center p-4 overflow-y-auto">
+      <div className="fixed inset-0 bg-black/90 -md z-[9999] flex items-center justify-center p-4 overflow-y-auto">
         <Card 
-          className="max-w-4xl w-full border-4 border-red-500 shadow-2xl animate-pulse"
+          className="max-w-4xl w-full border-4 border-red-500  animate-pulse"
           style={{ transform: `scale(${pulseIntensity})` }}
         >
           <CardContent className="p-0">
@@ -211,14 +211,14 @@ export function HypeConversionBlaster({
                   </div>
                 </div>
                 
-                <div className="bg-black/30 p-6 rounded-xl backdrop-blur-sm mb-6">
+                <div className="bg-black/30 p-6 rounded-xl  mb-6">
                   <p className="text-white text-xl leading-relaxed font-semibold">
                     {currentHype.description.replace('{keyword}', keyword).replace('{targetUrl}', targetUrl)}
                   </p>
                 </div>
 
                 {/* COUNTDOWN */}
-                <div className="bg-red-600/80 p-4 rounded-xl backdrop-blur-sm border-4 border-yellow-400 animate-pulse">
+                <div className="bg-red-600/80 p-4 rounded-xl  border-4 border-yellow-400 animate-pulse">
                   <div className="text-white text-6xl font-mono font-black tracking-wider mb-2">
                     {timeRemaining}
                   </div>
@@ -302,7 +302,7 @@ export function HypeConversionBlaster({
                 <Button
                   onClick={onSignUp}
                   size="lg"
-                  className="w-full text-3xl py-8 bg-gradient-to-r from-green-500 via-yellow-500 to-orange-500 hover:from-green-600 hover:via-yellow-600 hover:to-orange-600 text-black font-black shadow-2xl transform hover:scale-110 transition-all duration-300 animate-bounce border-4 border-yellow-400"
+                  className="w-full text-3xl py-8 bg-gradient-to-r from-green-500 via-yellow-500 to-orange-500 hover:from-green-600 hover:via-yellow-600 hover:to-orange-600 text-black font-black  transform hover:scale-110 transition-all duration-300 animate-bounce border-4 border-yellow-400"
                 >
                   <Crown className="mr-4 h-10 w-10" />
                   🚀 YES! MAKE ME THE KING/QUEEN! 🚀

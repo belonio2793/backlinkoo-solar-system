@@ -202,7 +202,7 @@ export function SavedBacklinkReports() {
           const isLocalStorage = report.id.startsWith('local_');
 
           return (
-            <Card key={report.id} className="hover:shadow-lg transition-shadow">
+            <Card key={report.id} className="hover: transition-shadow">
               <CardHeader className="pb-3">
                 <div className="flex items-start justify-between">
                   <div className="flex-1 min-w-0">

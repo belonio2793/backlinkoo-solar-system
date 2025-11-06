@@ -26,7 +26,7 @@ if (typeof window !== 'undefined' && !document.getElementById('backlink-notifica
     .notification-card a { color: #000000 !important; text-decoration: underline !important; }
     .notification-card button { background: #ffffff !important; color: #000000 !important; border: 1px solid rgba(2,6,23,0.08) !important; }
     /* Ensure overlays do not cover notifications */
-    .backdrop-blur, .bg-white\/80, .bg-white\/90, .glass, .overlay, .modal-backdrop { pointer-events: none !important; }
+    ., .bg-white\/80, .bg-white\/90, .glass, .overlay, .modal-backdrop { pointer-events: none !important; }
   `;
   document.head.appendChild(style);
 }

@@ -70,7 +70,7 @@ export function AdminSignIn() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted/20">
-      <Card className="w-full max-w-md shadow-lg">
+      <Card className="w-full max-w-md ">
         <CardHeader className="text-center space-y-4">
           <div className="flex justify-center">
             <div className="p-3 bg-primary/10 rounded-full">

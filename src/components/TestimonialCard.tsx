@@ -59,7 +59,7 @@ export default function TestimonialCard({ t }: { t: Testimonial | null }) {
 
         {/* 3D-ish chart wrapper */}
         <div style={{ perspective: 900 }} className="h-36">
-          <div className="w-full h-full rounded-md shadow-2xl bg-white/80 transform-gpu transition-transform hover:rotate-y-1 hover:scale-102" style={{ transform: 'rotateX(-6deg) translateZ(0)' }}>
+          <div className="w-full h-full rounded-md  bg-white transform-gpu transition-transform hover:rotate-y-1 hover:scale-102" style={{ transform: 'rotateX(-6deg) translateZ(0)' }}>
             <ResponsiveContainer width="100%" height={140}>
               <LineChart data={rankData} margin={{ top: 8, right: 8, left: -14, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" />
@@ -76,7 +76,7 @@ export default function TestimonialCard({ t }: { t: Testimonial | null }) {
           <div className="md:col-span-2">
             <div className="text-xs text-slate-600 mb-2">Traffic trend</div>
             <div className="h-36 rounded-md" style={{ perspective: 900 }}>
-              <div className="w-full h-full rounded-md shadow-2xl bg-white/90 transform-gpu" style={{ transform: 'rotateX(-5deg)' }}>
+              <div className="w-full h-full rounded-md  bg-white transform-gpu" style={{ transform: 'rotateX(-5deg)' }}>
                 <ResponsiveContainer width="100%" height={140}>
                   <BarChart data={visitsData} margin={{ top: 8, right: 8, left: -14, bottom: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -92,7 +92,7 @@ export default function TestimonialCard({ t }: { t: Testimonial | null }) {
             {/* Faux posts */}
             <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
               {(t.social || []).slice(0,3).map((s:any, i:number) => (
-                <div key={i} className="p-2 bg-white/80 border rounded shadow-sm text-xs">
+                <div key={i} className="p-2 bg-white border rounded shadow-sm text-xs">
                   <div className="font-semibold">{s.handle}</div>
                   <div className="text-slate-700">"We found them on {s.platform} and loved the results."</div>
                 </div>

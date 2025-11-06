@@ -615,7 +615,7 @@ Consider local search patterns and cultural preferences for ${country}. Optimize
                     <SelectTrigger className="h-11 flex-1">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="bg-background border shadow-lg z-50">
+                    <SelectContent className="bg-background border  z-50">
                       <SelectItem value="google">
                         <div className="flex items-center gap-2">Google</div>
                       </SelectItem>
@@ -624,7 +624,7 @@ Consider local search patterns and cultural preferences for ${country}. Optimize
                   <Button
                     onClick={performSearch}
                     disabled={isSearching || !searchTerm.trim()}
-                    className="h-11 px-4 bg-primary hover:bg-primary/90 shadow-lg"
+                    className="h-11 px-4 bg-primary hover:bg-primary/90 "
                   >
                     {isSearching ? "Analyzing..." : "Submit"}
                     <Search className="h-4 w-4 ml-2" />
@@ -693,7 +693,7 @@ Consider local search patterns and cultural preferences for ${country}. Optimize
               <CardContent>
                 <div className="grid gap-6">
                   {keywords.map((keyword, index) => (
-                    <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover-scale overflow-hidden">
+                    <Card key={index} className="group hover: transition-all duration-300 hover-scale overflow-hidden">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex items-center gap-3 flex-1">
@@ -819,7 +819,7 @@ Consider local search patterns and cultural preferences for ${country}. Optimize
             ) : (
               <div className="space-y-6">
                 {rankingUrls.map((result, index) => (
-                  <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card key={index} className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6">
                       <div className="flex items-start justify-between mb-4">
                         <div className="flex items-center gap-3 flex-1">

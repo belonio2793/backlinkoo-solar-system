@@ -83,8 +83,8 @@ export function ExitIntentTrigger({
   const MessageIcon = currentMessage.icon;
 
   return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
-      <Card className="max-w-lg w-full border-2 border-blue-500 shadow-2xl">
+    <div className="fixed inset-0 bg-black/70  z-[9999] flex items-center justify-center p-4">
+      <Card className="max-w-lg w-full border-2 border-blue-500 ">
         <CardContent className="p-8 text-center space-y-6">
           {/* Emotional Header */}
           <div className="space-y-4">

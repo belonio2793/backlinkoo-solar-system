@@ -591,7 +591,7 @@ export function ComprehensiveBlogManager() {
               {filteredPosts.map((post) => (
                 <Card
                   key={post.id}
-                  className="group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-white via-gray-50 to-blue-50/30 hover:from-blue-50 hover:via-purple-50 hover:to-indigo-50 cursor-pointer"
+                  className="group hover: transition-all duration-300 border-0 bg-gradient-to-br from-white via-gray-50 to-blue-50/30 hover:from-blue-50 hover:via-purple-50 hover:to-indigo-50 cursor-pointer"
                   onClick={() => navigate(`/blog/${post.slug}`)}
                 >
                   <CardHeader className="pb-3">

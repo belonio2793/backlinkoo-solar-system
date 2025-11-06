@@ -242,7 +242,7 @@ export function CombinedSearchSection() {
                           <Button
                             variant="ghost"
                             size="sm"
-                            className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95"
+                            className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white"
                             onClick={() => setShowRankOverlay(true)}
                           >
                             View latest ranking analysis
@@ -260,8 +260,8 @@ export function CombinedSearchSection() {
                     )}
 
                     {showRankOverlay && (
-                      <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm px-4 py-8" role="dialog" aria-modal="true" onClick={() => setShowRankOverlay(false)}>
-                        <div className="relative w-full max-w-[90vw] sm:max-w-xl md:max-w-2xl lg:max-w-3xl rounded-2xl border border-white/20 bg-black/80 p-6 shadow-2xl" onClick={(e) => e.stopPropagation()}>
+                      <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50  px-4 py-8" role="dialog" aria-modal="true" onClick={() => setShowRankOverlay(false)}>
+                        <div className="relative w-full max-w-[90vw] sm:max-w-xl md:max-w-2xl lg:max-w-3xl rounded-2xl border border-white/20 bg-black/80 p-6 " onClick={(e) => e.stopPropagation()}>
                           <button type="button" className="absolute right-3 top-3 text-white/70 transition hover:text-white" onClick={() => setShowRankOverlay(false)} aria-label="Close ranking overlay">
                             <X className="h-4 w-4" />
                           </button>
@@ -350,7 +350,7 @@ export function CombinedSearchSection() {
                         <Button
                           variant="ghost"
                           size="sm"
-                          className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white/95"
+                          className="h-8 px-3 text-xs sm:text-sm bg-white text-foreground border border-border shadow-sm hover:bg-white"
                           onClick={() => setShowEstimateOverlay(true)}
                         >
                           Show latest estimate
@@ -360,8 +360,8 @@ export function CombinedSearchSection() {
                   )}
 
                   {showEstimateOverlay && (
-                    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm px-4 py-8" role="dialog" aria-modal="true" onClick={() => setShowEstimateOverlay(false)}>
-                      <div className="relative w-full max-w-[90vw] sm:max-w-xl md:max-w-2xl lg:max-w-3xl rounded-2xl border border-white/20 bg-black/80 p-6 shadow-2xl" onClick={(e) => e.stopPropagation()}>
+                    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50  px-4 py-8" role="dialog" aria-modal="true" onClick={() => setShowEstimateOverlay(false)}>
+                      <div className="relative w-full max-w-[90vw] sm:max-w-xl md:max-w-2xl lg:max-w-3xl rounded-2xl border border-white/20 bg-black/80 p-6 " onClick={(e) => e.stopPropagation()}>
                         <button type="button" className="absolute right-3 top-3 text-white/70 transition hover:text-white" onClick={() => setShowEstimateOverlay(false)} aria-label="Close estimate overlay">
                           <X className="h-4 w-4" />
                         </button>

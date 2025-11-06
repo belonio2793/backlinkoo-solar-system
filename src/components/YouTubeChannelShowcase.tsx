@@ -148,7 +148,7 @@ export default function YouTubeChannelShowcase({ handle = 'backlinkoo', manualVi
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-1.5 sm:p-2 flex items-end justify-between gap-2">
                   <div className="max-w-2xl">
-                    <Badge variant="secondary" className="mb-0.5 bg-white/80 text-gray-900 text-xs px-1.5 py-0">Featured</Badge>
+                    <Badge variant="secondary" className="mb-0.5 bg-white text-gray-900 text-xs px-1.5 py-0">Featured</Badge>
                     <h3 className="text-white text-xs sm:text-sm font-semibold leading-tight drop-shadow line-clamp-2">{featured.title}</h3>
                   </div>
                   <Button onClick={() => setOpen(true)} size="sm" className="shadow-md h-7 text-xs">

@@ -223,7 +223,7 @@ export function EliteBlogTemplate() {
       <Header />
       
       {/* Enhanced Reading Progress Bar */}
-      <div className="fixed top-0 left-0 right-0 z-50 h-2 bg-gray-100/80 backdrop-blur-sm">
+      <div className="fixed top-0 left-0 right-0 z-50 h-2 bg-gray-100/80 ">
         <div 
           className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transition-all duration-300 ease-out relative"
           style={{ width: `${readingProgress}%` }}
@@ -234,7 +234,7 @@ export function EliteBlogTemplate() {
 
       {/* Floating Engagement Metrics */}
       <div className="fixed right-6 top-24 z-40 space-y-3 hidden lg:block">
-        <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-2xl">
+        <Card className="bg-white  border-0 ">
           <CardContent className="p-4">
             <div className="text-center space-y-2">
               <div className="flex items-center gap-2">
@@ -256,7 +256,7 @@ export function EliteBlogTemplate() {
               <Button
                 variant="ghost"
                 onClick={() => navigate('/blog')}
-                className="text-gray-600 hover:text-gray-900 hover:bg-white/60 backdrop-blur-sm"
+                className="text-gray-600 hover:text-gray-900 hover:bg-white/60 "
               >
                 <ArrowLeft className="h-5 w-5 mr-2" />
                 Back to Blog
@@ -375,7 +375,7 @@ export function EliteBlogTemplate() {
             {tableOfContents.length > 0 && (
               <aside className="lg:col-span-1 order-2 lg:order-1">
                 <div className="sticky top-32">
-                  <Card className="bg-white/90 backdrop-blur-xl border-0 shadow-2xl overflow-hidden">
+                  <Card className="bg-white -xl border-0  overflow-hidden">
                     <CardContent className="p-8">
                       <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                         <div className="p-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg">
@@ -450,7 +450,7 @@ export function EliteBlogTemplate() {
       {showScrollTop && (
         <Button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-40 rounded-full w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300"
+          className="fixed bottom-8 right-8 z-40 rounded-full w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700  hover:shadow-3xl transform hover:scale-110 transition-all duration-300"
           size="icon"
         >
           <ChevronUp className="h-6 w-6" />

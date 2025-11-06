@@ -493,12 +493,12 @@ export function SuperEnhancedBlogListing() {
                     transition-all duration-500 ease-out transform
                     hover:scale-105 hover:-translate-y-1 active:scale-95
                     ${filterType === key
-                      ? `bg-gradient-to-br ${color} text-white shadow-xl border-0
+                      ? `bg-gradient-to-br ${color} text-white  border-0
                          before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-br before:${hoverColor}
                          before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300`
-                      : `bg-white/90 backdrop-blur-sm border-2 border-gray-200/50 text-gray-700
+                      : `bg-white  border-2 border-gray-200/50 text-gray-700
                          hover:bg-white hover:border-opacity-70 hover:text-gray-800
-                         hover:shadow-lg hover:shadow-gray-200/50`
+                         hover: hover:shadow-gray-200/50`
                     }
                     before:content-[''] before:absolute before:inset-0 before:rounded-2xl
                     ${filterType !== key ? `before:bg-gradient-to-br before:${color} before:opacity-0 hover:before:opacity-5 before:transition-all before:duration-300` : ''}
@@ -539,7 +539,7 @@ export function SuperEnhancedBlogListing() {
                   {/* Active indicator dot with gradient */}
                   {filterType === key && (
                     <div
-                      className={`absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-br ${activeIndicator} rounded-full shadow-lg border-2 border-white/30`}
+                      className={`absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-br ${activeIndicator} rounded-full  border-2 border-white/30`}
                       style={{ animation: 'gradientPulse 2s ease-in-out infinite' }}
                     >
                       <div className="absolute inset-0.5 bg-gradient-to-br from-white/40 to-white/10 rounded-full"></div>
@@ -559,7 +559,7 @@ export function SuperEnhancedBlogListing() {
           {loading && (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[...Array(6)].map((_, i) => (
-                <Card key={i} className="relative overflow-hidden border-0 shadow-xl bg-white/80 backdrop-blur-sm">
+                <Card key={i} className="relative overflow-hidden border-0  bg-white ">
                   <div className="absolute inset-0 bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 animate-shimmer"></div>
                   <CardHeader className="space-y-4">
                     <div className="h-6 bg-gray-300 rounded-lg w-3/4 animate-pulse"></div>
@@ -583,7 +583,7 @@ export function SuperEnhancedBlogListing() {
                 <div className="text-center py-20">
                   <div className="relative inline-block mb-8">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 blur-2xl opacity-20 animate-pulse"></div>
-                    <div className="relative p-6 bg-white/80 backdrop-blur-sm rounded-3xl border-2 border-white/50 shadow-xl">
+                    <div className="relative p-6 bg-white  rounded-3xl border-2 border-white/50 ">
                       <BookOpen className="h-20 w-20 text-gray-400 mx-auto mb-4" />
                     </div>
                   </div>
@@ -707,7 +707,7 @@ export function SuperEnhancedBlogListing() {
                 {/* Redesigned search container with glass morphism */}
                 <div className="relative group">
                   {/* Background with gradient and glass effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-50 via-white to-blue-50 rounded-2xl border border-blue-100/50 backdrop-blur-xl transition-all duration-500 group-focus-within:from-blue-100 group-focus-within:to-blue-50"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-50 via-white to-blue-50 rounded-2xl border border-blue-100/50 -xl transition-all duration-500 group-focus-within:from-blue-100 group-focus-within:to-blue-50"></div>
 
                   {/* Animated border glow */}
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 opacity-0 group-focus-within:opacity-20 rounded-2xl blur-xl transition-all duration-500"></div>
@@ -755,7 +755,7 @@ export function SuperEnhancedBlogListing() {
 
             {/* Enhanced Popular searches section */}
             <div className="mb-6">
-              <div className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-slate-200/50 dark:border-slate-700/50 p-6 backdrop-blur-sm">
+              <div className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-slate-200/50 dark:border-slate-700/50 p-6 ">
                 {/* Decorative elements */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full -translate-y-16 translate-x-16 blur-2xl"></div>
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-emerald-400/10 to-blue-400/10 rounded-full translate-y-12 -translate-x-12 blur-xl"></div>
@@ -784,7 +784,7 @@ export function SuperEnhancedBlogListing() {
                           searchPosts(term);
                           setCurrentPage(1); // Reset to first page when searching
                         }}
-                        className="group relative px-6 py-3 text-sm font-medium bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200/70 dark:border-slate-700/70 rounded-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
+                        className="group relative px-6 py-3 text-sm font-medium bg-white dark:bg-slate-800/80  border border-slate-200/70 dark:border-slate-700/70 rounded-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
                         style={{
                           animation: `fade-in 0.6s ease-out forwards ${index * 100}ms`
                         }}
@@ -896,8 +896,8 @@ function SuperPostCard({
   return (
     <Card 
       className={`
-        group relative overflow-hidden border-0 shadow-xl bg-white/90 backdrop-blur-sm 
-        hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.02]
+        group relative overflow-hidden border-0  bg-white  
+        hover: transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.02]
         cursor-pointer animate-fade-in
         ${expiringSoon ? 'ring-2 ring-red-400 ring-opacity-50' : ''}
       `}
@@ -921,8 +921,8 @@ function SuperPostCard({
               className={`
                 px-3 py-1 font-semibold transition-all duration-300 transform hover:scale-105
                 ${post.claimed 
-                  ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white shadow-lg' 
-                  : 'bg-gradient-to-r from-yellow-500 to-orange-500 text-white shadow-lg'
+                  ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white ' 
+                  : 'bg-gradient-to-r from-yellow-500 to-orange-500 text-white '
                 }
               `}
             >
@@ -1022,7 +1022,7 @@ function SuperPostCard({
           <div className={`
             text-sm mb-4 p-3 rounded-xl border transition-all duration-300
             ${expiringSoon 
-              ? 'bg-gradient-to-r from-red-50 to-pink-50 text-red-700 border-red-200 shadow-lg' 
+              ? 'bg-gradient-to-r from-red-50 to-pink-50 text-red-700 border-red-200 ' 
               : 'bg-gradient-to-r from-amber-50 to-orange-50 text-amber-700 border-amber-200'
             }
           `}>

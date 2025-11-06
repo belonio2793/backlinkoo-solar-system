@@ -269,7 +269,7 @@ export function EnhancedUnifiedPaymentModal({
             key={plan.id}
             className={`cursor-pointer transition-all border-2 ${
               selectedCreditPlan === plan.id 
-                ? 'border-primary shadow-lg' 
+                ? 'border-primary ' 
                 : 'border-gray-200 hover:border-primary/50'
             } ${plan.popular ? 'ring-2 ring-primary/20' : ''}`}
             onClick={() => {
@@ -314,7 +314,7 @@ export function EnhancedUnifiedPaymentModal({
       <Card 
         className={`cursor-pointer transition-all border-2 ${
           showCustomCredits 
-            ? 'border-primary shadow-lg' 
+            ? 'border-primary ' 
             : 'border-gray-200 hover:border-primary/50'
         }`}
         onClick={() => {

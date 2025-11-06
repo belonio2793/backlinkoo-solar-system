@@ -67,7 +67,7 @@ export const BlogTemplateSystemSummary: React.FC = () => {
       {/* System Improvements */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {improvements.map((improvement, index) => (
-          <Card key={index} className="hover:shadow-lg transition-shadow">
+          <Card key={index} className="hover: transition-shadow">
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
                 <div className="p-2 bg-blue-100 rounded-lg text-blue-600">

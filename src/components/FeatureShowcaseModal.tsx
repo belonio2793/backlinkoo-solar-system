@@ -169,7 +169,7 @@ export function FeatureShowcaseModal({ open, initialFeature = "campaigns", onOpe
           <div className="text-xl font-semibold mb-2 flex items-center gap-2"><Sparkles className="h-5 w-5 text-purple-600"/>{slide.pinchline || slide.pitc || slide.pitch}</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
             {slide.benefits?.map((b: string, i: number) => (
-              <div key={i} className="flex items-start gap-2 bg-white/70 backdrop-blur rounded-lg border p-3">
+              <div key={i} className="flex items-start gap-2 bg-white/70  rounded-lg border p-3">
                 <CheckCircle className="h-4 w-4 text-green-600 mt-0.5"/>
                 <span className="text-sm">{b}</span>
               </div>

@@ -263,7 +263,7 @@ export function StreamlinedPremiumCheckout({
         {Object.entries(plans).map(([key, plan]) => (
           <Card 
             key={key}
-            className={`cursor-pointer transition-all duration-200 hover:shadow-lg ${
+            className={`cursor-pointer transition-all duration-200 hover: ${
               selectedPlan === key ? 'ring-2 ring-blue-500 bg-blue-50' : ''
             }`}
             onClick={() => setSelectedPlan(key as 'monthly' | 'yearly')}

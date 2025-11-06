@@ -176,8 +176,8 @@ export function IrresistibleAccountTrigger({
   ];
 
   return (
-    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <Card className={`max-w-4xl w-full max-h-[90vh] overflow-y-auto border-4 ${colors.border} shadow-2xl`}>
+    <div className="fixed inset-0 bg-black/60  z-50 flex items-center justify-center p-4">
+      <Card className={`max-w-4xl w-full max-h-[90vh] overflow-y-auto border-4 ${colors.border} `}>
         <CardContent className="p-8 space-y-8">
           {/* Warning Header */}
           <div className="text-center space-y-4">
@@ -341,7 +341,7 @@ export function IrresistibleAccountTrigger({
             <Button
               onClick={onSignUp}
               size="lg"
-              className="w-full text-xl py-6 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white font-bold shadow-2xl transform hover:scale-[1.02] transition-all duration-200"
+              className="w-full text-xl py-6 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white font-bold  transform hover:scale-[1.02] transition-all duration-200"
             >
               <Gift className="mr-3 h-6 w-6" />
               🎁 YES! Create My FREE Account & Save Everything

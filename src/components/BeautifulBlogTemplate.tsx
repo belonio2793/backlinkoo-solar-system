@@ -251,7 +251,7 @@ export function BeautifulBlogTemplate() {
       </div>
 
       {/* Blog Navigation */}
-      <div className="border-b border-gray-100 bg-white/95 backdrop-blur-sm sticky top-0 z-40">
+      <div className="border-b border-gray-100 bg-white  sticky top-0 z-40">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Button
@@ -475,7 +475,7 @@ export function BeautifulBlogTemplate() {
       {showBackToTop && (
         <Button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-50 rounded-full w-12 h-12 shadow-lg bg-blue-600 hover:bg-blue-700"
+          className="fixed bottom-6 right-6 z-50 rounded-full w-12 h-12  bg-blue-600 hover:bg-blue-700"
           size="sm"
         >
           <ChevronUp className="h-4 w-4" />

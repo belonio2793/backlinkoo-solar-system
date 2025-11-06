@@ -232,7 +232,7 @@ export const AnimatedTestimonials: React.FC<AnimatedTestimonialsProps> = ({
             key={`${testimonial.id}-${currentIndex}`}
             className={`relative overflow-hidden border-2 transition-all duration-700 transform ${
               index === 1 
-                ? 'scale-105 border-primary/30 shadow-lg bg-gradient-to-br from-primary/5 to-blue-50' 
+                ? 'scale-105 border-primary/30  bg-gradient-to-br from-primary/5 to-blue-50' 
                 : 'border-gray-200 hover:border-primary/20 hover:shadow-md'
             } animate-in slide-in-from-bottom-4 fade-in`}
             style={{

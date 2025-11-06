@@ -158,7 +158,7 @@ export function EnhancedBlogContent({ content, keyword, anchorText, targetUrl }:
 
       case 'list':
         return (
-          <Card key={id} className="mb-8 border-gray-200 bg-gradient-to-br from-gray-50 to-blue-50 hover:shadow-lg transition-all duration-300">
+          <Card key={id} className="mb-8 border-gray-200 bg-gradient-to-br from-gray-50 to-blue-50 hover: transition-all duration-300">
             <div className="p-6">
               <ul className="space-y-4">
                 {element.items.map((item: any, index: number) => (
@@ -182,7 +182,7 @@ export function EnhancedBlogContent({ content, keyword, anchorText, targetUrl }:
 
       case 'orderedList':
         return (
-          <Card key={id} className="mb-8 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 hover:shadow-lg transition-all duration-300">
+          <Card key={id} className="mb-8 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 hover: transition-all duration-300">
             <div className="p-6">
               <ol className="space-y-4">
                 {element.items.map((item: any, index: number) => (
@@ -322,7 +322,7 @@ export function EnhancedBlogContent({ content, keyword, anchorText, targetUrl }:
               href={targetUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-all duration-200 transform hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-all duration-200 transform hover:scale-105 "
             >
               {anchorText}
               <ArrowRight className="w-5 h-5" />
@@ -337,7 +337,7 @@ export function EnhancedBlogContent({ content, keyword, anchorText, targetUrl }:
         {showScrollTop && (
           <button
             onClick={scrollToTop}
-            className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 rounded-full shadow-lg flex items-center justify-center text-white transition-all duration-300 hover:scale-110"
+            className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 rounded-full  flex items-center justify-center text-white transition-all duration-300 hover:scale-110"
           >
             <ChevronUp className="w-5 h-5" />
           </button>
@@ -347,7 +347,7 @@ export function EnhancedBlogContent({ content, keyword, anchorText, targetUrl }:
         {headings.length > 2 && (
           <button
             onClick={() => setShowTOC(!showTOC)}
-            className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 rounded-full shadow-lg flex items-center justify-center text-white transition-all duration-300 hover:scale-110 lg:hidden"
+            className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 rounded-full  flex items-center justify-center text-white transition-all duration-300 hover:scale-110 lg:hidden"
           >
             <List className="w-5 h-5" />
           </button>

@@ -114,7 +114,7 @@ export const GlobalNotifications = () => {
   return (
     <div className="fixed top-4 right-4 z-50 space-y-2 max-w-sm" role="region" aria-label="Site notifications">
       {notifications.map((n) => (
-        <Card key={n.id} className="p-3 bg-white/95 backdrop-blur-sm border shadow-lg animate-slide-in-right">
+        <Card key={n.id} className="p-3 bg-white  border  animate-slide-in-right">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               {iconFor(n.type)}

@@ -138,12 +138,12 @@ export const SEOCaseStudiesRotator: React.FC<{ restoreSignal?: number }> = ({ re
           }}
         >
           <div className={`transition-all duration-200 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-1'}`}>
-            <div className="rounded-xl pricing-card-rainbow border border-blue-200/50 bg-white/80 backdrop-blur px-5 sm:px-6 pr-10 sm:pr-12 py-3 shadow-sm relative">
+            <div className="rounded-xl pricing-card-rainbow border border-blue-200/50 bg-white  px-5 sm:px-6 pr-10 sm:pr-12 py-3 shadow-sm relative">
               <button
                 type="button"
                 onClick={handleDismiss}
                 aria-label="Dismiss SEO case studies widget"
-                className="absolute right-3 top-3 rounded-full p-1.5 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-200/60 bg-white/80 hover:bg-white"
+                className="absolute right-3 top-3 rounded-full p-1.5 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-200/60 bg-white hover:bg-white"
               >
                 <X className="h-4 w-4" />
               </button>

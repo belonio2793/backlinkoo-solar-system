@@ -247,12 +247,12 @@ const FeedModal: React.FC<FeedModalProps> = ({
   if (isMinimized) {
     return (
       <div className="fixed bottom-4 right-4 z-50 animate-in slide-in-from-right-4 duration-300">
-        <Card className="w-80 shadow-xl border-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-2xl transition-all duration-300 hover:scale-105">
+        <Card className="w-80  border-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white hover: transition-all duration-300 hover:scale-105">
           <CardHeader className="pb-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg"></div>
+                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse "></div>
                   <CardTitle className="text-sm font-semibold">Feed</CardTitle>
                 </div>
                 {activeCampaign && (
@@ -310,7 +310,7 @@ const FeedModal: React.FC<FeedModalProps> = ({
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg"></div>
+                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse "></div>
                   <CardTitle className="text-xl font-semibold">Feed</CardTitle>
                 </div>
                 {activeCampaign && (

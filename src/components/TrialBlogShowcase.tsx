@@ -243,7 +243,7 @@ export const TrialBlogShowcase = ({ limit = 6 }: TrialBlogShowcaseProps) => {
           return (
             <Card 
               key={post.id || post.slug || index}
-              className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-0 shadow-lg bg-gradient-to-br from-white to-gray-50/50 hover:from-white hover:to-blue-50/30 overflow-hidden"
+              className="group hover: transition-all duration-300 cursor-pointer border-0  bg-gradient-to-br from-white to-gray-50/50 hover:from-white hover:to-blue-50/30 overflow-hidden"
               onClick={() => navigate(`/blog/${post.slug}`)}
             >
               <CardHeader className="pb-3">

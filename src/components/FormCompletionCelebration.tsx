@@ -33,7 +33,7 @@ const FormCompletionCelebration: React.FC<FormCompletionCelebrationProps> = ({
       <div className="relative">
         {/* Main celebration icon */}
         <div className="animate-bounce">
-          <CheckCircle className="w-16 h-16 text-green-500 drop-shadow-lg" />
+          <CheckCircle className="w-16 h-16 text-green-500 drop-" />
         </div>
         
         {/* Sparkle effects */}

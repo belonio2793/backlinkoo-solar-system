@@ -320,8 +320,8 @@ export function PremiumPlanModal({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Monthly Plan */}
         <Card 
-          className={`cursor-pointer transition-all duration-200 hover:shadow-lg ${
-            selectedPlan === 'monthly' ? 'ring-2 ring-purple-500 shadow-lg' : ''
+          className={`cursor-pointer transition-all duration-200 hover: ${
+            selectedPlan === 'monthly' ? 'ring-2 ring-purple-500 ' : ''
           }`}
           onClick={() => setSelectedPlan('monthly')}
         >
@@ -354,8 +354,8 @@ export function PremiumPlanModal({
 
         {/* Yearly Plan */}
         <Card 
-          className={`cursor-pointer transition-all duration-200 hover:shadow-lg relative ${
-            selectedPlan === 'yearly' ? 'ring-2 ring-purple-500 shadow-lg' : ''
+          className={`cursor-pointer transition-all duration-200 hover: relative ${
+            selectedPlan === 'yearly' ? 'ring-2 ring-purple-500 ' : ''
           }`}
           onClick={() => setSelectedPlan('yearly')}
         >

@@ -587,7 +587,7 @@ export function DomainBlogTemplateManagerFixed({
               {allThemes.map(theme => (
                 <Card
                   key={theme.id}
-                  className={`cursor-pointer transition-all duration-200 hover:shadow-lg ${
+                  className={`cursor-pointer transition-all duration-200 hover: ${
                     selectedTheme === theme.id
                       ? 'ring-2 ring-blue-500 border-blue-500 shadow-md'
                       : 'hover:border-gray-300'
@@ -832,7 +832,7 @@ export function DomainBlogTemplateManagerFixed({
                 </DialogHeader>
                 <div className="flex justify-center p-4 bg-gray-100 rounded-lg">
                   <div
-                    className="bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300"
+                    className="bg-white  rounded-lg overflow-hidden transition-all duration-300"
                     style={getDevicePreviewStyle()}
                   >
                     <div className="w-full h-full overflow-auto">

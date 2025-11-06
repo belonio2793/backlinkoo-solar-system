@@ -176,7 +176,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={handleClose}>
-      <DialogContent className="sm:max-w-4xl mx-auto bg-white border-0 shadow-2xl p-0 overflow-hidden">
+      <DialogContent className="sm:max-w-4xl mx-auto bg-white border-0  p-0 overflow-hidden">
 
         {step === 'email' && (
           <div className="relative">
@@ -193,10 +193,10 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                 <div className="text-white space-y-8">
                   <div className="space-y-6 waitlist-slide-up">
                     <div className="flex items-center gap-3">
-                      <div className="p-3 bg-white/20 backdrop-blur-sm rounded-2xl waitlist-float">
+                      <div className="p-3 bg-white/20  rounded-2xl waitlist-float">
                         <Infinity className="w-8 h-8 text-white" />
                       </div>
-                      <div className="text-sm font-medium bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
+                      <div className="text-sm font-medium bg-white/20  px-4 py-2 rounded-full border border-white/30">
                         🚀 Launching Q1 2025
                       </div>
                     </div>
@@ -216,7 +216,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
 
                   {/* Key Benefits */}
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center gap-3 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
+                    <div className="flex items-center gap-3 p-4 bg-white/10  rounded-xl border border-white/20">
                       <div className="p-2 bg-green-500 rounded-lg">
                         <TrendingUp className="w-5 h-5 text-white" />
                       </div>
@@ -226,7 +226,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                       </div>
                     </div>
                     
-                    <div className="flex items-center gap-3 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
+                    <div className="flex items-center gap-3 p-4 bg-white/10  rounded-xl border border-white/20">
                       <div className="p-2 bg-purple-500 rounded-lg">
                         <Shield className="w-5 h-5 text-white" />
                       </div>
@@ -236,7 +236,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                       </div>
                     </div>
                     
-                    <div className="flex items-center gap-3 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
+                    <div className="flex items-center gap-3 p-4 bg-white/10  rounded-xl border border-white/20">
                       <div className="p-2 bg-orange-500 rounded-lg">
                         <Zap className="w-5 h-5 text-white" />
                       </div>
@@ -246,7 +246,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                       </div>
                     </div>
                     
-                    <div className="flex items-center gap-3 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
+                    <div className="flex items-center gap-3 p-4 bg-white/10  rounded-xl border border-white/20">
                       <div className="p-2 bg-pink-500 rounded-lg">
                         <Globe className="w-5 h-5 text-white" />
                       </div>
@@ -273,7 +273,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                 </div>
 
                 {/* Right Form */}
-                <div className="bg-white rounded-3xl p-8 shadow-2xl waitlist-slide-up waitlist-hover-lift">
+                <div className="bg-white rounded-3xl p-8  waitlist-slide-up waitlist-hover-lift">
                   <div className="text-center mb-8">
                     <div className="mx-auto w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4 waitlist-pulse">
                       <Rocket className="w-8 h-8 text-white" />
@@ -303,7 +303,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
 
                     <Button
                       onClick={handleEmailSubmit}
-                      className="w-full h-14 text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-xl shadow-lg hover:shadow-xl transition-all waitlist-glow-button"
+                      className="w-full h-14 text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-xl  hover: transition-all waitlist-glow-button"
                       disabled={!email}
                     >
                       Continue to Registration
@@ -330,7 +330,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
             <div className="max-w-2xl mx-auto">
               {/* Header */}
               <div className="text-center mb-10">
-                <div className="mx-auto w-20 h-20 bg-gradient-to-r from-green-400 to-blue-500 rounded-3xl flex items-center justify-center mb-6 shadow-lg">
+                <div className="mx-auto w-20 h-20 bg-gradient-to-r from-green-400 to-blue-500 rounded-3xl flex items-center justify-center mb-6 ">
                   <Crown className="w-10 h-10 text-white" />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-3">Create Your Account</h2>
@@ -430,7 +430,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                   </Button>
                   <Button 
                     onClick={handleSignup}
-                    className="flex-2 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 h-12 font-semibold shadow-lg hover:shadow-xl transition-all"
+                    className="flex-2 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 h-12 font-semibold  hover: transition-all"
                     disabled={isLoading || !email || !password || !fullName}
                   >
                     {isLoading ? (
@@ -462,7 +462,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
 
             <div className="relative z-10 text-center p-8 md:p-16 text-white">
               {/* Success Animation */}
-              <div className="mx-auto w-24 h-24 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mb-8 waitlist-bounce">
+              <div className="mx-auto w-24 h-24 bg-white/20  rounded-full flex items-center justify-center mb-8 waitlist-bounce">
                 <CheckCircle className="w-12 h-12 text-white" />
               </div>
 
@@ -476,7 +476,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                 </p>
 
                 {/* Next Steps */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 text-left">
+                <div className="bg-white/10  rounded-2xl p-8 border border-white/20 text-left">
                   <h3 className="text-xl font-bold mb-6 text-center">What Happens Next?</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-4">
@@ -545,7 +545,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                     onSuccess?.();
                     handleClose();
                   }}
-                  className="w-full max-w-md mx-auto bg-white text-blue-600 hover:bg-gray-100 h-14 text-lg font-bold shadow-xl hover:shadow-2xl transition-all"
+                  className="w-full max-w-md mx-auto bg-white text-blue-600 hover:bg-gray-100 h-14 text-lg font-bold  hover: transition-all"
                 >
                   Start Exploring
                   <Sparkles className="w-5 h-5 ml-2" />

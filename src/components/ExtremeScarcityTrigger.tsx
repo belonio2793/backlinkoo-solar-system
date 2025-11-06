@@ -115,9 +115,9 @@ export function ExtremeScarcityTrigger({
   const ScareIcon = currentScare.icon;
 
   return (
-    <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+    <div className="fixed inset-0 bg-black/80  z-[9999] flex items-center justify-center p-4">
       <Card 
-        className="max-w-2xl w-full border-4 border-red-500 shadow-2xl animate-pulse"
+        className="max-w-2xl w-full border-4 border-red-500  animate-pulse"
         style={{ transform: `scale(${pulseIntensity})` }}
       >
         <CardContent className="p-0">
@@ -149,7 +149,7 @@ export function ExtremeScarcityTrigger({
                 </div>
               </div>
               
-              <div className="bg-black/30 p-4 rounded-lg backdrop-blur-sm">
+              <div className="bg-black/30 p-4 rounded-lg ">
                 <div className="text-white text-4xl font-mono font-bold tracking-wider">
                   {timeRemaining}
                 </div>
@@ -225,7 +225,7 @@ export function ExtremeScarcityTrigger({
             <Button
               onClick={onSignUp}
               size="lg"
-              className="w-full text-xl py-6 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white font-bold shadow-2xl transform hover:scale-105 transition-all duration-200 animate-pulse"
+              className="w-full text-xl py-6 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white font-bold  transform hover:scale-105 transition-all duration-200 animate-pulse"
             >
               <Crown className="mr-3 h-6 w-6" />
               🛡️ SAVE MY CONTENT NOW (FREE)

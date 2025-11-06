@@ -270,7 +270,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
           {/* Premium Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {premiumFeatures.map((feature, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-purple-200">
+              <Card key={index} className="group hover: transition-all duration-300 border-2 hover:border-purple-200">
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <div className="p-3 bg-purple-100 rounded-lg text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition-colors">

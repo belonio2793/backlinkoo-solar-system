@@ -153,7 +153,7 @@ export function KillerDeletionWarning({
       )}
 
       <div className="fixed inset-0 hype-popup-overlay z-[9999] flex items-center justify-center p-4">
-        <Card className={`max-w-4xl w-full border-4 border-red-500 shadow-2xl conversion-emergency ${
+        <Card className={`max-w-4xl w-full border-4 border-red-500  conversion-emergency ${
           panicMode ? 'animate-explosive-shake' : 'animate-mega-pulse'
         }`}>
           <CardContent className="p-0">
@@ -201,7 +201,7 @@ export function KillerDeletionWarning({
                   </div>
                 </div>
                 
-                <div className="bg-black/40 p-6 rounded-xl backdrop-blur-sm mb-6 border-4 border-yellow-400">
+                <div className="bg-black/40 p-6 rounded-xl  mb-6 border-4 border-yellow-400">
                   <p className="text-xl leading-relaxed font-bold">
                     {currentDeletion.message
                       .replace(/\{contentTitle\}/g, contentTitle)
@@ -210,7 +210,7 @@ export function KillerDeletionWarning({
                 </div>
 
                 {/* DEATH COUNTDOWN */}
-                <div className={`p-6 rounded-xl backdrop-blur-sm border-4 ${
+                <div className={`p-6 rounded-xl  border-4 ${
                   panicMode ? 'bg-red-600/80 border-yellow-400 animate-explosive-shake' : 'bg-black/40 border-red-400'
                 }`}>
                   <div className="text-lg font-bold mb-2">
@@ -314,7 +314,7 @@ export function KillerDeletionWarning({
                 <Button
                   onClick={onSaveContent}
                   size="lg"
-                  className="w-full text-3xl py-8 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 hover:from-green-600 hover:via-blue-600 hover:to-purple-600 text-white font-black shadow-2xl transform hover:scale-110 transition-all duration-300 animate-mega-pulse border-4 border-yellow-400 money-glow"
+                  className="w-full text-3xl py-8 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 hover:from-green-600 hover:via-blue-600 hover:to-purple-600 text-white font-black  transform hover:scale-110 transition-all duration-300 animate-mega-pulse border-4 border-yellow-400 money-glow"
                 >
                   <Heart className="mr-4 h-10 w-10" />
                   ❤️ SAVE MY CONTENT'S LIFE! ❤️

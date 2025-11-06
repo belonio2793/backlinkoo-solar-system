@@ -890,7 +890,7 @@ const BeautifulBlogPost = () => {
       <Header />
 
       {/* Navigation */}
-      <nav className="relative z-30 border-b border-gray-200/50 bg-white/90 backdrop-blur-md">
+      <nav className="relative z-30 border-b border-gray-200/50 bg-white -md">
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Button
@@ -998,7 +998,7 @@ const BeautifulBlogPost = () => {
         )}
 
         {/* Article Content with Enhanced Formatter */}
-        <Card className="mb-12 shadow-xl bg-white/95">
+        <Card className="mb-12  bg-white">
           <CardContent className="p-8 md:p-12 lg:p-16">
             <ContentProcessor 
               content={blogPost.content || ''} 

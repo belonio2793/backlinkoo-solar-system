@@ -23,7 +23,7 @@ const RealTimeFeedToggle: React.FC<RealTimeFeedToggleProps> = ({
     <div className="fixed bottom-4 left-4 z-40">
       <Button
         onClick={onClick}
-        className="rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+        className="rounded-full  hover: transition-all duration-300 transform hover:scale-105"
         size="lg"
       >
         <div className="flex items-center gap-2">

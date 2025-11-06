@@ -167,7 +167,7 @@ export function FloatingConversionNotifications({
           {floatingAlerts.slice(0, 3).map((alert, index) => (
             <Card 
               key={index}
-              className={`border-2 border-${alert.color}-400 shadow-xl animate-slide-in-right`}
+              className={`border-2 border-${alert.color}-400  animate-slide-in-right`}
               style={{ 
                 animationDelay: `${index * 0.5}s`,
                 transform: `scale(${pulseIntensity})`
@@ -189,7 +189,7 @@ export function FloatingConversionNotifications({
 
       {/* STICKY BOTTOM BAR */}
       {showStickyBar && (
-        <div className="fixed bottom-0 left-0 right-0 z-[9997] bg-gradient-to-r from-red-600 to-orange-600 text-white p-4 shadow-2xl animate-slide-in-bottom">
+        <div className="fixed bottom-0 left-0 right-0 z-[9997] bg-gradient-to-r from-red-600 to-orange-600 text-white p-4  animate-slide-in-bottom">
           <div className="max-w-6xl mx-auto flex items-center justify-between">
             <div className="flex items-center gap-4">
               <NoteIcon className="h-8 w-8 animate-bounce" />
@@ -227,7 +227,7 @@ export function FloatingConversionNotifications({
       {/* CORNER NOTIFICATION */}
       {formProgress.hasKeyword && (
         <div className="fixed top-4 right-4 z-[9996] animate-bounce">
-          <Card className="border-4 border-yellow-400 shadow-2xl bg-gradient-to-r from-yellow-400 to-orange-500">
+          <Card className="border-4 border-yellow-400  bg-gradient-to-r from-yellow-400 to-orange-500">
             <CardContent className="p-4 text-center">
               <div className="flex items-center gap-3">
                 <Lightbulb className="h-6 w-6 text-black animate-pulse" />
@@ -244,7 +244,7 @@ export function FloatingConversionNotifications({
       {/* PROGRESS CELEBRATION */}
       {formProgress.hasUrl && formProgress.hasKeyword && (
         <div className="fixed top-1/2 left-4 z-[9995] animate-pulse">
-          <Card className="border-4 border-green-400 shadow-xl bg-gradient-to-r from-green-400 to-blue-500 text-white">
+          <Card className="border-4 border-green-400  bg-gradient-to-r from-green-400 to-blue-500 text-white">
             <CardContent className="p-6 text-center">
               <Trophy className="h-12 w-12 mx-auto mb-2 animate-bounce" />
               <div className="font-black text-lg">UNSTOPPABLE!</div>
@@ -274,7 +274,7 @@ export function FloatingConversionNotifications({
       {/* SIDE NOTIFICATION STACK */}
       {formProgress.hasAnchor && (
         <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-[9993] space-y-3">
-          <Card className="border-4 border-purple-400 shadow-xl animate-pulse">
+          <Card className="border-4 border-purple-400  animate-pulse">
             <CardContent className="p-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
               <Brain className="h-8 w-8 mx-auto mb-2" />
               <div className="text-center">

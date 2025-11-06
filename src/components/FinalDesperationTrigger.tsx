@@ -101,9 +101,9 @@ export function FinalDesperationTrigger({
   const currentContent = desperationPhases[currentPhase];
 
   return (
-    <div className="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center p-4">
+    <div className="fixed inset-0 bg-black/90 -md z-[9999] flex items-center justify-center p-4">
       <Card 
-        className={`max-w-xl w-full border-4 border-red-500 shadow-2xl ${isShaking ? 'animate-bounce' : ''}`}
+        className={`max-w-xl w-full border-4 border-red-500  ${isShaking ? 'animate-bounce' : ''}`}
       >
         <CardContent className="p-0">
           {/* Desperate Header */}
@@ -122,7 +122,7 @@ export function FinalDesperationTrigger({
                 {currentContent.subtitle}
               </p>
 
-              <div className="bg-black/30 p-4 rounded-lg backdrop-blur-sm">
+              <div className="bg-black/30 p-4 rounded-lg ">
                 <p className="text-white/90 leading-relaxed">
                   {currentContent.message}
                 </p>
@@ -217,7 +217,7 @@ export function FinalDesperationTrigger({
               <Button
                 onClick={onSignUp}
                 size="lg"
-                className="w-full text-2xl py-8 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-black shadow-2xl transform hover:scale-105 transition-all duration-200 animate-pulse"
+                className="w-full text-2xl py-8 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-black  transform hover:scale-105 transition-all duration-200 animate-pulse"
               >
                 <Crown className="mr-4 h-8 w-8" />
                 OK FINE! SAVE MY CONTENT (FREE)

@@ -37,7 +37,7 @@ export default function LifetimePremiumCTA() {
               try { localStorage.setItem('lifetime_cta_hidden', '0'); } catch {}
               setVisible(true);
             }}
-            className="inline-flex items-center justify-center rounded-full p-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg"
+            className="inline-flex items-center justify-center rounded-full p-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white "
           >
             <Crown className="h-4 w-4" />
           </button>
@@ -56,7 +56,7 @@ export default function LifetimePremiumCTA() {
             aria-label="Expand lifetime offer"
             title="Expand lifetime offer"
             onClick={() => setCollapsed(false)}
-            className="inline-flex items-center gap-2 rounded-full px-3 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg"
+            className="inline-flex items-center gap-2 rounded-full px-3 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white "
           >
             <Crown className="h-4 w-4" />
             <ChevronUp className="h-4 w-4" />
@@ -66,7 +66,7 @@ export default function LifetimePremiumCTA() {
           <div className="relative">
             <Button
               onClick={() => setOpen(true)}
-              className="shadow-lg bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 gap-3 pr-10"
+              className=" bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 gap-3 pr-10"
             >
               <Crown className="h-4 w-4" />
               <span className="font-semibold">Premium Lifetime Only $29</span>

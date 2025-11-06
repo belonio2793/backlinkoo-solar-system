@@ -288,7 +288,7 @@ export function InteractiveContentGenerator({
   // Template Selection Phase
   if (currentPhase === 'template') {
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
@@ -352,7 +352,7 @@ export function InteractiveContentGenerator({
   // Content Generation Phase
   if (currentPhase === 'generating') {
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500">
@@ -436,7 +436,7 @@ export function InteractiveContentGenerator({
   // Preview Phase
   if (currentPhase === 'preview' && showPreview) {
     return (
-      <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+      <Card className="border-0  bg-white ">
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-500">
@@ -530,7 +530,7 @@ export function InteractiveContentGenerator({
   return (
     <>
       {currentPhase === 'template' && (
-        <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+        <Card className="border-0  bg-white ">
           {/* Template selection content remains the same */}
         </Card>
       )}

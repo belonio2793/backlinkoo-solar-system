@@ -288,7 +288,7 @@ export function TrialBlogPostsDisplay({ user }: TrialBlogPostsDisplayProps) {
 
   // Component for claimed post card
   const ClaimedPostCard = ({ post }: { post: TrialPost }) => (
-    <Card className="group hover:shadow-lg transition-all duration-200 border-green-200 bg-green-50">
+    <Card className="group hover: transition-all duration-200 border-green-200 bg-green-50">
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between">
           <Badge className="bg-green-100 text-green-700 border-green-200">
@@ -398,7 +398,7 @@ export function TrialBlogPostsDisplay({ user }: TrialBlogPostsDisplayProps) {
               const isExpiringSoon = timeRemaining && timeRemaining.hours < 2;
 
               return (
-                <Card key={post.id} className={`group hover:shadow-lg transition-all duration-200 ${
+                <Card key={post.id} className={`group hover: transition-all duration-200 ${
                   isExpiringSoon ? 'border-red-200 bg-red-50' : 'border-amber-200 bg-amber-50'
                 }`}>
                   <CardHeader className="pb-3">

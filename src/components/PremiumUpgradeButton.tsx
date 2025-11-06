@@ -169,7 +169,7 @@ export function ToolsHeaderUpgradeButton({
       plan="monthly"
       variant="outline"
       size="sm"
-      className="bg-transparent hover:bg-blue-50/50 border border-blue-200/60 text-blue-600 hover:text-blue-700 hover:border-blue-300/80 transition-all duration-200 font-medium px-2 sm:px-4 py-2 backdrop-blur-sm shadow-sm hover:shadow-md"
+      className="bg-transparent hover:bg-blue-50/50 border border-blue-200/60 text-blue-600 hover:text-blue-700 hover:border-blue-300/80 transition-all duration-200 font-medium px-2 sm:px-4 py-2  shadow-sm hover:shadow-md"
       guestEmail={guestEmail}
       onSuccess={onSuccess}
     />

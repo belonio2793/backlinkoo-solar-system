@@ -116,7 +116,7 @@ export function InstantFormTriggerSystem({
       {/* INSTANT FLASH ALERT */}
       {showInstantAlert && (
         <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-[9999] animate-bounce">
-          <Card className="border-4 border-red-500 bg-red-600 text-white shadow-2xl">
+          <Card className="border-4 border-red-500 bg-red-600 text-white ">
             <CardContent className="p-4 text-center">
               <div className="flex items-center gap-3">
                 <Flame className="h-8 w-8 animate-spin" />
@@ -133,8 +133,8 @@ export function InstantFormTriggerSystem({
 
       {/* PRE-TRIGGER WARMUP */}
       {showPreTrigger && (
-        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9998] flex items-center justify-center p-4">
-          <Card className="max-w-lg w-full border-4 border-yellow-500 shadow-2xl animate-pulse">
+        <div className="fixed inset-0 bg-black/70  z-[9998] flex items-center justify-center p-4">
+          <Card className="max-w-lg w-full border-4 border-yellow-500  animate-pulse">
             <CardContent className="p-8 text-center bg-gradient-to-r from-yellow-400 to-orange-500 text-black">
               <div className="space-y-4">
                 <div className="text-6xl animate-bounce">🚨</div>
@@ -170,8 +170,8 @@ export function InstantFormTriggerSystem({
 
       {/* DESPERATION TRIGGER FOR HIGH ENGAGEMENT */}
       {showDesperation && (
-        <div className="fixed inset-0 bg-black/95 backdrop-blur-md z-[9999] flex items-center justify-center p-4">
-          <Card className="max-w-xl w-full border-4 border-red-500 shadow-2xl">
+        <div className="fixed inset-0 bg-black/95 -md z-[9999] flex items-center justify-center p-4">
+          <Card className="max-w-xl w-full border-4 border-red-500 ">
             <CardContent className="p-8 text-center bg-gradient-to-r from-purple-900 to-red-900 text-white">
               <div className="space-y-6">
                 <div className="text-4xl animate-bounce">😭</div>

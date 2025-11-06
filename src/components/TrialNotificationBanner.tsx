@@ -161,7 +161,7 @@ export function TrialNotificationBanner({ onSignUp }: TrialNotificationBannerPro
   const timeRemaining = getTimeRemaining(mostUrgentPost.expires_at);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-red-600 via-orange-600 to-red-600 text-white shadow-lg">
+    <div className="fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-red-600 via-orange-600 to-red-600 text-white ">
       <div className="max-w-7xl mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">

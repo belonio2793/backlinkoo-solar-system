@@ -175,7 +175,7 @@ export const DraggablePricingModal: React.FC<DraggablePricingModalProps> = ({
                     key={plan.id}
                     className={`cursor-pointer transition-all border-2 ${
                       selectedPlan === plan.id 
-                        ? 'border-purple-500 shadow-lg ring-2 ring-purple-200' 
+                        ? 'border-purple-500  ring-2 ring-purple-200' 
                         : 'border-gray-200 hover:border-purple-300'
                     } ${plan.popular ? 'ring-2 ring-purple-100' : ''}`}
                     onClick={() => setSelectedPlan(plan.id)}

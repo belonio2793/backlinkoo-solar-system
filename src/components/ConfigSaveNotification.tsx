@@ -70,7 +70,7 @@ export function ConfigSaveNotification() {
 
   return (
     <div className="fixed top-4 right-4 z-50 max-w-md">
-      <Alert className="border-green-200 bg-green-50 shadow-lg">
+      <Alert className="border-green-200 bg-green-50 ">
         <CheckCircle2 className="h-4 w-4 text-green-600" />
         <div className="flex items-start justify-between">
           <AlertDescription className="text-green-800 pr-8">

@@ -54,8 +54,8 @@ export function ExitIntentPopup({ isVisible, onClose, postTitle, timeRemaining =
   }
 
   return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-md z-50 flex items-center justify-center p-4">
-      <Card className="w-full max-w-4xl bg-gradient-to-br from-white via-white to-blue-50/20 shadow-2xl border-0 rounded-2xl overflow-hidden animate-slide-up">
+    <div className="fixed inset-0 bg-black/70 -md z-50 flex items-center justify-center p-4">
+      <Card className="w-full max-w-4xl bg-gradient-to-br from-white via-white to-blue-50/20  border-0 rounded-2xl overflow-hidden animate-slide-up">
         {/* Header with gradient background */}
         <CardHeader className="relative text-center pb-6 bg-gradient-to-br from-red-500 via-orange-500 to-amber-500 text-white">
           <Button
@@ -70,7 +70,7 @@ export function ExitIntentPopup({ isVisible, onClose, postTitle, timeRemaining =
           {/* Animated icon with glow effect */}
           <div className="flex items-center justify-center mb-4">
             <div className="relative">
-              <div className="h-16 w-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm animate-pulse-glow">
+              <div className="h-16 w-16 bg-white/20 rounded-full flex items-center justify-center  animate-pulse-glow">
                 <Timer className="h-8 w-8 text-white animate-pulse" />
               </div>
               <div className="absolute -top-1 -right-1">
@@ -158,7 +158,7 @@ export function ExitIntentPopup({ isVisible, onClose, postTitle, timeRemaining =
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
             <Button
               onClick={handleCreateAccount}
-              className="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-[1.02]"
+              className="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 text-lg rounded-xl  hover: transition-all duration-200 transform hover:scale-[1.02]"
             >
               <Zap className="h-5 w-5 mr-2" />
               Save This Content Forever

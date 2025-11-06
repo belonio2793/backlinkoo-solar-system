@@ -328,7 +328,7 @@ export function GenerationSequence({
   };
 
   return (
-    <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-sm">
+    <Card className="border-0  bg-white ">
       <CardContent className="p-8">
         <div className="space-y-6">
           {/* Header */}

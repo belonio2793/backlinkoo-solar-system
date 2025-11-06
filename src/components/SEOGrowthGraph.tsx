@@ -183,7 +183,7 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
         </div>
 
         {/* Chart */}
-        <div className="relative rounded-2xl bg-white/80 backdrop-blur border border-border/60 shadow-xl overflow-hidden ring-1 ring-black/5">
+        <div className="relative rounded-2xl bg-white  border border-border/60  overflow-hidden ring-1 ring-black/5">
           <div ref={ref} className="absolute inset-0 z-10" aria-hidden />
           <div className="absolute inset-0 pointer-events-none [mask-image:radial-gradient(90%_80%_at_50%_10%,#000,transparent)]" />
 
@@ -237,7 +237,7 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
                 className="relative w-6 h-full flex items-start"
               >
                 <div
-                  className="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-400 shadow-lg cursor-grab"
+                  className="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-400  cursor-grab"
                   style={{ top: `${(1 - Math.min(1, roiBoost / ROI_MAX)) * 100}%` }}
                 />
               </div>

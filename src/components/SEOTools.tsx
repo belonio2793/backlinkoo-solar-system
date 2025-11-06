@@ -256,7 +256,7 @@ export const SEOTools = () => {
                 <Button 
                   onClick={analyzeDomain} 
                   disabled={isAnalyzing}
-                  className="min-w-[160px] h-11 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale"
+                  className="min-w-[160px] h-11 bg-primary hover:bg-primary/90  hover: transition-all duration-300 hover-scale"
                 >
                   {isAnalyzing ? (
                     <>
@@ -297,7 +297,7 @@ export const SEOTools = () => {
           )}
 
           {domainMetrics && (
-            <Card className="border-0 shadow-lg">
+            <Card className="border-0 ">
               <CardHeader className="pb-6">
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl">Domain Performance Metrics</CardTitle>
@@ -309,7 +309,7 @@ export const SEOTools = () => {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="mb-4">
                         <Badge className={`text-lg px-4 py-2 ${getAuthorityColor(domainMetrics.domainAuthority)}`}>
@@ -323,7 +323,7 @@ export const SEOTools = () => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="mb-4">
                         <Badge className={`text-lg px-4 py-2 ${getAuthorityColor(domainMetrics.pageAuthority)}`}>
@@ -337,7 +337,7 @@ export const SEOTools = () => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="text-3xl font-bold text-primary mb-2">
                         {domainMetrics.backlinks.toLocaleString()}
@@ -349,7 +349,7 @@ export const SEOTools = () => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="text-3xl font-bold text-green-600 mb-2">
                         {domainMetrics.referringDomains.toLocaleString()}
@@ -361,7 +361,7 @@ export const SEOTools = () => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="text-3xl font-bold text-blue-600 mb-2">
                         {domainMetrics.organicKeywords.toLocaleString()}
@@ -373,7 +373,7 @@ export const SEOTools = () => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="group hover:shadow-lg transition-all duration-300 hover-scale">
+                  <Card className="group hover: transition-all duration-300 hover-scale">
                     <CardContent className="p-6 text-center">
                       <div className="text-3xl font-bold text-orange-600 mb-2">
                         {domainMetrics.monthlyTraffic.toLocaleString()}

@@ -261,7 +261,7 @@ export function SimpleBlogTemplateManager({
               {allThemes.map(theme => (
                 <Card
                   key={theme.id}
-                  className={`cursor-pointer transition-all duration-200 hover:shadow-lg ${
+                  className={`cursor-pointer transition-all duration-200 hover: ${
                     selectedTheme === theme.id
                       ? 'ring-2 ring-blue-500 border-blue-500 shadow-md bg-blue-50'
                       : 'hover:border-gray-300'

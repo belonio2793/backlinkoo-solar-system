@@ -314,7 +314,7 @@ export function EnhancedTrialBlogPosts({ user }: EnhancedTrialBlogPostsProps) {
     return (
       <Card 
         key={post.id} 
-        className={`group hover:shadow-lg transition-all duration-300 ${
+        className={`group hover: transition-all duration-300 ${
           isUserPost ? 'border-emerald-200 bg-gradient-to-br from-emerald-50 to-white' : 
           'border-gray-200 hover:border-blue-300'
         }`}

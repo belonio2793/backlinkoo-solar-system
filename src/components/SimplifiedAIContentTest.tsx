@@ -164,7 +164,7 @@ export function SimplifiedAIContentTest() {
         </div>
 
         {/* Main Form Card */}
-        <Card className="mb-6 border-0 shadow-lg">
+        <Card className="mb-6 border-0 ">
           <CardContent className="p-8">
             <div className="space-y-6">
               
@@ -231,7 +231,7 @@ export function SimplifiedAIContentTest() {
 
         {/* Success Result */}
         {showSuccess && generatedResult && (
-          <Card className="border-green-200 bg-green-50 shadow-lg animate-fade-in">
+          <Card className="border-green-200 bg-green-50  animate-fade-in">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-green-800">
                 <CheckCircle2 className="h-6 w-6" />

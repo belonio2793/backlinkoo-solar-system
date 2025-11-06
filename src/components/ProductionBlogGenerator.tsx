@@ -94,7 +94,7 @@ export function ProductionBlogGenerator() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {!isCompleted ? (
-          <Card className="border-0 shadow-lg bg-white">
+          <Card className="border-0  bg-white">
             <CardHeader className="text-center pb-6">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <div className="p-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl">

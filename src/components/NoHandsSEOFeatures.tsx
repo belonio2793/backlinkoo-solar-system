@@ -101,7 +101,7 @@ const NoHandsSEOFeatures = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="transition-all duration-300 hover:shadow-lg">
+            <Card key={index} className="transition-all duration-300 hover:">
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <div className={`p-3 rounded-lg ${feature.bgColor}`}>

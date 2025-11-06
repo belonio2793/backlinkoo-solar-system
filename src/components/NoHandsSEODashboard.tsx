@@ -216,7 +216,7 @@ const NoHandsSEODashboard = () => {
     const daysAgo = Math.floor((Date.now() - new Date(campaign.created_at).getTime()) / (1000 * 60 * 60 * 24));
 
     return (
-      <Card className={`transition-all duration-300 hover:shadow-lg cursor-pointer ${statusConfig.borderColor} ${statusConfig.bgColor} border-2`}>
+      <Card className={`transition-all duration-300 hover: cursor-pointer ${statusConfig.borderColor} ${statusConfig.bgColor} border-2`}>
         <CardHeader className="pb-4">
           <div className="flex items-start justify-between">
             <div className="flex items-center gap-3">
