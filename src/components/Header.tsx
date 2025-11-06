@@ -216,34 +216,34 @@ export function Header({
               <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel>Navigation</DropdownMenuLabel>
                 <DropdownMenuItem onClick={() => navigate('/')}>
-                  <Home className="mr-2 h-4 w-4 text-slate-600" />
-                  Home
+                  <Home className="mr-2 h-4 w-4 text-slate-600 flex-shrink-0" />
+                  <span>Home</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={handlePremiumClick}>
-                  <Star className="mr-2 h-4 w-4 text-yellow-500" />
-                  Upgrade to Premium
+                  <Star className="mr-2 h-4 w-4 text-yellow-500 flex-shrink-0" />
+                  <span>Upgrade to Premium</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={handleBuyCreditsClick}>
-                  <CreditCard className="mr-2 h-4 w-4 text-green-600" />
-                  Buy Credits
+                  <CreditCard className="mr-2 h-4 w-4 text-green-600 flex-shrink-0" />
+                  <span>Buy Credits</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => navigate('/dashboard')}>
-                  <Infinity className="mr-2 h-4 w-4 text-blue-600" />
-                  Dashboard
+                  <Infinity className="mr-2 h-4 w-4 text-blue-600 flex-shrink-0" />
+                  <span>Dashboard</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
-                  <Search className="mr-2 h-4 w-4 text-blue-600" />
-                  Keyword Research
+                  <Search className="mr-2 h-4 w-4 text-blue-600 flex-shrink-0" />
+                  <span>Keyword Research</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
-                  <LineChart className="mr-2 h-4 w-4 text-indigo-600" />
-                  Rank Tracker
+                  <LineChart className="mr-2 h-4 w-4 text-indigo-600 flex-shrink-0" />
+                  <span>Rank Tracker</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
-                  <Target className="mr-2 h-4 w-4 text-emerald-600" />
-                  Ask Backlink ∞ AI
+                  <Target className="mr-2 h-4 w-4 text-emerald-600 flex-shrink-0" />
+                  <span>Ask Backlink ∞ AI</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <div className="px-2 py-2">
@@ -257,8 +257,8 @@ export function Header({
                   </DropdownMenuItem>
                 ) : user ? (
                   <DropdownMenuItem onClick={handleSignOut}>
-                    <LogOut className="mr-2 h-4 w-4 text-rose-500" />
-                    Sign Out
+                    <LogOut className="mr-2 h-4 w-4 text-rose-500 flex-shrink-0" />
+                    <span>Sign Out</span>
                   </DropdownMenuItem>
                 ) : (
                   <>
