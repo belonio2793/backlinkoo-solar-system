@@ -172,9 +172,9 @@ export function Header({
                 style={{ cursor: 'pointer', textDecoration: 'none', background: 'none', border: 'none', padding: 0 }}
               >
                 <div className="p-1.5 rounded-lg">
-                  <Infinity className="h-6 w-6 text-primary" />
+                  <Infinity className="h-6 w-6 text-primary align-middle -mt-0.5" />
                 </div>
-                <h1 className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink ∞</h1>
+                <h1 className="text-lg sm:text-xl font-bold tracking-tight text-foreground align-middle">Backlink ∞</h1>
               </div>
             ) : null}
           </div>
