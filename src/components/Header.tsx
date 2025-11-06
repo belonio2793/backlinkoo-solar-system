@@ -217,6 +217,14 @@ export function Header({
                   <LineChart className="mr-2 h-4 w-4" />
                   Rank Tracker
                 </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#automation')}>
+                  <Wand2 className="mr-2 h-4 w-4" />
+                  Link Building Automation
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  Community Blog
+                </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
                   <Target className="mr-2 h-4 w-4" />
