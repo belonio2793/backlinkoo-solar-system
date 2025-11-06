@@ -56,27 +56,15 @@ export function installSafePaymentPatch(): void {
       }
     } catch {}
 
-    // Intercept any direct payment API calls to prevent violations
-    const handler = {
-      get: function(target: any, prop: string) {
-        if (prop === 'PaymentRequest' || prop === 'paymentHandler') {
-          return null;
-        }
-        return target[prop];
-      }
-    };
-
+    // Block access to deprecated Payment Handler API properties
     try {
-      // Create a proxy around window to intercept payment property access
-      // This prevents payment-related code from triggering violations
-      const windowProxy = new Proxy(window, handler);
-      Object.defineProperty(globalThis, 'window', {
-        value: windowProxy,
-        writable: true,
+      Object.defineProperty(navigator, 'paymentHandler', {
+        value: null,
+        writable: false,
         configurable: true
       });
     } catch (e) {
-      // Proxy creation might fail in some contexts, that's okay
+      // Might fail in some contexts
     }
 
     // Small debug, limited to DEV
