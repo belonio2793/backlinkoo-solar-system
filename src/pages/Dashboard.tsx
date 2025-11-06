@@ -63,7 +63,8 @@ import {
   Crown,
   BookOpen,
   Star,
-  Wand2
+  Wand2,
+  Search
 } from "lucide-react";
 import { CampaignForm } from "@/components/CampaignForm";
 import { KeywordResearchTool } from "@/components/KeywordResearchTool";
