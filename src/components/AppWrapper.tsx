@@ -49,6 +49,7 @@ const AdminDashboard = lazy(() => import('@/pages/AdminDashboard'));
 const Automation = lazy(() => import('@/pages/Automation'));
 const DomainsPage = lazy(() => import('@/pages/DomainsPage'));
 const AffiliateProgram = lazy(() => import('@/pages/Affiliate'));
+const KeywordResearch = lazy(() => import('@/pages/KeywordResearch'));
 
 export const AppWrapper = () => {
   useReferralTrackingHook();
