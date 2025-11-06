@@ -1303,7 +1303,7 @@ const Index = () => {
       {/* Testimonials (last section) */}
       <div className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <AnimatedTestimonials />
+          <AnimatedTestimonials autoplaySpeed={15000} />
         </div>
       </div>
 
