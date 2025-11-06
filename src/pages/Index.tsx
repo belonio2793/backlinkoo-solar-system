@@ -1172,59 +1172,6 @@ const Index = () => {
       className="min-h-screen bg-white font-light relative pb-12"
       style={{ paddingBottom: "calc(5rem + env(safe-area-inset-bottom, 0px))" }}
     >
-      {showEstimateOverlay && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm px-4 py-8"
-          role="dialog"
-          aria-modal="true"
-          onClick={() => setShowEstimateOverlay(false)}
-        >
-          <div
-            className="relative w-full max-w-4xl rounded-2xl border border-white/20 bg-black/80 p-6 shadow-2xl"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <button
-              type="button"
-              className="absolute right-3 top-3 text-white/70 transition hover:text-white"
-              onClick={() => setShowEstimateOverlay(false)}
-              aria-label="Close backlink estimate overlay"
-            >
-              <X className="h-4 w-4" />
-            </button>
-
-            <div className="space-y-4 pt-2 text-white">
-              {lastKeyword ? (
-                <div className="text-xs uppercase tracking-[0.2em] text-white/60">
-                  Keyword: <span className="font-semibold text-white">{lastKeyword}</span>
-                </div>
-              ) : null}
-
-              {estimateLoading ? (
-                <div className="flex items-center gap-3 text-white/80">
-                  <div className="loader h-8 w-8 rounded-full border-2 border-white/40" />
-                  <span className="text-sm">Analyzing keyword…</span>
-                </div>
-              ) : typing ? (
-                <p className="text-base sm:text-lg font-light leading-relaxed text-white">
-                  {typedEstimate}
-                </p>
-              ) : (
-                <div className="space-y-3">
-                  {estimateParagraphs && estimateParagraphs.length > 0 ? (
-                    estimateParagraphs.map((paragraph, index) => (
-                      <p key={index} className="text-base font-light leading-relaxed text-white/90">
-                        {paragraph}
-                      </p>
-                    ))
-                  ) : (
-                    <p className="text-base font-light leading-relaxed text-white/90">{estimateText}</p>
-                  )}
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
       {/* Header */}
       <RankHeader showTabs={false} ctaMode="navigation" />
 
