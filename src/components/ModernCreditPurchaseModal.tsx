@@ -267,16 +267,19 @@ export function ModernCreditPurchaseModal({
                   <div className="text-sm text-muted-foreground">{`${getCreditsAmount()} credits`}</div>
                 </div>
                 <div className="mt-4 space-y-3">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div>
-                      <Label htmlFor="firstName">First name</Label>
-                      <Input id="firstName" value={firstName} onChange={(e)=>setFirstName(e.target.value)} placeholder="John" />
+                  { !user && (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div>
+                        <Label htmlFor="firstName">First name</Label>
+                        <Input id="firstName" value={firstName} onChange={(e)=>setFirstName(e.target.value)} placeholder="John" />
+                      </div>
+                      <div>
+                        <Label htmlFor="lastName">Last name</Label>
+                        <Input id="lastName" value={lastName} onChange={(e)=>setLastName(e.target.value)} placeholder="Doe" />
+                      </div>
                     </div>
-                    <div>
-                      <Label htmlFor="lastName">Last name</Label>
-                      <Input id="lastName" value={lastName} onChange={(e)=>setLastName(e.target.value)} placeholder="Doe" />
-                    </div>
-                  </div>
+                  )}
+
                   {user ? (
                     <div className="space-y-2">
                       <InlineStripeCredits
