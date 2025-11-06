@@ -496,7 +496,7 @@ const Index = () => {
 
   // Minimal rotating data ticker content (markets + SEO insights)
   const rotatingSlides = [
-    { type: 'market', country: 'United States', spend: '$25–30', note: 'Largest market; ~30–35% of global SEO spend. Average guest post backlinks cost $365–$930, with agencies allocating 33% of SEO budgets to links. High demand from e-commerce and finance niches.' },
+    { type: 'market', country: 'United States', spend: '$25���30', note: 'Largest market; ~30–35% of global SEO spend. Average guest post backlinks cost $365–$930, with agencies allocating 33% of SEO budgets to links. High demand from e-commerce and finance niches.' },
     { type: 'market', country: 'United Kingdom', spend: '$8–10', note: 'Strong European hub; budgets start at $5,000/month for competitive link-building. Focus on English-language markets; average link costs ~$300–$500.' },
     { type: 'market', country: 'Germany', spend: '$6–8', note: 'High per-link prices ($400+ average); part of Europe\'s ~25% SEO share. Strict regulations favor quality over volume.' },
     { type: 'market', country: 'India', spend: '$4–6', note: 'Growing outsourcing hub; lower costs ($100–$300 per link) but high volume. Contributes to global services via agencies.' },
@@ -1244,48 +1244,35 @@ const Index = () => {
           </div>
 
           <div ref={searchContainerRef} className="relative ui-freeze-on-input max-w-md sm:max-w-xl md:max-w-3xl mx-auto">
-            <div className="p-[3px]"><div className="glass-card p-2 sm:p-3 md:p-4 rounded-xl sm:rounded-full shadow-xl border border-border/40 overflow-hidden">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-400 via-blue-400 to-purple-400 opacity-20 blur-sm pointer-events-none" aria-hidden></div>
-
-              <div className="relative z-10 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-2 sm:gap-3 items-center">
-                <div className="w-full">
-                  <Label htmlFor="backlinkKeyword" className="sr-only">Keyword</Label>
-                  <Input
-                    ref={keywordInputRef}
-                    id="backlinkKeyword"
-                    placeholder={keywordPlaceholder}
-                    value={backlinkKeyword}
-                    onFocus={() => setKeywordFocused(true)}
-                    onBlur={() => setKeywordFocused(false)}
-                    onChange={(e) => setBacklinkKeyword(e.target.value)}
-                    onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); handleEstimate(); } }}
-                    className="bg-white/80 backdrop-blur-sm h-10 sm:h-11 md:h-12 px-4 sm:px-6 rounded-full shadow-inner"
-                  />
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <Button onClick={handleEstimate} disabled={estimateLoading} className="w-full md:w-auto min-w-[110px] sm:min-w-[120px] flex items-center justify-center space-x-2 rounded-full h-9 sm:h-10 px-3 sm:px-4">
-                    <span>{estimateLoading ? 'Analyzing…' : 'Search'}</span>
-                    {!estimateLoading && <Search className="ml-0 h-4 w-4" />}
-                  </Button>
-
-                  {/* Fancy small indicator */}
-                  <div className="hidden md:flex items-center text-sm text-muted-foreground">
-                    <span>{estimateLoading ? 'Analyzing keywords' : ''}</span>
-                  </div>
-                </div>
+            <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center w-full">
+              <div className="flex-1 w-full">
+                <Label htmlFor="backlinkKeyword" className="sr-only">Keyword</Label>
+                <Input
+                  ref={keywordInputRef}
+                  id="backlinkKeyword"
+                  placeholder={keywordPlaceholder}
+                  value={backlinkKeyword}
+                  onFocus={() => setKeywordFocused(true)}
+                  onBlur={() => setKeywordFocused(false)}
+                  onChange={(e) => setBacklinkKeyword(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); handleEstimate(); } }}
+                  className="text-base w-full bg-white/0 border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:ring-0 focus:border-blue-300"
+                />
               </div>
 
-              {/* Loading overlay */}
-              {estimateLoading && (
-                <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-                  <div className="flex items-center gap-3 text-white">
-                    <div className="loader w-10 h-10 rounded-full border-2 border-white/30" />
-                    <div className="text-sm text-white/90">Analyzing keyword...</div>
-                  </div>
-                </div>
-              )}
-            </div>
+              <Button onClick={handleEstimate} disabled={estimateLoading} className="bg-blue-600 text-white hover:bg-blue-700 font-medium py-2 text-base rounded-md border-transparent px-6">
+                {estimateLoading ? (
+                  <>
+                    <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                    Analyzing…
+                  </>
+                ) : (
+                  <>
+                    <Search className="h-4 w-4 mr-2" />
+                    Search
+                  </>
+                )}
+              </Button>
             </div>
 
             {(estimateLoading || (!showEstimateOverlay && !!estimateText)) && (
