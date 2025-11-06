@@ -1212,6 +1212,9 @@ body { top: 0 !important; }
 
 /* Disable pricing card hover tint and rainbow overlay */
 .pricing-card::after { background: transparent !important; }
+
+/* Utility to opt-out of hover visual changes */
+.no-hover:hover, .no-hover:focus { background: transparent !important; box-shadow: none !important; color: inherit !important; }
 .pricing-card:hover::after { opacity: 0 !important; }
 .pricing-card:hover { box-shadow: none !important; transform: none !important; }
 .pricing-card-rainbow::before { opacity: 0 !important; animation-play-state: paused !important; }
