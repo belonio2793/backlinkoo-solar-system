@@ -162,26 +162,44 @@ export function setupDeferredAmplitude(amplitudeKey?: string) {
 }
 
 /**
- * Deferred FullStory loader
+ * Deferred FullStory loader with namespace conflict prevention
  * Note: FullStory is already stubbed in previewGuard.ts for preview environments
  */
 export function setupDeferredFullStory(fullstoryOrgId?: string) {
   if (shouldSkipAnalytics() || !fullstoryOrgId) return;
 
   registerDeferredAnalytics('FullStory', () => {
-    if ((window as any).FS) return; // Already loaded
+    if ((window as any).FS || (window as any)._fs) return; // Already loaded
 
-    const script = document.createElement('script');
-    script.src = `https://edge.fullstory.com/s/fs.js`;
-    script.async = true;
-    script.onload = () => {
-      try {
-        (window as any).FS?.init?.({ orgId: fullstoryOrgId });
-      } catch (error) {
-        console.warn('Failed to initialize FullStory:', error);
-      }
-    };
-    document.head.appendChild(script);
+    try {
+      // Set custom namespace BEFORE loading script to prevent conflicts
+      // FullStory will use window._fs instead of window.FS to avoid namespace pollution
+      (window as any)._fs_namespace = '_fs';
+
+      const script = document.createElement('script');
+      script.src = `https://edge.fullstory.com/s/fs.js`;
+      script.async = true;
+
+      script.onload = () => {
+        try {
+          // Access via the custom namespace
+          const FS = (window as any)._fs || (window as any).FS;
+          if (FS && typeof FS.init === 'function') {
+            FS.init({ orgId: fullstoryOrgId });
+          }
+        } catch (error) {
+          console.warn('Failed to initialize FullStory:', error);
+        }
+      };
+
+      script.onerror = () => {
+        console.warn('Failed to load FullStory script');
+      };
+
+      document.head.appendChild(script);
+    } catch (error) {
+      console.warn('Failed to setup FullStory:', error);
+    }
   }, 6000); // Delay 6 seconds
 }
 
