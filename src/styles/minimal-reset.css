@@ -1,4 +1,4 @@
-/* Minimal UI reset: force pure white backgrounds, remove gradients and animations */
+/* Minimal UI reset: force pure white backgrounds for specific containers, remove decorative gradients and animations from known classes only */
 :root {
   --background: 0 0% 100% !important;
   --card: 0 0% 100% !important;
@@ -10,13 +10,14 @@ html, body, #root {
   background-color: #fff !important;
 }
 
-/* Remove common animated/gradient classes used across the app */
+/* Target only specific decorative classes (don't apply global resets) */
 .glare-sweep,
 .learn-glare-border,
 .learn-glare-border::after,
 .learn-glare-border__inner,
 .premium-banner-clouds,
-.animate-shimmer {
+.animate-shimmer,
+.animate-pulse-glow {
   background: #fff !important;
   background-image: none !important;
   background-clip: border-box !important;
@@ -26,31 +27,30 @@ html, body, #root {
   transition: none !important;
 }
 
-/* Neutralize any gradient background and border-box gradients */
+/* Neutralize inline-gradient styles (rare) */
 *[style*="gradient"], *[style*="linear-gradient"], *[style*="radial-gradient"] {
   background-image: none !important;
-  background: #fff !important;
 }
 
-/* Avoid global resets that break layout — target only known decorative classes above */
+/* Keep layout, transforms and shadows intact globally — avoid site-breaking rules */
 
-/* Ensure cards and popovers are white with subtle border */
+/* Ensure card and popover containers default to white background to keep things minimal */
 .card, .popover {
   background: #fff !important;
 }
 
-/* Make borders subtle and neutral */
-.border, .card, .rounded-lg, .p-1.5 {
+/* Make borders subtle and neutral without forcing all rounded elements */
+.border, .card, .p-1.5 {
   border-color: rgba(0,0,0,0.06) !important;
 }
 
-/* Remove decorative pseudo elements that add shine */
+/* Remove decorative pseudo elements that add shine for known classes */
 .glare-sweep::before, .glare-sweep::after, .premium-banner-clouds::before, .learn-glare-border::after {
   display: none !important;
   content: none !important;
 }
 
-/* Ensure SVGs and images have no filters */
+/* Ensure SVGs and images have no filters by default */
 img, svg {
   filter: none !important;
 }
