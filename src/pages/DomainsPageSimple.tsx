@@ -123,7 +123,7 @@ const DomainsPageSimple = () => {
   // Show login prompt if not authenticated
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+      <div className="min-h-screen bg-white">
         <Header />
         <div className="container mx-auto px-4 py-16 max-w-2xl text-center">
           <Globe className="h-16 w-16 text-gray-300 mx-auto mb-6" />
@@ -140,7 +140,7 @@ const DomainsPageSimple = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-white">
       <Header />
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
