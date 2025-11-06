@@ -722,10 +722,6 @@ const Dashboard = () => {
                   <Infinity className="mr-2 h-4 w-4 text-blue-600" />
                   Dashboard
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => navigate('/blog')}>
-                  <BookOpen className="mr-2 h-4 w-4" />
-                  Blog
-                </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
                   <Search className="mr-2 h-4 w-4" />
                   Keyword Research
@@ -733,10 +729,6 @@ const Dashboard = () => {
                 <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
                   <LineChart className="mr-2 h-4 w-4" />
                   Rank Tracker
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => navigate('/dashboard#automation')}>
-                  <Wand2 className="mr-2 h-4 w-4" />
-                  Link Building Automation
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
                   <Sparkles className="mr-2 h-4 w-4" />
