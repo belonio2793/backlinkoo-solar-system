@@ -183,15 +183,15 @@ export function Header({
             {user && (
               <div className="hidden sm:flex items-center gap-2 mr-2">
                 <Button variant="ghost" size="sm" className="px-3" onClick={() => navigate('/dashboard')}>
-                  <Infinity className="h-4 w-4 sm:mr-2" />
+                  <Infinity className="h-4 w-4 sm:mr-2 text-blue-600" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
                 <Button variant="ghost" size="sm" className="px-3" onClick={handleBuyCreditsClick}>
-                  <CreditCard className="h-4 w-4 sm:mr-2" />
+                  <CreditCard className="h-4 w-4 sm:mr-2 text-green-600" />
                   <span className="hidden sm:inline">Buy Credits</span>
                 </Button>
                 <Button variant="ghost" size="sm" className="px-3" onClick={handlePremiumClick}>
-                  <Star className="h-4 w-4 sm:mr-2" />
+                  <Star className="h-4 w-4 sm:mr-2 text-yellow-500" />
                   <span className="hidden sm:inline">Premium</span>
                 </Button>
               </div>
@@ -216,15 +216,15 @@ export function Header({
               <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel>Navigation</DropdownMenuLabel>
                 <DropdownMenuItem onClick={() => navigate('/')}>
-                  <Home className="mr-2 h-4 w-4" />
+                  <Home className="mr-2 h-4 w-4 text-slate-600" />
                   Home
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={handlePremiumClick}>
-                  <Star className="mr-2 h-4 w-4" />
+                  <Star className="mr-2 h-4 w-4 text-yellow-500" />
                   Upgrade to Premium
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={handleBuyCreditsClick}>
-                  <CreditCard className="mr-2 h-4 w-4" />
+                  <CreditCard className="mr-2 h-4 w-4 text-green-600" />
                   Buy Credits
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
@@ -233,16 +233,16 @@ export function Header({
                   Dashboard
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
-                  <Search className="mr-2 h-4 w-4" />
+                  <Search className="mr-2 h-4 w-4 text-blue-600" />
                   Keyword Research
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
-                  <LineChart className="mr-2 h-4 w-4" />
+                  <LineChart className="mr-2 h-4 w-4 text-indigo-600" />
                   Rank Tracker
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
-                  <Target className="mr-2 h-4 w-4" />
+                  <Target className="mr-2 h-4 w-4 text-emerald-600" />
                   Ask Backlink ∞ AI
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
@@ -257,7 +257,7 @@ export function Header({
                   </DropdownMenuItem>
                 ) : user ? (
                   <DropdownMenuItem onClick={handleSignOut}>
-                    <LogOut className="mr-2 h-4 w-4" />
+                    <LogOut className="mr-2 h-4 w-4 text-rose-500" />
                     Sign Out
                   </DropdownMenuItem>
                 ) : (
