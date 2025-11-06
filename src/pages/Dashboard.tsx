@@ -968,7 +968,6 @@ const Dashboard = () => {
                   <CardHeader className="relative pb-2">
                     <div className="flex items-center gap-2">
                       <Sparkles className="h-5 w-5 text-indigo-600" />
-                      <CardTitle className="text-lg font-bold bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 bg-clip-text text-transparent">Kickstart Your First Campaign</CardTitle>
                       <Badge variant="secondary" className="ml-2">Preview</Badge>
                     </div>
                     <p className="text-sm text-muted-foreground mt-1">Here’s how your campaign will look when it’s live.</p>
