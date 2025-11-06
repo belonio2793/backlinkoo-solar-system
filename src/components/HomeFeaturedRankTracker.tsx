@@ -174,7 +174,7 @@ export function HomeFeaturedRankTracker() {
         <div className="w-full max-w-3xl mx-auto px-4">
           <Card className="w-full bg-transparent border-0 shadow-none">
             <CardHeader className="pb-0 text-center">
-              <CardTitle onClick={() => setShowRankOverlay(true)} className="flex items-center gap-2 justify-center text-2xl font-semibold text-slate-900 cursor-pointer select-none">
+              <CardTitle onClick={() => setShowRankOverlay(true)} className="flex items-center gap-2 justify-center text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 cursor-pointer select-none">
                 <Search className="w-5 h-5 text-blue-600" />
                 How many backlinks do I need for my website?
               </CardTitle>
