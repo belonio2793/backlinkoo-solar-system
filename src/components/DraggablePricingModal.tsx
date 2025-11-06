@@ -96,18 +96,18 @@ export const DraggablePricingModal: React.FC<DraggablePricingModalProps> = ({
   return (
     <>
       {/* Backdrop */}
-      <div className="fixed inset-0 z-40 bg-black/20" onClick={onClose} />
+      <div className="fixed inset-0 z-40 bg-white" onClick={onClose} />
       
       {/* Draggable Modal */}
       <div
         ref={dragRef as React.RefObject<HTMLDivElement>}
         style={style}
-        className="bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden max-w-4xl"
+        className="bg-white border border-gray-200 rounded-lg overflow-hidden max-w-4xl"
       >
         {/* Draggable Header */}
         <div
           ref={handleRef as React.RefObject<HTMLDivElement>}
-          className={`flex items-center justify-between p-3 bg-gradient-to-r from-purple-50 to-pink-50 border-b cursor-move select-none ${
+          className={`flex items-center justify-between p-3 bg-white border-b cursor-move select-none ${
             isDragging ? 'bg-gradient-to-r from-purple-100 to-pink-100' : ''
           }`}
         >
