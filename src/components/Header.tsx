@@ -186,6 +186,10 @@ export function Header({
                   <Infinity className="h-4 w-4 sm:mr-2" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
+                <Button variant="ghost" size="sm" className="px-3" onClick={handleBuyCreditsClick}>
+                  <CreditCard className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Buy Credits</span>
+                </Button>
                 <Button variant="ghost" size="sm" className="px-3" onClick={handlePremiumClick}>
                   <Star className="h-4 w-4 sm:mr-2" />
                   <span className="hidden sm:inline">Premium</span>
