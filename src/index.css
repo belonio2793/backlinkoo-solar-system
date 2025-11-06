@@ -1210,6 +1210,14 @@ body { top: 0 !important; }
 .goog-logo-link { display: none !important; }
 .goog-te-gadget { height: 0 !important; overflow: hidden !important; }
 
+/* Disable pricing card hover tint and rainbow overlay */
+.pricing-card::after { background: transparent !important; }
+.pricing-card:hover::after { opacity: 0 !important; }
+.pricing-card:hover { box-shadow: none !important; transform: none !important; }
+.pricing-card-rainbow::before { opacity: 0 !important; animation-play-state: paused !important; }
+.pricing-card-rainbow:hover::before { opacity: 0 !important; animation-play-state: paused !important; }
+.most-popular-badge { background-image: none !important; filter: none !important; }
+
 /* Route-scoped rainbow border flow on hover (for /keyword-research and /rank-tracker) */
 .rainbow-hover-scope .rainbow-hover-target:hover {
   position: relative;
