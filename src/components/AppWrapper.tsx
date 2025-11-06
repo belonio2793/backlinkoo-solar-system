@@ -28,11 +28,23 @@ const PasswordReset = lazy(() => import('@/pages/PasswordReset'));
 const TermsOfService = lazy(() => import('@/pages/TermsOfService'));
 const PrivacyPolicy = lazy(() => import('@/pages/PrivacyPolicy'));
 const BlogPreview = lazy(() => import('@/pages/BlogPreview'));
-const Blog = lazy(() => import('@/pages/Blog'));
-const BlogCreator = lazy(() => import('@/pages/BlogCreator'));
-const BlogPost = lazy(() => import('@/pages/BlogPost'));
+const Blog = lazy(async () => {
+  const module = await import('@/pages/Blog');
+  return { default: module.default || module.BlogListing };
+});
+const BlogCreator = lazy(async () => {
+  const module = await import('@/pages/BlogCreator');
+  return { default: module.BlogCreator };
+});
+const BlogPost = lazy(async () => {
+  const module = await import('@/pages/BlogPost');
+  return { default: module.BlogPost };
+});
 const AIContentTest = lazy(() => import('@/pages/AIContentTest'));
-const TestBlogClaim = lazy(() => import('@/pages/TestBlogClaim'));
+const TestBlogClaim = lazy(async () => {
+  const module = await import('@/pages/TestBlogClaim');
+  return { default: module.TestBlogClaim };
+});
 const NotFound = lazy(() => import('@/pages/NotFound'));
 const AdminDashboard = lazy(() => import('@/pages/AdminDashboard'));
 const PaymentSuccess = lazy(() => import('@/pages/PaymentSuccess'));
