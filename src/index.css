@@ -483,7 +483,19 @@
 [class*="backdrop-blur"] {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
-  background: #ffffff !important;
+}
+
+/* Replace semi-transparent backgrounds with solid white or appropriate colors */
+[class*="bg-white\/"] {
+  background-color: #ffffff !important;
+}
+
+[class*="bg-black\/"] {
+  background-color: #000000 !important;
+}
+
+[class*="bg-background\/"] {
+  background-color: #ffffff !important;
 }
 
 /* Text effects */
