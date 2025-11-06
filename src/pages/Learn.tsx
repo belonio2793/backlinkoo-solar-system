@@ -510,8 +510,8 @@ export default function Learn() {
 
   React.useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowRight") setIndex((i) => Math.min(i + 1, pages.length - 1));
-      if (e.key === "ArrowLeft") setIndex((i) => Math.max(i - 1, 0));
+      if (e.key === "ArrowRight") { scrollToTop('auto'); setIndex((i) => Math.min(i + 1, pages.length - 1)); }
+      if (e.key === "ArrowLeft") { scrollToTop('auto'); setIndex((i) => Math.max(i - 1, 0)); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -528,8 +528,8 @@ export default function Learn() {
   const onTouchEnd = (e: React.TouchEvent) => {
     if (touchStartX.current == null) return;
     const dx = e.changedTouches[0].clientX - touchStartX.current;
-    if (dx < -40) setIndex((i) => Math.min(i + 1, pages.length - 1));
-    if (dx > 40) setIndex((i) => Math.max(i - 1, 0));
+    if (dx < -40) { scrollToTop('auto'); setIndex((i) => Math.min(i + 1, pages.length - 1)); }
+    if (dx > 40) { scrollToTop('auto'); setIndex((i) => Math.max(i - 1, 0)); }
     touchStartX.current = null;
   };
 
