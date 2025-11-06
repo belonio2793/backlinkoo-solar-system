@@ -7,18 +7,22 @@ const EXTERNAL_ERROR_PATTERNS = [
   // Screenshot/annotation tools
   /screenshot.*tool|getScreenshot|u_tool_allow/i,
   /api\/v1\/screenshot/i,
-  
+
   // Browser extension errors
   /Cannot read properties of undefined.*reading 'name'/i,
   /out of bounds|array index/i,
-  
+
   // Common third-party library errors that are non-critical
   /ResizeObserver loop limit exceeded/i,
   /Non-Error promise rejection/i,
   /DOMException|SecurityError/i,
-  
+
+  // FullStory namespace conflict (harmless warning about duplicate loading)
+  /FullStory namespace conflict/i,
+  /Please.*_fs_namespace/i,
+
   // Analytics/tracking errors (already deferred)
-  /Amplitude|DreamData|FullStory|tracking/i,
+  /Amplitude|DreamData|tracking/i,
 ];
 
 /**
