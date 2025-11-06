@@ -447,7 +447,7 @@ const Dashboard = () => {
         .limit(20);
       if (!error && data) setTransactions(data);
     } catch (e) {
-      console.warn('⚠️ Failed to load transactions');
+      console.warn('⚠�� Failed to load transactions');
     }
   };
 
@@ -729,7 +729,7 @@ const Dashboard = () => {
         {/* Main Navigation */}
         <div className="border-b bg-muted/30">
           <div className="container mx-auto px-4">
-            <nav className="grid grid-cols-2 sm:grid-cols-5 gap-1 w-full">
+            <nav className="grid grid-cols-2 sm:grid-cols-3 gap-1 w-full">
               <Button
                 variant={activeSection === "dashboard" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("dashboard")}
@@ -738,23 +738,7 @@ const Dashboard = () => {
                 <Target className="h-4 w-4 sm:mr-2" />
                 <span className="hidden sm:inline">Campaigns</span>
               </Button>
-              <Button
-                variant={activeSection === "automation" ? "secondary" : "ghost"}
-                onClick={() => setActiveSection("automation")}
-                className="w-full justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3 relative"
-              >
-                <Wand2 className="h-4 w-4 sm:mr-2" />
-                <span className="hidden sm:inline">Link Building Automation</span>
-                <span className="sm:hidden">Automation</span>
-              </Button>
-              <Button
-                variant={activeSection === "trial" ? "secondary" : "ghost"}
-                onClick={() => setActiveSection("trial")}
-                className="w-full justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3 relative"
-              >
-                <Sparkles className="h-4 w-4 sm:mr-2" />
-                <span className="hidden sm:inline">Community Blog</span>
-              </Button>
+
               <Button
                 variant={activeSection === "premium-plan" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("premium-plan")}
@@ -1282,22 +1266,7 @@ const Dashboard = () => {
               )}
             </TabsContent>
 
-            <TabsContent value="automation-link-building" data-section="automation-link-building">
-              <NoHandsSEODashboard />
-            </TabsContent>
-              </Tabs>
-            ) : activeSection === "automation" ? (
-              <div className="space-y-6">
-
-                <PremiumPopupProvider>
-                  <LinkBuildingAutomationSection user={user} />
-                </PremiumPopupProvider>
-              </div>
-            ) : activeSection === "trial" ? (
-              <div className="space-y-6">
-
-                <DashboardTrialPosts user={user} />
-              </div>
+            </Tabs>
             ) : activeSection === "premium-plan" ? (
               <div className="space-y-6">
 
