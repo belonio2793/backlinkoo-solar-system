@@ -1,50 +1,86 @@
-import React from 'react';
+import React, { Suspense, lazy, useMemo } from 'react';
+import { useLocation } from 'react-router-dom';
+import { PageLoadingFallback } from '@/utils/lazyPageLoader';
 import NotFound from '@/pages/NotFound';
 
-// Eager-load all pages so Vite includes them in the client bundle
-// and map file paths to route paths.
-const modules = import.meta.glob('/src/pages/**/*.tsx', { eager: true }) as Record<string, any>;
+// Map of route patterns to lazy-loaded page components
+// This dynamically discovers pages but lazy-loads them on demand
+const pageModules = import.meta.glob('/src/pages/**/*.tsx', { import: 'default' });
 
-const pagesMap: Record<string, React.ComponentType<any>> = {};
+// Build a map of routes to lazy components
+const routeMap = new Map<string, React.LazyExoticComponent<React.ComponentType<any>>>();
 
-Object.entries(modules).forEach(([filePath, mod]) => {
-  // filePath example: '/src/pages/userp.tsx' or '/src/pages/blog/index.tsx'
-  let route = filePath.replace('/src/pages', '').replace(/\.tsx$/i, '');
-  // Normalize index files to their directory path
-  route = route.replace(/\/index$/i, '');
-  if (route === '' || route === '/index') {
-    pagesMap['/'] = (mod && mod.default) || null;
-    pagesMap['/index'] = (mod && mod.default) || null;
-    return;
+// Populate route map from discovered page modules
+Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
+  // Convert file path to route
+  // e.g., '/src/pages/Blog.tsx' -> '/blog'
+  //       '/src/pages/blog/Index.tsx' -> '/blog'
+  let route = filePath
+    .replace('/src/pages', '')
+    .replace(/\.tsx$/i, '')
+    .toLowerCase();
+
+  // Handle index files
+  if (route.endsWith('/index')) {
+    route = route.replace(/\/index$/, '');
   }
-  // Lowercase route for case-insensitive matching
-  const normalized = route.toLowerCase();
-  pagesMap[normalized] = (mod && mod.default) || null;
-  // Also add without leading slash variant just in case
-  if (!normalized.startsWith('/')) pagesMap['/' + normalized] = (mod && mod.default) || null;
+
+  // Add both with and without leading slash
+  const withSlash = route === '' ? '/' : route;
+  const normalized = withSlash === '/' ? '/' : withSlash;
+
+  // Create lazy component
+  const LazyComponent = lazy(async () => {
+    const Comp = await (moduleImport as any)();
+    return { default: Comp };
+  });
+
+  routeMap.set(normalized, LazyComponent);
+  if (normalized !== '/' && !normalized.startsWith('/')) {
+    routeMap.set('/' + normalized, LazyComponent);
+  }
 });
 
 const DynamicPageLoader: React.FC = () => {
-  const pathname = typeof window !== 'undefined' ? window.location.pathname : '/';
-  const normalized = pathname.replace(/\/$/, '').toLowerCase() || '/';
+  const location = useLocation();
+  const pathname = location.pathname;
 
-  // Try exact match
-  let Comp = pagesMap[normalized];
-  // If not found, try with/without leading slash
-  if (!Comp) Comp = pagesMap['/' + normalized.replace(/^\//, '')];
-  // If still not found, try first segment (e.g., /blog/slug -> /blog)
-  if (!Comp) {
-    const first = '/' + normalized.replace(/^\//, '').split('/')[0];
-    Comp = pagesMap[first];
-  }
+  const Component = useMemo(() => {
+    // Normalize pathname
+    let normalized = pathname.replace(/\/$/, '').toLowerCase() || '/';
+    if (normalized === '') normalized = '/';
 
-  if (!Comp) {
-    // If nothing matches, render the NotFound page if available
+    // Try exact match
+    let Comp = routeMap.get(normalized);
+
+    // Try without leading slash
+    if (!Comp && normalized.startsWith('/')) {
+      Comp = routeMap.get(normalized.slice(1));
+    }
+
+    // Try adding leading slash
+    if (!Comp && !normalized.startsWith('/')) {
+      Comp = routeMap.get('/' + normalized);
+    }
+
+    // Try first segment (e.g., /blog/slug -> /blog)
+    if (!Comp && normalized.includes('/')) {
+      const firstSegment = '/' + normalized.split('/')[1];
+      Comp = routeMap.get(firstSegment);
+    }
+
+    return Comp;
+  }, [pathname]);
+
+  if (!Component) {
     return <NotFound />;
   }
 
-  const Page = Comp as React.ComponentType<any>;
-  return <Page />;
+  return (
+    <Suspense fallback={<PageLoadingFallback />}>
+      <Component />
+    </Suspense>
+  );
 };
 
 export default DynamicPageLoader;
