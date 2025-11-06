@@ -702,19 +702,6 @@ const Dashboard = () => {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56">
-                  <DropdownMenuItem
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setActiveSection('premium-plan');
-                      setTimeout(() => {
-                        window.dispatchEvent(new CustomEvent('openManageSubscription'));
-                        try { window.location.hash = 'manage-subscription'; } catch {}
-                      }, 0);
-                    }}
-                  >
-                    <CreditCard className="mr-2 h-4 w-4" />
-                    Manage Subscription
-                  </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setIsProfileOpen(true)}>
                     <Settings className="mr-2 h-4 w-4" />
                     Profile Settings
@@ -759,7 +746,6 @@ const Dashboard = () => {
                 <Wand2 className="h-4 w-4 sm:mr-2" />
                 <span className="hidden sm:inline">Link Building Automation</span>
                 <span className="sm:hidden">Automation</span>
-                <div className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full"></div>
               </Button>
               <Button
                 variant={activeSection === "trial" ? "secondary" : "ghost"}
@@ -768,7 +754,6 @@ const Dashboard = () => {
               >
                 <Sparkles className="h-4 w-4 sm:mr-2" />
                 <span className="hidden sm:inline">Community Blog</span>
-                <div className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
               </Button>
               <Button
                 variant={activeSection === "premium-plan" ? "secondary" : "ghost"}
@@ -782,12 +767,6 @@ const Dashboard = () => {
                 <span className="sm:hidden">
                   {isPremiumSubscriber ? "Premium" : "Upgrade"}
                 </span>
-                {!isPremiumSubscriber && (
-                  <div className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full"></div>
-                )}
-                {isPremiumSubscriber && (
-                  <div className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full"></div>
-                )}
               </Button>
 
             </nav>
