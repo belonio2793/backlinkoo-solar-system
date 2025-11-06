@@ -7,6 +7,7 @@ import { PremiumCheckoutModal } from '@/components/PremiumCheckoutModal';
 import { useAuth } from '@/hooks/useAuth';
 import { supabase } from '@/integrations/supabase/client';
 import { Search, History, Crown, Link as LinkIcon, Loader2, X, TrendingUp, Download, Infinity, Star, Menu, Home, BookOpen, LineChart } from 'lucide-react';
+import RankHeader from '@/components/RankHeader';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   ChartContainer,
@@ -757,87 +758,7 @@ Actions:
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b border-border/10 bg-white">
-        <div className="container mx-auto px-4 py-3 max-w-7xl">
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-3 min-w-0">
-              <div
-                onClick={() => navigate('/')}
-                role="link"
-                tabIndex={0}
-                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); navigate('/'); } }}
-                className="flex items-center gap-3"
-              >
-                <div className="p-1.5 rounded-lg">
-                  <Infinity className="h-6 w-6 text-primary" />
-                </div>
-                <h1 className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink ∞</h1>
-              </div>
-            </div>
-
-            <div className="flex-1 flex justify-center">
-              <Tabs value={premiumTab} onValueChange={(value) => {
-                setPremiumTab(value);
-                if (value === 'rank') {
-                  navigate('/rank-tracker');
-                } else {
-                  navigate('/rank-tracker/premium');
-                }
-              }}>
-                <TabsList className="bg-muted/50 backdrop-blur-sm">
-                  <TabsTrigger value="rank" className="data-[state=active]:bg-background">Rank Tracker</TabsTrigger>
-                  <TabsTrigger value="premium" className="data-[state=active]:bg-background">Premium</TabsTrigger>
-                </TabsList>
-              </Tabs>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => navigate('/rank-tracker/premium')}
-                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white"
-              >
-                <Star className="h-4 w-4" />
-                <span className="hidden md:inline">Go Premium</span>
-              </button>
-
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="h-9 w-9 p-0">
-                    <Menu className="h-5 w-5" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56">
-                  <DropdownMenuLabel className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Navigation</DropdownMenuLabel>
-                  <DropdownMenuItem onClick={() => navigate('/') }>
-                    <Home className="mr-2 h-4 w-4" />
-                    Home
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/rank-tracker/premium')}>
-                    <Star className="mr-2 h-4 w-4" />
-                    Go Premium
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/dashboard')}>
-                    <Infinity className="mr-2 h-4 w-4" />
-                    Dashboard
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/blog')}>
-                    <BookOpen className="mr-2 h-4 w-4" />
-                    Blog
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
-                    <Search className="mr-2 h-4 w-4" />
-                    Keyword Research
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
-                    <LineChart className="mr-2 h-4 w-4" />
-                    Rank Tracker
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </div>
-          </div>
-        </div>
-      </header>
+      <RankHeader showTabs={false} ctaMode="navigation" />
 
       <div className="flex">
         <div className="hidden md:fixed md:left-0 md:top-[73px] md:h-auto md:w-64 md:flex md:flex-col md:border md:border-border/50 md:bg-background/40 md:backdrop-blur-sm md:z-[9999] md:p-4 md:space-y-4 md:overflow-y-auto md:rounded-lg">
