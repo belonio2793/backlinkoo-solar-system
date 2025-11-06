@@ -8,6 +8,7 @@
 @import './styles/markdown-fix.css';
 @import './styles/overlay-prose-fix.css';
 @import './styles/rhinorank.css';
+@import './styles/minimal-reset.css';
 
 @tailwind base;
 @tailwind components;

@@ -1,0 +1,66 @@
+/* Minimal UI reset: force pure white backgrounds, remove gradients and animations */
+:root {
+  --background: 0 0% 100% !important;
+  --card: 0 0% 100% !important;
+  --popover: 0 0% 100% !important;
+  --sidebar-background: 0 0% 100% !important;
+}
+
+html, body, #root {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* Remove common animated/gradient classes used across the app */
+.glare-sweep,
+.learn-glare-border,
+.learn-glare-border::after,
+.learn-glare-border__inner,
+.premium-banner-clouds,
+.animate-shimmer {
+  background: #fff !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  box-shadow: none !important;
+  filter: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Neutralize any gradient background and border-box gradients */
+*[style*="gradient"], *[style*="linear-gradient"], *[style*="radial-gradient"] {
+  background-image: none !important;
+  background: #fff !important;
+}
+
+/* Remove shadows, glows, and transforms site-wide */
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+  transform: none !important;
+  filter: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Ensure cards and popovers are white with subtle border */
+.bg-card, .bg-background, .card, .rounded-lg, .popover, [class*="bg-"] {
+  background: #fff !important;
+  background-image: none !important;
+}
+
+/* Make borders subtle and neutral */
+.border, .card, .rounded-lg, .p-1.5 {
+  border-color: rgba(0,0,0,0.06) !important;
+}
+
+/* Remove decorative pseudo elements that add shine */
+.glare-sweep::before, .glare-sweep::after, .premium-banner-clouds::before, .learn-glare-border::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Ensure SVGs and images have no filters */
+img, svg {
+  filter: none !important;
+}
