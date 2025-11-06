@@ -1168,7 +1168,7 @@ const Index = () => {
 
   return (
     <div
-      className="min-h-screen bg-background font-light bg-hero-soft relative pb-12"
+      className="min-h-screen bg-white font-light relative pb-12"
       style={{ paddingBottom: "calc(5rem + env(safe-area-inset-bottom, 0px))" }}
     >
       {showEstimateOverlay && (
