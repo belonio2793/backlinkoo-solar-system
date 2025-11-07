@@ -79,15 +79,8 @@
   animation: shimmer 2s infinite;
 }
 
-/* Hover effects */
-.waitlist-hover-lift {
-  transition: all 0.3s ease;
-}
-
-.waitlist-hover-lift:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
+/* Hover effects - DISABLED */
+/* .waitlist-hover-lift and hover state removed - no pop-up animation */
 
 /* Gradient text animation */
 .waitlist-gradient-text {
