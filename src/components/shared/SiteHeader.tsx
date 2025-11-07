@@ -13,7 +13,6 @@ export function SiteHeader() {
       <div className="container mx-auto px-4 py-4 max-w-6xl">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 cursor-pointer" onClick={() => go('/')}>
-            <Infinity className="h-8 w-8 text-primary" />
             <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-foreground">Backlink</h1>
           </div>
           <div className="flex items-center gap-1 sm:gap-2">

@@ -168,9 +168,6 @@ export function Header({
                 aria-label="Go to homepage"
                 style={{ cursor: 'pointer', textDecoration: 'none', background: 'none', border: 'none', padding: 0 }}
               >
-                <div className="flex items-center justify-center p-1.5 rounded-lg">
-                  <Infinity className="h-6 w-6 text-blue-600 flex-shrink-0" />
-                </div>
                 <span className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink <span className="text-blue-600">∞</span></span>
               </div>
             ) : null}
