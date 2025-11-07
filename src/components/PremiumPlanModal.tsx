@@ -229,7 +229,7 @@ export function PremiumPlanModal({
             </div>
             <div>
               <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Premium Plan</h2>
-              <p className="text-sm text-gray-600">Unlock premium SEO potential with our comprehensive features</p>
+              <p className="text-sm text-white/90">Unlock premium SEO potential with our comprehensive features</p>
             </div>
           </div>
 
