@@ -91,7 +91,7 @@ function JsonLDSnippets() {
         name: 'What indexing success rates should I expect?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Results vary by domain and link quality. Many campaigns observe 50–80% of submitted URLs indexed within 7 days when on-page health and crawl paths are in good shape.',
+          text: 'Results vary by domain and link quality. Many campaigns observe 50��80% of submitted URLs indexed within 7 days when on-page health and crawl paths are in good shape.',
         },
       },
       {
@@ -505,20 +505,11 @@ export default function GigaIndexer() {
 
             {/* Final CTA */}
             <section className="mt-16 mb-24">
-              <div className="rounded-2xl border p-8 bg-white">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-                  <div>
-                    <h3 className="text-2xl font-bold">Ready to accelerate indexation?</h3>
-                    <p className="text-muted-foreground mt-1">Submit your URLs, set pacing, and let our orchestration handle the rest.</p>
-                  </div>
-                  <div className="flex gap-3">
-                    <Button size="lg">Get Started</Button>
-                    <Button size="lg" variant="outline" asChild>
-                      <a href="#pricing">Compare plans</a>
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              <BacklinkInfinityCTA
+                title="Ready to Accelerate Indexation?"
+                description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+                variant="card"
+              />
             </section>
           </main>
         </div>
