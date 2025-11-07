@@ -258,7 +258,7 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
             max={data.length - 1}
             value={index}
             onChange={(e) => setIndex(Number((e.target as HTMLInputElement).value))}
-            className="w-full h-2 bg-gray-200 rounded-lg appearance-none accent-primary"
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none accent-blue-600"
             aria-label="Day slider"
           />
           <div className="mt-2 flex justify-between text-[10px] uppercase tracking-wider text-gray-500">
