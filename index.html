@@ -37,6 +37,21 @@
   </head>
 
   <body>
+    <!-- Initial static loader to show immediately before JS/CSS loads -->
+    <div id="initial-loader" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background-color:#fff;z-index:99999;">
+      <div style="text-align:center">
+        <svg class="w-10 h-10" style="width:40px;height:40px;color:#2563eb;animation:spin 1s linear infinite;" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="4" stroke-opacity="0.15" fill="none" />
+          <path d="M45 25a20 20 0 0 1-20 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" fill="none" />
+        </svg>
+        <div style="margin-top:8px;color:#6b7280;font-size:13px;">Loading page...</div>
+      </div>
+    </div>
+
+    <style>
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    </style>
+
     <div id="root"></div>
 
 
