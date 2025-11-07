@@ -204,7 +204,7 @@ export function EliteBlogTemplate() {
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-3xl font-bold text-gray-900 mb-6">Blog Post Not Found</h1>
             <p className="text-gray-600 mb-8 text-lg">The blog post you're looking for doesn't exist or has been removed.</p>
-            <Button onClick={() => navigate('/blog')} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl">
+            <Button onClick={() => navigate('/')} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl">
               <ArrowLeft className="h-5 w-5 mr-2" />
               Back to Blog
             </Button>
@@ -255,7 +255,7 @@ export function EliteBlogTemplate() {
             <div className="flex items-center gap-3 mb-8">
               <Button
                 variant="ghost"
-                onClick={() => navigate('/blog')}
+                onClick={() => navigate('/')}
                 className="text-gray-600 hover:text-gray-900 hover:bg-white/60 "
               >
                 <ArrowLeft className="h-5 w-5 mr-2" />
