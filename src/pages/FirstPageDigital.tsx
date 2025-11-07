@@ -245,7 +245,7 @@ export default function FirstPageDigitalPage() {
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline">
-                  <a href="/blog">
+                  <a href="/">
                     Read SEO Guides
                     <BookOpen className="ml-2 h-4 w-4" />
                   </a>
@@ -323,7 +323,7 @@ export default function FirstPageDigitalPage() {
                     Explore First Page Digital
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
-                  <a className="fpd-cta__button fpd-cta__button--ghost" href="/blog">
+                  <a className="fpd-cta__button fpd-cta__button--ghost" href="/">
                     Learn Sustainable SEO
                     <LinkIcon className="ml-2 h-4 w-4" />
                   </a>
