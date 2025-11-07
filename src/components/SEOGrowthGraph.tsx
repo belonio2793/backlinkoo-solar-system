@@ -214,11 +214,11 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
 
                 <Tooltip content={<ChartTooltipContent hideIndicator />} formatter={(value: any, name: any) => [typeof value === "number" ? (name === "roi" ? fmtPercent(Number(value)) : fmt(Number(value))) : value, name === "traffic" ? "Daily Traffic" : name === "roi" ? "ROI %" : name]} />
 
-                <Area type="monotone" dataKey="traffic" stroke="hsl(var(--primary))" strokeWidth={2.2} fill="url(#gradTraffic)" yAxisId="left" />
+                <Area type="monotone" dataKey="traffic" stroke="#2563eb" strokeWidth={2.2} fill="url(#gradTraffic)" yAxisId="left" />
                 <Area type="monotone" dataKey="roi" stroke="#10b981" strokeWidth={1.8} fill="url(#gradRoi)" yAxisId="right" />
 
                 <ReferenceLine x={selected.week} yAxisId="left" stroke="#94a3b8" strokeDasharray="4 4" />
-                <ReferenceDot x={selected.week} y={selected.traffic} r={5} fill="hsl(var(--primary))" yAxisId="left" />
+                <ReferenceDot x={selected.week} y={selected.traffic} r={5} fill="#2563eb" yAxisId="left" />
               </AreaChart>
             </ChartContainer>
 
