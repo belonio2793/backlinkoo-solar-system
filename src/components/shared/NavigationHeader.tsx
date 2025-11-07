@@ -40,7 +40,9 @@ export function NavigationHeader() {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F405f839c42724651b58f049338bc622e%2F05144950e70a447c92316200c5447a54?format=webp&width=800" alt="Backlink ∞" className="h-8 w-auto" />
+              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                <Zap className="h-5 w-5 text-white" />
+              </div>
               <span className="text-xl font-bold text-gray-900">AutoSEO</span>
             </Link>
           </div>
