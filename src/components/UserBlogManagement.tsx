@@ -325,7 +325,7 @@ export function UserBlogManagement() {
       ) : (
         <div className="grid grid-cols-1 gap-4">
           {filteredPosts.map((post) => (
-            <Card key={post.id} className="hover:shadow-md transition-shadow">
+            <Card key={post.id} className="transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
