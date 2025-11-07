@@ -176,7 +176,7 @@ export const BlogErrorBoundary: React.FC<BlogErrorBoundaryProps> = ({
 
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
           <Button
-            onClick={() => navigate('/blog')}
+            onClick={() => navigate('/')}
             className="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
@@ -213,7 +213,7 @@ export const BlogErrorBoundary: React.FC<BlogErrorBoundaryProps> = ({
                   Looking for something specific?
                 </p>
                 <Button
-                  onClick={() => navigate('/blog')}
+                  onClick={() => navigate('/')}
                   variant="ghost"
                   size="sm"
                 >
