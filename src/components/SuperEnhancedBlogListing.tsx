@@ -497,8 +497,7 @@ export function SuperEnhancedBlogListing() {
                          before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-br before:${hoverColor}
                          before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300`
                       : `bg-white  border-2 border-gray-200/50 text-gray-700
-                         hover:bg-white hover:border-opacity-70 hover:text-gray-800
-                         hover: hover:shadow-gray-200/50`
+                         hover:bg-white hover:border-opacity-70 hover:text-gray-800`
                     }
                     before:content-[''] before:absolute before:inset-0 before:rounded-2xl
                     ${filterType !== key ? `before:bg-gradient-to-br before:${color} before:opacity-0 hover:before:opacity-5 before:transition-all before:duration-300` : ''}
