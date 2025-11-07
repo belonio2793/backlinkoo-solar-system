@@ -49,7 +49,7 @@ export const BlogClaimExplanationModal = ({
           {/* Hero Section */}
           <div className="text-center p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-blue-200">
             <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Infinity className="h-8 w-8 text-white" />
+              <Infinity className="h-8 w-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               Save High-Quality Content Forever
