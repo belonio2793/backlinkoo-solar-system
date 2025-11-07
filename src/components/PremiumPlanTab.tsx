@@ -260,11 +260,13 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
       )}
 
       <Tabs value={activeFeature} onValueChange={setActiveFeature} className="w-full">
-        <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="overview">Features Overview</TabsTrigger>
-          <TabsTrigger value="comparison">Plan Comparison</TabsTrigger>
-          <TabsTrigger value="seo-academy">SEO Academy</TabsTrigger>
-        </TabsList>
+    <div className="w-full flex justify-center mb-4">
+      <TabsList className="inline-flex items-center gap-2 bg-white/6 rounded-md p-1">
+        <TabsTrigger value="overview" className="px-4 py-2">Features Overview</TabsTrigger>
+        <TabsTrigger value="comparison" className="px-4 py-2">Plan Comparison</TabsTrigger>
+        <TabsTrigger value="seo-academy" className="px-4 py-2">SEO Academy</TabsTrigger>
+      </TabsList>
+    </div>
 
         <TabsContent value="overview" className="space-y-6">
           {/* Premium Features Grid */}
