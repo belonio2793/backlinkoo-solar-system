@@ -86,3 +86,20 @@ header svg, header img {
 .lucide-infinity[class*="text-"] {
   color: #2563eb !important;
 }
+
+/* Utility class to disable hover animations and appearance changes */
+.no-hover, .no-hover * {
+  transition: none !important;
+  animation: none !important;
+}
+.no-hover:hover, .no-hover:active, .no-hover:focus {
+  background-color: transparent !important;
+  color: inherit !important;
+  transform: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+}
+/* Ensure buttons using the .no-hover class don't show hover bg from Tailwind utilities */
+.no-hover:hover * {
+  background-color: transparent !important;
+}
