@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useReferralTracking } from '@/hooks/useAffiliate';
 import { Skeleton } from '@/components/ui/skeleton';
@@ -168,7 +168,7 @@ export const OptimizedAppWrapper = () => {
         <Route path="*" element={<DynamicPageLoader />} />
 
         {/* Blog routes - enhanced system */}
-        <Route path="/blog" element={<LazySuperEnhancedBlogListing />} />
+        <Route path="/blog" element={<Navigate to="/" replace />} />
         <Route path="/blog/create" element={<LazyBlogCreation />} />
         <Route path="/blog/seo-generator" element={<LazySEOOptimizedBlogGenerator />} />
         <Route path="/blog/validator" element={<LazyBlogValidator />} />
