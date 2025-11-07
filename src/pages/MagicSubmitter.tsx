@@ -344,6 +344,13 @@ export default function MagicSubmitter() {
                   </div>
                 </article>
               </div>
+
+              <section className="mt-12">
+                <BacklinkInfinityCTA
+                  title="Ready to Automate Your Link Building?"
+                  description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+                />
+              </section>
             </section>
           </article>
         </div>
