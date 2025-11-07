@@ -324,13 +324,13 @@ export function AILive() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-white p-4">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Brain className="h-8 w-8 text-blue-600" />
+            <Brain className="h-8 w-8 text-gray-600" />
             <h1 className="text-3xl font-bold text-gray-900">AI Live Blog Generator</h1>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">

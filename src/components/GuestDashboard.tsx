@@ -85,11 +85,11 @@ export function GuestDashboard() {
 
   if (trialPosts.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-6">
+      <div className="min-h-screen bg-white p-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center py-16">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Sparkles className="h-8 w-8 text-blue-600" />
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Sparkles className="h-8 w-8 text-gray-600" />
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Welcome to Your Dashboard</h1>
             <p className="text-xl text-gray-600 mb-8">
@@ -98,7 +98,7 @@ export function GuestDashboard() {
             <Button 
               onClick={() => window.location.href = '/'}
               size="lg"
-              className="bg-blue-600 hover:bg-blue-700"
+              className="bg-gray-800 hover:bg-gray-900"
             >
               <Sparkles className="mr-2 h-5 w-5" />
               Create Your First Backlink
@@ -110,7 +110,7 @@ export function GuestDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-6">
+    <div className="min-h-screen bg-white p-6">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-8">
