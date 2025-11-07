@@ -1,32 +1,32 @@
-/* Global compact spacing rules to reduce excessive whitespace across pages */
+/* Global compact spacing rules to reduce excessive whitespace across pages (AGGRESSIVE GLOBAL MODE)
+   Applied to all prose/article-content containers to tighten visual rhythm site-wide */
 
 /* Core text rhythm */
 .prose, .article-content, .beautiful-blog-content {
-  line-height: 1.65 !important;
+  line-height: 1.6 !important;
 }
 
-/* Paragraphs */
+/* Paragraphs: aggressive tightening */
 .prose p, .article-content p, .beautiful-blog-content p {
-  margin: 0.6rem 0 !important;
-  line-height: 1.65 !important;
-  font-size: 1.05rem !important;
+  margin: 0.45rem 0 !important;
+  line-height: 1.6 !important;
+  font-size: 1.03rem !important;
 }
 
-/* Headings */
-.prose h1, .article-content h1, .beautiful-blog-content h1 { margin: 1.5rem 0 0.75rem !important; line-height: 1.2 !important; }
-.prose h2, .article-content h2, .beautiful-blog-content h2 { margin: 1.25rem 0 0.6rem !important; line-height: 1.25 !important; }
-.prose h3, .article-content h3, .beautiful-blog-content h3 { margin: 1rem 0 0.5rem !important; line-height: 1.3 !important; }
+/* Headings: reduce whitespace around headings */
+.prose h1, .article-content h1, .beautiful-blog-content h1 { margin: 1.1rem 0 0.45rem !important; line-height: 1.18 !important; }
+.prose h2, .article-content h2, .beautiful-blog-content h2 { margin: 0.9rem 0 0.4rem !important; line-height: 1.22 !important; }
+.prose h3, .article-content h3, .beautiful-blog-content h3 { margin: 0.7rem 0 0.35rem !important; line-height: 1.25 !important; }
 
-/* Lists: revert to compact, native markers (remove heavy paddings/borders) */
+/* Lists: compact and use native markers */
 .prose ul, .article-content ul, .beautiful-blog-content ul,
 .prose ol, .article-content ol, .beautiful-blog-content ol {
-  margin: 0.75rem 0 !important;
-  padding-left: 1.25rem !important;
+  margin: 0.5rem 0 !important;
+  padding-left: 1.15rem !important;
   list-style: revert !important;
-  counter-reset: initial !important;
 }
 .prose li, .article-content li, .beautiful-blog-content li {
-  margin: 0.35rem 0 !important;
+  margin: 0.25rem 0 !important;
   padding: 0 !important;
   background: none !important;
   border: 0 !important;
@@ -36,33 +36,48 @@
   content: none !important;
 }
 
-/* Blockquotes */
+/* Blockquotes: compact and subtle */
 .prose blockquote, .article-content blockquote, .beautiful-blog-content blockquote {
-  margin: 1rem 0 !important;
-  padding: 0.75rem 1rem !important;
-  border-left: 3px solid rgba(59,130,246,.35) !important;
+  margin: 0.6rem 0 !important;
+  padding: 0.6rem 0.9rem !important;
+  border-left: 3px solid rgba(59,130,246,.25) !important;
   background: none !important;
 }
 .prose blockquote::before, .article-content blockquote::before, .beautiful-blog-content blockquote::before { content: none !important; }
 
 /* Tighten common layout gaps inside prose-driven pages */
-.prose .grid { gap: 0.75rem !important; }
-.prose .mt-8 { margin-top: 1rem !important; }
-.prose .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem !important; }
-.prose .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem !important; }
+.prose .grid, .article-content .grid, .beautiful-blog-content .grid { gap: 0.5rem !important; }
+.prose .mt-8, .article-content .mt-8 { margin-top: 0.8rem !important; }
+
+/* Override utility spacing within prose/article contexts */
+.prose .space-y-6 > :not([hidden]) ~ :not([hidden]),
+.article-content .space-y-6 > :not([hidden]) ~ :not([hidden]),
+.beautiful-blog-content .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.8rem !important; }
+
+.prose .space-y-4 > :not([hidden]) ~ :not([hidden]),
+.article-content .space-y-4 > :not([hidden]) ~ :not([hidden]),
+.beautiful-blog-content .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.55rem !important; }
 
 /* Cards inside prose/articles */
 .prose .card, .article-content .card, .beautiful-blog-content .card {
-  margin: 0.5rem 0 !important;
+  margin: 0.35rem 0 !important;
 }
 
+/* Tighten common component gaps used heavily across pages */
+.prose .flex.gap-4, .article-content .flex.gap-4 { gap: 0.5rem !important; }
+.prose .flex.gap-6, .article-content .flex.gap-6 { gap: 0.6rem !important; }
+
 /* Senuke/MagicSubmitter style families: ensure compact rhythm even if page CSS loads earlier */
-.scrape-article p { margin: 0.6rem 0 !important; }
-.scrape-article .grid { gap: 0.75rem !important; }
-.ms-article p { margin: 0.6rem 0 !important; }
-.ms-article .grid { gap: 0.75rem !important; }
+.scrape-article p { margin: 0.45rem 0 !important; }
+.scrape-article .grid { gap: 0.5rem !important; }
+.ms-article p { margin: 0.45rem 0 !important; }
+.ms-article .grid { gap: 0.5rem !important; }
 
 /* Mobile tweaks */
 @media (max-width: 768px) {
-  .prose p, .article-content p, .beautiful-blog-content p { font-size: 1rem !important; }
+  .prose p, .article-content p, .beautiful-blog-content p { font-size: 1rem !important; margin: 0.5rem 0 !important; }
+  .prose h1, .article-content h1, .beautiful-blog-content h1 { margin: 0.9rem 0 0.4rem !important; }
 }
+
+/* Safety: prevent accidental global collapse by scoping to prose containers only */
+/* End of aggressive global prose spacing overrides */
