@@ -776,9 +776,9 @@ const Dashboard = () => {
               <Button
                 variant={activeSection === "dashboard" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("dashboard")}
-                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3"
+                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-3 py-2 bg-transparent"
               >
-                <Target className="h-4 w-4 sm:mr-2" />
+                <Target className="h-4 w-4 sm:mr-2 text-blue-600" />
                 <span className="hidden sm:inline">Campaigns</span>
                 <span className="sm:hidden">Campaigns</span>
               </Button>
@@ -786,9 +786,9 @@ const Dashboard = () => {
               <Button
                 variant={activeSection === "premium-plan" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("premium-plan")}
-                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3 flex items-center gap-2"
+                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-3 py-2 bg-transparent flex items-center gap-2"
               >
-                <Crown className="h-4 w-4" />
+                <Crown className="h-4 w-4 text-yellow-500" />
                 <span className="hidden sm:inline">
                   {isPremiumSubscriber ? "Premium Dashboard" : "Premium Plan"}
                 </span>
