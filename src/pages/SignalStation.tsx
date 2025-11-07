@@ -198,21 +198,21 @@ export default function SignalStationPage() {
             <h2 className="text-3xl font-bold text-slate-900 mb-6">The Problem Signal Station Solves</h2>
             <div className="space-y-4">
               <div className="flex gap-4">
-                <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <AlertCircle className="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Information Overload</h3>
                   <p className="text-slate-700">Every business day brings dozens of economic releases across multiple countries and asset classes. Without intelligent filtering, traders drown in data.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <AlertCircle className="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Missed Opportunities</h3>
                   <p className="text-slate-700">Market-moving events occur precisely, and traders who don't know about them in advance lose money to slippage and missed positioning opportunities.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <AlertCircle className="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Lack of Context</h3>
                   <p className="text-slate-700">Understanding not just what events are coming, but how other traders are positioned and what historical patterns suggest, requires consolidating data from multiple sources.</p>
