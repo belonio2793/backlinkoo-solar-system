@@ -158,7 +158,7 @@ export function Header({
         isWhiteBg ? 'bg-white' : (variant === 'translucent' ? 'bg-white' : 'bg-white')
       )}
     >
-      <div className="container mx-auto max-w-6xl px-3 sm:px-4 py-3 sm:py-4">
+      <div className="container mx-auto max-w-6xl px-3 sm:px-4 py-3 sm:py-4 relative">
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-2 sm:gap-3">
             {showHomeLink ? (
