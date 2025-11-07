@@ -62,8 +62,10 @@ const DropdownMenuContent = React.forwardRef<
     <DropdownMenuPrimitive.Content
       ref={ref}
       sideOffset={sideOffset}
+      // Force a plain white background and remove backdrop/blur effects that may come from parent layouts
+      style={{ backgroundColor: '#ffffff', backdropFilter: 'none', WebkitBackdropFilter: 'none', boxShadow: 'none' }}
       className={cn(
-        "z-[10002] min-w-[8rem] overflow-hidden rounded-md border border-slate-200 bg-white p-1 text-slate-900 shadow-none focus:outline-none",
+        "z-[10002] min-w-[8rem] overflow-hidden rounded-md border border-slate-200 bg-white p-1 text-slate-900 focus:outline-none",
         className
       )}
       {...props}
