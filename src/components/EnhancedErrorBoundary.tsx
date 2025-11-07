@@ -29,11 +29,12 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    // Prevent infinite loops - if already in error state, don't process again
-    if (this.state.hasError) {
-      console.warn('Error boundary already in error state, ignoring additional error:', error.message);
+    // Prevent infinite loops - if already processing an error, don't process again
+    if (this.isProcessingError) {
+      console.warn('Error boundary already processing an error, ignoring additional error:', error.message);
       return;
     }
+    this.isProcessingError = true;
 
     logError('Application error caught by boundary', {
       ...error,
