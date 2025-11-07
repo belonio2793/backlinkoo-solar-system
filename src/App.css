@@ -112,3 +112,22 @@ header svg, header img {
 .no-hover:hover * {
   background-color: transparent !important;
 }
+
+/* Disable hover/box-shadow for tab triggers and related elements */
+[role="tab"], [role="tab"] * {
+  transition: none !important;
+  animation: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+[role="tab"]:hover, [role="tab"]:active, [role="tab"]:focus {
+  background: transparent !important;
+  color: inherit !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Prevent shadow classes inside header/nav from showing */
+header [class*="shadow"], header [class*="ring"], header [class*="bg-"] {
+  box-shadow: none !important;
+}
