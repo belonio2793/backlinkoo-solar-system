@@ -75,7 +75,6 @@ export function CreditsBadge({ className }: Props) {
       onClick={refreshCredits}
       role="button"
       tabIndex={0}
-      title={syncing ? 'Refreshing…' : 'Click to refresh credits'}
       variant="outline"
       className={(className ? className : 'gap-1 text-xs sm:text-sm') + ' cursor-pointer select-none'}
     >
