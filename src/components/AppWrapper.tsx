@@ -17,6 +17,7 @@ import { EnhancedDashboardRouter } from '@/components/EnhancedDashboardRouter';
 import { UserBlogManagement } from '@/components/UserBlogManagement';
 import { BlogEditPage } from '@/pages/BlogEditPage';
 import DynamicPageLoader from '@/components/DynamicPageLoader';
+import HeaderWrapper from '@/components/HeaderWrapper';
 
 // Lazy load only pages with special routing needs
 const Login = lazy(() => import('@/pages/Login'));
