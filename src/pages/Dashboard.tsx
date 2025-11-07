@@ -647,7 +647,7 @@ const Dashboard = () => {
         <div className="container mx-auto px-4 py-4 max-w-6xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4 cursor-pointer" onClick={() => window.location.href = 'https://backlinkoo.com/dashboard'}>
-              <Infinity className="h-8 w-8 text-primary" />
+              <Infinity className="h-6 w-6 text-blue-600 flex-shrink-0" />
               <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-foreground">Backlink</h1>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
