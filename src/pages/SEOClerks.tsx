@@ -219,7 +219,7 @@ export default function SEOClerksPage() {
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline">
-                  <a href="/blog">
+                  <a href="/">
                     Read SEO Guides
                     <BookOpen className="ml-2 h-4 w-4" />
                   </a>
@@ -264,7 +264,7 @@ export default function SEOClerksPage() {
                     Explore SEOClerks
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
-                  <a className="scl-cta__button scl-cta__button--ghost" href="/blog">
+                  <a className="scl-cta__button scl-cta__button--ghost" href="/">
                     Learn Sustainable Link Building
                     <LinkIcon className="ml-2 h-4 w-4" />
                   </a>
