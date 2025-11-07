@@ -98,7 +98,7 @@ export function LoginModal({ isOpen, onClose, onAuthSuccess, defaultTab = "login
         <DialogHeader>
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <Infinity className="h-8 w-8 text-primary" />
+              <Infinity className="h-8 w-8 text-blue-600" />
             </div>
             <DialogTitle className="text-2xl font-bold text-foreground" role="banner">
               {activeTab === "signup" ? "Get Started" : "Welcome Back"}
