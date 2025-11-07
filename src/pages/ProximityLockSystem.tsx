@@ -243,7 +243,7 @@ export default function ProximityLockSystemPage() {
                 </p>
 
                 <div className="space-y-4 mb-8">
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
+                  <div className="bg-white p-6 rounded-lg border-l-4 border-gray-600">
                     <h3 className="font-semibold text-gray-900 mb-2">Pairing and Trust</h3>
                     <p className="text-gray-700">Initial pairing establishes a cryptographic trust relationship between the endpoint and the mobile device. This prevents arbitrary devices from triggering unlock events without authorization.</p>
                   </div>
