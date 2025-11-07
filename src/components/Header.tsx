@@ -183,16 +183,16 @@ export function Header({
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden sm:flex items-center gap-2">
             {user && (
               <div className="flex items-center gap-2">
-                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={() => navigate('/dashboard')}>
-                  <Infinity className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                <Button variant="ghost" size="sm" className="bg-transparent px-2 py-1 inline-flex items-center no-hover" onClick={() => navigate('/dashboard')}>
+                  <Infinity className="h-4 w-4 mr-2 text-blue-600 flex-shrink-0" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
-                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={handleBuyCreditsClick}>
-                  <CreditCard className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                <Button variant="ghost" size="sm" className="bg-transparent px-2 py-1 inline-flex items-center no-hover" onClick={handleBuyCreditsClick}>
+                  <CreditCard className="h-4 w-4 mr-2 text-green-600 flex-shrink-0" />
                   <span className="hidden sm:inline">Buy Credits</span>
                 </Button>
-                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={handlePremiumClick}>
-                  <Star className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                <Button variant="ghost" size="sm" className="bg-transparent px-2 py-1 inline-flex items-center no-hover" onClick={handlePremiumClick}>
+                  <Star className="h-4 w-4 mr-2 text-yellow-500 flex-shrink-0" />
                   <span className="hidden sm:inline">Premium</span>
                 </Button>
               </div>
