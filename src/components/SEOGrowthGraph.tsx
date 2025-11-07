@@ -237,7 +237,7 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
                 className="relative w-6 h-full flex items-start"
               >
                 <div
-                  className="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-400  cursor-grab"
+                  className="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-gradient-to-r from-blue-400 to-blue-600  cursor-grab"
                   style={{ top: `${(1 - Math.min(1, roiBoost / ROI_MAX)) * 100}%` }}
                 />
               </div>
