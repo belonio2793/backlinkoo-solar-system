@@ -449,10 +449,7 @@ export function SEOAcademyTab({ isSubscribed, onUpgrade }: SEOAcademyTabProps) {
                 <div className="text-sm text-gray-600">Get help from pros</div>
               </div>
             </div>
-            <Button onClick={() => setIsCheckoutOpen(true)} size="lg" className="bg-blue-600 hover:bg-blue-700">
-              <Star className="mr-2 h-5 w-5" />
-              Upgrade to Premium
-            </Button>
+            {/* Upgrade button removed - premium upgrade handled elsewhere */}
           </CardContent>
         </Card>
       </div>
