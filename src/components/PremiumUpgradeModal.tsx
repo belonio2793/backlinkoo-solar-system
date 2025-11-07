@@ -39,7 +39,7 @@ export function PremiumUpgradeModal({
 }: PremiumUpgradeModalProps) {
   const features = [
     {
-      icon: <Infinity className="h-5 w-5 text-purple-600" />,
+      icon: <Infinity className="h-5 w-5 text-blue-600" />,
       title: "Premium Link Building",
       description: "Access high-authority backlinks with credit-based usage"
     },
