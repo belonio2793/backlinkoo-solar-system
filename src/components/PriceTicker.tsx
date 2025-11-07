@@ -76,7 +76,6 @@ export function PriceTicker({ fixedBottom = false }: { fixedBottom?: boolean }) 
           <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-white/90 to-transparent pointer-events-none" />
           <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-white/90 to-transparent pointer-events-none" />
 
-          <TooltipProvider delayDuration={120}>
             <div className="ticker group h-10 sm:h-11 flex items-center relative">
               <div className="ticker-track flex items-center gap-6 sm:gap-8 whitespace-nowrap will-change-transform">
                 {doubled.map((item, idx) => {
@@ -85,40 +84,30 @@ export function PriceTicker({ fixedBottom = false }: { fixedBottom?: boolean }) 
                   const itemKey = `${keyBase}-${idx}`
 
                   return (
-                    <Tooltip key={itemKey}>
-                      <TooltipTrigger asChild>
-                        <div
-                          id={isFirstCycle && item.anchorId ? item.anchorId : undefined}
-                          className="flex items-center gap-2 text-xs sm:text-sm cursor-default"
-                        >
-                          <span className="text-black font-normal">{item.name}</span>
-                          {item.ours ? (
-                            <span className="px-1.5 py-0.5 rounded bg-primary/10 text-primary font-semibold uppercase">GUARANTEED BEST PRICE</span>
-                          ) : (
-                            <>
-                              <span className="text-gray-900 font-medium">
-                                {'$'}{item.price}{item.note && ' '}{item.note}
-                              </span>
-                              <span className="text-gray-400">•</span>
-                            </>
-                          )}
-                          {item.ours && (
-                            <span className="hidden sm:inline text-xs uppercase tracking-wide font-bold text-primary ml-2">OUR PRICE</span>
-                          )}
-                        </div>
-                      </TooltipTrigger>
-                      <TooltipContent side="bottom" align="start" className="max-w-xs">
-                        <div className="flex flex-col gap-1">
-                          <span className="text-sm font-semibold text-foreground">{item.name}</span>
-                          <p className="text-xs leading-snug text-muted-foreground">{item.description}</p>
-                        </div>
-                      </TooltipContent>
-                    </Tooltip>
+                    <div
+                      key={itemKey}
+                      id={isFirstCycle && item.anchorId ? item.anchorId : undefined}
+                      className="flex items-center gap-2 text-xs sm:text-sm cursor-default"
+                    >
+                      <span className="text-black font-normal">{item.name}</span>
+                      {item.ours ? (
+                        <span className="px-1.5 py-0.5 rounded bg-primary/10 text-primary font-semibold uppercase">GUARANTEED BEST PRICE</span>
+                      ) : (
+                        <>
+                          <span className="text-gray-900 font-medium">
+                            {'$'}{item.price}{item.note && ' '}{item.note}
+                          </span>
+                          <span className="text-gray-400">•</span>
+                        </>
+                      )}
+                      {item.ours && (
+                        <span className="hidden sm:inline text-xs uppercase tracking-wide font-bold text-primary ml-2">OUR PRICE</span>
+                      )}
+                    </div>
                   )
                 })}
               </div>
             </div>
-          </TooltipProvider>
 
           <div className="pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-white/90 to-transparent" />
           <div className="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-white/90 to-transparent" />
