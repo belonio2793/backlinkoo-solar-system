@@ -31,7 +31,8 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     // Prevent infinite loops - if already processing an error, don't process again
     if (this.isProcessingError) {
-      console.warn('Error boundary already processing an error, ignoring additional error:', error.message);
+      const msg = (error && (error as any).message) || String(error) || 'Unknown error';
+      console.warn('Error boundary already processing an error, ignoring additional error:', msg);
       return;
     }
     this.isProcessingError = true;
