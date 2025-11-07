@@ -466,6 +466,13 @@ export default function SiegeMedia() {
           aria-label="Back to top"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >↑ Top</button>
+
+        <section className="mt-12 px-4 md:px-6">
+          <BacklinkInfinityCTA
+            title="Ready to Build Authority With Quality Backlinks?"
+            description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+          />
+        </section>
       </main>
 
       <Footer />
