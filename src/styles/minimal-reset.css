@@ -1,29 +1,13 @@
 /* Minimal UI reset: force pure white backgrounds for specific containers, remove decorative gradients and animations from known classes only */
 :root {
   --background: 0 0% 100% !important;
-  --foreground: 210 11% 15% !important;
   --card: 0 0% 100% !important;
-  --card-foreground: 210 11% 15% !important;
   --popover: 0 0% 100% !important;
-  --popover-foreground: 210 11% 15% !important;
   --sidebar-background: 0 0% 100% !important;
-  --text-color: rgb(31 41 55) !important;
 }
 
-html {
+html, body, #root {
   background-color: #ffffff !important;
-  color: rgb(31 41 55) !important;
-}
-
-body {
-  background-color: #ffffff !important;
-  color: rgb(31 41 55) !important;
-  background-image: none !important;
-}
-
-#root {
-  background-color: #ffffff !important;
-  color: rgb(31 41 55) !important;
   background-image: none !important;
 }
 
