@@ -222,7 +222,7 @@ export function PremiumCheckoutModal({ isOpen, onClose, onSuccess }: PremiumChec
                 <Shield className="h-5 w-5 text-green-400" />
                 <span className="font-semibold">30-Day Money-Back Guarantee</span>
               </div>
-              <p className="text-white/80 text-sm">
+              <p className="text-gray-700 text-sm">
                 Not satisfied? Get a full refund within 30 days, no questions asked.
               </p>
             </div>
