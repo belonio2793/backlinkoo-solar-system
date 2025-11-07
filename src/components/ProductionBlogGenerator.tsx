@@ -91,17 +91,17 @@ export function ProductionBlogGenerator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {!isCompleted ? (
           <Card className="border-0  bg-white">
             <CardHeader className="text-center pb-6">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <div className="p-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl">
+                <div className="p-3 bg-gray-800 rounded-xl">
                   <Sparkles className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <CardTitle className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  <CardTitle className="text-3xl font-bold text-gray-900">
                     Create a Permanent Backlink (Basic)
                   </CardTitle>
                   <p className="text-gray-600 mt-2">
@@ -176,9 +176,9 @@ export function ProductionBlogGenerator() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 border">
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <h4 className="font-semibold mb-3 flex items-center gap-2">
-                  <TrendingUp className="h-5 w-5 text-blue-600" />
+                  <TrendingUp className="h-5 w-5 text-gray-600" />
                   What You Get (Generated Instantly):
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
