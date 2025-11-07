@@ -235,7 +235,7 @@ export function PremiumPlanModal({
 
           <div className="grid grid-cols-2 gap-3">
             {premiumFeatures.slice(0,4).map((feature, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-lg p-3">
+              <div key={index} className="bg-white/10 border-white/20 rounded-lg p-3">
                 <div className="flex items-start gap-3">
                   <div className="bg-purple-100 rounded-full p-2 flex-shrink-0">
                     <div className="text-purple-600">{feature.icon}</div>
@@ -266,7 +266,7 @@ export function PremiumPlanModal({
         <div className="space-y-4">
           <div className="grid grid-cols-2 gap-3">
             {premiumFeatures.slice(4).map((feature, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-lg p-3">
+              <div key={index} className="bg-white/10 border-white/20 rounded-lg p-3">
                 <div className="flex items-start gap-3">
                   <div className="bg-purple-100 rounded-full p-2 flex-shrink-0">
                     <div className="text-purple-600">{feature.icon}</div>
