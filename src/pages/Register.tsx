@@ -4,7 +4,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AuthService } from '@/services/authService';
 import { supabase } from '@/integrations/supabase/client';
@@ -28,7 +27,6 @@ export default function Register() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [acceptTos, setAcceptTos] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -56,10 +54,6 @@ export default function Register() {
       return;
     }
 
-    if (!acceptTos) {
-      toast({ title: 'Accept Terms', description: 'You must accept the Terms of Service and Privacy Policy.', variant: 'destructive' });
-      return;
-    }
 
     setIsLoading(true);
 
@@ -175,12 +169,6 @@ export default function Register() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-2">
-                    <Checkbox checked={acceptTos} onCheckedChange={(v: any) => setAcceptTos(!!v)} />
-                    <div className="text-sm text-muted-foreground">
-                      I agree to the <a className="text-primary underline" href="/terms-of-service">Terms of Service</a> and <a className="text-primary underline" href="/privacy-policy">Privacy Policy</a>.
-                    </div>
-                  </div>
 
                   <div className="flex gap-2">
                     <Button type="submit" className="flex-1 bg-blue-600 hover:bg-blue-700" disabled={isLoading}>
