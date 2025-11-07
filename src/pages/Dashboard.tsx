@@ -770,7 +770,7 @@ const Dashboard = () => {
         </div>
 
         {/* Main Navigation */}
-        <div className="border-b bg-muted/30">
+        <div className="border-b bg-gray-100">
           <div className="container mx-auto px-4">
             <nav className="flex justify-center items-center gap-4 w-full">
               <Button
