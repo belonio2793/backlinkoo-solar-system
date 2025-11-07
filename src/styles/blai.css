@@ -328,11 +328,7 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.blai-cta-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-  background: #f0f0f0;
-}
+/* .blai-cta-link:hover effect removed - no pop-up animation */
 
 /* Responsive Design */
 @media (max-width: 768px) {

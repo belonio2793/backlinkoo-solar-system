@@ -72,10 +72,7 @@
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.heygrid-hero button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 20px 40px rgba(5, 150, 105, 0.2);
-}
+/* .heygrid-hero button:hover effect removed - no pop-up animation */
 
 /* What is HeyGrid Section */
 .heygrid-what {
