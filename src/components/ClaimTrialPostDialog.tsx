@@ -279,7 +279,7 @@ export function ClaimTrialPostDialog({
                 <span>Full SEO value maintained</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
-                <Infinity className="h-4 w-4 text-purple-600" />
+                <Infinity className="h-4 w-4 text-blue-600" />
                 <span>Lifetime backlink to {targetUrl}</span>
               </div>
             </div>
