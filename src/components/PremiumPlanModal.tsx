@@ -352,7 +352,7 @@ export function PremiumPlanModal({
 
         {/* Yearly Plan */}
         <Card
-          className={`cursor-pointer transition-all duration-200 relative bg-white/10 border-white/20 text-white ${selectedPlan === 'yearly' ? 'ring-2 ring-purple-500' : ''}`}
+          className={`cursor-pointer transition-all duration-200 relative bg-transparent border-transparent text-white ${selectedPlan === 'yearly' ? 'ring-2 ring-purple-500' : ''}`}
           onClick={() => setSelectedPlan('yearly')}
         >
           <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-green-600 to-emerald-600 text-white px-4 py-1">
