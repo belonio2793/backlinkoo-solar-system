@@ -241,7 +241,7 @@ export function PremiumPlanModal({
                     <div className="text-purple-600">{feature.icon}</div>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 text-sm">{feature.title}</h3>
+                    <h3 className="font-semibold text-white text-sm">{feature.title}</h3>
                     <p className="text-gray-600 text-xs">{feature.description}</p>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export function PremiumPlanModal({
                     <div className="text-purple-600">{feature.icon}</div>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 text-sm">{feature.title}</h3>
+                    <h3 className="font-semibold text-white text-sm">{feature.title}</h3>
                     <p className="text-gray-600 text-xs">{feature.description}</p>
                   </div>
                 </div>
