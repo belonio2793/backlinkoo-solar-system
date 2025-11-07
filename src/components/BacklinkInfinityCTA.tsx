@@ -29,7 +29,7 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
   variant = 'default',
 }) => {
   const handlePrimaryClick = () => {
-    window.location.href = '/login';
+    window.location.href = '/register';
   };
 
   const handleSecondaryClick = () => {
