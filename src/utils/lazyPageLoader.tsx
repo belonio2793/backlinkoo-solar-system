@@ -1,5 +1,4 @@
 import React, { lazy, Suspense } from 'react';
-import { Infinity } from 'lucide-react';
 
 /**
  * Utility to lazily load pages on demand rather than eagerly importing them
@@ -31,7 +30,10 @@ export function PageLoadingFallback() {
     <div className="flex items-center justify-center min-h-screen bg-background">
       <div className="text-center">
         <div className="inline-flex flex-col items-center gap-3">
-          <Infinity className="w-10 h-10 text-blue-600 animate-spin" strokeWidth={1.5} />
+          <svg className="w-10 h-10 text-blue-600 animate-spin" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="25" cy="25" r="20" stroke="currentColor" strokeWidth="4" strokeOpacity="0.15" fill="none" />
+            <path d="M45 25a20 20 0 0 1-20 20" stroke="currentColor" strokeWidth="4" strokeLinecap="round" fill="none" />
+          </svg>
           <p className="text-sm text-muted-foreground">Loading page...</p>
         </div>
       </div>
