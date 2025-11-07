@@ -556,7 +556,11 @@ class AffiliateService {
         thisMonthClicks: thisMonthClicksCount || 0
       };
     } catch (error) {
-      console.error('Error getting affiliate stats:', error.message || error.toString() || JSON.stringify(error));
+      const msg = error?.message || error?.toString() || JSON.stringify(error);
+      console.error('Error getting affiliate stats:', msg);
+      if (typeof msg === 'string' && msg.includes('relation')) {
+        console.error('One or more database tables used by the affiliate system appear to be missing. Please run the database migrations in supabase/migrations to create the required tables (affiliate and credit tables). You can also trigger the Netlify migration function: POST /.netlify/functions/run-migration with SUPABASE_SERVICE_ROLE_KEY set.');
+      }
       return {
         totalCredits: 0,
         totalReferrals: 0,
