@@ -168,7 +168,7 @@ export function ModernBlogTemplate() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+      <div className="min-h-screen bg-white">
         <Header />
         <div className="container mx-auto px-4 py-8">
           <div className="max-w-4xl mx-auto">
@@ -189,7 +189,7 @@ export function ModernBlogTemplate() {
 
   if (!blogPost) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+      <div className="min-h-screen bg-white">
         <Header />
         <div className="container mx-auto px-4 py-8">
           <div className="max-w-4xl mx-auto text-center">
@@ -210,13 +210,13 @@ export function ModernBlogTemplate() {
   const processedContent = processContentWithAnchors(blogPost.content || '');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+    <div className="min-h-screen bg-white">
       <Header />
       
       {/* Reading Progress Bar */}
       <div className="fixed top-0 left-0 right-0 z-50 h-1 bg-gray-200">
         <div 
-          className="h-full bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-150 ease-out"
+          className="h-full bg-gray-400 transition-all duration-150 ease-out"
           style={{ width: `${readingProgress}%` }}
         />
       </div>
