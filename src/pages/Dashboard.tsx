@@ -656,7 +656,7 @@ const Dashboard = () => {
                 onClick={() => navigate('/')}
                 className="flex items-center gap-1 px-2 sm:px-3 text-muted-foreground hover:text-foreground"
               >
-                <Home className="h-4 w-4" />
+                <Home className="h-4 w-4 text-blue-600" />
                 <span className="hidden sm:inline">Home</span>
               </Button>
 
@@ -731,7 +731,7 @@ const Dashboard = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56 bg-white">
                   <DropdownMenuItem onClick={() => navigate('/') }>
-                  <Home className="mr-2 h-4 w-4 text-slate-600" />
+                  <Home className="mr-2 h-4 w-4 text-blue-600" />
                   Home
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/dashboard#premium-plan')}>
