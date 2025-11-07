@@ -91,12 +91,15 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
     // For recoverable errors, don't show error state
     if (isExtensionError || isAuthError || isDatabaseError || isComponentError || isRouteError || isBlogError || isNetworkBlockedError) {
       console.warn('Recoverable error - not showing error UI:', error.message);
+      this.isProcessingError = false;
       return;
     }
 
     // For all other errors, set error state
     console.warn('Critical application error - showing fallback UI:', error.message);
-    this.setState({ hasError: true, error, errorInfo });
+    this.setState({ hasError: true, error, errorInfo }, () => {
+      this.isProcessingError = false;
+    });
   }
 
   componentWillUnmount() {
