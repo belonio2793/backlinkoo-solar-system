@@ -99,6 +99,10 @@ const Affiliate: React.FC = () => {
                 <>You get <strong>1 credit</strong> for every $3 referrals spend (or per 3 credits purchased).</>
               )} Your referrals stay connected to you forever.
             </p>
+
+            <p className="text-gray-700 max-w-3xl mx-auto text-lg font-medium mt-4">
+              Earn credits and trade them for cash via PayPal or cryptocurrency, and other payment options we have available by selling them back to us!
+            </p>
           </div>
 
           {/* VIP Benefits (Premium-only) */}
