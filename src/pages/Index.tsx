@@ -190,7 +190,7 @@ function PricingSectionComponent({ pricingPlans, customCredits, customCreditsInp
 
         {/* Custom Credit Purchase */}
         <div className="mt-16 max-w-md mx-auto overscroll-contain">
-          <Card className="p-8 text-center border-2 border-primary shadow-xl bg-white">
+          <Card className="p-8 text-center shadow-xl bg-white">
             <CardHeader className="pb-6">
               <CardTitle className="text-2xl font-semibold mb-2 text-gray-900">Custom Package</CardTitle>
               <p className="text-gray-600 font-light">Choose your exact credit amount</p>
