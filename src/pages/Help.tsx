@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Link as RouterLink } from 'react-router-dom';
 import { BookOpen, LifeBuoy, MessageCircle, Mail, Search, Shield } from 'lucide-react';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
 
 const FAQ = [
   {
@@ -56,7 +58,9 @@ export default function Help() {
   }, [query]);
 
   return (
-    <main className="container mx-auto px-6 py-10">
+    <>
+      <Header />
+      <main className="container mx-auto px-6 py-10">
       <header className="max-w-3xl mx-auto text-center mb-10">
         <h1 className="text-3xl font-bold tracking-tight mb-3">Help Center</h1>
         <p className="text-muted-foreground">Guides, FAQs, and support resources to get the most out of Backlink ∞.</p>
@@ -113,5 +117,7 @@ export default function Help() {
         </Alert>
       </section>
     </main>
+      <Footer />
+    </>
   );
 }
