@@ -640,8 +640,8 @@ export default function KeywordResearch() {
           </Tabs>
         </div>
 
-        <main className="flex-1 container mx-auto px-4 pt-4 pb-40 w-full">
-        <Card className="rainbow-hover-target border-0 bg-white mx-auto max-w-5xl">
+        <main className="flex-1 container mx-auto px-4 pt-4 pb-40 w-full md:ml-64">
+        <Card className="rainbow-hover-target border-0 bg-white mx-auto max-w-4xl">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-2xl mb-4">
               <Search className="h-6 w-6" />
