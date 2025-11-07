@@ -530,12 +530,12 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(45deg, #9ca3af, #6b7280);
   border-radius: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #2563eb, #7c3aed);
+  background: linear-gradient(45deg, #6b7280, #4b5563);
 }
 
 /* Backlinkoo Design System - Clean, Powerful B2B SaaS
@@ -553,16 +553,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 11% 15%;
 
-    --primary: 219 95% 44%;
+    --primary: 0 0% 10%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96%;
+    --secondary: 0 0% 96%;
     --secondary-foreground: 210 11% 15%;
 
-    --muted: 210 40% 96%;
+    --muted: 0 0% 96%;
     --muted-foreground: 210 11% 45%;
 
-    --accent: 210 40% 96%;
+    --accent: 0 0% 96%;
     --accent-foreground: 210 11% 15%;
 
     --destructive: 0 84% 60%;
@@ -570,7 +570,7 @@ All colors MUST be HSL.
 
     --border: 214 31% 91%;
     --input: 214 31% 91%;
-    --ring: 219 95% 44%;
+    --ring: 0 0% 30%;
 
     --success: 142 71% 45%;
     --success-foreground: 0 0% 100%;
@@ -594,7 +594,7 @@ All colors MUST be HSL.
 
     --sidebar-border: 220 13% 91%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 0 0% 60%;
   }
 
   .dark {
@@ -610,29 +610,29 @@ All colors MUST be HSL.
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 218 65% 30%;
+    --secondary: 0 0% 30%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 218 55% 34%;
+    --muted: 0 0% 34%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 218 55% 34%;
+    --accent: 0 0% 34%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 218 50% 38%;
-    --input: 218 50% 38%;
+    --border: 0 0% 38%;
+    --input: 0 0% 38%;
     --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 224 60% 24%;
+    --sidebar-background: 0 0% 24%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary: 0 0% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 224 50% 28%;
+    --sidebar-accent: 0 0% 28%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 224 45% 32%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 0 0% 60%;
   }
 }
 
