@@ -761,7 +761,7 @@ Actions:
       <RankHeader showTabs={false} ctaMode="navigation" />
 
       <div className="flex">
-        <div className="hidden md:fixed md:left-0 md:top-[73px] md:h-auto md:w-64 md:flex md:flex-col md:border md:border-border/50 md:bg-background/40 md:backdrop-blur-sm md:z-[9999] md:p-4 md:space-y-4 md:overflow-y-auto md:rounded-lg">
+        <div className="hidden md:fixed md:left-0 md:top-[73px] md:h-auto md:w-64 md:flex md:flex-col md:border md:border-border/50 md:bg-slate-50 md:backdrop-blur-sm md:z-[9999] md:p-4 md:space-y-4 md:overflow-y-auto md:rounded-lg">
           <Tabs
             value={navValue}
             onValueChange={(v) => {
@@ -789,7 +789,7 @@ Actions:
         </div>
 
         <main className="flex-1 px-4 py-4 w-full md:ml-64 overflow-hidden">
-          <div className="md:hidden sticky top-[73px] left-0 right-0 z-[10000] bg-white/95 backdrop-blur-sm p-3 border-b border-border/50 rounded-lg">
+          <div className="md:hidden sticky top-[73px] left-0 right-0 z-[10000] bg-slate-50 backdrop-blur-sm p-3 border-b border-border/50 rounded-lg">
             <div className="flex flex-wrap items-center justify-center gap-2">
               <Tabs
                 value={navValue}
@@ -829,7 +829,7 @@ Actions:
 
             <Tabs value={navValue} onValueChange={(v) => setNavValue(v as typeof navValue)} className="w-full">
               <div className="px-6 pb-4 overflow-x-auto">
-                <TabsList className="inline-flex w-full gap-2 bg-transparent p-0 h-auto min-w-full justify-start sm:justify-center">
+                <TabsList className="inline-flex w-full gap-2 bg-slate-50 p-2 h-auto min-w-full justify-start sm:justify-center rounded-md">
                   <TabsTrigger value="wizard" className="flex items-center gap-2 text-sm">
                     <span className="hidden sm:inline">Wizard</span>
                     <span className="sm:hidden">W</span>
@@ -852,7 +852,7 @@ Actions:
               {/* Wizard Tab */}
               <TabsContent value="wizard" className="mt-0">
                 <CardContent className="space-y-4">
-                  <div className="rounded-3xl p-4 border-0 bg-white">
+                  <div className="rounded-3xl p-4 border-0 bg-slate-50">
                     <div className="space-y-4">
                       <h3 className="flex items-center gap-3 text-lg font-semibold">
                         <span>Wizard</span>
