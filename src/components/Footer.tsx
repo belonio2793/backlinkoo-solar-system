@@ -26,7 +26,7 @@ export const Footer = () => {
   const [pbnOpen, setPbnOpen] = useState(false);
 
   const [newsletterEmail, setNewsletterEmail] = useState('');
-  const footerLinkClass = 'text-sm text-muted-foreground hover:text-foreground transition-colors';
+  const footerLinkClass = 'text-sm font-normal text-muted-foreground hover:text-foreground transition-colors';
   const [submittingNewsletter, setSubmittingNewsletter] = useState(false);
   const [authRedirectOnSuccess, setAuthRedirectOnSuccess] = useState(false);
 
@@ -160,7 +160,6 @@ export const Footer = () => {
                 <h4 className="text-sm font-semibold text-foreground mb-3">Support</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li><Link to="/help" className={footerLinkClass}>Help Center</Link></li>
-                  <li><Link to="/status" className={footerLinkClass}>System Status</Link></li>
                   <li><a href="https://discord.gg/Kb3zTpBvSE" target="_blank" rel="noopener noreferrer" className={footerLinkClass}>Discord</a></li>
                   <li><a href="https://t.me/backlinkoo" target="_blank" rel="noopener noreferrer" className={footerLinkClass}>Telegram</a></li>
                 </ul>
