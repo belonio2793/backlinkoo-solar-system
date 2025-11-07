@@ -660,22 +660,22 @@ const Dashboard = () => {
                 <span className="hidden sm:inline">Home</span>
               </Button>
 
-              {/* Quick action buttons visible in the header for convenience */}
-              <div className="hidden sm:flex items-center gap-2">
+              {/* Quick action buttons visible in the header for convenience (now visible on mobile) */}
+              <div className="flex items-center gap-2">
                 <Button
                   variant="ghost"
                   size="sm"
                   onClick={() => { setActiveSection('dashboard'); setActiveTab('campaigns'); window.location.hash = 'campaigns'; }}
                   className="flex items-center gap-1 px-2 sm:px-3 text-muted-foreground hover:text-foreground"
                 >
-                  <Target className="h-4 w-4" />
+                  <Target className="h-4 w-4 text-emerald-600" />
                   <span className="hidden sm:inline">Campaigns</span>
                 </Button>
 
                 <BuyCreditsButton
                   trigger={
                     <Button variant="outline" size="sm" className="px-2 sm:px-3 bg-green-50 hover:bg-green-100 border-green-200 text-green-700 hover:text-green-800">
-                      <CreditCard className="h-4 w-4 sm:mr-1" />
+                      <CreditCard className="h-4 w-4 sm:mr-1 text-emerald-600" />
                       <span className="hidden sm:inline">Buy Credits</span>
                     </Button>
                   }
@@ -697,7 +697,7 @@ const Dashboard = () => {
                   onClick={() => { setActiveSection('premium-plan'); window.location.hash = 'premium-plan'; }}
                   className="flex items-center gap-1 px-2 sm:px-3"
                 >
-                  <Crown className="h-4 w-4" />
+                  <Crown className="h-4 w-4 text-yellow-500" />
                   <span className="hidden sm:inline">{isPremiumSubscriber ? 'Premium' : 'Premium Plan'}</span>
                 </Button>
               </div>
