@@ -163,7 +163,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
                 variant="outline"
                 className="border-gray-900 text-black bg-white font-semibold px-6 py-3"
               >
-                <Infinity className="mr-2 h-5 w-5" />
+                <Infinity className="mr-2 h-5 w-5 text-blue-600" />
                 Create Campaigns
               </Button>
               <BuyCreditsButton
