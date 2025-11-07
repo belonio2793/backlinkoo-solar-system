@@ -8,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { Slider } from '@/components/ui/slider';
 import { CheckCircle2, AlertTriangle, ShieldCheck, Gauge, Activity, Star, ListChecks, ArrowLeft, ArrowRight } from 'lucide-react';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import '@/styles/senuke.css';
 
 function upsertMeta(name: string, content: string) {
@@ -547,44 +548,11 @@ export default function Senuke() {
               <InlineExpandedGuide />
             </section>
 
-            <section id="cta" className="scrape-section">
-              <h2>Next Steps</h2>
-              <div className="space-y-4">
-                <article className="rounded-2xl border border-indigo-100 bg-white/90 p-6 shadow-sm backdrop-blur">
-                  <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
-                    <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-indigo-50 text-indigo-600">
-                      <Activity className="h-5 w-5" aria-hidden="true" />
-                    </span>
-                    <div className="flex flex-1 flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                      <div className="max-w-2xl">
-                        <h3 className="text-base font-semibold text-slate-900 sm:text-lg">Shift automation toward research and prospecting</h3>
-                        <p className="mt-1 text-sm text-slate-600">Group opportunities by theme, surface safe placements, and brief outreach teams with evidence instead of footprints.</p>
-                      </div>
-                      <a className="inline-flex items-center gap-2 self-start rounded-full border border-indigo-200 px-5 py-2 text-sm font-medium text-indigo-700 transition hover:border-indigo-300 hover:bg-indigo-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-200" href="/keyword-research">
-                        Visit research workspace
-                        <span aria-hidden="true">→</span>
-                      </a>
-                    </div>
-                  </div>
-                </article>
-                <article className="rounded-2xl border border-slate-200 bg-slate-50/80 p-6 shadow-sm">
-                  <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
-                    <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-emerald-50 text-emerald-600">
-                      <Gauge className="h-5 w-5" aria-hidden="true" />
-                    </span>
-                    <div className="flex flex-1 flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                      <div className="max-w-2xl">
-                        <h3 className="text-base font-semibold text-slate-900 sm:text-lg">Monitor performance with calm ranking dashboards</h3>
-                        <p className="mt-1 text-sm text-slate-600">Annotate changes, watch trendlines settle, and ensure progress stays aligned with policy-safe execution.</p>
-                      </div>
-                      <a className="inline-flex items-center gap-2 self-start rounded-full bg-white px-5 py-2 text-sm font-medium text-emerald-700 shadow-sm transition hover:bg-emerald-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200" href="/rank-tracker">
-                        Open rank tracker
-                        <span aria-hidden="true">→</span>
-                      </a>
-                    </div>
-                  </div>
-                </article>
-              </div>
+            <section className="mt-12">
+              <BacklinkInfinityCTA
+                title="Ready to Build Authority With Quality Backlinks?"
+                description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+              />
             </section>
           </article>
         </div>
