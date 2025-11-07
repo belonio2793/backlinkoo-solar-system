@@ -320,7 +320,7 @@ export function PremiumPlanModal({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Monthly Plan */}
         <Card
-          className={`cursor-pointer transition-all duration-200 bg-white/10 border-white/20 text-white ${selectedPlan === 'monthly' ? 'ring-2 ring-purple-500' : ''}`}
+          className={`cursor-pointer transition-all duration-200 bg-transparent border-transparent text-white ${selectedPlan === 'monthly' ? 'ring-2 ring-purple-500' : ''}`}
           onClick={() => setSelectedPlan('monthly')}
         >
           <CardHeader className="text-center pb-3">
