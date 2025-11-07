@@ -148,10 +148,10 @@ export function PremiumCheckoutModal({ isOpen, onClose, onSuccess }: PremiumChec
             <div className="space-y-4 mb-8">
               <Label className="text-white font-medium">Choose Your Plan</Label>
               <div className="space-y-3">
-                <div 
+                <div
                   className={`p-4 rounded-lg border-2 cursor-pointer transition-all ${
-                    selectedPlan === 'monthly' 
-                      ? 'border-yellow-300 bg-white/10' 
+                    selectedPlan === 'monthly'
+                      ? 'border-yellow-300'
                       : 'border-white/30 hover:border-white/50'
                   }`}
                   onClick={() => setSelectedPlan('monthly')}
@@ -167,10 +167,10 @@ export function PremiumCheckoutModal({ isOpen, onClose, onSuccess }: PremiumChec
                     </div>
                   </div>
                 </div>
-                <div 
+                <div
                   className={`p-4 rounded-lg border-2 cursor-pointer transition-all relative ${
-                    selectedPlan === 'yearly' 
-                      ? 'border-yellow-300 bg-white/10' 
+                    selectedPlan === 'yearly'
+                      ? 'border-yellow-300'
                       : 'border-white/30 hover:border-white/50'
                   }`}
                   onClick={() => setSelectedPlan('yearly')}
@@ -220,9 +220,9 @@ export function PremiumCheckoutModal({ isOpen, onClose, onSuccess }: PremiumChec
             <div className="mt-8 p-4 bg-white/10 rounded-lg border border-white/20">
               <div className="flex items-center gap-2 mb-2">
                 <Shield className="h-5 w-5 text-green-400" />
-                <span className="font-semibold">30-Day Money-Back Guarantee</span>
+                <span className="font-semibold text-gray-600">30-Day Money-Back Guarantee</span>
               </div>
-              <p className="text-gray-700 text-sm">
+              <p className="text-gray-600 text-sm">
                 Not satisfied? Get a full refund within 30 days, no questions asked.
               </p>
             </div>
