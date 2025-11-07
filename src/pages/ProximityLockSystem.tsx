@@ -328,9 +328,9 @@ export default function ProximityLockSystemPage() {
                 <p className="text-gray-700 mb-4 leading-relaxed">We see proximity locking applied across several verticals where unattended systems carry high risk:</p>
 
                 <div className="space-y-4">
-                  <div className="bg-blue-50 p-6 rounded-lg">
-                    <h3 className="font-semibold text-lg text-blue-900 mb-2">Finance & Banking</h3>
-                    <p className="text-blue-800">Traders, analysts, and advisors often access sensitive financial systems. A proximity lock prevents transient exposure during client interactions.</p>
+                  <div className="bg-white p-6 rounded-lg border border-gray-200">
+                    <h3 className="font-semibold text-lg text-gray-900 mb-2">Finance & Banking</h3>
+                    <p className="text-gray-700">Traders, analysts, and advisors often access sensitive financial systems. A proximity lock prevents transient exposure during client interactions.</p>
                   </div>
 
                   <div className="bg-green-50 p-6 rounded-lg">
