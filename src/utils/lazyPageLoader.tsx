@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 
-import React, { Suspense, lazy } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Infinity } from 'lucide-react';
 
 /**
