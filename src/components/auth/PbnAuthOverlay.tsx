@@ -41,7 +41,7 @@ export function PbnAuthOverlay({ context, onAuthSuccess }: PbnAuthOverlayProps) 
             <Card className="border-0 shadow-none">
               <CardHeader className="space-y-4">
                 <div className="flex items-center gap-2">
-                  <Infinity className="h-5 w-5 text-primary" />
+                  <Infinity className="h-5 w-5 text-blue-600" />
                   <CardTitle>Private Blog Network (PBN) Managers</CardTitle>
                 </div>
                 <CardDescription className="text-sm text-gray-600">
