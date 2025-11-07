@@ -868,7 +868,7 @@ Actions:
                           className="ring-1 ring-purple-100 shadow-none"
                         />
                         <div className="flex gap-2">
-                          <Button onClick={runWizard} disabled={wizardLoading} className="sm:w-auto bg-white">
+                          <Button onClick={runWizard} disabled={wizardLoading} className="sm:w-auto bg-white no-hover">
                             {wizardLoading ? 'Starting...' : 'Start'}
                           </Button>
                         </div>
