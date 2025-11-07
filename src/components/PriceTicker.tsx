@@ -1,5 +1,4 @@
 import React from 'react'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 
 // A compact, self‑contained ticker that compares common backlink services/prices
 // Doubles the items to create a seamless loop
