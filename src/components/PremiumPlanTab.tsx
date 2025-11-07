@@ -113,7 +113,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
     <div className="space-y-8">
       {/* Premium Active Dashboard for subscribed users */}
       {isSubscribed && (
-        <div className="relative overflow-hidden bg-gradient-to-br from-purple-200 via-blue-200 to-indigo-200 rounded-3xl p-8 text-purple-900">
+        <div className="relative overflow-hidden bg-gradient-to-br from-purple-200 via-blue-200 to-indigo-200 rounded-3xl p-8 text-black">
           <div className="absolute inset-0 bg-white/30"></div>
           <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-white/50 to-transparent rounded-full -mr-32 -mt-32"></div>
           <div className="relative z-10">
@@ -129,22 +129,22 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
               Premium Dashboard
             </h1>
 
-            <p className="text-xl text-purple-700 mb-6 max-w-2xl">
+            <p className="text-xl text-black mb-6 max-w-2xl">
               You're all set! Enjoy premium features, complete SEO Academy access, and priority support.
             </p>
 
             <div className="flex items-center gap-6 mb-8">
               <div className="text-center">
                 <div className="text-3xl font-bold">Credits</div>
-                <div className="text-purple-700">usage-based</div>
+                <div className="text-black">usage-based</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold">50+</div>
-                <div className="text-purple-700">SEO lessons</div>
+                <div className="text-black">SEO lessons</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold">24/7</div>
-                <div className="text-purple-700">support</div>
+                <div className="text-black">support</div>
               </div>
             </div>
 
@@ -152,7 +152,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
               <Button
                 onClick={() => setActiveFeature('seo-academy')}
                 size="lg"
-                className="bg-white text-purple-900 font-semibold px-6 py-3"
+                className="bg-white text-black font-semibold px-6 py-3"
               >
                 <BookOpen className="mr-2 h-5 w-5" />
                 Access SEO Academy
@@ -161,7 +161,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
                 onClick={() => window.location.href = '/dashboard?tab=campaigns'}
                 size="lg"
                 variant="outline"
-                className="border-purple-900 text-purple-900 bg-white font-semibold px-6 py-3"
+                className="border-gray-900 text-black bg-white font-semibold px-6 py-3"
               >
                 <Infinity className="mr-2 h-5 w-5" />
                 Create Campaigns
@@ -191,13 +191,13 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
 
       {/* Hero Section - Hidden for premium users */}
       {!isSubscribed && (
-        <div className="relative overflow-hidden bg-gradient-to-br from-purple-200 via-blue-200 to-indigo-200 rounded-3xl p-8 text-purple-900">
+        <div className="relative overflow-hidden bg-gradient-to-br from-purple-200 via-blue-200 to-indigo-200 rounded-3xl p-8 text-black">
           <div className="absolute inset-0 bg-white/30"></div>
           <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-white/50 to-transparent rounded-full -mr-32 -mt-32"></div>
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-4">
               <Crown className="h-8 w-8 text-yellow-300" />
-              <Badge className="bg-yellow-300 text-purple-900 px-3 py-1">
+              <Badge className="bg-yellow-300 text-black px-3 py-1">
                 <Sparkles className="h-3 w-3 mr-1" />
                 Premium Plan
               </Badge>
@@ -214,15 +214,15 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
             <div className="flex items-center gap-6 mb-8">
               <div className="text-center">
                 <div className="text-3xl font-bold">$29</div>
-                <div className="text-purple-700">per month</div>
+                <div className="text-black">per month</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold">Credits</div>
-                <div className="text-purple-700">usage-based</div>
+                <div className="text-black">usage-based</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold">50+</div>
-                <div className="text-purple-700">SEO lessons</div>
+                <div className="text-black">SEO lessons</div>
               </div>
             </div>
 
@@ -230,7 +230,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
               <Button
                 onClick={handleUpgrade}
                 size="lg"
-                className="bg-yellow-400 text-purple-900 font-semibold px-8 py-4 text-lg"
+                className="bg-yellow-400 text-black font-semibold px-8 py-4 text-lg"
               >
                 <Crown className="mr-2 h-5 w-5" />
                 Upgrade to Premium
@@ -275,7 +275,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
               <Card key={index} className="border-2">
                 <CardHeader>
                   <div className="flex items-center gap-3">
-                    <div className="p-3 bg-purple-100 rounded-lg text-purple-600">
+                    <div className="p-3 bg-purple-100 rounded-lg text-black">
                       {feature.icon}
                     </div>
                     <div>
@@ -310,7 +310,7 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
                   <div className="text-sm text-gray-600">Value of Services</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-2xl font-bold text-purple-600">6,900%</div>
+                  <div className="text-2xl font-bold text-black">6,900%</div>
                   <div className="text-sm text-gray-600">ROI Potential</div>
                 </div>
               </div>
@@ -369,16 +369,16 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
 
       {/* Bottom CTA - Hidden for premium users */}
       {!isSubscribed && (
-        <Card className="bg-gradient-to-r from-purple-200 to-blue-200 text-purple-900 border-0">
+        <Card className="bg-gradient-to-r from-purple-200 to-blue-200 text-black border-0">
           <CardContent className="p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">Ready to Transform Your SEO?</h3>
-            <p className="text-purple-700 mb-6 max-w-2xl mx-auto">
+            <p className="text-black mb-6 max-w-2xl mx-auto">
               Join thousands of successful marketers who've upgraded their SEO game with our Premium Plan.
             </p>
             <Button
               onClick={handleUpgrade}
               size="lg"
-              className="bg-yellow-400 text-purple-900 font-semibold px-8 py-4"
+              className="bg-yellow-400 text-black font-semibold px-8 py-4"
             >
               <Crown className="mr-2 h-5 w-5" />
               Start Premium Today
