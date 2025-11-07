@@ -391,7 +391,7 @@ export function PremiumPlanModal({
       </div>
 
       {/* Plan Benefits Comparison */}
-      <div className="bg-gray-50 rounded-xl p-4">
+      <div className="bg-white/6 rounded-xl p-4">
         <h3 className="font-semibold text-gray-900 mb-2 text-center text-sm">
           Both plans include all premium features:
         </h3>
