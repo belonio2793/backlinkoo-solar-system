@@ -26,6 +26,7 @@ export const Footer = () => {
   const [pbnOpen, setPbnOpen] = useState(false);
 
   const [newsletterEmail, setNewsletterEmail] = useState('');
+  const footerLinkClass = 'text-sm text-muted-foreground hover:text-foreground transition-colors';
   const [submittingNewsletter, setSubmittingNewsletter] = useState(false);
   const [authRedirectOnSuccess, setAuthRedirectOnSuccess] = useState(false);
 
@@ -95,16 +96,16 @@ export const Footer = () => {
               <p className="text-sm text-muted-foreground max-w-md">Backlink ∞ provides industry-leading link building and ranking tools for teams and agencies. Track, analyze, and acquire high‑quality backlinks with transparent reporting.</p>
 
               <div className="mt-6 flex items-center gap-3">
-                <a href="https://twitter.com/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://twitter.com/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className={footerLinkClass}>
                   <Twitter className="h-5 w-5" />
                 </a>
-                <a href="https://github.com/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://github.com/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className={footerLinkClass}>
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="mailto:support@backlinkoo.com" aria-label="Email" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="mailto:support@backlinkoo.com" aria-label="Email" className={footerLinkClass}>
                   <Mail className="h-5 w-5" />
                 </a>
-                <a href="https://t.me/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://t.me/backlinkoo" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className={footerLinkClass}>
                   <Linkedin className="h-5 w-5" />
                 </a>
               </div>
@@ -128,40 +129,40 @@ export const Footer = () => {
               <div>
                 <h4 className="text-sm font-semibold text-foreground mb-3">Product</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li><button onClick={() => { setInitialFeature('campaigns'); setFeatureModalOpen(true); }} className="hover:text-foreground transition-colors text-left">Campaign Management</button></li>
-                  <li><button onClick={() => { setInitialFeature('automation'); setFeatureModalOpen(true); }} className="hover:text-foreground transition-colors text-left">Link Building Automation</button></li>
-                  <li><Link to="/rank-tracker" className="hover:text-foreground transition-colors">Rank Tracker</Link></li>
-                  <li><Link to="/keyword-research" className="hover:text-foreground transition-colors">Keyword Research</Link></li>
+                  <li><button onClick={() => { setInitialFeature('campaigns'); setFeatureModalOpen(true); }} className={footerLinkClass}>Campaign Management</button></li>
+                  <li><button onClick={() => { setInitialFeature('automation'); setFeatureModalOpen(true); }} className={footerLinkClass}>Link Building Automation</button></li>
+                  <li><Link to="/rank-tracker" className={footerLinkClass}>Rank Tracker</Link></li>
+                  <li><Link to="/keyword-research" className={footerLinkClass}>Keyword Research</Link></li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="text-sm font-semibold text-foreground mb-3">Company</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li><Link to="/about" className="hover:text-foreground transition-colors">About</Link></li>
-                  <li><Link to="/blog" className="hover:text-foreground transition-colors">Blog</Link></li>
-                  <li><Link to="/contact" className="hover:text-foreground transition-colors">Contact</Link></li>
-                  <li><button onClick={() => setUpdatesOpen(true)} className="hover:text-foreground transition-colors text-left">Upcoming Updates</button></li>
+                  <li><Link to="/about" className={footerLinkClass}>About</Link></li>
+                  <li><Link to="/blog" className={footerLinkClass}>Blog</Link></li>
+                  <li><Link to="/contact" className={footerLinkClass}>Contact</Link></li>
+                  <li><button onClick={() => setUpdatesOpen(true)} className={footerLinkClass}>Upcoming Updates</button></li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="text-sm font-semibold text-foreground mb-3">Resources</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li><Link to="/affiliates" className="hover:text-foreground transition-colors">Affiliates</Link></li>
-                  <li><Link to="/terms-of-service" className="hover:text-foreground transition-colors">Terms</Link></li>
-                  <li><Link to="/privacy-policy" className="hover:text-foreground transition-colors">Privacy</Link></li>
-                  <li><button onClick={() => handleSmartNavigation(FOOTER_NAV_CONFIGS.BACKLINK_REPORTS, 'Backlink Reports')} className="hover:text-foreground transition-colors text-left">Backlink Reports</button></li>
+                  <li><Link to="/affiliates" className={footerLinkClass}>Affiliates</Link></li>
+                  <li><Link to="/terms-of-service" className={footerLinkClass}>Terms</Link></li>
+                  <li><Link to="/privacy-policy" className={footerLinkClass}>Privacy</Link></li>
+                  <li><button onClick={() => handleSmartNavigation(FOOTER_NAV_CONFIGS.BACKLINK_REPORTS, 'Backlink Reports')} className={footerLinkClass}>Backlink Reports</button></li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="text-sm font-semibold text-foreground mb-3">Support</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li><Link to="/help" className="hover:text-foreground transition-colors">Help Center</Link></li>
-                  <li><Link to="/status" className="hover:text-foreground transition-colors">System Status</Link></li>
-                  <li><a href="https://discord.gg/Kb3zTpBvSE" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Discord</a></li>
-                  <li><a href="https://t.me/backlinkoo" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Telegram</a></li>
+                  <li><Link to="/help" className={footerLinkClass}>Help Center</Link></li>
+                  <li><Link to="/status" className={footerLinkClass}>System Status</Link></li>
+                  <li><a href="https://discord.gg/Kb3zTpBvSE" target="_blank" rel="noopener noreferrer" className={footerLinkClass}>Discord</a></li>
+                  <li><a href="https://t.me/backlinkoo" target="_blank" rel="noopener noreferrer" className={footerLinkClass}>Telegram</a></li>
                 </ul>
               </div>
             </div>
@@ -170,8 +171,8 @@ export const Footer = () => {
           <div className="mt-8 border-t border-gray-200 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-muted-foreground">© {new Date().getFullYear()} Backlink ∞ — All rights reserved.</div>
             <div className="flex items-center gap-3">
-              <button onClick={() => { scrollToTop(); }} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Back to top</button>
-              <a href="/sitemap.xml" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Sitemap</a>
+              <button onClick={() => { scrollToTop(); }} className={footerLinkClass}>Back to top</button>
+              <a href="/sitemap.xml" className={footerLinkClass}>Sitemap</a>
             </div>
           </div>
 
