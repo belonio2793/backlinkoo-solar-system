@@ -124,7 +124,7 @@ export default function Register() {
                 <Infinity className="h-6 w-6 text-blue-600" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold">Create your Backlink ∞ account</h1>
+                <h1 className="text-3xl font-bold">Create your Backlink <span className="text-blue-600">∞</span> account</h1>
                 <p className="text-sm text-muted-foreground">Get access to backlink insights, rank tracking, and premium tools.</p>
               </div>
             </div>
