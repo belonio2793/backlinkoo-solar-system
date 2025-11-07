@@ -528,7 +528,7 @@ export default function Loganix() {
             <div class="loganix-ctas__row">
               <a class="loganix-cta" href="https://loganix.com/" target="_blank" rel="nofollow noopener">${t[lang].ctas.primary}</a>
               <a class="loganix-cta loganix-cta--ghost" href="/login" rel="nofollow">${t[lang].ctas.secondary}</a>
-              <a class="loganix-cta loganix-cta--accent" href="/blog">Explore SEO Blog</a>
+              <a class="loganix-cta loganix-cta--accent" href="/">Explore SEO Blog</a>
             </div>
           </div>
         </div>
