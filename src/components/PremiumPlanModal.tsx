@@ -319,10 +319,8 @@ export function PremiumPlanModal({
       {/* Plan Comparison */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Monthly Plan */}
-        <Card 
-          className={`cursor-pointer transition-all duration-200 hover: ${
-            selectedPlan === 'monthly' ? 'ring-2 ring-purple-500 ' : ''
-          }`}
+        <Card
+          className={`cursor-pointer transition-all duration-200 bg-white/10 border-white/20 text-white ${selectedPlan === 'monthly' ? 'ring-2 ring-purple-500' : ''}`}
           onClick={() => setSelectedPlan('monthly')}
         >
           <CardHeader className="text-center pb-3">
