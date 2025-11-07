@@ -611,13 +611,13 @@ export default function KeywordResearch() {
       <RankHeader showTabs={false} ctaMode="navigation" />
       <div className="flex">
         {/* Sidebar Navigation */}
-        <div className="hidden md:fixed md:left-0 md:top-14 sm:md:top-16 md:h-auto md:w-64 md:flex md:flex-col md:border md:border-border/50 md:bg-background/40 md:backdrop-blur-sm md:z-[9999] md:p-4 md:space-y-4 md:overflow-y-auto md:rounded-lg">
+        <div className="hidden md:fixed md:left-0 md:top-14 sm:md:top-16 md:h-auto md:w-64 md:flex md:flex-col md:border md:border-border/50 md:bg-slate-50 md:backdrop-blur-sm md:z-[9999] md:p-4 md:space-y-4 md:overflow-y-auto md:rounded-lg">
           <Tabs
             value={navValue}
             onValueChange={(v) => setNavValue(v as typeof navValue)}
             className="flex flex-col w-full"
           >
-            <TabsList className="flex flex-col h-auto gap-1 bg-muted/50 p-2 rounded-md">
+            <TabsList className="flex flex-col h-auto gap-1 bg-slate-50 p-2 rounded-md">
               <TabsTrigger value="keyword-research" className="w-full justify-start gap-2 text-left data-[state=active]:bg-background data-[state=active]:text-foreground">
                 <Search className="h-4 w-4" /> Research
               </TabsTrigger>
@@ -651,7 +651,7 @@ export default function KeywordResearch() {
 
           <Tabs value={navValue} onValueChange={(v) => setNavValue(v as typeof navValue)} className="w-full">
             <div className="px-6 pb-4">
-              <TabsList className="inline-flex w-full gap-2 bg-transparent p-0 h-auto min-w-full justify-start sm:justify-center">
+              <TabsList className="inline-flex w-full gap-2 bg-slate-50 p-2 h-auto min-w-full justify-start sm:justify-center rounded-md">
                 <TabsTrigger value="keyword-research" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <Search className="h-4 w-4" />
                   <span className="hidden sm:inline">Research</span>
@@ -681,7 +681,7 @@ export default function KeywordResearch() {
             {/* Keyword Research Tab */}
             <TabsContent value="keyword-research" className="mt-0">
               <CardContent className="space-y-4">
-                <div className="rounded-3xl p-4 border-0 bg-white">
+                <div className="rounded-3xl p-4 border-0 bg-slate-50">
                   <div className="flex flex-col sm:flex-row gap-3">
                   <Input
                     value={keyword}
