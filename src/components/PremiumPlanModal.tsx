@@ -238,7 +238,7 @@ export function PremiumPlanModal({
               <div key={index} className="bg-white/10 border-white/20 rounded-lg p-3">
                 <div className="flex items-start gap-3">
                   <div className="bg-purple-100 rounded-full p-2 flex-shrink-0">
-                    <div className="text-purple-600">{feature.icon}</div>
+                    <div className="text-white">{feature.icon}</div>
                   </div>
                   <div>
                     <h3 className="font-semibold text-white text-sm">{feature.title}</h3>
@@ -250,7 +250,7 @@ export function PremiumPlanModal({
           </div>
 
           <div className="bg-white/6 rounded-lg p-3">
-            <h3 className="font-semibold text-gray-900 mb-2 text-sm">More Benefits</h3>
+            <h3 className="font-semibold text-white mb-2 text-sm">More Benefits</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {additionalBenefits.slice(0,3).map((benefit, index) => (
                 <div key={index} className="flex items-center gap-2 text-xs text-gray-700">
@@ -269,7 +269,7 @@ export function PremiumPlanModal({
               <div key={index} className="bg-white/10 border-white/20 rounded-lg p-3">
                 <div className="flex items-start gap-3">
                   <div className="bg-purple-100 rounded-full p-2 flex-shrink-0">
-                    <div className="text-purple-600">{feature.icon}</div>
+                    <div className="text-white">{feature.icon}</div>
                   </div>
                   <div>
                     <h3 className="font-semibold text-white text-sm">{feature.title}</h3>
@@ -399,7 +399,7 @@ export function PremiumPlanModal({
           {premiumFeatures.slice(0, 4).map((feature, index) => (
             <div key={index} className="text-center">
               <div className="bg-white rounded-full p-2.5 w-10 h-10 flex items-center justify-center mx-auto mb-1.5">
-                <div className="text-purple-600">{feature.icon}</div>
+                <div className="text-white">{feature.icon}</div>
               </div>
               <div className="text-sm font-medium text-gray-900">{feature.title}</div>
             </div>
@@ -449,7 +449,7 @@ export function PremiumPlanModal({
           <Separator className="w-full" />
         </div>
         <div className="relative flex justify-center text-xs uppercase">
-          <span className="bg-white px-2 text-gray-500">Or use your account</span>
+          <span className="bg-white/10 px-2 text-white/90">Or use your account</span>
         </div>
       </div>
 
