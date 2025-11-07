@@ -842,7 +842,7 @@ export function EnhancedAILive() {
                   
                   <div className="flex items-center justify-between p-3 bg-gray-50 rounded">
                     <div className="flex items-center gap-3">
-                      <Infinity className="h-5 w-5 text-purple-600" />
+                      <Infinity className="h-5 w-5 text-blue-600" />
                       <span className="font-medium">Capacity</span>
                     </div>
                     <Badge className="bg-green-100 text-green-800 border-green-200">
