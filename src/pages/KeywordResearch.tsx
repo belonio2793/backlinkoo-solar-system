@@ -689,7 +689,7 @@ export default function KeywordResearch() {
                     placeholder="enter your keyword, search term or phrase"
                     onKeyDown={(e) => { if (e.key === 'Enter') runSearch(); }}
                   />
-                  <Button onClick={runSearch} disabled={loading}>
+                  <Button onClick={runSearch} disabled={loading} className="no-hover">
                     {loading ? 'Analyzing...' : 'Submit'}
                   </Button>
                 </div>
@@ -717,7 +717,7 @@ export default function KeywordResearch() {
                     placeholder="https://your-site.com"
                     onKeyDown={(e) => { if (e.key === 'Enter') void runUrlAnalysis(); }}
                   />
-                  <Button onClick={() => void runUrlAnalysis()} disabled={urlLoading}>
+                  <Button onClick={() => void runUrlAnalysis()} disabled={urlLoading} className="no-hover">
                     {urlLoading ? 'Analyzing...' : 'Get Ideas'}
                   </Button>
                   {urlActive ? (
