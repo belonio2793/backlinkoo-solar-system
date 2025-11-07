@@ -188,7 +188,7 @@ export function UsageLimitExample() {
               <div className="font-medium text-green-900">Higher Limits</div>
               <div className="text-sm text-green-700">Premium plan active</div>
             </div>
-            <Infinity className="h-8 w-8 text-green-600" />
+            <Infinity className="h-8 w-8 text-blue-600" />
           </div>
         </CardContent>
       </Card>
