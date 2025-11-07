@@ -249,7 +249,7 @@ export function PremiumPlanModal({
             ))}
           </div>
 
-          <div className="bg-white/6 rounded-lg p-3">
+          <div className="bg-transparent rounded-lg p-3">
             <h3 className="font-semibold text-white mb-2 text-sm">More Benefits</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {additionalBenefits.slice(0,3).map((benefit, index) => (
@@ -280,7 +280,7 @@ export function PremiumPlanModal({
             ))}
           </div>
 
-          <div className="bg-white/6 rounded-lg p-3">
+          <div className="bg-transparent rounded-lg p-3">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {additionalBenefits.slice(3).map((benefit, index) => (
                 <div key={index} className="flex items-center gap-2 text-xs text-gray-700">
