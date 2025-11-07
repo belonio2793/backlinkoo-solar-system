@@ -36,7 +36,6 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, Di
 import { FeatureShowcaseModal } from "@/components/FeatureShowcaseModal";
 
 import { AnimatedHeadline } from "@/components/AnimatedHeadline";
-import { BlogForm } from "@/components/blog/BlogForm";
 import { RotatingTagline } from "@/components/RotatingTagline";
 import { RotatingStats } from "@/components/RotatingStats";
 import { RotatingTrustIndicators } from "@/components/RotatingTrustIndicators";
@@ -299,23 +298,6 @@ interface BlogGeneratorSectionProps {
   onBlogGenerated: (blogPost: any) => void;
 }
 
-const StableBlogGeneratorSection = memo(({ user, onBlogGenerated }: BlogGeneratorSectionProps) => {
-  return (
-    <>
-      <section id="blog-generator" className="py-12 sm:py-16 md:py-24 px-4 md:px-6 bg-white">
-        <div className="w-full max-w-6xl mx-auto px-4 md:px-0">
-          <div className="w-full px-2 md:px-6">
-            <BlogForm
-              onContentGenerated={(blogPost) => {
-                onBlogGenerated(blogPost);
-              }}
-            />
-          </div>
-        </div>
-      </section>
-    </>
-  );
-});
 
 const Index = () => {
   const go = (path: string) => {
@@ -324,12 +306,6 @@ const Index = () => {
   const { toast } = useToast();
 
   const [pricingModalOpen, setPricingModalOpen] = useState(false);
-  const [blogModalOpen, setBlogModalOpen] = useState(false);
-  const [generatedBlog, setGeneratedBlog] = useState<{
-    title?: string;
-    blogUrl?: string;
-    inputs?: { keyword: string; anchorText: string; targetUrl: string };
-  } | null>(null);
   const [user, setUser] = useState<User | null>(null);
   const [authChecked, setAuthChecked] = useState(false);
   const [selectedPlan, setSelectedPlan] = useState<'starter_100' | 'starter_200' | 'starter_300'>('starter_200');
@@ -1111,33 +1087,6 @@ const Index = () => {
   };
 
 
-  const handleBlogFormGenerated = (blogPost: any) => {
-    setUser(user);
-
-    let fullBlogUrl = '';
-    if (blogPost.blogUrl) {
-      if (blogPost.blogUrl.startsWith('http')) {
-        fullBlogUrl = blogPost.blogUrl;
-      } else if (blogPost.blogUrl.startsWith('/')) {
-        fullBlogUrl = `${window.location.origin}${blogPost.blogUrl}`;
-      } else {
-        fullBlogUrl = `${window.location.origin}/blog/${blogPost.blogUrl}`;
-      }
-    } else if (blogPost.metadata?.slug) {
-      fullBlogUrl = `${window.location.origin}/blog/${blogPost.metadata.slug}`;
-    }
-
-    setGeneratedBlog({
-      title: blogPost.title,
-      blogUrl: fullBlogUrl,
-      inputs: blogPost.inputs ?? {
-        keyword: blogPost.metadata?.keyword || '',
-        anchorText: blogPost.metadata?.anchorText || '',
-        targetUrl: blogPost.metadata?.targetUrl || ''
-      }
-    });
-    setBlogModalOpen(true);
-  };
 
   const features = [
     {
@@ -1209,56 +1158,7 @@ const Index = () => {
         </section>
       )}
 
-      <StableBlogGeneratorSection user={user} onBlogGenerated={handleBlogFormGenerated} />
 
-      {/* Success Modal for Generated Blog */}
-      <Dialog open={blogModalOpen} onOpenChange={setBlogModalOpen}>
-        <DialogContent className="max-w-xl">
-          <DialogHeader>
-            <DialogTitle className="text-2xl">Blog Post Published</DialogTitle>
-            <DialogDescription>Here are your details and the live link.</DialogDescription>
-          </DialogHeader>
-          <div className="space-y-4">
-            <div>
-              <div className="text-sm text-muted-foreground">Live URL</div>
-              <a href={generatedBlog?.blogUrl} className="block break-all text-blue-600 underline" target="_self" rel="noopener noreferrer">
-                {generatedBlog?.blogUrl}
-              </a>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div>
-                <div className="text-xs text-muted-foreground">Keyword</div>
-                <div className="font-medium">{generatedBlog?.inputs?.keyword}</div>
-              </div>
-              <div>
-                <div className="text-xs text-muted-foreground">Anchor Text</div>
-                <div className="font-medium">{generatedBlog?.inputs?.anchorText}</div>
-              </div>
-              <div>
-                <div className="text-xs text-muted-foreground">Target URL</div>
-                <div className="font-medium break-all">{generatedBlog?.inputs?.targetUrl}</div>
-              </div>
-            </div>
-          </div>
-          <DialogFooter>
-            <Button
-              variant="outline"
-              onClick={() => {
-                if (generatedBlog?.blogUrl) navigator.clipboard.writeText(generatedBlog.blogUrl);
-              }}
-            >
-              Copy Link
-            </Button>
-            <Button
-              onClick={() => {
-                if (generatedBlog?.blogUrl) window.location.href = generatedBlog.blogUrl;
-              }}
-            >
-              View Post
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
 
       {/* Pricing Modal */}
       <PricingModal
