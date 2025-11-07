@@ -11,6 +11,15 @@ interface BacklinkInfinityCTAProps {
   variant?: 'default' | 'minimal' | 'card' | 'inline';
 }
 
+let _learnPrefetched = false;
+function prefetchLearn() {
+  try {
+    if (_learnPrefetched) return;
+    _learnPrefetched = true;
+    void import(/* webpackPrefetch: true */ '../pages/Learn');
+  } catch (e) { /* ignore */ }
+}
+
 export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
   title = 'Ready to Buy Quality Backlinks?',
   description = 'Register for Backlink ∞ to access premium backlinks, drive traffic through proven SEO strategies, and get expert guidance on building your authority online.',
