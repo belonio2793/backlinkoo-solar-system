@@ -378,10 +378,7 @@
 }
 
 
-/* Hover effects */
-.hover-lift {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* Hover effects - DISABLED */
 
 /* Rainbow gradient tabs for Automation/Domains switcher */
 .automation-domains-switcher .rainbow-tab {
@@ -463,10 +460,7 @@
   filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
 }
 
-.hover-lift:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
+/* .hover-lift:hover effect removed - no pop-up animation */
 
 /* Glass morphism effects - DISABLED for plain white UI */
 .glass {
