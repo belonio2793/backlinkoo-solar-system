@@ -161,35 +161,16 @@
 .scrape-article a:focus-visible, .scrape-toc a:focus-visible { outline: 3px solid rgba(var(--snk-brand-3), .65); outline-offset: 2px; border-radius: 8px; }
 
 /* Compact spacing overrides for /senuke */
-.scrape-hero { padding: 1.25rem 0 0.5rem; }
-.scrape-layout { gap: 1rem; margin-top: 0.75rem; }
-.scrape-toc { padding: 0.5rem; }
-.scrape-toc li { margin: 0.125rem 0; }
-.scrape-article { padding-bottom: 1rem; }
-.scrape-section { margin-top: 0.5rem; padding-top: 0.5rem; border-top: none; }
-.scrape-section h2 { margin-bottom: 0.35rem; }
-.scrape-section p { margin-bottom: 0.5rem; }
-.scrape-section ul, .scrape-section ol { margin: 0.5rem 0; padding-left: 1.25rem; }
-.scrape-section li { margin: 0.2rem 0; }
-/* Reduce grid gaps inside article regardless of tailwind gap-* utilities */
-.scrape-article .grid { gap: 0.75rem !important; }
-/* Tighten card paddings */
-.scrape-article .card { margin: 0.5rem 0; }
-.scrape-article .card > div { padding: 0.6rem !important; }
-.scrape-article .card header { margin-bottom: 0.35rem; }
-/* Slightly smaller titles inside cards */
-.scrape-article .card h3 { font-size: 1rem; line-height: 1.2; margin-bottom: 0.25rem; }
-/* Tabs spacing */
-.scrape-article [role="tablist"] { margin-bottom: 0.5rem; }
-.scrape-article [role="tabpanel"] { padding: 0.5rem 0; }
-/* Accordion spacing */
-.scrape-article .accordion { gap: 0.35rem !important; }
-/* Reduced spacing for hero elements */
-.scrape-title { margin-bottom: 0.25rem; }
-.scrape-subtitle { margin-top: 0.25rem; }
-.scrape-hero__meta { margin-top: 0.35rem; gap: 0.5rem; font-size: 0.85rem; }
-.scrape-hero__cta { margin-top: 0.5rem; gap: 0.5rem; }
-.scrape-kicker { margin-bottom: 0.1rem; }
+.scrape-hero { padding: 1.5rem 0 0.75rem; }
+.scrape-layout { gap: 1.25rem; margin-top: 0.5rem; }
+.scrape-toc { padding: 0.75rem; }
+.scrape-toc li { margin: 0.2rem 0; }
+.scrape-article { padding-bottom: 1.5rem; }
+.scrape-section { margin-top: 0.75rem; padding-top: 0.5rem; }
+.scrape-section h2 { margin-bottom: 0.4rem; }
+.scrape-section p { margin-bottom: 0.6rem; }
+.scrape-article .grid { gap: 1rem !important; }
+.scrape-article .card { margin: 0.75rem 0; }
 
 /* Responsive tweaks */
 @media (max-width: 640px) {
