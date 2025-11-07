@@ -13,7 +13,16 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Input } from "@/components/ui/input";
 import { Twitter, Github, Mail, Linkedin } from 'lucide-react';
 
+let _learnPrefetched = false;
 export const Footer = () => {
+  const prefetchLearn = () => {
+    try {
+      if (_learnPrefetched) return;
+      _learnPrefetched = true;
+      // Prefetch Learn page bundle when user shows interest
+      void import(/* webpackPrefetch: true */ '../pages/Learn');
+    } catch (e) { /* ignore */ }
+  };
   const { user, isLoading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
