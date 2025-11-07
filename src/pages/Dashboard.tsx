@@ -772,20 +772,21 @@ const Dashboard = () => {
         {/* Main Navigation */}
         <div className="border-b bg-muted/30">
           <div className="container mx-auto px-4">
-            <nav className="grid grid-cols-2 sm:grid-cols-3 gap-1 w-full">
+            <nav className="flex justify-center items-center gap-4 w-full">
               <Button
                 variant={activeSection === "dashboard" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("dashboard")}
-                className="w-full justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3"
+                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3"
               >
                 <Target className="h-4 w-4 sm:mr-2" />
                 <span className="hidden sm:inline">Campaigns</span>
+                <span className="sm:hidden">Campaigns</span>
               </Button>
 
               <Button
                 variant={activeSection === "premium-plan" ? "secondary" : "ghost"}
                 onClick={() => setActiveSection("premium-plan")}
-                className="w-full justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3 relative flex items-center gap-2"
+                className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-4 py-3 flex items-center gap-2"
               >
                 <Crown className="h-4 w-4" />
                 <span className="hidden sm:inline">
