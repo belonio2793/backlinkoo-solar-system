@@ -28,16 +28,23 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
   className = '',
   variant = 'default',
 }) => {
+  const handlePrimaryClick = () => {
+    window.location.href = '/login';
+  };
+
+  const handleSecondaryClick = () => {
+    prefetchLearn();
+    window.location.href = '/learn';
+  };
+
   if (variant === 'minimal') {
     return (
       <div className={`py-6 text-center ${className}`}>
         <p className="text-sm text-muted-foreground mb-4">{description}</p>
         <div className="flex flex-wrap gap-3 justify-center">
-          <Button asChild size="sm">
-            <a href="/login">
-              {primaryButtonText}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </a>
+          <Button size="sm" className="text-white bg-blue-600 hover:bg-blue-700" onClick={handlePrimaryClick}>
+            {primaryButtonText}
+            <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
       </div>
@@ -47,14 +54,12 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
   if (variant === 'inline') {
     return (
       <div className={`inline-flex gap-2 items-center ${className}`}>
-        <Button asChild size="sm" variant="default">
-          <a href="/login">
-            {primaryButtonText}
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </a>
+        <Button size="sm" className="text-white bg-blue-600 hover:bg-blue-700" onClick={handlePrimaryClick}>
+          {primaryButtonText}
+          <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
-        <Button asChild size="sm" variant="ghost">
-          <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
+        <Button size="sm" variant="outline" className="text-white border-white hover:bg-white/10" onClick={handleSecondaryClick}>
+          {secondaryButtonText}
         </Button>
       </div>
     );
@@ -69,14 +74,12 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
             <p className="text-muted-foreground">{description}</p>
           </div>
           <div className="flex flex-wrap gap-3 md:flex-col md:items-end">
-            <Button asChild size="lg" className="group">
-              <a href="/login">
-                {primaryButtonText}
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </a>
+            <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-700 group" onClick={handlePrimaryClick}>
+              {primaryButtonText}
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button asChild variant="outline" size="lg">
-              <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
+            <Button size="lg" variant="outline" className="text-slate-700 border-slate-300 hover:bg-slate-100" onClick={handleSecondaryClick}>
+              {secondaryButtonText}
             </Button>
           </div>
         </div>
@@ -93,14 +96,12 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
             <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
             <p className="text-lg text-muted-foreground mb-6">{description}</p>
             <div className="flex flex-wrap gap-3">
-              <Button asChild size="lg" className="group">
-                <a href="/login">
-                  {primaryButtonText}
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </a>
+              <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-700 group" onClick={handlePrimaryClick}>
+                {primaryButtonText}
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button asChild variant="outline" size="lg">
-                <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
+              <Button size="lg" variant="outline" className="text-slate-700 border-slate-300 hover:bg-slate-100" onClick={handleSecondaryClick}>
+                {secondaryButtonText}
               </Button>
             </div>
           </div>
