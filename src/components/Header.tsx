@@ -168,7 +168,7 @@ export function Header({
                 aria-label="Go to homepage"
                 style={{ cursor: 'pointer', textDecoration: 'none', background: 'none', border: 'none', padding: 0 }}
               >
-                <span className="text-lg sm:text-xl font-bold tracking-tight text-foreground">Backlink <span className="text-blue-600">∞</span></span>
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F405f839c42724651b58f049338bc622e%2F05144950e70a447c92316200c5447a54?format=webp&width=800" alt="Backlink ∞" className="h-8 w-auto" />
               </div>
             ) : null}
           </div>
