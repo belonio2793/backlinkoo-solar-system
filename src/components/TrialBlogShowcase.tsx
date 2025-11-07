@@ -375,7 +375,7 @@ export const TrialBlogShowcase = ({ limit = 6 }: TrialBlogShowcaseProps) => {
       {/* View All CTA */}
       <div className="text-center pt-6 border-t border-gray-100">
         <Button
-          onClick={() => navigate('/blog')}
+          onClick={() => navigate('/')}
           variant="outline"
           className="bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200 text-blue-700 hover:from-blue-100 hover:to-purple-100"
         >
