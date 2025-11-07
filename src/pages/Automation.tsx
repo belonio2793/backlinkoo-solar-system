@@ -568,7 +568,7 @@ const Automation = () => {
                 <Button
                   size="sm"
                   variant="outline"
-                  className="ml-4 border-blue-300 text-blue-700 hover:bg-blue-100"
+                  className="ml-4 border-gray-300 text-gray-700 hover:bg-gray-100"
                   onClick={() => openLoginModal({
                     onAuthSuccess: handleAuthSuccess,
                     pendingAction: `your ${savedFormData.keyword || 'saved'} campaign`

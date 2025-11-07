@@ -218,12 +218,12 @@ const Login = () => {
               />
 
               {showForgotPassword && (
-                <div className="mt-4 p-4 border-2 border-blue-200 rounded-lg bg-blue-50">
-                  <div className="flex items-center gap-2 text-sm text-blue-800 mb-3">
+                <div className="mt-4 p-4 border-2 border-gray-200 rounded-lg bg-white">
+                  <div className="flex items-center gap-2 text-sm text-slate-800 mb-3">
                     <Mail className="h-4 w-4" />
                     <span className="font-medium">Reset Password</span>
                   </div>
-                  <p className="text-sm text-blue-700 mb-4">
+                  <p className="text-sm text-slate-700 mb-4">
                     Enter your email address and we'll send you a link to reset your password.
                   </p>
                   <div className="space-y-3">
@@ -237,7 +237,7 @@ const Login = () => {
                       <Button
                         type="button"
                         variant="default"
-                        className="flex-1 bg-blue-600 hover:bg-blue-700"
+                        className="flex-1"
                         onClick={handleForgotPassword}
                         disabled={isLoading}
                       >

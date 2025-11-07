@@ -704,7 +704,7 @@ const Dashboard = () => {
                     <ChevronDown className="h-3 w-3" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56">
+                <DropdownMenuContent align="end" className="w-56 bg-white">
                   <DropdownMenuItem onClick={() => navigate('/') }>
                   <Home className="mr-2 h-4 w-4" />
                   Home
@@ -719,7 +719,7 @@ const Dashboard = () => {
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => navigate('/dashboard') }>
-                  <Infinity className="mr-2 h-4 w-4 text-blue-600" />
+                  <Infinity className="mr-2 h-4 w-4 text-emerald-600" />
                   Dashboard
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
@@ -778,7 +778,7 @@ const Dashboard = () => {
                 onClick={() => setActiveSection("dashboard")}
                 className="justify-center rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-3 py-2 bg-transparent"
               >
-                <Target className="h-4 w-4 sm:mr-2 text-blue-600" />
+                <Target className="h-4 w-4 sm:mr-2 text-emerald-600" />
                 <span className="hidden sm:inline">Campaigns</span>
                 <span className="sm:hidden">Campaigns</span>
               </Button>
@@ -819,12 +819,12 @@ const Dashboard = () => {
 
             <TabsContent value="overview" className="space-y-6" data-section="overview">
               {isFirstTimeUser && credits === 0 && !isPremiumSubscriber && (
-                <Card className="border-blue-200 bg-blue-50">
+                <Card className="border-gray-200 bg-white">
                   <CardHeader>
-                    <CardTitle className="text-blue-800">Welcome to Backlink ∞</CardTitle>
+                    <CardTitle className="text-slate-800">Welcome to Backlink ∞</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="text-blue-700 mb-4">
+                    <div className="text-slate-700 mb-4">
                       <RotatingText
                         texts={[
                           "Get started by purchasing credits to create your first backlink campaign.",

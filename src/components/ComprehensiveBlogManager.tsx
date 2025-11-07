@@ -689,11 +689,11 @@ export function ComprehensiveBlogManager() {
                       <div className="flex gap-1">
                         <DropdownMenu>
                           <DropdownMenuTrigger asChild onClick={(e) => e.stopPropagation()}>
-                            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-blue-100">
+                            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-gray-100">
                               <MoreHorizontal className="h-4 w-4" />
                             </Button>
                           </DropdownMenuTrigger>
-                          <DropdownMenuContent align="end" className="w-48">
+                          <DropdownMenuContent align="end" className="w-48 bg-white">
                             <DropdownMenuItem onClick={(e) => {
                               e.stopPropagation();
                               window.open(generateBacklinkUrl(post.slug), '_blank');
