@@ -26,7 +26,7 @@ export const Footer = () => {
   const [pbnOpen, setPbnOpen] = useState(false);
 
   const [newsletterEmail, setNewsletterEmail] = useState('');
-  const footerLinkClass = 'text-sm font-normal text-muted-foreground hover:text-foreground transition-colors';
+  const footerLinkClass = 'text-sm font-normal text-muted-foreground';
   const [submittingNewsletter, setSubmittingNewsletter] = useState(false);
   const [authRedirectOnSuccess, setAuthRedirectOnSuccess] = useState(false);
 
