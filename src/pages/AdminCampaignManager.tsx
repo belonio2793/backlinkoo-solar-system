@@ -251,7 +251,7 @@ export default function AdminCampaignManager() {
           <div className="flex items-center gap-3">
             <div className="relative">
               <Shield className="h-8 w-8 text-blue-600" />
-              <Infinity className="h-4 w-4 text-orange-500 absolute -top-1 -right-1" />
+              <Infinity className="h-4 w-4 text-blue-600 absolute -top-1 -right-1" />
             </div>
             <div>
               <h1 className="text-3xl font-bold bg-white">
