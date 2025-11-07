@@ -74,6 +74,15 @@ header svg, header img {
   box-shadow: none !important;
 }
 
+/* Disable animations/hover effects inside Radix dropdown menus */
+[data-radix-dropdown-menu-content], [data-radix-dropdown-menu-content] * {
+  transition: none !important;
+  animation: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
 /* Force all Infinity (lucide) icons to the brand blue */
 .lucide-infinity, svg.lucide-infinity {
   color: #2563eb !important; /* tailwind blue-600 */
