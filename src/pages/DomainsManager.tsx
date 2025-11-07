@@ -75,8 +75,8 @@ const DomainsManager = () => {
         
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <div className="p-3 bg-blue-100 rounded-full w-fit mx-auto mb-4">
-            <Globe className="h-8 w-8 text-blue-600" />
+          <div className="p-3 bg-gray-100 rounded-full w-fit mx-auto mb-4">
+            <Globe className="h-8 w-8 text-gray-600" />
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Host Your Domains
@@ -87,7 +87,7 @@ const DomainsManager = () => {
           
           <Dialog open={isAddDialogOpen} onOpenChange={setIsAddDialogOpen}>
             <DialogTrigger asChild>
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+              <Button size="lg" className="bg-gray-800 hover:bg-gray-900 text-white px-8 py-3">
                 <Plus className="h-5 w-5 mr-2" />
                 Add Your Domain
               </Button>

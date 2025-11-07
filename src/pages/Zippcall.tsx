@@ -145,9 +145,9 @@ export default function Zippcall() {
             <p className="text-lg text-gray-700 mb-8">The Zippcall design centers on several guiding principles that shape every product decision:</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
+              <div className="bg-white border-l-4 border-gray-600 p-6 rounded">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
-                  <Check className="h-5 w-5 text-blue-600" /> Speed
+                  <Check className="h-5 w-5 text-gray-600" /> Speed
                 </h3>
                 <p className="text-gray-700">Connect quickly; reduce call setup time and handshake latency.</p>
               </div>
