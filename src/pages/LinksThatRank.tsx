@@ -329,7 +329,7 @@ export default function LinksThatRankPage() {
             <div class="ltr-ctas__row">
               <a class="ltr-cta" href="https://linksthatrank.com/" target="_blank" rel="nofollow noopener">Visit Links That Rank</a>
               <a class="ltr-cta ltr-cta--ghost" href="/" rel="nofollow">Try Backlink ∞</a>
-              <a class="ltr-cta ltr-cta--accent" href="/blog">Read SEO Guides</a>
+              <a class="ltr-cta ltr-cta--accent" href="/">Read SEO Guides</a>
             </div>
           </div>
         </div>
