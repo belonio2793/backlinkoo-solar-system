@@ -685,14 +685,18 @@ export function PremiumPlanModal({
         </DialogHeader>
         
         <div className="p-4 pt-2">
-          <LaunchLifetimeOverlay />
-          {authLoading ? (
-            <div className="flex items-center justify-center py-12">
-              <Loader2 className="h-8 w-8 animate-spin text-purple-600" />
+          <div className="rounded-lg overflow-hidden bg-gradient-to-br from-purple-600 to-blue-600 text-white">
+            <div className="p-6">
+              <LaunchLifetimeOverlay />
+              {authLoading ? (
+                <div className="flex items-center justify-center py-12">
+                  <Loader2 className="h-8 w-8 animate-spin text-white" />
+                </div>
+              ) : (
+                getStepContent()
+              )}
             </div>
-          ) : (
-            getStepContent()
-          )}
+          </div>
         </div>
       </DialogContent>
     </Dialog>
