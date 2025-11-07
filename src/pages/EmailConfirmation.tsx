@@ -350,7 +350,7 @@ const EmailConfirmation = () => {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-2">
-            <Infinity className="h-8 w-8 text-primary" />
+            <Infinity className="h-8 w-8 text-blue-600" />
             <h1 className="text-2xl font-bold text-foreground">Backlink ∞</h1>
           </div>
           <p className="text-muted-foreground">Email Verification</p>
