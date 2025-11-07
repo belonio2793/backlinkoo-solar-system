@@ -213,7 +213,7 @@ export function Header({
                   <Home className="mr-2 h-4 w-4 text-primary flex-shrink-0" />
                   <span>Home</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => { handlePremiumClick(); navigate('/dashboard#premium-plan'); }}>
+                <DropdownMenuItem onClick={handlePremiumClick}>
                   <Star className="mr-2 h-4 w-4 text-yellow-500 flex-shrink-0" />
                   <span>Upgrade to Premium</span>
                 </DropdownMenuItem>
