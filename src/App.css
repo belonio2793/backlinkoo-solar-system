@@ -113,18 +113,14 @@ header svg, header img {
   background-color: transparent !important;
 }
 
-/* Disable hover/box-shadow for tab triggers and related elements */
-[role="tab"], [role="tab"] * {
+/* Tab triggers - allow active state styling */
+[role="tab"] * {
   transition: none !important;
   animation: none !important;
   transform: none !important;
-  box-shadow: none !important;
 }
-[role="tab"]:hover, [role="tab"]:active, [role="tab"]:focus {
-  background: transparent !important;
-  color: inherit !important;
+[role="tab"]:active, [role="tab"]:focus {
   transform: none !important;
-  box-shadow: none !important;
 }
 
 /* Prevent shadow classes inside header/nav from showing */
