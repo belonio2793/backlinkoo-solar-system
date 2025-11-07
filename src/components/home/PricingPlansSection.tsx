@@ -150,7 +150,7 @@ const PricingPlansSection: React.FC<PricingPlansSectionProps> = ({ onGetStarted 
         </div>
 
         <div className="mt-16 max-w-md mx-auto overscroll-contain">
-          <Card className="p-8 text-center border-2 border-primary shadow-xl bg-gradient-to-br from-primary/5 to-blue-50">
+          <Card className="p-8 text-center shadow-xl bg-gradient-to-br from-primary/5 to-blue-50">
             <CardHeader className="pb-6">
               <CardTitle className="text-2xl font-semibold mb-2 text-gray-900">Custom Package</CardTitle>
               <p className="text-gray-600 font-light">Choose your exact credit amount</p>
