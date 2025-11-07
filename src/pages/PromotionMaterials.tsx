@@ -250,7 +250,7 @@ For fellow marketers looking to scale their SEO efforts, I recommend checking ou
                 Back to Dashboard
               </Button>
               <div className="flex items-center gap-4">
-                <Infinity className="h-8 w-8 text-primary" />
+                <Infinity className="h-8 w-8 text-blue-600" />
                 <span className="text-xl sm:text-2xl md:text-3xl font-semibold">Promotion Materials</span>
               </div>
             </div>
