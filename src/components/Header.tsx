@@ -168,6 +168,9 @@ export function Header({
     location.pathname.startsWith('/rank-tracker')
   );
 
+  // If another Header instance already rendered on this window, avoid rendering again.
+  if (!shouldRenderHeader) return null;
+
   return (
     <header
       className={cn(
