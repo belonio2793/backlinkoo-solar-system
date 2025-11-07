@@ -376,6 +376,13 @@ export default function MoneyRobot() {
         )}
 
         <div className="mt-6 text-sm text-slate-500">Approximate word count: {totalWords.toLocaleString()}</div>
+
+        <section className="container mx-auto max-w-7xl px-4 py-12">
+          <BacklinkInfinityCTA
+            title="Ready to Automate Your Link Building?"
+            description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+          />
+        </section>
       </main>
 
       <Footer />

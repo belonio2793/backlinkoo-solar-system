@@ -393,6 +393,13 @@ export default function Scrapebox() {
                 </article>
               </div>
             </section>
+
+            <section className="mt-12">
+              <BacklinkInfinityCTA
+                title="Ready to Build Your Link Authority?"
+                description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+              />
+            </section>
           </article>
         </div>
       </main>
