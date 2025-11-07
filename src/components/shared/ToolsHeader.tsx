@@ -69,18 +69,24 @@ const ToolsHeader = ({ user, currentTool }: ToolsHeaderProps) => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
-              <div key={item.name} className="relative group">
+              <div key={item.name} className="relative">
                 <button
-                  onClick={() => item.path !== '#' && navigate(item.path)}
+                  onClick={() => {
+                    if (item.path !== '#') {
+                      navigate(item.path);
+                    } else if (item.hasDropdown) {
+                      setOpenToolsDropdown(!openToolsDropdown);
+                    }
+                  }}
                   className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors font-medium"
                 >
                   <item.icon className="h-4 w-4" />
                   {item.name}
-                  {item.hasDropdown && <ChevronRight className="h-3 w-3 group-hover:rotate-90 transition-transform" />}
+                  {item.hasDropdown && <ChevronRight className={`h-3 w-3 transition-transform ${openToolsDropdown ? 'rotate-90' : ''}`} />}
                 </button>
-                
-                {item.hasDropdown && (
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+
+                {item.hasDropdown && openToolsDropdown && (
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border">
                     <div className="p-2">
                       {toolsDropdown.map((tool) => (
                         <div 
