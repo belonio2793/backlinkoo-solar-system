@@ -538,21 +538,13 @@ export default function Learn() {
       <Header />
       <main className="relative z-10 min-h-screen bg-white flex items-center justify-center">
         <div className="w-full max-w-5xl mx-auto">
-          <header className="mb-6 flex flex-col items-center justify-center gap-3 bg-transparent text-center">
+          <header className="mb-6 flex flex-col items-center bg-transparent text-center">
             <div className="flex items-center gap-3 justify-center">
-              <Button asChild variant="ghost" className="px-2">
-                <Link to="/" className="inline-flex items-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
-                    <path d="M10.707 1.293a1 1 0 00-1.414 0l-7 7A1 1 0 003 9h1v7a1 1 0 001 1h4a1 1 0 001-1V12h2v4a1 1 0 001 1h4a1 1 0 001-1V9h1a1 1 0 00.707-1.707l-7-7z" />
-                  </svg>
-                  Home
-                </Link>
-              </Button>
               <BookOpen className="h-6 w-6 text-blue-600 flex-shrink-0" />
               <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 leading-none">Learn: How Backlinks &amp; SEO Work</h1>
             </div>
 
-            <div className="flex items-center gap-3 justify-center">
+            <div className="mt-2 flex items-center gap-3 justify-center">
               <div className="text-sm text-slate-600">Page <strong>{index + 1}</strong> / {pages.length}</div>
               <div className="w-40 bg-slate-100 h-2 rounded overflow-hidden">
                 <div className="h-2 bg-blue-500 transition-all" style={{ width: `${((index + 1) / pages.length) * 100}%` }} />
