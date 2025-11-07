@@ -143,19 +143,16 @@ export function Header({
   };
 
 
-  const isWhiteBg = typeof location?.pathname === 'string' && (
-    location.pathname.startsWith('/keyword-research') ||
-    location.pathname.startsWith('/rank-tracker') ||
-    location.pathname.startsWith('/kiboui') ||
-    location.pathname.startsWith('/zippcall') ||
-    location.pathname.startsWith('/claude')
+  const isGrayBg = typeof location?.pathname === 'string' && (
+    location.pathname.startsWith('/learn') ||
+    location.pathname.startsWith('/rank-tracker')
   );
 
   return (
     <header
       className={cn(
-        'border-b border-border/50 sticky top-0 z-[10001] section-ambient bg-white',
-        isWhiteBg ? 'bg-white' : (variant === 'translucent' ? 'bg-white' : 'bg-white')
+        'border-b border-border/50 sticky top-0 z-[10001] section-ambient',
+        isGrayBg ? 'bg-slate-50' : (variant === 'translucent' ? 'bg-white' : 'bg-white')
       )}
     >
       <div className="container mx-auto max-w-6xl px-3 sm:px-4 py-3 sm:py-4 relative">
