@@ -643,7 +643,12 @@ class AffiliateService {
         .limit(50);
 
       if (error) {
-        console.error('Error getting credit history:', error.message || error.toString() || JSON.stringify(error));
+        const msg = error.message || error.toString() || JSON.stringify(error);
+        console.error('Error getting credit history:', msg);
+        if (typeof msg === 'string' && msg.includes('relation') && msg.includes('credit_transactions')) {
+          console.error('Database table "credit_transactions" appears to be missing. Run the database migrations in supabase/migrations to create credit/affiliate tables (look for files like 20241220000000_create_affiliate_tables.sql and 20241225000000_create_affiliate_system.sql).');
+          console.error('You can run migrations via the Supabase dashboard or use the provided Netlify migration function: POST /.netlify/functions/run-migration (ensure SUPABASE_SERVICE_ROLE_KEY is set as an env variable).');
+        }
         return [];
       }
 
