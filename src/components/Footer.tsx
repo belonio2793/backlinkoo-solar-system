@@ -11,6 +11,7 @@ import { PriceTicker } from '@/components/PriceTicker';
 import { useToast } from "@/hooks/use-toast";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Input } from "@/components/ui/input";
+import { BacklinkInfinityCTA } from "@/components/BacklinkInfinityCTA";
 import { Twitter, Github, Mail, Linkedin } from 'lucide-react';
 
 let _learnPrefetched = false;
@@ -270,6 +271,10 @@ export const Footer = () => {
             </DialogFooter>
           </DialogContent>
         </Dialog>
+
+        <div className="mt-16 mb-12">
+          <BacklinkInfinityCTA variant="minimal" />
+        </div>
 
       </footer>
     </>
