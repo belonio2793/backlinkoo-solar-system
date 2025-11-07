@@ -339,7 +339,7 @@ export function PremiumPlanModal({
             </div>
           </CardHeader>
           <CardContent className="pt-0">
-            <div className="text-center text-xs text-gray-600 mb-2">
+            <div className="text-center text-xs text-white/90 mb-2">
               Billed monthly • Cancel anytime
             </div>
             {selectedPlan === 'monthly' && (
@@ -378,7 +378,7 @@ export function PremiumPlanModal({
             </div>
           </CardHeader>
           <CardContent className="pt-0">
-            <div className="text-center text-xs text-gray-600 mb-2">
+            <div className="text-center text-xs text-white/90 mb-2">
               Billed annually • Best value for serious SEO
             </div>
             {selectedPlan === 'yearly' && (
