@@ -74,6 +74,7 @@ export const AppWrapper = () => {
           <Route path="/" element={<Index />} />
 
           {/* Blog Routes - Dynamic slug handling */}
+          <Route path="/blog" element={<Navigate to="/" replace />} />
           <Route path="/preview/:slug" element={<BlogPreview />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/blog/:postId/edit" element={<EmailVerificationGuard><BlogEditPage /></EmailVerificationGuard>} />
