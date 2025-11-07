@@ -194,7 +194,7 @@ export const WaitlistModal: React.FC<WaitlistModalProps> = ({
                   <div className="space-y-6 waitlist-slide-up">
                     <div className="flex items-center gap-3">
                       <div className="p-3 bg-white/20  rounded-2xl waitlist-float">
-                        <Infinity className="w-8 h-8 text-white" />
+                        <Infinity className="w-8 h-8 text-blue-600" />
                       </div>
                       <div className="text-sm font-medium bg-white/20  px-4 py-2 rounded-full border border-white/30">
                         🚀 Launching Q1 2025
