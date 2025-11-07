@@ -361,17 +361,17 @@ export function EnhancedAILive() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50/30">
+    <div className="min-h-screen bg-white">
       <div className="container mx-auto p-6 max-w-7xl">
         
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="relative">
-              <Brain className="h-10 w-10 text-blue-600" />
+              <Brain className="h-10 w-10 text-gray-600" />
               <Infinity className="h-5 w-5 text-purple-600 absolute -top-1 -right-1" />
             </div>
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-4xl font-bold text-gray-900">
               AI Live - Internal Testing
             </h1>
           </div>
