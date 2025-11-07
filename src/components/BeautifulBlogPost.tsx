@@ -882,11 +882,11 @@ const BeautifulBlogPost = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
-      
+    <div className="min-h-screen bg-white">
+
       {/* Reading Progress */}
       <ReadingProgress />
-      
+
       <Header />
 
       {/* Navigation */}
@@ -896,7 +896,7 @@ const BeautifulBlogPost = () => {
             <Button
               variant="ghost"
               onClick={() => navigate('/blog')}
-              className="flex items-center gap-2 hover:bg-blue-50 text-gray-600 hover:text-blue-600"
+              className="flex items-center gap-2 hover:bg-gray-100 text-gray-600 hover:text-gray-900"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Articles
@@ -1010,7 +1010,7 @@ const BeautifulBlogPost = () => {
 
 
         {/* Engagement Section */}
-        <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+        <Card className="bg-white border-gray-200">
           <CardContent className="p-12 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Enjoyed this article?</h2>
             <p className="text-gray-600 mb-8 text-xl">
