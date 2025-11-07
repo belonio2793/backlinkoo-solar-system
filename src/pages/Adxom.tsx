@@ -101,13 +101,11 @@ export default function AdxomPage(): JSX.Element {
           </article>
         </section>
 
-        <section className="adx-section adx-cta" id="cta-bottom" style={{ marginTop: '2.5rem' }}>
-          <h2>Ready to Turn Strategy into Rankings?</h2>
-          <p>Launch a managed link building campaign with granular controls, transparent reporting, and measurable outcomes.</p>
-          <div className="adx-cta__actions">
-            <a href="/automation" className="adx-chip">Start Automation</a>
-            <a href="/backlink-report" className="adx-chip">Generate Backlink Report</a>
-          </div>
+        <section className="mt-12">
+          <BacklinkInfinityCTA
+            title="Ready to Turn Strategy Into Rankings?"
+            description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+          />
         </section>
       </main>
 
