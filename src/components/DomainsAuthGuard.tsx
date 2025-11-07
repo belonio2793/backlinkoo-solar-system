@@ -162,10 +162,10 @@ export const DomainsAuthGuard = ({ children }: DomainsAuthGuardProps) => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-white flex items-center justify-center p-4">
         <div className="w-full max-w-md space-y-4">
           <div className="flex flex-col items-center gap-4">
-            <Loader2 className="h-8 w-8 animate-spin text-blue-600" />
+            <Loader2 className="h-8 w-8 animate-spin text-gray-600" />
             <span className="text-gray-600">Verifying domain access permissions...</span>
           </div>
 
@@ -187,11 +187,11 @@ export const DomainsAuthGuard = ({ children }: DomainsAuthGuardProps) => {
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-white flex items-center justify-center p-4">
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
-            <div className="mx-auto mb-4 p-3 bg-blue-100 rounded-full w-fit">
-              <Globe className="h-8 w-8 text-blue-600" />
+            <div className="mx-auto mb-4 p-3 bg-gray-100 rounded-full w-fit">
+              <Globe className="h-8 w-8 text-gray-600" />
             </div>
             <CardTitle className="text-2xl font-bold text-gray-900">
               Domain Management Access
