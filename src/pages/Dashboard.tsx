@@ -1300,7 +1300,7 @@ const Dashboard = () => {
               <AIPostsManager />
             </TabsContent>
 
-            <TabsContent value="campaigns" className="space-y-6">
+            <TabsContent value="campaigns" className="space-y-6 bg-slate-50 p-4 rounded-md">
               <Card>
                 <CardHeader>
                   <CardTitle>Live Campaign Queue</CardTitle>
