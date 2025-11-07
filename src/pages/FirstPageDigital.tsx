@@ -318,17 +318,11 @@ export default function FirstPageDigitalPage() {
             <section id="cta" className="fpd-cta">
               <div className="fpd-cta__inner">
                 <div className="fpd-cta__title">Make Better Agency Decisions</div>
-                <div className="fpd-cta__grid">
-                  <a className="fpd-cta__button" href="https://www.firstpagedigital.sg/" target="_blank" rel="nofollow noopener">
-                    Explore First Page Digital
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                  <a className="fpd-cta__button fpd-cta__button--ghost" href="/">
-                    Learn Sustainable SEO
-                    <LinkIcon className="ml-2 h-4 w-4" />
-                  </a>
-                </div>
-                <p className="fpd-cta__note"><Info className="h-4 w-4 mr-1 inline" /> We emphasize relevance, editorial standards, and brand safety over vanity metrics.</p>
+                <BacklinkInfinityCTA
+                  title="Build Authority With Quality Backlinks?"
+                  description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+                  variant="card"
+                />
               </div>
             </section>
           </article>

@@ -833,15 +833,11 @@ export default function Serpzilla() {
         </div>
       </main>
 
-      <section id="ctas" className="sz-ctas">
-        <div className="sz-ctas__inner">
-          <h2 className="sz-ctas__title">Ready to Explore Serpzilla?</h2>
-          <div className="sz-ctas__row">
-            <a className="sz-cta" href="https://serpzilla.com/" target="_blank" rel="nofollow noopener">Visit Serpzilla</a>
-            <a className="sz-cta sz-cta--ghost" href="/">Try Backlink ∞</a>
-          </div>
-          <p className="text-xs text-slate-500 mt-2">We are not affiliated with Serpzilla. This page synthesizes public information for educational purposes.</p>
-        </div>
+      <section className="mt-12 px-4 md:px-6">
+        <BacklinkInfinityCTA
+          title="Ready to Build Your Backlink Strategy?"
+          description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+        />
       </section>
 
       <Footer />
