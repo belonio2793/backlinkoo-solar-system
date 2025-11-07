@@ -207,7 +207,7 @@ export const UniversalPaymentComponent: React.FC<UniversalPaymentComponentProps>
               {creditOptions.map((option) => (
                 <Card
                   key={option.credits}
-                  className={`cursor-pointer transition-all hover:shadow-md ${
+                  className={`cursor-pointer transition-all ${
                     selectedCredits === option.credits && !customCredits ? 'ring-2 ring-primary' : ''
                   }`}
                   onClick={() => {
