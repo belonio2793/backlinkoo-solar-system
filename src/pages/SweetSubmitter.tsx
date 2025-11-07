@@ -122,7 +122,7 @@ export default function SweetSubmitter() {
             <div className="relative">
               <div className="rounded-2xl border bg-white">
                 <div className="flex items-center gap-3">
-                  <Infinity className="h-10 w-10 text-primary" />
+                  <Infinity className="h-10 w-10 text-blue-600" />
                   <div>
                     <div className="text-sm text-gray-600">Automation Posture</div>
                     <div className="text-2xl font-bold">Responsible</div>
