@@ -95,7 +95,7 @@ const RapidLinkIndexer: React.FC = () => {
       <Header />
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_80%_-10%,theme(colors.primary/15),transparent_60%)]" />
+        <div className="absolute inset-0 -z-10" style={{ background: 'radial-gradient(1200px 600px at 80% -10%, rgba(59, 130, 246, 0.15), transparent 60%)' }} />
         <div className="container mx-auto px-4 pt-16 pb-10 sm:pt-24">
           <div className="flex flex-col items-center text-center">
             <div className="flex flex-wrap items-center justify-center gap-2 mb-5">
