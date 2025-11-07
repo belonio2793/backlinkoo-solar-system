@@ -819,7 +819,7 @@ Actions:
 
         <section className="pt-4 pb-40 w-full mx-auto" style={{ maxWidth: '90%' }}>
 
-          <Card className="rainbow-hover-target">
+          <Card className="rainbow-hover-target border-0 bg-white mx-auto max-w-5xl">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-2xl mb-4">
                 <Search className="h-6 w-6" />
