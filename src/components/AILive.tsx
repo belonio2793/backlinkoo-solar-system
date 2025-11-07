@@ -467,9 +467,9 @@ export function AILive() {
 
             {/* Real-time Streaming Progress */}
             {streamingProgress && (
-              <Card className="border-blue-200 bg-gradient-to-r from-blue-50 to-indigo-50">
+              <Card className="border-gray-200 bg-white">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2 text-blue-800">
+                  <CardTitle className="flex items-center gap-2 text-gray-800">
                     <Brain className="h-5 w-5 animate-pulse" />
                     OpenAI ChatGPT Live Generation
                   </CardTitle>
