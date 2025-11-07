@@ -252,7 +252,7 @@ const Dashboard = () => {
         });
 
       } catch (error) {
-        console.error('🏠 Dashboard - Initialization error:', error);
+        console.error('��� Dashboard - Initialization error:', error);
       } finally {
         if (isMounted) {
           console.log('🏠 Dashboard - Initialization complete');
@@ -419,7 +419,7 @@ const Dashboard = () => {
 
         setIsFirstTimeUser(!campaignsData || campaignsData.length === 0);
       } catch (error) {
-        console.warn('���� Quick campaign check failed, defaulting to experienced user');
+        console.warn('🔍 Quick campaign check failed, defaulting to experienced user');
         setIsFirstTimeUser(false); // Default to experienced user so we show demo campaigns
       }
 
@@ -648,7 +648,7 @@ const Dashboard = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4 cursor-pointer" onClick={() => window.location.href = 'https://backlinkoo.com/dashboard'}>
               <Infinity className="h-6 w-6 text-blue-600 flex-shrink-0" />
-              <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-foreground">Backlink</h1>
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-foreground leading-none">Backlink</h1>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
               <Button
