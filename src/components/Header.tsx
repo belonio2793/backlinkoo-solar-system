@@ -60,6 +60,15 @@ export function Header({
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    try {
+      // If the current page defines a header element (page-specific hero header), prefer that and skip the global Header
+      const pageHeader = document.querySelector('header[data-loc*="src/pages/"]');
+      if (pageHeader) {
+        setShouldRenderHeader(false);
+        return;
+      }
+    } catch (e) { /* ignore DOM access errors */ }
+
     if ((window as any).__BACKLINK_HEADER_RENDERED) {
       setShouldRenderHeader(false);
       return;
