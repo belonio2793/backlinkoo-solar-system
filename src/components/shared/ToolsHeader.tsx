@@ -89,12 +89,17 @@ const ToolsHeader = ({ user, currentTool }: ToolsHeaderProps) => {
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border">
                     <div className="p-2">
                       {toolsDropdown.map((tool) => (
-                        <div 
+                        <div
                           key={tool.name}
-                          onClick={() => !tool.disabled && navigate(tool.path)}
+                          onClick={() => {
+                            if (!tool.disabled) {
+                              navigate(tool.path);
+                              setOpenToolsDropdown(false);
+                            }
+                          }}
                           className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer group transition-colors ${
-                            tool.disabled 
-                              ? 'opacity-50 cursor-not-allowed' 
+                            tool.disabled
+                              ? 'opacity-50 cursor-not-allowed'
                               : 'hover:bg-gray-50'
                           } ${tool.isActive ? 'bg-blue-50 border border-blue-200' : ''}`}
                         >
