@@ -206,7 +206,7 @@ export function Header({
           <div className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-end">
             <DropdownMenu open={navOpen} onOpenChange={setNavOpen}>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                <Button variant="ghost" size="sm" className="h-8 w-8 p-0 no-hover">
                   <Menu className="h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
