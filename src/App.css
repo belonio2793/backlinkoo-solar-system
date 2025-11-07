@@ -108,6 +108,11 @@ header svg, header img {
   filter: none !important;
   box-shadow: none !important;
 }
+/* Exception: allow active tab state to show white background */
+.no-hover[data-state=active] {
+  background-color: white !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
 /* Ensure buttons using the .no-hover class don't show hover bg from Tailwind utilities */
 .no-hover:hover * {
   background-color: transparent !important;
