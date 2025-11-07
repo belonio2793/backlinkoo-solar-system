@@ -100,9 +100,6 @@ export function PriceTicker({ fixedBottom = false }: { fixedBottom?: boolean }) 
                           <span className="text-gray-400">•</span>
                         </>
                       )}
-                      {item.ours && (
-                        <span className="hidden sm:inline text-xs uppercase tracking-wide font-bold text-primary ml-2">OUR PRICE</span>
-                      )}
                     </div>
                   )
                 })}
