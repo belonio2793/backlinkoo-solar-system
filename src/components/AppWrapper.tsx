@@ -62,6 +62,8 @@ export const AppWrapper = () => {
       <TrialNotificationBanner />
       <ScrollToTop />
       <TrendingKeywordsSidebar variant="floating" hideFloatingTrigger={true} />
+      {/* Global header for most pages; hidden on dashboard and admin pages which render their own header */}
+      <HeaderWrapper />
       <Suspense fallback={<PageLoadingFallback />}>
         <Routes>
           {/* Auth Routes - Special handling */}
