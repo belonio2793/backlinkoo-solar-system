@@ -122,11 +122,7 @@ export const FOOTER_NAV_CONFIGS = {
     requiresAuth: true
   } as SmartNavigationConfig,
 
-  // Blog - Public route
-  BLOG: {
-    route: '/blog',
-    requiresAuth: false
-  } as SmartNavigationConfig,
+  // Blog has been removed from navigation
 
   // Merchant Tools - Public routes
   BACKLINK_REPORTS: {
