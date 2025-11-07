@@ -777,7 +777,7 @@ const BeautifulBlogPost = () => {
       });
 
       // Navigate back to blog list
-      navigate('/blog');
+      navigate('/');
 
     } catch (error: any) {
       console.error('❌ Failed to delete blog post:', error);
@@ -865,7 +865,7 @@ const BeautifulBlogPost = () => {
               {error || 'The requested article could not be found or may have been removed.'}
             </p>
             <div className="flex justify-center gap-4">
-              <Button onClick={() => navigate('/blog')} variant="outline">
+              <Button onClick={() => navigate('/')} variant="outline">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Blog
               </Button>
@@ -895,7 +895,7 @@ const BeautifulBlogPost = () => {
           <div className="flex items-center justify-between">
             <Button
               variant="ghost"
-              onClick={() => navigate('/blog')}
+              onClick={() => navigate('/')}
               className="flex items-center gap-2 hover:bg-gray-100 text-gray-600 hover:text-gray-900"
             >
               <ArrowLeft className="h-4 w-4" />

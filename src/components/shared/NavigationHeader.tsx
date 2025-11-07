@@ -22,7 +22,6 @@ export function NavigationHeader() {
     { path: '/automation', label: 'Automation', icon: Zap },
     { path: '/rank-tracker', label: 'Rank Tracker', icon: TrendingUp },
     { path: '/rank-tracker/premium', label: 'Premium', icon: TrendingUp },
-    { path: '/blog', label: 'Blog', icon: FileText }
   ];
 
   const isActive = (path: string) => {

@@ -29,8 +29,8 @@ const templates: Template[] = [
     name: 'Enhanced Blog Post',
     description: 'Feature-rich template with claim system and social features',
     features: ['Claim system', 'Social sharing', 'Action buttons', 'Admin features'],
-    preview: '/blog',
-    route: '/blog'
+    preview: '/article',
+    route: '/article'
   },
   {
     id: 'beautiful',
@@ -189,7 +189,7 @@ export function BlogTemplateSelector() {
             <div className="space-y-2 text-sm text-gray-600">
               <div className="flex justify-between items-center p-2 bg-gray-50 rounded">
                 <span>Enhanced Template:</span>
-                <code className="text-blue-600">/blog/&lt;slug&gt;</code>
+                <code className="text-blue-600">/article/&lt;slug&gt;</code>
               </div>
               <div className="flex justify-between items-center p-2 bg-gray-50 rounded">
                 <span>Beautiful Template:</span>

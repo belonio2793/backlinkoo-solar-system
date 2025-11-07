@@ -123,7 +123,7 @@ export function Header({
     } catch (e) { /* ignore */ }
 
     // Don't navigate away from certain pages that should preserve user flow
-    const preserveRoutePages = ['/blog', '/ranking', '/automation', '/domains'];
+    const preserveRoutePages = ['/ranking', '/automation', '/domains'];
     const shouldPreserveRoute = preserveRoutePages.some(page =>
       location.pathname.startsWith(page)
     );

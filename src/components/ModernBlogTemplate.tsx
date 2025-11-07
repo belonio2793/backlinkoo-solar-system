@@ -195,7 +195,7 @@ export function ModernBlogTemplate() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">Blog Post Not Found</h1>
             <p className="text-gray-600 mb-8">The blog post you're looking for doesn't exist or has been removed.</p>
-            <Button onClick={() => navigate('/blog')} className="bg-blue-600 hover:bg-blue-700">
+            <Button onClick={() => navigate('/')} className="bg-blue-600 hover:bg-blue-700">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Blog
             </Button>
@@ -228,7 +228,7 @@ export function ModernBlogTemplate() {
             <div className="flex items-center gap-2 mb-6">
               <Button
                 variant="ghost"
-                onClick={() => navigate('/blog')}
+                onClick={() => navigate('/')}
                 className="text-gray-600 hover:text-gray-900"
               >
                 <ArrowLeft className="h-4 w-4 mr-2" />

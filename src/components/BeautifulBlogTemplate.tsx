@@ -223,7 +223,7 @@ export function BeautifulBlogTemplate() {
               <p className="text-muted-foreground mb-6">
                 The requested article could not be found.
               </p>
-              <Button onClick={() => navigate('/blog')}>
+              <Button onClick={() => navigate('/')}>
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Blog
               </Button>
@@ -256,7 +256,7 @@ export function BeautifulBlogTemplate() {
           <div className="flex items-center justify-between">
             <Button
               variant="ghost"
-              onClick={() => navigate('/blog')}
+              onClick={() => navigate('/')}
               className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
             >
               <ArrowLeft className="h-4 w-4" />

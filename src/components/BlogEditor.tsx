@@ -95,7 +95,7 @@ export function BlogEditor({ postId, mode = 'edit', onSave, onCancel }: BlogEdit
           description: "The requested blog post could not be found.",
           variant: "destructive"
         });
-        navigate('/blog');
+        navigate('/');
       }
     } catch (error) {
       console.error('Failed to load blog post:', error);
@@ -207,7 +207,7 @@ export function BlogEditor({ postId, mode = 'edit', onSave, onCancel }: BlogEdit
         title: "Post Deleted",
         description: "Your blog post has been deleted successfully.",
       });
-      navigate('/blog');
+      navigate('/');
     } catch (error) {
       console.error('Failed to delete blog post:', error);
       toast({
@@ -267,7 +267,7 @@ export function BlogEditor({ postId, mode = 'edit', onSave, onCancel }: BlogEdit
         <div className="flex items-center gap-4">
           <Button 
             variant="ghost" 
-            onClick={() => onCancel ? onCancel() : navigate('/blog')}
+            onClick={() => onCancel ? onCancel() : navigate('/')}
             className="flex items-center gap-2"
           >
             <ArrowLeft className="h-4 w-4" />

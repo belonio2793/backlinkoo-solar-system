@@ -106,7 +106,7 @@ export function UserClaimedPosts() {
             <p className="text-muted-foreground mb-4">
               You haven't claimed any blog posts yet. You can claim up to 3 posts to make them permanently yours.
             </p>
-            <Button onClick={() => navigate('/blog')} variant="outline">
+            <Button onClick={() => navigate('/')} variant="outline">
               Browse Available Posts
             </Button>
           </div>

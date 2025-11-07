@@ -249,7 +249,7 @@ export function TrialNotificationBanner({ onSignUp }: TrialNotificationBannerPro
                 {trialPosts.length} posts ready • Most urgent expires in {timeRemaining.hours}h {timeRemaining.minutes}m
               </span>
               <button
-                onClick={() => navigate('/blog')}
+                onClick={() => navigate('/')}
                 className="underline hover:no-underline"
               >
                 View all posts

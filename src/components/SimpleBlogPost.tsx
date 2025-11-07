@@ -171,7 +171,7 @@ const SimpleBlogPost = () => {
           <div className="text-center space-y-4">
             <h2 className="text-2xl font-bold text-gray-900">Blog Post Not Found</h2>
             <p className="text-gray-600">{error || 'The requested blog post could not be found.'}</p>
-            <Button onClick={() => navigate('/blog')} className="mt-4">
+            <Button onClick={() => navigate('/')} className="mt-4">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Blog
             </Button>
@@ -192,7 +192,7 @@ const SimpleBlogPost = () => {
           <div className="flex items-center justify-between">
             <Button
               variant="ghost"
-              onClick={() => navigate('/blog')}
+              onClick={() => navigate('/')}
               className="flex items-center gap-2"
             >
               <ArrowLeft className="h-4 w-4" />
