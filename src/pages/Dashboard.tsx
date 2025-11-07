@@ -419,7 +419,7 @@ const Dashboard = () => {
 
         setIsFirstTimeUser(!campaignsData || campaignsData.length === 0);
       } catch (error) {
-        console.warn('🔍 Quick campaign check failed, defaulting to experienced user');
+        console.warn('���� Quick campaign check failed, defaulting to experienced user');
         setIsFirstTimeUser(false); // Default to experienced user so we show demo campaigns
       }
 
@@ -880,7 +880,7 @@ const Dashboard = () => {
                         SEO Academy
                       </Button>
                       <Button onClick={() => setActiveTab('campaigns')} className="bg-blue-600 hover:bg-blue-700 text-white shadow-sm">
-                        <Infinity className="h-4 w-4 mr-2 text-blue-50" />
+                        <Infinity className="h-4 w-4 mr-2 text-white" />
                         Better Domain Metrics
                       </Button>
                     </div>
