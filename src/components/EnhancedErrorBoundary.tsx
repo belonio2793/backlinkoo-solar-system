@@ -15,41 +15,33 @@ interface ErrorBoundaryProps {
 
 export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
   private redirectTimer?: NodeJS.Timeout;
-  private isProcessingError = false;
 
   constructor(props: ErrorBoundaryProps) {
     super(props);
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(_error: Error): null {
-    // Defer decision to componentDidCatch so we can inspect the error and avoid
-    // setting error state for recoverable/known errors.
-    return null;
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { hasError: true, error };
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    // Prevent infinite loops - if already processing an error, don't process again
-    if (this.isProcessingError) {
-      const msg = (error && (error as any).message) || String(error) || 'Unknown error';
-      console.warn('Error boundary already processing an error, ignoring additional error:', msg);
+    // Prevent infinite loops - if already in error state, don't process again
+    if (this.state.hasError && this.state.error !== error) {
+      console.warn('Error boundary already in error state, ignoring additional error:', (error as any).message);
       return;
     }
-    this.isProcessingError = true;
 
     const errorMessage = (error && (error as any).message) || String(error) || '';
-    const errorStack = (error && (error as any).stack) || '';
-    const errorName = (error && (error as any).name) || '';
 
     logError('Application error caught by boundary', {
       message: errorMessage,
-      stack: errorStack,
       componentStack: errorInfo.componentStack
     });
 
     // Filter out browser extension errors and other non-critical errors
     const isExtensionError = errorMessage.includes('Cannot redefine property: ethereum') ||
-                            errorStack.includes('chrome-extension://') ||
+                            ((error as any).stack || '').includes('chrome-extension://') ||
                             errorMessage.includes('ethereum') ||
                             errorMessage.includes('evmAsk') ||
                             errorMessage.includes('ResizeObserver loop limit exceeded') ||
@@ -85,27 +77,25 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
                             errorMessage.includes('Failed to fetch dynamically imported module');
 
     // Network blocked errors (analytics interference)
-    const isNetworkBlockedError = errorName === 'NetworkBlockedError' ||
+    const isNetworkBlockedError = (error as any).name === 'NetworkBlockedError' ||
                                  errorMessage.includes('Network request blocked by browser analytics');
 
     // Blog system errors
     const isBlogError = errorMessage.includes('blog') ||
                        errorMessage.includes('Blog') ||
                        errorMessage.includes('claim') ||
-                       errorStack.includes('blog');
+                       ((error as any).stack || '').includes('blog');
 
-    // For recoverable errors, don't show error state
+    // For recoverable errors, we already set hasError=true so just return
     if (isExtensionError || isAuthError || isDatabaseError || isComponentError || isRouteError || isBlogError || isNetworkBlockedError) {
-      console.warn('Recoverable error - not showing error UI:', errorMessage);
-      this.isProcessingError = false;
+      console.warn('Recoverable error caught - will suppress error UI on next render:', errorMessage);
+      // Reset error state for recoverable errors
+      this.setState({ hasError: false });
       return;
     }
 
-    // For all other errors, set error state
+    // For critical errors, hasError is already true from getDerivedStateFromError
     console.warn('Critical application error - showing fallback UI:', errorMessage);
-    this.setState({ hasError: true, error, errorInfo }, () => {
-      this.isProcessingError = false;
-    });
   }
 
   componentWillUnmount() {
