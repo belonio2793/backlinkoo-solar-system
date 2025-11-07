@@ -203,11 +203,11 @@ export function PremiumPlanTab({ isSubscribed, onUpgrade }: PremiumPlanTabProps)
               </Badge>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">
               Unlock Your SEO Potential
             </h1>
 
-            <p className="text-xl text-purple-700 mb-6 max-w-2xl">
+            <p className="text-xl text-slate-900 mb-6 max-w-2xl">
               Get premium backlinks, exclusive SEO training, and powerful tools to dominate search rankings.
             </p>
 
