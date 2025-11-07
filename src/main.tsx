@@ -137,7 +137,15 @@ try {
 const rootEl = document.getElementById('root');
 const shouldMount = rootEl ? (rootEl.innerHTML || rootEl.childNodes.length ? false : true) : true;
 if (shouldMount) {
-  createRoot(rootEl!).render(<App />);
+  const root = createRoot(rootEl!);
+  root.render(<App />);
+  // Remove initial static loader injected into index.html as soon as the app starts
+  try {
+    const loader = document.getElementById('initial-loader');
+    if (loader) loader.remove();
+  } catch (e) {
+    // ignore
+  }
 } else {
   console.log('Server-rendered content detected in #root — skipping client app mount to preserve rendered post');
 }
