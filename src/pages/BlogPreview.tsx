@@ -179,9 +179,9 @@ export function BlogPreview() {
       </div>
 
       {/* Demo Notice */}
-      <div className="bg-blue-50 dark:bg-blue-950/20 border-b border-blue-200 dark:border-blue-800">
+      <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-6 py-3">
-          <div className="flex items-center justify-center gap-2 text-sm text-blue-800 dark:text-blue-200">
+          <div className="flex items-center justify-center gap-2 text-sm text-gray-800 dark:text-gray-200">
             <Eye className="h-4 w-4" />
             <span className="font-medium">Demo Preview</span>
             <span>•</span>

@@ -54,8 +54,8 @@ export function BlogCreation() {
             <CardContent>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-blue-600 font-bold">1</span>
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <span className="text-gray-600 font-bold">1</span>
                   </div>
                   <h3 className="font-semibold mb-2">Enter Details</h3>
                   <p className="text-sm text-gray-600">

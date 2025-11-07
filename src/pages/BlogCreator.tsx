@@ -84,8 +84,8 @@ export function BlogCreator() {
                 <CardContent className="space-y-4">
                   {features.map((feature, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <div className="p-2 bg-blue-100 rounded-lg">
-                        <feature.icon className="h-4 w-4 text-blue-600" />
+                      <div className="p-2 bg-gray-100 rounded-lg">
+                        <feature.icon className="h-4 w-4 text-gray-600" />
                       </div>
                       <div>
                         <h4 className="font-medium">{feature.title}</h4>
