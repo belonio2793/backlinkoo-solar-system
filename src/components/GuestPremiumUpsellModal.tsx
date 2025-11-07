@@ -317,7 +317,7 @@ export function GuestPremiumUpsellModal({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               <div className="text-center">
                 <div className="h-12 w-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Infinity className="h-6 w-6" />
+                  <Infinity className="h-6 w-6 text-blue-600" />
                 </div>
                 <div className="text-xl font-bold">Premium Access</div>
                 <div className="text-sm opacity-90">Higher limits, more campaigns</div>
