@@ -121,7 +121,7 @@ export default function Register() {
           <section className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-white">
-                <Infinity className="h-6 w-6 text-white" />
+                <Infinity className="h-6 w-6 text-blue-600" />
               </div>
               <div>
                 <h1 className="text-3xl font-bold">Create your Backlink ∞ account</h1>
