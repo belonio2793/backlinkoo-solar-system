@@ -66,7 +66,7 @@ const heroPoints = [
 ];
 
 const toc = [
-  { id: 'overview', label: 'What “Index Jump” Means Today' },
+  { id: 'overview', label: 'What ���Index Jump” Means Today' },
   { id: 'how-indexing-works', label: 'How Indexing Actually Works' },
   { id: 'large-sites', label: 'Operating At Scale (1M+ URLs)' },
   { id: 'backlinks', label: 'Backlinks, Freshness, and Priority' },
@@ -186,7 +186,7 @@ export default function IndexJump() {
             <div className="relative">
               <div className="rounded-2xl border bg-white">
                 <div className="flex items-center gap-3">
-                  <Infinity className="h-10 w-10 text-primary" />
+                  <Infinity className="h-10 w-10 text-blue-600" />
                   <div>
                     <div className="text-sm text-gray-600">Discovery Score</div>
                     <div className="text-2xl font-bold">High</div>
