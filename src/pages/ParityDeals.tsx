@@ -193,7 +193,7 @@ export default function ParityDealsPage() {
           </section>
 
           {/* The Problem Section */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-white border border-gray-200 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">The Pricing Bottleneck: Why Code-Based Pricing Limits Revenue Growth</h2>
             <div className="space-y-4">
               <div className="flex gap-4">

@@ -296,7 +296,7 @@ export default function Zippcall() {
           </section>
 
           {/* Comparison */}
-          <section className="mb-16 scroll-mt-20 bg-blue-50 p-8 rounded-lg">
+          <section className="mb-16 scroll-mt-20 bg-white border border-gray-200 p-8 rounded-lg">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Zippcall vs. Large Conferencing Platforms</h2>
             <p className="text-lg text-gray-700 mb-6">
               Big-name conferencing platforms are feature-rich but often come with trade-offs: heavy resource usage, pervasive analytics, and broad attack surfaces due to integrations. Zippcall differentiates by focusing on what matters for many users: fast join times, predictable media quality, and minimized data exposure.
