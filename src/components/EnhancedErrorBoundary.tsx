@@ -21,8 +21,10 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
-    return { hasError: true, error };
+  static getDerivedStateFromError(_error: Error): null {
+    // Defer decision to componentDidCatch so we can inspect the error and avoid
+    // setting error state for recoverable/known errors.
+    return null;
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
