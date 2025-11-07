@@ -641,7 +641,7 @@ export default function KeywordResearch() {
         </div>
 
         <main className="flex-1 container mx-auto px-4 pt-4 pb-40 max-w-6xl w-full md:ml-64">
-        <Card className="rainbow-hover-target">
+        <Card className="rainbow-hover-target border-0 bg-white">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-2xl mb-4">
               <Search className="h-6 w-6" />
@@ -651,7 +651,7 @@ export default function KeywordResearch() {
 
           <Tabs value={navValue} onValueChange={(v) => setNavValue(v as typeof navValue)} className="w-full">
             <div className="px-6 pb-4">
-              <TabsList className="w-full grid grid-cols-2 sm:grid-cols-5 h-auto gap-2 bg-muted/50 p-2">
+              <TabsList className="inline-flex w-full gap-2 bg-transparent p-0 h-auto min-w-full justify-start sm:justify-center">
                 <TabsTrigger value="keyword-research" className="flex items-center gap-2 text-sm data-[state=active]:bg-background data-[state=active]:text-foreground">
                   <Search className="h-4 w-4" />
                   <span className="hidden sm:inline">Research</span>
@@ -681,7 +681,8 @@ export default function KeywordResearch() {
             {/* Keyword Research Tab */}
             <TabsContent value="keyword-research" className="mt-0">
               <CardContent className="space-y-4">
-                <div className="flex flex-col sm:flex-row gap-3">
+                <div className="rounded-3xl p-4 border-0 bg-white">
+                  <div className="flex flex-col sm:flex-row gap-3">
                   <Input
                     value={keyword}
                     onChange={(e) => setKeyword(e.target.value)}
@@ -702,6 +703,7 @@ export default function KeywordResearch() {
                     {freeSearchesLeft} free searches remaining today.
                   </div>
                 ) : null}
+                </div>
               </CardContent>
             </TabsContent>
 
