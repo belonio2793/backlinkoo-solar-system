@@ -262,6 +262,8 @@ const Affiliate: React.FC = () => {
                   )} Referrals are permanent - earn from their lifetime activity!
                 </AlertDescription>
               </Alert>
+
+              <p className="text-sm text-gray-700 mt-3 font-medium">Sell your credits back to us at our rates for cash payouts!</p>
             </CardContent>
           </Card>
 
