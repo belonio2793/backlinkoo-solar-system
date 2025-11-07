@@ -536,7 +536,7 @@ export default function Learn() {
   return (
     <div className="relative">
       <Header />
-      <main className="relative z-10 min-h-screen bg-white">
+      <main className="relative z-10 min-h-screen bg-white flex items-center justify-center">
         <div className="w-full max-w-5xl mx-auto">
           <header className="mb-6 flex flex-col items-center justify-center gap-3 bg-transparent text-center">
             <div className="flex items-center gap-3 justify-center">
