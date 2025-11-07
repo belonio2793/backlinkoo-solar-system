@@ -329,7 +329,7 @@ export function PremiumPlanModal({
               <div className="flex items-center justify-center gap-2">
                 <span className="text-3xl font-bold">${plans.monthly.price}</span>
                 <div className="text-left">
-                  <div className="text-sm text-gray-500 line-through">${plans.monthly.originalPrice}</div>
+                  <div className="text-sm text-white/60 line-through">${plans.monthly.originalPrice}</div>
                   <div className="text-sm text-gray-600">per month</div>
                 </div>
               </div>
@@ -365,7 +365,7 @@ export function PremiumPlanModal({
               <div className="flex items-center justify-center gap-2">
                 <span className="text-3xl font-bold">${plans.yearly.price}</span>
                 <div className="text-left">
-                  <div className="text-sm text-gray-500 line-through">${plans.yearly.originalPrice}</div>
+                  <div className="text-sm text-white/60 line-through">${plans.yearly.originalPrice}</div>
                   <div className="text-sm text-gray-600">per year</div>
                 </div>
               </div>
