@@ -369,7 +369,7 @@ export function EnhancedAILive() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="relative">
               <Brain className="h-10 w-10 text-gray-600" />
-              <Infinity className="h-5 w-5 text-purple-600 absolute -top-1 -right-1" />
+              <Infinity className="h-5 w-5 text-blue-600 absolute -top-1 -right-1" />
             </div>
             <h1 className="text-4xl font-bold text-gray-900">
               AI Live - Internal Testing
