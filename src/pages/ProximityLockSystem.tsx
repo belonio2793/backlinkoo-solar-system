@@ -273,9 +273,9 @@ export default function ProximityLockSystemPage() {
                 <p className="text-gray-700 mb-4 leading-relaxed">The primary motivator is a reduction in risk introduced by human behavior. Forgotten locks and brief unattended periods account for many data-exposure incidents. Proximity locking removes that vulnerability.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                  <Card className="border-blue-200">
+                  <Card className="border-gray-200">
                     <CardHeader>
-                      <CardTitle className="flex items-center gap-2 text-lg"><ShieldCheck className="w-5 h-5 text-blue-600" />Enhanced Security</CardTitle>
+                      <CardTitle className="flex items-center gap-2 text-lg"><ShieldCheck className="w-5 h-5 text-gray-600" />Enhanced Security</CardTitle>
                     </CardHeader>
                     <CardContent className="text-gray-700">Enforces policy consistently without user intervention, lowering the chance of data exposure or unauthorized access.</CardContent>
                   </Card>
