@@ -333,7 +333,7 @@ export function PremiumPlanModal({
                   <div className="text-sm text-white/90">per month</div>
                 </div>
               </div>
-              <Badge className="bg-blue-100 text-blue-800">
+              <Badge className="bg-white/20 text-white">
                 {plans.monthly.discount}% Off
               </Badge>
             </div>
