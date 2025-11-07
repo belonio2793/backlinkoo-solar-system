@@ -679,7 +679,7 @@ export function DomainAutomationIntegration({ domains, onDomainsUpdated }: Domai
                       </a>
                     </Button>
                     <Button size="sm" variant="outline" asChild>
-                      <a href="/blog">
+                      <a href="/">
                         <BarChart3 className="h-3 w-3 mr-1" />
                         View Blog Posts
                       </a>
