@@ -371,7 +371,7 @@ export function PremiumPlanModal({
               </div>
               <div className="space-y-1">
                 <Badge className="bg-white/20 text-white">{`Save $${plans.yearly.savings} (${plans.yearly.discount}% Off)`}</Badge>
-                <div className="text-sm text-purple-600 font-medium">
+                <div className="text-sm text-white font-medium">
                   Just ${plans.yearly.monthlyEquivalent}/month!
                 </div>
               </div>
