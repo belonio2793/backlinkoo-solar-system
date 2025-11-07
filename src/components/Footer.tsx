@@ -98,9 +98,9 @@ export const Footer = () => {
             <div className="col-span-1 lg:col-span-2">
               <div onClick={() => { scrollToTop(); navigate('/'); }} role="link" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); scrollToTop(); navigate('/'); } }} className="inline-flex items-center gap-3 mb-4" aria-label="Backlinkoo home">
                 <div className="rounded-md bg-primary/10 p-2">
-                  <span className="text-primary font-extrabold text-lg">∞</span>
+                  <span className="text-blue-600 font-extrabold text-lg">∞</span>
                 </div>
-                <span className="text-lg font-semibold text-foreground">Backlink ∞</span>
+                <span className="text-lg font-semibold text-foreground">Backlink <span className="text-blue-600">∞</span></span>
               </div>
               <p className="text-sm text-muted-foreground max-w-md">Backlink ∞ provides industry-leading link building and ranking tools for teams and agencies. Track, analyze, and acquire high‑quality backlinks with transparent reporting.</p>
 
