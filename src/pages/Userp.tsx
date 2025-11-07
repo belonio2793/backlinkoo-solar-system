@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import '@/styles/userp.css';
 import { openAIService } from '@/services/api/openai';
 
@@ -588,7 +589,12 @@ export default function Userp() {
           </article>
         </div>
 
-        <section className="up-ctas mt-8" aria-label="Calls to action"><div className="up-ctas__inner"><div className="up-ctas__title">Ready to plan a link campaign?</div><div className="up-ctas__row"><a className="up-cta" href="https://userp.io/" target="_blank" rel="nofollow noopener">Visit uSERP</a><a className="up-cta up-cta--ghost" href="/">Try Backlink ∞</a></div></div></section>
+        <section className="mt-12">
+          <BacklinkInfinityCTA
+            title="Ready to Plan Your Link Campaign?"
+            description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+          />
+        </section>
       </main>
 
       <Footer />
