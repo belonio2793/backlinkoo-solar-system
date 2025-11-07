@@ -140,7 +140,7 @@ export const Footer = () => {
                 <h4 className="text-sm font-semibold text-foreground mb-3">Company</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li><Link to="/about" className={footerLinkClass}>About</Link></li>
-                  <li><Link to="/blog" className={footerLinkClass}>Blog</Link></li>
+                  <li><Link to="/learn" className={footerLinkClass}>Learn</Link></li>
                   <li><Link to="/contact" className={footerLinkClass}>Contact</Link></li>
                   <li><button onClick={() => setUpdatesOpen(true)} className={footerLinkClass}>Upcoming Updates</button></li>
                 </ul>
