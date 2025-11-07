@@ -139,10 +139,7 @@
   transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
   border-radius: var(--snk-radius) !important;
 }
-.scrape-layout .card:hover, .scrape-article .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 34px rgba(var(--snk-shadow), .08);
-}
+/* .scrape-layout .card:hover, .scrape-article .card:hover effect removed - no pop-up animation */
 
 /* Micro-interactions */
 @keyframes snk-floatUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
