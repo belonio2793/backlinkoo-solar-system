@@ -880,7 +880,7 @@ const Dashboard = () => {
                         SEO Academy
                       </Button>
                       <Button onClick={() => setActiveTab('campaigns')} className="bg-blue-600 hover:bg-blue-700 text-white shadow-sm">
-                        <Infinity className="h-4 w-4 mr-2" />
+                        <Infinity className="h-4 w-4 mr-2 text-blue-50" />
                         Better Domain Metrics
                       </Button>
                     </div>
