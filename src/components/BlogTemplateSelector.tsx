@@ -113,9 +113,9 @@ export function BlogTemplateSelector() {
                       className="flex-1 cursor-pointer"
                     >
                       <Card className={`transition-all duration-200 ${
-                        selectedTemplate === template.id 
-                          ? 'ring-2 ring-blue-500 bg-blue-50' 
-                          : 'hover:shadow-md'
+                        selectedTemplate === template.id
+                          ? 'ring-2 ring-blue-500 bg-blue-50'
+                          : ''
                       }`}>
                         <CardContent className="p-4">
                           <div className="space-y-3">

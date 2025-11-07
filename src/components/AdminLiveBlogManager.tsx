@@ -310,7 +310,7 @@ export function AdminLiveBlogManager() {
           </Card>
         ) : (
           filteredPosts.map((post) => (
-            <Card key={post.id} className="hover:shadow-md transition-shadow">
+            <Card key={post.id} className="transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
