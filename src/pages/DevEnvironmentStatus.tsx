@@ -342,7 +342,7 @@ export default function DevEnvironmentStatus() {
                 Open Dashboard
               </Button>
               <Button 
-                onClick={() => window.open('/blog', '_blank')}
+                onClick={() => window.open('/', '_blank')}
                 variant="outline"
                 className="flex items-center gap-2"
               >
