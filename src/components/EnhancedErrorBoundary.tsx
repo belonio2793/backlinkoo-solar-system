@@ -15,6 +15,7 @@ interface ErrorBoundaryProps {
 
 export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
   private redirectTimer?: NodeJS.Timeout;
+  private isProcessingError = false;
 
   constructor(props: ErrorBoundaryProps) {
     super(props);
