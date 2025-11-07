@@ -2,7 +2,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
 import { useUserFlow } from '@/contexts/UserFlowContext';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { Infinity, Home, CreditCard, Menu, LogOut, BookOpen, Star, Search, LineChart, Target, Wand2, Sparkles } from 'lucide-react';
 import { LoginModal } from './LoginModal';
 import { AuthService } from '@/services/authService';
