@@ -706,15 +706,15 @@ const Dashboard = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56 bg-white">
                   <DropdownMenuItem onClick={() => navigate('/') }>
-                  <Home className="mr-2 h-4 w-4" />
+                  <Home className="mr-2 h-4 w-4 text-slate-600" />
                   Home
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/dashboard#premium-plan')}>
-                  <Star className="mr-2 h-4 w-4" />
+                  <Star className="mr-2 h-4 w-4 text-yellow-500" />
                   Upgrade to Premium
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/dashboard#buy-credits')}>
-                  <CreditCard className="mr-2 h-4 w-4" />
+                  <CreditCard className="mr-2 h-4 w-4 text-emerald-600" />
                   Buy Credits
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
@@ -723,20 +723,20 @@ const Dashboard = () => {
                   Dashboard
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
-                  <Search className="mr-2 h-4 w-4" />
+                  <Search className="mr-2 h-4 w-4 text-purple-600" />
                   Keyword Research
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/rank-tracker')}>
-                  <LineChart className="mr-2 h-4 w-4" />
+                  <LineChart className="mr-2 h-4 w-4 text-orange-600" />
                   Rank Tracker
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
-                  <Sparkles className="mr-2 h-4 w-4" />
+                  <Sparkles className="mr-2 h-4 w-4 text-pink-500" />
                   Community Blog
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
-                  <Target className="mr-2 h-4 w-4" />
+                  <Target className="mr-2 h-4 w-4 text-emerald-600" />
                   Ask Backlink ∞ AI
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
@@ -746,7 +746,7 @@ const Dashboard = () => {
                 </div>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => setIsProfileOpen(true)}>
-                  <Settings className="mr-2 h-4 w-4" />
+                  <Settings className="mr-2 h-4 w-4 text-slate-700" />
                   Profile Settings
                 </DropdownMenuItem>
 
@@ -760,7 +760,7 @@ const Dashboard = () => {
                   }}
                   className="text-red-600 focus:text-red-600 cursor-pointer"
                 >
-                  <LogOut className="mr-2 h-4 w-4" />
+                  <LogOut className="mr-2 h-4 w-4 text-rose-500" />
                   Sign Out
                 </DropdownMenuItem>
                 </DropdownMenuContent>
