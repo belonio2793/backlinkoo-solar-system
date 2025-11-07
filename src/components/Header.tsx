@@ -53,6 +53,26 @@ export function Header({
   // Control the navigation dropdown (toggled by the blue "Open Navigation" button)
   const [navOpen, setNavOpen] = useState(false);
 
+  // Prevent duplicate headers rendering across the same window.
+  // Only the first Header instance to mount will render; subsequent instances will render null.
+  const [shouldRenderHeader, setShouldRenderHeader] = useState(true);
+  const headerMountedRef = useRef(false);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if ((window as any).__BACKLINK_HEADER_RENDERED) {
+      setShouldRenderHeader(false);
+      return;
+    }
+    (window as any).__BACKLINK_HEADER_RENDERED = true;
+    headerMountedRef.current = true;
+    return () => {
+      if (headerMountedRef.current) {
+        (window as any).__BACKLINK_HEADER_RENDERED = false;
+      }
+    };
+  }, []);
+
   const handlePremiumClick = useCallback(() => {
     if (onPremiumClick) {
       onPremiumClick();
