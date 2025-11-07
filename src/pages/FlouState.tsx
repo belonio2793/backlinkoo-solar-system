@@ -193,11 +193,11 @@ export default function FlouStatePage() {
           </section>
 
           {/* The Problem Section */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-white border border-gray-200 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">The Blind Spot in Developer Productivity</h2>
             <div className="space-y-4">
               <div className="flex gap-4">
-                <Eye className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <Eye className="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Lack of Visibility</h3>
                   <p className="text-slate-700">Developers work in deep focus for hours but have no objective data about whether they spent the day creating, debugging, or context switching. This blindness prevents intentional optimization and leads to ineffective attempts at improving productivity.</p>

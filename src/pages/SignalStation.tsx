@@ -194,7 +194,7 @@ export default function SignalStationPage() {
           </section>
 
           {/* Problem and Solution */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-white border border-gray-200 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">The Problem Signal Station Solves</h2>
             <div className="space-y-4">
               <div className="flex gap-4">

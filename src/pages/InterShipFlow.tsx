@@ -193,11 +193,11 @@ export default function InterShipFlowPage() {
           </section>
 
           {/* The Problem Section */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-white border border-gray-200 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">The Support Agent's Daily Frustration: Context Switching and Lost Efficiency</h2>
             <div className="space-y-4">
               <div className="flex gap-4">
-                <MessageSquare className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <MessageSquare className="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Constant App Switching</h3>
                   <p className="text-slate-700">Support agents using Intercom and Shipmondo separately must switch between applications dozens of times per shift. Each switch introduces a cognitive load, requires time for the new application to load, and risks losing context of the customer conversation. This constant back-and-forth creates mental friction that compounds throughout the day, degrading productivity and increasing employee burnout.</p>
