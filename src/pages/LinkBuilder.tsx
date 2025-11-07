@@ -829,7 +829,7 @@ export default function LinkBuilderPage() {
                 Reputation is fragile, so LinkBuilder.io embeds compliance checkpoints throughout campaign lifecycles. Legal liaisons review messaging frameworks, verify claims, and ensure alignment with industry regulations such as HIPAA, GDPR, or financial disclosure mandates. Rather than slowing the process, these liaisons develop pre-approved phrasing libraries that expedite approvals while protecting brand integrity.
               </p>
               <p>
-                The agency maintains a “trust matrix” scoring potential publications on credibility, editorial independence, and historical content practices. High scores unlock streamlined approval pathways; lower scores trigger enhanced due diligence or alternative placement suggestions. This matrix helps clients maintain a backlink profile that withstands audits and algorithm scrutiny.
+                The agency maintains a ���trust matrix” scoring potential publications on credibility, editorial independence, and historical content practices. High scores unlock streamlined approval pathways; lower scores trigger enhanced due diligence or alternative placement suggestions. This matrix helps clients maintain a backlink profile that withstands audits and algorithm scrutiny.
               </p>
               <p>
                 Crisis simulations prepare teams for rare but critical scenarios—misquoted statistics, publisher retractions, or viral misinformation. LinkBuilder.io rehearses rapid-response protocols with clients, designating spokespersons, crafting holding statements, and coordinating cross-channel messaging. Practiced responses minimize downtime and reassure audiences that the brand prioritizes accuracy.
@@ -909,14 +909,11 @@ export default function LinkBuilderPage() {
               </ul>
             </section>
 
-            <div className="lb-ctas">
-              <div className="lb-ctas__inner">
-                <div className="lb-ctas__title">Considering LinkBuilder.io?</div>
-                <div className="lb-ctas__row">
-                  <a className="lb-cta" href="https://linkbuilder.io/" target="_blank" rel="nofollow noopener noreferrer">Visit LinkBuilder.io</a>
-                  <a className="lb-cta lb-cta--invert" href="/automation">Try Backlink ∞ Automation</a>
-                </div>
-              </div>
+            <div className="mt-12">
+              <BacklinkInfinityCTA
+                title="Ready to Build Authority With Quality Backlinks?"
+                description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+              />
             </div>
           </article>
         </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Seo from "@/components/Seo";
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import { PremiumCheckoutModal } from '@/components/PremiumCheckoutModal';
 import { useToast } from '@/hooks/use-toast';
 import { OnThisPage } from '@/components/OnThisPage';
@@ -685,6 +686,13 @@ Thanks,
               <section className="mt-8">
                 <h3>Deep Dive — Advanced Tactics</h3>
                 <p>We add advanced tactics here: broken link building workflows, data partnerships, and co-created assets that attract sustained attention. Focus on creating assets that are easy to cite, provide unique empirical evidence, and are simple for journalists to embed.</p>
+              </section>
+
+              <section className="mt-12">
+                <BacklinkInfinityCTA
+                  title="Ready to Plan Your Link Campaign?"
+                  description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+                />
               </section>
             </article>
           </div>

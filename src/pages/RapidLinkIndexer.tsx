@@ -20,7 +20,7 @@ function upsertMeta(name: string, content: string) {
 }
 
 const metaTitle = 'Rapid Link Indexer — Index URLs & Backlinks Fast (Pay‑for‑Performance)';
-const metaDescription = 'Rapid Link Indexer: get website URLs and backlinks indexed quickly with safe methods, transparent reporting, and a pay‑only‑for‑indexed‑links model. No GSC access required.';
+const metaDescription = 'Rapid Link Indexer: get website URLs and backlinks indexed quickly with safe methods, transparent reporting, and a pay‑only‑for��indexed‑links model. No GSC access required.';
 const metaKeywords = 'rapid link indexer, link indexer, backlink indexing, index backlinks, url indexer, google indexing, indexation, indexing service, pay as you go indexing';
 
 const Feature: React.FC<{ icon: React.ReactNode; title: string; desc: string }> = ({ icon, title, desc }) => (
@@ -302,23 +302,10 @@ const RapidLinkIndexer: React.FC = () => {
 
       {/* CTA */}
       <section className="container mx-auto px-4 pb-24">
-        <Card className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-white" />
-          <CardContent className="relative p-8 md:p-10">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-              <div>
-                <h3 className="text-2xl font-bold tracking-tight">Ready to accelerate indexation?</h3>
-                <p className="text-muted-foreground mt-1">Launch a project in minutes. Pay only for indexed links.</p>
-              </div>
-              <div className="flex items-center gap-3">
-                <Button size="lg" className="gap-2">
-                  Get Started <MoveRight className="h-4 w-4" />
-                </Button>
-                <Button size="lg" variant="outline">See a sample report</Button>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+        <BacklinkInfinityCTA
+          title="Ready to Accelerate Indexation?"
+          description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+        />
       </section>
       <Footer />
     </div>
