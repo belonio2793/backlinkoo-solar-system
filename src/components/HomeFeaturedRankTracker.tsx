@@ -203,7 +203,7 @@ export function HomeFeaturedRankTracker() {
                 </div>
 
                 {user && !isPremium && (
-                  <p className="text-sm text-slate-500 text-center font-medium"><Lock className="w-4 h-4 inline mr-1 text-slate-400" />Upgrade to Premium to save and track rankings</p>
+                  <p className="text-sm text-slate-500 text-center font-normal"><Lock className="w-4 h-4 inline mr-1 text-slate-400" />Upgrade to Premium to save and track rankings</p>
                 )}
 
                 {user && isPremium && (
