@@ -73,3 +73,16 @@ header svg, header img {
   filter: none !important;
   box-shadow: none !important;
 }
+
+/* Force all Infinity (lucide) icons to the brand blue */
+.lucide-infinity, svg.lucide-infinity {
+  color: #2563eb !important; /* tailwind blue-600 */
+  stroke: currentColor !important;
+  fill: none !important;
+  filter: none !important;
+}
+
+/* Also override any inline 'text-*' utility colors that might target icons */
+.lucide-infinity[class*="text-"] {
+  color: #2563eb !important;
+}
