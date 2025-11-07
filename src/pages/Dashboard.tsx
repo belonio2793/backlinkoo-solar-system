@@ -719,7 +719,7 @@ const Dashboard = () => {
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => navigate('/dashboard') }>
-                  <Infinity className="mr-2 h-4 w-4 text-emerald-600" />
+                  <Infinity className="mr-2 h-4 w-4 text-blue-600" />
                   Dashboard
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => navigate('/keyword-research')}>
