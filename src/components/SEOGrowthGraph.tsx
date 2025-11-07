@@ -168,8 +168,8 @@ export default function SEOGrowthGraph({ className }: { className?: string }) {
   const selected = data[index] ?? data[data.length - 1];
 
   return (
-    <section className={cn("relative py-16 md:py-24 bg-gradient-to-br from-slate-50 via-white to-blue-50/40 border-y", className)}>
-      <div className="absolute inset-0 pointer-events-none [background:radial-gradient(1200px_600px_at_50%_-10%,rgba(59,130,246,.12),transparent_60%)]" />
+    <section className={cn("relative py-16 md:py-24 bg-white border-y", className)}>
+      <div className="absolute inset-0 pointer-events-none" />
       <div className="container mx-auto px-4 max-w-6xl relative">
         {/* Anchor for Growth Engine removed from visual header per request */}
         <div id="growth-engine" />
