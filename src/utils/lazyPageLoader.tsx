@@ -1,5 +1,8 @@
 import React, { lazy, Suspense } from 'react';
 
+import React, { Suspense, lazy } from 'react';
+import { Infinity } from 'lucide-react';
+
 /**
  * Utility to lazily load pages on demand rather than eagerly importing them
  * This reduces initial bundle size and speeds up app initialization
@@ -30,7 +33,7 @@ export function PageLoadingFallback() {
     <div className="flex items-center justify-center min-h-screen bg-background">
       <div className="text-center">
         <div className="inline-flex flex-col items-center gap-3">
-          <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+          <Infinity className="w-10 h-10 text-blue-600 animate-spin" strokeWidth={1.5} />
           <p className="text-sm text-muted-foreground">Loading page...</p>
         </div>
       </div>
