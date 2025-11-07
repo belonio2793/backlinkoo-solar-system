@@ -178,6 +178,31 @@ export function Header({
               </div>
             ) : null}
           </div>
+
+          {/* Centered navigation (desktop) */}
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden sm:flex items-center gap-2">
+            {user && (
+              <div className="flex items-center gap-2">
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={() => navigate('/dashboard')}>
+                  <Infinity className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                  <span className="hidden sm:inline">Campaigns</span>
+                </Button>
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={handleBuyCreditsClick}>
+                  <CreditCard className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                  <span className="hidden sm:inline">Buy Credits</span>
+                </Button>
+                <Button variant="ghost" size="sm" className="px-3 inline-flex items-center no-hover" onClick={handlePremiumClick}>
+                  <Star className="h-4 w-4 mr-2 text-slate-800 flex-shrink-0" />
+                  <span className="hidden sm:inline">Premium</span>
+                </Button>
+              </div>
+            )}
+
+            <Button variant="default" size="sm" className="bg-blue-600 text-white h-8 rounded-full px-3 no-hover hidden sm:inline-flex" onClick={() => setNavOpen((v) => !v)} aria-expanded={navOpen}>
+              Open Navigation
+            </Button>
+          </div>
+
           <div className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-end">
             {/* Logged-in quick nav buttons (visible on sm+) */}
             {user && (
