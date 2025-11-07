@@ -54,7 +54,7 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
           </a>
         </Button>
         <Button asChild size="sm" variant="ghost">
-          <a href="/learn">{secondaryButtonText}</a>
+          <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
         </Button>
       </div>
     );
@@ -76,7 +76,7 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
               </a>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="/learn">{secondaryButtonText}</a>
+              <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
             </Button>
           </div>
         </div>
@@ -100,7 +100,7 @@ export const BacklinkInfinityCTA: React.FC<BacklinkInfinityCTAProps> = ({
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="/learn">{secondaryButtonText}</a>
+                <a href="/learn" onMouseEnter={prefetchLearn} onFocus={prefetchLearn}>{secondaryButtonText}</a>
               </Button>
             </div>
           </div>
