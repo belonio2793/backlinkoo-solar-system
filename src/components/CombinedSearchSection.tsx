@@ -200,8 +200,8 @@ export function CombinedSearchSection() {
           <Tabs defaultValue="website" className="w-full">
             <div className="text-center mb-8">
               <TabsList className="inline-flex h-auto p-1 bg-slate-100 rounded-lg">
-                <TabsTrigger value="website" className="px-4 py-2 text-base font-medium rounded">Website</TabsTrigger>
-                <TabsTrigger value="keyword" className="px-4 py-2 text-base font-medium rounded">Keyword</TabsTrigger>
+                <TabsTrigger value="website" className="px-4 py-2 text-base font-medium rounded data-[state=active]:bg-white data-[state=active]:shadow-sm">Website</TabsTrigger>
+                <TabsTrigger value="keyword" className="px-4 py-2 text-base font-medium rounded data-[state=active]:bg-white data-[state=active]:shadow-sm">Keyword</TabsTrigger>
               </TabsList>
             </div>
 
