@@ -117,7 +117,7 @@ export function AdminNavigationHeader({
           {/* Logo & Brand */}
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.location.href = '/'}>
             <div className="relative">
-              <Infinity className="h-6 w-6 text-primary" />
+              <Infinity className="h-6 w-6 text-blue-600" />
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full">
                 <Crown className="h-2 w-2 text-white absolute top-0.5 left-0.5" />
               </div>
