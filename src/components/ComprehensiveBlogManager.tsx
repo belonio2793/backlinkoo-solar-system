@@ -507,7 +507,7 @@ export function ComprehensiveBlogManager() {
               Buy Backlinks
             </Button>
             <Button
-              onClick={() => navigate('/blog')}
+              onClick={() => navigate('/')}
               variant="outline"
               className="border-blue-300 text-blue-700 hover:bg-blue-50"
             >
