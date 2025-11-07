@@ -36,57 +36,62 @@ export class EnhancedErrorBoundary extends React.Component<ErrorBoundaryProps, E
     }
     this.isProcessingError = true;
 
+    const errorMessage = (error && (error as any).message) || String(error) || '';
+    const errorStack = (error && (error as any).stack) || '';
+    const errorName = (error && (error as any).name) || '';
+
     logError('Application error caught by boundary', {
-      ...error,
+      message: errorMessage,
+      stack: errorStack,
       componentStack: errorInfo.componentStack
     });
 
     // Filter out browser extension errors and other non-critical errors
-    const isExtensionError = error.message.includes('Cannot redefine property: ethereum') ||
-                            error.stack?.includes('chrome-extension://') ||
-                            error.message.includes('ethereum') ||
-                            error.message.includes('evmAsk') ||
-                            error.message.includes('ResizeObserver loop limit exceeded') ||
-                            error.message.includes('Non-Error promise rejection captured');
+    const isExtensionError = errorMessage.includes('Cannot redefine property: ethereum') ||
+                            errorStack.includes('chrome-extension://') ||
+                            errorMessage.includes('ethereum') ||
+                            errorMessage.includes('evmAsk') ||
+                            errorMessage.includes('ResizeObserver loop limit exceeded') ||
+                            errorMessage.includes('Non-Error promise rejection captured');
 
     // Authentication-related errors that should be handled gracefully
-    const isAuthError = error.message.includes('Auth') ||
-                       error.message.includes('supabase') ||
-                       error.message.includes('session');
+    const isAuthError = errorMessage.includes('Auth') ||
+                       errorMessage.includes('supabase') ||
+                       errorMessage.includes('session');
 
     // Route/navigation errors
-    const isRouteError = error.message.includes('navigate') ||
-                        error.message.includes('router') ||
-                        error.message.includes('redirect') ||
-                        error.message.includes('route');
+    const isRouteError = errorMessage.includes('navigate') ||
+                        errorMessage.includes('router') ||
+                        errorMessage.includes('redirect') ||
+                        errorMessage.includes('route');
 
     // Database/API errors that should not crash the app
-    const isDatabaseError = error.message.includes('published_blog_posts') ||
-                           error.message.includes('relation') ||
-                           error.message.includes('does not exist') ||
-                           error.message.includes('PGRST') ||
-                           error.message.includes('422') ||
-                           error.message.includes('404') ||
-                           error.message.includes('500') ||
-                           error.message.includes('cleanup_expired_posts') ||
-                           error.message.includes('getQuickStatus');
+    const isDatabaseError = errorMessage.includes('published_blog_posts') ||
+                           errorMessage.includes('relation') ||
+                           errorMessage.includes('does not exist') ||
+                           errorMessage.includes('PGRST') ||
+                           errorMessage.includes('422') ||
+                           errorMessage.includes('404') ||
+                           errorMessage.includes('500') ||
+                           errorMessage.includes('cleanup_expired_posts') ||
+                           errorMessage.includes('getQuickStatus');
 
     // Component loading errors (lazy components)
-    const isComponentError = error.message.includes('Loading chunk') ||
-                            error.message.includes('is not defined') ||
-                            error.message.includes('lazy') ||
-                            error.message.includes('Cannot resolve module') ||
-                            error.message.includes('Failed to fetch dynamically imported module');
+    const isComponentError = errorMessage.includes('Loading chunk') ||
+                            errorMessage.includes('is not defined') ||
+                            errorMessage.includes('lazy') ||
+                            errorMessage.includes('Cannot resolve module') ||
+                            errorMessage.includes('Failed to fetch dynamically imported module');
 
     // Network blocked errors (analytics interference)
-    const isNetworkBlockedError = error.name === 'NetworkBlockedError' ||
-                                 error.message.includes('Network request blocked by browser analytics');
+    const isNetworkBlockedError = errorName === 'NetworkBlockedError' ||
+                                 errorMessage.includes('Network request blocked by browser analytics');
 
     // Blog system errors
-    const isBlogError = error.message.includes('blog') ||
-                       error.message.includes('Blog') ||
-                       error.message.includes('claim') ||
-                       error.stack?.includes('blog');
+    const isBlogError = errorMessage.includes('blog') ||
+                       errorMessage.includes('Blog') ||
+                       errorMessage.includes('claim') ||
+                       errorStack.includes('blog');
 
     // For recoverable errors, don't show error state
     if (isExtensionError || isAuthError || isDatabaseError || isComponentError || isRouteError || isBlogError || isNetworkBlockedError) {
