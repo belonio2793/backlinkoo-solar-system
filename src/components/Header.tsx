@@ -209,11 +209,11 @@ export function Header({
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel>Navigation</DropdownMenuLabel>
-                <DropdownMenuItem onClick={() => navigate('/')}>
-                  <Home className="mr-2 h-4 w-4 text-slate-600 flex-shrink-0" />
+                <DropdownMenuItem onClick={() => { handlePremiumClick(); navigate('/dashboard#premium-plan'); }}>
+                  <Home className="mr-2 h-4 w-4 text-primary flex-shrink-0" />
                   <span>Home</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={handlePremiumClick}>
+                <DropdownMenuItem onClick={() => { handlePremiumClick(); navigate('/dashboard#premium-plan'); }}>
                   <Star className="mr-2 h-4 w-4 text-yellow-500 flex-shrink-0" />
                   <span>Upgrade to Premium</span>
                 </DropdownMenuItem>
