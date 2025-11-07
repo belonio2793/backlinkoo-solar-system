@@ -230,7 +230,7 @@ export default function IgniteVisibilityPage() {
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline">
-                  <a href="/blog">
+                  <a href="/">
                     Read SEO Guides
                     <BookOpen className="ml-2 h-4 w-4" />
                   </a>
@@ -275,7 +275,7 @@ export default function IgniteVisibilityPage() {
                     Explore Ignite Visibility
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
-                  <a className="iv-cta__button iv-cta__button--ghost" href="/blog">
+                  <a className="iv-cta__button iv-cta__button--ghost" href="/">
                     Learn Sustainable SEO
                     <LinkIcon className="ml-2 h-4 w-4" />
                   </a>
