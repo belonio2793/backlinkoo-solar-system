@@ -45,14 +45,9 @@ button {
   font-weight: 500;
 }
 
-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
+/* button:hover effects removed - no pop-up animation */
 
-button:active {
-  transform: translateY(0);
-}
+/* button:active effect removed */
 
 /* Card styling - minimal, clean */
 .card {
@@ -62,11 +57,7 @@ button:active {
   background: #ffffff;
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
-  border-color: #d1d5db;
-}
+/* .card:hover effects removed - no pop-up animation */
 
 /* Badge styling */
 .badge {
@@ -76,9 +67,7 @@ button:active {
   font-weight: 500;
 }
 
-.badge:hover {
-  transform: scale(1.02);
-}
+/* .badge:hover effect removed - no scale animation */
 
 /* Links - simple underline on hover */
 a {
@@ -213,9 +202,7 @@ button svg {
   transition: transform 0.2s ease;
 }
 
-button:hover svg {
-  transform: translateX(2px);
-}
+/* button:hover svg effect removed - no translation */
 
 /* Lists and spacing */
 ul, ol {
