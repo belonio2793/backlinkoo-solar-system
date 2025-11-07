@@ -191,7 +191,7 @@ export const CustomCreditsModal = ({
               {quickOptions.map((option) => (
                 <Card 
                   key={option.credits}
-                  className={`cursor-pointer transition-all hover:shadow-md ${
+                  className={`cursor-pointer transition-all ${
                     parseInt(credits) === option.credits ? 'ring-2 ring-primary' : ''
                   } ${option.popular ? 'border-primary' : ''}`}
                   onClick={() => handleQuickSelect(option.credits)}

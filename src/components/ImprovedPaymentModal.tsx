@@ -211,7 +211,7 @@ export const ImprovedPaymentModal = ({
                 {creditPackages.map((pkg) => (
                   <Card 
                     key={pkg.credits}
-                    className={`cursor-pointer transition-all hover:shadow-md ${
+                    className={`cursor-pointer transition-all ${
                       parseInt(credits) === pkg.credits ? 'ring-2 ring-primary' : ''
                     } ${pkg.popular ? 'border-primary' : ''}`}
                     onClick={() => handlePackageSelect(pkg)}
