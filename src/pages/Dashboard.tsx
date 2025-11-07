@@ -730,10 +730,6 @@ const Dashboard = () => {
                   <LineChart className="mr-2 h-4 w-4 text-orange-600" />
                   Rank Tracker
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => navigate('/dashboard#trial')}>
-                  <Sparkles className="mr-2 h-4 w-4 text-pink-500" />
-                  Community Blog
-                </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={() => window.dispatchEvent(new Event('open-ask-ai'))}>
                   <Target className="mr-2 h-4 w-4 text-emerald-600" />
