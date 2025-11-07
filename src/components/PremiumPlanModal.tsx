@@ -366,7 +366,7 @@ export function PremiumPlanModal({
                 <span className="text-3xl font-bold">${plans.yearly.price}</span>
                 <div className="text-left">
                   <div className="text-sm text-white/60 line-through">${plans.yearly.originalPrice}</div>
-                  <div className="text-sm text-gray-600">per year</div>
+                  <div className="text-sm text-white/90">per year</div>
                 </div>
               </div>
               <div className="space-y-1">
