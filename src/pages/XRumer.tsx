@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, BookOpen, Shield } from "lucide-react";
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import "@/styles/xrumer.css";
 
 // Sections and expanded content — self-contained editorial material
@@ -280,6 +281,13 @@ export default function XRumerPage() {
               <Button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to top</Button>
             </CardContent>
           </Card>
+
+          <section className="mt-12">
+            <BacklinkInfinityCTA
+              title="Ready to Build Authority With Quality Backlinks?"
+              description="Backlink ∞ is the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords across the globe. We offer unbeatable, competitive rates and expertise beyond imagination. Double guaranteed results—double the amount of links you purchase across campaigns. Access leading SEO tools for Premium Plan members and benefit from comprehensive support."
+            />
+          </section>
         </main>
       </div>
     </div>
