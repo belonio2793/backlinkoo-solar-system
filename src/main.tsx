@@ -146,6 +146,18 @@ if (shouldMount) {
   } catch (e) {
     // ignore
   }
+
+  // Prefetch likely next pages (Learn) during idle time to make navigation faster
+  try {
+    const prefetchLearn = () => { void import('./pages/Learn'); };
+    if ('requestIdleCallback' in window) {
+      (window as any).requestIdleCallback(prefetchLearn, { timeout: 1000 });
+    } else {
+      setTimeout(prefetchLearn, 1500);
+    }
+  } catch (e) {
+    // ignore prefetch errors
+  }
 } else {
   console.log('Server-rendered content detected in #root — skipping client app mount to preserve rendered post');
 }
