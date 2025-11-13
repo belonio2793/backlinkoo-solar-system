@@ -398,7 +398,7 @@ export default function OnPageSEOChecklist() {
                 <li><strong>Use H2s for major sections:</strong> Break your page into clear sections, each with an H2.</li>
                 <li><strong>Use H3s for subsections:</strong> Further organize content hierarchy with H3 headers.</li>
                 <li><strong>Include keywords naturally:</strong> Use your target keywords in headers where it makes sense, but prioritize clarity over keyword density.</li>
-                <li><strong>Never skip levels:</strong> Don't go from H1 to H3—maintain proper hierarchy (H1 {' > '}H2{' > '}H3).</li>
+                <li><strong>Never skip levels:</strong> Don't go from H1 to H3—maintain proper hierarchy (H1 → H2 → H3).</li>
               </ul>
 
               <h3>Canonical Tag</h3>
