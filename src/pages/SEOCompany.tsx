@@ -78,7 +78,7 @@ function useProgress(selector: string) {
   }, [selector]);
 }
 
-const metaTitle = 'SEO Company: Complete Guide to Choosing, Services, and ROI (2025)';
+const metaTitle = 'SEO Company: Complete Guide to Services, Pricing, and Results (2025)';
 const metaDescription = 'Comprehensive guide to SEO companies: what they do, how to choose the right one, services offered, pricing models, case studies, and maximizing your ROI. Updated 2025.';
 
 export default function SEOCompanyPage() {
@@ -266,7 +266,7 @@ export default function SEOCompanyPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div>
-                      <h4 className="font-semibold mb-2">Site Audits & Crawl Analysis</h4>
+                      <h4 className="font-semibold mb-2">Site Audits &amp; Crawl Analysis</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Comprehensive analysis of crawlability, indexation, internal linking structure, and technical errors using tools like Screaming Frog, Semrush, or Ahrefs.</p>
                     </div>
                     <div>
@@ -282,7 +282,7 @@ export default function SEOCompanyPage() {
                       <p className="text-sm text-gray-600 dark:text-gray-400">Structured data (JSON-LD) for rich snippets, FAQs, product data, breadcrumbs, and entity relationships.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Site Architecture & Internal Linking</h4>
+                      <h4 className="font-semibold mb-2">Site Architecture &amp; Internal Linking</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Strategic URL structure, logical hierarchy, and internal link placement to distribute authority and guide crawlers.</p>
                     </div>
                   </CardContent>
@@ -296,11 +296,11 @@ export default function SEOCompanyPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div>
-                      <h4 className="font-semibold mb-2">Keyword Research & Strategy</h4>
+                      <h4 className="font-semibold mb-2">Keyword Research &amp; Strategy</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Identifies high-intent keywords, search volume, difficulty, and opportunity gaps. Strategic targeting across buyer journey stages.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Content Creation & Optimization</h4>
+                      <h4 className="font-semibold mb-2">Content Creation &amp; Optimization</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Crafts original, user-focused content that targets keywords while satisfying search intent. Includes blogs, guides, FAQs, and more.</p>
                     </div>
                     <div>
@@ -308,11 +308,11 @@ export default function SEOCompanyPage() {
                       <p className="text-sm text-gray-600 dark:text-gray-400">Develops clusters of content around core topics to establish expertise signals. Interlinking and semantic relationships matter.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">User Experience & Engagement</h4>
+                      <h4 className="font-semibold mb-2">User Experience &amp; Engagement</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Optimizes for time-on-page, scroll depth, and interaction signals that indicate content quality to search engines.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Content Audits & Refreshes</h4>
+                      <h4 className="font-semibold mb-2">Content Audits &amp; Refreshes</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Evaluates existing content for relevance, outdated information, and optimization opportunities. Updates and republishes for freshness signals.</p>
                     </div>
                   </CardContent>
@@ -322,7 +322,7 @@ export default function SEOCompanyPage() {
               <TabsContent value="authority" className="mt-6 space-y-4">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Authority & Link Building</CardTitle>
+                    <CardTitle>Authority &amp; Link Building</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div>
@@ -330,20 +330,20 @@ export default function SEOCompanyPage() {
                       <p className="text-sm text-gray-600 dark:text-gray-400">Outreach to relevant publishers, journalists, and resource sites for natural, contextual backlinks. Relationship-driven approach.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Digital PR & Media Relations</h4>
+                      <h4 className="font-semibold mb-2">Digital PR &amp; Media Relations</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Creates newsworthy content, research, and announcements that earn media coverage and high-quality links.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Backlink Audit & Disavowal</h4>
+                      <h4 className="font-semibold mb-2">Backlink Audit &amp; Disavowal</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Analyzes your backlink profile, identifies toxic or low-quality links, and files disavow files to protect domain authority.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Local SEO & Citations</h4>
+                      <h4 className="font-semibold mb-2">Local SEO &amp; Citations</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">For local businesses: Google My Business optimization, local citations, reviews management, and local landing pages.</p>
                     </div>
                     <div>
                       <h4 className="font-semibold mb-2">Strategic Link Acquisition</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">Some companies use premium backlink networks like <a href="/seocompany#" className="text-blue-600 hover:underline">Backlink ∞</a> to accelerate authority growth with curated, high-quality placements.</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Some companies use premium backlink networks like <a href="/seocompany" className="text-blue-600 hover:underline">Backlink ∞</a> to accelerate authority growth with curated, high-quality placements.</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -352,7 +352,7 @@ export default function SEOCompanyPage() {
               <TabsContent value="measurement" className="mt-6 space-y-4">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Analytics & Reporting</CardTitle>
+                    <CardTitle>Analytics &amp; Reporting</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div>
@@ -368,7 +368,7 @@ export default function SEOCompanyPage() {
                       <p className="text-sm text-gray-600 dark:text-gray-400">Regular competitive analysis to identify opportunities, monitor competitor content and link strategies.</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">ROI & Business Impact Reporting</h4>
+                      <h4 className="font-semibold mb-2">ROI &amp; Business Impact Reporting</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Ties SEO improvements to revenue, leads, or other business goals. Transparent, actionable monthly reports.</p>
                     </div>
                     <div>
@@ -389,7 +389,7 @@ export default function SEOCompanyPage() {
 
             <Accordion type="single" collapsible className="seo-company-accordion">
               <AccordionItem value="experience">
-                <AccordionTrigger>Industry Experience & Track Record</AccordionTrigger>
+                <AccordionTrigger>Industry Experience &amp; Track Record</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Look for companies with proven results in your specific industry. An agency that excels in e-commerce might struggle with SaaS or local services. Ask for case studies, client references (speak to them directly), and portfolio examples.
@@ -405,7 +405,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="methodology">
-                <AccordionTrigger>Transparent Methodology & Ethical Practices</AccordionTrigger>
+                <AccordionTrigger>Transparent Methodology &amp; Ethical Practices</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Avoid any agency claiming guaranteed rankings, promising #1 positions, or suggesting "secret" tactics. Reputable companies follow Google's guidelines (white-hat SEO), explain their strategies clearly, and adapt to algorithm changes. They should be able to articulate why they recommend specific tactics.
@@ -422,7 +422,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="communication">
-                <AccordionTrigger>Communication & Reporting Standards</AccordionTrigger>
+                <AccordionTrigger>Communication &amp; Reporting Standards</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Top SEO companies provide regular, transparent reporting. At minimum, you should receive monthly updates covering keyword rankings, organic traffic, technical audits, and business impact. They should explain what changed, why, and what's planned next.
@@ -439,7 +439,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="team">
-                <AccordionTrigger>Team Composition & Expertise</AccordionTrigger>
+                <AccordionTrigger>Team Composition &amp; Expertise</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     A strong SEO company has specialists—not generalists wearing multiple hats. Your account should have a dedicated project manager, and you should have access to technical specialists, content strategists, and link builders as needed.
@@ -456,7 +456,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="tools">
-                <AccordionTrigger>Tools & Technology Stack</AccordionTrigger>
+                <AccordionTrigger>Tools &amp; Technology Stack</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Leading agencies use industry-standard tools like Semrush, Ahrefs, Screaming Frog, Google Search Console, and GA4. They may also have proprietary dashboards or integrations. The specific tools matter less than their commitment to continuous measurement.
@@ -473,7 +473,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="contract">
-                <AccordionTrigger>Contract Terms & Flexibility</AccordionTrigger>
+                <AccordionTrigger>Contract Terms &amp; Flexibility</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Quality agencies typically require 3-6 month minimum contracts to allow time for strategy implementation and results. However, they should be transparent about what's included, exit terms, and any additional costs.
@@ -502,7 +502,7 @@ export default function SEOCompanyPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Lightbulb className="h-5 w-5 text-yellow-500" />
-                    E-E-A-T & Authority
+                    E-E-A-T &amp; Authority
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
@@ -530,7 +530,7 @@ export default function SEOCompanyPage() {
                     Page experience is a confirmed ranking factor. Your site must load fast (LCP under 2.5s), be interactive (INP under 200ms), and maintain visual stability (CLS under 0.1). These aren't nice-to-haves—they're SEO requirements.
                   </p>
                   <ul className="text-sm space-y-2">
-                    <li className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" /> Image optimization & lazy loading</li>
+                    <li className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" /> Image optimization &amp; lazy loading</li>
                     <li className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" /> Server response time improvements</li>
                     <li className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" /> Layout stability fixes</li>
                     <li className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" /> Mobile-first optimization</li>
@@ -602,7 +602,7 @@ export default function SEOCompanyPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Award className="h-5 w-5 text-amber-500" />
-                    AI & Automation
+                    AI &amp; Automation
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
@@ -682,7 +682,7 @@ export default function SEOCompanyPage() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Pros & Cons:</h4>
+                      <h4 className="font-semibold mb-2">Pros &amp; Cons:</h4>
                       <p className="text-sm mb-2">✓ Aligns incentives—agency benefits when you benefit</p>
                       <p className="text-sm">✗ Algorithm updates can affect results outside agency control</p>
                     </div>
@@ -710,7 +710,7 @@ export default function SEOCompanyPage() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Pros & Cons:</h4>
+                      <h4 className="font-semibold mb-2">Pros &amp; Cons:</h4>
                       <p className="text-sm mb-2">✓ Clear scope and budget upfront</p>
                       <p className="text-sm">✗ Without ongoing work, results often plateau</p>
                     </div>
@@ -859,8 +859,8 @@ export default function SEOCompanyPage() {
                 <div>
                   <h4 className="font-semibold mb-2">The Results (12 months)</h4>
                   <ul className="text-sm space-y-1 list-disc pl-6">
-                    <li>Organic traffic: 0 → 8,000 monthly visitors</li>
-                    <li>Ranking positions: Moved 87 target keywords from <50 to top 3</li>
+                    <li>Organic traffic: 0 to 8,000 monthly visitors</li>
+                    <li>Ranking positions: Moved 87 target keywords from rank 50+ to top 3</li>
                     <li>MQLs from organic: 120 qualified leads/month</li>
                     <li>Organic-attributed ARR: +$450K (22.5% revenue growth)</li>
                   </ul>
@@ -882,7 +882,7 @@ export default function SEOCompanyPage() {
                   <ul className="text-sm space-y-1 list-disc pl-6">
                     <li>Focus on long-tail, buyer-intent keywords with less competition</li>
                     <li>Created comparison guides, buying guides, and expert reviews</li>
-                    <li>Fixed Core Web Vitals (LCP: 4.2s → 1.8s)</li>
+                    <li>Fixed Core Web Vitals (LCP: 4.2s to 1.8s)</li>
                     <li>Built author expertise pages with reviewer credentials</li>
                     <li>Developed link-worthy research and original data</li>
                   </ul>
@@ -890,10 +890,10 @@ export default function SEOCompanyPage() {
                 <div>
                   <h4 className="font-semibold mb-2">The Results (18 months)</h4>
                   <ul className="text-sm space-y-1 list-disc pl-6">
-                    <li>Organic revenue: $1.2M → $3.8M (+216%)</li>
-                    <li>Organic transactions: 450 → 2,100/month</li>
+                    <li>Organic revenue: $1.2M to $3.8M (+216%)</li>
+                    <li>Organic transactions: 450 to 2,100/month</li>
                     <li>Average order value increased 8% (better content qualification)</li>
-                    <li>Customer acquisition cost: $85 → $42 (50% reduction)</li>
+                    <li>Customer acquisition cost: $85 to $42 (50% reduction)</li>
                   </ul>
                 </div>
               </CardContent>
@@ -921,9 +921,9 @@ export default function SEOCompanyPage() {
                 <div>
                   <h4 className="font-semibold mb-2">The Results (9 months)</h4>
                   <ul className="text-sm space-y-1 list-disc pl-6">
-                    <li>Local search impressions: 500 → 12,000/month</li>
-                    <li>Google My Business clicks: 45 → 320/month</li>
-                    <li>Website calls/inquiries: 12 → 85/month</li>
+                    <li>Local search impressions: 500 to 12,000/month</li>
+                    <li>Google My Business clicks: 45 to 320/month</li>
+                    <li>Website calls/inquiries: 12 to 85/month</li>
                     <li>Revenue increase: +$180K annually</li>
                   </ul>
                 </div>
@@ -948,7 +948,7 @@ export default function SEOCompanyPage() {
                 <TabsContent value="business" className="mt-6 space-y-4">
                   <Card>
                     <CardHeader>
-                      <CardTitle>Revenue & Conversion Metrics</CardTitle>
+                      <CardTitle>Revenue &amp; Conversion Metrics</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-3">
                       <div>
@@ -964,7 +964,7 @@ export default function SEOCompanyPage() {
                         <p className="text-sm text-gray-600 dark:text-gray-400">Organic customers often have 2-3x higher LTV than paid customers because they self-qualify through search.</p>
                       </div>
                       <div>
-                        <p className="font-semibold text-sm mb-1">Lead Generation & MQLs</p>
+                        <p className="font-semibold text-sm mb-1">Lead Generation &amp; MQLs</p>
                         <p className="text-sm text-gray-600 dark:text-gray-400">For B2B, track marketing-qualified leads from organic channels. Attribution through CRM systems.</p>
                       </div>
                     </CardContent>
@@ -974,7 +974,7 @@ export default function SEOCompanyPage() {
                 <TabsContent value="ranking" className="mt-6 space-y-4">
                   <Card>
                     <CardHeader>
-                      <CardTitle>Ranking & Visibility Metrics</CardTitle>
+                      <CardTitle>Ranking &amp; Visibility Metrics</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-3">
                       <div>
@@ -1000,7 +1000,7 @@ export default function SEOCompanyPage() {
                 <TabsContent value="content" className="mt-6 space-y-4">
                   <Card>
                     <CardHeader>
-                      <CardTitle>Engagement & Content Metrics</CardTitle>
+                      <CardTitle>Engagement &amp; Content Metrics</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-3">
                       <div>
@@ -1008,7 +1008,7 @@ export default function SEOCompanyPage() {
                         <p className="text-sm text-gray-600 dark:text-gray-400">Total sessions from organic search monthly. Track growth rate and compare to competitors.</p>
                       </div>
                       <div>
-                        <p className="font-semibold text-sm mb-1">Pages per Session & Session Duration</p>
+                        <p className="font-semibold text-sm mb-1">Pages per Session &amp; Session Duration</p>
                         <p className="text-sm text-gray-600 dark:text-gray-400">Higher engagement indicates better content quality and relevance to searcher intent.</p>
                       </div>
                       <div>
@@ -1082,7 +1082,7 @@ export default function SEOCompanyPage() {
                     <td className="p-3">Slower (ramp-up time, learning curve)</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-semibold">Tools & Technology</td>
+                    <td className="p-3 font-semibold">Tools &amp; Technology</td>
                     <td className="p-3">✓ Access to premium tools included</td>
                     <td className="p-3">Must budget for expensive tools separately</td>
                   </tr>
@@ -1093,7 +1093,7 @@ export default function SEOCompanyPage() {
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">Best For</td>
-                    <td className="p-3">Companies < $50M revenue or limited budget</td>
+                    <td className="p-3">Companies under $50M revenue or limited budget</td>
                     <td className="p-3">✓ Large companies with ongoing high-volume needs</td>
                   </tr>
                 </tbody>
@@ -1112,7 +1112,7 @@ export default function SEOCompanyPage() {
           </section>
 
           <section id="challenges" className="seo-company-section">
-            <h2>Common SEO Challenges & How to Address Them</h2>
+            <h2>Common SEO Challenges &amp; How to Address Them</h2>
             <p>
               Even with a quality SEO company, you'll encounter challenges. Understanding them helps set realistic expectations:
             </p>
@@ -1134,7 +1134,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="algorithm">
-                <AccordionTrigger>Algorithm Updates & Ranking Volatility</AccordionTrigger>
+                <AccordionTrigger>Algorithm Updates &amp; Ranking Volatility</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Google makes algorithm updates quarterly (or more). Some improvements stick, others are temporary. Volatility is part of SEO. How to respond:
@@ -1180,7 +1180,7 @@ export default function SEOCompanyPage() {
               </AccordionItem>
 
               <AccordionItem value="internal">
-                <AccordionTrigger>Internal Alignment & Silos</AccordionTrigger>
+                <AccordionTrigger>Internal Alignment &amp; Silos</AccordionTrigger>
                 <AccordionContent className="space-y-3">
                   <p>
                     Marketing, product, and development teams may not prioritize SEO. This slows progress. Solutions:
@@ -1205,7 +1205,7 @@ export default function SEOCompanyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-base">AI-Generated Content & Detection</CardTitle>
+                  <CardTitle className="text-base">AI-Generated Content &amp; Detection</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
                   <p>Google's helpful content update targets unhelpful AI content. High-quality AI-assisted content (with human oversight) works fine, but low-effort bulk generation doesn't. Focus on human insight and original value.</p>
@@ -1223,7 +1223,7 @@ export default function SEOCompanyPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-base">Content Hubs & Topical Authority</CardTitle>
+                  <CardTitle className="text-base">Content Hubs &amp; Topical Authority</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
                   <p>Moving beyond siloed pages to building interconnected content hubs that demonstrate deep expertise on topics. This becomes increasingly important for competitive keywords.</p>
@@ -1232,7 +1232,7 @@ export default function SEOCompanyPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-base">User Experience & Engagement Signals</CardTitle>
+                  <CardTitle className="text-base">User Experience &amp; Engagement Signals</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
                   <p>Click-through rate, scroll depth, and time on page matter more than ever. Agencies are optimizing for engagement metrics that indicate content quality.</p>
@@ -1294,7 +1294,7 @@ export default function SEOCompanyPage() {
                 <AccordionTrigger>Should we buy backlinks?</AccordionTrigger>
                 <AccordionContent>
                   <p className="text-sm">
-                    It depends. Buying links from low-quality sites or private blog networks violates Google's guidelines and risks penalties. However, investing in premium backlink networks (like <a href="/seocompany#" className="text-blue-600 hover:underline">Backlink ∞</a>) that offer curated, high-quality placements from real, authoritative publishers can accelerate results safely when combined with earned links.
+                    It depends. Buying links from low-quality sites or private blog networks violates Google's guidelines and risks penalties. However, investing in premium backlink networks (like <a href="/seocompany" className="text-blue-600 hover:underline">Backlink ∞</a>) that offer curated, high-quality placements from real, authoritative publishers can accelerate results safely when combined with earned links.
                   </p>
                 </AccordionContent>
               </AccordionItem>
