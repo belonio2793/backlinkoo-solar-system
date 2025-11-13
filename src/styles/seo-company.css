@@ -1,0 +1,506 @@
+/* SEO Company Page - Comprehensive Styling */
+
+:root {
+  --seo-bg-grad-1: 255, 255, 255;
+  --seo-bg-grad-2: 240, 247, 255;
+  --seo-ink: 15, 23, 42;
+  --seo-ink-2: 51, 65, 85;
+  --seo-ink-3: 100, 116, 139;
+  --seo-brand-1: 59, 130, 246;
+  --seo-brand-2: 139, 92, 246;
+  --seo-brand-3: 34, 197, 94;
+  --seo-card: 255, 255, 255;
+  --seo-border: 226, 232, 240;
+  --seo-soft: 245, 247, 255;
+  --seo-shadow: 13, 12, 38;
+  --seo-radius: 12px;
+}
+
+.dark :root,
+.dark {
+  --seo-bg-grad-1: 2, 6, 23;
+  --seo-bg-grad-2: 15, 23, 42;
+  --seo-ink: 241, 245, 249;
+  --seo-ink-2: 203, 213, 225;
+  --seo-ink-3: 148, 163, 184;
+  --seo-brand-1: 59, 130, 246;
+  --seo-brand-2: 139, 92, 246;
+  --seo-brand-3: 34, 197, 94;
+  --seo-card: 2, 6, 23;
+  --seo-border: 71, 85, 105;
+  --seo-soft: 5, 12, 30;
+  --seo-shadow: 0, 0, 0;
+}
+
+/* Progress Bar */
+.seo-company-progress {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    rgba(var(--seo-brand-2), 0.1),
+    rgba(var(--seo-brand-1), 0.08)
+  );
+}
+
+.seo-company-progress__bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(var(--seo-brand-2)),
+    rgb(var(--seo-brand-1))
+  );
+  box-shadow: 0 0 24px rgba(var(--seo-brand-2), 0.35);
+  transition: width 0.18s ease;
+}
+
+/* Main Page Container */
+.seo-company-page {
+  padding: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.seo-company-article {
+  padding: 0;
+}
+
+/* Hero Section */
+.seo-company-hero {
+  padding: 3rem 1.5rem 2rem;
+  position: relative;
+  overflow: visible;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--seo-bg-grad-1), 0.8),
+    rgba(var(--seo-bg-grad-2), 1)
+  );
+}
+
+.dark .seo-company-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--seo-bg-grad-1), 0.05),
+    rgba(var(--seo-bg-grad-2), 0.1)
+  );
+}
+
+.seo-company-hero__kicker {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(var(--seo-brand-1), 0.1);
+  color: rgb(var(--seo-brand-1));
+  border-radius: var(--seo-radius);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dark .seo-company-hero__kicker {
+  background: rgba(var(--seo-brand-1), 0.15);
+  color: rgb(var(--seo-brand-1));
+}
+
+.seo-company-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: rgb(var(--seo-ink));
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.dark .seo-company-title {
+  color: rgb(var(--seo-ink));
+}
+
+.seo-company-hero__description {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: rgb(var(--seo-ink-2));
+  max-width: 48rem;
+  margin-bottom: 1.5rem;
+}
+
+.dark .seo-company-hero__description {
+  color: rgb(var(--seo-ink-2));
+}
+
+.seo-company-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 0.9rem;
+  color: rgb(var(--seo-ink-3));
+  margin-top: 2rem;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Navigation */
+.seo-company-nav {
+  margin: 3rem 1.5rem;
+  padding: 2rem;
+  background: rgb(var(--seo-card));
+  border: 1px solid rgba(var(--seo-border), 0.5);
+  border-radius: var(--seo-radius);
+  box-shadow: 0 1px 3px rgba(var(--seo-shadow), 0.05);
+}
+
+.dark .seo-company-nav {
+  background: rgb(var(--seo-card));
+  border-color: rgba(var(--seo-border), 0.3);
+}
+
+.seo-company-nav h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(var(--seo-ink));
+  margin-bottom: 1.5rem;
+}
+
+.seo-company-nav__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.seo-company-nav__link {
+  display: block;
+  padding: 0.75rem 1rem;
+  background: rgba(var(--seo-brand-1), 0.05);
+  border: 1px solid rgba(var(--seo-brand-1), 0.2);
+  border-radius: calc(var(--seo-radius) - 2px);
+  color: rgb(var(--seo-brand-1));
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.seo-company-nav__link:hover {
+  background: rgba(var(--seo-brand-1), 0.1);
+  border-color: rgb(var(--seo-brand-1));
+  transform: translateX(4px);
+}
+
+/* Sections */
+.seo-company-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  border-bottom: 1px solid rgba(var(--seo-border), 0.3);
+}
+
+.seo-company-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(var(--seo-ink));
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.dark .seo-company-section h2 {
+  color: rgb(var(--seo-ink));
+}
+
+.seo-company-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgb(var(--seo-ink-2));
+  margin-bottom: 1.5rem;
+}
+
+.dark .seo-company-section p {
+  color: rgb(var(--seo-ink-2));
+}
+
+.seo-company-section a {
+  color: rgb(var(--seo-brand-1));
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.seo-company-section a:hover {
+  color: rgb(var(--seo-brand-2));
+}
+
+/* Stats Grid */
+.seo-company-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* Tabs */
+.seo-company-tabs {
+  margin: 2rem 0;
+}
+
+/* Grid Layout */
+.seo-company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+/* Accordion */
+.seo-company-accordion {
+  margin: 2rem 0;
+}
+
+/* Metrics Section */
+.seo-company-metrics {
+  margin: 2rem 0;
+}
+
+/* Table Styling */
+.seo-company-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.seo-company-section th {
+  background: rgba(var(--seo-brand-1), 0.05);
+  color: rgb(var(--seo-ink));
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid rgba(var(--seo-border), 0.5);
+}
+
+.dark .seo-company-section th {
+  background: rgba(var(--seo-brand-1), 0.08);
+  color: rgb(var(--seo-ink));
+}
+
+.seo-company-section td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(var(--seo-border), 0.3);
+  color: rgb(var(--seo-ink-2));
+}
+
+.seo-company-section tr:hover td {
+  background: rgba(var(--seo-brand-1), 0.02);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .seo-company-hero {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .seo-company-title {
+    font-size: 1.75rem;
+  }
+
+  .seo-company-hero__description {
+    font-size: 1rem;
+  }
+
+  .seo-company-meta {
+    gap: 1rem;
+  }
+
+  .seo-company-nav {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .seo-company-nav__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .seo-company-section {
+    padding: 2rem 1rem;
+  }
+
+  .seo-company-stats {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .seo-company-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+}
+
+/* Prose Integration */
+.seo-company-section :where(ul) {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.seo-company-section :where(li) {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.seo-company-section :where(ol) {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+  list-style-type: decimal;
+}
+
+.seo-company-section :where(h3) {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(var(--seo-ink));
+  margin: 1.5rem 0 1rem;
+}
+
+.dark .seo-company-section :where(h3) {
+  color: rgb(var(--seo-ink));
+}
+
+.seo-company-section :where(h4) {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: rgb(var(--seo-ink));
+  margin: 1rem 0 0.5rem;
+}
+
+.dark .seo-company-section :where(h4) {
+  color: rgb(var(--seo-ink));
+}
+
+/* Card Overrides within Section */
+.seo-company-section .bg-red-50 {
+  background-color: rgba(254, 242, 242, 1);
+}
+
+.dark .seo-company-section .bg-red-50 {
+  background-color: rgba(7, 2, 2, 0.5);
+}
+
+.seo-company-section .bg-blue-50 {
+  background-color: rgba(239, 246, 255, 1);
+}
+
+.dark .seo-company-section .bg-blue-50 {
+  background-color: rgba(3, 7, 30, 0.5);
+}
+
+.seo-company-section .bg-green-50 {
+  background-color: rgba(240, 253, 244, 1);
+}
+
+.dark .seo-company-section .bg-green-50 {
+  background-color: rgba(2, 8, 4, 0.5);
+}
+
+/* Typography Hierarchy */
+.seo-company-section strong {
+  font-weight: 600;
+  color: rgb(var(--seo-ink));
+}
+
+.dark .seo-company-section strong {
+  color: rgb(var(--seo-ink));
+}
+
+/* Code Blocks */
+.seo-company-section code {
+  background: rgba(var(--seo-brand-1), 0.08);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  color: rgb(var(--seo-brand-2));
+}
+
+.dark .seo-company-section code {
+  background: rgba(var(--seo-brand-1), 0.12);
+  color: rgb(var(--seo-brand-2));
+}
+
+/* Blockquotes */
+.seo-company-section blockquote {
+  border-left: 4px solid rgb(var(--seo-brand-1));
+  padding-left: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  color: rgb(var(--seo-ink-3));
+  font-style: italic;
+}
+
+.dark .seo-company-section blockquote {
+  border-left-color: rgb(var(--seo-brand-1));
+  color: rgb(var(--seo-ink-3));
+}
+
+/* Highlight Boxes */
+.seo-company-section .bg-gray-100 {
+  background-color: rgba(243, 244, 246, 1);
+  padding: 1.5rem;
+  border-radius: var(--seo-radius);
+  border: 1px solid rgba(var(--seo-border), 0.4);
+}
+
+.dark .seo-company-section .bg-gray-100 {
+  background-color: rgba(17, 24, 39, 1);
+  border-color: rgba(var(--seo-border), 0.2);
+}
+
+/* List Item Spacing */
+.seo-company-section .space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.seo-company-section .space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+.seo-company-section .space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* Final Section Styling */
+.seo-company-section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 2rem;
+}
+
+/* Smooth Transitions */
+a,
+button {
+  transition: all 0.2s ease;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .seo-company-progress,
+  .seo-company-nav {
+    display: none;
+  }
+
+  .seo-company-section {
+    border-bottom: none;
+  }
+}
