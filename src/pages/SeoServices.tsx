@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { CheckCircle2, TrendingUp, BarChart3, Search, LinkIcon, Zap, Target, Users, FileText, Award, BookOpen, AlertTriangle } from 'lucide-react';
+import { CheckCircle2, TrendingUp, BarChart3, Search, LinkIcon, Zap, Target, Users, Award, AlertTriangle } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import '@/styles/seo-services.css';
 
