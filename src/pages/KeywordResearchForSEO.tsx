@@ -215,7 +215,7 @@ export default function KeywordResearchForSEO() {
               <h2>Introduction to Keyword Research for SEO</h2>
               <p>Keyword research is the cornerstone of modern search engine optimization. It's where every successful SEO strategy begins—with a deep understanding of what your target audience is searching for, how they search, and what intent drives their queries.</p>
               
-              <p>In 2025, keyword research has evolved far beyond simply identifying search volumes. Today's approach integrates search intent analysis, content gap identification, competitive intelligence, and semantic relationships. The best SEOs understand that keywords aren't just about ranking for high-volume terms—they're about reaching the right people at the right moment in their buyer's journey.</p>
+              <p>In 2025, keyword research has evolved far beyond simply identifying search volumes. Today's approach integrates search intent analysis, content gap identification, competitive intelligence, and semantic relationships. The best SEOs understand that keywords aren't just about ranking for high-volume terms��they're about reaching the right people at the right moment in their buyer's journey.</p>
 
               <p>This comprehensive guide covers everything you need to know about keyword research for SEO, from fundamental concepts to advanced strategies used by top-ranking websites.</p>
 
@@ -481,7 +481,7 @@ export default function KeywordResearchForSEO() {
                     <p><strong>Best for:</strong> Discovering keyword variations, search volume trends, seasonal patterns.</p>
                     <p><strong>Strengths:</strong> Free, official Google data, easy to use, shows search trends.</p>
                     <p><strong>Limitations:</strong> Requires Google Ads account, limited keyword suggestions, shows volume ranges for low-volume terms.</p>
-                    <p><strong>How to access:</strong> Sign up at <a href="https://ads.google.com/intl/en_US/home/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Ads</a>, navigate to Tools > Keyword Planner.</p>
+                    <p><strong>How to access:</strong> Sign up at Google Ads, navigate to Tools {'>'} Keyword Planner.</p>
                   </CardContent>
                 </Card>
 
@@ -493,7 +493,7 @@ export default function KeywordResearchForSEO() {
                     <p><strong>Best for:</strong> Understanding what keywords currently drive your traffic, finding ranking opportunities.</p>
                     <p><strong>Strengths:</strong> Real data from your site, shows exact search queries, position data, CTR metrics.</p>
                     <p><strong>Limitations:</strong> Only shows data for your own site, requires ownership verification.</p>
-                    <p><strong>How to access:</strong> Visit <a href="https://search.google.com/search-console/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Search Console</a>, verify your site.</p>
+                    <p><strong>How to access:</strong> Visit Google Search Console, verify your site.</p>
                   </CardContent>
                 </Card>
 
@@ -505,7 +505,7 @@ export default function KeywordResearchForSEO() {
                     <p><strong>Best for:</strong> Identifying seasonal trends, comparing keyword popularity over time.</p>
                     <p><strong>Strengths:</strong> Free, shows interest over time, regional breakdowns, related queries.</p>
                     <p><strong>Limitations:</strong> Doesn't show exact search volume, not granular for very niche topics.</p>
-                    <p><strong>How to access:</strong> Visit <a href="https://trends.google.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Trends</a>.</p>
+                    <p><strong>How to access:</strong> Visit Google Trends.</p>
                   </CardContent>
                 </Card>
 
@@ -517,7 +517,7 @@ export default function KeywordResearchForSEO() {
                     <p><strong>Best for:</strong> Getting quick keyword suggestions, basic difficulty estimates.</p>
                     <p><strong>Strengths:</strong> Free option available, easy interface, shows suggested keywords and metrics.</p>
                     <p><strong>Limitations:</strong> Limited daily searches, basic difficulty scoring, less comprehensive than paid tools.</p>
-                    <p><strong>How to access:</strong> Visit <a href="https://ubersuggest.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Ubersuggest</a>.</p>
+                    <p><strong>How to access:</strong> Visit Ubersuggest.</p>
                   </CardContent>
                 </Card>
               </div>
@@ -560,7 +560,7 @@ export default function KeywordResearchForSEO() {
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-base">Backlink ∞ Rank Tracker</CardTitle>
+                    <CardTitle className="text-base">Backlink Infinity Rank Tracker</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-2 text-sm">
                     <p><strong>Best for:</strong> Monitoring your keyword rankings, tracking progress over time, competitive benchmarking.</p>
@@ -572,10 +572,10 @@ export default function KeywordResearchForSEO() {
 
               <h3>Supporting Tools for Keyword Research</h3>
               <ul>
-                <li><strong><a href="https://answerthepublic.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">AnswerThePublic</a>:</strong> Visualizes questions and prepositions around your keyword—excellent for understanding related queries and content ideas.</li>
-                <li><strong><a href="https://www.quora.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Quora</a> and forums:</strong> Real user questions and pain points that keywords might not capture.</li>
-                <li><strong><a href="https://serpstat.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Serpstat</a>:</strong> All-in-one SEO platform with comprehensive keyword research features.</li>
-                <li><strong><a href="https://support.google.com/google-ads/answer/2999770" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Auto-Complete</a>:</strong> Manual approach—type partial keywords and note suggestions Google provides.</li>
+                <li><strong>AnswerThePublic:</strong> Visualizes questions and prepositions around your keyword—excellent for understanding related queries and content ideas.</li>
+                <li><strong>Quora and forums:</strong> Real user questions and pain points that keywords might not capture.</li>
+                <li><strong>Serpstat:</strong> All-in-one SEO platform with comprehensive keyword research features.</li>
+                <li><strong>Google Auto-Complete:</strong> Manual approach—type partial keywords and note suggestions Google provides.</li>
               </ul>
             </section>
 
@@ -614,7 +614,7 @@ export default function KeywordResearchForSEO() {
                 <li>Prioritize based on search volume, difficulty, and relevance.</li>
               </ul>
 
-              <h3>4. Content Pillar & Cluster Approach</h3>
+              <h3>4. Content Pillar and Cluster Approach</h3>
               <p>Organize keywords into topic clusters with a central pillar page:</p>
 
               <ul>
@@ -656,7 +656,7 @@ export default function KeywordResearchForSEO() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-base">Relevance & Intent</CardTitle>
+                    <CardTitle className="text-base">Relevance and Intent</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm space-y-2">
                     <p><strong>Question:</strong> Does this keyword align with my business, products, or content mission?</p>
@@ -781,7 +781,7 @@ export default function KeywordResearchForSEO() {
               <p>Set up tracking to measure your keyword research's impact:</p>
 
               <ul>
-                <li><strong>Rank tracking:</strong> Monitor rankings for your target keywords using a tool like <a href="https://backlinkoo.com/rank-tracker" className="text-blue-600 hover:underline">Backlink ∞ Rank Tracker</a>.</li>
+                <li><strong>Rank tracking:</strong> Monitor rankings for your target keywords using a rank tracking tool.</li>
                 <li><strong>Traffic analysis:</strong> Use Google Analytics to track traffic from target keywords.</li>
                 <li><strong>Conversion tracking:</strong> Tag and measure conversions from keyword-driven traffic.</li>
                 <li><strong>ROI calculation:</strong> Compare content investment (time, resources) to traffic and conversion gains.</li>
