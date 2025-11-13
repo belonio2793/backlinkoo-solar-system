@@ -294,7 +294,7 @@ export default function TechnicalSEOAudit() {
               <p>Even if crawlers successfully visit your pages, they may not be indexed. Indexation issues are often silent—you may not realize pages are blocked until you check Search Console. Common indexation barriers include:</p>
 
               <h3 className="mt-6 font-semibold">Noindex Tags and Meta Robots</h3>
-              <p className="mt-2 text-sm">The <code className="bg-slate-100 px-1 rounded">X-Robots-Tag: noindex</code> HTTP header or <code className="bg-slate-100 px-1 rounded">&lt;meta name="robots" content="noindex"&gt;</code> prevents pages from being indexed. This is intentional for private pages, but accidental noindex directives block content you want to rank:</p>
+              <p className="mt-2 text-sm">The X-Robots-Tag: noindex HTTP header or meta name="robots" content="noindex" tag prevents pages from being indexed. This is intentional for private pages, but accidental noindex directives block content you want to rank:</p>
               <ul className="list-disc pl-6 space-y-1 text-sm mt-2">
                 <li>Staging or test sites accidentally inheriting noindex from production</li>
                 <li>Pagination or filter pages marked noindex to prevent duplication (bad practice)</li>
@@ -305,11 +305,11 @@ export default function TechnicalSEOAudit() {
               <p className="mt-2 text-sm">When multiple URLs contain identical or near-identical content, Google must decide which to index. A missing or incorrect canonical tag can result in the wrong version being indexed, split authority between duplicates, or both versions being deindexed.</p>
               <p className="mt-2 text-sm font-semibold">Canonical implementation rules:</p>
               <ul className="list-disc pl-6 space-y-1 text-sm mt-2">
-                <li>Use <code className="bg-slate-100 px-1 rounded">&lt;link rel="canonical" href="..."&gt;</code> in the <code className="bg-slate-100 px-1 rounded">&lt;head&gt;</code> of each page</li>
+                <li>Use link rel="canonical" href="..." in the head of each page</li>
                 <li>Point to the preferred version (usually the longest, most authoritative URL)</li>
                 <li>Use absolute URLs, not relative paths</li>
                 <li>Canonicalize to self on the preferred page</li>
-                <li>For multi-region content, use <code className="bg-slate-100 px-1 rounded">rel="alternate" hreflang</code> instead</li>
+                <li>For multi-region content, use rel="alternate" hreflang instead</li>
               </ul>
 
               <h3 className="mt-6 font-semibold">Search Console Coverage Report</h3>
@@ -427,13 +427,13 @@ export default function TechnicalSEOAudit() {
                 title="Essential Mobile Requirements"
                 items={[
                   'Responsive design (no separate mobile site; single fluid design)',
-                  'Viewport meta tag correctly set: <meta name="viewport" content="width=device-width, initial-scale=1">',
+                  'Viewport meta tag correctly set: width=device-width, initial-scale=1',
                   'Touch-friendly buttons and links (minimum 48x48px with adequate spacing)',
                   'No intrusive interstitials (pop-ups must close easily without obscuring content)',
                   'Readable text without zooming (font size 12px or larger)',
                   'Images and media properly scaled for mobile screens',
                   'Horizontal scroll avoided (content fits within viewport width)',
-                  'Avoid plugins like Flash that don\'t work on mobile',
+                  'Avoid plugins like Flash that do not work on mobile',
                 ]}
               />
 
@@ -476,7 +476,7 @@ export default function TechnicalSEOAudit() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-sm">Organization & Article</CardTitle>
+                    <CardTitle className="text-sm">Organization &amp; Article</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm space-y-2">
                     <p><strong>Organization Schema:</strong> Define your company name, logo, contact info, social profiles. Improves knowledge panel visibility.</p>
@@ -485,7 +485,7 @@ export default function TechnicalSEOAudit() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-sm">FAQ & HowTo</CardTitle>
+                    <CardTitle className="text-sm">FAQ &amp; HowTo</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm space-y-2">
                     <p><strong>FAQ Schema:</strong> Structure Q&A content for rich snippets showing questions in search results.</p>
@@ -494,7 +494,7 @@ export default function TechnicalSEOAudit() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-sm">Review & Rating</CardTitle>
+                    <CardTitle className="text-sm">Review &amp; Rating</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm space-y-2">
                     <p><strong>Review Schema:</strong> Markup product/service reviews with ratings. Shows star ratings in search results.</p>
@@ -503,7 +503,7 @@ export default function TechnicalSEOAudit() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-sm">Product & Offer</CardTitle>
+                    <CardTitle className="text-sm">Product &amp; Offer</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm space-y-2">
                     <p><strong>Product Schema:</strong> Mark product name, image, description, price, availability.</p>
@@ -513,7 +513,7 @@ export default function TechnicalSEOAudit() {
               </div>
 
               <h3 className="mt-6 font-semibold">Implementing Structured Data</h3>
-              <p className="mt-2 text-sm">Best practice: use JSON-LD format within <code className="bg-slate-100 px-1 rounded">&lt;script type="application/ld+json"&gt;</code> tags in the page <code className="bg-slate-100 px-1 rounded">&lt;head&gt;</code> or <code className="bg-slate-100 px-1 rounded">&lt;body&gt;</code>. JSON-LD is:</p>
+              <p className="mt-2 text-sm">Best practice: use JSON-LD format within script type="application/ld+json" tags in the page head or body. JSON-LD is:</p>
               <ul className="list-disc pl-6 space-y-1 text-sm mt-2">
                 <li>Easiest to implement (no HTML attribute changes)</li>
                 <li>Supported by all major search engines</li>
@@ -589,7 +589,7 @@ export default function TechnicalSEOAudit() {
               <h3 className="mt-6 font-semibold">Link Analysis and Backlink Profiles</h3>
               <p className="mt-2 text-sm">While not strictly technical SEO, link profile analysis is crucial for understanding domain authority and identifying toxic links:</p>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">
-                <li><strong><a href="https://ahrefs.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ahrefs</a></strong> – Comprehensive backlink analysis and competitor research. Learn about <a href="/senuke" className="text-blue-600 hover:underline">historical automation tools</a> and their link profiles</li>
+                <li><strong><a href="https://ahrefs.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ahrefs</a></strong> – Comprehensive backlink analysis and competitor research. Learn about historical automation tools and their link profiles</li>
                 <li><strong><a href="https://moz.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Moz Pro</a></strong> – Domain authority metrics and link data</li>
                 <li><strong><a href="https://www.semrush.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Semrush</a></strong> – Link analysis and toxic link detection</li>
               </ul>
@@ -601,7 +601,7 @@ export default function TechnicalSEOAudit() {
 
               <div className="space-y-6 mt-6">
                 <div>
-                  <h3 className="font-semibold mb-3">Crawlability & Indexation</h3>
+                  <h3 className="font-semibold mb-3">Crawlability &amp; Indexation</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <AuditChecklistCard
                       title="Crawlability"
@@ -631,15 +631,15 @@ export default function TechnicalSEOAudit() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold mb-3">Performance & User Experience</h3>
+                  <h3 className="font-semibold mb-3">Performance &amp; User Experience</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <AuditChecklistCard
                       title="Core Web Vitals"
                       items={[
-                        'LCP (Largest Contentful Paint) < 2.5 seconds',
-                        'FID/INP (Interaction metrics) < 100ms / < 200ms',
-                        'CLS (Cumulative Layout Shift) < 0.1',
-                        '75%+ of pages pass Core Web Vitals (per CrUX)',
+                        'LCP (Largest Contentful Paint) under 2.5 seconds',
+                        'FID/INP (Interaction metrics) under 100ms / under 200ms',
+                        'CLS (Cumulative Layout Shift) under 0.1',
+                        '75+ percent of pages pass Core Web Vitals (per CrUX)',
                         'Images optimized and lazy-loaded',
                         'CSS/JavaScript minified and deferred',
                         'Third-party scripts loaded asynchronously',
@@ -653,18 +653,18 @@ export default function TechnicalSEOAudit() {
                         'Touch-friendly buttons (48x48px minimum)',
                         'No intrusive interstitials',
                         'Text readable without zooming',
-                        'Mobile usability issues < 5% of pages',
-                        'Mobile performance score > 50 on PageSpeed',
+                        'Mobile usability issues under 5 percent of pages',
+                        'Mobile performance score over 50 on PageSpeed',
                       ]}
                     />
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="font-semibold mb-3">Security & Configuration</h3>
+                  <h3 className="font-semibold mb-3">Security &amp; Configuration</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <AuditChecklistCard
-                      title="HTTPS & Security"
+                      title="HTTPS &amp; Security"
                       items={[
                         'All pages served over HTTPS (SSL/TLS)',
                         'HTTP redirects to HTTPS with 301 status',
@@ -691,12 +691,12 @@ export default function TechnicalSEOAudit() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold mb-3">Site Architecture & Content</h3>
+                  <h3 className="font-semibold mb-3">Site Architecture &amp; Content</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <AuditChecklistCard
                       title="Information Architecture"
                       items={[
-                        'Clear hierarchical site structure (category > subcategory)',
+                        'Clear hierarchical site structure (category to subcategory)',
                         'Important pages reachable within 2-3 clicks',
                         'Semantic URLs reflecting content hierarchy',
                         'Breadcrumb navigation (visual and markup)',
@@ -711,7 +711,7 @@ export default function TechnicalSEOAudit() {
                         'Unique title tags (50-60 characters) on every page',
                         'Unique meta descriptions (150-160 characters)',
                         'H1 tag present and unique per page',
-                        'Proper heading hierarchy (H1 > H2 > H3, no skipping)',
+                        'Proper heading hierarchy (H1 to H2 to H3, no skipping)',
                         'Internal links using descriptive anchor text',
                         'Image alt text descriptive and keyword-relevant',
                         'Meta robots tag set correctly (or absent for indexable pages)',
@@ -726,7 +726,7 @@ export default function TechnicalSEOAudit() {
               <h2>Audit Finding Prioritization Framework</h2>
               <p>Not all technical SEO issues have equal impact. Use this framework to prioritize fixes by impact, effort, and opportunity:</p>
 
-              <h3 className="mt-6 font-semibold">Impact & Effort Matrix</h3>
+              <h3 className="mt-6 font-semibold">Impact &amp; Effort Matrix</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <Card className="border-emerald-200 bg-emerald-50">
                   <CardHeader>
@@ -849,7 +849,7 @@ export default function TechnicalSEOAudit() {
                     <CardTitle>Content Publishing: Structured Data for Rich Snippets</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3 text-sm">
-                    <p><strong>Challenge:</strong> Publishing site wasn't appearing in featured snippets or rich results despite having high-quality content.</p>
+                    <p><strong>Challenge:</strong> Publishing site was not appearing in featured snippets or rich results despite having high-quality content.</p>
                     <p><strong>Solution:</strong> Implemented Article schema with publication date/author, FAQ schema for Q&A content, and breadcrumb navigation. Updated search console.</p>
                     <p><strong>Results:</strong> Featured snippet positions increased 340%. FAQ schema appeared in 85% of targeted searches. Click-through rate from search improved 22%.</p>
                   </CardContent>
@@ -863,7 +863,7 @@ export default function TechnicalSEOAudit() {
                 <AccordionItem value="q1">
                   <AccordionTrigger>How long does a technical SEO audit take?</AccordionTrigger>
                   <AccordionContent>
-                    For a small site (< 500 pages), 1-2 weeks. Medium sites (500-5,000 pages), 2-4 weeks. Large sites (5,000+ pages) can take 4-8 weeks. This includes crawling, analysis, prioritization, and remediation planning. Implementation may take additional weeks or months depending on findings.
+                    For a small site (500 or fewer pages), 1-2 weeks. Medium sites (500-5,000 pages), 2-4 weeks. Large sites (5,000 or more pages) can take 4-8 weeks. This includes crawling, analysis, prioritization, and remediation planning. Implementation may take additional weeks or months depending on findings.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -882,9 +882,9 @@ export default function TechnicalSEOAudit() {
                 </AccordionItem>
 
                 <AccordionItem value="q4">
-                  <AccordionTrigger>What's a good Core Web Vitals score?</AccordionTrigger>
+                  <AccordionTrigger>What&apos;s a good Core Web Vitals score?</AccordionTrigger>
                   <AccordionContent>
-                    Good: LCP < 2.5s, FID < 100ms (or INP < 200ms), CLS < 0.1. Google requires 75%+ of pages meeting these thresholds over a rolling 28-day window. If your site passes on 50%+ of pages, you're above average; 75%+ puts you in the top tier.
+                    Good: LCP under 2.5s, FID under 100ms (or INP under 200ms), CLS under 0.1. Google requires 75 percent or more of pages meeting these thresholds over a rolling 28-day window. If your site passes on 50 percent or more of pages, you're above average; 75 percent or more puts you in the top tier.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -896,9 +896,9 @@ export default function TechnicalSEOAudit() {
                 </AccordionItem>
 
                 <AccordionItem value="q6">
-                  <AccordionTrigger>What's the most impactful technical SEO fix?</AccordionTrigger>
+                  <AccordionTrigger>What&apos;s the most impactful technical SEO fix?</AccordionTrigger>
                   <AccordionContent>
-                    Usually fixing crawl errors and ensuring proper indexation. Many sites have 10-50% of important pages with crawl errors or blocked from indexation. Simply fixing these can unlock 20-30% traffic increases without any content or link building changes. Core Web Vitals improvements also tend to have high impact on modern queries.
+                    Usually fixing crawl errors and ensuring proper indexation. Many sites have 10-50 percent of important pages with crawl errors or blocked from indexation. Simply fixing these can unlock 20-30 percent traffic increases without any content or link building changes. Core Web Vitals improvements also tend to have high impact on modern queries.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -907,7 +907,7 @@ export default function TechnicalSEOAudit() {
             <section className="mt-12">
               <BacklinkInfinityCTA
                 title="Ready to Dominate Rankings With Quality Backlinks?"
-                description="After fixing your technical SEO foundation, accelerate rankings with high-authority backlinks from Backlink ∞. We're the #1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords. Combine technical excellence with strategic link building for unbeatable search visibility. Access premium SEO tools and expert support."
+                description="After fixing your technical SEO foundation, accelerate rankings with high-authority backlinks from Backlink ∞. We're the number 1 leading search engine optimization agency and top-selling backlinks provider with guaranteed results for even the most competitive keywords. Combine technical excellence with strategic link building for unbeatable search visibility. Access premium SEO tools and expert support."
               />
             </section>
           </article>
