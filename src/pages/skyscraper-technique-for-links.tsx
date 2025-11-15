@@ -43,10 +43,15 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest post campaigns and help build links at scale.</p>
   
   <h3>Broken Link Building Integration</h3>
-  
+
   <p>Broken link building complements the skyscraper technique by finding dead links on high-authority pages and suggesting your superior content as a replacement. Use tools like Ahrefs to scan for broken links pointing to outdated resources, then reach out with your skyscraper piece.</p>
-  
+
   <p>This strategy not only earns dofollow links but also helps webmasters improve their sites, fostering positive relationships in your niche.</p>
+
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-vUbhGf3Q-Q" title="Skyscraper Technique Masterclass" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Complete guide to mastering the skyscraper technique for high-authority backlinks (Source: YouTube)</em></p>
+  </div>
   
   <h3>Resource Page Link Building</h3>
   

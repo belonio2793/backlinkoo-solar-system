@@ -34,8 +34,10 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>Resource pages are another goldmine. Search for "niche + resource page" and pitch your content. Combine this with <Link to="/xrumer">XRumer for posting</Link> to automate forum and blog comments that could lead to more organic links.</p>
     <p>Implementing these strategies can increase your backlink count by 15-25% within months, based on Moz data.</p>
     
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Competitor Backlink Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Learn how to analyze competitor backlinks and outrank them (Source: YouTube)</em></p>
+    </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. Analyzing <strong>SpyFu competitor backlinks</strong> might reveal paid opportunities your rivals exploit. However, Google's guidelines warn against manipulative link schemes, so caution is essential.</p>

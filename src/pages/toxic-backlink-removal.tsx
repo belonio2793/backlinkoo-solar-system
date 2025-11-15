@@ -30,8 +30,8 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <p>Broken links can become toxic if they're from dead pages. Use tools to find them and suggest replacements with your high-quality content. This not only removes the toxic element but turns it into a positive link building opportunity. Remember, toxic backlink removal is about balance—remove the bad and build the good.</p>
   <p>For automation in your link management, consider <Link to="/senuke">SENUKE for automation</Link>, which can help streamline audits and outreach processes.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on backlink audits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on identifying toxic backlinks (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lu-Q09PBzg0" title="Toxic Backlink Removal Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Complete guide to identifying and removing toxic backlinks from your profile (Source: YouTube)</em></p>
   </div>
   
   <h2>Pros, Cons, and Safe Tips for Buying Services in Toxic Backlink Removal</h2>
