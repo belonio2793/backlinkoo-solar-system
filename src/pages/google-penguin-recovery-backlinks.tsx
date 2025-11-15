@@ -39,7 +39,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more on effective strategies, check this <a href="https://moz.com/blog/google-penguin-recovery" target="_blank" rel="noopener noreferrer">Moz Guide on Penguin Recovery</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2R-3X3kY9W8" title="Recovering from Google Penguin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Google Penguin Recovery</h2>
@@ -121,7 +121,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more insights, visit <a href="https://searchengineland.com/google-penguin-case-studies" target="_blank" rel="noopener noreferrer">Search Engine Land Case Studies</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2R-3X3kY9W8" title="Recovering from Google Penguin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid in Google Penguin Recovery Backlinks</h2>

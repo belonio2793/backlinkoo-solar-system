@@ -45,7 +45,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>Integrate LSI terms like "link equity" and "referral traffic" into your content to maximize SEO benefits. At Backlinkoo, we emphasize these strategies because they build sustainable authority without risking penalties.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

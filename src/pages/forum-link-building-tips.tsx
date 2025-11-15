@@ -37,7 +37,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Content Syndication and Sharing</h3>
     <p>Share snippets of your content in forums, linking back to the full article. Ensure it's relevant to avoid moderation issues. This tactic can amplify your reach and generate dofollow links organically.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Forum Participation for Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Pros and Cons of Buying Forum Links, Plus Safe Tips</h2>
@@ -147,7 +147,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>What tools do you recommend for automation?</h3>
     <p>We suggest <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> for efficient campaigns.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Forum Participation for Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Conclusion: Elevate Your SEO with Expert Forum Link Building</h2>

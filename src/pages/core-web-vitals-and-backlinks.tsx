@@ -53,7 +53,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>By focusing on these organic strategies, you can build a robust backlink profile that complements your site's performance metrics.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Core Web Vitals and SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -140,7 +140,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>By buying safe backlinks and fixing FID issues, this business saw a 35% increase in leads. Backlinkoo's services helped secure high-quality links without penalties.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Core Web Vitals and SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid When Handling Core Web Vitals and Backlinks</h2>

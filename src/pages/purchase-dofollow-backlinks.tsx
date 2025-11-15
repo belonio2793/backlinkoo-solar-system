@@ -49,7 +49,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>While these organic methods are effective, they require time and effort. If you're short on resources, purchasing dofollow backlinks from a reliable provider like Backlinkoo can complement your organic efforts seamlessly.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Pros and Cons of Buying Dofollow Backlinks</h2>
@@ -142,7 +142,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>These cases demonstrate that when you purchase dofollow backlinks wisely, the results can be transformative.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Common Mistakes to Avoid When Purchasing Dofollow Backlinks</h2>

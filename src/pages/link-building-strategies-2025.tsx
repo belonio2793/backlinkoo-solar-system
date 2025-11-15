@@ -40,7 +40,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>Analyze competitors using SEMrush, improve on length, depth, and visuals, then outreach to linkers. This can significantly boost your domain authority.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for 2025</h2>
@@ -125,7 +125,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>These cases show how tailored <strong>link building strategies 2025</strong> drive success.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid in Link Building 2025</h2>

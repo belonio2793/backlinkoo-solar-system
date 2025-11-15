@@ -37,7 +37,7 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>While organic strategies are ideal, they can be time-consuming. That's where opting to <strong>buy high quality backlinks</strong> from trusted providers like Backlinkoo comes in handy for faster results.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Finding High Quality Link Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <h2>The Pros and Cons of Buying High Quality Backlinks</h2>

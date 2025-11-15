@@ -72,7 +72,7 @@ const BuyPbnBacklinksSafely: React.FC = () => {
     <p>High-quality, relevant content on PBN sites reduces detection risks. Incorporate LSI keywords for better relevance.</p>
     <p>For safe practices, see Google's guidelines at <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a>.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2R-3X3kY9W8" title="PBN Networks - Risks and Reality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Tools for Managing PBNs</h2>

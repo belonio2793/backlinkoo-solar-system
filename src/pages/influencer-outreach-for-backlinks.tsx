@@ -54,7 +54,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>According to <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land</a>, social signals indirectly influence SEO, making this a smart addition to your influencer outreach for backlinks toolkit.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j1z-X_E0x0w" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Reaching Out to Influencers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <p>Other organic methods include HARO (Help a Reporter Out) queries, where you provide expert quotes to journalists (who are often influencers), earning backlinks in published articles. This builds credibility and domain authority over time.</p>
@@ -180,7 +180,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j1z-X_E0x0w" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Reaching Out to Influencers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 20px;">Conclusion: Elevate Your SEO with Backlinkoo</h2>

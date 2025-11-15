@@ -55,7 +55,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>At Backlinkoo, we emphasize building genuine relationships to secure long-term link opportunities, enhancing your overall backlink profile.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Health Blog Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying Links for Health Blogs: Pros, Cons, and Safe Tips</h2>
@@ -160,7 +160,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>By steering clear of these, you'll build a robust backlink profile that withstands algorithm updates.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Health Blog Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>FAQ: Health Blog Link Building</h2>

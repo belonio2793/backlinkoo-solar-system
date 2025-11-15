@@ -38,7 +38,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link to="/xrumer">XRumer for posting</Link>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title=".edu Backlinks Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying High Quality Backlinks from .Edu Sites: Pros, Cons, and Safe Tips</h2>
@@ -121,7 +121,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>These cases show how strategic <em>link building</em> with .edu sites can transform SEO outcomes. Contact Backlinkoo to replicate this success.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title=".edu Backlinks Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid When Pursuing High Quality Backlinks from .Edu Sites</h2>

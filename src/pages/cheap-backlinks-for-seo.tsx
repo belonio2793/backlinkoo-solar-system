@@ -38,7 +38,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Social sharing on platforms like Reddit or LinkedIn can lead to natural backlinks. Engage in communities, share insights, and watch as users link to your content. These strategies enhance your overall link building efforts without high expenses.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Cheap Backlinks for SEO: Pros, Cons, and Safe Tips</h2>
@@ -148,7 +148,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Use tools like Ahrefs to track rankings, traffic, and domain authority improvements.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

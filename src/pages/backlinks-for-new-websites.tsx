@@ -30,7 +30,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Steps to get started: Research sites using tools like Ahrefs, craft a compelling pitch, and include optimized anchor text. Backlinkoo offers guest post services to streamline this process, ensuring dofollow links from authoritative domains.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Getting Backlinks for New Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     <p>For more on guest blogging, check out this <a href="https://ahrefs.com/blog/guest-blogging-for-seo/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Guest Blogging</a>.</p>
     
@@ -46,7 +46,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Many sites curate resource pages. Find them via searches like "niche + inurl:resources." If your content fits, request inclusion. This is a low-effort way to secure high-quality backlinks.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Getting Backlinks for New Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for New Websites</h2>
@@ -141,7 +141,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>For expert advice, refer to <a href="https://www.semrush.com/blog/link-building-mistakes/" target="_blank" rel="noopener noreferrer">SEMrush's Link Building Mistakes</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Getting Backlinks for New Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>FAQ: Backlinks for New Websites</h2>

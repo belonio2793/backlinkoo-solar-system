@@ -92,7 +92,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Brian Dean of Backlinko reported a 110% increase in organic traffic using this method. Incorporate LSI terms like "link building strategies" to enhance relevance.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Backlink Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying High Quality Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -252,7 +252,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Backlinkoo helps clients sidestep these mistakes with expert guidance and proven methodologies.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Backlink Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>FAQ: Answering Your Questions on High Quality Backlinks</h2>

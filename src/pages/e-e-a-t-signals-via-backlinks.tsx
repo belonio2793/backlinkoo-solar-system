@@ -57,7 +57,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Sign up for HARO and respond to queries in your expertise area. For resource pages, search for terms like "best resources for [niche]" and pitch your content. These organic backlinks are powerful E-E-A-T boosters.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="E-E-A-T and Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -183,7 +183,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="E-E-A-T and Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>

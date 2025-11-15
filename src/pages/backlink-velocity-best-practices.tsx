@@ -40,7 +40,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Incorporate LSI terms like "link building strategies" in your content to enhance SEO. Remember, consistency is key—publish and promote regularly to maintain momentum.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Backlink Velocity and Growth Rate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting efforts while adhering to best practices.</p>
@@ -62,7 +62,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>At Backlinkoo, our services ensure safe, effective link building. We recommend starting small and scaling based on results.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Backlink Velocity and Growth Rate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <a href="https://moz.com/blog/buying-links" target="_blank" rel="noopener noreferrer">Moz Guide on Buying Links</a>
