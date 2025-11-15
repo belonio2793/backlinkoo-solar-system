@@ -47,6 +47,11 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   
   <p>To get started, identify relevant sites using tools like Ahrefs or Moz. Pitch valuable content that solves problems for their audience. At Backlinkoo, we offer services to streamline this process, ensuring you secure links that elevate both DR and UR.</p>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Metrics Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Understand domain and URL rating metrics for better link building (Source: YouTube)</em></p>
+  </div>
+
   <h3>Broken Link Building Techniques</h3>
   
   <p>Broken link building is a white-hat strategy where you find dead links on high-DR sites and suggest your content as a replacement. This not only helps the site owner but also earns you a valuable backlink, improving your backlink DR vs UR metrics.</p>

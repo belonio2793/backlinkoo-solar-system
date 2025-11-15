@@ -36,6 +36,11 @@ const BacklinkEquityCalculation: React.FC = () => {
     <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>These organic strategies ensure long-term benefits in <strong>backlink equity calculation</strong>, aligning with Google's emphasis on natural link profiles.</p>
     
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Equity Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Master backlink equity calculation and maximize your link building ROI (Source: YouTube)</em></p>
+    </div>
+
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. However, it's a gray area in SEO, so proceed with caution.</p>
     <h3>Pros of Buying Backlinks</h3>

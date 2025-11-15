@@ -43,10 +43,15 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>To track growth, use tools to monitor new links from these posts. At Backlinkoo, we recommend combining this with <Link to="/xrumer">XRumer for posting</Link> to automate outreach and placement, ensuring consistent backlink acquisition.</p>
     
     <h3>Broken Link Building: Turning Errors into Opportunities</h3>
-    
+
     <p>Broken link building entails finding dead links on other sites and suggesting your content as a replacement. Tools like Ahrefs or SEMrush can identify these opportunities. Reach out politely, offering value. This method not only secures backlinks but also helps webmasters improve their sites.</p>
-    
+
     <p>In your <strong>backlink growth tracking</strong>, note the success rate—aim for 10-20% conversion on outreach. It's a low-cost strategy that builds genuine relationships and enhances domain authority over time.</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Growth and Tracking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Complete guide to tracking and optimizing your backlink growth (Source: YouTube)</em></p>
+    </div>
     
     <h3>Content Marketing and Skyscraper Technique</h3>
     
