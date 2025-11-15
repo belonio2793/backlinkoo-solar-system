@@ -251,9 +251,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   
   <p>Backlinkoo helps clients sidestep these mistakes with expert guidance and proven methodologies.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Backlink Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>FAQ: Answering Your Questions on High Quality Backlinks</h2>
   

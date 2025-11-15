@@ -147,9 +147,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <h3>Can schema markup increase domain authority?</h3>
     <p>Indirectly, by boosting visibility and attracting quality dofollow links.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <p>To wrap up, leveraging <strong>schema markup for backlinks</strong> is backed by stats from authoritative sources like <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" target="_blank" rel="noopener noreferrer">Google Search Central</a>, where sites with schema see higher engagement. As experts at Backlinkoo, we recommend starting with our services for proven results. Contact us today to supercharge your SEO strategy.</p>
     

@@ -110,9 +110,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>A wellness blog bought 40 niche relevant backlinks from health and fitness domains via Backlinkoo. Within six months, their monthly visitors grew from 10,000 to 35,000, with a 25% improvement in conversion rates. This was complemented by organic efforts like broken link building, proving the hybrid approach's efficacy.</p>
     <p>These cases highlight how Backlinkoo's services can deliver measurable results when you <strong>buy niche relevant backlinks</strong>.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Niche-Specific Link Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid When Buying Niche Relevant Backlinks</h2>
     <p>Even with the best intentions, pitfalls can derail your efforts. Avoid these common errors to ensure your investment pays off.</p>

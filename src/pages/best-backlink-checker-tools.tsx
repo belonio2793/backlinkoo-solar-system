@@ -127,9 +127,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <h3>Case Study 3: Agency Client Turnaround</h3>
     <p>Backlinkoo assisted a client with Majestic SEO to check purchased backlinks. We removed 150 low-quality ones and added 100 organic dofollow links, boosting domain authority by 20 points. Organic search traffic grew by 50%, proving the value of safe buying combined with top checkers.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Best Backlink Checking Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid When Using Backlink Checker Tools</h2>
     <p>Even with the <strong>best backlink checker tools</strong>, pitfalls abound. Here's how to steer clear.</p>

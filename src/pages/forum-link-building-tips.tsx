@@ -146,9 +146,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     
     <h3>What tools do you recommend for automation?</h3>
     <p>We suggest <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> for efficient campaigns.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Forum Participation for Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Expert Forum Link Building</h2>
     <p>Implementing these forum link building tips can significantly enhance your site's domain authority and search rankings. As SEO experts at Backlinkoo, we've drawn from years of experience and data from sources like Moz and Ahrefs—studies show that diverse backlink profiles correlate with 20-30% higher rankings (Moz DA Study, 2022). Our authoritative approach ensures trustworthiness, backed by successful client outcomes.</p>

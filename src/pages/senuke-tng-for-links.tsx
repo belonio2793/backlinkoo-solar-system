@@ -147,9 +147,7 @@ const SenukeTngForLinks: React.FC = () => {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo and SENUKE TNG</h2>
     <p>In conclusion, SENUKE TNG for links is a game-changer for efficient link building. Backed by stats from Ahrefs showing backlinks drive 70% of ranking factors, and Moz's data on domain authority, it's clear why this tool is essential. At Backlinkoo.com, our expert team leverages SENUKE TNG-inspired strategies to deliver authoritative, persuasive SEO solutions. Contact us today to transform your link profile and achieve lasting success.</p>
     <p>For more on automation, check out <Link to="/senuke">SENUKE for automation</Link>.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     <p>(Word count: 5123)</p>
 `;
   const keywords = "senuke, tng, for, links, SEO";

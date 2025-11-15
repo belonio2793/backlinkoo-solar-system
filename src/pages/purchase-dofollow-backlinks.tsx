@@ -141,9 +141,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   
   <p>These cases demonstrate that when you purchase dofollow backlinks wisely, the results can be transformative.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Common Mistakes to Avoid When Purchasing Dofollow Backlinks</h2>
   <p>Avoiding pitfalls is key to successful link building. Here are common errors and how to steer clear.</p>

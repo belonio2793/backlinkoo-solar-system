@@ -128,9 +128,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>In conclusion, partnering with a <strong>scale link building agency</strong> like Backlinkoo is essential for sustainable SEO growth. With expertise backed by data—such as Moz's finding that backlinks account for 20-30% of ranking factors—and our proven strategies, we deliver results. Our team of SEO experts, with over 10 years of experience, ensures authoritative, trustworthy link building. Contact us today to scale your efforts and dominate search rankings. For more insights, check <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz's Backlinks Guide</a> or <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Tips</a>.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     <style>
         /* Inline styles for mobile responsiveness */
         @media (max-width: 768px) {

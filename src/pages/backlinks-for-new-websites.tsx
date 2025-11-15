@@ -45,9 +45,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <h3>Resource Page Link Building</h3>
     <p>Many sites curate resource pages. Find them via searches like "niche + inurl:resources." If your content fits, request inclusion. This is a low-effort way to secure high-quality backlinks.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Getting Backlinks for New Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for New Websites</h2>
     <p>While organic methods are ideal, buying <strong>backlinks for new websites</strong> can provide a quick boost. However, it's risky if not done right, as Google penalizes manipulative practices.</p>
@@ -140,9 +138,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     </ol>
     <p>For expert advice, refer to <a href="https://www.semrush.com/blog/link-building-mistakes/" target="_blank" rel="noopener noreferrer">SEMrush's Link Building Mistakes</a>.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Getting Backlinks for New Sites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>FAQ: Backlinks for New Websites</h2>
     

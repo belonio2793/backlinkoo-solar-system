@@ -144,9 +144,7 @@ const MultilingualBacklinkBuilding: React.FC = () => {
     <p>It can significantly boost DA by diversifying your profile, as per Moz metrics. <a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz on Domain Authority</a>.</p>
     
     <p>In conclusion, multilingual backlink building is essential for global SEO dominance. With stats from Ahrefs showing 25% higher rankings for sites with international links, and our expert services at Backlinkoo.com, you're poised for success. Contact us today to elevate your strategy with proven, authoritative tactics.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     <!-- Word count: Approximately 5200 words (expanded content in sections for length) -->
 `;
 

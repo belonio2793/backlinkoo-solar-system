@@ -164,9 +164,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <h3>How does Backlinkoo help with this?</h3>
   <p>We provide comprehensive services, from analysis to acquisition, ensuring safe and effective link building.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <p>As an expert in SEO at Backlinkoo.com, I've seen firsthand how competitor backlink gap analysis drives results. According to Moz's 2023 report, sites with optimized backlink profiles see 2x more organic traffic. Our services are built on years of experience, ensuring trustworthiness and authority. Contact us today to start closing your backlink gaps and elevating your SEO game.</p>
   

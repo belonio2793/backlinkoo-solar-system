@@ -121,9 +121,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   
   <p>These cases show how guest post link building can drive measurable results. Ready to start? Contact Backlinkoo.com today.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Common Mistakes to Avoid in Guest Post Link Building</h2>
   <p>Even experts can falter in guest post link building. Here are key pitfalls and how to sidestep them.</p>

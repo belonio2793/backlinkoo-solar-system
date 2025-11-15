@@ -151,9 +151,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <h3>5. How does domain authority factor into SEMrush backlink analysis?</h3>
     <p>SEMrush uses its Authority Score, similar to Moz's DA, to evaluate link quality and overall site strength.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with SEMrush and Backlinkoo</h2>
     <p>SEMrush backlink analysis is an indispensable tool for any serious SEO practitioner, offering insights that drive effective link building and higher domain authority. By combining it with organic strategies, safe buying practices, and tools like <a href="/senuke">SENUKE for automation</a> and <a href="/xrumer">XRumer for posting</a>, you can achieve remarkable results.</p>

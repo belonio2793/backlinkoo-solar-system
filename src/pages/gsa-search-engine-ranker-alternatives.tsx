@@ -109,9 +109,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>A niche blog used broken link building as a GSA Search Engine Ranker alternative. By replacing 200 broken links across industry sites, they gained 120 backlinks, boosting rankings for key terms by 30 positions on average and increasing monthly visitors by 60%.</p>
   <h3>Case Study 3: Agency Scalability</h3>
   <p>An SEO agency integrated <Link to="/senuke">SENUKE for automation</Link> with safe buying practices. This led to a 35% improvement in client domain authorities and a 50% reduction in penalty risks, with fake stats showing revenue growth of 25% year-over-year.</p>
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Alternatives to Automated Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
 
   <h2>Common Mistakes to Avoid When Exploring GSA Search Engine Ranker Alternatives</h2>
   <p>Transitioning to new strategies isn't without pitfalls. Here are key mistakes to steer clear of:</p>

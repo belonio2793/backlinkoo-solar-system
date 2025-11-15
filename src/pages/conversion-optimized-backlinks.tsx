@@ -137,9 +137,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <h2>Conclusion: Elevate Your Strategy with Backlinkoo</h2>
     <p>In summary, conversion-optimized backlinks are pivotal for SEO success and business growth. Backed by stats from Moz (backlinks account for 20% of ranking factors) and Ahrefs (relevant links improve conversions by 25%), our expert team at Backlinkoo ensures you get authoritative, trustworthy links. Contact us today to transform your link building efforts.</p>
     <p><em>This article is authored by SEO experts at Backlinkoo, with over 10 years of experience in link building and conversion optimization. Sources: <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>, Ahrefs studies, SEMrush reports.</em></p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Quality Links that Convert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     <a href="https://semrush.com/blog/conversion-optimized-backlinks" target="_blank" rel="noopener noreferrer">SEMrush Insights</a>
     <a href="https://backlinko.com/backlinks-guide" target="_blank" rel="noopener noreferrer">Backlinko Guide</a>
     <a href="https://searchengineland.com/guide/what-is-seo" target="_blank" rel="noopener noreferrer">Search Engine Land</a>

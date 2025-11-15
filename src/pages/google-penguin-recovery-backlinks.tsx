@@ -120,9 +120,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     
     <p>For more insights, visit <a href="https://searchengineland.com/google-penguin-case-studies" target="_blank" rel="noopener noreferrer">Search Engine Land Case Studies</a>.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/2R-3X3kY9W8" title="Recovering from Google Penguin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid in Google Penguin Recovery Backlinks</h2>
     <p>Avoid repeating past errors. Don't rush into mass link building—focus on quality. Ignoring anchor text diversity can flag your site again. Failing to disavow bad links before building new ones prolongs recovery.</p>

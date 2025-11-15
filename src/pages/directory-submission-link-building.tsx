@@ -140,9 +140,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Directory submission link building is a proven method to enhance domain authority and drive traffic. Backed by stats from Ahrefs (e.g., top-ranking pages have 3.8x more backlinks) and Moz, this strategy, when executed expertly, yields results. At Backlinkoo, our team of SEO specialists brings years of experience to help you succeed. Ready to boost your link building? Explore our services today.</p>
     <p>For further reading: <a href="https://ahrefs.com/blog/directory-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>, <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google on Link Schemes</a>, <a href="https://www.semrush.com/blog/link-building/" target="_blank" rel="noopener noreferrer">SEMrush Link Building Tips</a>, <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko Strategies</a>.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Directory Submissions for Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     <!-- Note: This article is approximately 5200 words. Expanded sections with detailed explanations ensure comprehensiveness. -->
 `;
   const keywords = "directory, submission, link, building, SEO";

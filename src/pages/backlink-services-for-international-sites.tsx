@@ -199,9 +199,7 @@ const BacklinkServicesForInternationalSites: React.FC = () => {
 
     <p><strong>Ready to transform your SEO results with strategic backlink services for international sites?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>`;
+    `;
 
   return (
     <GenericPageTemplate

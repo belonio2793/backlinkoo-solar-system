@@ -215,9 +215,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <h3>How long does it take to see results from mobile-first link acquisition?</h3>
     <p>Typically 3-6 months, depending on campaign scale and site authority.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>
     

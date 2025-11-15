@@ -124,9 +124,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>A local service provider used resource page building and skyscraper techniques. They secured 200 links, boosting local search rankings by 70% and leads by 50%. Backlinkoo's tools helped monitor progress.</p>
     <p>These cases show how tailored <strong>link building strategies 2025</strong> drive success.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid in Link Building 2025</h2>
     <p>Even seasoned marketers make errors in <strong>link building strategies 2025</strong>. Avoid these pitfalls to protect your site's integrity.</p>

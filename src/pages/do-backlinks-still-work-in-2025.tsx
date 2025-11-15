@@ -157,9 +157,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <p>A local service provider used HARO and automation with <Link to="/senuke">SENUKE</Link>. Gained 80 dofollow links, increasing local search visibility by 50%. Leads doubled, highlighting backlinks' role in 2025 SEO.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Are Backlinks Still Important in 2025?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid in Backlink Building</h2>
     

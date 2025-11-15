@@ -214,9 +214,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <h3>How does domain authority factor into natural link building?</h3>
     <p>Higher DA sites provide more value, strengthening your overall profile.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw9Fk" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     

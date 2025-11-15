@@ -169,9 +169,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <h3>What metrics should I track for success?</h3>
     <p>Monitor domain authority, organic traffic, and backlink quality using Ahrefs or Moz.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="YMYL Finance Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <p>In conclusion, effective <strong>finance site link acquisition</strong> is a blend of strategy, tools, and persistence. According to Backlinko's 2023 study, sites with diverse backlink profiles see 3.8x more traffic. As experts at Backlinkoo, we draw from years of experience helping finance sites achieve top rankings. Our authoritative approach, backed by data from sources like Moz and Ahrefs, ensures trustworthiness. Ready to elevate your finance site's SEO? Contact Backlinkoo today for personalized link building services.</p>
     

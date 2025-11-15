@@ -182,9 +182,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <h3>How long does it take to see results from backlinks?</h3>
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="E-E-A-T and Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>
   

@@ -120,9 +120,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>A non-profit organization bought a package of 10 <em>high quality backlinks from .edu sites</em> through Backlinkoo. Their site's visibility score on SEMrush jumped 200%, leading to doubled donations. Fake stats: Traffic grew from 5,000 to 15,000 visitors/month.</p>
     <p>These cases show how strategic <em>link building</em> with .edu sites can transform SEO outcomes. Contact Backlinkoo to replicate this success.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title=".edu Backlinks Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid When Pursuing High Quality Backlinks from .Edu Sites</h2>
     <p>Even with the best intentions, pitfalls abound in <em>link building</em>. Avoid these to safeguard your SEO.</p>

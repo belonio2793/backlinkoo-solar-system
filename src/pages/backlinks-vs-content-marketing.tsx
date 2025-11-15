@@ -38,7 +38,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Creating shareable infographics is a content marketing staple that naturally attracts backlinks. Platforms like Help a Reporter Out (HARO) allow you to provide expert quotes, earning links organically. Social media promotion of your content can also lead to viral shares and backlinks.</p>
     <p>In the debate of <strong>backlinks vs content marketing</strong>, these strategies show how they interconnect. For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting campaigns.</p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Content vs Links for SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    
       <p><em>Watch this tutorial on organic link building (Source: YouTube)</em></p>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

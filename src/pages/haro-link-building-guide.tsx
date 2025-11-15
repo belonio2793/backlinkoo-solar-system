@@ -135,9 +135,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
 
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   <p>This <strong>HARO link building guide</strong> has covered everything from definitions to case studies. Remember, effective link building boosts domain authority and traffic – stats from SEMrush show sites with strong backlinks rank 3.8x higher. As SEO experts at Backlinkoo.com, we recommend starting with HARO for ethical gains. For personalized services, contact us today. Sources: <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, <a href="https://moz.com/blog/haro-link-building" target="_blank" rel="noopener noreferrer">Moz HARO Guide</a>, and <a href="https://backlinko.com/seo-stats" target="_blank" rel="noopener noreferrer">Backlinko Stats</a>.</p>
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="HARO for Expert Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>`;
+  `;
 
   return (
     <>

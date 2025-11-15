@@ -181,9 +181,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">How long until I see results from e-commerce backlink packages?</h3>
     <p>Typically 3-6 months, depending on package size and site factors.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Link Building Packages for E-commerce" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 15px;">Conclusion: Elevate Your E-Commerce SEO with Backlinkoo</h2>
     

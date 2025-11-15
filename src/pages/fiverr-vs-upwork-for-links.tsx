@@ -112,9 +112,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>A blogger combined both platforms, using Fiverr for quick gigs and Upwork for strategy. Results: 200 new backlinks, 40% traffic growth. Backlinkoo could optimize this further with automated tools.</p>
     <p>Fake stats: Page views up 200%; engagement time increased by 45 seconds average.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Freelance Platforms for Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Common Mistakes to Avoid in Link Building</h2>
     <p>When navigating <strong>Fiverr vs Upwork for links</strong>, avoid these pitfalls:</p>

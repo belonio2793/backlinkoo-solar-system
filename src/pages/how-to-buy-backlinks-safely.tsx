@@ -179,9 +179,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <h3 style="font-size: 1.5em; margin-top: 30px;">Does Backlinkoo offer safe backlink services?</h3>
   <p>Absolutely! Our experts ensure compliant, high-quality links. Contact us today.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Safe Backlink Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2 style="font-size: 2em; margin-top: 40px;">Conclusion: Building Trust with Safe Backlinks</h2>
   

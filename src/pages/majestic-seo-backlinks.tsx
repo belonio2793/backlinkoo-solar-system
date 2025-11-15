@@ -106,9 +106,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <h3>Case Study 3: Local Business Domination</h3>
   <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> to build local backlinks. Majestic analysis showed a 40% improvement in Citation Flow, leading to top local search positions and a 150% lead increase.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Common Mistakes to Avoid with Majestic SEO Backlinks</h2>
   <p>Avoiding pitfalls is crucial for sustainable SEO. One common mistake is ignoring link diversity—relying solely on one type of backlink can signal manipulation to Google. Always mix dofollow links with nofollow for a natural profile.</p>

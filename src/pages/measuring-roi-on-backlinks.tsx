@@ -147,9 +147,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <h3>Is buying backlinks safe?</h3>
   <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
 
   <h2>Conclusion: Mastering Measuring ROI on Backlinks with Backlinkoo</h2>
   <p>Measuring ROI on backlinks is essential for SEO success. As per a Backlinko study, sites with optimized backlink strategies see 5x more traffic. At Backlinkoo, our expert services, including <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, ensure you achieve maximum ROI. Contact us today to elevate your link building game.</p>

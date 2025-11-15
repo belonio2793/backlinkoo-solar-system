@@ -152,9 +152,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <h3>What tools pair well with BuzzSumo?</h3>
     <p>Tools like Ahrefs, Moz, and Backlinkoo's <Link to="/xrumer">XRumer for posting</Link> enhance its capabilities.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Using BuzzSumo for Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your Strategy with Backlinkoo</h2>
     <p>Leveraging <strong>BuzzSumo for link opportunities</strong> can transform your SEO game, backed by stats like Ahrefs' finding that top-ranking pages have 3.8x more backlinks. As experts at Backlinkoo, we emphasize an authoritative approach: Combine BuzzSumo's insights with our services for optimal results. With experience in thousands of campaigns, we ensure your link building is effective and penalty-free. Contact us today to supercharge your strategy.</p>

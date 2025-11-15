@@ -62,9 +62,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   
   <p>Stats from Backlinko indicate that skyscraper content (improved versions of popular articles) can earn 3x more backlinks. Tailor this for local audiences to maximize <strong>backlinks for local SEO</strong>.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Local SEO Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Buying Backlinks for Local SEO: Pros, Cons, and Safe Tips</h2>
   
@@ -164,9 +162,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   
   <a href="https://moz.com/blog/local-seo-case-study" target="_blank" rel="noopener noreferrer">Moz Local SEO Case Study</a>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Local SEO Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Common Mistakes to Avoid When Building Backlinks for Local SEO</h2>
   

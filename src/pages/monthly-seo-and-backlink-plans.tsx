@@ -197,9 +197,7 @@ const MonthlySeoAndBacklinkPlans: React.FC = () => {
 
     <p><strong>Ready to transform your SEO results with strategic monthly seo and backlink plans?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>`;
+    `;
 
   return (
     <GenericPageTemplate

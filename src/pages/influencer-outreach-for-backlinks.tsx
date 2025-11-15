@@ -179,9 +179,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What metrics should I track for success?</h3>
   <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Reaching Out to Influencers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 20px;">Conclusion: Elevate Your SEO with Backlinkoo</h2>
   

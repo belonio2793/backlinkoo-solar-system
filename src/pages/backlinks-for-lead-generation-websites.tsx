@@ -195,9 +195,7 @@ const BacklinksForLeadGenerationWebsites: React.FC = () => {
 
     <p><strong>Ready to transform your SEO results with strategic backlinks for lead generation websites?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>`;
+    `;
 
   return (
     <GenericPageTemplate

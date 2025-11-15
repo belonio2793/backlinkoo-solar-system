@@ -136,9 +136,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   
   <p>These cases demonstrate the power of <strong>podcast guesting for links</strong>. Partner with Backlinkoo for similar results!</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
   
   <h2>Common Mistakes to Avoid in Podcast Guesting for Links</h2>
   
