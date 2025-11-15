@@ -197,8 +197,13 @@ const AffordableLinkBuildingServices: React.FC = () => {
       <p><em>Visual summary of mistakes to avoid when building backlinks affordably (Source: Backlinkoo)</em></p>
   </div>
 
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Affordable Link Building Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video guide on affordable link building strategies</em></p>
+  </div>
+
   <h2>FAQ: Frequently Asked Questions About Affordable Link Building Services</h2>
-  
+
   <h3>1. What makes link building services affordable?</h3>
   <p>Affordability comes from efficient processes, scalable tools, and focused strategies that deliver value without high overheads. At Backlinkoo, packages start low while ensuring quality <strong>dofollow links</strong>.</p>
   
