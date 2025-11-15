@@ -37,9 +37,6 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>While organic strategies are ideal, they can be time-consuming. That's where opting to <strong>buy high quality backlinks</strong> from trusted providers like Backlinkoo comes in handy for faster results.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Tutorial on organic link building techniques (Source: YouTube)</em></p>
-    </div>
     
     <h2>The Pros and Cons of Buying High Quality Backlinks</h2>
     <p>Deciding to <strong>buy high quality backlinks</strong> is a strategic choice, but it's essential to weigh the benefits and drawbacks.</p>
@@ -151,9 +148,6 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>For more FAQs, explore <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: none;">Moz's Backlinks Guide</a>.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ on buying backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Video answering common questions about backlinks (Source: YouTube)</em></p>
-    </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>In summary, to <strong>buy high quality backlinks</strong> is a smart move when done correctly. Backed by stats from Ahrefs (backlinks drive 20% of rankings) and Moz (high DA links boost authority), this strategy can propel your site forward. As SEO experts at Backlinkoo, we recommend starting with our services for guaranteed, high quality results. Contact us today to transform your link building efforts.</p>
