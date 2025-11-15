@@ -26,7 +26,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>Tracking allows you to identify trends, spot toxic links, and measure ROI from link building campaigns. It helps in competitor analysis, revealing strategies to outpace rivals. At Backlinkoo, our services make this process seamless, integrating automation tools like <Link to="/senuke">SENUKE for automation</Link> to streamline your efforts.</p>
     
     <div class="media">
-        <Image src="/media/backlink-growth-tracking-img1.jpg" alt="backlink growth tracking infographic" width={800} height={400} />
+        <img src="/media/backlink-growth-tracking-img1.jpg" alt="backlink growth tracking infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of backlink growth on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -141,7 +141,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>These tools help visualize <strong>backlink growth tracking</strong> through dashboards and alerts. Backlinkoo integrates SENUKE and XRumer for a powerful, user-friendly experience.</p>
     
     <div class="media">
-        <Image src="/media/backlink-growth-tracking-img2.jpg" alt="backlink tools comparison chart" width={800} height={400} />
+        <img src="/media/backlink-growth-tracking-img2.jpg" alt="backlink tools comparison chart" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Chart comparing top backlink tracking tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -168,7 +168,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>These cases highlight how <strong>backlink growth tracking</strong> turns strategies into tangible results. Backlinkoo can replicate this for your business.</p>
     
     <div class="media">
-        <Image src="/media/backlink-growth-tracking-img3.jpg" alt="case study success graph" width={800} height={400} />
+        <img src="/media/backlink-growth-tracking-img3.jpg" alt="case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph depicting backlink growth in case studies (Source: Backlinkoo)</em></p>
     </div>
     
