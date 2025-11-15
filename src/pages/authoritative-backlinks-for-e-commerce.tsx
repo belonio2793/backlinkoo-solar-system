@@ -8,7 +8,7 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Authoritative Backlinks For E-Commerce: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
     <h1>Authoritative Backlinks for E-Commerce: The Ultimate Guide</h1>
     <p>In the competitive world of online retail, securing authoritative backlinks for e-commerce sites is essential for boosting search engine rankings and driving organic traffic. At Backlinkoo.com, we specialize in helping e-commerce businesses build high-quality link profiles that enhance domain authority and improve visibility on search engines like Google. This comprehensive guide will explore everything you need to know about authoritative backlinks for e-commerce, from definitions and strategies to tools and case studies. Whether you're a startup or an established online store, understanding link building, dofollow links, and domain authority can transform your SEO efforts.</p>
     

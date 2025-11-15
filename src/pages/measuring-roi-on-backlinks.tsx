@@ -8,7 +8,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Measuring Roi On Backlinks: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<article style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Measuring ROI on Backlinks: A Comprehensive Guide</h1>
   <p>In the ever-evolving world of SEO, understanding how to measure ROI on backlinks is crucial for any digital marketer or business owner. Backlinks, those valuable links from other websites pointing to yours, are a cornerstone of search engine optimization. But how do you know if your efforts in link building are paying off? This guide dives deep into measuring ROI on backlinks, exploring strategies, tools, and best practices to ensure your investments yield tangible results. At Backlinkoo.com, we're experts in helping you navigate this landscape with precision and efficiency.</p>
 

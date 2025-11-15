@@ -8,7 +8,7 @@ const GuestPostLinkBuilding: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Guest Post Link Building: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Guest Post Link Building: The Ultimate Guide to Boosting Your SEO</h1>
   <p>In the ever-evolving world of search engine optimization (SEO), <strong>guest post link building</strong> stands out as a powerful strategy for enhancing your website's authority and visibility. Whether you're a seasoned marketer or a newcomer to digital marketing, understanding how to leverage guest posts for link building can significantly impact your online presence. At Backlinkoo.com, we specialize in helping businesses like yours navigate these strategies effectively. This comprehensive guide will delve into everything you need to know about guest post link building, from its fundamentals to advanced tactics, ensuring you can implement it safely and successfully.</p>
   

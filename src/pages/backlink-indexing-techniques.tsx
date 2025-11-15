@@ -8,7 +8,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Indexing Techniques: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Backlink Indexing Techniques: A Comprehensive Guide</h1>
   <p>In the ever-evolving world of SEO, mastering <strong>backlink indexing techniques</strong> is crucial for boosting your website's visibility and authority. At Backlinkoo.com, we specialize in helping businesses like yours navigate the complexities of link building and ensure your backlinks get the recognition they deserve from search engines. This in-depth article will explore everything you need to know about backlink indexing techniques, from foundational concepts to advanced strategies, all while incorporating proven methods like dofollow links and enhancing domain authority.</p>
   

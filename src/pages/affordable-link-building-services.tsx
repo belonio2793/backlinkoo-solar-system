@@ -8,7 +8,7 @@ const AffordableLinkBuildingServices: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Affordable Link Building Services: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Affordable Link Building Services: Boost Your SEO Without Breaking the Bank</h1>
   
   <p>In the competitive world of digital marketing, <strong>affordable link building services</strong> have become a game-changer for businesses aiming to improve their search engine rankings. At Backlinkoo.com, we specialize in providing high-quality, cost-effective solutions that help websites gain authority through strategic backlinks. Whether you're a small business owner or a digital marketer, understanding how to leverage these services can significantly enhance your online presence.</p>

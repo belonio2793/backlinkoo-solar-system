@@ -8,7 +8,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Dr Vs Ur Metrics: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Backlink DR vs UR Metrics: A Comprehensive Guide to Boosting Your SEO</h1>
   
   <p>In the ever-evolving world of search engine optimization (SEO), understanding key metrics like backlink DR vs UR metrics is crucial for anyone looking to improve their website's visibility and authority. At Backlinkoo.com, we specialize in helping businesses navigate these complexities to achieve top rankings. This in-depth article will explore everything you need to know about backlink DR vs UR metrics, from definitions to strategies, tools, and more. Whether you're a beginner or a seasoned marketer, you'll find actionable insights here to enhance your link building efforts.</p>

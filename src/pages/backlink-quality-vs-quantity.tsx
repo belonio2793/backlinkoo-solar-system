@@ -8,7 +8,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Quality Vs Quantity: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Backlink Quality vs Quantity: The Ultimate Guide to Building Effective SEO Links</h1>
   
   <p>In the ever-evolving world of search engine optimization (SEO), the debate surrounding <strong>backlink quality vs quantity</strong> remains a hot topic. As an expert SEO copywriter at Backlinkoo.com, I've seen firsthand how the right balance can skyrocket your website's rankings. But what truly matters more: having a ton of links or focusing on high-quality ones? This comprehensive guide will dive deep into the nuances of <strong>backlink quality vs quantity</strong>, helping you make informed decisions for your link building strategy.</p>

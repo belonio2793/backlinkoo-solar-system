@@ -8,7 +8,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Building For Beginners: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
     <h1>Backlink Building for Beginners: A Comprehensive Guide</h1>
     <p>Welcome to the ultimate guide on <strong>backlink building for beginners</strong>. If you're new to SEO, understanding how to build high-quality backlinks can transform your website's visibility and authority. At Backlinkoo.com, we're experts in helping beginners navigate the world of link building, from organic strategies to advanced tools. This article will cover everything you need to know, ensuring you start on the right foot. We'll explore definitions, strategies, tools, and more, all while incorporating essential LSI terms like dofollow links, domain authority, and anchor text optimization.</p>
     

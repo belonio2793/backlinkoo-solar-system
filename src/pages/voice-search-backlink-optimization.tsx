@@ -8,7 +8,7 @@ const VoiceSearchBacklinkOptimization: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Voice Search Backlink Optimization: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<p>Placeholder content generated. Expand manually.</p> />
+        <div dangerouslySetInnerHTML={{ __html: "Placeholder content generated. Expand manually." }} />
 
         <div className="author-bio">
           <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>

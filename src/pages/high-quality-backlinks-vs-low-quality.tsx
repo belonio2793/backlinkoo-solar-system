@@ -8,7 +8,7 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>High Quality Backlinks Vs Low Quality: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>High Quality Backlinks vs Low Quality: The Ultimate Guide for SEO Success</h1>
   
   <p>In the ever-evolving world of search engine optimization (SEO), understanding the difference between <strong>high quality backlinks vs low quality</strong> can make or break your website's ranking potential. Backlinks, also known as inbound links, are essential for building authority and driving organic traffic. But not all backlinks are created equal. In this comprehensive guide, we'll dive deep into what separates high-quality backlinks from their low-quality counterparts, why it matters, and how you can leverage this knowledge to boost your site's performance. Whether you're a beginner or an experienced SEO professional, this article will provide actionable insights to help you navigate link building effectively.</p>

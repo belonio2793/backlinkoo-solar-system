@@ -8,7 +8,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Influencer Outreach For Backlinks: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1 style="font-size: 2.5em; margin-bottom: 20px;">Influencer Outreach for Backlinks: The Ultimate Guide</h1>
   
   <p>In the ever-evolving world of SEO, <strong>influencer outreach for backlinks</strong> has emerged as a powerhouse strategy for boosting your website's visibility and authority. At Backlinkoo.com, we specialize in helping businesses like yours harness the power of high-quality link building to climb search engine rankings. This comprehensive guide will walk you through everything you need to know about influencer outreach for backlinks, from foundational concepts to advanced tactics. Whether you're a beginner or a seasoned marketer, you'll find actionable insights here to elevate your SEO game.</p>

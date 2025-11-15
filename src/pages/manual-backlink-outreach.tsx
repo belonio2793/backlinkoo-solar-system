@@ -8,7 +8,7 @@ const ManualBacklinkOutreach: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Manual Backlink Outreach: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<article style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
   <h1>Manual Backlink Outreach: The Ultimate Guide to Building High-Quality Links</h1>
   <p>In the ever-evolving world of SEO, manual backlink outreach stands out as a cornerstone strategy for enhancing your website's authority and search engine rankings. At Backlinkoo.com, we specialize in helping businesses navigate the complexities of link building to achieve sustainable growth. This comprehensive guide will delve deep into manual backlink outreach, exploring its definition, importance, strategies, tools, and more. Whether you're a beginner or an experienced marketer, you'll find actionable insights to elevate your link building efforts.</p>
   

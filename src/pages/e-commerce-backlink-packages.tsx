@@ -8,7 +8,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
             <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>E-Commerce Backlink Packages: The Key to Dominating Google Rankings in 2025</h1>
         
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+        <div dangerouslySetInnerHTML={{ __html: '
     <h1 style="font-size: 2.5em; margin-bottom: 20px;">E-Commerce Backlink Packages: Boost Your Online Store's SEO</h1>
     
     <p>In the competitive world of online retail, standing out requires more than just great products—it's about visibility. That's where <strong>e-commerce backlink packages</strong> come into play. These specialized link building services are designed to enhance your site's domain authority, drive organic traffic, and ultimately increase sales. At Backlinkoo.com, we specialize in tailored e-commerce backlink packages that deliver real results. In this comprehensive guide, we'll explore everything you need to know about e-commerce backlink packages, from their definition to advanced strategies, helping you make informed decisions for your business.</p>
