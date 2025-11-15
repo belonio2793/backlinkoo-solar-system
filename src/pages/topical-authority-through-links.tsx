@@ -41,7 +41,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
     </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
@@ -135,8 +135,8 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>These cases show that with Backlinkoo's expertise, achieving <strong>topical authority through links</strong> is attainable and profitable.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Common Mistakes to Avoid in Building Topical Authority Through Links</h2>

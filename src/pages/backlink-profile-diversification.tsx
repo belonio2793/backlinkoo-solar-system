@@ -41,7 +41,7 @@ const BacklinkProfileDiversification: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Complete guide to building a diverse and natural backlink profile (Source: YouTube)</em></p>
+      
     </div>
     
     <p>Remember to vary your anchor texts—use a mix of branded, exact-match, and long-tail keywords to keep things natural. Guest posting can yield dofollow links from high-authority domains, significantly boosting your site's credibility.</p>

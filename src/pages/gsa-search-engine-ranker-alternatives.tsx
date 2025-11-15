@@ -32,7 +32,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>Remember, quality content is key. Backlinkoo offers content creation services tailored for link attraction, making it easier to implement these GSA Search Engine Ranker alternatives.</p>
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
   </div>
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -111,8 +111,8 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <h3>Case Study 3: Agency Scalability</h3>
   <p>An SEO agency integrated <Link to="/senuke">SENUKE for automation</Link> with safe buying practices. This led to a 35% improvement in client domain authorities and a 50% reduction in penalty risks, with fake stats showing revenue growth of 25% year-over-year.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
 
   <h2>Common Mistakes to Avoid When Exploring GSA Search Engine Ranker Alternatives</h2>

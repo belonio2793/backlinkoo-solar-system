@@ -40,7 +40,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Master the art of negotiating backlinks with webmasters and influencers (Source: YouTube)</em></p>
+      
     </div>
     
     <p>This script incorporates personalization and mutual benefit, key LSI elements in link building. Tools like <a href="/senuke">SENUKE for automation</a> can help scale your guest post outreach by automating email sends while keeping them personalized.</p>

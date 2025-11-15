@@ -40,8 +40,8 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>According to a Backlinko study, influencer collaborations can yield backlinks with an average domain authority of 70+. Use BuzzSumo to track their shared content and tailor your outreach accordingly.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Watch this tutorial on using BuzzSumo for organic link strategies (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h3>Resource Page Link Building</h3>
@@ -154,8 +154,8 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Tools like Ahrefs, Moz, and Backlinkoo's <Link to="/xrumer">XRumer for posting</Link> enhance its capabilities.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Advanced tips for BuzzSumo in link building (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Conclusion: Elevate Your Strategy with Backlinkoo</h2>

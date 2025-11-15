@@ -49,7 +49,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on ethical link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
   </div>
   
   <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
@@ -131,8 +131,8 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>A digital agency integrated ethical buying with organic strategies via Backlinkoo services. They saw a 250% ROI, with clients gaining 300+ high-quality links, improving overall SEO metrics (fake stats).</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on ethical SEO success (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Common Mistakes to Avoid in Ethical Black Hat Alternatives</h2>

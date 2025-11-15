@@ -43,8 +43,8 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>For automation in your link building, consider <a href="/senuke">SENUKE for automation</a>, which integrates seamlessly with SEMrush data to streamline outreach.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Watch this tutorial on using SEMrush for organic link building (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -153,8 +153,8 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>SEMrush uses its Authority Score, similar to Moz's DA, to evaluate link quality and overall site strength.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Advanced tips for SEMrush backlink analysis (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Conclusion: Elevate Your SEO with SEMrush and Backlinkoo</h2>

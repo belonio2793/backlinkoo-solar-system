@@ -107,9 +107,9 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <h3>Case Study 3: SaaS Company Expansion</h3>
   <p>A SaaS provider focused on industry resource pages, acquiring 40 links via paid and organic methods. Their domain authority rose to 60, and lead generation increased by 80%. Safe buying tips from Backlinkoo ensured no penalties.</p>
   
-  <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on resource page link building success (Source: Backlinkoo)</em></p>
+  <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Common Mistakes to Avoid in Resource Page Link Building</h2>

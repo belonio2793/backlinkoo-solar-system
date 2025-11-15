@@ -49,8 +49,8 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>This strategy not only earns dofollow links but also helps webmasters improve their sites, fostering positive relationships in your niche.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Complete guide to mastering the skyscraper technique for high-authority backlinks (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h3>Resource Page Link Building</h3>
@@ -194,8 +194,8 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>Ahrefs for research, <Link to="/senuke">SENUKE</Link> for automation, and Moz for authority checks.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Advanced tips on skyscraper technique for links (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

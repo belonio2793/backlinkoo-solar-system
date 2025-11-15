@@ -36,7 +36,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Learn how to analyze competitor backlinks and outrank them (Source: YouTube)</em></p>
+      
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

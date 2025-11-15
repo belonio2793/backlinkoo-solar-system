@@ -131,8 +131,8 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>These cases show how manual backlink outreach, when done right, delivers measurable results. Learn more from <a href="https://www.semrush.com/blog/link-building-case-studies" target="_blank" rel="noopener noreferrer">SEMrush Case Studies</a>.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on manual backlink outreach success (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Common Mistakes to Avoid in Manual Backlink Outreach</h2>

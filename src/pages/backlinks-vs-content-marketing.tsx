@@ -28,8 +28,8 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Guest posting is a hybrid strategy in the <strong>backlinks vs content marketing</strong> arena. You create high-quality content for another site, including a backlink to your own. This not only builds dofollow links but also exposes your brand to new audiences. To succeed, target sites with high domain authority using tools like Moz or Ahrefs.</p>
     <p>For example, pitch topics that solve reader problems, and always follow the host site's guidelines. This method aligns perfectly with content marketing principles while boosting your link building efforts.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Understand how backlinks and content marketing work together for SEO success (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
 
     <h3>Broken Link Building: A Smart Organic Tactic</h3>

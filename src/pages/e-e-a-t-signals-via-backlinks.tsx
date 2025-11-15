@@ -58,7 +58,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
   </div>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -184,8 +184,8 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>FAQ video on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>

@@ -35,7 +35,7 @@ const VideoSeoBacklinks: React.FC = () => {
     <p>Remember, quality over quantity: Focus on sites with high domain authority to make your video SEO backlinks count.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
     </div>
     <h3>Collaborations and Influencer Outreach</h3>
     <p>Partner with influencers or creators in your niche. Co-create videos and cross-promote, naturally generating backlinks. Outreach via email or social media can lead to mentions and links on their sites.</p>
@@ -154,8 +154,8 @@ const VideoSeoBacklinks: React.FC = () => {
     <p>Backed by data: According to SEMrush, sites with strong backlink profiles see 3.5x more traffic. As SEO experts at Backlinkoo, we've drawn from years of experience to provide this authoritative guide. Trust us to handle your link building—contact us today for a free consultation.</p>
     <p>For more resources, explore <a href="https://ahrefs.com/blog/backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Backlinks Guide</a>, <a href="https://moz.com/blog/video-seo-backlinks" target="_blank" rel="noopener noreferrer">Moz Video SEO</a>, and <a href="https://developers.google.com/search/docs/advanced/guidelines/video" target="_blank" rel="noopener noreferrer">Google's Video Guidelines</a>.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Expert tutorial on advanced backlink strategies (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     <div class="media">
         <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="E-E-A-T signals infographic" width="800" height="400" />

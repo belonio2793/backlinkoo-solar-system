@@ -35,7 +35,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
 
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic strategies for measuring ROI on backlinks (Source: Backlinkoo YouTube Channel)</em></p>
+      
   </div>
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -149,8 +149,8 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video FAQ on backlink ROI (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
 
   <h2>Conclusion: Mastering Measuring ROI on Backlinks with Backlinkoo</h2>

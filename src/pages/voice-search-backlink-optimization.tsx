@@ -35,7 +35,7 @@ const VoiceSearchBacklinkOptimization: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on optimizing content for voice search queries (Source: Backlinkoo)</em></p>
+      
     </div>
 
     <h3>Broken Link Building for Voice Search Content</h3>

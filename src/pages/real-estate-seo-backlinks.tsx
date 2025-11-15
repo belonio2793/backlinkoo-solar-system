@@ -53,7 +53,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies for real estate (Source: YouTube)</em></p>
+      
     </div>
     
     <h2>Buying Real Estate SEO Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -178,8 +178,8 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Start with free options like Google Search Central, then scale to paid tools like <Link to="/senuke">SENUKE</Link> for automation.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video answering common questions on real estate SEO backlinks (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Conclusion: Elevate Your Real Estate SEO with Backlinkoo</h2>

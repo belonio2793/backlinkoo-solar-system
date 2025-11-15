@@ -32,7 +32,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <p>Remember, quality over quantity—aim for content that solves problems or provides unique insights to encourage natural linking.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on creating seasonal content for link building (Source: Backlinkoo YouTube Channel)</em></p>
+      
     </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Seasonal Campaigns</h2>
@@ -147,8 +147,8 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
         <p><em>Expert tips infographic (Source: Backlinkoo)</em></p>
     </div>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Advanced tutorial on tools like SENUKE (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
 `;
   const keywords = "seasonal, link, building, campaigns, SEO";

@@ -34,7 +34,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on building Majestic SEO backlinks organically (Source: Backlinkoo YouTube Channel)</em></p>
+      
   </div>
   
   <h2>Buying Majestic SEO Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -108,8 +108,8 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> to build local backlinks. Majestic analysis showed a 40% improvement in Citation Flow, leading to top local search positions and a 150% lead increase.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Common Mistakes to Avoid with Majestic SEO Backlinks</h2>

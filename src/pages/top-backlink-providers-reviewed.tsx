@@ -45,8 +45,8 @@ const TopBacklinkProvidersReviewed: React.FC = () => {
   <p>Create epic content that outperforms competitors, then reach out to sites linking to inferior versions. This skyscraper technique, popularized by Brian Dean of Backlinko, can yield dozens of backlinks. Focus on infographics, guides, and data-driven posts. For automation in promoting your content, consider <Link to="/xrumer">XRumer for posting</Link> on forums and blogs.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video Tutorial: Organic Link Building Strategies (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <p>Organic strategies require time but build a foundation of trust with search engines. Google favors natural link profiles, as outlined in their <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central Link Guidelines</a>.</p>
@@ -139,8 +139,8 @@ const TopBacklinkProvidersReviewed: React.FC = () => {
   <p>These cases demonstrate Backlinkoo's expertise in delivering measurable results.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video: Client Success Stories (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Common Mistakes to Avoid in Backlink Building</h2>

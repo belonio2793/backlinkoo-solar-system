@@ -33,7 +33,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <p>Additionally, participate in fashion forums or Reddit communities like r/fashion to share your expertise without spamming. Organic mentions can evolve into full backlinks, enhancing your <strong>fashion industry link building</strong> efforts.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic strategies for fashion link building (Source: Backlinkoo YouTube Channel)</em></p>
+      
     </div>
 
     <h2>Buying Links: Pros, Cons, and Safe Tips for Fashion Industry Link Building</h2>

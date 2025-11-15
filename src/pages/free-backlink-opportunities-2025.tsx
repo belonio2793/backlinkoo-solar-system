@@ -124,7 +124,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on using Ahrefs for backlink research (Source: YouTube)</em></p>
+      
   </div>
   
   <h2>Case Studies: Success Stories with Free Backlink Opportunities 2025</h2>
@@ -179,8 +179,8 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>Quality matters more; aim for 20-50 from authoritative sites initially.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Video FAQ on backlink strategies (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
   </div>
   
   <h2>Conclusion: Harness Free Backlink Opportunities 2025 with Backlinkoo</h2>

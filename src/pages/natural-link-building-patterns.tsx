@@ -66,7 +66,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      
     </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Natural Patterns</h2>
@@ -216,8 +216,8 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Higher DA sites provide more value, strengthening your overall profile.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      <p><em>FAQ video on natural link building patterns (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
