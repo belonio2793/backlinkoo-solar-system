@@ -41,6 +41,9 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>Additional tactics include infographic outreach (create visuals on gaming stats and pitch them) and HARO (Help a Reporter Out) for expert quotes in gaming articles.</p>
 
     <div class="media">
+        <img src="https://images.pexels.com/photos/6147381/pexels-photo-6147381.jpeg" alt="Gaming niche link building resource strategies infographic" width="800" height="400" />
+        <p><em>Visual guide to effective resource pages and link building strategies in the gaming niche (Source: Backlinkoo)</em></p>
+    </div>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Gaming Niche</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate <strong>gaming niche backlink strategies</strong> when done safely. This involves paying for placements on relevant sites, but beware of Google's stance against manipulative link schemes, as detailed in their <a href="https://moz.com/blog/link-schemes" target="_blank" rel="noopener noreferrer">Moz guide on link schemes</a>.</p>
