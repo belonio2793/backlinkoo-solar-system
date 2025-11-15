@@ -39,7 +39,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Create shareable infographics and pitch them to resource pages. The <strong>best backlink checker tools</strong> can track where your infographics are linked, ensuring they contribute to your link building goals. Always aim for dofollow links to maximize SEO benefits.</p>
     <p>Resource page outreach involves finding curated lists and suggesting your site. Use checkers to evaluate the domain authority of these pages before investing time.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/WuN1T6oVBcA" title="Best Backlink Checking Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WYXLZU36yAQ" title="Best Backlink Checking Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -128,7 +128,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Backlinkoo assisted a client with Majestic SEO to check purchased backlinks. We removed 150 low-quality ones and added 100 organic dofollow links, boosting domain authority by 20 points. Organic search traffic grew by 50%, proving the value of safe buying combined with top checkers.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/WuN1T6oVBcA" title="Best Backlink Checking Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WYXLZU36yAQ" title="Best Backlink Checking Tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid When Using Backlink Checker Tools</h2>
