@@ -117,7 +117,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>A local restaurant chain used Ahrefs to find resource pages in food blogs. Secured 30 links, boosting local search rankings by 25 positions (fake stats). Combined with XRumer for forum posts, they saw a 35% increase in bookings.</p>
 
   <div class="media">
-    <Image src="/media/ahrefs-for-link-building-img2.jpg" alt="Case study graph showing link growth" width={800} height={400} />
+    <img src="/media/ahrefs-for-link-building-img2.jpg" alt="Case study graph showing link growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph illustrating backlink growth in a successful Ahrefs campaign (Source: Backlinkoo)</em></p>
   </div>
 
