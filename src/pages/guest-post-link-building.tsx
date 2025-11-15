@@ -37,7 +37,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>For more on automation in link building, check out our <Link to="/senuke">SENUKE for automation</Link> page, which can streamline your outreach efforts.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Master guest posting techniques with this comprehensive video guide (Source: YouTube)</em></p>
   </div>
   
@@ -123,7 +123,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>These cases show how guest post link building can drive measurable results. Ready to start? Contact Backlinkoo.com today.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Real-world case studies on successful guest posting campaigns (Source: YouTube)</em></p>
   </div>
   
