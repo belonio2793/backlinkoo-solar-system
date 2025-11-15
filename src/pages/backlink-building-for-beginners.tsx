@@ -32,6 +32,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <h3>Resource Page Link Building and Infographics</h3>
     <p>Target resource pages that curate links on specific topics. Create shareable infographics and pitch them. Tools like Canva make this easy for beginners. Remember, visual content gets 94% more views, per <a href="https://contentmarketinginstitute.com/" target="_blank" rel="noopener noreferrer">Content Marketing Institute</a>.</p>
     <div class="media">
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>Other organic tactics include HARO (Help a Reporter Out) for expert quotes and skyscraper technique, where you improve on top-ranking content and ask for links.</p>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

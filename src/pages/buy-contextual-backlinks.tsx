@@ -71,7 +71,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>Avoid black-hat tactics; focus on white-hat providers. Monitor your backlink profile with Google Search Console to stay compliant.</p>
     
     <div class="media">
-    
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>By following these tips, you can <strong>buy contextual backlinks</strong> that propel your SEO without risks.</p>
     
     <h2>Tools for Managing and Acquiring Contextual Backlinks</h2>

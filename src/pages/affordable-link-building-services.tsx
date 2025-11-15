@@ -58,8 +58,8 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>These approaches build <strong>domain authority</strong> organically. For more advanced automation, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content syndication in your link building efforts.</p>
   
   <div class="media">
-  
-  <p>Integrating these with Backlinkoo's <strong>affordable link building services</strong> ensures a balanced SEO approach.</p>
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Link building guide infographic" width="800" height="400" />
+    <p>Integrating these with Backlinkoo's <strong>affordable link building services</strong> ensures a balanced SEO approach.</p>
   
   <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
   

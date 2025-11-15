@@ -60,8 +60,8 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>According to <a href="https://moz.com/blog/link-building-strategies" target="_blank" rel="noopener noreferrer">Moz's guide on link building</a>, high-quality content is the foundation of earning links. Incorporate LSI terms like "link building" and "dofollow links" to optimize for search.</p>
   
   <div class="media">
-  
-  <p>For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your efforts efficiently.</p>
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Link building guide infographic" width="800" height="400" />
+    <p>For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your efforts efficiently.</p>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   

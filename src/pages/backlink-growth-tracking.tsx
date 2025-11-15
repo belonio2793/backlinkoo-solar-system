@@ -61,7 +61,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>Monitor growth by segmenting these links in your tracking dashboard. Combine with social media promotion to amplify reach.</p>
     
     <div class="media">
-    
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>Organic strategies require patience but yield long-term results. By integrating them into your <strong>backlink growth tracking</strong>, you'll see steady improvements in SEO metrics.</p>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -213,7 +213,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>High-quality links directly improve DA, as per Moz's metrics. Track via their tool or <a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz's DA guide</a>.</p>
     
     <div class="media">
-    
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>In conclusion, mastering <strong>backlink growth tracking</strong> is essential for SEO success. With stats from sources like Ahrefs showing backlinks account for up to 20% of ranking factors, it's clear why investment pays off. At Backlinkoo, our authoritative team—backed by years of experience—helps you navigate this landscape. Contact us today to supercharge your link building with tools like SENUKE and XRumer.</p>
     
     <p>For more resources, explore <a href="https://ahrefs.com/blog/backlink-analysis/" target="_blank" rel="noopener noreferrer">Ahrefs backlink analysis</a>, <a href="https://www.semrush.com/blog/backlink-audit/" target="_blank" rel="noopener noreferrer">SEMrush audit guide</a>, and <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google's SEO blog</a>.</p>

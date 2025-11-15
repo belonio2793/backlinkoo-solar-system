@@ -45,8 +45,8 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Collaborate with influencers for mentions and links. Manual backlink outreach via social media or email can lead to endorsements. Focus on building long-term relationships for ongoing link building opportunities.</p>
   
   <div class="media">
-  
-  <p>These organic strategies require patience but yield sustainable results. For more on link building best practices, check out this <a href="https://moz.com/blog/manual-backlink-outreach" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Link building guide infographic" width="800" height="400" />
+    <p>These organic strategies require patience but yield sustainable results. For more on link building best practices, check out this <a href="https://moz.com/blog/manual-backlink-outreach" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic manual backlink outreach is ideal, buying backlinks is a controversial topic. It involves paying for links from other sites, often through marketplaces or agencies. However, Google's guidelines warn against manipulative link schemes, so proceed with caution.</p>

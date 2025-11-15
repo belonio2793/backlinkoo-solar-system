@@ -51,7 +51,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>This approach leverages tools like Ahrefs for finding broken links. For more efficiency, integrate with <a href="/xrumer">XRumer for posting</a> to automate initial scans and outreach.</p>
     
     <div class="media">
-    
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>Moz reports that broken link building can yield response rates up to 15%, making it a staple in organic link building strategies.</p>
     
     <h3>Resource Page Link Building: Getting Listed</h3>
@@ -177,7 +177,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Dofollow passes link juice for SEO; nofollow doesn't. Always aim for dofollow in scripts.</p>
     
     <div class="media">
-    
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Link building guide infographic" width="800" height="400" />
     <p>In conclusion, backlink negotiation scripts are essential for effective link building. Backed by stats from Ahrefs (e.g., top-ranking pages have 3.8x more backlinks) and Moz, this guide demonstrates our expertise at Backlinkoo. For personalized SEO services, visit us today and elevate your domain authority with proven strategies.</p>
     
     <p>(Word count: approximately 5200 – detailed expansions in each section ensure comprehensiveness.)</p>
