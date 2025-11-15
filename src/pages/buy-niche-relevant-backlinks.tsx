@@ -35,8 +35,8 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>For posting and syndicating content across forums and blogs, <Link to="/xrumer">XRumer for posting</Link> can be an efficient tool to expand your reach without manual effort.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on building organic backlinks (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on building organic backlinks (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Pros and Cons of Buying Niche Relevant Backlinks</h2>
@@ -112,8 +112,8 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>These cases highlight how Backlinkoo's services can deliver measurable results when you <strong>buy niche relevant backlinks</strong>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Case study on buying niche relevant backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video testimonial from a Backlinkoo client (Source: Backlinkoo YouTube Channel)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video testimonial from a Backlinkoo client (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Common Mistakes to Avoid When Buying Niche Relevant Backlinks</h2>

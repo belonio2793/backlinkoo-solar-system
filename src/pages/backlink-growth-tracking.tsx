@@ -49,7 +49,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>In your <strong>backlink growth tracking</strong>, note the success rate—aim for 10-20% conversion on outreach. It's a low-cost strategy that builds genuine relationships and enhances domain authority over time.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Growth and Tracking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Complete guide to tracking and optimizing your backlink growth (Source: YouTube)</em></p>
     </div>
     

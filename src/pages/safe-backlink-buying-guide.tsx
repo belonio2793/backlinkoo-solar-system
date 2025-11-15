@@ -42,8 +42,8 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <p>To buy safely, vet providers for transparency. Look for services offering dofollow links from authoritative, relevant sites. Avoid PBNs (Private Blog Networks) as they're risky. At Backlinkoo, we specialize in safe, white-hat backlink acquisition, ensuring compliance with SEO best practices.</p>
     <p>Monitor your link profile with tools like <a href="https://moz.com/explorer" target="_blank" rel="noopener noreferrer">Moz</a>. Diversify sources and focus on natural anchor text. Remember, this <strong>safe backlink buying guide</strong> recommends blending bought links with organic ones for a balanced profile.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on safe backlink buying strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on safe backlink buying strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Tools for Safe Backlink Building</h2>
@@ -138,8 +138,8 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     </div>
     <p>Stats from <a href="https://www.searchenginejournal.com/backlinks-importance/" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>: Quality backlinks can improve rankings by up to 20%. Partner with Backlinkoo for safe, effective link building.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tips on link building (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Advanced tips on link building (Source: Backlinkoo)</em></p>
     </div>
     <!-- Expanded content to reach 5000 words: Below is placeholder text repeated and expanded for length. In real scenario, this would be detailed paragraphs. -->
     <p>To ensure this guide is comprehensive, let's delve deeper into each aspect. Starting with backlink definitions, backlinks are not just hyperlinks; they are endorsements that search engines use to gauge credibility. In fact, Google's PageRank algorithm, though evolved, still relies heavily on backlink quality. When considering a <strong>safe backlink buying guide</strong>, it's important to understand that not all links contribute equally. Dofollow links from sites with high domain authority can significantly boost your SEO, while nofollow links might offer traffic but little ranking power.</p>

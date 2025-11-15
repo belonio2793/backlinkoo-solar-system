@@ -40,7 +40,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Incorporate LSI terms like "link building strategies" in your content to enhance SEO. Remember, consistency is key—publish and promote regularly to maintain momentum.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Velocity Best Practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Learn how to build backlinks at the optimal pace for sustainable SEO growth (Source: YouTube)</em></p>
     </div>
     
@@ -63,8 +63,8 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>At Backlinkoo, our services ensure safe, effective link building. We recommend starting small and scaling based on results.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on safe backlink buying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Tutorial on buying backlinks safely (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on buying backlinks safely (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <a href="https://moz.com/blog/buying-links" target="_blank" rel="noopener noreferrer">Moz Guide on Buying Links</a>

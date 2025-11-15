@@ -40,8 +40,8 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>In one Backlinkoo campaign, we partnered with an NFT creator to produce a joint whitepaper, earning dofollow links from 20+ high-DA sites and boosting domain authority by 25 points.</p>
     <p>LSI terms like "blockchain backlinks" and "decentralized domain authority" can enhance relevance, making your content more discoverable.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on Web3 link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic Web3 link building NFTs tactics (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic Web3 link building NFTs tactics (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h3>Community Engagement and Forum Participation</h3>
@@ -156,8 +156,8 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>With blockchain adoption rising, expect more integration with AI and metaverses, per reports from <a href="https://www.statista.com/topics/3133/non-fungible-tokens-nft/" target="_blank" rel="noopener noreferrer">Statista</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="FAQ video on Web3 link building NFTs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video answering common questions (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video answering common questions (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

@@ -39,8 +39,8 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>Remember, organic strategies like these build long-term domain authority. Combine with <strong>schema markup for backlinks</strong> to maximize impact.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on schema markup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on implementing schema for SEO (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on implementing schema for SEO (Source: YouTube)</em></p>
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Schema Integration</h2>
@@ -149,8 +149,8 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>Indirectly, by boosting visibility and attracting quality dofollow links.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced schema tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tips on schema (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Advanced tips on schema (Source: YouTube)</em></p>
     </div>
     
     <p>To wrap up, leveraging <strong>schema markup for backlinks</strong> is backed by stats from authoritative sources like <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" target="_blank" rel="noopener noreferrer">Google Search Central</a>, where sites with schema see higher engagement. As experts at Backlinkoo, we recommend starting with our services for proven results. Contact us today to supercharge your SEO strategy.</p>

@@ -29,8 +29,8 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>For more insights, check out this <a href="https://moz.com/blog/backlink-disavow-tool-usage" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Disavow</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fu3PweN-_E" title="Backlink Disavow Tool Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Complete tutorial on using Google's disavow tool to protect your SEO (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Complete tutorial on using Google's disavow tool to protect your SEO (Source: YouTube)</em></p>
     </div>
 
     <h2>Organic Strategies for Building Quality Backlinks</h2>
@@ -183,8 +183,8 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Yes, focus on building high-quality backlinks to dilute bad ones, or use manual removal.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Step-by-step disavow tutorial (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Step-by-step disavow tutorial (Source: Backlinkoo)</em></p>
     </div>
     
     <p>In conclusion, mastering <strong>backlink disavow tool usage</strong> is vital for SEO success. According to Moz, sites that actively manage their link profiles see 20% higher domain authority on average. At Backlinkoo, our expertise ensures you avoid pitfalls and build authority. Contact us today for personalized link building and disavow strategies. Sources: Ahrefs (2023 study), SEMrush (2022 data), Google Search Central.</p>

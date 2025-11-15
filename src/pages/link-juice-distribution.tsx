@@ -122,8 +122,8 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>Focus on acquiring high-quality backlinks via organic strategies and monitor distribution with analytics tools.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Advanced link juice tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Expert tips on optimizing link juice (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Expert tips on optimizing link juice (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

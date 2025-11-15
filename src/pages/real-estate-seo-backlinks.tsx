@@ -52,8 +52,8 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>For posting on forums and blogs, tools like <Link to="/xrumer">XRumer for posting</Link> can help automate submissions while maintaining quality.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on real estate link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies for real estate (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies for real estate (Source: YouTube)</em></p>
     </div>
     
     <h2>Buying Real Estate SEO Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -178,8 +178,8 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Start with free options like Google Search Central, then scale to paid tools like <Link to="/senuke">SENUKE</Link> for automation.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="FAQ video on real estate backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video answering common questions on real estate SEO backlinks (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video answering common questions on real estate SEO backlinks (Source: YouTube)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your Real Estate SEO with Backlinkoo</h2>

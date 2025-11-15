@@ -49,8 +49,8 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>While these organic methods are effective, they require time and effort. If you're short on resources, purchasing dofollow backlinks from a reliable provider like Backlinkoo can complement your organic efforts seamlessly.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on organic link building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on broken link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on broken link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <h2>Pros and Cons of Buying Dofollow Backlinks</h2>
@@ -143,8 +143,8 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>These cases demonstrate that when you purchase dofollow backlinks wisely, the results can be transformative.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video testimonial from a satisfied client (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video testimonial from a satisfied client (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Common Mistakes to Avoid When Purchasing Dofollow Backlinks</h2>

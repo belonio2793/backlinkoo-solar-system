@@ -39,7 +39,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>"Hi [Name], I came across your article on [Topic] and loved your insights on [Specific Point]. As an expert in [Your Niche], I'd love to contribute a guest post on [Proposed Topic] that dives deeper into [Benefit]. This could add value to your readers and include a dofollow link back to my site. What do you think?"</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link Building Negotiation Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Master the art of negotiating backlinks with webmasters and influencers (Source: YouTube)</em></p>
     </div>
     

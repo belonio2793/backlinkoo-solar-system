@@ -66,8 +66,8 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>LSI terms like "mobile SEO strategies" and "backlink profiles" can enhance your content's relevance. Backlinkoo offers content services to amplify your efforts.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on mobile-friendly content creation (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on mobile-friendly content creation (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h3>Resource Page Link Building</h3>
@@ -217,8 +217,8 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>Typically 3-6 months, depending on campaign scale and site authority.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video explainer on link acquisition (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video explainer on link acquisition (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>

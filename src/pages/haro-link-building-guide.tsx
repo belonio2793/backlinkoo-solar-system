@@ -29,8 +29,8 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <p>Broken link building is another gem. Use Ahrefs to find dead links on high-authority sites, then offer your content as a replacement. For instance, if a site links to an outdated HARO guide, suggest this one! This method often yields dofollow links and complements HARO efforts by diversifying your backlink profile.</p>
   <p>Other strategies include skyscraper technique (improving on top content) and resource page outreach. Remember, organic link building focuses on value – provide it, and links will follow. For more on this, check out <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' Link Building Guide</a>.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KWNuixSJgsA" title="HARO Link Building Mastery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Expert guide to earning high-quality backlinks through HARO (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Expert guide to earning high-quality backlinks through HARO (Source: YouTube)</em></p>
   </div>
   <p>At Backlinkoo.com, our experts can handle these organic strategies for you, ensuring high-quality dofollow links without the hassle.</p>
 
@@ -137,8 +137,8 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   <p>This <strong>HARO link building guide</strong> has covered everything from definitions to case studies. Remember, effective link building boosts domain authority and traffic – stats from SEMrush show sites with strong backlinks rank 3.8x higher. As SEO experts at Backlinkoo.com, we recommend starting with HARO for ethical gains. For personalized services, contact us today. Sources: <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, <a href="https://moz.com/blog/haro-link-building" target="_blank" rel="noopener noreferrer">Moz HARO Guide</a>, and <a href="https://backlinko.com/seo-stats" target="_blank" rel="noopener noreferrer">Backlinko Stats</a>.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="HARO Conclusion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Final tips on HARO link building (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Final tips on HARO link building (Source: Backlinkoo)</em></p>
   </div>`;
 
   return (

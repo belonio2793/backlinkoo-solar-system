@@ -59,8 +59,8 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link to="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <h3>Resource Page Link Building and HARO</h3>
@@ -212,8 +212,8 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Results vary, but organic strategies may take 3-6 months, while buying can show quicker gains in referral traffic from backlinks.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on backlinks and traffic (Source: Backlinkoo YouTube Channel)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on backlinks and traffic (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <h2>Conclusion: Harness the Power of Referral Traffic from Backlinks with Backlinkoo</h2>

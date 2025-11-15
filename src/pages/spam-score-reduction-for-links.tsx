@@ -32,7 +32,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>Additional organic tactics include creating shareable infographics, participating in industry forums, and leveraging social media for natural shares. Remember, consistency is key—aim for 5-10 quality links per month to see measurable improvements in spam scores.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Lu-Q09PBzg0" title="Spam Score Reduction Strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Learn how to reduce spam score and improve your backlink profile quality (Source: YouTube)</em></p>
     </div>
     

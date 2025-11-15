@@ -123,8 +123,8 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>These tools can supercharge your hunt for free backlink opportunities 2025. For advanced automation, Backlinkoo's <Link to="/senuke">SENUKE</Link> integrates seamlessly with strategies like guest posting.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on using Ahrefs for backlink research (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on using Ahrefs for backlink research (Source: YouTube)</em></p>
   </div>
   
   <h2>Case Studies: Success Stories with Free Backlink Opportunities 2025</h2>
@@ -179,8 +179,8 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>Quality matters more; aim for 20-50 from authoritative sites initially.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video FAQ on backlink strategies (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video FAQ on backlink strategies (Source: YouTube)</em></p>
   </div>
   
   <h2>Conclusion: Harness Free Backlink Opportunities 2025 with Backlinkoo</h2>

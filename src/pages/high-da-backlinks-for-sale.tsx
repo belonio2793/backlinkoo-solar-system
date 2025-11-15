@@ -48,8 +48,8 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>If organic methods feel overwhelming, consider our high DA backlinks for sale at Backlinkoo.com for a quicker boost.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
     </div>
     
     <h2>Pros and Cons of Buying High DA Backlinks + Safe Purchasing Tips</h2>

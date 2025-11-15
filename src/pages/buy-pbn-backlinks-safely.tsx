@@ -72,8 +72,8 @@ const BuyPbnBacklinksSafely: React.FC = () => {
     <p>High-quality, relevant content on PBN sites reduces detection risks. Incorporate LSI keywords for better relevance.</p>
     <p>For safe practices, see Google's guidelines at <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a>.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on safe PBN buying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on buying PBN backlinks safely (Source: Backlinkoo YouTube)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on buying PBN backlinks safely (Source: Backlinkoo YouTube)</em></p>
     </div>
     
     <h2>Tools for Managing PBNs</h2>

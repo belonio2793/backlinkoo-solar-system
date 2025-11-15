@@ -28,8 +28,8 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Guest posting is a hybrid strategy in the <strong>backlinks vs content marketing</strong> arena. You create high-quality content for another site, including a backlink to your own. This not only builds dofollow links but also exposes your brand to new audiences. To succeed, target sites with high domain authority using tools like Moz or Ahrefs.</p>
     <p>For example, pitch topics that solve reader problems, and always follow the host site's guidelines. This method aligns perfectly with content marketing principles while boosting your link building efforts.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlinks vs Content Marketing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Understand how backlinks and content marketing work together for SEO success (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Understand how backlinks and content marketing work together for SEO success (Source: YouTube)</em></p>
     </div>
 
     <h3>Broken Link Building: A Smart Organic Tactic</h3>
@@ -39,8 +39,8 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Creating shareable infographics is a content marketing staple that naturally attracts backlinks. Platforms like Help a Reporter Out (HARO) allow you to provide expert quotes, earning links organically. Social media promotion of your content can also lead to viral shares and backlinks.</p>
     <p>In the debate of <strong>backlinks vs content marketing</strong>, these strategies show how they interconnect. For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting campaigns.</p>
 
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Watch this tutorial on organic link building (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Watch this tutorial on organic link building (Source: YouTube)</em></p>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks is a common practice in the <strong>backlinks vs content marketing</strong> discussion, especially for quick results. However, it's risky due to Google's penalties for manipulative tactics.</p>

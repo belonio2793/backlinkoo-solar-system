@@ -46,8 +46,8 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>Infographics are particularly powerful; sites like Visual.ly report they can generate hundreds of backlinks. Combine this with outreach to bloggers for maximum impact on your domain authority.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Tutorial on organic link building for e-commerce (Source: Backlinkoo YouTube Channel)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building for e-commerce (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <p>At Backlinkoo, we recommend blending organic strategies with our e-commerce backlink packages for a balanced approach. For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which streamlines guest post submissions.</p>
@@ -183,8 +183,8 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>Typically 3-6 months, depending on package size and site factors.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     
     <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 15px;">Conclusion: Elevate Your E-Commerce SEO with Backlinkoo</h2>

@@ -40,7 +40,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>To succeed, craft high-quality, original content that provides real value. Pitch topics that solve problems or offer new insights. For instance, if you're in e-commerce, guest post on retail blogs about trends in consumer behavior. This not only diversifies your backlinks but also exposes your brand to new audiences.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Diversifying Your Backlink Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Complete guide to building a diverse and natural backlink profile (Source: YouTube)</em></p>
     </div>
     

@@ -36,8 +36,8 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <h3>Resource Pages and Roundups</h3>
     <p>Optimize your pages to be featured in resource lists. Create comprehensive resource hubs on your site, using <strong>on-page SEO for link acquisition</strong> to include outbound links to authorities, which often reciprocate with backlinks.</p>
     <p>Participate in expert roundups by having shareable, quotable content ready on your site.</p>
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Watch this tutorial on organic link strategies (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Watch this tutorial on organic link strategies (Source: YouTube)</em></p>
     
     <p>These organic methods, when combined with solid on-page optimization, can significantly boost your domain authority without risking penalties.</p>
     

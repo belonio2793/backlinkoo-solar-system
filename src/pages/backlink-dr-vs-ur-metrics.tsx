@@ -48,8 +48,8 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>To get started, identify relevant sites using tools like Ahrefs or Moz. Pitch valuable content that solves problems for their audience. At Backlinkoo, we offer services to streamline this process, ensuring you secure links that elevate both DR and UR.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlink Metrics Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Understand domain and URL rating metrics for better link building (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Understand domain and URL rating metrics for better link building (Source: YouTube)</em></p>
   </div>
 
   <h3>Broken Link Building Techniques</h3>
@@ -180,8 +180,8 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>Fifth, rushing purchases: Without due diligence, you risk penalties. Backlinkoo ensures safe practices to protect your metrics.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on SEO mistakes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video on common SEO mistakes (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video on common SEO mistakes (Source: YouTube)</em></p>
   </div>
   
   <h2>FAQ on Backlink DR vs UR Metrics</h2>

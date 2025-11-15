@@ -46,8 +46,8 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>For a detailed tutorial, watch this video:</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video: Broken Link Building Tutorial (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video: Broken Link Building Tutorial (Source: YouTube)</em></p>
   </div>
   
   <h3 style="font-size: 1.5em; margin-top: 30px;">Content Marketing and Skyscraper Technique</h3>
@@ -181,8 +181,8 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>Absolutely! Our experts ensure compliant, high-quality links. Contact us today.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video: FAQ on Backlinks (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video: FAQ on Backlinks (Source: YouTube)</em></p>
   </div>
   
   <h2 style="font-size: 2em; margin-top: 40px;">Conclusion: Building Trust with Safe Backlinks</h2>

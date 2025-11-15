@@ -18,7 +18,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <p>Why does this matter? According to a study by Ahrefs, sites with more backlinks tend to rank higher on Google. In fact, the top result on Google has an average of 3.8 times more backlinks than positions 2-10. So, if you're wondering "are paid backlinks worth it," consider that they can accelerate your link building efforts, especially for new websites struggling to gain traction organically.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Paid vs Organic Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Learn whether paid backlinks are a worthy investment for your SEO strategy (Source: YouTube)</em></p>
     </div>
     

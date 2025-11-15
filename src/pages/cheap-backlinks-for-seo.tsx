@@ -38,8 +38,8 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Social sharing on platforms like Reddit or LinkedIn can lead to natural backlinks. Engage in communities, share insights, and watch as users link to your content. These strategies enhance your overall link building efforts without high expenses.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Buying Cheap Backlinks for SEO: Pros, Cons, and Safe Tips</h2>
@@ -149,8 +149,8 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Use tools like Ahrefs to track rankings, traffic, and domain authority improvements.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

@@ -39,8 +39,8 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more on effective strategies, check this <a href="https://moz.com/blog/google-penguin-recovery" target="_blank" rel="noopener noreferrer">Moz Guide on Penguin Recovery</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building for recovery (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building for recovery (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Google Penguin Recovery</h2>
@@ -122,8 +122,8 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more insights, visit <a href="https://searchengineland.com/google-penguin-case-studies" target="_blank" rel="noopener noreferrer">Search Engine Land Case Studies</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video testimonial on recovery success (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video testimonial on recovery success (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Common Mistakes to Avoid in Google Penguin Recovery Backlinks</h2>

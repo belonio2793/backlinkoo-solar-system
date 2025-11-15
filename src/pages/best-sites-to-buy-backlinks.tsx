@@ -49,8 +49,8 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   <p>This strategy is effective because it helps webmasters while earning you high-quality backlinks. In fact, a case study from Backlinko showed a 20% success rate in link acquisition through this method. Combine it with purchasing from the <strong>best sites to buy backlinks</strong> for a balanced approach.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Best Backlink Sources" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Discover the best websites to buy high-quality backlinks safely (Source: YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Discover the best websites to buy high-quality backlinks safely (Source: YouTube)</em></p>
   </div>
   
   <h3>Other Organic Tactics: Infographics, HARO, and Skyscraper Technique</h3>

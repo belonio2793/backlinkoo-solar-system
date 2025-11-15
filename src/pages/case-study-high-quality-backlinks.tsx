@@ -92,8 +92,8 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Brian Dean of Backlinko reported a 110% increase in organic traffic using this method. Incorporate LSI terms like "link building strategies" to enhance relevance.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <h2>Buying High Quality Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -253,8 +253,8 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Backlinkoo helps clients sidestep these mistakes with expert guidance and proven methodologies.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Common link building mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video on avoiding link building pitfalls (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video on avoiding link building pitfalls (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>FAQ: Answering Your Questions on High Quality Backlinks</h2>

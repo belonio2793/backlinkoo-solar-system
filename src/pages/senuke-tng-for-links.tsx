@@ -32,8 +32,8 @@ const SenukeTngForLinks: React.FC = () => {
     <p>Moreover, SENUKE TNG for links supports multi-lingual campaigns, making it ideal for international SEO. At Backlinkoo.com, we've used similar tools to help clients expand globally, building region-specific dofollow links that enhance local search performance.</p>
     <p>Another key aspect is risk mitigation. With built-in captcha solvers and proxy rotations, SENUKE TNG for links minimizes detection risks, ensuring sustainable link building. This is crucial in an era where Google updates like Helpful Content emphasize quality over quantity.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="SENUKE TNG Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Watch this tutorial on using SENUKE TNG for links (Source: Backlinkoo YouTube Channel)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Watch this tutorial on using SENUKE TNG for links (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     <p>In essence, SENUKE TNG for links matters because it democratizes advanced link building, making it accessible to all levels of SEO practitioners. As we transition to organic strategies, remember that tools like this complement manual efforts for the best results.</p>
 
@@ -149,8 +149,8 @@ const SenukeTngForLinks: React.FC = () => {
     <p>In conclusion, SENUKE TNG for links is a game-changer for efficient link building. Backed by stats from Ahrefs showing backlinks drive 70% of ranking factors, and Moz's data on domain authority, it's clear why this tool is essential. At Backlinkoo.com, our expert team leverages SENUKE TNG-inspired strategies to deliver authoritative, persuasive SEO solutions. Contact us today to transform your link profile and achieve lasting success.</p>
     <p>For more on automation, check out <Link to="/senuke">SENUKE for automation</Link>.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced SENUKE TNG Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tips for SENUKE TNG (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Advanced tips for SENUKE TNG (Source: Backlinkoo)</em></p>
     </div>
     <p>(Word count: 5123)</p>
 `;

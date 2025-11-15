@@ -37,8 +37,8 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Target resource pages that curate links in your industry. Offer your high-quality content as an addition. This technique is ethical and effective for gaining authoritative backlinks.</p>
 
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic white hat link building techniques (Source: Backlinkoo)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 
     <p>Other organic strategies include influencer collaborations and podcast appearances, all aimed at building genuine relationships.</p>
@@ -154,8 +154,8 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Higher DA links provide more value, improving your site's ranking potential.</p>
 
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video on white hat link building techniques (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>

@@ -38,8 +38,8 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link to="/xrumer">XRumer for posting</Link>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building for .edu sites (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building for .edu sites (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Buying High Quality Backlinks from .Edu Sites: Pros, Cons, and Safe Tips</h2>
@@ -122,8 +122,8 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>These cases show how strategic <em>link building</em> with .edu sites can transform SEO outcomes. Contact Backlinkoo to replicate this success.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Case study video on .edu backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on successful .edu link campaigns (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video case study on successful .edu link campaigns (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Common Mistakes to Avoid When Pursuing High Quality Backlinks from .Edu Sites</h2>

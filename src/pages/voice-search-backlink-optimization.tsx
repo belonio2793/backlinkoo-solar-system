@@ -34,7 +34,7 @@ const VoiceSearchBacklinkOptimization: React.FC = () => {
     <p>When pursuing guest posting opportunities, focus on articles that answer voice search queries. Write guest posts that include natural language questions and thorough answers. This approach attracts both direct voice search traffic and high-quality backlinks from authority sites.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Voice search optimization tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       <p><em>Tutorial on optimizing content for voice search queries (Source: Backlinkoo)</em></p>
     </div>
 

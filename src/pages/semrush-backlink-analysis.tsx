@@ -43,8 +43,8 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>For automation in your link building, consider <a href="/senuke">SENUKE for automation</a>, which integrates seamlessly with SEMrush data to streamline outreach.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="SEMrush Backlink Analysis Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Watch this tutorial on using SEMrush for organic link building (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Watch this tutorial on using SEMrush for organic link building (Source: YouTube)</em></p>
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -153,8 +153,8 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>SEMrush uses its Authority Score, similar to Moz's DA, to evaluate link quality and overall site strength.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced SEMrush Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tips for SEMrush backlink analysis (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Advanced tips for SEMrush backlink analysis (Source: YouTube)</em></p>
     </div>
     
     <h2>Conclusion: Elevate Your SEO with SEMrush and Backlinkoo</h2>

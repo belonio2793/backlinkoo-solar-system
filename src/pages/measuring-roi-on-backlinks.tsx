@@ -34,8 +34,8 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Integrate these with automation tools like <Link to="/senuke">SENUKE for automation</Link> to scale your efforts efficiently.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on organic strategies for measuring ROI on backlinks (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic strategies for measuring ROI on backlinks (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -149,8 +149,8 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="FAQ on measuring ROI on backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video FAQ on backlink ROI (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video FAQ on backlink ROI (Source: Backlinkoo)</em></p>
   </div>
 
   <h2>Conclusion: Mastering Measuring ROI on Backlinks with Backlinkoo</h2>

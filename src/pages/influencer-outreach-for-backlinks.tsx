@@ -54,8 +54,8 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>According to <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land</a>, social signals indirectly influence SEO, making this a smart addition to your influencer outreach for backlinks toolkit.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on organic influencer outreach strategies (Source: Backlinkoo YouTube Channel)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic influencer outreach strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <p>Other organic methods include HARO (Help a Reporter Out) queries, where you provide expert quotes to journalists (who are often influencers), earning backlinks in published articles. This builds credibility and domain authority over time.</p>
@@ -181,8 +181,8 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>FAQ video on influencer outreach tips (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on influencer outreach tips (Source: Backlinkoo)</em></p>
   </div>
   
   <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 20px;">Conclusion: Elevate Your SEO with Backlinkoo</h2>

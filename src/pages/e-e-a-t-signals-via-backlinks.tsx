@@ -57,8 +57,8 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Sign up for HARO and respond to queries in your expertise area. For resource pages, search for terms like "best resources for [niche]" and pitch your content. These organic backlinks are powerful E-E-A-T boosters.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -184,8 +184,8 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>FAQ video on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>

@@ -40,8 +40,8 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>Analyze competitors using SEMrush, improve on length, depth, and visuals, then outreach to linkers. This can significantly boost your domain authority.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on Organic Link Building Strategies (Source: Backlinkoo YouTube Channel)</em></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Tutorial on Organic Link Building Strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for 2025</h2>
@@ -126,8 +126,8 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>These cases show how tailored <strong>link building strategies 2025</strong> drive success.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Link Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on successful link building (Source: Backlinkoo)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Video case study on successful link building (Source: Backlinkoo)</em></p>
     </div>
     
     <h2>Common Mistakes to Avoid in Link Building 2025</h2>
