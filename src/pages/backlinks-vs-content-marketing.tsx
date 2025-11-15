@@ -18,7 +18,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>At Backlinkoo, we believe in a balanced approach. Our services help you acquire premium backlinks that complement your content marketing efforts, driving sustainable growth.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img1.jpg" alt="backlinks vs content marketing infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="backlinks vs content marketing infographic" width="800" height="400" />
         <p><em>Infographic comparing backlinks and content marketing strategies (Source: Backlinkoo)</em></p>
     </div>
 
@@ -34,7 +34,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Creating shareable infographics is a content marketing staple that naturally attracts backlinks. Platforms like Help a Reporter Out (HARO) allow you to provide expert quotes, earning links organically. Social media promotion of your content can also lead to viral shares and backlinks.</p>
     <p>In the debate of <strong>backlinks vs content marketing</strong>, these strategies show how they interconnect. For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting campaigns.</p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Watch this tutorial on organic link building (Source: YouTube)</em></p>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -48,7 +48,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>For efficient posting and management, integrate <Link to="/xrumer">XRumer for posting</Link> to automate forum and blog placements ethically.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart illustrating pros and cons in backlinks vs content marketing (Source: Backlinkoo)</em></p>
     </div>
 
@@ -108,7 +108,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>A SaaS company combined both, using content to attract links and buying supplementary ones from Backlinkoo. Stats: 400 backlinks, 120% traffic increase, domain authority to 60 in nine months. This hybrid won the <strong>backlinks vs content marketing</strong> debate.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing growth in case studies (Source: Backlinkoo)</em></p>
     </div>
 
@@ -130,7 +130,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Use metrics like domain authority, organic traffic, and conversion rates via tools from Moz or Ahrefs.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img4.jpg" alt="FAQ illustration" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="FAQ illustration" width="800" height="400" />
         <p><em>Visual FAQ on backlinks vs content marketing (Source: Backlinkoo)</em></p>
     </div>
 

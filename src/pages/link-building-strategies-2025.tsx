@@ -14,7 +14,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>At Backlinkoo, we specialize in tailoring <strong>link building strategies 2025</strong> to your niche, ensuring sustainable growth. Whether you're a small business or an enterprise, understanding the fundamentals is key to avoiding penalties and maximizing ROI.</p>
     
     <div class="media">
-        <img src="/media/link-building-strategies-2025-img1.jpg" alt="link building strategies 2025 infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="link building strategies 2025 infographic" width="800" height="400" />
         <p><em>Infographic showing the evolution of link building from 2020 to 2025 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -40,7 +40,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>Analyze competitors using SEMrush, improve on length, depth, and visuals, then outreach to linkers. This can significantly boost your domain authority.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on Organic Link Building Strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -106,7 +106,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>At Backlinkoo, we integrate these tools to deliver customized <strong>link building strategies 2025</strong>.</p>
     
     <div class="media">
-        <img src="/media/link-building-strategies-2025-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing top link building tools for 2025 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -126,7 +126,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>These cases show how tailored <strong>link building strategies 2025</strong> drive success.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Link Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Link Building Case Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on successful link building (Source: Backlinkoo)</em></p>
     </div>
     

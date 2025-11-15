@@ -14,7 +14,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>In this section, we'll explore the foundational aspects, but remember, if you're looking to automate parts of this process without losing the manual touch, check out our <Link to="/senuke">SENUKE for automation</Link> tools that integrate seamlessly with outreach efforts.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img1.jpg" alt="manual backlink outreach infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="manual backlink outreach infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the steps of manual backlink outreach (Source: Backlinkoo)</em></p>
   </div>
   
@@ -112,7 +112,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>These tools enhance manual backlink outreach by saving time on research and tracking. For personalized recommendations, contact Backlinkoo today.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img2.jpg" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to top tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -131,7 +131,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>These cases show how manual backlink outreach, when done right, delivers measurable results. Learn more from <a href="https://www.semrush.com/blog/link-building-case-studies" target="_blank" rel="noopener noreferrer">SEMrush Case Studies</a>.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video case study on manual backlink outreach success (Source: Backlinkoo)</em></p>
   </div>
   
@@ -166,7 +166,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Start with Ahrefs for analysis and Hunter.io for emails. For advanced, try <Link to="/xrumer">XRumer</Link>.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img3.jpg" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
   </div>
   

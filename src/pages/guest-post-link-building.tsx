@@ -15,7 +15,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>Key benefits include improved search rankings, increased brand exposure, and networking opportunities within your industry. However, it's not without challenges, such as finding suitable sites and ensuring link relevance.</p>
   
   <div class="media">
-    <img src="/media/guest-post-link-building-img1.jpg" alt="guest post link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="guest post link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the benefits of guest post link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -37,7 +37,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>For more on automation in link building, check out our <Link to="/senuke">SENUKE for automation</Link> page, which can streamline your outreach efforts.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="YouTube video on guest post strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on guest post strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on finding guest post opportunities (Source: Backlinkoo)</em></p>
   </div>
   
@@ -104,7 +104,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>These tools can supercharge your guest post link building strategy. At Backlinkoo.com, we integrate SENUKE and XRumer for optimal results.</p>
   
   <div class="media">
-    <img src="/media/guest-post-link-building-img2.jpg" alt="tools for guest post link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="tools for guest post link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -123,7 +123,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>These cases show how guest post link building can drive measurable results. Ready to start? Contact Backlinkoo.com today.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Guest post case study tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Guest post case study tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
   </div>
   
@@ -166,7 +166,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>For more FAQs, visit our blog or contact Backlinkoo.com.</p>
   
   <div class="media">
-    <img src="/media/guest-post-link-building-img3.jpg" alt="common mistakes in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="common mistakes in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic on avoiding link building errors (Source: Backlinkoo)</em></p>
   </div>
   

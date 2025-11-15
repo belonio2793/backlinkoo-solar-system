@@ -15,7 +15,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>Link building has come a long way since the early days of SEO. Initially, quantity over quality ruled, leading to penalties from updates like Google Penguin. Today, strategies like the <strong>broken link building method</strong> emphasize relevance and authority. LSI terms such as "dofollow links" and "domain authority" highlight the focus on quality signals that search engines prioritize.</p>
   <p>Statistics from Moz show that pages with more high-quality backlinks receive 3-5 times more organic traffic. By mastering the <strong>broken link building method</strong>, you can tap into this potential ethically.</p>
   <div class="media">
-    <img src="/media/broken-link-building-method-img1.jpg" alt="broken link building method infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="broken link building method infographic" width="800" height="400" />
     <p><em>Infographic illustrating the steps of the broken link building method (Source: Backlinkoo)</em></p>
   </div>
   
@@ -35,7 +35,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>Combine the <strong>broken link building method</strong> with guest posting. Write guest articles for sites with broken links, incorporating your suggestions within the content. Other organic strategies include resource page link building and unlinked brand mentions, where you request links to your content that's already referenced.</p>
   <p>Remember, consistency is key. Aim for 10-20 outreach emails per week to see results. Tools like <Link to="/senuke">SENUKE for automation</Link> can help scale these efforts by automating link prospecting and outreach templates.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-broken-link-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on finding broken links (Source: YouTube)</em></p>
   </div>
   <p>For more on link building fundamentals, check out this <a href="https://moz.com/blog/broken-link-building-method" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
@@ -96,7 +96,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   </table>
   <p>Backlinkoo recommends starting with free tools and scaling up with <Link to="/senuke">SENUKE</Link> for automation to make the <strong>broken link building method</strong> more efficient.</p>
   <div class="media">
-    <img src="/media/broken-link-building-method-img2.jpg" alt="tools for broken link building" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="tools for broken link building" width="800" height="400" />
     <p><em>Overview of SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -110,7 +110,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>Backlinkoo helped a client with automated <strong>broken link building method</strong> using <Link to="/senuke">SENUKE</Link>. Outcome: 100+ links from DA 50+ sites, leading to a 200% increase in search visibility.</p>
   <p>These cases demonstrate the power of the method. For similar results, explore Backlinkoo's tailored services.</p>
   <div class="media">
-    <img src="/media/broken-link-building-method-img3.jpg" alt="case study graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="case study graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from broken link building (Source: Backlinkoo)</em></p>
   </div>
   <p>Learn more from <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land's Link Building Guide</a>.</p>
@@ -143,7 +143,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>In summary, the <strong>broken link building method</strong> is a cornerstone of effective link building, offering sustainable ways to improve domain authority and traffic. Backed by stats from Moz (e.g., backlinks correlate with 28% of ranking factors) and Ahrefs (sites with more links rank higher), this approach demonstrates expertise in SEO. As an authoritative voice from Backlinkoo, I recommend integrating it with our services for optimal results. Contact us today to supercharge your strategy.</p>
   <p>For further reading: <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko's Guide</a>, <a href="https://semrush.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">SEMrush Blog</a>, <a href="https://neilpatel.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Neil Patel's Tips</a>, <a href="https://searchenginejournal.com/broken-link-building/ target="_blank" rel="noopener noreferrer">Search Engine Journal</a>, and <a href="https://yoast.com/broken-link-building/" target="_blank" rel="noopener noreferrer">Yoast SEO</a>.</p>
   <div class="media">
-    <img src="/media/broken-link-building-method-img4.jpg" alt="final infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="final infographic" width="800" height="400" />
     <p><em>Summary infographic of broken link building benefits (Source: Backlinkoo)</em></p>
   </div>
   <style>

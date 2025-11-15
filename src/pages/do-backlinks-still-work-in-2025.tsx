@@ -17,7 +17,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>At Backlinkoo, we've seen firsthand how strategic link building boosts rankings. But <strong>do backlinks still work in 2025</strong>? Absolutely, but only if they're natural, relevant, and from authoritative sources. Ignoring them means missing out on a key ranking factor, as confirmed by Google's own <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Search Central Blog</a>.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img1.jpg" alt="do backlinks still work in 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="do backlinks still work in 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings in 2025 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -60,7 +60,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>Other tactics: Infographics, skyscraper technique (improving top content), and social media amplification. Remember, organic strategies build sustainable domain authority.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
         <p><em>Tutorial on effective organic backlink strategies for 2025 (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -138,7 +138,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>Backlinkoo integrates with these tools for seamless link building. Try <Link to="/senuke">SENUKE for automation</Link> to see results fast.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img2.jpg" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual guide to top backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -159,7 +159,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>A local service provider used HARO and automation with <Link to="/senuke">SENUKE</Link>. Gained 80 dofollow links, increasing local search visibility by 50%. Leads doubled, highlighting backlinks' role in 2025 SEO.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video-id" title="Backlink case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Backlink case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
         <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
     </div>
     
@@ -201,7 +201,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>At Backlinkoo, our expert team helps you build authoritative, sustainable backlinks. Contact us today to elevate your SEO game.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img3.jpg" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Final thoughts on backlinks in 2025 (Source: Backlinkoo)</em></p>
     </div>
     

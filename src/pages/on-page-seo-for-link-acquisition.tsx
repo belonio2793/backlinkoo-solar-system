@@ -13,7 +13,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <p>Why does it matter? According to a study by Ahrefs, pages with strong on-page optimization receive 3.8 times more backlinks than those without. In a digital landscape where domain authority is king, attracting dofollow links through compelling on-page elements can skyrocket your rankings. Backlinkoo.com specializes in tools that complement these efforts, helping you acquire links efficiently.</p>
     <p>At its core, <strong>on-page SEO for link acquisition</strong> involves creating link-worthy content, optimizing meta tags, and ensuring fast load times—all of which signal to other webmasters that your site is a valuable resource. This not only improves user engagement but also positions your site as an authority in your niche.</p>
     <div class="media">
-        <img src="/media/on-page-seo-for-link-acquisition-img1.jpg" alt="on-page SEO for link acquisition infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="on-page SEO for link acquisition infographic" width="800" height="400" />
         <p><em>Infographic illustrating key elements of on-page SEO for link acquisition (Source: Backlinkoo)</em></p>
     </div>
     <p>By prioritizing <strong>on-page SEO for link acquisition</strong>, you're laying the foundation for sustainable link building. It's not just about quantity; it's about quality links that enhance your site's trustworthiness.</p>
@@ -36,7 +36,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <h3>Resource Pages and Roundups</h3>
     <p>Optimize your pages to be featured in resource lists. Create comprehensive resource hubs on your site, using <strong>on-page SEO for link acquisition</strong> to include outbound links to authorities, which often reciprocate with backlinks.</p>
     <p>Participate in expert roundups by having shareable, quotable content ready on your site.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Watch this tutorial on organic link strategies (Source: YouTube)</em></p>
     
     <p>These organic methods, when combined with solid on-page optimization, can significantly boost your domain authority without risking penalties.</p>
@@ -96,7 +96,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <p>Integrate these with Backlinkoo services for optimal results.</p>
     
     <div class="media">
-        <img src="/media/on-page-seo-for-link-acquisition-img2.jpg" alt="Tools for on-page SEO and link acquisition" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Tools for on-page SEO and link acquisition" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <h3>Case Study 3: SaaS Company Growth</h3>
     <p>By buying safe links and optimizing landing pages, this company saw a 300% increase in referral traffic. Domain authority rose to 60, with organic acquisitions making up 70% of new links.</p>
     <div class="media">
-        <img src="/media/on-page-seo-for-link-acquisition-img3.jpg" alt="Case study graphs for link acquisition" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graphs for link acquisition" width="800" height="400" />
         <p><em>Graphs showing growth metrics (Source: Backlinkoo)</em></p>
     </div>
     

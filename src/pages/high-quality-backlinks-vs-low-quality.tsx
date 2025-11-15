@@ -21,7 +21,7 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
   <p>In terms of user relevance, high-quality backlinks drive targeted traffic, improve user experience, and enhance your site's credibility. Low-quality ones often lead to irrelevant traffic, high bounce rates, and potential harm to your brand's reputation. Understanding <strong>high quality backlinks vs low quality</strong> is crucial for long-term SEO success.</p>
   
   <div class="media" style="text-align: center; margin: 20px 0;">
-    <img src="/media/high-quality-backlinks-vs-low-quality-img1.jpg" alt="high quality backlinks vs low quality infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="high quality backlinks vs low quality infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic comparing high quality backlinks vs low quality (Source: Backlinkoo)</em></p>
   </div>
   
@@ -120,7 +120,7 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
   <p>These tools help ensure your link building efforts prioritize high quality over low quality.</p>
   
   <div class="media" style="text-align: center; margin: 20px 0;">
-    <img src="/media/high-quality-backlinks-vs-low-quality-img2.jpg" alt="tools for backlink analysis" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="tools for backlink analysis" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to backlink tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -162,7 +162,7 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
   <p>Quality over quantity; focus on 10-20 high-quality ones rather than hundreds of low-quality.</p>
   
   <div class="media" style="text-align: center; margin: 20px 0;">
-    <img src="/media/high-quality-backlinks-vs-low-quality-img3.jpg" alt="FAQ on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="FAQ on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
   </div>
   

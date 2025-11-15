@@ -14,7 +14,7 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     <p>At Backlinkoo.com, we specialize in helping businesses navigate these changes with tailored link building services that emphasize quality over quantity.</p>
     
     <div class="media">
-        <img src="/media/zero-click-search-link-strategies-img1.jpg" alt="zero-click search link strategies infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="zero-click search link strategies infographic" width="800" height="400" />
         <p><em>Infographic illustrating the rise of zero-click searches and link strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -99,7 +99,7 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     </table>
     
     <div class="media">
-        <img src="/media/zero-click-search-link-strategies-img2.jpg" alt="Tools for zero-click search link strategies" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Tools for zero-click search link strategies" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -145,7 +145,7 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     <p>They can reduce clicks, but strong link strategies ensure brand exposure and indirect traffic benefits.</p>
     
     <div class="media">
-        <img src="/media/zero-click-search-link-strategies-img3.jpg" alt="FAQ on zero-click strategies" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="FAQ on zero-click strategies" width="800" height="400" />
         <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

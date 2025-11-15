@@ -13,7 +13,7 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>At Backlinkoo, we ensure every backlink we provide meets these criteria, helping you avoid penalties and achieve sustainable growth.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/buy-high-quality-backlinks-img1.jpg" alt="buy high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="buy high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of high quality backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -60,7 +60,7 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>At Backlinkoo, our services are designed with safety in mind, ensuring you get high quality backlinks that boost your SEO without risks.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/buy-high-quality-backlinks-img2.jpg" alt="Safe tips for buying backlinks checklist" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Safe tips for buying backlinks checklist" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Checklist for safely buying high quality backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -119,7 +119,7 @@ const BuyHighQualityBacklinks: React.FC = () => {
     <p>A local service provider bought 20 contextual backlinks. Results included a 40% increase in local search visibility and 25% more leads. This highlights how <strong>buying high quality backlinks</strong> can dominate local SEO.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/buy-high-quality-backlinks-img3.jpg" alt="Case study graph of traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graph of traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph showing traffic growth after buying backlinks (Source: Backlinkoo)</em></p>
     </div>
     

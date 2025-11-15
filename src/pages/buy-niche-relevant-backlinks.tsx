@@ -18,7 +18,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>LSI terms such as "link building services," "high domain authority links," and "dofollow backlinks" often come into play here. By incorporating these, you signal to search engines the contextual depth of your content.</p>
     
     <div class="media">
-        <img src="/media/buy-niche-relevant-backlinks-img1.jpg" alt="buy niche relevant backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="buy niche relevant backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of niche relevant backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -35,7 +35,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>For posting and syndicating content across forums and blogs, <Link to="/xrumer">XRumer for posting</Link> can be an efficient tool to expand your reach without manual effort.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on building organic backlinks (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -97,7 +97,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>These tools, especially <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, integrate seamlessly with Backlinkoo services to maximize your ROI.</p>
     
     <div class="media">
-        <img src="/media/buy-niche-relevant-backlinks-img2.jpg" alt="tools for buying niche relevant backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="tools for buying niche relevant backlinks" width="800" height="400" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>These cases highlight how Backlinkoo's services can deliver measurable results when you <strong>buy niche relevant backlinks</strong>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video-id" title="Case study on buying niche relevant backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Case study on buying niche relevant backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video testimonial from a Backlinkoo client (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -143,7 +143,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>Tools like Ahrefs, Moz, and our recommended <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> are excellent starting points.</p>
     
     <div class="media">
-        <img src="/media/buy-niche-relevant-backlinks-img3.jpg" alt="FAQ on buying niche relevant backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="FAQ on buying niche relevant backlinks" width="800" height="400" />
         <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

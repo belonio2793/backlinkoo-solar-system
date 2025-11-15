@@ -17,7 +17,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>SpyFu's backlink analysis feature scans competitors' domains, revealing metrics like link count, referring domains, and anchor text usage. This data is invaluable for spotting gaps in your strategy. For instance, if a competitor has numerous <strong>dofollow links</strong> from .edu sites, you might prioritize outreach to educational platforms.</p>
     
     <div class="media">
-        <img src="/media/spyfu-competitor-backlinks-img1.jpg" alt="SpyFu competitor backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="SpyFu competitor backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing how SpyFu analyzes competitor backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -34,7 +34,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>Resource pages are another goldmine. Search for "niche + resource page" and pitch your content. Combine this with <Link to="/xrumer">XRumer for posting</Link> to automate forum and blog comments that could lead to more organic links.</p>
     <p>Implementing these strategies can increase your backlink count by 15-25% within months, based on Moz data.</p>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -48,7 +48,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>For more on safe link buying, check this <a href="https://moz.com/blog/buying-backlinks-guide" target="_blank" rel="noopener noreferrer">Moz Guide on Buying Backlinks</a>.</p>
     
     <div class="media">
-        <img src="/media/spyfu-competitor-backlinks-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -109,7 +109,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>A local service provider spied on regional competitors via SpyFu, targeting local citations. Using <Link to="/xrumer">XRumer</Link> for automated postings, they secured 100+ links, improving local search rankings and foot traffic by 25%.</p>
     
     <div class="media">
-        <img src="/media/spyfu-competitor-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     

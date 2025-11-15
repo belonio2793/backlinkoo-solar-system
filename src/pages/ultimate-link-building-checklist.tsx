@@ -18,7 +18,7 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>This <strong>ultimate link building checklist</strong> will guide you through the fundamentals, ensuring you focus on dofollow links that pass authority and avoid nofollow ones that don't. Remember, quality over quantity is key—links from high-domain-authority sites are far more valuable than numerous low-quality ones.</p>
 
 <div class="media">
-<img src="/media/ultimate-link-building-checklist-img1.jpg" alt="ultimate link building checklist infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+<img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="ultimate link building checklist infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
 <p><em>Infographic: Key Steps in the Ultimate Link Building Checklist (Source: Backlinkoo)</em></p>
 </div>
 
@@ -82,7 +82,7 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>Monitor your backlinks with tools like Google Search Console to disavow any toxic ones. Remember, integrate bought links with organic efforts for a balanced approach.</p>
 
 <div class="media">
-<img src="/media/ultimate-link-building-checklist-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+<img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
 <p><em>Chart: Weighing the Pros and Cons of Buying Backlinks (Source: Backlinkoo)</em></p>
 </div>
 
@@ -152,7 +152,7 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>A local service provider used a mix of organic and bought links safely managed by Backlinkoo. They secured 100 relevant backlinks, boosting local search visibility. Organic leads increased by 50%, and their site climbed from page 5 to page 1 for competitive keywords.</p>
 
 <div class="media">
-<img src="/media/ultimate-link-building-checklist-img3.jpg" alt="Link building case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+<img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Link building case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
 <p><em>Graph: Traffic Growth from Link Building Case Studies (Source: Backlinkoo)</em></p>
 </div>
 
@@ -211,7 +211,7 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>Stats from authoritative sources underscore this: Google's own data shows backlinks as a top ranking factor, per <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central</a>. With over a decade of experience, Backlinkoo has helped thousands achieve higher domain authority through safe, effective link building. Contact us today to get started!</p>
 
 <div class="media">
-<img src="/media/ultimate-link-building-checklist-img4.jpg" alt="E-E-A-T signals in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="E-E-A-T signals in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
 <p><em>Infographic: Enhancing E-E-A-T with Link Building (Source: Backlinkoo)</em></p>
 </div>
 

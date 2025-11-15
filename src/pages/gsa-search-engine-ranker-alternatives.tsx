@@ -15,7 +15,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>Using GSA Search Engine Ranker can result in low-quality links that harm your site's domain authority. Google's Penguin update targets unnatural link profiles, making it crucial to explore GSA Search Engine Ranker alternatives that focus on quality over quantity. According to a study by Ahrefs, sites with diverse, high-quality backlinks see up to 3.8 times more organic traffic than those relying on automated spam.</p>
   <p>At Backlinkoo, we emphasize ethical link building to ensure long-term success. Seeking alternatives isn't just about avoiding penalties; it's about building a robust SEO foundation that drives real results.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img1.jpg" alt="GSA Search Engine Ranker alternatives infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="GSA Search Engine Ranker alternatives infographic" width="800" height="400" />
     <p><em>Infographic showing the evolution of link building tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -31,7 +31,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>Creating shareable content like infographics or in-depth guides encourages natural backlinks. Promote your content on social media and through email outreach to amplify its reach. This approach aligns perfectly with Google's emphasis on user experience and can significantly enhance your site's domain authority.</p>
   <p>Remember, quality content is key. Backlinkoo offers content creation services tailored for link attraction, making it easier to implement these GSA Search Engine Ranker alternatives.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
 
@@ -98,7 +98,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>These tools can be powerful GSA Search Engine Ranker alternatives when used ethically. For customized solutions, Backlinkoo integrates with tools like SENUKE to provide seamless automation.</p>
   <p>Learn more from <a href="https://ahrefs.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Ahrefs' Link Building Tools Guide</a>.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img2.jpg" alt="Comparison chart of SEO tools" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Comparison chart of SEO tools" width="800" height="400" />
     <p><em>Chart comparing top GSA alternatives (Source: Backlinkoo)</em></p>
   </div>
 
@@ -111,7 +111,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <h3>Case Study 3: Agency Scalability</h3>
   <p>An SEO agency integrated <Link to="/senuke">SENUKE for automation</Link> with safe buying practices. This led to a 35% improvement in client domain authorities and a 50% reduction in penalty risks, with fake stats showing revenue growth of 25% year-over-year.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
   </div>
 
@@ -139,7 +139,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <h3>5. What metrics should I track for link building success?</h3>
   <p>Monitor domain authority, referral traffic, and keyword rankings using Ahrefs or SEMrush.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img3.jpg" alt="FAQ infographic on SEO alternatives" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="FAQ infographic on SEO alternatives" width="800" height="400" />
     <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
   </div>
 

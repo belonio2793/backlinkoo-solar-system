@@ -14,7 +14,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>Why does this matter? In 2023, Google's algorithms increasingly favor authoritative, contextually relevant links. According to a study by Ahrefs, sites with strong backlink profiles rank higher, with the top result having 3.8 times more backlinks than positions 2-10. Integrating NFTs into link building adds a layer of scarcity and value, making it a potent tool for SEO in Web3 projects like decentralized finance (DeFi) or metaverse platforms.</p>
     <p>At Backlinkoo, we've seen clients boost their domain authority by 20-30% through targeted Web3 link building NFTs strategies. This isn't just hype; it's backed by real-world applications where NFTs serve as verifiable proof of link ownership, reducing spam and enhancing trust.</p>
     <div class="media">
-        <img src="/media/web3-link-building-nfts-img1.jpg" alt="Web3 link building NFTs infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Web3 link building NFTs infographic" width="800" height="400" />
         <p><em>Infographic illustrating the intersection of Web3, NFTs, and link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -40,7 +40,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>In one Backlinkoo campaign, we partnered with an NFT creator to produce a joint whitepaper, earning dofollow links from 20+ high-DA sites and boosting domain authority by 25 points.</p>
     <p>LSI terms like "blockchain backlinks" and "decentralized domain authority" can enhance relevance, making your content more discoverable.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on Web3 link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on Web3 link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic Web3 link building NFTs tactics (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -62,7 +62,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>Verify Sellers: Use platforms like OpenSea with verified collections. Check Metrics: Ensure links come from sites with DA 40+ using tools from <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs</a>. Diversify: Mix bought NFTs with organic efforts to avoid penalties. At Backlinkoo, we offer vetted Web3 link building NFTs packages, ensuring compliance and quality.</p>
     <p>For automation in managing these purchases, consider <a href="/senuke">SENUKE for automation</a>, which streamlines link tracking in Web3 environments.</p>
     <div class="media">
-        <img src="/media/web3-link-building-nfts-img2.jpg" alt="Pros and cons of buying Web3 link building NFTs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Pros and cons of buying Web3 link building NFTs" width="800" height="400" />
         <p><em>Chart comparing pros and cons (Source: Backlinkoo)</em></p>
     </div>
     
@@ -124,7 +124,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <h3>Case Study 3: Metaverse Startup</h3>
     <p>This client leveraged syndicated content and tool automation with <a href="/senuke">SENUKE for automation</a>. Acquired 200 links through NFT collaborations. Results: Domain authority jumped 40 points, leading to a 300% increase in partnerships. Fake stats: Links: 200; DA increase: 40; Partnership growth: 300%.</p>
     <div class="media">
-        <img src="/media/web3-link-building-nfts-img3.jpg" alt="Case study graphs for Web3 link building NFTs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graphs for Web3 link building NFTs" width="800" height="400" />
         <p><em>Graphs showing growth metrics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -156,7 +156,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>With blockchain adoption rising, expect more integration with AI and metaverses, per reports from <a href="https://www.statista.com/topics/3133/non-fungible-tokens-nft/" target="_blank" rel="noopener noreferrer">Statista</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ video on Web3 link building NFTs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="FAQ video on Web3 link building NFTs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

@@ -15,7 +15,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Domain authority, a metric popularized by Moz, heavily relies on backlink profiles. A balanced velocity helps maintain and improve this score. For instance, if you're building dofollow links too rapidly, it might look suspicious. Instead, aim for a velocity that aligns with your site's age and niche competitiveness.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-best-practices-img1.jpg" alt="backlink velocity best practices infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="backlink velocity best practices infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic illustrating natural vs. unnatural backlink velocity patterns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -58,7 +58,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>At Backlinkoo, our services ensure safe, effective link building. We recommend starting small and scaling based on results.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on safe backlink buying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on safe backlink buying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
         <p><em>Tutorial on buying backlinks safely (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -127,7 +127,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> in forums, building 25 diverse backlinks monthly. This led to a 40% increase in local search visibility and doubled leads.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-best-practices-img2.jpg" alt="case study graph on backlink velocity" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="case study graph on backlink velocity" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph showing traffic growth from optimized backlink velocity (Source: Backlinkoo)</em></p>
     </div>
     
@@ -165,7 +165,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Yes, but ethically. Tools like <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> can help when used responsibly.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-best-practices-img3.jpg" alt="FAQ infographic on backlink strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="FAQ infographic on backlink strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic answering common backlink velocity questions (Source: Backlinkoo)</em></p>
     </div>
     

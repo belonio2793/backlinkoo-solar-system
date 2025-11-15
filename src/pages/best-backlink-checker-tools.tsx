@@ -13,7 +13,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Why do they matter? According to a study by Ahrefs, websites with high-quality backlinks rank higher on Google. Backlinks contribute significantly to domain authority, a metric developed by Moz that predicts how well a site will rank. Without proper checking, you might accumulate toxic links that could lead to penalties. Tools like these enable you to identify dofollow links (which pass SEO value) versus nofollow ones, ensuring your link building efforts are optimized.</p>
     <p>At Backlinkoo, we've seen clients improve their rankings by 30-50% after using reliable backlink checkers to clean up their profiles. Investing in the <strong>best backlink checker tools</strong> isn't just about monitoring—it's about strategic growth in your SEO campaigns.</p>
     <div class="media">
-        <img src="/media/best-backlink-checker-tools-img1.jpg" alt="best backlink checker tools infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="best backlink checker tools infographic" width="800" height="400" />
         <p><em>Infographic showing the importance of backlinks in SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -39,7 +39,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Create shareable infographics and pitch them to resource pages. The <strong>best backlink checker tools</strong> can track where your infographics are linked, ensuring they contribute to your link building goals. Always aim for dofollow links to maximize SEO benefits.</p>
     <p>Resource page outreach involves finding curated lists and suggesting your site. Use checkers to evaluate the domain authority of these pages before investing time.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on Broken Link Building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <a href="https://www.semrush.com/blog/backlink-checker-tools/" target="_blank" rel="noopener noreferrer">SEMrush Backlink Tools Guide</a>
     
     <div class="media">
-        <img src="/media/best-backlink-checker-tools-img2.jpg" alt="Comparison chart of backlink tools" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Comparison chart of backlink tools" width="800" height="400" />
         <p><em>Visual comparison of top tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -129,7 +129,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Backlinkoo assisted a client with Majestic SEO to check purchased backlinks. We removed 150 low-quality ones and added 100 organic dofollow links, boosting domain authority by 20 points. Organic search traffic grew by 50%, proving the value of safe buying combined with top checkers.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Backlink Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Backlink Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -163,7 +163,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>In conclusion, the <strong>best backlink checker tools</strong> are indispensable for any SEO strategy. From organic link building to safe buying, tools like Ahrefs and SEMrush, combined with Backlinkoo's services, can transform your online presence. Stats from Moz show that sites with strong backlink profiles see 3.8x more traffic. As experts at Backlinkoo, we recommend starting with a free audit—contact us today to boost your domain authority and rankings.</p>
     <p><em>This article is based on expertise from Backlinkoo's SEO team, drawing from sources like <a href="https://moz.com/research" target="_blank" rel="noopener noreferrer">Moz Research</a> and <a href="https://ahrefs.com/studies" target="_blank" rel="noopener noreferrer">Ahrefs Studies</a>. For more, explore our <Link to="/services">services</Link>.</em></p>
     <div class="media">
-        <img src="/media/best-backlink-checker-tools-img3.jpg" alt="SEO success with backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="SEO success with backlinks" width="800" height="400" />
         <p><em>Final infographic on backlink benefits (Source: Backlinkoo)</em></p>
     </div>
     <a href="https://www.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central Blog</a>

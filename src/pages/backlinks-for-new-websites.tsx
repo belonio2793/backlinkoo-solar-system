@@ -14,7 +14,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Why focus on <strong>backlinks for new websites</strong>? New sites lack the established reputation of older domains, making it harder to attract organic traffic. Effective link building can accelerate growth, improve visibility, and even enhance user trust. At Backlinkoo, we specialize in helping newcomers build these essential links safely and efficiently.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img1.jpg" alt="backlinks for new websites infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="backlinks for new websites infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on new website rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -42,7 +42,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Many sites curate resource pages. Find them via searches like "niche + inurl:resources." If your content fits, request inclusion. This is a low-effort way to secure high-quality backlinks.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building for beginners (Source: Backlinkoo)</em></p>
     </div>
     
@@ -107,7 +107,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Backlinkoo integrates tools like <Link to="/xrumer">XRumer for posting</Link> to enhance your strategy.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img2.jpg" alt="tools for backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="tools for backlinks infographic" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -138,7 +138,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>For expert advice, refer to <a href="https://www.semrush.com/blog/link-building-mistakes/" target="_blank" rel="noopener noreferrer">SEMrush's Link Building Mistakes</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/abc123" title="Common SEO mistakes video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Common SEO mistakes video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video on avoiding link building errors (Source: Backlinkoo)</em></p>
     </div>
     
@@ -164,7 +164,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Remember, SEO is an ongoing process. Stay updated with resources from <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, <a href="https://moz.com/blog" target="_blank" rel="noopener noreferrer">Moz Blog</a>, and <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central Blog</a>. With persistence and the right strategies, your new website can dominate the SERPs.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img3.jpg" alt="success with backlinks case study" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="success with backlinks case study" width="800" height="400" />
         <p><em>Visualizing backlink success (Source: Backlinkoo)</em></p>
     </div>
     

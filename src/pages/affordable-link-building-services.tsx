@@ -19,7 +19,7 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>At Backlinkoo, our <strong>affordable link building services</strong> emphasize ethical practices that align with Google's guidelines, ensuring long-term benefits without the risk of penalties. In a landscape where SEO costs can skyrocket, affordability means getting results that fit your budget, making it accessible for startups and established brands alike.</p>
   
   <div class="media">
-    <img src="/media/affordable-link-building-services-img1.jpg" alt="affordable link building services infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="affordable link building services infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -133,7 +133,7 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>These tools, especially <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, integrate seamlessly with Backlinkoo's <strong>affordable link building services</strong> for optimal results.</p>
   
   <div class="media">
-    <img src="/media/affordable-link-building-services-img2.jpg" alt="link building tools comparison chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="link building tools comparison chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart comparing popular link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -160,7 +160,7 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>Impact: Readership grew by 200%, and ad revenue increased by 80%. This case highlights scalability for content-heavy sites.</p>
   
   <div class="media">
-    <img src="/media/affordable-link-building-services-img3.jpg" alt="case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
   </div>
   

@@ -24,7 +24,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Moreover, referral traffic from backlinks can improve user metrics, such as time on site and pages per session, which indirectly boost SEO. At Backlinkoo.com, we've seen clients double their referral traffic through strategic link building, leading to a 30% increase in overall site visits.</p>
   
   <div class="media">
-    <img src="/media/referral-traffic-from-backlinks-img1.jpg" alt="referral traffic from backlinks infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="referral traffic from backlinks infographic" width="800" height="400" />
     <p><em>Infographic showing the flow of referral traffic from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -59,7 +59,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link to="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -94,7 +94,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Use a mix of dofollow and nofollow links for balance. A <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs article</a> advises auditing purchased links regularly. By following these tips, buying backlinks can safely enhance your referral traffic from backlinks.</p>
   
   <div class="media">
-    <img src="/media/referral-traffic-from-backlinks-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -164,7 +164,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>A SaaS provider used skyscraper content and paid links safely. Backlinks increased by 200, leading to 300% more referral traffic (from 1,500 to 6,000 visitors). Conversion rates doubled, backed by data from Google Analytics. Backlinkoo.com's services were pivotal in this success.</p>
   
   <div class="media">
-    <img src="/media/referral-traffic-from-backlinks-img3.jpg" alt="Case study graph of traffic growth" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case study graph of traffic growth" width="800" height="400" />
     <p><em>Graph showing traffic growth in case studies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -212,7 +212,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Results vary, but organic strategies may take 3-6 months, while buying can show quicker gains in referral traffic from backlinks.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>FAQ video on backlinks and traffic (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   

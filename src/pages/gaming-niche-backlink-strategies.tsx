@@ -20,7 +20,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>For instance, if you're writing about "best gaming keyboards," a backlink from a tech review site enhances relevance. Without a strong backlink profile, even stellar content might languish in search obscurity.</p>
 
     <div class="media">
-        <img src="/media/gaming-niche-backlink-strategies-img1.jpg" alt="gaming niche backlink strategies infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="gaming niche backlink strategies infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on gaming site rankings (Source: Backlinkoo)</em></p>
     </div>
 
@@ -104,7 +104,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>For automation, consider <Link to="/senuke">SENUKE for automation</Link> to streamline your campaigns, or <Link to="/xrumer">XRumer for posting</Link> to gaming forums efficiently.</p>
 
     <div class="media">
-        <img src="/media/gaming-niche-backlink-strategies-img2.jpg" alt="tools for gaming backlink strategies" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="tools for gaming backlink strategies" width="800" height="400" />
         <p><em>Visual comparison of backlink tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -122,7 +122,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>By leveraging <Link to="/senuke">SENUKE for automation</Link> and resource page outreach, they gained 100 high-quality links. DA improved from 30 to 55, leading to a 150% traffic boost and higher conversions.</p>
 
     <div class="media">
-        <img src="/media/gaming-niche-backlink-strategies-img3.jpg" alt="case study graph for gaming backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="case study graph for gaming backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
 

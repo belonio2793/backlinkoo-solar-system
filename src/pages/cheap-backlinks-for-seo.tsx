@@ -14,7 +14,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>At Backlinkoo, we emphasize that quality trumps quantity. Cheap doesn't mean low-quality; it means strategic, value-driven link building that aligns with Google's guidelines. Ignoring this can lead to penalties, so always prioritize relevance and authority.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img1.jpg" alt="cheap backlinks for SEO infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="cheap backlinks for SEO infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -38,7 +38,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Social sharing on platforms like Reddit or LinkedIn can lead to natural backlinks. Engage in communities, share insights, and watch as users link to your content. These strategies enhance your overall link building efforts without high expenses.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -106,7 +106,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> with Backlinkoo services can supercharge your strategy for cheap backlinks for SEO.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img2.jpg" alt="Tools for cheap backlinks for SEO" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Tools for cheap backlinks for SEO" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -123,7 +123,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>A local service provider bought cheap backlinks for SEO targeting regional directories. With 100 links from authoritative local sites, their local rankings improved, leading to a 120% boost in leads. This demonstrates how targeted link building can yield impressive ROI.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img3.jpg" alt="Case study graphs for cheap backlinks for SEO" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Case study graphs for cheap backlinks for SEO" width="800" height="400" />
         <p><em>Graphs showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -149,7 +149,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Use tools like Ahrefs to track rankings, traffic, and domain authority improvements.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     

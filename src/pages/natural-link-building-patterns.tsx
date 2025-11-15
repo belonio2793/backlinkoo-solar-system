@@ -26,7 +26,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Statistics from Moz show that sites with high domain authority (DA) scores often exhibit natural patterns, with backlinks coming from .edu, .gov, and high-DA commercial sites. This not only improves rankings but also drives referral traffic.</p>
     
     <div class="media">
-        <img src="/media/natural-link-building-patterns-img1.jpg" alt="natural link building patterns infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="natural link building patterns infographic" width="800" height="400" />
         <p><em>Infographic illustrating key natural link building patterns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -65,7 +65,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Collaborate on co-created content, such as webinars or podcasts, which often result in mutual backlinks. This builds a network of natural referrals.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -139,7 +139,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> can help scale your <strong>natural link building patterns</strong> without compromising quality. Similarly, <Link to="/xrumer">XRumer for posting</Link> ensures efficient distribution while maintaining authenticity.</p>
     
     <div class="media">
-        <img src="/media/natural-link-building-patterns-img2.jpg" alt="tools for natural link building patterns" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="tools for natural link building patterns" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -166,7 +166,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Backlinkoo's vetted services ensured compliance and effectiveness.</p>
     
     <div class="media">
-        <img src="/media/natural-link-building-patterns-img3.jpg" alt="case study graph for natural link building patterns" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="case study graph for natural link building patterns" width="800" height="400" />
         <p><em>Graph showing traffic growth from natural patterns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -216,7 +216,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Higher DA sites provide more value, strengthening your overall profile.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video on natural link building patterns (Source: Backlinkoo)</em></p>
     </div>
     

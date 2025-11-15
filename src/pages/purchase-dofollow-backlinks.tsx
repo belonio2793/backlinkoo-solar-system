@@ -24,7 +24,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>If you're aiming to purchase dofollow backlinks, it's crucial to focus on quality over quantity. Low-quality links can harm your site, but high-quality ones from authoritative domains can skyrocket your domain authority. At Backlinkoo, we ensure every link we provide is from trusted sources, helping you build a robust SEO foundation.</p>
   
   <div class="media">
-    <img src="/media/purchase-dofollow-backlinks-img1.jpg" alt="purchase dofollow backlinks infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="purchase dofollow backlinks infographic" width="800" height="400" />
     <p><em>Infographic explaining the difference between dofollow and nofollow links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -49,7 +49,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>While these organic methods are effective, they require time and effort. If you're short on resources, purchasing dofollow backlinks from a reliable provider like Backlinkoo can complement your organic efforts seamlessly.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on organic link building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on broken link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -122,7 +122,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>These tools can enhance your ability to purchase dofollow backlinks effectively. Backlinkoo integrates with many of them to provide seamless service.</p>
   
   <div class="media">
-    <img src="/media/purchase-dofollow-backlinks-img2.jpg" alt="tools for link building comparison" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="tools for link building comparison" width="800" height="400" />
     <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -143,7 +143,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>These cases demonstrate that when you purchase dofollow backlinks wisely, the results can be transformative.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video-id" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video testimonial from a satisfied client (Source: Backlinkoo)</em></p>
   </div>
   
@@ -184,7 +184,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>Inspect the HTML; absence of rel="nofollow" indicates dofollow. Tools like Ahrefs can help.</p>
   
   <div class="media">
-    <img src="/media/purchase-dofollow-backlinks-img3.jpg" alt="FAQ on backlinks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="FAQ on backlinks" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   

@@ -24,7 +24,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>In 2023, Google's John Mueller emphasized the importance of natural link profiles, warning against artificial link building. This is where <strong>SEO backlink audit tools</strong> shine, helping you maintain a balanced, organic-looking profile.</p>
     
     <div class="media">
-        <img src="/media/seo-backlink-audit-tools-img1.jpg" alt="SEO backlink audit tools infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="SEO backlink audit tools infographic" width="800" height="400" />
         <p><em>Infographic showing key metrics in a backlink audit (Source: Backlinkoo)</em></p>
     </div>
     
@@ -53,7 +53,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>Remember, organic link building boosts domain authority over time. A Backlinko study found that pages with infographics get 37.5% more backlinks on average.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -127,7 +127,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>Outbound link: For in-depth reviews, check <a href="https://ahrefs.com/blog/backlink-audit-tools" target="_blank" rel="noopener noreferrer">Ahrefs' own guide</a>.</p>
     
     <div class="media">
-        <img src="/media/seo-backlink-audit-tools-img2.jpg" alt="Comparison chart of SEO backlink audit tools" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Comparison chart of SEO backlink audit tools" width="800" height="400" />
         <p><em>Visual comparison of top tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -146,7 +146,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>An SEO agency used Moz and XRumer for a client, auditing and posting to build 200 links. Result: 35% increase in search visibility. Backlinkoo's integration helped scale efforts safely.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on backlink audits (Source: Backlinkoo)</em></p>
     </div>
     

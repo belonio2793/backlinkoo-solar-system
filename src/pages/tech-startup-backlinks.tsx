@@ -24,7 +24,7 @@ const TechStartupBacklinks: React.FC = () => {
     </ul>
     <p>Google's algorithms, as outlined in <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Google Search Central</a>, prioritize sites with natural, relevant backlinks. For tech startups, ignoring this can mean getting lost in the noise of thousands of similar ventures.</p>
     <div class="media">
-        <img src="/media/tech-startup-backlinks-img1.jpg" alt="tech startup backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="tech startup backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on tech startup growth (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, we've helped numerous tech startups achieve a 200% increase in organic traffic through targeted backlink campaigns. But how do you get started? Let's explore organic strategies next.</p>
@@ -45,7 +45,7 @@ const TechStartupBacklinks: React.FC = () => {
     <p>Sign up for HARO and respond to queries from journalists covering tech startups. Providing expert quotes can lead to backlinks from major publications like Forbes or Wired.</p>
     <p>These organic methods require time but yield sustainable results. If you're short on resources, Backlinkoo offers services to handle this for you, ensuring your tech startup backlinks are built ethically.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building for tech startups (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
 
@@ -112,7 +112,7 @@ const TechStartupBacklinks: React.FC = () => {
     </table>
     <p>At Backlinkoo, we integrate these tools into our services to deliver optimal results for your tech startup backlinks needs.</p>
     <div class="media">
-        <img src="/media/tech-startup-backlinks-img2.jpg" alt="tools for tech startup backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="tools for tech startup backlinks" width="800" height="400" />
         <p><em>Visual guide to backlink tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -125,7 +125,7 @@ const TechStartupBacklinks: React.FC = () => {
     <h3>Case Study 3: EdTech Platform</h3>
     <p>By buying targeted backlinks safely through Backlinkoo and using <a href="/xrumer">XRumer</a> for forum posts, this platform gained 100 dofollow links. Outcome: 200% increase in sign-ups, with rankings improving for LSI terms like "educational tech link building."</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on tech startup backlinks success (Source: Backlinkoo)</em></p>
     </div>
 

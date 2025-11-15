@@ -14,7 +14,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Backlinkoo, as an expert in SEO services, recommends integrating BuzzSumo into your workflow to identify untapped potentials. This not only saves time but also ensures your link building efforts are data-driven, focusing on LSI terms like domain authority and dofollow links to maximize impact.</p>
     
     <div class="media">
-        <img src="/media/buzzsumo-for-link-opportunities-img1.jpg" alt="BuzzSumo for link opportunities infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="BuzzSumo for link opportunities infographic" width="800" height="400" />
         <p><em>Infographic showing how BuzzSumo uncovers link prospects (Source: Backlinkoo)</em></p>
     </div>
     
@@ -40,7 +40,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>According to a Backlinko study, influencer collaborations can yield backlinks with an average domain authority of 70+. Use BuzzSumo to track their shared content and tailor your outreach accordingly.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="BuzzSumo Tutorial for Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="BuzzSumo Tutorial for Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Watch this tutorial on using BuzzSumo for organic link strategies (Source: YouTube)</em></p>
     </div>
     
@@ -121,7 +121,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Using BuzzSumo for influencer outreach, a SaaS firm collaborated on 15 pieces, gaining links with domain authority over 80. Outcome: 200% increase in leads, supported by Backlinkoo's XRumer integration.</p>
     
     <div class="media">
-        <img src="/media/buzzsumo-for-link-opportunities-img2.jpg" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
         <p><em>Graph depicting traffic growth from BuzzSumo strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -154,7 +154,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Tools like Ahrefs, Moz, and Backlinkoo's <Link to="/xrumer">XRumer for posting</Link> enhance its capabilities.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="Advanced BuzzSumo Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Advanced BuzzSumo Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tips for BuzzSumo in link building (Source: YouTube)</em></p>
     </div>
     

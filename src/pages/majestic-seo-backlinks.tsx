@@ -16,7 +16,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Backlinks aren't just about quantity; quality reigns supreme. A single Majestic SEO backlink from a high-authority site can outweigh dozens from low-quality ones. This is why strategies focusing on relevant, niche-specific links are crucial for long-term success.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img1.jpg" alt="Majestic SEO backlinks infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Majestic SEO backlinks infographic" width="800" height="400" />
     <p><em>Infographic illustrating Majestic SEO backlinks metrics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -33,7 +33,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Additionally, infographics, videos, and in-depth guides are link magnets. For more on automation, check out <Link to="/xrumer">XRumer for posting</Link> to forums and blogs efficiently.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video on Majestic SEO backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on Majestic SEO backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on building Majestic SEO backlinks organically (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -94,7 +94,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>At Backlinkoo, we integrate these tools to deliver optimal Majestic SEO backlink strategies tailored to your needs.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img2.jpg" alt="Tools for Majestic SEO backlinks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Tools for Majestic SEO backlinks" width="800" height="400" />
     <p><em>Comparison of SEO tools for backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -108,7 +108,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> to build local backlinks. Majestic analysis showed a 40% improvement in Citation Flow, leading to top local search positions and a 150% lead increase.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Majestic SEO backlinks case study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Majestic SEO backlinks case study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
   </div>
   
@@ -131,7 +131,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>LSI terms like "dofollow links" and "domain authority" enhance content relevance and backlink value.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img3.jpg" alt="FAQ on Majestic SEO backlinks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="FAQ on Majestic SEO backlinks" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   

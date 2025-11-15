@@ -25,7 +25,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>At Backlinkoo, we've seen clients increase their organic traffic by up to 150% through targeted travel blog guest posts. It's not just about quantity; it's about quality and relevance.</p>
   
   <div class="media">
-    <img src="/media/travel-blog-guest-posts-img1.jpg" alt="travel blog guest posts infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="travel blog guest posts infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the benefits of travel blog guest posts for SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -68,7 +68,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>Backlinkoo's expert team handles everything, from selection to placement, making it a risk-free option for your travel blog guest posts needs.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on travel blog guest posts tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on travel blog guest posts tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on securing travel blog guest posts (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -133,7 +133,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>For a luxury resort chain, Backlinkoo facilitated 25 travel blog guest posts. Outcomes included a 180% rise in bookings from organic search and top rankings for "luxury travel destinations." Stats: DA from 35 to 60 in six months.</p>
   
   <div class="media">
-    <img src="/media/travel-blog-guest-posts-img2.jpg" alt="travel blog guest posts case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="travel blog guest posts case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart depicting traffic growth from travel blog guest posts (Source: Backlinkoo)</em></p>
   </div>
   
@@ -163,7 +163,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>We offer end-to-end services, from content creation to secure placements on high-DA sites.</p>
   
   <div class="media">
-    <img src="/media/travel-blog-guest-posts-img3.jpg" alt="travel blog guest posts FAQ illustration" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="travel blog guest posts FAQ illustration" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Illustration of common FAQs on travel blog guest posts (Source: Backlinkoo)</em></p>
   </div>
   

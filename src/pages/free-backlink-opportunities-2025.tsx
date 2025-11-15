@@ -15,7 +15,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>In a post-Helpful Content Update era, Google rewards sites that earn links naturally. This means focusing on content that attracts links, such as in-depth guides or original research. At Backlinkoo, we see clients who leverage these opportunities experience up to 30% traffic growth within months. But remember, not all links are equal—priorities high domain authority sources for maximum impact.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img1.jpg" alt="free backlink opportunities 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="free backlink opportunities 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -54,7 +54,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>Create shareable infographics on trending topics for 2025, like "SEO Predictions." Embed them with attribution links, encouraging shares. Sites like Visual.ly can amplify reach, leading to natural backlinks.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img2.jpg" alt="Infographic on organic link building strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Infographic on organic link building strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to free backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -123,7 +123,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>These tools can supercharge your hunt for free backlink opportunities 2025. For advanced automation, Backlinkoo's <Link to="/senuke">SENUKE</Link> integrates seamlessly with strategies like guest posting.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on using Ahrefs for backlink research (Source: YouTube)</em></p>
   </div>
   
@@ -144,7 +144,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>A non-profit used infographics and social media to gain 70 backlinks. Engagement metrics improved by 50%, with domain authority jumping 15 points. This demonstrates free backlink opportunities 2025 work across sectors.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img3.jpg" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph of traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -179,7 +179,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>Quality matters more; aim for 20-50 from authoritative sites initially.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video FAQ on backlink strategies (Source: YouTube)</em></p>
   </div>
   

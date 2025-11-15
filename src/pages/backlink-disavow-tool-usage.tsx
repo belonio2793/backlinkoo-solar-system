@@ -22,7 +22,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Imagine investing in robust link building only to have it undermined by irrelevant or manipulative links. Disavowing protects your site's reputation and ensures that your efforts in acquiring high-quality backlinks pay off. At Backlinkoo, we emphasize proactive monitoring to avoid the need for disavowal, but when it's necessary, knowing how to use the tool correctly is key.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img1.jpg" alt="backlink disavow tool usage infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="backlink disavow tool usage infographic" width="800" height="400" />
         <p><em>Infographic explaining the basics of backlink disavow tool usage (Source: Backlinkoo)</em></p>
     </div>
     
@@ -113,7 +113,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>At Backlinkoo, integrating tools like SENUKE and XRumer with <strong>backlink disavow tool usage</strong> ensures a balanced approach.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img2.jpg" alt="backlink disavow tool usage tools comparison" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="backlink disavow tool usage tools comparison" width="800" height="400" />
         <p><em>Comparison of backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -132,7 +132,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Using <Link to="/senuke">SENUKE for automation</Link>, a client identified and disavowed harmful links, resulting in a 20% boost in search visibility. Fake stats show a recovery from 10,000 to 15,000 monthly visitors.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img3.jpg" alt="backlink disavow tool usage case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="backlink disavow tool usage case study graph" width="800" height="400" />
         <p><em>Graph showing traffic recovery after disavow (Source: Backlinkoo)</em></p>
     </div>
     
@@ -177,7 +177,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Yes, focus on building high-quality backlinks to dilute bad ones, or use manual removal.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/disavow-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Step-by-step disavow tutorial (Source: Backlinkoo)</em></p>
     </div>
     

@@ -24,7 +24,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>By adopting these alternatives, you protect your site while achieving scalable results. At Backlinkoo, we've helped countless clients recover from black hat penalties by shifting to ethical methods, resulting in up to 150% traffic increases within six months.</p>
   
   <div class="media">
-    <img src="/media/ethical-black-hat-alternatives-img1.jpg" alt="ethical black hat alternatives infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="ethical black hat alternatives infographic" width="800" height="400" />
     <p><em>Infographic showing the risks of black hat vs. benefits of ethical alternatives (Source: Backlinkoo)</em></p>
   </div>
   
@@ -48,7 +48,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>These methods boost visibility and domain authority ethically. For more on this, check out <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' guide to broken link building</a>.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on ethical link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -115,7 +115,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>At Backlinkoo, we recommend starting with <Link to="/senuke">SENUKE for automation</Link> to streamline your ethical campaigns.</p>
   
   <div class="media">
-    <img src="/media/ethical-black-hat-alternatives-img2.jpg" alt="tools for ethical SEO" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="tools for ethical SEO" width="800" height="400" />
     <p><em>Comparison of SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -131,7 +131,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>A digital agency integrated ethical buying with organic strategies via Backlinkoo services. They saw a 250% ROI, with clients gaining 300+ high-quality links, improving overall SEO metrics (fake stats).</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video case study on ethical SEO success (Source: Backlinkoo)</em></p>
   </div>
   
@@ -159,7 +159,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>You risk penalties, traffic loss, and long-term SEO damage, as seen in Moz's annual reports.</p>
   
   <div class="media">
-    <img src="/media/ethical-black-hat-alternatives-img3.jpg" alt="FAQ infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="FAQ infographic" width="800" height="400" />
     <p><em>Visual FAQ on ethical SEO (Source: Backlinkoo)</em></p>
   </div>
   

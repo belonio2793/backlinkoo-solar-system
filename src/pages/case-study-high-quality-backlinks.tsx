@@ -37,7 +37,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>A <a href="https://moz.com/blog/state-of-link-building" target="_blank" rel="noopener noreferrer">Moz report</a> reveals that backlinks account for up to 20-30% of ranking factors. Neglecting them can leave your site lagging behind competitors. At Backlinkoo, our services are designed to secure these vital links, ensuring your site's long-term success.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img1.jpg" alt="case study high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="case study high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the impact of high quality backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -92,7 +92,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Brian Dean of Backlinko reported a 110% increase in organic traffic using this method. Incorporate LSI terms like "link building strategies" to enhance relevance.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -184,7 +184,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> can save time while maintaining quality.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img2.jpg" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison chart of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -220,7 +220,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>These case studies highlight the transformative power of high quality backlinks when executed properly.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img3.jpg" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth in case studies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -253,7 +253,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Backlinkoo helps clients sidestep these mistakes with expert guidance and proven methodologies.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Common link building mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Common link building mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video on avoiding link building pitfalls (Source: Backlinkoo)</em></p>
   </div>
   

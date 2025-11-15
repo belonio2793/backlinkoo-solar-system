@@ -26,7 +26,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Statistics from Backlinko show that pages with more backlinks rank higher—top results have an average of 3.8 times more backlinks than positions 2-10. For health blogs, this means targeted link building can lead to better visibility, increased trust, and higher conversion rates for affiliate products or consultations.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img1.jpg" alt="health blog link building infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="health blog link building infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of link building on health blog SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -55,7 +55,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>At Backlinkoo, we emphasize building genuine relationships to secure long-term link opportunities, enhancing your overall backlink profile.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies for health blogs (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -128,7 +128,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Outbound link: Explore Google's take on link schemes at <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener noreferrer">Google Search Central Spam Policies</a>.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img2.jpg" alt="tools for health blog link building" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="tools for health blog link building" width="800" height="400" />
     <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -161,7 +161,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>By steering clear of these, you'll build a robust backlink profile that withstands algorithm updates.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video on avoiding link building mistakes (Source: Backlinkoo)</em></p>
   </div>
   
@@ -202,7 +202,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Contact us today to supercharge your SEO with proven <strong>health blog link building</strong> strategies. Remember, consistent effort and quality content are key to long-term success.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img3.jpg" alt="success in health blog link building" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="success in health blog link building" width="800" height="400" />
     <p><em>Chart showing growth from link building (Source: Backlinkoo)</em></p>
   </div>
   

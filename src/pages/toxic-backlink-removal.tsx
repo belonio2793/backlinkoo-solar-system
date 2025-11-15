@@ -15,7 +15,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>Why Toxic Backlink Removal Is Crucial</h3>
   <p>Search engines prioritize user experience and trustworthiness. Toxic links signal manipulation, leading to penalties like those from Google's Penguin update. Removing them can recover lost rankings, improve crawl efficiency, and enhance your site's credibility. In fact, Moz reports that sites undergoing thorough toxic backlink removal often see a 20-50% increase in search visibility within months.</p>
   <div class="media">
-    <img src="/media/toxic-backlink-removal-img1.jpg" alt="toxic backlink removal infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="toxic backlink removal infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of toxic backlinks on SEO (Source: Backlinkoo)</em></p>
   </div>
   <p>For more on backlink basics, check out this <a href="https://moz.com/blog/toxic-backlinks" target="_blank" rel="noopener noreferrer">Moz Guide on Toxic Backlinks</a>.</p>
@@ -30,7 +30,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <p>Broken links can become toxic if they're from dead pages. Use tools to find them and suggest replacements with your high-quality content. This not only removes the toxic element but turns it into a positive link building opportunity. Remember, toxic backlink removal is about balance—remove the bad and build the good.</p>
   <p>For automation in your link management, consider <Link to="/senuke">SENUKE for automation</Link>, which can help streamline audits and outreach processes.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-tutorial-video" title="YouTube video on backlink audits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on backlink audits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on identifying toxic backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -99,7 +99,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>Case Study 3: Agency Client Turnaround</h3>
   <p>An SEO agency client had low domain authority due to outdated directories. Our team handled toxic backlink removal, combining manual outreach with <Link to="/xrumer">XRumer</Link> for monitoring. Post-removal, the site saw a 40% boost in search impressions and a 30% increase in conversions.</p>
   <div class="media">
-    <img src="/media/toxic-backlink-removal-img2.jpg" alt="case study graph for toxic backlink removal" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="case study graph for toxic backlink removal" width="800" height="400" />
     <p><em>Graph showing traffic recovery after removal (Source: Backlinkoo)</em></p>
   </div>
   
@@ -126,11 +126,11 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>How long does recovery take after removal?</h3>
   <p>Typically 1-3 months, depending on the penalty severity and follow-up link building.</p>
   <div class="media">
-    <img src="/media/toxic-backlink-removal-img3.jpg" alt="FAQ infographic on toxic backlinks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="FAQ infographic on toxic backlinks" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video on disavowing links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on disavowing links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Step-by-step disavowal tutorial (Source: Backlinkoo)</em></p>
   </div>
   

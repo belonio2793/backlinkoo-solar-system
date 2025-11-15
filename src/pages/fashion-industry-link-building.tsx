@@ -13,7 +13,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <p>Why does it matter? According to a study by Ahrefs, pages with more backlinks tend to rank higher in search results. For fashion brands, this means increased visibility for seasonal collections, blog posts on style tips, or e-commerce pages. High domain authority sites linking to you can enhance your site's trustworthiness, leading to better SEO performance. In fact, Moz reports that backlinks are one of the top ranking factors, making <strong>fashion industry link building</strong> essential for long-term success.</p>
     <p>Imagine a fashion blog linking to your online store's latest handbag collection—this not only drives referral traffic but also improves your site's dofollow links profile. Without a solid link building strategy, even the most stunning fashion content might get lost in the digital noise.</p>
     <div class="media">
-        <img src="/media/fashion-industry-link-building-img1.jpg" alt="fashion industry link building infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="fashion industry link building infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of link building on fashion SEO (Source: Backlinkoo)</em></p>
     </div>
 
@@ -32,7 +32,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <p>Create shareable content like infographics on fashion trends, lookbooks, or trend forecasts. Promote them on social media platforms like Instagram or Pinterest, where fashion thrives. Encourage shares and backlinks by collaborating with influencers. For instance, a viral post on "Sustainable Fashion Myths Debunked" could earn natural links from eco-conscious blogs.</p>
     <p>Additionally, participate in fashion forums or Reddit communities like r/fashion to share your expertise without spamming. Organic mentions can evolve into full backlinks, enhancing your <strong>fashion industry link building</strong> efforts.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic strategies for fashion link building (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
 
@@ -95,7 +95,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend integrating <Link to="/senuke">SENUKE for automation</Link> with <Link to="/xrumer">XRumer for posting</Link> to supercharge your <strong>fashion industry link building</strong> without manual hassle.</p>
     <div class="media">
-        <img src="/media/fashion-industry-link-building-img2.jpg" alt="tools for fashion link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="tools for fashion link building" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -111,7 +111,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <h3>Case Study 3: Fashion Blogger Network</h3>
     <p>A network of bloggers implemented broken link strategies, earning 75 links from authoritative sites. Domain authority improved by 30 points, and monthly visitors grew from 10,000 to 50,000. Backlinkoo's expertise ensured safe practices, avoiding penalties.</p>
     <div class="media">
-        <img src="/media/fashion-industry-link-building-img3.jpg" alt="case study graph for fashion link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="case study graph for fashion link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
     </div>
 

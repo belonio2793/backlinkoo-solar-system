@@ -15,7 +15,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <h3>The Impact on Domain Authority</h3>
     <p>Domain authority (DA), a metric by Moz, measures a site's potential to rank. Seasonal link building campaigns can elevate DA by attracting links from high-DA sites. For example, a Christmas-themed infographic might earn links from retail blogs with DA scores above 70, directly boosting your own metrics.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img1.jpg" alt="seasonal link building campaigns infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="seasonal link building campaigns infographic" width="800" height="400" />
         <p><em>Infographic showing the growth in backlinks during seasonal peaks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -31,7 +31,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <p>Develop seasonal content like infographics or guides, then promote via social media and email newsletters. For example, a "Valentine's Day Gift Guide" could attract links from lifestyle blogs. Incorporate keywords like "seasonal link building campaigns" to optimize for search.</p>
     <p>Remember, quality over quantity—aim for content that solves problems or provides unique insights to encourage natural linking.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on seasonal link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on seasonal link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on creating seasonal content for link building (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -111,7 +111,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <h3>Case Study 3: Tech Brand Back-to-School Campaign</h3>
     <p>Focusing on educational tech, this client used paid links safely combined with organic efforts. They acquired 100 links during August, leading to a 28% ranking improvement for key terms. Backlinkoo's expertise ensured no penalties, with a 45% ROI on the campaign.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img2.jpg" alt="case study graph for seasonal link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="case study graph for seasonal link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from a seasonal campaign (Source: Backlinkoo)</em></p>
     </div>
     
@@ -143,11 +143,11 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <p>Seasonal link building campaigns are a game-changer for boosting domain authority and traffic. As per Moz's 2023 report, sites with diverse backlink strategies see 2x better rankings. At Backlinkoo, our expert team draws on years of experience to deliver authoritative, trustworthy services. Whether through organic tactics or safe paid options, we're here to help. Contact us today to launch your next campaign.</p>
     <p>Stats source: <a href="https://moz.com/blog/state-of-link-building" target="_blank" rel="noopener noreferrer">Moz State of Link Building</a>; <a href="https://ahrefs.com/blog/link-building-statistics" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Stats</a>; <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img3.jpg" alt="expert tips for link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="expert tips for link building" width="800" height="400" />
         <p><em>Expert tips infographic (Source: Backlinkoo)</em></p>
     </div>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Advanced seasonal link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced seasonal link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tutorial on tools like SENUKE (Source: Backlinkoo)</em></p>
     </div>
 `;

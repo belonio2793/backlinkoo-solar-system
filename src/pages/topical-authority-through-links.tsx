@@ -15,7 +15,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>At Backlinkoo, we've seen clients double their traffic by focusing on niche-specific <strong>dofollow links</strong>. But building this authority isn't overnight; it requires a mix of content creation, outreach, and smart linking tactics.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img1.jpg" alt="topical authority through links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="topical authority through links infographic" width="800" height="400" />
         <p><em>Infographic illustrating how links contribute to topical authority (Source: Backlinkoo)</em></p>
     </div>
     
@@ -40,7 +40,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>For a deeper dive, refer to Google's guidelines on link schemes via <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -115,7 +115,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>Integrating these tools can supercharge your efforts. For instance, use <Link to="/senuke">SENUKE for automation</Link> alongside Ahrefs for analysis.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -135,7 +135,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>These cases show that with Backlinkoo's expertise, achieving <strong>topical authority through links</strong> is attainable and profitable.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
     </div>
     
@@ -169,7 +169,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>For more FAQs, visit <a href="https://ahrefs.com/blog/topical-authority" target="_blank" rel="noopener noreferrer">Ahrefs on Topical Authority</a>.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img3.jpg" alt="FAQ infographic on link strategies" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="FAQ infographic on link strategies" width="800" height="400" />
         <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

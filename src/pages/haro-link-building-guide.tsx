@@ -11,7 +11,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <p>Why does HARO matter? In the world of SEO, backlinks are the backbone of search engine rankings. According to a study by Ahrefs, sites with higher domain authority tend to rank better, and HARO provides an organic way to earn these links without resorting to spammy tactics. Unlike paid links, HARO-earned backlinks are seen as natural by Google, aligning with their guidelines on <a href="https://developers.google.com/search/docs/essentials" target="_blank" rel="noopener noreferrer">Google Search Central</a>. This makes HARO a cornerstone of any effective link building strategy.</p>
   <p>Imagine getting a dofollow link from outlets like Forbes or The New York Times – that's the power of HARO. It not only boosts your SEO but also builds brand credibility. In fact, statistics from Moz show that sites with diverse backlink profiles see up to 20% better organic traffic. By following this <strong>HARO link building guide</strong>, you can tap into this potential and avoid penalties from unnatural link schemes.</p>
   <div class="media">
-    <img src="/media/haro-link-building-guide-img1.jpg" alt="HARO link building guide infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="HARO link building guide infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the HARO process for link building (Source: Backlinkoo)</em></p>
   </div>
   <p>At Backlinkoo.com, we've helped countless clients leverage HARO to skyrocket their domain authority. If you're ready to integrate HARO into your link building arsenal, keep reading.</p>
@@ -29,7 +29,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <p>Broken link building is another gem. Use Ahrefs to find dead links on high-authority sites, then offer your content as a replacement. For instance, if a site links to an outdated HARO guide, suggest this one! This method often yields dofollow links and complements HARO efforts by diversifying your backlink profile.</p>
   <p>Other strategies include skyscraper technique (improving on top content) and resource page outreach. Remember, organic link building focuses on value – provide it, and links will follow. For more on this, check out <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' Link Building Guide</a>.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-haro-tutorial" title="HARO Link Building Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="HARO Link Building Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on pitching for HARO links (Source: Backlinkoo YouTube)</em></p>
   </div>
   <p>At Backlinkoo.com, our experts can handle these organic strategies for you, ensuring high-quality dofollow links without the hassle.</p>
@@ -87,7 +87,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   </table>
   <p>For more tools, visit <a href="https://moz.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Moz's Link Building Tools</a>.</p>
   <div class="media">
-    <img src="/media/haro-link-building-guide-img2.jpg" alt="Tools for HARO link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Tools for HARO link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to HARO tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -103,7 +103,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <h3>Case Study 3: Local Business Expansion</h3>
   <p>A local gym chain used HARO for fitness tips, earning links from Healthline (DA 88). Traffic grew 28%, and they saw a 15% increase in leads. Integrating with <Link to="/senuke">SENUKE for automation</Link> scaled their efforts efficiently.</p>
   <div class="media">
-    <img src="/media/haro-link-building-guide-img3.jpg" alt="HARO case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="HARO case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from HARO (Source: Backlinkoo)</em></p>
   </div>
 
@@ -137,7 +137,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   <p>This <strong>HARO link building guide</strong> has covered everything from definitions to case studies. Remember, effective link building boosts domain authority and traffic – stats from SEMrush show sites with strong backlinks rank 3.8x higher. As SEO experts at Backlinkoo.com, we recommend starting with HARO for ethical gains. For personalized services, contact us today. Sources: <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, <a href="https://moz.com/blog/haro-link-building" target="_blank" rel="noopener noreferrer">Moz HARO Guide</a>, and <a href="https://backlinko.com/seo-stats" target="_blank" rel="noopener noreferrer">Backlinko Stats</a>.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-conclusion-video" title="HARO Conclusion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="HARO Conclusion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Final tips on HARO link building (Source: Backlinkoo)</em></p>
   </div>`;
 

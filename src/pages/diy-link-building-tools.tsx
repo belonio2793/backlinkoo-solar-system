@@ -14,7 +14,7 @@ const DiyLinkBuildingTools: React.FC = () => {
   <p>At Backlinkoo.com, our experts recommend starting with a solid understanding of <em>dofollow links</em>, which pass link equity, versus nofollow links. Building a diverse backlink profile with high <em>domain authority</em> sites can significantly boost your visibility.</p>
   
   <div class="media">
-    <img src="/media/diy-link-building-tools-img1.jpg" alt="DIY link building tools infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="DIY link building tools infographic" width="800" height="400" />
     <p><em>Infographic showing the importance of backlinks in SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -69,7 +69,7 @@ const DiyLinkBuildingTools: React.FC = () => {
   <p>Integrate buying with DIY strategies for balance. Tools like <Link to="/xrumer">XRumer for posting</Link> can help in automated link placement safely.</p>
   
   <div class="media">
-    <img src="/media/diy-link-building-tools-img2.jpg" alt="Pros and cons of buying links chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Pros and cons of buying links chart" width="800" height="400" />
     <p><em>Chart illustrating pros and cons of link buying (Source: Backlinkoo)</em></p>
   </div>
   
@@ -139,7 +139,7 @@ const DiyLinkBuildingTools: React.FC = () => {
   <p>Using <Link to="/senuke">SENUKE</Link> for automation alongside manual outreach, a SaaS company built 300 links in 3 months. This led to a 150% increase in leads and a domain rating jump from 30 to 55, as measured by Ahrefs.</p>
   
   <div class="media">
-    <img src="/media/diy-link-building-tools-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
   </div>
   

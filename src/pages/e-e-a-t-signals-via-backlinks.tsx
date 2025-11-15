@@ -26,7 +26,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>In fact, Google's own guidelines highlight that links from authoritative sites help establish trust. Without strong <strong>E-E-A-T signals via backlinks</strong>, even the best content might struggle to rank, especially in competitive niches. This is why integrating backlink strategies is non-negotiable for long-term SEO success.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img1.jpg" alt="E-E-A-T signals via backlinks infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="E-E-A-T signals via backlinks infographic" width="800" height="400" />
     <p><em>Infographic illustrating how backlinks enhance E-E-A-T signals (Source: Backlinkoo)</em></p>
   </div>
   
@@ -57,7 +57,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Sign up for HARO and respond to queries in your expertise area. For resource pages, search for terms like "best resources for [niche]" and pitch your content. These organic backlinks are powerful E-E-A-T boosters.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -129,7 +129,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>These tools, especially <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, integrate seamlessly with Backlinkoo services for optimal results in building <strong>E-E-A-T signals via backlinks</strong>.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img2.jpg" alt="Tools for backlink building comparison chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Tools for backlink building comparison chart" width="800" height="400" />
     <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -148,7 +148,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>A tech startup used a combination of organic and purchased backlinks via Backlinkoo. They secured 200 links, boosting DA from 20 to 45. Organic search traffic grew 400%, and investor interest spiked. This case highlights safe buying practices integrated with tools like <Link to="/xrumer">XRumer</Link> for efficient posting.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -184,7 +184,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>FAQ video on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
   </div>
   

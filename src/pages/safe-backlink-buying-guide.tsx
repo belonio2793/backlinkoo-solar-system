@@ -15,7 +15,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h3>Why Backlinks Matter in SEO</h3>
     <p>According to a study by <a href="https://ahrefs.com/blog/backlinks-seo/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, pages with more backlinks tend to rank higher. Backlinks signal trustworthiness and relevance, making them essential for link building strategies. However, not all backlinks are created equal—quality over quantity is the mantra in any <strong>safe backlink buying guide</strong>.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img1.jpg" alt="safe backlink buying guide infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="safe backlink buying guide infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     <p>Without strong backlinks, even the best content might languish in search results. This guide emphasizes safe practices to avoid black-hat tactics that could lead to de-indexing.</p>
@@ -42,7 +42,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <p>To buy safely, vet providers for transparency. Look for services offering dofollow links from authoritative, relevant sites. Avoid PBNs (Private Blog Networks) as they're risky. At Backlinkoo, we specialize in safe, white-hat backlink acquisition, ensuring compliance with SEO best practices.</p>
     <p>Monitor your link profile with tools like <a href="https://moz.com/explorer" target="_blank" rel="noopener noreferrer">Moz</a>. Diversify sources and focus on natural anchor text. Remember, this <strong>safe backlink buying guide</strong> recommends blending bought links with organic ones for a balanced profile.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on safe backlink buying strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -101,7 +101,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h3>Case Study 3: Local Business Growth</h3>
     <p>A local service provider bought niche-specific links, leading to a 60% traffic surge. Domain authority improved by 20 points, aligning with Google's emphasis on relevant link building.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img2.jpg" alt="case study graph for safe backlink buying guide" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="case study graph for safe backlink buying guide" width="800" height="400" />
         <p><em>Graph showing traffic growth from safe backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -133,12 +133,12 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h2>Conclusion: Building Trust with Safe Backlinks</h2>
     <p>As an expert in SEO, Backlinkoo emphasizes E-E-A-T: Experience from years of successful campaigns, Expertise in white-hat strategies, Authoritativeness backed by industry stats (e.g., Ahrefs reports 91% of content gets no traffic without backlinks), and Trustworthiness through transparent services. For personalized help, explore our offerings. Remember, this <strong>safe backlink buying guide</strong> is your roadmap to sustainable SEO success.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img3.jpg" alt="E-E-A-T signals in safe backlink buying guide" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="E-E-A-T signals in safe backlink buying guide" width="800" height="400" />
         <p><em>Illustration of E-E-A-T principles (Source: Backlinkoo)</em></p>
     </div>
     <p>Stats from <a href="https://www.searchenginejournal.com/backlinks-importance/" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>: Quality backlinks can improve rankings by up to 20%. Partner with Backlinkoo for safe, effective link building.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tips on link building (Source: Backlinkoo)</em></p>
     </div>
     <!-- Expanded content to reach 5000 words: Below is placeholder text repeated and expanded for length. In real scenario, this would be detailed paragraphs. -->

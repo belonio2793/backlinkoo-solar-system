@@ -11,7 +11,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>In fact, Moz reports that backlinks are one of the top three ranking factors in Google's algorithm (<a href="https://moz.com/blog/google-ranking-factors" target="_blank" rel="noopener noreferrer">Moz Ranking Factors</a>). Without them, your SaaS product might languish in search obscurity, missing out on potential revenue. At Backlinkoo, we've seen clients double their organic traffic in months by prioritizing these tactics.</p>
   
   <div class="media">
-    <img src="/media/saas-link-building-tactics-img1.jpg" alt="SaaS link building tactics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="SaaS link building tactics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing key SaaS link building tactics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -35,7 +35,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>A study from Backlinko shows that content with partnerships sees 2x more shares and links (<a href="https://backlinko.com/content-study" target="_blank" rel="noopener noreferrer">Backlinko Content Study</a>). Integrate this into your <strong>SaaS link building tactics</strong> for organic amplification.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/some-saas-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on organic SaaS link building tactics (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -100,7 +100,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>At Backlinkoo, we integrate tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> to make <strong>SaaS link building tactics</strong> more efficient.</p>
   
   <div class="media">
-    <img src="/media/saas-link-building-tactics-img2.jpg" alt="Tools for SaaS link building tactics" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Tools for SaaS link building tactics" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -117,7 +117,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>Focusing on buying safe links and resource pages, they gained 100 high-quality backlinks. Rankings for key terms improved by 50 positions, leading to a 150% traffic boost and 40% more sign-ups. Backlinkoo's expertise ensured compliance and results.</p>
   
   <div class="media">
-    <img src="/media/saas-link-building-tactics-img3.jpg" alt="Case study graphs for SaaS link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Case study graphs for SaaS link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs from SaaS case studies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -147,7 +147,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>Track metrics like organic traffic, domain authority, and conversion rates using tools from Ahrefs or Moz.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-saas-faq-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>FAQ video on SaaS link building tactics (Source: Backlinkoo)</em></p>
   </div>
   

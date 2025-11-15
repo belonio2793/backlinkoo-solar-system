@@ -17,7 +17,7 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>Proper link juice distribution can enhance your site's crawlability and indexing. Google's algorithms, as outlined in their <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Search Central guidelines</a>, reward sites with natural, high-quality link profiles. This leads to better organic search positions, increased traffic, and higher conversion rates.</p>
     
     <div class="media">
-        <img src="/media/link-juice-distribution-img1.jpg" alt="link juice distribution infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="link juice distribution infographic" width="800" height="400" />
         <p><em>Infographic illustrating how link juice flows between pages (Source: Backlinkoo)</em></p>
     </div>
     
@@ -84,7 +84,7 @@ const LinkJuiceDistribution: React.FC = () => {
     </table>
     
     <div class="media">
-        <img src="/media/link-juice-distribution-img2.jpg" alt="tools for link juice optimization" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for link juice optimization" width="800" height="400" />
         <p><em>Comparison of SEO tools for link management (Source: Backlinkoo)</em></p>
     </div>
     
@@ -98,7 +98,7 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>A local service provider used <Link to="/senuke">SENUKE for automation</Link> to build local citations and directory links. Link juice from these sources boosted local SEO, resulting in a 90% increase in leads and top rankings for "service in [city]". Fake stats: From 10 monthly leads to 100.</p>
     
     <div class="media">
-        <img src="/media/link-juice-distribution-img3.jpg" alt="case study graph on SEO growth" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="case study graph on SEO growth" width="800" height="400" />
         <p><em>Graph showing traffic growth from link juice strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -119,7 +119,7 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>Focus on acquiring high-quality backlinks via organic strategies and monitor distribution with analytics tools.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-seo-tutorial" title="Advanced link juice tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Advanced link juice tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Expert tips on optimizing link juice (Source: Backlinkoo)</em></p>
     </div>
     

@@ -22,7 +22,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   <p>By conducting A/B tests, you can measure metrics such as referral traffic, bounce rates, and conversion rates. This data-driven approach aligns with modern SEO best practices, ensuring your link building strategy is both effective and compliant.</p>
   
   <div class="media">
-    <img src="/media/A-B-testing-anchor-texts-img1.jpg" alt="A/B testing anchor texts infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="A/B testing anchor texts infographic" width="800" height="400" />
     <p><em>Infographic illustrating the basics of A/B testing anchor texts (Source: Backlinkoo)</em></p>
   </div>
   
@@ -115,7 +115,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   <p>For more on these tools, check out <a href="https://moz.com/blog/A-B-testing-anchor-texts" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
   
   <div class="media">
-    <img src="/media/A-B-testing-anchor-texts-img2.jpg" alt="Tools for A/B testing anchor texts comparison chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Tools for A/B testing anchor texts comparison chart" width="800" height="400" />
     <p><em>Comparison chart of tools for A/B testing anchor texts (Source: Backlinkoo)</em></p>
   </div>
   
@@ -134,7 +134,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   <p>An SEO agency implemented A/B testing using <Link to="/xrumer">XRumer</Link> for posting. They saw a 50% improvement in link quality, with domain authority rising by 20 points over six months.</p>
   
   <div class="media">
-    <img src="/media/A-B-testing-anchor-texts-img3.jpg" alt="Case study graph on A/B testing anchor texts results" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Case study graph on A/B testing anchor texts results" width="800" height="400" />
     <p><em>Graph showing results from A/B testing anchor texts case studies (Source: Backlinkoo)</em></p>
   </div>
   

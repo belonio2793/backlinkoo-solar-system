@@ -13,7 +13,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <p>Why does it matter? Backlinks are a cornerstone of SEO, signaling to search engines like Google that your content is valuable and trustworthy. According to a study by Ahrefs, sites with more backlinks tend to rank higher in search results. Forums, with their active communities, can provide contextual links that not only boost domain authority but also drive targeted traffic. However, not all forums are equal—focusing on niche-relevant ones ensures relevance and avoids penalties from search engines.</p>
     <p>Incorporating forum link building tips into your strategy can lead to improved organic search performance. For instance, dofollow links from high-authority forums pass "link juice," helping your pages climb SERPs. At Backlinkoo, we've seen clients increase their traffic by up to 40% through targeted forum strategies.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img1.jpg" alt="forum link building tips infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="forum link building tips infographic" width="800" height="400" />
         <p><em>Infographic illustrating key forum link building tips (Source: Backlinkoo)</em></p>
     </div>
     
@@ -37,7 +37,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Content Syndication and Sharing</h3>
     <p>Share snippets of your content in forums, linking back to the full article. Ensure it's relevant to avoid moderation issues. This tactic can amplify your reach and generate dofollow links organically.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-forum-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic forum participation (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -100,7 +100,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend integrating <Link to="/xrumer">XRumer for posting</Link> with organic strategies for optimal results.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img2.jpg" alt="tools for forum link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="tools for forum link building" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -116,7 +116,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Case Study 3: Service-Based Business Growth</h3>
     <p>A marketing agency used <Link to="/xrumer">XRumer for posting</Link> in business forums like BlackHatWorld (ethically). They secured 100 high-authority links, boosting domain authority to 50 and conversions by 25%. Fake stats: Lead generation increased by 300 leads/quarter.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs from successful case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -148,7 +148,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>What tools do you recommend for automation?</h3>
     <p>We suggest <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> for efficient campaigns.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video on forum link building (Source: Backlinkoo)</em></p>
     </div>
     

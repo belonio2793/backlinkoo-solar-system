@@ -26,7 +26,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>Without diversification, your site risks being flagged for manipulative practices, leading to drops in rankings or even de-indexing. In contrast, a well-diversified backlink profile signals to search engines that your content is valuable and widely referenced, boosting your SEO performance.</p>
     
     <div class="media">
-        <img src="/media/backlink-profile-diversification-img1.jpg" alt="backlink profile diversification infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="backlink profile diversification infographic" width="800" height="400" />
         <p><em>Infographic illustrating the benefits of backlink profile diversification (Source: Backlinkoo)</em></p>
     </div>
     
@@ -134,7 +134,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     <a href="https://moz.com/blog/backlink-tools" target="_blank" rel="noopener noreferrer">Moz Guide to Backlink Tools</a>
     
     <div class="media">
-        <img src="/media/backlink-profile-diversification-img2.jpg" alt="tools for backlink diversification" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for backlink diversification" width="800" height="400" />
         <p><em>Visual guide to SEO tools for diversification (Source: Backlinkoo)</em></p>
     </div>
     
@@ -166,7 +166,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>By avoiding these, you can ensure your backlink profile diversification efforts yield positive results. Backlinkoo's experts can help audit and optimize your strategy.</p>
     
     <div class="media">
-        <img src="/media/backlink-profile-diversification-img3.jpg" alt="common mistakes in backlink diversification" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="common mistakes in backlink diversification" width="800" height="400" />
         <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
     </div>
     

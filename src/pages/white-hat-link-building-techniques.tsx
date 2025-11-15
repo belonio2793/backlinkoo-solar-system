@@ -14,7 +14,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>LSI terms like "dofollow links" are crucial here—these pass link equity, unlike nofollow links. By prioritizing quality over quantity, you avoid algorithm updates like Penguin, which penalize manipulative practices.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img1.jpg" alt="white hat link building techniques infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="white hat link building techniques infographic" width="800" height="400" />
         <p><em>Infographic illustrating key white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 
@@ -37,7 +37,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Target resource pages that curate links in your industry. Offer your high-quality content as an addition. This technique is ethical and effective for gaining authoritative backlinks.</p>
 
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 
@@ -105,7 +105,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> from Backlinkoo make implementing white hat link building techniques efficient and scalable.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img2.jpg" alt="tools for white hat link building techniques" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for white hat link building techniques" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -122,7 +122,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>A consulting firm used influencer collaborations. Acquired 100 links, boosting domain authority by 25 points. Traffic grew 50%, with conversions up 35%. This demonstrates how white hat techniques yield sustainable results.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img3.jpg" alt="case study graphs for white hat link building techniques" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="case study graphs for white hat link building techniques" width="800" height="400" />
         <p><em>Graphs showing growth from white hat strategies (Source: Backlinkoo)</em></p>
     </div>
 
@@ -154,7 +154,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Higher DA links provide more value, improving your site's ranking potential.</p>
 
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video on white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 

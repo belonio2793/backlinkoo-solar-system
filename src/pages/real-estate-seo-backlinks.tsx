@@ -24,7 +24,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Moreover, backlinks contribute to long-term growth. A Backlinko study found that pages with more backlinks get 3-5 times more organic traffic. For real estate agents, this translates to more leads, showings, and sales. At Backlinkoo.com, we've helped countless clients leverage these strategies to achieve measurable results.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img1.jpg" alt="real estate SEO backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="real estate SEO backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on real estate SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -52,7 +52,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>For posting on forums and blogs, tools like <Link to="/xrumer">XRumer for posting</Link> can help automate submissions while maintaining quality.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on real estate link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on real estate link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies for real estate (Source: YouTube)</em></p>
     </div>
     
@@ -119,7 +119,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>At Backlinkoo, we recommend starting with <Link to="/senuke">SENUKE for automation</Link> to scale your real estate SEO backlinks efficiently.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img2.jpg" alt="tools for real estate SEO backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="tools for real estate SEO backlinks" width="800" height="400" />
         <p><em>Comparison of SEO tools for backlink building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -136,7 +136,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>An agency used <Link to="/xrumer">XRumer for posting</Link> to build 200+ links across forums. Combined with SENUKE automation, they saw a 120% traffic uplift and expanded to new markets.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img3.jpg" alt="case study graph for real estate SEO backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="case study graph for real estate SEO backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink campaigns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -178,7 +178,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Start with free options like Google Search Central, then scale to paid tools like <Link to="/senuke">SENUKE</Link> for automation.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ video on real estate backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="FAQ video on real estate backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video answering common questions on real estate SEO backlinks (Source: YouTube)</em></p>
     </div>
     

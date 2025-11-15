@@ -16,7 +16,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>Directory submission has come a long way since the early days of the internet. In the 1990s, directories like Yahoo! Directory were primary ways to discover websites. Today, with Google's algorithms like Penguin and Panda, the emphasis is on natural, relevant links. Directory submission link building now integrates with broader strategies, ensuring links are from authoritative sources to avoid penalties.</p>
     <p>LSI terms like "dofollow links" and "domain authority" are crucial here. Dofollow links allow search engines to follow and count the link for ranking purposes, while high domain authority directories amplify the impact. For more on this, check out this <a href="https://moz.com/blog/directory-submission-link-building" target="_blank" rel="noopener noreferrer">Moz Guide on Directory Submissions</a>.</p>
     <div class="media">
-        <img src="/media/directory-submission-link-building-img1.jpg" alt="directory submission link building infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="directory submission link building infographic" width="800" height="400" />
         <p><em>Infographic showing the benefits of directory submission link building (Source: Backlinkoo)</em></p>
     </div>
     <p>Moreover, directory submissions can drive direct traffic. If a user browses a directory in your niche, they might click through to your site, leading to potential conversions. This dual benefit—SEO boost and traffic—makes it a staple in any link building arsenal.</p>
@@ -36,7 +36,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>Resource pages are goldmines for links. Find pages listing resources in your niche and request inclusion, then submit those pages to directories. Influencer outreach can lead to mentions and links, which you can further promote via directories.</p>
     <p>Remember, the key to organic directory submission link building is relevance. Submitting to unrelated directories can harm your SEO, as Google favors natural link profiles.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies including directory submissions (Source: Backlinkoo)</em></p>
     </div>
     <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline submissions while maintaining an organic feel.</p>
@@ -99,7 +99,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     </table>
     <p>These tools can supercharge your efforts. For more on tool selection, visit <a href="https://www.google.com/search-central/docs/seo/link-building-tools" target="_blank" rel="noopener noreferrer">Google Search Central's SEO Resources</a>.</p>
     <div class="media">
-        <img src="/media/directory-submission-link-building-img2.jpg" alt="tools for directory submission link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for directory submission link building" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <h3>Case Study 3: Tech Startup Scaling</h3>
     <p>A SaaS startup leveraged automated tools like <Link to="/senuke">SENUKE</Link> for 300 directory submissions. Backlinks grew by 150%, domain authority hit 50, and organic leads doubled. Fake stats: Traffic up 60%, conversion rate improved 15%. This highlights how tools amplify directory submission link building.</p>
     <div class="media">
-        <img src="/media/directory-submission-link-building-img3.jpg" alt="case study graph for link building success" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="case study graph for link building success" width="800" height="400" />
         <p><em>Graph showing traffic growth from directory submissions (Source: Backlinkoo)</em></p>
     </div>
     
@@ -142,7 +142,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>Directory submission link building is a proven method to enhance domain authority and drive traffic. Backed by stats from Ahrefs (e.g., top-ranking pages have 3.8x more backlinks) and Moz, this strategy, when executed expertly, yields results. At Backlinkoo, our team of SEO specialists brings years of experience to help you succeed. Ready to boost your link building? Explore our services today.</p>
     <p>For further reading: <a href="https://ahrefs.com/blog/directory-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>, <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google on Link Schemes</a>, <a href="https://www.semrush.com/blog/link-building/" target="_blank" rel="noopener noreferrer">SEMrush Link Building Tips</a>, <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko Strategies</a>.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced directory submission tutorial (Source: Backlinkoo)</em></p>
     </div>
     <!-- Note: This article is approximately 5200 words. Expanded sections with detailed explanations ensure comprehensiveness. -->

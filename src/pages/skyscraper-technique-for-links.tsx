@@ -28,7 +28,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>Moreover, with algorithm updates like Google's Helpful Content Update, creating value-driven content via the skyscraper method ensures your site remains relevant and trustworthy.</p>
   
   <div class="media">
-    <img src="/media/skyscraper-technique-for-links-img1.jpg" alt="skyscraper technique for links infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="skyscraper technique for links infographic" width="800" height="400" />
     <p><em>Infographic illustrating the steps of the skyscraper technique for links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -141,7 +141,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>A SaaS firm applied the technique to "project management tools." Using tools like <Link to="/senuke">SENUKE for automation</Link>, they acquired 80 high-quality links. Revenue from organic leads grew by 200% over six months.</p>
   
   <div class="media">
-    <img src="/media/skyscraper-technique-for-links-img2.jpg" alt="Case study graph for skyscraper technique" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Case study graph for skyscraper technique" width="800" height="400" />
     <p><em>Graph showing traffic growth from skyscraper technique (Source: Backlinkoo)</em></p>
   </div>
   
@@ -189,7 +189,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>Ahrefs for research, <Link to="/senuke">SENUKE</Link> for automation, and Moz for authority checks.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Advanced tips on skyscraper technique for links (Source: Backlinkoo)</em></p>
   </div>
   

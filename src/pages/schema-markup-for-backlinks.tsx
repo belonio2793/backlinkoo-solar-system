@@ -14,7 +14,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>In essence, <strong>schema markup for backlinks</strong> bridges the gap between raw links and meaningful data, helping search engines like Google reward your site with better positions in search results. At Backlinkoo, we've seen clients double their traffic by optimizing this synergy.</p>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img1.jpg" alt="schema markup for backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="schema markup for backlinks infographic" width="800" height="400" />
         <p><em>Infographic explaining schema markup basics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -39,7 +39,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>Remember, organic strategies like these build long-term domain authority. Combine with <strong>schema markup for backlinks</strong> to maximize impact.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video on schema markup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on schema markup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on implementing schema for SEO (Source: YouTube)</em></p>
     </div>
     
@@ -101,7 +101,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     </table>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img2.jpg" alt="tools for schema and backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="tools for schema and backlinks" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -118,7 +118,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>A local service provider added LocalBusiness schema and bought 30 safe backlinks. Leads doubled, with a 40% ranking improvement. Fake stats: ROI of 300% in year one.</p>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs showing traffic growth (Source: Backlinkoo)</em></p>
     </div>
     
@@ -149,7 +149,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>Indirectly, by boosting visibility and attracting quality dofollow links.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="Advanced schema tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced schema tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tips on schema (Source: YouTube)</em></p>
     </div>
     

@@ -16,7 +16,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     <h3>The Importance in Modern SEO</h3>
     <p>In today's competitive digital landscape, mastering <strong>backlink equity calculation</strong> can be the difference between page one visibility and obscurity. Google’s algorithms, such as PageRank, rely heavily on backlinks to determine trustworthiness. By focusing on link building strategies that prioritize equity, you ensure sustainable growth. For instance, a backlink from a high-DA site like Forbes carries more equity than one from a low-authority blog.</p>
     <div class="media">
-        <img src="/media/backlink-equity-calculation-img1.jpg" alt="backlink equity calculation infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="backlink equity calculation infographic" width="800" height="400" />
         <p><em>Infographic illustrating the flow of backlink equity (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, we emphasize that effective <strong>backlink equity calculation</strong> isn't just about quantity but quality. Poor calculations can lead to penalties from Google, as seen in updates like Penguin.</p>
@@ -91,7 +91,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend integrating <a href="/senuke">SENUKE for automation</a> with these tools for precise <strong>backlink equity calculation</strong>.</p>
     <div class="media">
-        <img src="/media/backlink-equity-calculation-img2.jpg" alt="tools for backlink equity calculation" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="tools for backlink equity calculation" width="800" height="400" />
         <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -104,7 +104,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     <h3>Case Study 3: Local Business Turnaround</h3>
     <p>A local service provider combined broken link building and automation via <a href="/senuke">SENUKE</a>. Backlink equity jumped from low to medium, with a 40% increase in leads. Stats: 30 new links, average equity value of 10 per link.</p>
     <div class="media">
-        <img src="/media/backlink-equity-calculation-img3.jpg" alt="case study graphs for backlink equity" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="case study graphs for backlink equity" width="800" height="400" />
         <p><em>Graphs showing equity growth in case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     <p>Mastering <strong>backlink equity calculation</strong> is key to SEO success. As per <a href="https://backlinko.com/google-ranking-factors" target="_blank" rel="noopener noreferrer">Backlinko's study</a>, backlinks remain a top ranking factor, with high-equity ones correlating to 20-30% better positions. At Backlinkoo, our expert services, including <a href="/senuke">SENUKE for automation</a> and <a href="/xrumer">XRumer for posting</a>, ensure you build a robust link profile. Contact us today to calculate and maximize your backlink equity.</p>
     <p>Statistics sourced from authoritative sites like <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a> and <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Learn SEO</a> underline our expertise. Trust Backlinkoo for proven, ethical strategies.</p>
     <div class="media">
-        <img src="/media/backlink-equity-calculation-img4.jpg" alt="final infographic on backlink equity" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="final infographic on backlink equity" width="800" height="400" />
         <p><em>Summary infographic (Source: Backlinkoo)</em></p>
     </div>
     <style>

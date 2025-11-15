@@ -14,7 +14,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>Search engines use crawlers to discover new content. If a backlink isn't crawled, it won't be indexed. Techniques like sitemaps, social signals, and ping services play a pivotal role here. Incorporating LSI terms such as "link equity" and "anchor text optimization" can further enhance your understanding and application of these methods.</p>
   
   <div class="media">
-    <img src="/media/backlink-indexing-techniques-img1.jpg" alt="backlink indexing techniques infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="backlink indexing techniques infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating key backlink indexing techniques (Source: Backlinkoo)</em></p>
   </div>
   
@@ -103,7 +103,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>These tools, especially <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, can supercharge your backlink indexing techniques.</p>
   
   <div class="media">
-    <img src="/media/backlink-indexing-techniques-img2.jpg" alt="Tools for backlink indexing techniques" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Tools for backlink indexing techniques" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to SEO tools for backlink indexing (Source: Backlinkoo)</em></p>
   </div>
   
@@ -120,7 +120,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>A SaaS provider combined organic strategies with tools like <Link to="/xrumer">XRumer for posting</Link>. Outcomes: 95% indexing rate, domain authority increased by 30 points, and conversions up 200%. This demonstrates how backlink indexing techniques can drive business results.</p>
   
   <div class="media">
-    <img src="/media/backlink-indexing-techniques-img3.jpg" alt="Case study graphs for backlink indexing" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graphs for backlink indexing" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs showing traffic growth from backlink indexing techniques (Source: Backlinkoo)</em></p>
   </div>
   

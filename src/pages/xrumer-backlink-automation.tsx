@@ -17,7 +17,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>LSI terms like "dofollow links" and "domain authority" are crucial here. Dofollow links pass link juice, directly impacting your site's authority, while tools like XRumer help in acquiring them at scale.</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img1.jpg" alt="XRumer backlink automation infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="XRumer backlink automation infographic" width="800" height="400" />
         <p><em>Infographic showing the workflow of XRumer backlink automation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -44,7 +44,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>For authoritative insights, refer to this <a href="https://moz.com/blog/backlink-buying-guide" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Buying</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on safe backlink buying with XRumer (Source: Backlinkoo)</em></p>
     </div>
     
@@ -103,7 +103,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>An SEO agency combined XRumer with SENUKE, resulting in client domain authority jumps of 20-30 points and 300% ROI in six months (fake stats).</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img2.jpg" alt="Case study graph for XRumer success" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case study graph for XRumer success" width="800" height="400" />
         <p><em>Graph showing traffic growth from XRumer backlink automation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -133,7 +133,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>Terms like link building, dofollow links, and domain authority enhance relevance.</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img3.jpg" alt="FAQ infographic on XRumer" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="FAQ infographic on XRumer" width="800" height="400" />
         <p><em>Infographic answering common XRumer questions (Source: Backlinkoo)</em></p>
     </div>
     

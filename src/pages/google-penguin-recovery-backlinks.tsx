@@ -18,7 +18,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>LSI terms like "link building strategies" and "backlink quality" are crucial here. Google values relevance and trustworthiness, so prioritizing these in your recovery plan is key.</p>
     
     <div class="media">
-        <img src="/media/google-penguin-recovery-backlinks-img1.jpg" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the steps for Google Penguin recovery (Source: Backlinkoo)</em></p>
     </div>
     
@@ -39,7 +39,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more on effective strategies, check this <a href="https://moz.com/blog/google-penguin-recovery" target="_blank" rel="noopener noreferrer">Moz Guide on Penguin Recovery</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building for recovery (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -103,7 +103,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>These tools can supercharge your <strong>Google Penguin recovery backlinks</strong> efforts. Backlinkoo integrates seamlessly with SENUKE and XRumer for optimal results.</p>
     
     <div class="media">
-        <img src="/media/google-penguin-recovery-backlinks-img2.jpg" alt="Tools for backlink recovery" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Tools for backlink recovery" width="800" height="400" />
         <p><em>Visual comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -122,7 +122,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>For more insights, visit <a href="https://searchengineland.com/google-penguin-case-studies" target="_blank" rel="noopener noreferrer">Search Engine Land Case Studies</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video testimonial on recovery success (Source: Backlinkoo)</em></p>
     </div>
     

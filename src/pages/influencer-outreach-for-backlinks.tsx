@@ -19,7 +19,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Consider the LSI benefits: terms like "link building," "dofollow links," and "domain authority" naturally come into play when discussing influencer outreach. These elements contribute to a holistic SEO strategy that search engines love.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/influencer-outreach-for-backlinks-img1.jpg" alt="influencer outreach for backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="influencer outreach for backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the process of influencer outreach for backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -54,7 +54,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>According to <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land</a>, social signals indirectly influence SEO, making this a smart addition to your influencer outreach for backlinks toolkit.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on organic influencer outreach strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -81,7 +81,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Monitor your backlink profile with tools from <a href="https://ahrefs.com/backlink-checker" target="_blank" rel="noopener noreferrer">Ahrefs</a> to avoid toxic links. Focus on diversity—mix paid with organic for a natural profile.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/influencer-outreach-for-backlinks-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart illustrating pros and cons of buying influencer outreach for backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -145,7 +145,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>A wellness site bought targeted influencer collaborations safely. Securing 20 links from health influencers via paid posts, they saw traffic surge by 180% and improved rankings for key terms like "natural remedies." Using <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link> helped maintain engagement post-campaign.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/influencer-outreach-for-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from influencer outreach (Source: Backlinkoo)</em></p>
   </div>
   
@@ -181,7 +181,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>FAQ video on influencer outreach tips (Source: Backlinkoo)</em></p>
   </div>
   

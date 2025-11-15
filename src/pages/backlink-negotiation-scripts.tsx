@@ -18,7 +18,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Consider this: Organic link building through negotiation can improve your site's domain authority over time, leading to better organic traffic. Backlinkoo's tools can help track these metrics, ensuring your efforts yield measurable results. Without effective scripts, your outreach might come across as spammy, harming your reputation and SEO goals.</p>
     
     <div class="media">
-        <img src="/media/backlink-negotiation-scripts-img1.jpg" alt="backlink negotiation scripts infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="backlink negotiation scripts infographic" width="800" height="400" />
         <p><em>Infographic illustrating the key components of effective backlink negotiation scripts (Source: Backlinkoo)</em></p>
     </div>
     
@@ -79,7 +79,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Backlinkoo advises against over-reliance on buying; instead, use our services for safe, white-hat alternatives. Reference <a href="https://moz.com/blog/buying-backlinks" target="_blank" rel="noopener noreferrer">Moz's guide on buying backlinks</a> for best practices.</p>
     
     <div class="media">
-        <img src="/media/backlink-negotiation-scripts-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart detailing pros and cons of buying backlinks in link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -144,7 +144,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>An SEO agency negotiated resource page links, gaining 10 high-quality backlinks. Client rankings improved by 15 positions on average (fake stats).</p>
     
     <div class="media">
-        <img src="/media/backlink-negotiation-scripts-img3.jpg" alt="Case study success metrics graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Case study success metrics graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink negotiation (Source: Backlinkoo)</em></p>
     </div>
     

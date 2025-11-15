@@ -13,7 +13,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>At Backlinkoo, we emphasize data-driven approaches to ensure every backlink contributes to your bottom line. Let's explore how to get started.</p>
 
   <div class="media">
-    <img src="/media/measuring-roi-on-backlinks-img1.jpg" alt="measuring ROI on backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="measuring ROI on backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating key metrics for measuring ROI on backlinks (Source: Backlinkoo)</em></p>
   </div>
 
@@ -34,7 +34,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Integrate these with automation tools like <Link to="/senuke">SENUKE for automation</Link> to scale your efforts efficiently.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on organic strategies for measuring ROI on backlinks (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
 
@@ -100,7 +100,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>For in-depth tool reviews, visit <a href="https://ahrefs.com/blog/backlink-tools" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Tools Guide</a> or <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
 
   <div class="media">
-    <img src="/media/measuring-roi-on-backlinks-img2.jpg" alt="Tools for measuring ROI on backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Tools for measuring ROI on backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart comparing backlink tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -117,7 +117,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>A content site used organic strategies, acquiring 200 links over six months. With tools like Moz, they measured a 50% traffic increase, translating to $10,000 in ad revenue from a $2,000 investment. ROI: 400%.</p>
 
   <div class="media">
-    <img src="/media/measuring-roi-on-backlinks-img3.jpg" alt="Case study graph for ROI on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Case study graph for ROI on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing ROI growth in case studies (Source: Backlinkoo)</em></p>
   </div>
 
@@ -149,7 +149,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ on measuring ROI on backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="FAQ on measuring ROI on backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video FAQ on backlink ROI (Source: Backlinkoo)</em></p>
   </div>
 

@@ -27,7 +27,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>Backlinks enhance your site's authority, but Core Web Vitals ensure retention and conversions. At Backlinkoo, we emphasize integrating these for holistic SEO strategies.</p>
     
     <div class="media">
-        <img src="/media/core-web-vitals-and-backlinks-img1.jpg" alt="Core Web Vitals and backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Core Web Vitals and backlinks infographic" width="800" height="400" />
         <p><em>Infographic illustrating the relationship between Core Web Vitals and backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -53,7 +53,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>By focusing on these organic strategies, you can build a robust backlink profile that complements your site's performance metrics.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building (Source: YouTube)</em></p>
     </div>
     
@@ -124,7 +124,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>At Backlinkoo, we recommend integrating <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> for efficient link building while monitoring Core Web Vitals.</p>
     
     <div class="media">
-        <img src="/media/core-web-vitals-and-backlinks-img2.jpg" alt="Tools for Core Web Vitals and backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Tools for Core Web Vitals and backlinks" width="800" height="400" />
         <p><em>Overview of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -141,7 +141,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>By buying safe backlinks and fixing FID issues, this business saw a 35% increase in leads. Backlinkoo's services helped secure high-quality links without penalties.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on SEO success (Source: YouTube)</em></p>
     </div>
     
@@ -173,7 +173,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>Combine organic link building with Core Web Vitals optimization for sustainable growth.</p>
     
     <div class="media">
-        <img src="/media/core-web-vitals-and-backlinks-img3.jpg" alt="FAQ on Core Web Vitals and backlinks" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="FAQ on Core Web Vitals and backlinks" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
     

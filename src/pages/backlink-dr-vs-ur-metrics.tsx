@@ -31,7 +31,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>In a study by <a href="https://ahrefs.com/blog/domain-rating/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, domains with higher DR tend to rank better for competitive keywords. This is why at Backlinkoo, we emphasize balanced strategies that improve both DR and UR through ethical link building practices.</p>
   
   <div class="media">
-    <img src="/media/backlink-dr-vs-ur-metrics-img1.jpg" alt="backlink DR vs UR metrics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="backlink DR vs UR metrics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic comparing DR and UR metrics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -86,7 +86,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>At Backlinkoo, we offer safe, effective backlink packages that enhance backlink DR vs UR metrics without risking penalties. Use <Link to="/xrumer">XRumer for posting</Link> to automate safe link placements.</p>
   
   <div class="media">
-    <img src="/media/backlink-dr-vs-ur-metrics-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart on buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -156,7 +156,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>A SaaS firm bought safe backlinks via Backlinkoo, focusing on DR 80 domains. DR jumped from 40 to 65, with UR on landing pages hitting 50. Leads increased by 150%, proving balanced buying can enhance backlink DR vs UR metrics without risks.</p>
   
   <div class="media">
-    <img src="/media/backlink-dr-vs-ur-metrics-img3.jpg" alt="Case study graphs on DR and UR improvements" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Case study graphs on DR and UR improvements" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs from case studies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -175,7 +175,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>Fifth, rushing purchases: Without due diligence, you risk penalties. Backlinkoo ensures safe practices to protect your metrics.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mistakes-tutorial" title="YouTube video on SEO mistakes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on SEO mistakes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video on common SEO mistakes (Source: YouTube)</em></p>
   </div>
   

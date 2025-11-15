@@ -14,7 +14,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>At Backlinkoo, we specialize in ethical link building that complements these platforms, ensuring your site gains authoritative, dofollow links without the risks associated with freelance marketplaces.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img1.jpg" alt="Fiverr vs Upwork for links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Fiverr vs Upwork for links infographic" width="800" height="400" />
         <p><em>Infographic comparing Fiverr and Upwork for link building strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -32,7 +32,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>For more insights, check out <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' Guide to Link Building</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -96,7 +96,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>For more tools, explore <a href="https://ahrefs.com/blog/best-seo-tools/" target="_blank" rel="noopener noreferrer">Ahrefs' Best SEO Tools</a>.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img2.jpg" alt="Link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Link building tools comparison chart" width="800" height="400" />
         <p><em>Chart of essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -114,7 +114,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>Fake stats: Page views up 200%; engagement time increased by 45 seconds average.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
     </div>
     
@@ -146,7 +146,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>Absolutely! <Link to="/senuke">SENUKE for automation</Link> complements freelance work seamlessly.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img3.jpg" alt="FAQ on link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="FAQ on link building" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
     

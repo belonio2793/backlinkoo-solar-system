@@ -14,7 +14,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>LSI terms like link building, dofollow links, and domain authority play a crucial role here. Dofollow links pass SEO value, while a strong DA (measured by tools like Moz) indicates your site's overall strength. Without a solid strategy, your finance site might languish in obscurity, missing out on potential clients and revenue.</p>
     
     <div class="media">
-        <img src="/media/finance-site-link-acquisition-img1.jpg" alt="finance site link acquisition infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="finance site link acquisition infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on finance site rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -39,7 +39,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>Remember, quality over quantity: Aim for links from sites with relevant LSI terms and high trust flow.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies for finance sites (Source: Backlinkoo)</em></p>
     </div>
     
@@ -110,7 +110,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>At Backlinkoo, we integrate tools like SENUKE and XRumer into our services to make <strong>finance site link acquisition</strong> effortless and effective.</p>
     
     <div class="media">
-        <img src="/media/finance-site-link-acquisition-img2.jpg" alt="tools for finance site link acquisition" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="tools for finance site link acquisition" width="800" height="400" />
         <p><em>Visual guide to top link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -129,7 +129,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <a href="https://ahrefs.com/blog/finance-site-link-acquisition-case-studies" target="_blank" rel="noopener noreferrer">Ahrefs Case Studies on Link Building</a>
     
     <div class="media">
-        <img src="/media/finance-site-link-acquisition-img3.jpg" alt="case study graphs for finance site link acquisition" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="case study graphs for finance site link acquisition" width="800" height="400" />
         <p><em>Graphs depicting traffic growth from link acquisition (Source: Backlinkoo)</em></p>
     </div>
     
@@ -171,7 +171,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>Monitor domain authority, organic traffic, and backlink quality using Ahrefs or Moz.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video on finance site link acquisition tips (Source: Backlinkoo)</em></p>
     </div>
     

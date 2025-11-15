@@ -26,7 +26,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>Local SEO isn't just about Google My Business listings or citations; backlinks amplify your online presence. They improve your site's domain authority, increase referral traffic, and enhance brand visibility. For example, businesses with robust local backlink profiles often see a 15-25% uplift in organic search traffic, as per Ahrefs data. In essence, investing in <strong>backlinks for local SEO</strong> is investing in sustainable growth.</p>
   
   <div class="media">
-    <img src="/media/backlinks-for-local-seo-img1.jpg" alt="backlinks for local SEO infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="backlinks for local SEO infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of backlinks on local SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -63,7 +63,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>Stats from Backlinko indicate that skyscraper content (improved versions of popular articles) can earn 3x more backlinks. Tailor this for local audiences to maximize <strong>backlinks for local SEO</strong>.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-local-seo-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies for local SEO (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -143,7 +143,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>Integrating these tools can supercharge your efforts. For personalized recommendations, contact Backlinkoo today.</p>
   
   <div class="media">
-    <img src="/media/backlinks-for-local-seo-img2.jpg" alt="Tools for backlinks in local SEO" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Tools for backlinks in local SEO" width="800" height="400" />
     <p><em>Visual comparison of SEO tools for backlink management (Source: Backlinkoo)</em></p>
   </div>
   
@@ -166,7 +166,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <a href="https://moz.com/blog/local-seo-case-study" target="_blank" rel="noopener noreferrer">Moz Local SEO Case Study</a>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-case-study" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video case study on local SEO success (Source: Backlinkoo)</em></p>
   </div>
   
@@ -234,7 +234,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   </ul>
   
   <div class="media">
-    <img src="/media/backlinks-for-local-seo-img3.jpg" alt="E-E-A-T in local SEO" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="E-E-A-T in local SEO" width="800" height="400" />
     <p><em>Infographic on E-E-A-T signals for SEO success (Source: Backlinkoo)</em></p>
   </div>
   

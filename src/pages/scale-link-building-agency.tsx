@@ -15,7 +15,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     <h3>Why Scaling Link Building Matters for Your Business</h3>
     <p>Link building is a cornerstone of SEO. Google's algorithm considers backlinks as votes of confidence, influencing your site's visibility. Scaling this process allows businesses to compete in competitive niches. For instance, a study by <a href="https://moz.com/blog/link-building-statistics" target="_blank" rel="noopener noreferrer">Moz</a> shows that pages with more backlinks rank higher. Without scaling, manual efforts can be time-consuming and ineffective. That's where a scale link building agency steps in, providing expertise to multiply your efforts and achieve better ROI.</p>
     <div class="media">
-        <img src="/media/scale-link-building-agency-img1.jpg" alt="scale link building agency infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="scale link building agency infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of scaled link building on SEO (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, our scale link building agency services have helped clients increase their organic traffic by up to 300% through targeted link acquisition. Whether you're a small business or an enterprise, understanding why scaling matters is the first step toward dominating search results.</p>
@@ -32,7 +32,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     <p>Resource pages are goldmines for links. Create comprehensive guides and pitch them to curators. Additionally, Help a Reporter Out (HARO) connects you with journalists seeking expert quotes, often leading to dofollow links from high-authority news sites.</p>
     <p>Scaling these requires consistent monitoring and response. Our team at Backlinkoo handles HARO queries, securing mentions in top publications like Forbes, which dramatically improve your backlink profile.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on scaling organic link building (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     <p>By leveraging these organic strategies, a scale link building agency ensures long-term SEO benefits without risking penalties from search engines like Google.</p>
@@ -87,7 +87,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     </table>
     <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> allows a scale link building agency to handle large projects seamlessly. Backlinkoo leverages these to deliver superior results.</p>
     <div class="media">
-        <img src="/media/scale-link-building-agency-img2.jpg" alt="tools for scale link building agency" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="tools for scale link building agency" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -100,7 +100,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     <h3>Case Study 3: Local Business Expansion</h3>
     <p>A local service provider used our services to build 200 niche-relevant links. Domain authority rose to 50, and local search rankings improved, driving a 300% increase in leads. This demonstrates how a scale link building agency can adapt to various business sizes.</p>
     <div class="media">
-        <img src="/media/scale-link-building-agency-img3.jpg" alt="case study graphs for scale link building agency" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="case study graphs for scale link building agency" width="800" height="400" />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -130,7 +130,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>In conclusion, partnering with a <strong>scale link building agency</strong> like Backlinkoo is essential for sustainable SEO growth. With expertise backed by data—such as Moz's finding that backlinks account for 20-30% of ranking factors—and our proven strategies, we deliver results. Our team of SEO experts, with over 10 years of experience, ensures authoritative, trustworthy link building. Contact us today to scale your efforts and dominate search rankings. For more insights, check <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz's Backlinks Guide</a> or <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Tips</a>.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Backlinkoo scale link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Backlinkoo scale link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Expert tutorial on scaling with Backlinkoo (Source: Backlinkoo)</em></p>
     </div>
     <style>

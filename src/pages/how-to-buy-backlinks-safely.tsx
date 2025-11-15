@@ -17,7 +17,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>At Backlinkoo, we emphasize ethical link building. Safe backlink acquisition not only improves rankings but also builds long-term credibility. Ignoring this can lead to manual penalties or algorithmic de-indexing, as outlined in Google's Webmaster Guidelines.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-to-buy-backlinks-safely-img1.jpg" alt="how to buy backlinks safely infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="how to buy backlinks safely infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic: The Importance of Backlinks in SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -46,7 +46,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>For a detailed tutorial, watch this video:</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video: Broken Link Building Tutorial (Source: YouTube)</em></p>
   </div>
   
@@ -86,7 +86,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>For more tips, read this <a href="https://ahrefs.com/blog/buy-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Buying Backlinks</a>.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-to-buy-backlinks-safely-img2.jpg" alt="Pros and Cons of Buying Backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Pros and Cons of Buying Backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Image: Balancing Pros and Cons (Source: Backlinkoo)</em></p>
   </div>
   
@@ -145,7 +145,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>A local service provider acquired 20 geo-targeted links. Rankings for local searches jumped, increasing leads by 120%. Fake stats: Conversion rate up 30%.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-to-buy-backlinks-safely-img3.jpg" alt="Case Study Success Graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case Study Success Graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph: Traffic Growth from Safe Backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -181,7 +181,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   <p>Absolutely! Our experts ensure compliant, high-quality links. Contact us today.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video: FAQ on Backlinks (Source: YouTube)</em></p>
   </div>
   

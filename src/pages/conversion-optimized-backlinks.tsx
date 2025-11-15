@@ -15,7 +15,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <h3>The Role of Domain Authority in Conversion Optimization</h3>
     <p>Domain authority (DA), a metric popularized by Moz, plays a crucial role. Links from sites with DA above 50 are more likely to pass "link juice" that enhances your site's trustworthiness in Google's eyes. But for conversions, it's about more than DA—it's about audience alignment. A backlink from a niche blog with engaged readers can outperform a generic high-DA link.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img1.jpg" alt="conversion-optimized backlinks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="conversion-optimized backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of conversion-optimized backlinks on SEO and sales (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, our experts analyze your site's needs to build a portfolio of conversion-optimized backlinks that deliver real results.</p>
@@ -33,7 +33,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <p>Help A Reporter Out (HARO) connects you with journalists needing expert quotes. Responding promptly can earn dofollow links from major publications, directing engaged traffic to your conversion funnels.</p>
     <p>For automation in these strategies, consider <Link to="/senuke">SENUKE for automation</Link>, which streamlines outreach and content distribution at Backlinkoo.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
     </div>
     
@@ -94,7 +94,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend starting with SENUKE and XRumer for seamless integration into your strategy.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img2.jpg" alt="tools for backlinks table visualization" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="tools for backlinks table visualization" width="800" height="400" />
         <p><em>Visualization of backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -107,7 +107,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <h3>Case Study 3: Content Site Monetization</h3>
     <p>A blog focused on affiliate marketing bought safe backlinks through Backlinkoo. Result: 25% domain authority increase, 50% more referral conversions, adding \\\$30,000 in annual revenue.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs from case studies on backlink success (Source: Backlinkoo)</em></p>
     </div>
     
@@ -139,7 +139,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <p>In summary, conversion-optimized backlinks are pivotal for SEO success and business growth. Backed by stats from Moz (backlinks account for 20% of ranking factors) and Ahrefs (relevant links improve conversions by 25%), our expert team at Backlinkoo ensures you get authoritative, trustworthy links. Contact us today to transform your link building efforts.</p>
     <p><em>This article is authored by SEO experts at Backlinkoo, with over 10 years of experience in link building and conversion optimization. Sources: <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>, Ahrefs studies, SEMrush reports.</em></p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="YouTube video on backlink optimization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video on backlink optimization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tutorial on optimizing backlinks for conversions (Source: YouTube)</em></p>
     </div>
     <a href="https://semrush.com/blog/conversion-optimized-backlinks" target="_blank" rel="noopener noreferrer">SEMrush Insights</a>

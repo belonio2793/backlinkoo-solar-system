@@ -23,7 +23,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>Statistics from SEMrush indicate that sites with diverse backlink profiles rank higher, emphasizing the need for this analysis. At Backlinkoo, we recommend starting with your top 3-5 competitors to keep the process manageable yet effective.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img1.jpg" alt="competitor backlink gap analysis infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="competitor backlink gap analysis infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the steps of competitor backlink gap analysis (Source: Backlinkoo)</em></p>
   </div>
   
@@ -45,7 +45,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>Integrate LSI terms like "link equity" and "referral traffic" into your content to maximize SEO benefits. At Backlinkoo, we emphasize these strategies because they build sustainable authority without risking penalties.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -118,7 +118,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>For a deeper dive, visit <a href="https://ahrefs.com/blog/backlink-gap-analysis" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Gap Guide</a> or <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img2.jpg" alt="tools for backlink analysis screenshot" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="tools for backlink analysis screenshot" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Screenshot of backlink tools in action (Source: Backlinkoo)</em></p>
   </div>
   
@@ -134,7 +134,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>A blogging network targeted gaps in resource pages, using <Link to="/xrumer">XRumer for posting</Link> to automate submissions. They closed 200 gaps, resulting in a 35% traffic surge and better anchor text diversity.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img3.jpg" alt="case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from backlink gap closure (Source: Backlinkoo)</em></p>
   </div>
   
@@ -166,7 +166,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>We provide comprehensive services, from analysis to acquisition, ensuring safe and effective link building.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   

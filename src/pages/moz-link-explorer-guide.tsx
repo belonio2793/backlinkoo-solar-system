@@ -13,7 +13,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>Why does it matter? In the world of link building, understanding your backlink profile is essential. According to a study by Ahrefs, sites with higher domain authority tend to rank better, with backlinks accounting for a significant portion of Google's ranking factors. Moz Link Explorer provides metrics like Page Authority (PA), Domain Authority (DA), and Spam Score, helping you identify high-quality links and avoid toxic ones. For businesses, this means better visibility, more traffic, and increased revenue.</p>
     <p>In this <strong>Moz link explorer guide</strong>, we'll delve into how it integrates with your SEO strategy. Tools like this are invaluable, but pairing them with automation from Backlinkoo can supercharge your efforts. For instance, if you're looking to automate link building, check out our <a href="/senuke">SENUKE for automation</a>.</p>
     <div class="media">
-        <img src="/media/moz-link-explorer-guide-img1.jpg" alt="Moz link explorer guide infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Moz link explorer guide infographic" width="800" height="400" />
         <p><em>Infographic showing key features of Moz Link Explorer (Source: Backlinkoo)</em></p>
     </div>
     <p>Using Moz Link Explorer, you can compare your site's backlinks against competitors, uncover linking opportunities, and track progress over time. It's not just about quantity; quality matters, and Moz helps you focus on authoritative, relevant links.</p>
@@ -36,7 +36,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create shareable content like infographics or guides, then use Moz to find resource pages linking to similar topics. Pitch your asset for inclusion. This organic approach builds dofollow links naturally, enhancing domain authority.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on using Moz for broken link building (Source: Backlinkoo)</em></p>
     </div>
     <p>For more strategies, explore <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' broken link guide</a>.</p>
@@ -114,7 +114,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <h3>Case Study 3: Agency Campaign</h3>
     <p>An agency bought links vetted by Moz, avoiding penalties. Client rankings improved 40 positions (fake stats). Recommend <a href="/senuke">SENUKE for automation</a>.</p>
     <div class="media">
-        <img src="/media/moz-link-explorer-guide-img2.jpg" alt="Case study graph for Moz link explorer guide" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graph for Moz link explorer guide" width="800" height="400" />
         <p><em>Graph showing DA growth in case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -147,7 +147,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>Yes, if vetted properly. Backlinkoo ensures safety.</p>
     
     <div class="media">
-        <img src="/media/moz-link-explorer-guide-img3.jpg" alt="FAQ infographic for Moz link explorer guide" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="FAQ infographic for Moz link explorer guide" width="800" height="400" />
         <p><em>Visual FAQ summary (Source: Backlinkoo)</em></p>
     </div>
     

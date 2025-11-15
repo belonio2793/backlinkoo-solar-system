@@ -21,7 +21,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Focusing on quality ensures sustainable SEO growth, while chasing quantity can lead to penalties. At Backlinkoo.com, we emphasize <strong>backlink quality vs quantity</strong> to help clients build resilient link profiles that drive organic traffic.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img1.jpg" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic comparing backlink quality vs quantity (Source: Backlinkoo)</em></p>
   </div>
   
@@ -47,7 +47,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>This approach naturally attracts high-quality links. For instance, if your guide on "SEO best practices" is more comprehensive than others, sites will link to it organically. Backlinkoo.com offers content creation services to amplify your efforts in <strong>backlink quality vs quantity</strong>.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on organic link building (Source: YouTube)</em></p>
   </div>
   
@@ -71,7 +71,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>For automation in safe buying, consider <Link to="/senuke">SENUKE for automation</Link>, which helps manage campaigns efficiently.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart on buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Outcome: Rankings recovered fully within 4 months, with a 120% traffic uplift. This case underscores the dangers of prioritizing quantity in <strong>backlink quality vs quantity</strong>.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img3.jpg" alt="Case study graph on traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Case study graph on traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from quality backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -166,7 +166,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Cheap link packages often mean low quality. Choose reputable providers like Backlinkoo.com for safe, effective links.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Common SEO mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Common SEO mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video on avoiding link building mistakes (Source: YouTube)</em></p>
   </div>
   

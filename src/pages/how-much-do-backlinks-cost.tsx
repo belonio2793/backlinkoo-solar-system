@@ -19,7 +19,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>Domain authority (DA), a metric developed by Moz, measures a site's potential to rank. Sites with high DA backlinks are more valuable, often commanding higher prices in the link building marketplace.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-much-do-backlinks-cost-img1.jpg" alt="how much do backlinks cost infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="how much do backlinks cost infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing backlink value factors (Source: Backlinkoo)</em></p>
   </div>
   
@@ -68,7 +68,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>Avoid black-hat tactics. Instead, use white-hat services that comply with <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline;">Google's Link Schemes Guidelines</a>.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Tutorial on safe backlink buying (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>Using Backlinkoo services, a client spent $5,000 on premium dofollow links from DA 50+ sites. Results: 60% increase in search visibility and a ROI of 300% in sales growth.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-much-do-backlinks-cost-img2.jpg" alt="backlink case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="backlink case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -180,7 +180,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>It can be if done through reputable services like Backlinkoo, following best practices.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/how-much-do-backlinks-cost-img3.jpg" alt="backlink pricing tiers" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="backlink pricing tiers" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Pricing tiers for different backlink types (Source: Backlinkoo)</em></p>
   </div>
   

@@ -17,7 +17,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>Imagine your online store struggling with low traffic despite optimized on-page SEO. E-commerce backlink packages can bridge that gap by building a robust link profile. At Backlinkoo, our packages are designed with LSI terms in mind, incorporating elements like anchor text optimization and niche relevance to avoid penalties and maximize ROI.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/e-commerce-backlink-packages-img1.jpg" alt="e-commerce backlink packages infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="e-commerce backlink packages infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of backlinks on e-commerce SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -46,7 +46,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>Infographics are particularly powerful; sites like Visual.ly report they can generate hundreds of backlinks. Combine this with outreach to bloggers for maximum impact on your domain authority.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
         <p><em>Tutorial on organic link building for e-commerce (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -122,7 +122,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>These tools complement Backlinkoo's e-commerce backlink packages, ensuring you get the most out of your investment. For instance, use <Link to="/senuke">SENUKE for automation</Link> to handle repetitive tasks while focusing on strategy.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/e-commerce-backlink-packages-img2.jpg" alt="Tools for e-commerce backlink packages" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Tools for e-commerce backlink packages" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual guide to SEO tools for backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -143,7 +143,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>A health supplements store implemented organic strategies combined with Backlinkoo's packages. Securing links from wellness sites, they saw a 200% increase in international traffic. Domain authority rose to 60, with sales up 100%. This highlights the synergy of manual and automated link building.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/e-commerce-backlink-packages-img3.jpg" alt="Case study graphs for backlink success" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Case study graphs for backlink success" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graphs depicting traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -183,7 +183,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     <p>Typically 3-6 months, depending on package size and site factors.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
         <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     

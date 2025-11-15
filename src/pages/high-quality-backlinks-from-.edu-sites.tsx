@@ -15,7 +15,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>However, quality over quantity is key. A single dofollow link from a reputable .edu site is worth more than dozens from low-quality sources. Google emphasizes natural link profiles, so focusing on <em>high quality backlinks from .edu sites</em> aligns with best practices outlined in <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/high-quality-backlinks-from-edu-sites-img1.jpg" alt="high quality backlinks from .edu sites infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="high quality backlinks from .edu sites infographic" width="800" height="400" />
         <p><em>Infographic showing the value of .edu backlinks in SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -38,7 +38,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link to="/xrumer">XRumer for posting</Link>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building for .edu sites (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -104,7 +104,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>These tools can supercharge your pursuit of <strong>high quality backlinks from .edu sites</strong>. For more on automation, explore our <Link to="/senuke">SENUKE for automation</Link> page.</p>
     
     <div class="media">
-        <img src="/media/high-quality-backlinks-from-edu-sites-img2.jpg" alt="Tools for .edu backlinks comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Tools for .edu backlinks comparison chart" width="800" height="400" />
         <p><em>Chart comparing SEO tools for link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -122,7 +122,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>These cases show how strategic <em>link building</em> with .edu sites can transform SEO outcomes. Contact Backlinkoo to replicate this success.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Case study video on .edu backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="Case study video on .edu backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Video case study on successful .edu link campaigns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -160,7 +160,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p><em>This article is based on extensive SEO research and Backlinkoo's proven methodologies. For more insights, check <a href="https://ahrefs.com/blog/edu-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs on .Edu Links</a>, <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central Blog</a>, and <a href="https://semrush.com/blog/backlink-strategies/" target="_blank" rel="noopener noreferrer">SEMrush Guides</a>.</em></p>
     
     <div class="media">
-        <img src="/media/high-quality-backlinks-from-edu-sites-img3.jpg" alt="E-E-A-T signals in SEO" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="E-E-A-T signals in SEO" width="800" height="400" />
         <p><em>Infographic on E-E-A-T for backlinks (Source: Backlinkoo)</em></p>
     </div>
 `;

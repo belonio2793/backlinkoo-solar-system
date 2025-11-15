@@ -15,7 +15,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>High spam scores signal to search engines that your backlink profile might be manipulative. This can result in algorithmic penalties or manual actions. By prioritizing <strong>spam score reduction for links</strong>, you enhance trust signals, improve domain authority, and foster long-term SEO success. Studies from Ahrefs show that sites with clean backlink profiles rank 20-30% higher on average.</p>
     
     <div class="media">
-        <img src="/media/spam-score-reduction-for-links-img1.jpg" alt="spam score reduction for links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="spam score reduction for links infographic" width="800" height="400" />
         <p><em>Infographic illustrating spam score factors (Source: Backlinkoo)</em></p>
     </div>
     
@@ -31,7 +31,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>Many sites curate resource pages with helpful links. Identify these via Google searches like "niche + inurl:resources" and propose your content. This enhances your backlink profile with contextual, dofollow links, aiding in <strong>spam score reduction for links</strong>.</p>
     <p>Additional organic tactics include creating shareable infographics, participating in industry forums, and leveraging social media for natural shares. Remember, consistency is key—aim for 5-10 quality links per month to see measurable improvements in spam scores.</p>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Spam Score Reduction</h2>
@@ -45,7 +45,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>Outbound link: Learn more from <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Buying Backlinks</a>.</p>
     
     <div class="media">
-        <img src="/media/spam-score-reduction-for-links-img2.jpg" alt="Pros and cons of buying links chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Pros and cons of buying links chart" width="800" height="400" />
         <p><em>Chart on buying links (Source: Backlinkoo)</em></p>
     </div>
     
@@ -105,7 +105,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>An SEO agency used <Link to="/xrumer">XRumer for posting</Link> to build contextual links, reducing average spam score across clients by 25%. One client saw a 40% traffic uplift. Data: From 50% spam to 20%, with 500+ high-DA links.</p>
     
     <div class="media">
-        <img src="/media/spam-score-reduction-for-links-img3.jpg" alt="Case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Case study graph" width="800" height="400" />
         <p><em>Graph showing spam score reduction trends (Source: Backlinkoo)</em></p>
     </div>
     

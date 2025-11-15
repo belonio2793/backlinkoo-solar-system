@@ -28,7 +28,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     </ul>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img1.jpg" alt="mobile-first link acquisition infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="mobile-first link acquisition infographic" width="800" height="400" />
         <p><em>Infographic illustrating the growth of mobile traffic and its impact on link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -66,7 +66,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>LSI terms like "mobile SEO strategies" and "backlink profiles" can enhance your content's relevance. Backlinkoo offers content services to amplify your efforts.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on mobile-friendly content creation (Source: Backlinkoo YouTube Channel)</em></p>
     </div>
     
@@ -109,7 +109,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>Backlinkoo's services ensure safe, effective link purchases tailored to mobile-first strategies.</p>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img2.jpg" alt="Pros and cons of buying links chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Pros and cons of buying links chart" width="800" height="400" />
         <p><em>Chart comparing pros and cons of link buying (Source: Backlinkoo)</em></p>
     </div>
     
@@ -177,7 +177,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>A local restaurant chain implemented skyscraper content targeted at mobile users. With Backlinkoo's help, they earned 100 natural links, leading to a 40% increase in mobile bookings. Fake stats: DA improvement: 20 points; Mobile traffic: +55%.</p>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -217,7 +217,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>Typically 3-6 months, depending on campaign scale and site authority.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>FAQ video explainer on link acquisition (Source: Backlinkoo)</em></p>
     </div>
     

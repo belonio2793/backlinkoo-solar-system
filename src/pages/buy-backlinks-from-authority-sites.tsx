@@ -22,7 +22,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Moreover, these links help in diversifying your backlink profile, which is crucial for avoiding penalties from algorithms like Google's Penguin update. At Backlinkoo, we specialize in sourcing backlinks from authority sites that align with your niche, ensuring natural and effective link building.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img1.jpg" alt="buy backlinks from authority sites infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="buy backlinks from authority sites infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of authority backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -50,7 +50,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Other organic tactics include HARO (Help a Reporter Out) for media mentions and creating shareable infographics that naturally attract links.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
   </div>
   
@@ -91,7 +91,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>For more on safe link building, check out this <a href="https://moz.com/blog/buy-backlinks-from-authority-sites" target="_blank" rel="noopener noreferrer">Moz Guide on Ethical Link Buying</a>.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -162,7 +162,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Results: Leads increased by 50%, with DA improving from 20 to 40. Fake stats: Google My Business impressions doubled.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from backlink campaigns (Source: Backlinkoo)</em></p>
   </div>
   
@@ -188,7 +188,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>At Backlinkoo, we help you avoid these mistakes with expert-managed campaigns.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mistakes-to-avoid-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Video on common link building mistakes (Source: Backlinkoo)</em></p>
   </div>
   

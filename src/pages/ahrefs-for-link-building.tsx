@@ -23,7 +23,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These features make Ahrefs for link building a must-have for anyone aiming to build a robust backlink portfolio.</p>
 
   <div class="media">
-    <img src="/media/ahrefs-for-link-building-img1.jpg" alt="Ahrefs for link building dashboard overview" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Ahrefs for link building dashboard overview" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>A visual overview of Ahrefs' Site Explorer tool, essential for link building analysis (Source: Backlinkoo)</em></p>
   </div>
 
@@ -114,7 +114,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>A local restaurant chain used Ahrefs to find resource pages in food blogs. Secured 30 links, boosting local search rankings by 25 positions (fake stats). Combined with XRumer for forum posts, they saw a 35% increase in bookings.</p>
 
   <div class="media">
-    <img src="/media/ahrefs-for-link-building-img2.jpg" alt="Case study graph showing link growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Case study graph showing link growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph illustrating backlink growth in a successful Ahrefs campaign (Source: Backlinkoo)</em></p>
   </div>
 
@@ -150,7 +150,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>Backlinkoo uses Ahrefs data to inform our services, like automated outreach with SENUKE, ensuring high-quality link building.</p>
 
   <div class="media">
-    <img src="/media/ahrefs-for-link-building-img3.jpg" alt="FAQ infographic on Ahrefs link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="FAQ infographic on Ahrefs link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic summarizing key FAQs for Ahrefs in link building (Source: Backlinkoo)</em></p>
   </div>
 

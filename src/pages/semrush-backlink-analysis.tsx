@@ -25,7 +25,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>At Backlinkoo, we use tools like SEMrush to inform our backlink strategies, ensuring our clients receive links that are not only numerous but also relevant and authoritative.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img1.jpg" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
         <p><em>SEMrush backlink analysis dashboard showing key metrics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -43,7 +43,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>For automation in your link building, consider <a href="/senuke">SENUKE for automation</a>, which integrates seamlessly with SEMrush data to streamline outreach.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="SEMrush Backlink Analysis Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="SEMrush Backlink Analysis Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Watch this tutorial on using SEMrush for organic link building (Source: YouTube)</em></p>
     </div>
     
@@ -105,7 +105,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: For more on tools, check <a href="https://ahrefs.com/blog/backlink-tools/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img2.jpg" alt="Comparison chart of backlink tools" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Comparison chart of backlink tools" width="800" height="400" />
         <p><em>Visual comparison of top backlink tools including SEMrush (Source: Backlinkoo)</em></p>
     </div>
     
@@ -123,7 +123,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: Similar case studies on <a href="https://www.google.com/search/blog/backlink-case-studies" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img3.jpg" alt="Case study graph showing traffic growth" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Case study graph showing traffic growth" width="800" height="400" />
         <p><em>Graph illustrating traffic boost from SEMrush backlink analysis (Source: Backlinkoo)</em></p>
     </div>
     
@@ -153,7 +153,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>SEMrush uses its Authority Score, similar to Moz's DA, to evaluate link quality and overall site strength.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="Advanced SEMrush Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6584525/6584525-sd_240_426_25fps.mp4" title="Advanced SEMrush Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Advanced tips for SEMrush backlink analysis (Source: YouTube)</em></p>
     </div>
     

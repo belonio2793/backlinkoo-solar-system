@@ -24,7 +24,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>According to Moz's research, websites with strong backlink profiles see up to 3x more organic traffic. At Backlinkoo.com, our high DA backlinks for sale are sourced from reputable niches, ensuring they align with Google's guidelines and provide long-term value.</p>
     
     <div class="media">
-        <img src="/media/high-da-backlinks-for-sale-img1.jpg" alt="high DA backlinks for sale infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="high DA backlinks for sale infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of high DA backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -48,7 +48,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>If organic methods feel overwhelming, consider our high DA backlinks for sale at Backlinkoo.com for a quicker boost.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
     </div>
     
@@ -119,7 +119,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>Integrate these tools into your strategy for optimal results. For automated solutions, check out our integrations with <Link to="/senuke">SENUKE</Link> at Backlinkoo.com.</p>
     
     <div class="media">
-        <img src="/media/high-da-backlinks-for-sale-img2.jpg" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>These examples highlight how high DA backlinks for sale can deliver tangible results when sourced from trusted providers like Backlinkoo.com.</p>
     
     <div class="media">
-        <img src="/media/high-da-backlinks-for-sale-img3.jpg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph depicting traffic growth from high DA backlinks (Source: Backlinkoo)</em></p>
     </div>
     
