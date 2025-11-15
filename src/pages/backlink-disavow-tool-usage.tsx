@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const BacklinkDisavowToolUsage: React.FC = () => {
-  const title = "Backlink Disavow Tool Usage: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "The backlink disavow tool is a feature provided by Google that allows webmasters to tell search engines to ignore certain links pointing to their site. Intro...";
+  const title = "Backlink Disavow Tool Usage: A Comprehensive Guide to Protecting Your SEO";
+  const subtitle = "The backlink disavow tool is a feature provided by Google that allows webmasters to tell search engines to ignore certain links pointing to their s...";
   const htmlContent = `
     <h1>Backlink Disavow Tool Usage: A Comprehensive Guide to Protecting Your SEO</h1>
     <p>In the ever-evolving world of search engine optimization (SEO), understanding <strong>backlink disavow tool usage</strong> is crucial for maintaining a healthy link profile. Backlinks are the backbone of SEO, but not all links are created equal. Toxic or spammy backlinks can harm your site's rankings, which is where the disavow tool comes into play. At Backlinkoo.com, we're experts in helping you navigate these waters, ensuring your site thrives with high-quality link building strategies.</p>
@@ -188,7 +188,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     
     <p>For further reading: <a href="https://backlinko.com/backlink-disavow" target="_blank" rel="noopener noreferrer">Backlinko Guide</a>, <a href="https://www.searchenginejournal.com/disavow-tool" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>, <a href="https://neilpatel.com/blog/disavow-links" target="_blank" rel="noopener noreferrer">Neil Patel on Disavow</a>.</p>
 `;
-  const keywords = "backlink, disavow, tool, usage, SEO";
+  const keywords = "backlink, disavow, tool, usage";
   
   return (
     <GenericPageTemplate

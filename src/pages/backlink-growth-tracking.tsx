@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const BacklinkGrowthTracking: React.FC = () => {
-  const title = "Backlink Growth Tracking: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "Why does it matter? According to a 2023 study by Ahrefs, sites with more high-quality backlinks rank higher in search results. In fact, the top-ranking pages...";
+  const title = "Backlink Growth Tracking: The Ultimate Guide to Monitoring and Boosting Your SEO Links";
+  const subtitle = "Why does it matter? According to a 2023 study by Ahrefs, sites with more high-quality backlinks rank higher in search results. In fact, the top-ran...";
   const htmlContent = `
     <h1>Backlink Growth Tracking: The Ultimate Guide to Monitoring and Boosting Your SEO Links</h1>
     
@@ -224,7 +224,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     
     <p>For more resources, explore <a href="https://ahrefs.com/blog/backlink-analysis/" target="_blank" rel="noopener noreferrer">Ahrefs backlink analysis</a>, <a href="https://www.semrush.com/blog/backlink-audit/" target="_blank" rel="noopener noreferrer">SEMrush audit guide</a>, and <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google's SEO blog</a>.</p>
 `;
-  const keywords = "backlink, growth, tracking, SEO";
+  const keywords = "backlink, growth, tracking";
   
   return (
     <GenericPageTemplate

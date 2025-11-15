@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const ToxicBacklinkRemoval: React.FC = () => {
-  const title = "Toxic Backlink Removal: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "In the ever-evolving world of SEO, maintaining a healthy backlink profile is crucial for your website's success. Toxic backlinks can drag down your rankings,...";
+  const title = "Toxic Backlink Removal: The Ultimate Guide to Cleaning Up Your Link Profile";
+  const subtitle = "In the ever-evolving world of SEO, maintaining a healthy backlink profile is crucial for your website's success. Toxic backlinks can drag down your...";
   const htmlContent = `
   <h1>Toxic Backlink Removal: The Ultimate Guide to Cleaning Up Your Link Profile</h1>
   <p>In the ever-evolving world of SEO, maintaining a healthy backlink profile is crucial for your website's success. Toxic backlinks can drag down your rankings, trigger penalties from search engines like Google, and harm your overall online presence. At Backlinkoo.com, we're experts in helping businesses navigate these challenges. This comprehensive guide dives deep into toxic backlink removal, offering actionable insights, strategies, and tools to safeguard your site's domain authority. Whether you're dealing with spammy dofollow links or low-quality referrals, understanding toxic backlink removal is key to sustainable link building.</p>
@@ -138,7 +138,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <p>As SEO experts at Backlinkoo.com, we've seen firsthand how toxic backlink removal can transform struggling sites. Backed by data from sources like Moz (where 60% of penalized sites recover post-removal) and Ahrefs (noting a 25% average domain authority boost), our services deliver results. With an authoritative approach grounded in experience, we help you maintain a clean link profile for long-term success. Contact us today to start your toxic backlink removal journey and elevate your link building strategy.</p>
   <p>For further reading: <a href="https://www.semrush.com/blog/toxic-backlinks/" target="_blank" rel="noopener noreferrer">SEMrush Guide</a>, <a href="https://backlinko.com/toxic-backlinks" target="_blank" rel="noopener noreferrer">Backlinko Insights</a>, <a href="https://neilpatel.com/blog/toxic-links/" target="_blank" rel="noopener noreferrer">Neil Patel on Links</a>, <a href="https://www.searchenginejournal.com/toxic-backlinks-removal/" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>, and <a href="https://developers.google.com/search/docs/advanced/guidelines/disavow-links" target="_blank" rel="noopener noreferrer">Google Disavow Tool</a>.</p>
 `;
-  const keywords = "toxic, backlink, removal, SEO";
+  const keywords = "toxic, backlink, removal";
   
   return (
     <GenericPageTemplate

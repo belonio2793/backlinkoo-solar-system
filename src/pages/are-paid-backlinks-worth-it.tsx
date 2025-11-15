@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const ArePaidBacklinksWorthIt: React.FC = () => {
-  const title = "Are Paid Backlinks Worth It: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "In the ever-evolving world of SEO, one question keeps popping up: are paid backlinks worth it? As an expert SEO copywriter for Backlinkoo.com, I've seen firs...";
+  const title = "Are Paid Backlinks Worth It? A Comprehensive Guide to Link Building in 2023";
+  const subtitle = "In the ever-evolving world of SEO, one question keeps popping up: are paid backlinks worth it? As an expert SEO copywriter for Backlinkoo.com, I've...";
   const htmlContent = `
     <h1>Are Paid Backlinks Worth It? A Comprehensive Guide to Link Building in 2023</h1>
     
@@ -194,7 +194,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     
     <!-- Word count: Approximately 5200 words (expanded with detailed explanations in each section) -->
 `;
-  const keywords = "are, paid, backlinks, worth, it, SEO";
+  const keywords = "are, paid, backlinks, worth, it";
   
   return (
     <GenericPageTemplate

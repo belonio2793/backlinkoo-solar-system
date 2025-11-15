@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const BacklinkProfileDiversification: React.FC = () => {
-  const title = "Backlink Profile Diversification: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "Backlink profile diversification involves spreading your inbound links across various sources, types, and qualities to create a natural-looking link profile....";
+  const title = "Backlink Profile Diversification: The Ultimate Guide to Building a Robust SEO Strategy";
+  const subtitle = "Backlink profile diversification involves spreading your inbound links across various sources, types, and qualities to create a natural-looking lin...";
   const htmlContent = `
     <h1>Backlink Profile Diversification: The Ultimate Guide to Building a Robust SEO Strategy</h1>
     
@@ -210,7 +210,7 @@ const BacklinkProfileDiversification: React.FC = () => {
         }
     </style>
 `;
-  const keywords = "backlink, profile, diversification, SEO";
+  const keywords = "backlink, profile, diversification";
   
   return (
     <GenericPageTemplate

@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const BacklinkDrVsUrMetrics: React.FC = () => {
+  const title = "Backlink DR vs UR Metrics: A Comprehensive Guide to Boosting Your SEO";
+  const subtitle = "In the ever-evolving world of search engine optimization (SEO), understanding key metrics like backlink DR vs UR metrics is crucial for anyone look...";
   const htmlContent = `<h1>Backlink DR vs UR Metrics: A Comprehensive Guide to Boosting Your SEO</h1>
   
   <p>In the ever-evolving world of search engine optimization (SEO), understanding key metrics like backlink DR vs UR metrics is crucial for anyone looking to improve their website's visibility and authority. At Backlinkoo.com, we specialize in helping businesses navigate these complexities to achieve top rankings. This in-depth article will explore everything you need to know about backlink DR vs UR metrics, from definitions to strategies, tools, and more. Whether you're a beginner or a seasoned marketer, you'll find actionable insights here to enhance your link building efforts.</p>
@@ -200,25 +202,16 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>In conclusion, mastering backlink DR vs UR metrics is essential for SEO success. As experts at Backlinkoo, we've seen firsthand how these metrics drive results—backed by stats like Ahrefs' correlation of high DR with top rankings (over 70% of top results have DR 50+). Our authoritative services, drawing from years of experience, ensure trustworthy strategies. Contact us today to elevate your link building game.</p>
   
   <p>(Word count: 5123)</p>`;
-
+  const keywords = "backlink, dr, vs, ur, metrics";
+  
   return (
-    <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Backlink Dr Vs Ur Metrics: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
-    </>
+    <GenericPageTemplate
+      title={title}
+      subtitle={subtitle}
+      htmlContent={htmlContent}
+      keywords={keywords}
+      description={subtitle}
+    />
   );
 };
 

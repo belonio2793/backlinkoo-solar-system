@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const WhiteHatLinkBuildingTechniques: React.FC = () => {
+  const title = "White Hat Link Building Techniques: A Comprehensive Guide";
+  const subtitle = "White hat link building techniques refer to ethical, search engine-approved methods of acquiring backlinks to your website. Unlike black hat tactic...";
   const htmlContent = `
     <h1>White Hat Link Building Techniques: A Comprehensive Guide</h1>
     <p>In the ever-evolving world of SEO, mastering <strong>white hat link building techniques</strong> is essential for sustainable online success. As an expert SEO copywriter for Backlinkoo.com, I'll guide you through ethical strategies that boost your site's domain authority without risking penalties from search engines like Google. Whether you're a beginner or seasoned marketer, this article will provide actionable insights into link building, dofollow links, and more. Let's dive in and explore how these methods can elevate your website's visibility.</p>
@@ -162,25 +164,16 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
 
     <p>(Word count: 5123)</p>
 `;
-
+  const keywords = "white, hat, link, building, techniques";
+  
   return (
-    <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>White Hat Link Building Techniques: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
-    </>
+    <GenericPageTemplate
+      title={title}
+      subtitle={subtitle}
+      htmlContent={htmlContent}
+      keywords={keywords}
+      description={subtitle}
+    />
   );
 };
 

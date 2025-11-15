@@ -2,8 +2,8 @@ import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const AbTestingAnchorTexts: React.FC = () => {
-  const title = "A/B Testing Anchor Texts: The Key to Dominating Google Rankings in 2025";
-  const subtitle = "Why does it matter? According to a study by Ahrefs, well-optimized anchor texts can improve click-through rates by up to 20% and enhance the flow of link equ...";
+  const title = "A/B Testing Anchor Texts: Optimizing Your Link Building Strategy for Maximum SEO Impact";
+  const subtitle = "Why does it matter? According to a study by Ahrefs, well-optimized anchor texts can improve click-through rates by up to 20% and enhance the flow o...";
   const htmlContent = `
   <h1>A/B Testing Anchor Texts: Optimizing Your Link Building Strategy for Maximum SEO Impact</h1>
   
@@ -207,7 +207,7 @@ const AbTestingAnchorTexts: React.FC = () => {
     }
   </style>
 `;
-  const keywords = "ab, testing, anchor, texts, SEO";
+  const keywords = "ab, testing, anchor, texts";
   
   return (
     <GenericPageTemplate

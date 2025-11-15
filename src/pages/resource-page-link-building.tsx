@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { GenericPageTemplate } from '@/components/GenericPageTemplate';
 
 const ResourcePageLinkBuilding: React.FC = () => {
+  const title = "Resource Page Link Building: The Ultimate Guide to Boosting Your SEO";
+  const subtitle = "In the ever-evolving world of search engine optimization (SEO), resource page link building stands out as a powerful strategy for acquiring high-qu...";
   const htmlContent = `<h1>Resource Page Link Building: The Ultimate Guide to Boosting Your SEO</h1>
   <p>In the ever-evolving world of search engine optimization (SEO), resource page link building stands out as a powerful strategy for acquiring high-quality backlinks. At Backlinkoo.com, we specialize in helping businesses like yours harness the potential of resource page link building to improve domain authority, drive organic traffic, and achieve better search rankings. This comprehensive guide will dive deep into everything you need to know about resource page link building, from its fundamentals to advanced tactics. Whether you're a beginner or an experienced marketer, you'll find actionable insights here to elevate your link building game.</p>
   
@@ -149,25 +151,16 @@ const ResourcePageLinkBuilding: React.FC = () => {
     <img src="/media/resource-page-link-building-img3.jpg" alt="conclusion infographic for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Final thoughts on mastering resource page link building (Source: Backlinkoo)</em></p>
   </div>`;
-
+  const keywords = "resource, page, link, building";
+  
   return (
-    <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Resource Page Link Building: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
-    </>
+    <GenericPageTemplate
+      title={title}
+      subtitle={subtitle}
+      htmlContent={htmlContent}
+      keywords={keywords}
+      description={subtitle}
+    />
   );
 };
 
