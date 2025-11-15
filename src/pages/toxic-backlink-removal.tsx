@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const toxic-backlink-removalPage: React.FC = () => {
+const ToxicBacklinkRemoval: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Toxic Backlink Removal: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire toxic backlink removal for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Toxic Backlink Removal: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/toxic-backlink-removal-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Toxic Backlink Removal: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -73,7 +32,7 @@ const toxic-backlink-removalPage: React.FC = () => {
   <p>Once identified, reach out to webmasters via email requesting link removal. Craft polite, professional messages explaining the issue. For example, "We've noticed a link from your site that's harming our SEO; could you please remove it?" This guest-post-like outreach can resolve 40-60% of toxic links without disavowal, per industry stats from Search Engine Journal.</p>
   <h3>Broken Link Strategies in Removal</h3>
   <p>Broken links can become toxic if they're from dead pages. Use tools to find them and suggest replacements with your high-quality content. This not only removes the toxic element but turns it into a positive link building opportunity. Remember, toxic backlink removal is about balance—remove the bad and build the good.</p>
-  <p>For automation in your link management, consider <Link href="/senuke">SENUKE for automation</Link>, which can help streamline audits and outreach processes.</p>
+  <p>For automation in your link management, consider <Link to="/senuke">SENUKE for automation</Link>, which can help streamline audits and outreach processes.</p>
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-tutorial-video" title="YouTube video on backlink audits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p><em>Tutorial on identifying toxic backlinks (Source: Backlinkoo)</em></p>
@@ -86,7 +45,7 @@ const toxic-backlink-removalPage: React.FC = () => {
   <h3>Cons of Buying Services</h3>
   <p>Cost: Services range from $500-$5000 depending on site size. Risk of Scams: Not all providers are legitimate—choose reputable ones like Backlinkoo. Dependency: Over-reliance might neglect learning organic strategies.</p>
   <h3>Safe Tips for Buying</h3>
-  <p>Verify credentials: Look for case studies and reviews. Ensure transparency: Providers should share audit reports. Combine with organic efforts: Use services for removal, then build dofollow links naturally. For safe automation in related tasks, explore <Link href="/xrumer">XRumer for posting</Link> to manage forum links that might turn toxic.</p>
+  <p>Verify credentials: Look for case studies and reviews. Ensure transparency: Providers should share audit reports. Combine with organic efforts: Use services for removal, then build dofollow links naturally. For safe automation in related tasks, explore <Link to="/xrumer">XRumer for posting</Link> to manage forum links that might turn toxic.</p>
   <p>Learn more from <a href="https://ahrefs.com/blog/toxic-backlinks" target="_blank" rel="noopener noreferrer">Ahrefs on Toxic Backlinks</a>.</p>
   
   <h2>Tools for Toxic Backlink Removal: A Comparison Table</h2>
@@ -114,13 +73,13 @@ const toxic-backlink-removalPage: React.FC = () => {
         <td>Site-wide SEO management</td>
       </tr>
       <tr>
-        <td><Link href="/senuke">SENUKE</Link></td>
+        <td><Link to="/senuke">SENUKE</Link></td>
         <td>Automation for link audits and outreach</td>
         <td>Custom pricing</td>
         <td>Automated toxic backlink removal workflows</td>
       </tr>
       <tr>
-        <td><Link href="/xrumer">XRumer</Link></td>
+        <td><Link to="/xrumer">XRumer</Link></td>
         <td>Posting and link monitoring to prevent toxic buildup</td>
         <td>Custom pricing</td>
         <td>Managing forum and comment links</td>
@@ -140,9 +99,9 @@ const toxic-backlink-removalPage: React.FC = () => {
   <h3>Case Study 1: E-commerce Site Recovery</h3>
   <p>An online store suffered a 40% traffic drop due to toxic backlinks from link farms. After our toxic backlink removal service, we identified 2,500 harmful links, removed 70% via outreach, and disavowed the rest. Result: Traffic rebounded by 55% in 3 months, with domain authority increasing from 25 to 42.</p>
   <h3>Case Study 2: Blog Network Penalty Lift</h3>
-  <p>A content blog was penalized for spammy dofollow links. Using organic strategies and tools like <Link href="/senuke">SENUKE</Link>, we audited and removed 1,800 toxic links. Organic rankings improved by 65%, and monthly visitors grew from 10,000 to 28,000.</p>
+  <p>A content blog was penalized for spammy dofollow links. Using organic strategies and tools like <Link to="/senuke">SENUKE</Link>, we audited and removed 1,800 toxic links. Organic rankings improved by 65%, and monthly visitors grew from 10,000 to 28,000.</p>
   <h3>Case Study 3: Agency Client Turnaround</h3>
-  <p>An SEO agency client had low domain authority due to outdated directories. Our team handled toxic backlink removal, combining manual outreach with <Link href="/xrumer">XRumer</Link> for monitoring. Post-removal, the site saw a 40% boost in search impressions and a 30% increase in conversions.</p>
+  <p>An SEO agency client had low domain authority due to outdated directories. Our team handled toxic backlink removal, combining manual outreach with <Link to="/xrumer">XRumer</Link> for monitoring. Post-removal, the site saw a 40% boost in search impressions and a 30% increase in conversions.</p>
   <div class="media">
     <img src="/media/toxic-backlink-removal-img2.jpg" alt="case study graph for toxic backlink removal" width="800" height="400" />
     <p><em>Graph showing traffic recovery after removal (Source: Backlinkoo)</em></p>
@@ -167,7 +126,7 @@ const toxic-backlink-removalPage: React.FC = () => {
   <h3>Can I remove toxic backlinks myself?</h3>
   <p>Yes, with organic strategies like outreach, but professional services from Backlinkoo ensure thoroughness.</p>
   <h3>What tools are best for toxic backlink removal?</h3>
-  <p>Ahrefs, SEMrush, and Backlinkoo's <Link href="/senuke">SENUKE</Link> for automation are top choices.</p>
+  <p>Ahrefs, SEMrush, and Backlinkoo's <Link to="/senuke">SENUKE</Link> for automation are top choices.</p>
   <h3>How long does recovery take after removal?</h3>
   <p>Typically 1-3 months, depending on the penalty severity and follow-up link building.</p>
   <div class="media">
@@ -193,10 +152,10 @@ const toxic-backlink-removalPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default toxic-backlink-removalPage;
+export default ToxicBacklinkRemoval;

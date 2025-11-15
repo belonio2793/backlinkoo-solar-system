@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const influencer-outreach-for-backlinksPage: React.FC = () => {
+const InfluencerOutreachForBacklinks: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Influencer Outreach For Backlinks: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire influencer outreach for backlinks for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Influencer Outreach For Backlinks: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/influencer-outreach-for-backlinks-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Influencer Outreach For Backlinks: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -83,7 +42,7 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
   
   <p>To execute this, start by identifying influencers using tools like Ahrefs or SEMrush. Craft personalized emails highlighting mutual benefits. Remember, the key to successful influencer outreach for backlinks is value exchange—offer something they can't resist, like exclusive data or expert insights.</p>
   
-  <p>At Backlinkoo, we recommend automating parts of this process with tools like <Link href="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE for automation</Link>, which can streamline content distribution and outreach efforts.</p>
+  <p>At Backlinkoo, we recommend automating parts of this process with tools like <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE for automation</Link>, which can streamline content distribution and outreach efforts.</p>
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Broken Link Building</h3>
   
@@ -97,7 +56,7 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
   
   <p>Leverage platforms like Twitter or LinkedIn for influencer outreach. Engage with their posts, share their content, and build rapport before pitching for backlinks. A simple mention can evolve into a full collaboration, leading to dofollow links on their blogs.</p>
   
-  <p>For automation in posting and engagement, consider <Link href="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link>, which can help scale your social media efforts efficiently.</p>
+  <p>For automation in posting and engagement, consider <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link>, which can help scale your social media efforts efficiently.</p>
   
   <p>According to <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land</a>, social signals indirectly influence SEO, making this a smart addition to your influencer outreach for backlinks toolkit.</p>
   
@@ -147,12 +106,12 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Automation tool for link building and outreach campaigns.</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Scaling influencer outreach for backlinks efficiently.</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Software for automated posting and forum engagement.</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Building relationships through community interactions for dofollow links.</td>
       </tr>
@@ -186,11 +145,11 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Case Study 2: Tech Startup Growth</h3>
   
-  <p>A SaaS company used broken link building and social engagement. With <Link href="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE for automation</Link>, they reached 100 tech influencers, fixing 25 broken links with their content. Outcomes: 45 new backlinks, a 200% increase in organic search visibility, and domain authority jumping from 40 to 60. Backlinkoo's expertise ensured all links were natural and relevant.</p>
+  <p>A SaaS company used broken link building and social engagement. With <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE for automation</Link>, they reached 100 tech influencers, fixing 25 broken links with their content. Outcomes: 45 new backlinks, a 200% increase in organic search visibility, and domain authority jumping from 40 to 60. Backlinkoo's expertise ensured all links were natural and relevant.</p>
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Case Study 3: Health Blog Expansion</h3>
   
-  <p>A wellness site bought targeted influencer collaborations safely. Securing 20 links from health influencers via paid posts, they saw traffic surge by 180% and improved rankings for key terms like "natural remedies." Using <Link href="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link> helped maintain engagement post-campaign.</p>
+  <p>A wellness site bought targeted influencer collaborations safely. Securing 20 links from health influencers via paid posts, they saw traffic surge by 180% and improved rankings for key terms like "natural remedies." Using <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link> helped maintain engagement post-campaign.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
     <img src="/media/influencer-outreach-for-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
@@ -223,7 +182,7 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
   <p>Costs vary: organic is free but time-intensive; paid can range from $50-$5000 per influencer, depending on reach.</p>
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Can I automate influencer outreach for backlinks?</h3>
-  <p>Yes, tools like <Link href="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> automate emails and tracking, saving time while maintaining personalization.</p>
+  <p>Yes, tools like <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> automate emails and tracking, saving time while maintaining personalization.</p>
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What metrics should I track for success?</h3>
   <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
@@ -239,7 +198,7 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
   
   <p>With an authoritative tone grounded in E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), we recommend starting your journey today. Contact Backlinkoo for tailored influencer outreach services that drive real growth. Remember, effective SEO isn't just about links—it's about strategic partnerships that last.</p>
   
-  <p>For more insights, check out Google's <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Webmaster Guidelines</a> or explore our tools like <Link href="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> and <Link href="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer</Link>.</p>
+  <p>For more insights, check out Google's <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Webmaster Guidelines</a> or explore our tools like <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> and <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer</Link>.</p>
 </div> />
 
         <div className="author-bio">
@@ -251,10 +210,10 @@ const influencer-outreach-for-backlinksPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default influencer-outreach-for-backlinksPage;
+export default InfluencerOutreachForBacklinks;

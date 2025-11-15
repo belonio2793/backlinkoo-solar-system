@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const ab-testing-anchor-textsPage: React.FC = () => {
+const AbTestingAnchorTexts: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>A/B Testing Anchor Texts: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire A/B testing anchor texts for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "A/B Testing Anchor Texts: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/ab-testing-anchor-texts-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>A/B Testing Anchor Texts: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -79,7 +38,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <p>Guest posting involves writing articles for other websites in exchange for a backlink. To apply A/B testing, create two versions of your guest post pitch: one with exact-match anchors and another with branded variations. Track which version secures more placements and higher-quality dofollow links.</p>
   
-  <p>For example, if you're targeting "link building services," test anchors like "expert link building" versus "Backlinkoo's link building tips." Tools like <Link href="/senuke">SENUKE for automation</Link> can streamline the outreach process, allowing you to scale your testing efficiently.</p>
+  <p>For example, if you're targeting "link building services," test anchors like "expert link building" versus "Backlinkoo's link building tips." Tools like <Link to="/senuke">SENUKE for automation</Link> can streamline the outreach process, allowing you to scale your testing efficiently.</p>
   
   <h3>Broken Link Building with Tested Anchors</h3>
   
@@ -91,7 +50,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <p>Syndicate your content on platforms like Medium or LinkedIn, testing different anchor texts in the links back to your site. Monitor analytics to determine which drives more traffic and improves domain authority.</p>
   
-  <p>Incorporate <strong>A/B testing anchor texts</strong> by creating multiple syndicated versions and analyzing performance. For automated posting, consider <Link href="/xrumer">XRumer for posting</Link>, which can handle large-scale distribution while you focus on testing.</p>
+  <p>Incorporate <strong>A/B testing anchor texts</strong> by creating multiple syndicated versions and analyzing performance. For automated posting, consider <Link to="/xrumer">XRumer for posting</Link>, which can handle large-scale distribution while you focus on testing.</p>
   
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on A/B testing anchor texts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -141,13 +100,13 @@ const ab-testing-anchor-textsPage: React.FC = () => {
         <td>Starts at $99/month</td>
       </tr>
       <tr>
-        <td><Link href="/senuke">SENUKE</Link></td>
+        <td><Link to="/senuke">SENUKE</Link></td>
         <td>Automation for link building and A/B testing campaigns</td>
         <td>Scaling organic and paid strategies</td>
         <td>Custom pricing</td>
       </tr>
       <tr>
-        <td><Link href="/xrumer">XRumer</Link></td>
+        <td><Link to="/xrumer">XRumer</Link></td>
         <td>Automated posting with anchor text variations</td>
         <td>High-volume testing</td>
         <td>Custom pricing</td>
@@ -172,7 +131,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <h3>Case Study 1: E-commerce Site Boosts Traffic by 40%</h3>
   
-  <p>An online retailer used <strong>A/B testing anchor texts</strong> in their guest posting campaign. Version A featured exact-match anchors like "buy SEO tools," while Version B used partial-match "best tools for link building." After three months, Version B increased referral traffic by 40% and improved domain authority from 25 to 35. Backlinkoo's services facilitated the automation via <Link href="/senuke">SENUKE</Link>.</p>
+  <p>An online retailer used <strong>A/B testing anchor texts</strong> in their guest posting campaign. Version A featured exact-match anchors like "buy SEO tools," while Version B used partial-match "best tools for link building." After three months, Version B increased referral traffic by 40% and improved domain authority from 25 to 35. Backlinkoo's services facilitated the automation via <Link to="/senuke">SENUKE</Link>.</p>
   
   <h3>Case Study 2: Blog Network Enhances Engagement</h3>
   
@@ -180,7 +139,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <h3>Case Study 3: Agency Scales with Automation</h3>
   
-  <p>An SEO agency implemented A/B testing using <Link href="/xrumer">XRumer</Link> for posting. They saw a 50% improvement in link quality, with domain authority rising by 20 points over six months.</p>
+  <p>An SEO agency implemented A/B testing using <Link to="/xrumer">XRumer</Link> for posting. They saw a 50% improvement in link quality, with domain authority rising by 20 points over six months.</p>
   
   <div class="media">
     <img src="/media/A-B-testing-anchor-texts-img3.jpg" alt="Case study graph on A/B testing anchor texts results" width="800" height="400" />
@@ -205,7 +164,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <h3>Failing to Scale Tests</h3>
   
-  <p>Small sample sizes skew results. Use automation like <Link href="/senuke">SENUKE</Link> for broader testing.</p>
+  <p>Small sample sizes skew results. Use automation like <Link to="/senuke">SENUKE</Link> for broader testing.</p>
   
   <h3>Neglecting Competitor Analysis</h3>
   
@@ -227,7 +186,7 @@ const ab-testing-anchor-textsPage: React.FC = () => {
   
   <h3>What tools do you recommend for beginners in link building?</h3>
   
-  <p>Start with free options like Google Optimize, then scale with <Link href="/xrumer">XRumer</Link> for advanced automation.</p>
+  <p>Start with free options like Google Optimize, then scale with <Link to="/xrumer">XRumer</Link> for advanced automation.</p>
   
   <h3>Is buying backlinks safe when combined with A/B testing?</h3>
   
@@ -262,10 +221,10 @@ const ab-testing-anchor-textsPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default ab-testing-anchor-textsPage;
+export default AbTestingAnchorTexts;

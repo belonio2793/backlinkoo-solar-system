@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const directory-submission-link-buildingPage: React.FC = () => {
+const DirectorySubmissionLinkBuilding: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Directory Submission Link Building: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire directory submission link building for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Directory Submission Link Building: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/directory-submission-link-building-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Directory Submission Link Building: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -84,7 +43,7 @@ const directory-submission-link-buildingPage: React.FC = () => {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><em>Tutorial on organic link building strategies including directory submissions (Source: Backlinkoo)</em></p>
     </div>
-    <p>For automation in these processes, consider tools like <Link href="/senuke">SENUKE for automation</Link>, which can streamline submissions while maintaining an organic feel.</p>
+    <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline submissions while maintaining an organic feel.</p>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Directory Submission</h2>
     <p>While organic methods are ideal, buying links for directory submissions is a common practice. However, it's risky due to Google's stance against paid links. At Backlinkoo, we advocate for safe, white-hat approaches, but let's break down the pros and cons.</p>
@@ -96,7 +55,7 @@ const directory-submission-link-buildingPage: React.FC = () => {
     <p>Costs can add up, and there's no guarantee of long-term value if the directory loses authority.</p>
     <h3>Safe Tips for Buying Directory Links</h3>
     <p>Choose directories with DA over 40 and low spam scores. Use services like Backlinkoo to vet and manage purchases. Diversify your link sources and monitor with tools from <a href="https://ahrefs.com/blog/buying-links" target="_blank" rel="noopener noreferrer">Ahrefs</a>. Always aim for natural-looking links, and avoid over-optimization.</p>
-    <p>Integrate bought links with organic ones for balance. For posting efficiency, <Link href="/xrumer">XRumer for posting</Link> can help automate safe submissions.</p>
+    <p>Integrate bought links with organic ones for balance. For posting efficiency, <Link to="/xrumer">XRumer for posting</Link> can help automate safe submissions.</p>
     
     <h2>Essential Tools for Directory Submission Link Building</h2>
     <p>To succeed in directory submission link building, the right tools are indispensable. Below is a table of top tools, including our recommendations from Backlinkoo.</p>
@@ -111,13 +70,13 @@ const directory-submission-link-buildingPage: React.FC = () => {
         </thead>
         <tbody>
             <tr>
-                <td><Link href="/senuke">SENUKE</Link></td>
+                <td><Link to="/senuke">SENUKE</Link></td>
                 <td>Automation software for link building campaigns.</td>
                 <td>Automated directory submissions, content spinning, multi-threaded posting.</td>
                 <td>Scaling directory submission link building efficiently.</td>
             </tr>
             <tr>
-                <td><Link href="/xrumer">XRumer</Link></td>
+                <td><Link to="/xrumer">XRumer</Link></td>
                 <td>Advanced posting tool for forums and directories.</td>
                 <td>High-volume posting, captcha solving, profile creation.</td>
                 <td>Automated posting in directories and related sites.</td>
@@ -155,7 +114,7 @@ const directory-submission-link-buildingPage: React.FC = () => {
     <h3>Case Study 2: Local Business Growth</h3>
     <p>A local plumbing service used directory submissions to regional directories like Yelp and Yellow Pages. We added 100 submissions, focusing on dofollow links. Domain authority improved by 20 points, and local search rankings jumped from page 3 to page 1 for key terms. Traffic increased by 50%, with a 40% uptick in inquiries. Stats show a 25% ROI from this campaign.</p>
     <h3>Case Study 3: Tech Startup Scaling</h3>
-    <p>A SaaS startup leveraged automated tools like <Link href="/senuke">SENUKE</Link> for 300 directory submissions. Backlinks grew by 150%, domain authority hit 50, and organic leads doubled. Fake stats: Traffic up 60%, conversion rate improved 15%. This highlights how tools amplify directory submission link building.</p>
+    <p>A SaaS startup leveraged automated tools like <Link to="/senuke">SENUKE</Link> for 300 directory submissions. Backlinks grew by 150%, domain authority hit 50, and organic leads doubled. Fake stats: Traffic up 60%, conversion rate improved 15%. This highlights how tools amplify directory submission link building.</p>
     <div class="media">
         <img src="/media/directory-submission-link-building-img3.jpg" alt="case study graph for link building success" width="800" height="400" />
         <p><em>Graph showing traffic growth from directory submissions (Source: Backlinkoo)</em></p>
@@ -168,7 +127,7 @@ const directory-submission-link-buildingPage: React.FC = () => {
     <p>3. Ignoring Niche Relevance: Irrelevant directories can signal manipulation to Google.</p>
     <p>4. Neglecting Follow-Up: Many directories require approval; follow up to ensure listing.</p>
     <p>5. Forgetting Diversification: Rely solely on directories? Mix with other link building tactics for balance.</p>
-    <p>6. Automating Without Oversight: Tools like <Link href="/xrumer">XRumer</Link> are great, but manual review prevents penalties.</p>
+    <p>6. Automating Without Oversight: Tools like <Link to="/xrumer">XRumer</Link> are great, but manual review prevents penalties.</p>
     <p>Avoid these, and your strategy will thrive. For guidance, Backlinkoo offers audits to refine your approach.</p>
     
     <h2>FAQ: Directory Submission Link Building</h2>
@@ -179,7 +138,7 @@ const directory-submission-link-buildingPage: React.FC = () => {
     <h3>Is directory submission still effective in 2023?</h3>
     <p>Yes, when done right. Google's updates favor high-quality links, so reputable directories remain valuable.</p>
     <h3>Can I use automation tools for directory submissions?</h3>
-    <p>Absolutely. Tools like <Link href="/senuke">SENUKE</Link> automate safely, but combine with manual efforts.</p>
+    <p>Absolutely. Tools like <Link to="/senuke">SENUKE</Link> automate safely, but combine with manual efforts.</p>
     <h3>How does Backlinkoo help with directory submission link building?</h3>
     <p>We provide expert services, from directory selection to submission, ensuring high-DA dofollow links. Contact us for a free consultation.</p>
     
@@ -202,10 +161,10 @@ const directory-submission-link-buildingPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default directory-submission-link-buildingPage;
+export default DirectorySubmissionLinkBuilding;

@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const core-web-vitals-and-backlinksPage: React.FC = () => {
+const CoreWebVitalsAndBacklinks: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Core Web Vitals And Backlinks: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire Core Web Vitals and backlinks for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Core Web Vitals And Backlinks: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/core-web-vitals-and-backlinks-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Core Web Vitals And Backlinks: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -116,7 +75,7 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
     <ul>
         <li>Choose vendors with transparent practices, like Backlinkoo.</li>
         <li>Focus on niche-relevant, high domain authority sites.</li>
-        <li>Monitor your backlink profile with tools like <Link href="/senuke">SENUKE for automation</Link> to ensure diversity.</li>
+        <li>Monitor your backlink profile with tools like <Link to="/senuke">SENUKE for automation</Link> to ensure diversity.</li>
     </ul>
     <p>According to <a href="https://moz.com/blog/buying-backlinks" target="_blank" rel="noopener noreferrer">Moz</a>, safe buying involves vetting sources thoroughly.</p>
     
@@ -149,13 +108,13 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
                 <td>SENUKE</td>
                 <td>Link Building Automation</td>
                 <td>Automates guest posts and outreach</td>
-                <td><Link href="/senuke">SENUKE for automation</Link></td>
+                <td><Link to="/senuke">SENUKE for automation</Link></td>
             </tr>
             <tr>
                 <td>XRumer</td>
                 <td>Forum and Blog Posting</td>
                 <td>High-volume link placement</td>
-                <td><Link href="/xrumer">XRumer for posting</Link></td>
+                <td><Link to="/xrumer">XRumer for posting</Link></td>
             </tr>
             <tr>
                 <td>SEMrush</td>
@@ -166,7 +125,7 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
         </tbody>
     </table>
     
-    <p>At Backlinkoo, we recommend integrating <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link> for efficient link building while monitoring Core Web Vitals.</p>
+    <p>At Backlinkoo, we recommend integrating <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> for efficient link building while monitoring Core Web Vitals.</p>
     
     <div class="media">
         <img src="/media/core-web-vitals-and-backlinks-img2.jpg" alt="Tools for Core Web Vitals and backlinks" width="800" height="400" />
@@ -212,7 +171,7 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
     <p>Yes, if done through reputable sources like Backlinkoo, focusing on quality and relevance.</p>
     
     <h3>What tools help with link building?</h3>
-    <p>Tools like <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link> automate processes effectively.</p>
+    <p>Tools like <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> automate processes effectively.</p>
     
     <h3>How can I improve my site's domain authority?</h3>
     <p>Combine organic link building with Core Web Vitals optimization for sustainable growth.</p>
@@ -223,7 +182,7 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
     </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
-    <p>Mastering <strong>Core Web Vitals and backlinks</strong> is key to SEO dominance. As per a 2023 <a href="https://moz.com/search-ranking-factors" target="_blank" rel="noopener noreferrer">Moz study</a>, sites with optimized vitals and strong backlink profiles rank 2.5x higher. At Backlinkoo, our expert services, including <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link>, provide the edge you need. Contact us today to transform your site's performance.</p>
+    <p>Mastering <strong>Core Web Vitals and backlinks</strong> is key to SEO dominance. As per a 2023 <a href="https://moz.com/search-ranking-factors" target="_blank" rel="noopener noreferrer">Moz study</a>, sites with optimized vitals and strong backlink profiles rank 2.5x higher. At Backlinkoo, our expert services, including <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, provide the edge you need. Contact us today to transform your site's performance.</p>
     
     <p>With years of experience, Backlinkoo ensures E-E-A-T compliance: Expertise from SEO veterans, Authoritativeness through proven strategies, Trustworthiness via transparent practices, and Experience backed by client successes.</p>
 </article> />
@@ -237,10 +196,10 @@ const core-web-vitals-and-backlinksPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default core-web-vitals-and-backlinksPage;
+export default CoreWebVitalsAndBacklinks;

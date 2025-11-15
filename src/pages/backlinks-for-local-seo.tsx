@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const backlinks-for-local-seoPage: React.FC = () => {
+const BacklinksForLocalSeo: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Backlinks For Local Seo: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire backlinks for local SEO for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Backlinks For Local Seo: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/backlinks-for-local-seo-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlinks For Local Seo: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -99,7 +58,7 @@ const backlinks-for-local-seoPage: React.FC = () => {
   
   <p>According to Google Search Central, such local signals are vital for rankings. Integrate this with content marketing, like creating shareable infographics on local topics, to naturally attract more links.</p>
   
-  <p>For automation in outreach, consider tools like <Link href="/senuke">SENUKE for automation</Link>, which can streamline your guest posting and link building efforts.</p>
+  <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting and link building efforts.</p>
   
   <h3>Content Creation That Attracts Local Links</h3>
   
@@ -134,7 +93,7 @@ const backlinks-for-local-seoPage: React.FC = () => {
   
   <p>At Backlinkoo, we specialize in safe, white-hat link building services. Our packages ensure <strong>backlinks for local SEO</strong> that comply with search engine guidelines, helping you avoid penalties while achieving results.</p>
   
-  <p>For posting on forums and directories to build links, <Link href="/xrumer">XRumer for posting</Link> is an excellent tool to automate safe placements.</p>
+  <p>For posting on forums and directories to build links, <Link to="/xrumer">XRumer for posting</Link> is an excellent tool to automate safe placements.</p>
   
   <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Buying Backlinks Safely</a>
   
@@ -165,13 +124,13 @@ const backlinks-for-local-seoPage: React.FC = () => {
         <td>Starts at $99/month</td>
       </tr>
       <tr>
-        <td><Link href="/senuke">SENUKE</Link></td>
+        <td><Link to="/senuke">SENUKE</Link></td>
         <td>Automation for link building and content syndication.</td>
         <td>Streamlining organic and paid backlink strategies.</td>
         <td>Custom pricing</td>
       </tr>
       <tr>
-        <td><Link href="/xrumer">XRumer</Link></td>
+        <td><Link to="/xrumer">XRumer</Link></td>
         <td>Advanced posting tool for forums and directories.</td>
         <td>Automating local link placements safely.</td>
         <td>Custom pricing</td>
@@ -206,7 +165,7 @@ const backlinks-for-local-seoPage: React.FC = () => {
   
   <h3>Case Study 3: Boutique Hotel in New York</h3>
   
-  <p>Through content marketing and automation with <Link href="/senuke">SENUKE</Link>, they acquired 100+ local backlinks. Outcomes included a 50% rise in bookings and top spots in Google Local Pack. Domain authority climbed to 55, demonstrating the efficacy of strategic link building.</p>
+  <p>Through content marketing and automation with <Link to="/senuke">SENUKE</Link>, they acquired 100+ local backlinks. Outcomes included a 50% rise in bookings and top spots in Google Local Pack. Domain authority climbed to 55, demonstrating the efficacy of strategic link building.</p>
   
   <a href="https://moz.com/blog/local-seo-case-study" target="_blank" rel="noopener noreferrer">Moz Local SEO Case Study</a>
   
@@ -301,10 +260,10 @@ const backlinks-for-local-seoPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default backlinks-for-local-seoPage;
+export default BacklinksForLocalSeo;

@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
+const HighQualityBacklinksFrom.eduSites: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>High Quality Backlinks From .Edu Sites: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire high quality backlinks from .edu sites for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "High Quality Backlinks From .Edu Sites: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/high-quality-backlinks-from-.edu-sites-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>High Quality Backlinks From .Edu Sites: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -80,7 +39,7 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
     
     <h3>Resource Page Outreach</h3>
     <p>Many .edu sites have resource pages curating helpful links for students. If your content fits (e.g., a comprehensive guide on career development), pitch it for inclusion. Personalize your outreach to increase acceptance rates.</p>
-    <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link href="/xrumer">XRumer for posting</Link>.</p>
+    <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link to="/xrumer">XRumer for posting</Link>.</p>
     
     <div class="media">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -101,7 +60,7 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
     <p>Backlinkoo offers safe, high-quality .edu backlink packages tailored to your needs. We use ethical methods to avoid risks, ensuring your investment pays off.</p>
     
     <h2>Tools for Building High Quality Backlinks from .Edu Sites</h2>
-    <p>To streamline your efforts, leverage top tools. Below is a comparison table of essential ones, including our recommended <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link>.</p>
+    <p>To streamline your efforts, leverage top tools. Below is a comparison table of essential ones, including our recommended <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>.</p>
     
     <table border="1" style="width:100%; border-collapse: collapse;">
         <thead>
@@ -126,13 +85,13 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
                 <td>Evaluating link quality</td>
             </tr>
             <tr>
-                <td><Link href="/senuke">SENUKE</Link></td>
+                <td><Link to="/senuke">SENUKE</Link></td>
                 <td>Automation software</td>
                 <td>Automated link building, content spinning</td>
                 <td>Efficient .edu campaigns</td>
             </tr>
             <tr>
-                <td><Link href="/xrumer">XRumer</Link></td>
+                <td><Link to="/xrumer">XRumer</Link></td>
                 <td>Posting tool</td>
                 <td>Forum and blog posting automation</td>
                 <td>Scaling outreach on .edu sites</td>
@@ -146,7 +105,7 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
         </tbody>
     </table>
     
-    <p>These tools can supercharge your pursuit of <strong>high quality backlinks from .edu sites</strong>. For more on automation, explore our <Link href="/senuke">SENUKE for automation</Link> page.</p>
+    <p>These tools can supercharge your pursuit of <strong>high quality backlinks from .edu sites</strong>. For more on automation, explore our <Link to="/senuke">SENUKE for automation</Link> page.</p>
     
     <div class="media">
         <img src="/media/high-quality-backlinks-from-edu-sites-img2.jpg" alt="Tools for .edu backlinks comparison chart" width="800" height="400" />
@@ -196,7 +155,7 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
     <p>Quality over quantity—aim for 5-10 high-quality ones initially, then scale based on your niche.</p>
     
     <h3>5. What's the best tool for finding .edu backlink opportunities?</h3>
-    <p>Ahrefs or Moz are great; for automation, try <Link href="/senuke">SENUKE</Link>.</p>
+    <p>Ahrefs or Moz are great; for automation, try <Link to="/senuke">SENUKE</Link>.</p>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>In summary, <strong>high quality backlinks from .edu sites</strong> are a cornerstone of effective <em>link building</em>. Backed by stats from authoritative sources like Ahrefs (where sites with diverse high-DA links see 20-30% better rankings) and Moz, these links enhance domain authority and traffic. As experts at Backlinkoo, we recommend a balanced approach combining organic strategies and safe acquisitions.</p>
@@ -219,10 +178,10 @@ const high-quality-backlinks-from-.edu-sitesPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default high-quality-backlinks-from-.edu-sitesPage;
+export default HighQualityBacklinksFrom.eduSites;

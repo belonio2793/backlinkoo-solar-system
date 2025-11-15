@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const ahrefs-for-link-buildingPage: React.FC = () => {
+const AhrefsForLinkBuilding: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Ahrefs For Link Building: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire Ahrefs for link building for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Ahrefs For Link Building: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/ahrefs-for-link-building-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Ahrefs For Link Building: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -77,7 +36,7 @@ const ahrefs-for-link-buildingPage: React.FC = () => {
   <h3>Guest Posting with Ahrefs Insights</h3>
   <p>Guest posting involves writing articles for other websites in exchange for a backlink. Use Ahrefs' Content Explorer to find sites in your niche with high traffic and domain authority. Search for keywords like "write for us" combined with your topic to identify opportunities.</p>
   <p>For example, if you're in the fitness niche, Ahrefs can show you sites with DA over 50 that accept guest posts. Craft compelling pitches highlighting your expertise, and aim for dofollow links to maximize SEO benefits. According to Moz, guest posting can increase referral traffic by 20-30% when done right.</p>
-  <p>At Backlinkoo, we automate parts of this process using tools like <Link href="/senuke">SENUKE for automation</Link>, which complements Ahrefs by handling outreach at scale.</p>
+  <p>At Backlinkoo, we automate parts of this process using tools like <Link to="/senuke">SENUKE for automation</Link>, which complements Ahrefs by handling outreach at scale.</p>
   <h3>Broken Link Building</h3>
   <p>Broken link building is a white-hat technique where you find dead links on other sites and suggest your content as a replacement. Ahrefs' Site Explorer helps identify broken backlinks pointing to competitors. Use the "Broken Links" report to find these gems.</p>
   <p>Steps include: 1) Search for resource pages in your niche. 2) Check for 404 errors using Ahrefs. 3) Reach out to site owners with a polite email offering your link. This strategy can yield high-quality dofollow links with minimal effort. A case study from Ahrefs itself shows a 15% success rate in link acquisition through this method.</p>
@@ -101,7 +60,7 @@ const ahrefs-for-link-buildingPage: React.FC = () => {
   <p>Risks: Google penalties if links are low-quality or manipulative. Cost: High-quality links can be expensive. Detection: Patterns of bought links can flag your site.</p>
   <h3>Safe Tips for Buying Backlinks</h3>
   <p>Use Ahrefs to vet sellers: Ensure sites have DA > 40, organic traffic, and no spam flags. Diversify anchor texts and focus on dofollow links from relevant niches. Monitor with Ahrefs' Backlink Audit to avoid toxic links.</p>
-  <p>At Backlinkoo, we offer safe, high-quality backlink packages that integrate seamlessly with Ahrefs for link building. Avoid black-hat tactics; instead, combine buying with organic efforts for best results. For more on safe automation, check out <Link href="/xrumer">XRumer for posting</Link>.</p>
+  <p>At Backlinkoo, we offer safe, high-quality backlink packages that integrate seamlessly with Ahrefs for link building. Avoid black-hat tactics; instead, combine buying with organic efforts for best results. For more on safe automation, check out <Link to="/xrumer">XRumer for posting</Link>.</p>
   <p>According to Google's Search Central guidelines, paid links should pass nofollow if they influence rankings, but natural-looking paid links can still work if undisclosed properly. Always prioritize quality over quantity.</p>
 
   <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Guide to Buying Backlinks</a>
@@ -125,13 +84,13 @@ const ahrefs-for-link-buildingPage: React.FC = () => {
         <td>Starts at $99/month</td>
       </tr>
       <tr>
-        <td><Link href="/senuke">SENUKE</Link></td>
+        <td><Link to="/senuke">SENUKE</Link></td>
         <td>Automation for outreach and submission</td>
         <td>Scaling guest posts and directory submissions</td>
         <td>Custom pricing</td>
       </tr>
       <tr>
-        <td><Link href="/xrumer">XRumer</Link></td>
+        <td><Link to="/xrumer">XRumer</Link></td>
         <td>Forum and blog posting automation</td>
         <td>High-volume link placement</td>
         <td>Custom pricing</td>
@@ -227,10 +186,10 @@ const ahrefs-for-link-buildingPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default ahrefs-for-link-buildingPage;
+export default AhrefsForLinkBuilding;

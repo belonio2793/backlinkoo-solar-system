@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const resource-page-link-buildingPage: React.FC = () => {
+const ResourcePageLinkBuilding: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Resource Page Link Building: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire resource page link building for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Resource Page Link Building: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/resource-page-link-building-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Resource Page Link Building: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -71,7 +30,7 @@ const resource-page-link-buildingPage: React.FC = () => {
   
   <h3>Guest Posting on Resource Pages</h3>
   <p>One effective method is guest posting. Identify resource pages in your niche and offer to contribute high-quality content. For instance, if you're in the marketing space, pitch an in-depth guide to a site's resource section. This not only secures a backlink but also positions you as an expert.</p>
-  <p>To automate parts of this process, consider tools like <Link href="/senuke">SENUKE for automation</Link>, which can streamline content syndication and outreach.</p>
+  <p>To automate parts of this process, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content syndication and outreach.</p>
   
   <h3>Broken Link Building Technique</h3>
   <p>Broken link building involves finding dead links on resource pages and suggesting your content as a replacement. Use tools like Ahrefs or Check My Links to scan for broken links. Craft a polite email to the webmaster, highlighting the issue and proposing your resource. This strategy has a high success rate because it provides immediate value to the site owner.</p>
@@ -96,7 +55,7 @@ const resource-page-link-buildingPage: React.FC = () => {
   
   <h3>Safe Tips for Buying Links</h3>
   <p>Always vet sellers for quality. Look for sites with high domain authority (DA 40+). Diversify your link sources and monitor your profile with tools like Ahrefs. At Backlinkoo, we offer safe, white-hat link building services that prioritize resource page link building without the risks.</p>
-  <p>For automated posting to resource pages, integrate <Link href="/xrumer">XRumer for posting</Link> to ensure efficient and targeted outreach.</p>
+  <p>For automated posting to resource pages, integrate <Link to="/xrumer">XRumer for posting</Link> to ensure efficient and targeted outreach.</p>
   
   <h2>Tools for Resource Page Link Building</h2>
   <p>Leverage the right tools to make resource page link building more efficient. Below is a table of essential tools:</p>
@@ -116,12 +75,12 @@ const resource-page-link-buildingPage: React.FC = () => {
         <td style="border: 1px solid #ddd; padding: 8px;">Finding resource pages and broken links</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/senuke">SENUKE</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/senuke">SENUKE</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Automation for content creation and submission</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Streamlining outreach in resource page link building</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/xrumer">XRumer</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/xrumer">XRumer</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Automated posting and link placement</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Efficient posting to resource pages</td>
       </tr>
@@ -152,7 +111,7 @@ const resource-page-link-buildingPage: React.FC = () => {
   <p>An e-commerce client at Backlinkoo targeted resource pages in the fashion niche. By securing 50 dofollow links from high-DA sites, their domain authority increased from 25 to 45 in six months. Organic traffic surged by 120%, leading to a 35% revenue uplift. This was achieved through a mix of broken link building and guest contributions.</p>
   
   <h3>Case Study 2: Tech Blog Growth</h3>
-  <p>A tech blog used resource page link building to gain links from .edu domains. With 30 targeted backlinks, their search rankings for key terms improved by 40 positions on average. Using <Link href="/senuke">SENUKE for automation</Link>, they automated outreach, saving 200 hours of manual work.</p>
+  <p>A tech blog used resource page link building to gain links from .edu domains. With 30 targeted backlinks, their search rankings for key terms improved by 40 positions on average. Using <Link to="/senuke">SENUKE for automation</Link>, they automated outreach, saving 200 hours of manual work.</p>
   
   <h3>Case Study 3: SaaS Company Expansion</h3>
   <p>A SaaS provider focused on industry resource pages, acquiring 40 links via paid and organic methods. Their domain authority rose to 60, and lead generation increased by 80%. Safe buying tips from Backlinkoo ensured no penalties.</p>
@@ -187,7 +146,7 @@ const resource-page-link-buildingPage: React.FC = () => {
   <p>Higher domain authority links pass more value, improving your site's rankings and trustworthiness.</p>
   
   <h3>Can automation tools help with resource page link building?</h3>
-  <p>Yes, tools like <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link> automate outreach and posting for efficiency.</p>
+  <p>Yes, tools like <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> automate outreach and posting for efficiency.</p>
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   <p>Resource page link building is a proven strategy for enhancing your online presence. As experts at Backlinkoo, we've drawn from years of experience and data from sources like Ahrefs (which reports that 66% of top-ranking pages have at least three backlinks) and Moz to craft this guide. Our authoritative approach ensures you get trustworthy advice. Ready to implement resource page link building? Contact Backlinkoo today for tailored services that deliver results.</p>
@@ -208,10 +167,10 @@ const resource-page-link-buildingPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default resource-page-link-buildingPage;
+export default ResourcePageLinkBuilding;

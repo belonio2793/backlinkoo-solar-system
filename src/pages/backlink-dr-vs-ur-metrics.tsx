@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const backlink-dr-vs-ur-metricsPage: React.FC = () => {
+const BacklinkDrVsUrMetrics: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Backlink Dr Vs Ur Metrics: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire backlink DR vs UR metrics for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Backlink Dr Vs Ur Metrics: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/backlink-dr-vs-ur-metrics-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Dr Vs Ur Metrics: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
@@ -110,7 +69,7 @@ const backlink-dr-vs-ur-metricsPage: React.FC = () => {
     <p><em>Tutorial on organic link building (Source: YouTube)</em></p>
   </div>
   
-  <p>For automation in outreach, consider <Link href="/senuke">SENUKE for automation</Link>, which can help scale your efforts efficiently.</p>
+  <p>For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your efforts efficiently.</p>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   
@@ -132,7 +91,7 @@ const backlink-dr-vs-ur-metricsPage: React.FC = () => {
   
   <p>To buy safely, vet providers for transparency and focus on metrics like DR and UR. Ensure links are from relevant, high-traffic sites with dofollow attributes. Monitor your profile with tools to avoid over-optimization.</p>
   
-  <p>At Backlinkoo, we offer safe, effective backlink packages that enhance backlink DR vs UR metrics without risking penalties. Use <Link href="/xrumer">XRumer for posting</Link> to automate safe link placements.</p>
+  <p>At Backlinkoo, we offer safe, effective backlink packages that enhance backlink DR vs UR metrics without risking penalties. Use <Link to="/xrumer">XRumer for posting</Link> to automate safe link placements.</p>
   
   <div class="media">
     <img src="/media/backlink-dr-vs-ur-metrics-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
@@ -166,13 +125,13 @@ const backlink-dr-vs-ur-metricsPage: React.FC = () => {
         <td style="border: 1px solid #ddd; padding: 8px;">$99/month</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/senuke">SENUKE</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/senuke">SENUKE</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Automation for link building</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Scaling campaigns</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Varies</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/xrumer">XRumer</Link></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><Link to="/xrumer">XRumer</Link></td>
         <td style="border: 1px solid #ddd; padding: 8px;">Automated posting and outreach</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Mass link acquisition</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Varies</td>
@@ -243,7 +202,7 @@ const backlink-dr-vs-ur-metricsPage: React.FC = () => {
   <p>Yes, if from low-quality sources. Use vetted services like Backlinkoo to ensure positive impact on backlink DR vs UR metrics.</p>
   
   <h3>What tools track DR and UR?</h3>
-  <p>Ahrefs is primary, but also use Moz or SEMrush. For automation, try <Link href="/senuke">SENUKE</Link> or <Link href="/xrumer">XRumer</Link>.</p>
+  <p>Ahrefs is primary, but also use Moz or SEMrush. For automation, try <Link to="/senuke">SENUKE</Link> or <Link to="/xrumer">XRumer</Link>.</p>
   
   <p>In conclusion, mastering backlink DR vs UR metrics is essential for SEO success. As experts at Backlinkoo, we've seen firsthand how these metrics drive results—backed by stats like Ahrefs' correlation of high DR with top rankings (over 70% of top results have DR 50+). Our authoritative services, drawing from years of experience, ensure trustworthy strategies. Contact us today to elevate your link building game.</p>
   
@@ -259,10 +218,10 @@ const backlink-dr-vs-ur-metricsPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default backlink-dr-vs-ur-metricsPage;
+export default BacklinkDrVsUrMetrics;

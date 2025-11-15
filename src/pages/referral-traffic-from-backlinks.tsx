@@ -1,52 +1,11 @@
 
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
-  }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
-
-const referral-traffic-from-backlinksPage: React.FC = () => {
+const ReferralTrafficFromBacklinks: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Referral Traffic From Backlinks: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire referral traffic from backlinks for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Referral Traffic From Backlinks: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/referral-traffic-from-backlinks-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
+            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Referral Traffic From Backlinks: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
@@ -87,7 +46,7 @@ const referral-traffic-from-backlinksPage: React.FC = () => {
   
   <p>Guest posting involves writing articles for other websites in exchange for a backlink to your site. This not only drives referral traffic from backlinks but also positions you as an authority. Start by identifying blogs in your niche with high domain authority using tools like Ahrefs or SEMrush.</p>
   
-  <p>For example, pitch unique, value-packed content to sites like industry forums or popular blogs. Include LSI terms naturally in your posts to enhance relevance. At Backlinkoo.com, we automate parts of this process with tools like <Link href="/senuke">SENUKE for automation</Link>, which streamlines outreach and submission.</p>
+  <p>For example, pitch unique, value-packed content to sites like industry forums or popular blogs. Include LSI terms naturally in your posts to enhance relevance. At Backlinkoo.com, we automate parts of this process with tools like <Link to="/senuke">SENUKE for automation</Link>, which streamlines outreach and submission.</p>
   
   <p>According to Google Search Central, guest posts should provide genuine value to avoid penalties. Aim for sites with engaged audiences to maximize referral traffic—our clients have reported up to 500 monthly visitors from a single guest post.</p>
   
@@ -101,7 +60,7 @@ const referral-traffic-from-backlinksPage: React.FC = () => {
   
   <p>Create epic content that naturally attracts backlinks. The Skyscraper Technique involves finding top-performing content, improving it, and promoting it. For instance, if a competitor's guide on "link building strategies" ranks well, create a more comprehensive version and outreach to sites linking to the original.</p>
   
-  <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link href="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
+  <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link to="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
   
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -173,13 +132,13 @@ const referral-traffic-from-backlinksPage: React.FC = () => {
         <td>SENUKE</td>
         <td>Automation tool for link building campaigns.</td>
         <td>Automated submissions, content spinning.</td>
-        <td><Link href="/senuke">SENUKE for automation</Link></td>
+        <td><Link to="/senuke">SENUKE for automation</Link></td>
       </tr>
       <tr>
         <td>XRumer</td>
         <td>Powerful tool for forum and blog posting.</td>
         <td>Mass posting, captcha solving.</td>
-        <td><Link href="/xrumer">XRumer for posting</Link></td>
+        <td><Link to="/xrumer">XRumer for posting</Link></td>
       </tr>
       <tr>
         <td>SEMrush</td>
@@ -198,11 +157,11 @@ const referral-traffic-from-backlinksPage: React.FC = () => {
   
   <h3>Case Study 1: E-commerce Site Boost</h3>
   
-  <p>An online store specializing in fitness gear struggled with low traffic. By implementing a mix of guest posts and broken link building, they acquired 150 high-quality backlinks over six months. Referral traffic from backlinks surged by 250%, from 2,000 to 7,000 monthly visitors. Sales increased by 40%, with domain authority rising from 25 to 45. Using <Link href="/senuke">SENUKE for automation</Link>, they streamlined the process.</p>
+  <p>An online store specializing in fitness gear struggled with low traffic. By implementing a mix of guest posts and broken link building, they acquired 150 high-quality backlinks over six months. Referral traffic from backlinks surged by 250%, from 2,000 to 7,000 monthly visitors. Sales increased by 40%, with domain authority rising from 25 to 45. Using <Link to="/senuke">SENUKE for automation</Link>, they streamlined the process.</p>
   
   <h3>Case Study 2: Blog Network Expansion</h3>
   
-  <p>A tech blog aimed to expand its reach. Through HARO and resource page outreach, plus strategic buying of 50 dofollow links, they saw referral traffic from backlinks grow by 180%. Monthly visitors jumped from 5,000 to 14,000, with a 25% improvement in engagement. Tools like <Link href="/xrumer">XRumer for posting</Link> helped in forum promotions.</p>
+  <p>A tech blog aimed to expand its reach. Through HARO and resource page outreach, plus strategic buying of 50 dofollow links, they saw referral traffic from backlinks grow by 180%. Monthly visitors jumped from 5,000 to 14,000, with a 25% improvement in engagement. Tools like <Link to="/xrumer">XRumer for posting</Link> helped in forum promotions.</p>
   
   <h3>Case Study 3: SaaS Company Growth</h3>
   
@@ -279,10 +238,10 @@ const referral-traffic-from-backlinksPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
+      </div>
     </>
   );
 };
 
-export default referral-traffic-from-backlinksPage;
+export default ReferralTrafficFromBacklinks;
