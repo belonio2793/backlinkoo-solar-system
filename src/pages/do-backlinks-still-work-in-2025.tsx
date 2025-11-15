@@ -59,10 +59,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <p>Other tactics: Infographics, skyscraper technique (improving top content), and social media amplification. Remember, organic strategies build sustainable domain authority.</p>
     
-    <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Tutorial on effective organic backlink strategies for 2025 (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <p>Integrating LSI terms like "link building best practices" ensures your content ranks well. At Backlinkoo, we recommend combining these with our services for optimal results.</p>
     
@@ -158,10 +155,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <p>A local service provider used HARO and automation with <Link to="/senuke">SENUKE</Link>. Gained 80 dofollow links, increasing local search visibility by 50%. Leads doubled, highlighting backlinks' role in 2025 SEO.</p>
     
-    <div class="media" style="margin: 20px 0; text-align: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video-id" title="Backlink case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Backlink Building</h2>
     

@@ -67,10 +67,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   
   <p>Avoid black-hat tactics. Instead, use white-hat services that comply with <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline;">Google's Link Schemes Guidelines</a>.</p>
   
-  <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on safe backlink buying (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <p>Typical costs: Niche edits ($100-$300), guest posts ($200-$500), and PBN links ($50-$150, but use cautiously).</p>
   

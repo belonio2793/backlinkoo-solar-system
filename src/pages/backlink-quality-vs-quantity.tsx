@@ -165,10 +165,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <h3>Buying from Unreliable Sources</h3>
   <p>Cheap link packages often mean low quality. Choose reputable providers like Backlinkoo.com for safe, effective links.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Common SEO mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video on avoiding link building mistakes (Source: YouTube)</em></p>
-  </div>
+  
   
   <h2>FAQ: Answering Your Questions on Backlink Quality vs Quantity</h2>
   

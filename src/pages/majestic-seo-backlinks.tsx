@@ -32,10 +32,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Create superior content that outshines competitors, then promote it to earn backlinks. The skyscraper technique, popularized by Brian Dean of Backlinko, involves improving upon top-ranking content and pitching it to sites linking to the original. This can lead to a surge in Majestic SEO backlinks, especially if your content is shareable and optimized with keywords like "dofollow links."</p>
   <p>Additionally, infographics, videos, and in-depth guides are link magnets. For more on automation, check out <Link to="/xrumer">XRumer for posting</Link> to forums and blogs efficiently.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video on Majestic SEO backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on building Majestic SEO backlinks organically (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Buying Majestic SEO Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying Majestic SEO backlinks can accelerate growth when done safely. However, it's a double-edged sword—Google penalizes manipulative practices, so caution is key.</p>
@@ -107,10 +104,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <h3>Case Study 3: Local Business Domination</h3>
   <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> to build local backlinks. Majestic analysis showed a 40% improvement in Citation Flow, leading to top local search positions and a 150% lead increase.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Majestic SEO backlinks case study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Common Mistakes to Avoid with Majestic SEO Backlinks</h2>
   <p>Avoiding pitfalls is crucial for sustainable SEO. One common mistake is ignoring link diversity—relying solely on one type of backlink can signal manipulation to Google. Always mix dofollow links with nofollow for a natural profile.</p>

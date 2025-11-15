@@ -32,10 +32,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     <h3>Other Organic Methods: Infographics and Resource Pages</h3>
     <p>Creating shareable infographics or getting listed on resource pages can attract natural backlinks. Promote them on social media or through outreach. For automation in outreach, consider <a href="/senuke">SENUKE for automation</a>, which streamlines the process while maintaining organic appeal.</p>
     <p>According to <a href="https://moz.com/blog/broken-link-building-guide" target="_blank" rel="noopener noreferrer">Moz's Broken Link Building Guide</a>, this method can increase backlink equity by up to 20% when done correctly.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic strategies for backlink equity (Source: Backlinkoo)</em></p>
-    </div>
+    
     <p>These organic strategies ensure long-term benefits in <strong>backlink equity calculation</strong>, aligning with Google's emphasis on natural link profiles.</p>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

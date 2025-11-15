@@ -30,10 +30,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <h3>Content Creation and Promotion</h3>
     <p>Develop seasonal content like infographics or guides, then promote via social media and email newsletters. For example, a "Valentine's Day Gift Guide" could attract links from lifestyle blogs. Incorporate keywords like "seasonal link building campaigns" to optimize for search.</p>
     <p>Remember, quality over quantity—aim for content that solves problems or provides unique insights to encourage natural linking.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on seasonal link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on creating seasonal content for link building (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Seasonal Campaigns</h2>
     <p>While organic methods are ideal, buying links can accelerate seasonal link building campaigns. However, it's risky due to Google's penalties for manipulative practices. At Backlinkoo, we advocate for white-hat approaches but understand the appeal of paid options for quick wins.</p>
@@ -146,10 +143,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
         <img src="/media/seasonal-link-building-campaigns-img3.jpg" alt="expert tips for link building" width="800" height="400" />
         <p><em>Expert tips infographic (Source: Backlinkoo)</em></p>
     </div>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Advanced seasonal link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tutorial on tools like SENUKE (Source: Backlinkoo)</em></p>
-    </div>
+    
 `;
   const keywords = "seasonal, link, building, campaigns, SEO";
   

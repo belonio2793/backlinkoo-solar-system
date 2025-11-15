@@ -36,10 +36,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <h3>Resource Page Link Building</h3>
     <p>Target resource pages that curate links in your industry. Offer your high-quality content as an addition. This technique is ethical and effective for gaining authoritative backlinks.</p>
 
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic white hat link building techniques (Source: Backlinkoo)</em></p>
-    </div>
+    
 
     <p>Other organic strategies include influencer collaborations and podcast appearances, all aimed at building genuine relationships.</p>
 
@@ -153,10 +150,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <h3>What role does domain authority play in link building?</h3>
     <p>Higher DA links provide more value, improving your site's ranking potential.</p>
 
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video on white hat link building techniques (Source: Backlinkoo)</em></p>
-    </div>
+    
 
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>
     <p>In summary, mastering white hat link building techniques is key to long-term SEO success. As per a 2023 Moz study, sites with strong backlink profiles see 2x higher organic traffic. At Backlinkoo.com, our authoritative services, backed by years of experience, help you implement these strategies effectively. From organic outreach to safe buying tips, we're here to boost your domain authority ethically.</p>

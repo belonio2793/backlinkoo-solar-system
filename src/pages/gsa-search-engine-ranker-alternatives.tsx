@@ -30,10 +30,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <h3>Content Marketing and Infographics</h3>
   <p>Creating shareable content like infographics or in-depth guides encourages natural backlinks. Promote your content on social media and through email outreach to amplify its reach. This approach aligns perfectly with Google's emphasis on user experience and can significantly enhance your site's domain authority.</p>
   <p>Remember, quality content is key. Backlinkoo offers content creation services tailored for link attraction, making it easier to implement these GSA Search Engine Ranker alternatives.</p>
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying backlinks can be a viable GSA Search Engine Ranker alternative if done correctly. However, it's fraught with risks, so understanding the pros and cons is essential.</p>
@@ -110,10 +107,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>A niche blog used broken link building as a GSA Search Engine Ranker alternative. By replacing 200 broken links across industry sites, they gained 120 backlinks, boosting rankings for key terms by 30 positions on average and increasing monthly visitors by 60%.</p>
   <h3>Case Study 3: Agency Scalability</h3>
   <p>An SEO agency integrated <Link to="/senuke">SENUKE for automation</Link> with safe buying practices. This led to a 35% improvement in client domain authorities and a 50% reduction in penalty risks, with fake stats showing revenue growth of 25% year-over-year.</p>
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
-  </div>
+  
 
   <h2>Common Mistakes to Avoid When Exploring GSA Search Engine Ranker Alternatives</h2>
   <p>Transitioning to new strategies isn't without pitfalls. Here are key mistakes to steer clear of:</p>

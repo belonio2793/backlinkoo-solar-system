@@ -37,10 +37,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>Many .edu sites have resource pages curating helpful links for students. If your content fits (e.g., a comprehensive guide on career development), pitch it for inclusion. Personalize your outreach to increase acceptance rates.</p>
     <p>At Backlinkoo, we excel in these organic strategies. Our team can handle outreach and content creation to secure <strong>high quality backlinks from .edu sites</strong> for you. For automation in posting, consider our integration with <Link to="/xrumer">XRumer for posting</Link>.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building for .edu sites (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying High Quality Backlinks from .Edu Sites: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying <strong>high quality backlinks from .edu sites</strong> can accelerate your SEO efforts—if done safely. However, Google's guidelines warn against manipulative link schemes, so proceed with caution.</p>
@@ -121,10 +118,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     <p>A non-profit organization bought a package of 10 <em>high quality backlinks from .edu sites</em> through Backlinkoo. Their site's visibility score on SEMrush jumped 200%, leading to doubled donations. Fake stats: Traffic grew from 5,000 to 15,000 visitors/month.</p>
     <p>These cases show how strategic <em>link building</em> with .edu sites can transform SEO outcomes. Contact Backlinkoo to replicate this success.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Case study video on .edu backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on successful .edu link campaigns (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid When Pursuing High Quality Backlinks from .Edu Sites</h2>
     <p>Even with the best intentions, pitfalls abound in <em>link building</em>. Avoid these to safeguard your SEO.</p>

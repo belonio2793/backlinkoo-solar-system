@@ -35,10 +35,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <h3>Other Organic Tactics: Resource Pages and Influencer Outreach</h3>
     <p>Resource pages are goldmines for links. Find pages listing resources in your niche and request inclusion, then submit those pages to directories. Influencer outreach can lead to mentions and links, which you can further promote via directories.</p>
     <p>Remember, the key to organic directory submission link building is relevance. Submitting to unrelated directories can harm your SEO, as Google favors natural link profiles.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies including directory submissions (Source: Backlinkoo)</em></p>
-    </div>
+    
     <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline submissions while maintaining an organic feel.</p>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Directory Submission</h2>
@@ -141,10 +138,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Directory submission link building is a proven method to enhance domain authority and drive traffic. Backed by stats from Ahrefs (e.g., top-ranking pages have 3.8x more backlinks) and Moz, this strategy, when executed expertly, yields results. At Backlinkoo, our team of SEO specialists brings years of experience to help you succeed. Ready to boost your link building? Explore our services today.</p>
     <p>For further reading: <a href="https://ahrefs.com/blog/directory-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>, <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google on Link Schemes</a>, <a href="https://www.semrush.com/blog/link-building/" target="_blank" rel="noopener noreferrer">SEMrush Link Building Tips</a>, <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko Strategies</a>.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced directory submission tutorial (Source: Backlinkoo)</em></p>
-    </div>
+    
     <!-- Note: This article is approximately 5200 words. Expanded sections with detailed explanations ensure comprehensiveness. -->
 `;
   const keywords = "directory, submission, link, building, SEO";

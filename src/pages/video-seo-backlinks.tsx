@@ -153,10 +153,7 @@ const VideoSeoBacklinks: React.FC = () => {
     <p>Mastering video SEO backlinks is key to dominating search results and growing your audience. From organic strategies to smart tools like <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, the possibilities are endless.</p>
     <p>Backed by data: According to SEMrush, sites with strong backlink profiles see 3.5x more traffic. As SEO experts at Backlinkoo, we've drawn from years of experience to provide this authoritative guide. Trust us to handle your link building—contact us today for a free consultation.</p>
     <p>For more resources, explore <a href="https://ahrefs.com/blog/backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Backlinks Guide</a>, <a href="https://moz.com/blog/video-seo-backlinks" target="_blank" rel="noopener noreferrer">Moz Video SEO</a>, and <a href="https://developers.google.com/search/docs/advanced/guidelines/video" target="_blank" rel="noopener noreferrer">Google's Video Guidelines</a>.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Backlinkoo tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Expert tutorial on advanced backlink strategies (Source: Backlinkoo)</em></p>
-    </div>
+    
     <div class="media">
         <img src="/media/video-seo-backlinks-img4.jpg" alt="E-E-A-T signals infographic" width="800" height="400" />
         <p><em>Infographic on building trust with backlinks (Source: Backlinkoo)</em></p>

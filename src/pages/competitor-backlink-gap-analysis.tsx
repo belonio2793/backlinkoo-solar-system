@@ -44,10 +44,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   
   <p>Integrate LSI terms like "link equity" and "referral traffic" into your content to maximize SEO benefits. At Backlinkoo, we emphasize these strategies because they build sustainable authority without risking penalties.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   
@@ -165,10 +162,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <h3>How does Backlinkoo help with this?</h3>
   <p>We provide comprehensive services, from analysis to acquisition, ensuring safe and effective link building.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <p>As an expert in SEO at Backlinkoo.com, I've seen firsthand how competitor backlink gap analysis drives results. According to Moz's 2023 report, sites with optimized backlink profiles see 2x more organic traffic. Our services are built on years of experience, ensuring trustworthiness and authority. Contact us today to start closing your backlink gaps and elevating your SEO game.</p>
   

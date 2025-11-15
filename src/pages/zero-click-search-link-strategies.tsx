@@ -37,10 +37,7 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     <p>Syndicating high-quality content to platforms like Medium or industry directories can generate backlinks organically. Additionally, getting listed on resource pages (curated lists of helpful links) boosts domain authority. These strategies are particularly effective for <strong>zero-click search link strategies</strong> as they increase your site's topical relevance.</p>
     <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which streamlines content distribution and link acquisition.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Zero-Click Strategies</h2>
     <p>While organic methods are ideal, buying links can accelerate your <strong>zero-click search link strategies</strong> when done safely. However, Google's guidelines warn against manipulative practices, so caution is key.</p>
@@ -118,10 +115,7 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     <h3>Case Study 3: Local Service Provider</h3>
     <p>A local SEO agency used resource page outreach and content optimization. With tools from <a href="https://www.semrush.com/blog/zero-click-search-link-strategies" target="_blank" rel="noopener noreferrer">Semrush</a>, they secured 80 relevant links. Fake stats: Visibility in local zero-click packs improved by 50%, driving a 35% uptick in inquiries.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on link strategies success (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Zero-Click Search Link Strategies</h2>
     <p>Even with the best intentions, pitfalls can derail your efforts. Avoid these common errors:</p>

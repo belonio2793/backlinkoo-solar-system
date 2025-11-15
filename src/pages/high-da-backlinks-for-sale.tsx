@@ -172,10 +172,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <h3>5. How do I verify the quality of backlinks?</h3>
     <p>Use tools like Ahrefs or Moz to check DA, spam score, and relevance. At Backlinkoo.com, we provide full reports.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video on high DA backlinks (Source: YouTube)</em></p>
-    </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's High DA Backlinks</h2>
     

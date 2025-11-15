@@ -38,10 +38,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <h3>Other Organic Methods: Infographics and Resource Pages</h3>
     <p>Create shareable infographics and pitch them to resource pages. The <strong>best backlink checker tools</strong> can track where your infographics are linked, ensuring they contribute to your link building goals. Always aim for dofollow links to maximize SEO benefits.</p>
     <p>Resource page outreach involves finding curated lists and suggesting your site. Use checkers to evaluate the domain authority of these pages before investing time.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on Broken Link Building (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks is a controversial topic. The <strong>best backlink checker tools</strong> are invaluable here to verify purchased links' quality and avoid penalties.</p>
@@ -128,10 +125,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <h3>Case Study 3: Agency Client Turnaround</h3>
     <p>Backlinkoo assisted a client with Majestic SEO to check purchased backlinks. We removed 150 low-quality ones and added 100 organic dofollow links, boosting domain authority by 20 points. Organic search traffic grew by 50%, proving the value of safe buying combined with top checkers.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Backlink Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on backlink strategies (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid When Using Backlink Checker Tools</h2>
     <p>Even with the <strong>best backlink checker tools</strong>, pitfalls abound. Here's how to steer clear.</p>

@@ -65,10 +65,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     
     <p>LSI terms like "mobile SEO strategies" and "backlink profiles" can enhance your content's relevance. Backlinkoo offers content services to amplify your efforts.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on mobile-friendly content creation (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h3>Resource Page Link Building</h3>
     
@@ -216,10 +213,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <h3>How long does it take to see results from mobile-first link acquisition?</h3>
     <p>Typically 3-6 months, depending on campaign scale and site authority.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>FAQ video explainer on link acquisition (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>
     

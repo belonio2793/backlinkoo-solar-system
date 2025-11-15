@@ -58,10 +58,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   
   <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link to="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h3>Resource Page Link Building and HARO</h3>
   
@@ -211,10 +208,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <h3>How long does it take to see results from backlink strategies?</h3>
   <p>Results vary, but organic strategies may take 3-6 months, while buying can show quicker gains in referral traffic from backlinks.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on backlinks and traffic (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Conclusion: Harness the Power of Referral Traffic from Backlinks with Backlinkoo</h2>
   

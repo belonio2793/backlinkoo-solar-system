@@ -124,10 +124,7 @@ const TechStartupBacklinks: React.FC = () => {
     <p>This startup used broken link building and automated tools like <a href="/senuke">SENUKE</a>. We replaced 30 broken links on finance sites, leading to a 300% referral traffic boost. Domain authority rose to 60, and they secured \\\$2M in funding partly due to enhanced visibility.</p>
     <h3>Case Study 3: EdTech Platform</h3>
     <p>By buying targeted backlinks safely through Backlinkoo and using <a href="/xrumer">XRumer</a> for forum posts, this platform gained 100 dofollow links. Outcome: 200% increase in sign-ups, with rankings improving for LSI terms like "educational tech link building."</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on tech startup backlinks success (Source: Backlinkoo)</em></p>
-    </div>
+    
 
     <h2>Common Mistakes to Avoid in Tech Startup Backlinks</h2>
     <p>Even seasoned startups falter. Here are pitfalls to dodge:</p>

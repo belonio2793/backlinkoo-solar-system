@@ -70,10 +70,7 @@ const BuyContextualBacklinks: React.FC = () => {
     
     <p>Avoid black-hat tactics; focus on white-hat providers. Monitor your backlink profile with Google Search Console to stay compliant.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on safe backlink buying strategies (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <p>By following these tips, you can <strong>buy contextual backlinks</strong> that propel your SEO without risks.</p>
     

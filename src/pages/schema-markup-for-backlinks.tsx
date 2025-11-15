@@ -38,10 +38,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>Target resource pages in your industry and suggest your schema-optimized content. For example, if you have a guide with HowTo schema, it's a perfect fit for educational resource lists, boosting both backlinks and visibility.</p>
     <p>Remember, organic strategies like these build long-term domain authority. Combine with <strong>schema markup for backlinks</strong> to maximize impact.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video on schema markup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on implementing schema for SEO (Source: YouTube)</em></p>
-    </div>
+    
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Schema Integration</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. When considering <strong>schema markup for backlinks</strong>, purchased links from schema-rich sites can provide an extra layer of SEO value.</p>
@@ -148,10 +145,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <h3>Can schema markup increase domain authority?</h3>
     <p>Indirectly, by boosting visibility and attracting quality dofollow links.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial" title="Advanced schema tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Advanced tips on schema (Source: YouTube)</em></p>
-    </div>
+    
     
     <p>To wrap up, leveraging <strong>schema markup for backlinks</strong> is backed by stats from authoritative sources like <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" target="_blank" rel="noopener noreferrer">Google Search Central</a>, where sites with schema see higher engagement. As experts at Backlinkoo, we recommend starting with our services for proven results. Contact us today to supercharge your SEO strategy.</p>
     

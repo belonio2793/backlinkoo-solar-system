@@ -78,10 +78,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   
   <p>Backlinkoo.com is one of the <strong>best sites to buy backlinks</strong> because we focus on white-hat practices, offering transparent reporting and guaranteed quality. Check out this tutorial for more tips:</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video tutorial on safe backlink buying (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <p>For automated posting, integrate <a href="/xrumer">XRumer for posting</a> to enhance your strategy without manual effort.</p>
   
@@ -204,10 +201,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   <h3>5. What tools help with backlink analysis?</h3>
   <p>Tools like Ahrefs, Moz, and SEMrush are excellent. For automation, try <a href="/senuke">SENUKE</a>.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on backlink strategies (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Conclusion: Why Choose Backlinkoo for Your Backlink Needs</h2>
   

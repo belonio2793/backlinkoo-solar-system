@@ -49,10 +49,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   
   <p>Other organic tactics include HARO (Help a Reporter Out) for media mentions and creating shareable infographics that naturally attract links.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>The Pros and Cons of Buying Backlinks from Authority Sites</h2>
   

@@ -48,10 +48,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   
   <p>Incorporate <strong>A/B testing anchor texts</strong> by creating multiple syndicated versions and analyzing performance. For automated posting, consider <Link to="/xrumer">XRumer for posting</Link>, which can handle large-scale distribution while you focus on testing.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-id" title="YouTube video on A/B testing anchor texts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial video on organic strategies for A/B testing anchor texts (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips for A/B Testing Anchor Texts</h2>
   
@@ -188,10 +185,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   
   <p>Yes, if from reputable sources like Backlinkoo, and tested for natural anchor variations.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ video on A/B testing anchor texts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video answering common FAQs on A/B testing anchor texts (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   

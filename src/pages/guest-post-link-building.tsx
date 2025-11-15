@@ -36,10 +36,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   
   <p>For more on automation in link building, check out our <Link to="/senuke">SENUKE for automation</Link> page, which can streamline your outreach efforts.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="YouTube video on guest post strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on finding guest post opportunities (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Buying Guest Posts: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying guest posts can accelerate your guest post link building efforts. This involves paying for placement on reputable sites, often securing dofollow links quickly.</p>
@@ -122,10 +119,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   
   <p>These cases show how guest post link building can drive measurable results. Ready to start? Contact Backlinkoo.com today.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Guest post case study tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Common Mistakes to Avoid in Guest Post Link Building</h2>
   <p>Even experts can falter in guest post link building. Here are key pitfalls and how to sidestep them.</p>

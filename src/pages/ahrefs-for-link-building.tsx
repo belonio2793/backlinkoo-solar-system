@@ -43,10 +43,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>Resource pages curate useful links. Use Ahrefs to search for "niche + resources" and analyze backlink profiles. Outreach to get featured, ensuring your content is relevant and high-quality.</p>
   <p>These organic methods, powered by Ahrefs for link building, build sustainable SEO without risking penalties from Google.</p>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="Ahrefs Link Building Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Watch this tutorial on using Ahrefs for organic link building strategies (Source: Ahrefs YouTube)</em></p>
-  </div>
+  
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Ahrefs</h2>
   <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. Ahrefs for link building helps verify the quality of purchased links by checking metrics like DA, traffic, and spam score.</p>
@@ -161,10 +158,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>In summary, Ahrefs for link building is a powerhouse tool that, when used correctly, can significantly enhance your SEO efforts. From organic strategies like guest posting and broken link building to safe buying practices, Ahrefs provides the data you need to succeed. Remember, according to a 2023 Ahrefs study, sites with strong backlink profiles see 3.8x more traffic. As experts at Backlinkoo, we've helped countless clients achieve these results, drawing on years of experience in SEO copywriting and link building.</p>
   <p>Our authoritative approach ensures trustworthiness—backed by stats from sources like Moz (where domain authority correlates with rankings) and Google Search Central. For personalized strategies, contact Backlinkoo today and let us handle your link building with Ahrefs precision.</p>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-id" title="Advanced Ahrefs Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Advanced tutorial on integrating Ahrefs with other tools for link building (Source: Backlinkoo YouTube)</em></p>
-  </div>
+  
 
   <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>
   <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>

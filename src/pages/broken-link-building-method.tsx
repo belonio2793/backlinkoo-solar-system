@@ -34,10 +34,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <h3>Integrating Guest Posts and Other Tactics</h3>
   <p>Combine the <strong>broken link building method</strong> with guest posting. Write guest articles for sites with broken links, incorporating your suggestions within the content. Other organic strategies include resource page link building and unlinked brand mentions, where you request links to your content that's already referenced.</p>
   <p>Remember, consistency is key. Aim for 10-20 outreach emails per week to see results. Tools like <Link to="/senuke">SENUKE for automation</Link> can help scale these efforts by automating link prospecting and outreach templates.</p>
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-broken-link-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on finding broken links (Source: YouTube)</em></p>
-  </div>
+  
   <p>For more on link building fundamentals, check out this <a href="https://moz.com/blog/broken-link-building-method" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
   
   <h2>Pros and Cons of Buying Links, Plus Safe Tips</h2>

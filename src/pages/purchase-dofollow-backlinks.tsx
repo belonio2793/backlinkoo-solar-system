@@ -48,10 +48,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   
   <p>While these organic methods are effective, they require time and effort. If you're short on resources, purchasing dofollow backlinks from a reliable provider like Backlinkoo can complement your organic efforts seamlessly.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on broken link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Pros and Cons of Buying Dofollow Backlinks</h2>
   <p>Deciding to purchase dofollow backlinks is a strategic choice that comes with both advantages and potential drawbacks. Understanding these can help you make an informed decision.</p>
@@ -142,10 +139,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   
   <p>These cases demonstrate that when you purchase dofollow backlinks wisely, the results can be transformative.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video-id" title="Backlinkoo case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video testimonial from a satisfied client (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Common Mistakes to Avoid When Purchasing Dofollow Backlinks</h2>
   <p>Avoiding pitfalls is key to successful link building. Here are common errors and how to steer clear.</p>

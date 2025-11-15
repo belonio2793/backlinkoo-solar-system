@@ -148,10 +148,7 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
     
     <h3>How long does it take to see results?</h3>
     <p>Typically 3-6 months, depending on strategy and competition.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ on backlinks tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Video FAQ on authoritative backlinks (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Conclusion: Elevate Your E-Commerce SEO with Backlinkoo</h2>
     <p>In summary, authoritative backlinks for e-commerce are vital for long-term success. As per a Backlinko study, sites with strong backlinks see 3.8x more traffic. Our expert team at Backlinkoo provides tailored strategies, blending organic methods with safe purchases to build domain authority. Contact us today to supercharge your link building and dominate search results.</p>

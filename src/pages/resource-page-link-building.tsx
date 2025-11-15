@@ -34,10 +34,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <h3>Content Creation and Promotion</h3>
   <p>Create exceptional content worthy of resource pages, such as ultimate guides, infographics, or tools. Promote it via social media and email outreach to curators. Remember, the key to successful resource page link building is relevance and quality.</p>
   
-  <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on finding resource pages for link building (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Buying Resource Page Links: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying links can accelerate your resource page link building efforts. However, it's crucial to approach this carefully to avoid Google's penalties.</p>
@@ -111,10 +108,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <h3>Case Study 3: SaaS Company Expansion</h3>
   <p>A SaaS provider focused on industry resource pages, acquiring 40 links via paid and organic methods. Their domain authority rose to 60, and lead generation increased by 80%. Safe buying tips from Backlinkoo ensured no penalties.</p>
   
-  <div class="media" style="margin: 20px 0; text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video case study on resource page link building success (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Common Mistakes to Avoid in Resource Page Link Building</h2>
   <p>Avoid these pitfalls to ensure your resource page link building efforts succeed:</p>

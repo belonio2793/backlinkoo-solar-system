@@ -31,10 +31,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>Resource pages are goldmines for links. Hire freelancers via <strong>Fiverr vs Upwork for links</strong> to pitch your content. HARO (Help a Reporter Out) is another avenue where experts respond to journalist queries, earning backlinks. Upwork's freelancers often have media connections, giving it an edge over Fiverr's gig model.</p>
     <p>For more insights, check out <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' Guide to Link Building</a>.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
     <h3>Pros of Buying Links on Fiverr and Upwork</h3>
@@ -113,10 +110,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>A blogger combined both platforms, using Fiverr for quick gigs and Upwork for strategy. Results: 200 new backlinks, 40% traffic growth. Backlinkoo could optimize this further with automated tools.</p>
     <p>Fake stats: Page views up 200%; engagement time increased by 45 seconds average.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Link Building</h2>
     <p>When navigating <strong>Fiverr vs Upwork for links</strong>, avoid these pitfalls:</p>

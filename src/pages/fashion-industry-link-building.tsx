@@ -31,10 +31,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <h3>Content Creation and Promotion</h3>
     <p>Create shareable content like infographics on fashion trends, lookbooks, or trend forecasts. Promote them on social media platforms like Instagram or Pinterest, where fashion thrives. Encourage shares and backlinks by collaborating with influencers. For instance, a viral post on "Sustainable Fashion Myths Debunked" could earn natural links from eco-conscious blogs.</p>
     <p>Additionally, participate in fashion forums or Reddit communities like r/fashion to share your expertise without spamming. Organic mentions can evolve into full backlinks, enhancing your <strong>fashion industry link building</strong> efforts.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic strategies for fashion link building (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
 
     <h2>Buying Links: Pros, Cons, and Safe Tips for Fashion Industry Link Building</h2>
     <p>While organic methods are ideal, buying links can accelerate <strong>fashion industry link building</strong> for time-sensitive campaigns, like launching a new collection. However, it's crucial to approach this carefully to avoid Google penalties.</p>

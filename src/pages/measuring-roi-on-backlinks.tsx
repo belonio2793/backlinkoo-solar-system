@@ -33,10 +33,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>Resource page link building, infographics, and HARO (Help a Reporter Out) are other organic strategies. For infographics, create visually appealing content and promote it for shares and links. Measuring ROI on backlinks here involves tracking social shares and backlink acquisition rates.</p>
   <p>Integrate these with automation tools like <Link to="/senuke">SENUKE for automation</Link> to scale your efforts efficiently.</p>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on organic strategies for measuring ROI on backlinks (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying backlinks can accelerate your SEO efforts. However, it's a double-edged sword. Measuring ROI on backlinks from purchases requires careful analysis to ensure they don't lead to Google penalties.</p>
@@ -148,10 +145,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <h3>Is buying backlinks safe?</h3>
   <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="FAQ on measuring ROI on backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video FAQ on backlink ROI (Source: Backlinkoo)</em></p>
-  </div>
+  
 
   <h2>Conclusion: Mastering Measuring ROI on Backlinks with Backlinkoo</h2>
   <p>Measuring ROI on backlinks is essential for SEO success. As per a Backlinko study, sites with optimized backlink strategies see 5x more traffic. At Backlinkoo, our expert services, including <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, ensure you achieve maximum ROI. Contact us today to elevate your link building game.</p>

@@ -57,10 +57,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     
     <p>For automation in these strategies, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content distribution and link acquisition processes.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: YouTube)</em></p>
-    </div>
+    
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Diversification</h2>
     

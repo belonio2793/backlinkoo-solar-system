@@ -52,10 +52,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     
     <p>Remember, organic link building boosts domain authority over time. A Backlinko study found that pages with infographics get 37.5% more backlinks on average.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     
@@ -145,10 +142,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     
     <p>An SEO agency used Moz and XRumer for a client, auditing and posting to build 200 links. Result: 35% increase in search visibility. Backlinkoo's integration helped scale efforts safely.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on backlink audits (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Backlink Audits</h2>
     

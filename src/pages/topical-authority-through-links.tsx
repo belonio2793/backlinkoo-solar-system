@@ -39,10 +39,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>Other organic strategies include creating shareable infographics, participating in industry forums, and leveraging social media for content promotion. Each of these contributes to building <strong>topical authority through links</strong> by encouraging natural backlinking.</p>
     <p>For a deeper dive, refer to Google's guidelines on link schemes via <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying links can accelerate your path to <strong>topical authority through links</strong>. However, it's a controversial practice due to Google's penalties for manipulative link schemes. At Backlinkoo, we advocate for ethical, white-hat approaches even when purchasing links.</p>
@@ -134,10 +131,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>A plumbing service targeted local directories and forums. With <Link to="/xrumer">XRumer for posting</Link>, they built 200 contextual links. Results: Local search rankings improved by 300%, with leads up 150%.</p>
     <p>These cases show that with Backlinkoo's expertise, achieving <strong>topical authority through links</strong> is attainable and profitable.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Video case study on link building success (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Building Topical Authority Through Links</h2>
     <p>Even seasoned SEOs make errors. Here are key pitfalls:</p>

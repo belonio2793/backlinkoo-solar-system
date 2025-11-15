@@ -252,10 +252,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   
   <p>Backlinkoo helps clients sidestep these mistakes with expert guidance and proven methodologies.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="Common link building mistakes tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Video on avoiding link building pitfalls (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>FAQ: Answering Your Questions on High Quality Backlinks</h2>
   

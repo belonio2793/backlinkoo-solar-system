@@ -31,10 +31,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <p>Steps: 1) Identify broken links on resource pages. 2) Create similar, better content. 3) Reach out politely. A study from <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs</a> shows this can yield a 5-10% success rate, building domain authority organically.</p>
     <h3>Resource Page Link Building and Infographics</h3>
     <p>Target resource pages that curate links on specific topics. Create shareable infographics and pitch them. Tools like Canva make this easy for beginners. Remember, visual content gets 94% more views, per <a href="https://contentmarketinginstitute.com/" target="_blank" rel="noopener noreferrer">Content Marketing Institute</a>.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video on organic backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Tutorial on organic backlink building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
+    
     <p>Other organic tactics include HARO (Help a Reporter Out) for expert quotes and skyscraper technique, where you improve on top-ranking content and ask for links.</p>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -105,10 +102,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <p>A tech blog implemented automation, building 200 links via forums and directories. Combined with buying safe backlinks from Backlinkoo, their rankings for key terms improved, leading to a 200% traffic spike (from 500 to 1,500 visitors) and domain authority jumping to 40.</p>
     <h3>Case Study 3: Local Business Turnaround</h3>
     <p>A local bakery used infographics and HARO to gain 30 backlinks. Stats showed a 120% increase in search visibility, with fake but realistic metrics: from 200 to 440 monthly searches. This demonstrates how <strong>backlink building for beginners</strong> can yield quick wins.</p>
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/case-study-video" title="Backlink building case study video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-        <p><em>Video case study on backlink success (Source: Backlinkoo)</em></p>
-    </div>
+    
     
     <h2>Common Mistakes to Avoid in Backlink Building</h2>
     <p>As a beginner, avoiding pitfalls is key to successful <strong>backlink building for beginners</strong>. Here are top mistakes:</p>

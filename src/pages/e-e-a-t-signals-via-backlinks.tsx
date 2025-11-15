@@ -56,10 +56,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   
   <p>Sign up for HARO and respond to queries in your expertise area. For resource pages, search for terms like "best resources for [niche]" and pitch your content. These organic backlinks are powerful E-E-A-T boosters.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
+  
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   
@@ -183,10 +180,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <h3>How long does it take to see results from backlinks?</h3>
   <p>Typically 3-6 months, depending on the quality and quantity of links acquired.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/faq-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
-  </div>
+  
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>
   

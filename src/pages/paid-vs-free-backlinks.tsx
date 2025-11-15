@@ -34,10 +34,7 @@ const PaidVsFreeBacklinks: React.FC = () => {
 <h3>Other Organic Methods: HARO, Infographics, and Social Sharing</h3>
 <p>Help a Reporter Out (HARO) connects journalists with sources, often leading to backlinks from major publications. Respond to queries promptly with expert insights. Infographics are shareable visual content that naturally attract links—create one on industry stats and promote it on social media.</p>
 <p>Social sharing on platforms like LinkedIn or Reddit can lead to organic backlinks if your content goes viral. According to Google Search Central, natural links from diverse sources signal authenticity. Combine these with content marketing to maximize free backlink acquisition.</p>
-<div class="media">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on free backlink strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><em>Tutorial on organic link building (Source: YouTube)</em></p>
-</div>
+
 <p>These strategies require time but build a robust backlink profile. For those short on time, Backlinkoo offers hybrid services that blend organic outreach with paid enhancements.</p>
 
 <h2>Paid Backlinks: Pros, Cons, and Safe Acquisition Tips</h2>
