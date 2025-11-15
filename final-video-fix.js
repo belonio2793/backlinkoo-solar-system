@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Real, verified YouTube video IDs from reputable SEO channels
 // Each video has been confirmed to exist and work
@@ -30,7 +34,6 @@ const videoMap = {
   'best-guest-posting-platforms': REAL_VIDEOS.GUEST_POSTING,
   'guest-post-backlink-strategy': REAL_VIDEOS.GUEST_POSTING,
   'guest-post-email-templates': REAL_VIDEOS.GUEST_POSTING,
-  'guest-post-link-building': REAL_VIDEOS.GUEST_POSTING,
   'blogger-outreach-for-backlinks': REAL_VIDEOS.GUEST_POSTING,
   
   // Broken Links Strategy
@@ -42,10 +45,9 @@ const videoMap = {
   'da-pa-backlink-metrics': REAL_VIDEOS.DOMAIN_AUTHORITY,
   'backlink-equity-calculation': REAL_VIDEOS.DOMAIN_AUTHORITY,
   'how-to-analyze-backlink-quality': REAL_VIDEOS.DOMAIN_AUTHORITY,
-  'measuring-roi-on-backlinks': REAL_VIDEOS.DOMAIN_AUTHORITY,
   
   // Skyscraper & Content-Based
-  'skyscraper-technique-for-links': REAL_VIDEOS.SKYSCRAPER,
+  'skyscraper-backlink-technique': REAL_VIDEOS.SKYSCRAPER,
   'link-bait-content-ideas': REAL_VIDEOS.SKYSCRAPER,
   'infographic-backlink-method': REAL_VIDEOS.SKYSCRAPER,
   'expert-roundup-backlinks': REAL_VIDEOS.SKYSCRAPER,
@@ -56,7 +58,6 @@ const videoMap = {
   // Tools & Monitoring
   'best-backlink-monitoring-tools': REAL_VIDEOS.SEMRUSH_TOOL,
   'best-seo-backlinking-tools': REAL_VIDEOS.SEMRUSH_TOOL,
-  'seo-backlink-audit-tools': REAL_VIDEOS.SEMRUSH_TOOL,
   'link-audit-and-cleanup': REAL_VIDEOS.SEMRUSH_TOOL,
   'toxic-backlink-removal': REAL_VIDEOS.DISAVOW,
   'backlink-disavow-tool-usage': REAL_VIDEOS.DISAVOW,
@@ -65,8 +66,6 @@ const videoMap = {
   'white-hat-link-building-techniques': REAL_VIDEOS.WHITE_HAT,
   'how-to-get-organic-backlinks': REAL_VIDEOS.WHITE_HAT,
   'natural-backlink-growth': REAL_VIDEOS.WHITE_HAT,
-  'natural-link-building-patterns': REAL_VIDEOS.WHITE_HAT,
-  'organic-strategies': REAL_VIDEOS.WHITE_HAT,
   
   // Authority & Ecommerce
   'authoritative-backlinks-for-e-commerce': REAL_VIDEOS.DOMAIN_AUTHORITY,
@@ -103,8 +102,8 @@ const videoMap = {
   'best-link-building-agencies': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'best-link-building-courses': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'buying-backlinks-safely': REAL_VIDEOS.WHITE_HAT,
-  'cheap-backlinks-for-seo': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'competitor-backlink-gap-analysis': REAL_VIDEOS.SEMRUSH_TOOL,
+  'cheap-backlinks-vs-premium': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'competitive-seo-backlink-analysis': REAL_VIDEOS.SEMRUSH_TOOL,
   'content-distribution-backlinks': REAL_VIDEOS.GUEST_POSTING,
   'content-syndication-for-backlinks': REAL_VIDEOS.GUEST_POSTING,
   'contextual-backlinks-guide': REAL_VIDEOS.WHITE_HAT,
@@ -113,71 +112,57 @@ const videoMap = {
   'enterprise-link-building-strategy': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'forum-backlinks-strategy': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'free-backlinks-methods': REAL_VIDEOS.WHITE_HAT,
-  'high-quality-backlinks-from-.edu-sites': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'high-quality-backlinks-vs-low-quality': REAL_VIDEOS.DOMAIN_AUTHORITY,
+  'guest-post-backlink-strategy': REAL_VIDEOS.GUEST_POSTING,
+  'high-quality-link-building-services': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'how-many-backlinks-needed': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'how-to-build-backlinks-fast': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'how-to-check-backlinks': REAL_VIDEOS.SEMRUSH_TOOL,
   'how-to-find-backlink-opportunities': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'industry-specific-backlink-tips': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'influencer-link-building': REAL_VIDEOS.GUEST_POSTING,
-  'influencer-outreach-for-backlinks': REAL_VIDEOS.GUEST_POSTING,
   'internal-links-vs-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'keyword-research-for-link-building': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'link-audit-and-cleanup': REAL_VIDEOS.SEMRUSH_TOOL,
+  'link-bait-content-ideas': REAL_VIDEOS.SKYSCRAPER,
   'link-building-automation-tools': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'link-building-for-affiliate-sites': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'link-building-for-saas-companies': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'link-building-kpis': REAL_VIDEOS.SEMRUSH_TOOL,
   'link-building-scams-to-avoid': REAL_VIDEOS.WHITE_HAT,
-  'link-building-strategies-2025': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'link-juice-distribution': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'link-insertion-backlinks': REAL_VIDEOS.GUEST_POSTING,
   'link-magnet-content-types': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'manual-backlink-outreach': REAL_VIDEOS.GUEST_POSTING,
   'manual-vs-automated-link-building': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'majestic-seo-backlinks': REAL_VIDEOS.SEMRUSH_TOOL,
-  'mobile-first-link-acquisition': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'moz-link-explorer-guide': REAL_VIDEOS.MOZ_AUTHORITY,
-  'multilingual-backlink-building': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'micro-niche-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'natural-backlink-growth': REAL_VIDEOS.WHITE_HAT,
   'niche-edits-guide': REAL_VIDEOS.GUEST_POSTING,
   'nicheoutreach-backlinks': REAL_VIDEOS.GUEST_POSTING,
-  'on-page-seo-for-link-acquisition': REAL_VIDEOS.WHITE_HAT,
-  'paid-vs-free-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'podcast-guesting-for-links': REAL_VIDEOS.GUEST_POSTING,
-  'premium-backlink-packages': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'purchase-dofollow-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'real-estate-seo-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'referral-traffic-from-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'safe-backlink-buying-guide': REAL_VIDEOS.WHITE_HAT,
-  'saas-link-building-tactics': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'scale-link-building-agency': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'schema-markup-for-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'seasonal-link-building-campaigns': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'semrush-backlink-analysis': REAL_VIDEOS.SEMRUSH_TOOL,
-  'senuke-tng-for-links': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'parasite-seo-backlink-strategy': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'pdf-backlinks-technique': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'press-release-backlinks': REAL_VIDEOS.GUEST_POSTING,
+  'private-blog-network-risks': REAL_VIDEOS.WHITE_HAT,
+  'profile-backlinks-guide': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'quick-backlink-wins': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'resource-page-link-building': REAL_VIDEOS.RESOURCE_PAGES,
+  'review-backlink-services': REAL_VIDEOS.SEMRUSH_TOOL,
+  'seo-link-pyramids': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'seo-ranking-with-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'skyscraper-backlink-technique': REAL_VIDEOS.SKYSCRAPER,
   'social-media-signal-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'spam-score-reduction-for-links': REAL_VIDEOS.DISAVOW,
   'spyfu-competitor-backlinks': REAL_VIDEOS.SEMRUSH_TOOL,
   'tech-startup-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'top-backlink-providers-reviewed': REAL_VIDEOS.SEMRUSH_TOOL,
   'topical-authority-through-links': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'toxic-backlink-removal': REAL_VIDEOS.DISAVOW,
   'travel-blog-guest-posts': REAL_VIDEOS.GUEST_POSTING,
   'ultimate-link-building-checklist': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'video-seo-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'voice-search-backlink-optimization': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'web3-link-building-nfts': REAL_VIDEOS.LINK_BUILDING_BASICS,
   'where-to-find-high-quality-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
+  'white-hat-link-building-techniques': REAL_VIDEOS.WHITE_HAT,
   'xrumer-backlink-automation': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'zero-click-search-link-strategies': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'backlinks-for-local-seo': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'backlinks-for-new-websites': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'backlinks-vs-content-marketing': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'best-backlink-checker-tools': REAL_VIDEOS.SEMRUSH_TOOL,
-  'best-sites-to-buy-backlinks': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'backlink-velocity-best-practices': REAL_VIDEOS.LINK_BUILDING_BASICS,
-  'backlink-quality-vs-quantity': REAL_VIDEOS.DOMAIN_AUTHORITY,
-  'how-to-buy-backlinks-safely': REAL_VIDEOS.WHITE_HAT,
-  'how-much-do-backlinks-cost': REAL_VIDEOS.LINK_BUILDING_BASICS
+  'zero-click-search-link-strategies': REAL_VIDEOS.LINK_BUILDING_BASICS
 };
 
 function updatePageVideo(filePath, videoId) {
