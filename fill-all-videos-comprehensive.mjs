@@ -8,7 +8,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Comprehensive mapping of all 100 page slugs to YouTube video IDs
-// These are real, publicly available videos related to link building and SEO
 const youtubeVideoMap = {
   'ab-testing-anchor-texts': 'nZl1PGr6K9o',
   'affordable-link-building-services': 'M7lc1BCxL00',
@@ -131,46 +130,8 @@ const youtubeVideoMap = {
   'white-hat-link-building-techniques': 'lVKvr5PEf-g',
   'xrumer-backlink-automation': 'jGxFxv2D5d0',
   'zero-click-search-link-strategies': 'nZl1PGr6K9o',
-  'gsa-search-engine-ranker-alternatives': 'jGxFxv2D5d0',
-  'buy-backlinks-from-authority-sites': 'M7lc1BCxL00',
-  'buy-contextual-backlinks': '6McePZz4XZM',
-  'buy-high-quality-backlinks': 'M7lc1BCxL00',
-  'buy-niche-relevant-backlinks': 'M7lc1BCxL00',
-  'buy-pbn-backlinks-safely': 'M7lc1BCxL00',
-  'buzzsumo-for-link-opportunities': 'lVKvr5PEf-g',
-  'case-study-high-quality-backlinks': 'jGxFxv2D5d0',
-  'conversion-optimized-backlinks': 'M7lc1BCxL00',
-  'core-web-vitals-and-backlinks': 'sOzlmuHvZUI',
-  'directory-submission-link-building': 'M7lc1BCxL00',
-  'diy-link-building-tools': 'jGxFxv2D5d0',
-  'do-backlinks-still-work-in-2025': 'M7lc1BCxL00',
-  'e-commerce-backlink-packages': 'zhjRlYxwD6I',
-  'e-e-a-t-signals-via-backlinks': 'sOzlmuHvZUI',
-  'ethical-black-hat-alternatives': 'lVKvr5PEf-g',
-  'fashion-industry-link-building': 'M7lc1BCxL00',
-  'finance-site-link-acquisition': 'sOzlmuHvZUI',
-  'fiverr-vs-upwork-for-links': 'jGxFxv2D5d0',
-  'forum-link-building-tips': 'nZl1PGr6K9o',
-  'free-backlink-opportunities-2025': 'M7lc1BCxL00',
-  'gaming-niche-backlink-strategies': 'jGxFxv2D5d0',
-  'google-penguin-recovery-backlinks': 'lVKvr5PEf-g',
-  'haro-link-building-guide': 'nZl1PGr6K9o',
-  'health-blog-link-building': 'sOzlmuHvZUI',
-  'high-da-backlinks-for-sale': 'M7lc1BCxL00',
-  'high-quality-backlinks-from-.edu-sites': 'M7lc1BCxL00',
-  'high-quality-backlinks-vs-low-quality': 'M7lc1BCxL00',
-  'how-much-do-backlinks-cost': 'jGxFxv2D5d0',
-  'how-to-buy-backlinks-safely': 'M7lc1BCxL00',
-  'backlinks-for-local-seo': 'lVKvr5PEf-g',
-  'backlinks-for-new-websites': 'M7lc1BCxL00',
-  'backlinks-vs-content-marketing': 'sOzlmuHvZUI',
-  'best-backlink-checker-tools': 'jGxFxv2D5d0',
-  'best-sites-to-buy-backlinks': 'M7lc1BCxL00',
-  'backlink-velocity-best-practices': '6McePZz4XZM',
-  'backlink-quality-vs-quantity': 'sOzlmuHvZUI',
 };
 
-// Fallback videos if mapping doesn't have the page
 const defaultVideos = [
   '6McePZz4XZM',
   'IGtv_2YTqfI',
@@ -197,28 +158,25 @@ function ensureVideoInPage(filePath) {
     const originalContent = content;
     const videoId = getVideoIdForPage(filePath);
     
-    // Check if page already has a valid YouTube embed
-    if (content.includes('youtube.com/embed/') && content.includes(videoId)) {
+    // Check if page already has this video
+    if (content.includes(`youtube.com/embed/${videoId}`)) {
       return { changed: false, hasVideo: true, videoId };
     }
     
-    // Remove placeholder videos
-    content = content.replace(/youtube\.com\/embed\/(example|sample|another|test|demo|faq|tutorial|case-study)[^"]*"/g, `youtube.com/embed/${videoId}"`);
+    // Replace placeholder video IDs with real ones
+    content = content.replace(/youtube\.com\/embed\/(example|sample|another|test|demo|faq|tutorial|case-study)[^"]*/g, `youtube.com/embed/${videoId}`);
     
-    // If no video exists, add one before the closing media div or at end of htmlContent
+    // If still no video, add one
     if (!content.includes('youtube.com/embed/')) {
       const youtubeEmbed = createYoutubeEmbed(videoId);
       
-      // Try to add video in a media block at a logical location (after the first div.media or in FAQ section)
+      // Insert in media block before FAQ or Conclusion
       if (content.includes('<h2>FAQ')) {
-        // Insert before FAQ section
-        content = content.replace('<h2>FAQ', `<div class="media">\n    ${youtubeEmbed}\n    <p><em>Video tutorial on this topic</em></p>\n</div>\n\n<h2>FAQ`);
+        const divBlock = `\n  <div class="media">\n    ${youtubeEmbed}\n    <p><em>Video tutorial on this topic</em></p>\n  </div>\n\n  `;
+        content = content.replace('<h2>FAQ', divBlock + '<h2>FAQ');
       } else if (content.includes('<h2>Conclusion')) {
-        // Insert before Conclusion
-        content = content.replace('<h2>Conclusion', `<div class="media">\n    ${youtubeEmbed}\n    <p><em>Expert insights on this topic</em></p>\n</div>\n\n<h2>Conclusion`);
-      } else if (content.includes('`')) {
-        // Insert before template literal closing
-        content = content.replace(/`\s*;\s*const keywords/g, `\n  <div class="media">\n    ${youtubeEmbed}\n    <p><em>Related video content</em></p>\n  </div>\n  `;\n  const keywords`);
+        const divBlock = `\n  <div class="media">\n    ${youtubeEmbed}\n    <p><em>Expert insights on this topic</em></p>\n  </div>\n\n  `;
+        content = content.replace('<h2>Conclusion', divBlock + '<h2>Conclusion');
       }
     }
     
@@ -228,7 +186,6 @@ function ensureVideoInPage(filePath) {
     }
     return { changed: false, hasVideo: true, videoId };
   } catch (error) {
-    console.error(`✗ Error processing ${filePath}:`, error.message);
     return { changed: false, hasVideo: false, videoId: null, error: error.message };
   }
 }
@@ -241,7 +198,6 @@ function main() {
     process.exit(1);
   }
 
-  // Get only the 100 specific pages we care about
   const targetPageNames = Object.keys(youtubeVideoMap).map(k => `${k}.tsx`);
   
   const files = fs.readdirSync(pagesDir)
@@ -250,7 +206,6 @@ function main() {
 
   let updated = 0;
   let withVideo = 0;
-  let totalProcessed = 0;
   const errors = [];
   const results = [];
 
@@ -259,7 +214,6 @@ function main() {
   files.forEach(file => {
     const result = ensureVideoInPage(file);
     const filename = path.basename(file);
-    totalProcessed++;
     
     if (result.hasVideo) {
       withVideo++;
@@ -267,13 +221,13 @@ function main() {
     
     if (result.changed) {
       updated++;
-      console.log(`✓ UPDATED: ${filename} → Video: ${result.videoId}`);
+      console.log(`✓ UPDATED: ${filename}`);
       results.push({ filename, videoId: result.videoId, status: 'updated' });
     } else if (result.error) {
       errors.push({ filename, error: result.error });
-      console.log(`✗ ERROR: ${filename} - ${result.error}`);
+      console.log(`✗ ERROR: ${filename}`);
     } else if (result.hasVideo) {
-      console.log(`✓ EXISTS: ${filename} → Video: ${result.videoId}`);
+      console.log(`✓ EXISTS: ${filename}`);
       results.push({ filename, videoId: result.videoId, status: 'exists' });
     } else {
       console.log(`⚠ NO VIDEO: ${filename}`);
@@ -282,42 +236,14 @@ function main() {
   });
 
   console.log('\n' + '='.repeat(60));
-  console.log('📊 SUMMARY REPORT');
+  console.log('SUMMARY');
   console.log('='.repeat(60));
-  console.log(`Total pages processed:    ${totalProcessed}`);
-  console.log(`Pages with videos:        ${withVideo}`);
-  console.log(`Pages updated:            ${updated}`);
-  console.log(`Pages with errors:        ${errors.length}`);
-  console.log(`Target coverage:          ${Math.round((withVideo / totalProcessed) * 100)}%`);
-
-  if (errors.length > 0) {
-    console.log('\n⚠️  ERRORS:');
-    errors.forEach(({ filename, error }) => {
-      console.log(`  • ${filename}: ${error}`);
-    });
-  }
-
-  // Summary by status
-  const statusCounts = {
-    updated: results.filter(r => r.status === 'updated').length,
-    exists: results.filter(r => r.status === 'exists').length,
-    missing: results.filter(r => r.status === 'missing').length,
-  };
-
-  console.log('\n📈 STATUS BREAKDOWN:');
-  console.log(`  ✓ Updated (fixed):  ${statusCounts.updated}`);
-  console.log(`  ✓ Exists (OK):      ${statusCounts.exists}`);
-  console.log(`  ✗ Missing:          ${statusCounts.missing}`);
-
-  if (statusCounts.missing > 0) {
-    console.log('\n⚠️  Pages still missing videos:');
-    results.filter(r => r.status === 'missing').forEach(r => {
-      console.log(`  • ${r.filename}`);
-    });
-  }
-
-  console.log('\n' + '='.repeat(60));
-  console.log('✅ Process complete!');
+  console.log(`Total pages:     ${files.length}`);
+  console.log(`With videos:     ${withVideo}`);
+  console.log(`Updated:         ${updated}`);
+  console.log(`Errors:          ${errors.length}`);
+  console.log(`Coverage:        ${Math.round((withVideo / files.length) * 100)}%`);
+  console.log('='.repeat(60));
 }
 
 main();
