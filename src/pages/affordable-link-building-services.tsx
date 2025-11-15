@@ -191,9 +191,12 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>Relying on one type of link (e.g., only guest posts) limits effectiveness. Use a mix, including forums via <Link to="/xrumer">XRumer</Link>.</p>
   
   <p>Avoiding these mistakes ensures your <strong>affordable link building services</strong> yield sustainable results.</p>
-  
+
   <div class="media">
-  
+      <img src="https://images.pexels.com/photos/6779716/pexels-photo-6779716.jpeg" alt="Common link building mistakes avoided infographic" width="800" height="400" />
+      <p><em>Visual summary of mistakes to avoid when building backlinks affordably (Source: Backlinkoo)</em></p>
+  </div>
+
   <h2>FAQ: Frequently Asked Questions About Affordable Link Building Services</h2>
   
   <h3>1. What makes link building services affordable?</h3>

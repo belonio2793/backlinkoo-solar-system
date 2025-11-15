@@ -44,6 +44,9 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These organic methods, powered by Ahrefs for link building, build sustainable SEO without risking penalties from Google.</p>
 
   <div class="media">
+      <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Ahrefs link building analysis interface infographic" width="800" height="400" />
+      <p><em>Visual guide to using Ahrefs for link building analysis and strategy (Source: Backlinkoo)</em></p>
+  </div>
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Ahrefs</h2>
   <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. Ahrefs for link building helps verify the quality of purchased links by checking metrics like DA, traffic, and spam score.</p>
