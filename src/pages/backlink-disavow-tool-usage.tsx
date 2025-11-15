@@ -47,9 +47,10 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>For automation in your link building, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your organic efforts efficiently.</p>
     
     <div class="media">
-    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Link building guide infographic" width="800" height="400" />
-    <p>Learn more from <a href="https://ahrefs.com/blog/broken-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Broken Link Building</a>.</p>
-    
+        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Link building guide infographic" width="800" height="400" />
+        <p><em>Learn more from <a href="https://ahrefs.com/blog/broken-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Broken Link Building</a>.</em></p>
+    </div>
+
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks is a common practice in competitive niches. However, it comes with risks that could necessitate <strong>backlink disavow tool usage</strong> if not done carefully. Let's explore the pros and cons.</p>
     
