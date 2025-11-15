@@ -32,9 +32,12 @@ const LinkJuiceDistribution: React.FC = () => {
     <h3>Content Marketing and Infographics</h3>
     <p>Creating shareable content like infographics or in-depth guides encourages natural backlinks. When others link to your valuable resources, link juice distribution occurs organically, enhancing your site's authority. Focus on LSI terms such as "link building strategies" to improve relevance and search visibility.</p>
     <p>For more on this, check out this <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs guide on broken link building</a>.</p>
-    
+
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/6147381/pexels-photo-6147381.jpeg" alt="Link juice distribution strategy infographic" width="800" height="400" />
+        <p><em>Diagram showing how link juice flows through a website and the importance of strategic distribution (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Buying Links: Pros, Cons, and Safe Tips for Link Juice Distribution</h2>
     <p>While organic methods are ideal, buying links can accelerate link juice distribution when done carefully. However, it's a gray area in SEO, with Google frowning upon manipulative practices.</p>
     <h3>Pros of Buying Links</h3>

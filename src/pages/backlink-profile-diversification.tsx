@@ -56,9 +56,12 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>Social media shares, while often nofollow, contribute to overall visibility and can indirectly lead to dofollow links. Engage with communities on LinkedIn or Twitter to encourage organic linking.</p>
     
     <p>For automation in these strategies, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content distribution and link acquisition processes.</p>
-    
+
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Backlink profile diversification strategy guide" width="800" height="400" />
+        <p><em>Infographic showing the importance of diversifying your backlink sources and types (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Diversification</h2>
     
     <p>While organic methods are ideal, buying backlinks can accelerate backlink profile diversification when done cautiously. However, it's crucial to understand the risks and best practices.</p>

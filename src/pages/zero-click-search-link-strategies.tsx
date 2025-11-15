@@ -36,9 +36,12 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     <h3>Content Syndication and Resource Pages</h3>
     <p>Syndicating high-quality content to platforms like Medium or industry directories can generate backlinks organically. Additionally, getting listed on resource pages (curated lists of helpful links) boosts domain authority. These strategies are particularly effective for <strong>zero-click search link strategies</strong> as they increase your site's topical relevance.</p>
     <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which streamlines content distribution and link acquisition.</p>
-    
+
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/6779716/pexels-photo-6779716.jpeg" alt="Zero-click search strategies guide infographic" width="800" height="400" />
+        <p><em>Visual guide to optimizing links for zero-click search visibility (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Buying Links: Pros, Cons, and Safe Tips for Zero-Click Strategies</h2>
     <p>While organic methods are ideal, buying links can accelerate your <strong>zero-click search link strategies</strong> when done safely. However, Google's guidelines warn against manipulative practices, so caution is key.</p>
     
