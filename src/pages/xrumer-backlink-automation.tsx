@@ -44,7 +44,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>For authoritative insights, refer to this <a href="https://moz.com/blog/backlink-buying-guide" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Buying</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/2R-3X3kY9W8" title="Automated Tools and Black Hat SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Automated Tools and Black Hat SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Tools for XRumer Backlink Automation: A Comparison Table</h2>

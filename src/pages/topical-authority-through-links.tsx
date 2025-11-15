@@ -40,7 +40,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>For a deeper dive, refer to Google's guidelines on link schemes via <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Building Topical Authority with Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Building Topical Authority with Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
@@ -134,7 +134,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>These cases show that with Backlinkoo's expertise, achieving <strong>topical authority through links</strong> is attainable and profitable.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7F01_OXNqo" title="Building Topical Authority with Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Building Topical Authority with Links" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid in Building Topical Authority Through Links</h2>
