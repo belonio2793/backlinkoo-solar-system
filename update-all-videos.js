@@ -129,34 +129,30 @@ const videoMap = {
 };
 
 function createVideoEmbed(videoId, title) {
-  return `<div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video guide on this topic</em></p>
-  </div>`;
+  return '<div class="media">\n    <iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '" title="' + title + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>\n    <p><em>Video guide on this topic</em></p>\n  </div>';
 }
 
 function updatePageVideos(filePath, pageSlug, videoId) {
   try {
     let content = fs.readFileSync(filePath, 'utf8');
     const originalContent = content;
-    const titleCase = pageSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    const titleCase = pageSlug.replace(/-/g, ' ').replace(/\b\w/g, function(l) { return l.toUpperCase(); });
     const videoEmbed = createVideoEmbed(videoId, titleCase);
     
     // Check if already has this video
-    if (content.includes(`youtube.com/embed/${videoId}`)) {
+    if (content.includes('youtube.com/embed/' + videoId)) {
       return { status: 'already-has-video', changed: false };
     }
     
     // Replace invalid/placeholder video IDs
     const invalidPatterns = [
       /youtube\.com\/embed\/(example|sample|another|test|demo|faq|tutorial|case-study)[^"]*/g,
-      /youtube\.com\/embed\/[^"]*[?&](v|id)=[^"&]*/g,
     ];
     
     let updated = false;
-    invalidPatterns.forEach(pattern => {
+    invalidPatterns.forEach(function(pattern) {
       if (pattern.test(content)) {
-        content = content.replace(pattern, `youtube.com/embed/${videoId}`);
+        content = content.replace(pattern, 'youtube.com/embed/' + videoId);
         updated = true;
       }
     });
@@ -164,13 +160,10 @@ function updatePageVideos(filePath, pageSlug, videoId) {
     // If no video exists, add one before FAQ or Conclusion
     if (!content.includes('youtube.com/embed/')) {
       if (content.includes('<h2>FAQ')) {
-        content = content.replace('<h2>FAQ', `${videoEmbed}\n\n<h2>FAQ`);
+        content = content.replace('<h2>FAQ', videoEmbed + '\n\n  <h2>FAQ');
         updated = true;
       } else if (content.includes('<h2>Conclusion')) {
-        content = content.replace('<h2>Conclusion', `${videoEmbed}\n\n<h2>Conclusion`);
-      } else {
-        // Last resort: add before closing template
-        content = content.replace(/`;\s*const keywords/g, `\n\n  ${videoEmbed}\n  `;\n  const keywords`);
+        content = content.replace('<h2>Conclusion', videoEmbed + '\n\n  <h2>Conclusion');
         updated = true;
       }
     }
@@ -190,7 +183,7 @@ function main() {
   const pagesDir = path.join(__dirname, 'src', 'pages');
   
   if (!fs.existsSync(pagesDir)) {
-    console.error(`\n❌ Error: Pages directory not found: ${pagesDir}`);
+    console.error('\n❌ Error: Pages directory not found: ' + pagesDir);
     process.exit(1);
   }
 
@@ -203,12 +196,13 @@ function main() {
     notFound: []
   };
 
-  Object.entries(videoMap).forEach(([slug, videoId]) => {
-    const filePath = path.join(pagesDir, `${slug}.tsx`);
+  Object.keys(videoMap).forEach(function(slug) {
+    const videoId = videoMap[slug];
+    const filePath = path.join(pagesDir, slug + '.tsx');
     
     if (!fs.existsSync(filePath)) {
       results.notFound.push(slug);
-      console.log(`⚠️  NOT FOUND: ${slug}`);
+      console.log('⚠️  NOT FOUND: ' + slug);
       return;
     }
     
@@ -216,37 +210,37 @@ function main() {
     
     if (result.status === 'updated') {
       results.updated.push(slug);
-      console.log(`✅ UPDATED: ${slug}`);
+      console.log('✅ UPDATED: ' + slug);
     } else if (result.status === 'already-has-video') {
       results.alreadyHave.push(slug);
-      console.log(`✔️  EXISTS: ${slug}`);
+      console.log('✔️  EXISTS: ' + slug);
     } else if (result.status === 'error') {
-      results.errors.push({ slug, error: result.error });
-      console.log(`❌ ERROR: ${slug} - ${result.error}`);
+      results.errors.push({ slug: slug, error: result.error });
+      console.log('❌ ERROR: ' + slug + ' - ' + result.error);
     } else {
-      console.log(`➡️  UNCHANGED: ${slug}`);
+      console.log('➡️  UNCHANGED: ' + slug);
     }
   });
 
   console.log('\n' + '='.repeat(60));
   console.log('📈 FINAL REPORT');
   console.log('='.repeat(60));
-  console.log(`Total pages checked:   ${Object.keys(videoMap).length}`);
-  console.log(`✅ Updated:             ${results.updated.length}`);
-  console.log(`✔️  Already have video: ${results.alreadyHave.length}`);
-  console.log(`❌ Errors:              ${results.errors.length}`);
-  console.log(`⚠️  Not found:          ${results.notFound.length}`);
+  console.log('Total pages checked:   ' + Object.keys(videoMap).length);
+  console.log('✅ Updated:             ' + results.updated.length);
+  console.log('✔️  Already have video: ' + results.alreadyHave.length);
+  console.log('❌ Errors:              ' + results.errors.length);
+  console.log('⚠️  Not found:          ' + results.notFound.length);
   console.log('='.repeat(60));
   
   if (results.errors.length > 0) {
     console.log('\n❌ ERRORS:');
-    results.errors.forEach(({ slug, error }) => {
-      console.log(`  • ${slug}: ${error}`);
+    results.errors.forEach(function(item) {
+      console.log('  • ' + item.slug + ': ' + item.error);
     });
   }
   
   if (results.notFound.length > 0) {
-    console.log(`\n⚠️  Missing ${results.notFound.length} page(s)`);
+    console.log('\n⚠️  Missing ' + results.notFound.length + ' page(s)');
   }
   
   console.log('\n✨ Process complete!\n');
