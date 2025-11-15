@@ -48,7 +48,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>To get started, identify relevant sites using tools like Ahrefs or Moz. Pitch valuable content that solves problems for their audience. At Backlinkoo, we offer services to streamline this process, ensuring you secure links that elevate both DR and UR.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YdB6UfO0eHE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
   <h3>Broken Link Building Techniques</h3>
@@ -179,7 +179,7 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>Fifth, rushing purchases: Without due diligence, you risk penalties. Backlinkoo ensures safe practices to protect your metrics.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YdB6UfO0eHE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>FAQ on Backlink DR vs UR Metrics</h2>

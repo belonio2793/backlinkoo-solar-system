@@ -35,7 +35,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>Implementing these strategies can increase your backlink count by 15-25% within months, based on Moz data.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

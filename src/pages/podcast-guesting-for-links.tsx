@@ -49,7 +49,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>Build genuine relationships with hosts. Attend industry events or engage on social media. This organic strategy leads to repeat invitations and more <strong>podcast guesting for links</strong> opportunities. Google values natural links, so prioritize authenticity (<a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener noreferrer">Google Search Central</a>).</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/j1z-X_E0x0w" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <p>This section alone highlights how <strong>podcast guesting for links</strong> integrates with broader link building tactics, ensuring a robust SEO strategy.</p>
@@ -137,7 +137,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>These cases demonstrate the power of <strong>podcast guesting for links</strong>. Partner with Backlinkoo for similar results!</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/j1z-X_E0x0w" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Common Mistakes to Avoid in Podcast Guesting for Links</h2>

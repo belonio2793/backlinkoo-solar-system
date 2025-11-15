@@ -40,7 +40,7 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>To succeed, craft high-quality, original content that provides real value. Pitch topics that solve problems or offer new insights. For instance, if you're in e-commerce, guest post on retail blogs about trends in consumer behavior. This not only diversifies your backlinks but also exposes your brand to new audiences.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hkZoqpRFtPQ" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <p>Remember to vary your anchor texts—use a mix of branded, exact-match, and long-tail keywords to keep things natural. Guest posting can yield dofollow links from high-authority domains, significantly boosting your site's credibility.</p>

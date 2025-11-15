@@ -47,7 +47,7 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
   <p>Other organic methods include infographics, podcasts, and HARO (Help a Reporter Out) for expert quotes. These foster natural link building, emphasizing quality over quantity.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kHqmKVNYpYY" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <p>At Backlinkoo, we recommend combining these strategies with our services for optimal results in <strong>high quality backlinks vs low quality</strong> scenarios.</p>

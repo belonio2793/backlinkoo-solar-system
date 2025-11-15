@@ -66,7 +66,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>LSI terms like "mobile SEO strategies" and "backlink profiles" can enhance your content's relevance. Backlinkoo offers content services to amplify your efforts.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/j8hQrMtqNrk" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h3>Resource Page Link Building</h3>
@@ -216,7 +216,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>Typically 3-6 months, depending on campaign scale and site authority.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/j8hQrMtqNrk" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>

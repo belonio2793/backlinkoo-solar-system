@@ -33,7 +33,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <p>By focusing on these organic tactics, you sidestep <strong>backlink farming risks</strong> and build a sustainable SEO foundation. For more on ethical automation, check out our page on <Link to="/senuke">SENUKE for automation</Link>, which can streamline outreach without crossing into spam territory.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OHFXS3Cc9kc" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
   <h2>Pros and Cons of Buying Backlinks: Safe Tips to Minimize Risks</h2>
