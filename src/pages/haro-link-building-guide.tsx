@@ -1,15 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const HaroLinkBuildingGuide: React.FC = () => {
-  return (
-    <>
-            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Haro Link Building Guide: The Key to Dominating Google Rankings in 2025</h1>
-        
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-  <h1>HARO Link Building Guide: Master the Art of Earning High-Quality Backlinks</h1>
+  const htmlContent = `<h1>HARO Link Building Guide: Master the Art of Earning High-Quality Backlinks</h1>
   <p>Welcome to the ultimate <strong>HARO link building guide</strong> from Backlinkoo.com. If you're looking to boost your website's domain authority through ethical, high-impact link building strategies, you've come to the right place. HARO, or Help A Reporter Out, is a powerful platform that connects journalists with sources, allowing you to secure valuable dofollow links from authoritative media outlets. In this comprehensive guide, we'll dive deep into everything you need to know about HARO link building, from basics to advanced tactics. Whether you're a beginner or a seasoned SEO expert, this <strong>HARO link building guide</strong> will equip you with actionable insights to elevate your link building game.</p>
   <p>At Backlinkoo.com, we specialize in providing top-tier SEO services that help businesses like yours achieve sustainable growth. Stick around as we explore why HARO matters, organic strategies, tools, case studies, and more. Let's get started!</p>
 
@@ -146,15 +139,20 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/example-conclusion-video" title="HARO Conclusion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Final tips on HARO link building (Source: Backlinkoo)</em></p>
-  </div>
-</div> />
+  </div>`;
+
+  return (
+    <>
+      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
+        <h1>Haro Link Building Guide: The Key to Dominating Google Rankings in 2025</h1>
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
         <div className="author-bio">
           <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
         </div>
 
         <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 HARO Free!
+          Register for Backlink ∞ Today – Get Your First 10 links Free!
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 

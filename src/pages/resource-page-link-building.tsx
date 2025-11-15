@@ -1,15 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ResourcePageLinkBuilding: React.FC = () => {
-  return (
-    <>
-            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Resource Page Link Building: The Key to Dominating Google Rankings in 2025</h1>
-        
-        <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-  <h1>Resource Page Link Building: The Ultimate Guide to Boosting Your SEO</h1>
+  const htmlContent = `<h1>Resource Page Link Building: The Ultimate Guide to Boosting Your SEO</h1>
   <p>In the ever-evolving world of search engine optimization (SEO), resource page link building stands out as a powerful strategy for acquiring high-quality backlinks. At Backlinkoo.com, we specialize in helping businesses like yours harness the potential of resource page link building to improve domain authority, drive organic traffic, and achieve better search rankings. This comprehensive guide will dive deep into everything you need to know about resource page link building, from its fundamentals to advanced tactics. Whether you're a beginner or an experienced marketer, you'll find actionable insights here to elevate your link building game.</p>
   
   <h2>What is Resource Page Link Building and Why It Matters</h2>
@@ -155,15 +148,20 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <div class="media" style="margin: 20px 0; text-align: center;">
     <img src="/media/resource-page-link-building-img3.jpg" alt="conclusion infographic for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Final thoughts on mastering resource page link building (Source: Backlinkoo)</em></p>
-  </div>
-</div> />
+  </div>`;
+
+  return (
+    <>
+      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
+        <h1>Resource Page Link Building: The Key to Dominating Google Rankings in 2025</h1>
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
         <div className="author-bio">
           <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
         </div>
 
         <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 resource Free!
+          Register for Backlink ∞ Today – Get Your First 10 links Free!
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
