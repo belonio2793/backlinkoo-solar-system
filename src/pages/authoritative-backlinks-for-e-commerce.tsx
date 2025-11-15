@@ -28,6 +28,11 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
     <h3>Broken Link Building</h3>
     <p>Broken link building involves finding dead links on authoritative sites and suggesting your content as a replacement. This is particularly effective for e-commerce, as you can link to product guides or reviews. Use tools like Check My Links Chrome extension to scan pages, then reach out to webmasters with a polite email.</p>
     <p>For instance, if a blog post on "top gadgets of 2023" has a broken link to a discontinued product, offer your similar item's page. This not only builds authoritative backlinks for e-commerce but also drives targeted traffic.</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="E-commerce Backlink Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Expert guide to building authoritative backlinks specifically for e-commerce sites (Source: YouTube)</em></p>
+    </div>
     
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create evergreen content like ultimate guides or infographics that naturally attract links. E-commerce sites can produce "best of" lists or comparison charts. Promote these on social media and forums to encourage shares and backlinks.</p>

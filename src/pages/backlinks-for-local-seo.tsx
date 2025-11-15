@@ -22,12 +22,13 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>According to a study by Moz, backlinks remain one of the top ranking factors for local search, contributing up to 20-30% to your overall SEO score. Without strong <strong>backlinks for local SEO</strong>, even the most optimized on-page content might fall short in competitive local markets.</p>
   
   <h3>Why Backlinks Matter for Local Businesses</h3>
-  
+
   <p>Local SEO isn't just about Google My Business listings or citations; backlinks amplify your online presence. They improve your site's domain authority, increase referral traffic, and enhance brand visibility. For example, businesses with robust local backlink profiles often see a 15-25% uplift in organic search traffic, as per Ahrefs data. In essence, investing in <strong>backlinks for local SEO</strong> is investing in sustainable growth.</p>
-  
+
   <div class="media">
-    <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="backlinks for local SEO infographic" width="800" height="400" />
-    <p><em>Infographic showing the impact of backlinks on local SEO rankings (Source: Backlinkoo)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Local SEO Backlink Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Learn how to build location-specific backlinks to dominate local search results (Source: YouTube)</em></p>
+  </div>
   </div>
   
   <p>If you're struggling to build these links manually, Backlinkoo offers professional services to secure high-quality, location-specific backlinks that align with Google's guidelines.</p>

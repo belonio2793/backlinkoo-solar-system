@@ -28,6 +28,11 @@ const BacklinksForNewWebsites: React.FC = () => {
     <h3>Guest Posting: A Proven Method</h3>
     <p>Guest posting involves writing articles for other websites in exchange for a backlink. For new sites, target blogs with moderate domain authority (DA 20-50) in your niche. Pitch unique, high-quality content that solves reader problems.</p>
     <p>Steps to get started: Research sites using tools like Ahrefs, craft a compelling pitch, and include optimized anchor text. Backlinkoo offers guest post services to streamline this process, ensuring dofollow links from authoritative domains.</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Backlinks for New Websites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Proven strategies for new websites to gain authority and rankings quickly (Source: YouTube)</em></p>
+    </div>
     <p>For more on guest blogging, check out this <a href="https://ahrefs.com/blog/guest-blogging-for-seo/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Guest Blogging</a>.</p>
     
     <h3>Broken Link Building Technique</h3>
