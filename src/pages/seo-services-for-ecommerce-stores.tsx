@@ -38,7 +38,7 @@ const SeoServicesForEcommerceStores: React.FC = () => {
     <p>What sets effective seo services for e-commerce stores apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional seo services for e-commerce stores builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="SEO Services for E-Commerce Stores strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="SEO Services for E-Commerce Stores strategy" width="800" height="400" />
       <p><em>Strategic approach to seo services for e-commerce stores (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const SeoServicesForEcommerceStores: React.FC = () => {
     <p>The E-Commerce industry faces unique challenges and opportunities with seo services for e-commerce stores. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for SEO Services for E-Commerce Stores</h2>
@@ -196,7 +196,7 @@ const SeoServicesForEcommerceStores: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic seo services for e-commerce stores?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (

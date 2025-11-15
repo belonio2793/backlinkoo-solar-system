@@ -38,7 +38,7 @@ const BacklinkServicesForInternationalSites: React.FC = () => {
     <p>What sets effective backlink services for international sites apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlink services for international sites builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Backlink Services for International Sites strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1526374965328-7f5ae4e8b914?w=800&h=400&fit=crop" alt="Backlink Services for International Sites strategy" width="800" height="400" />
       <p><em>Strategic approach to backlink services for international sites (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const BacklinkServicesForInternationalSites: React.FC = () => {
     <p>The International SEO industry faces unique challenges and opportunities with backlink services for international sites. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Backlink Services for International Sites</h2>
@@ -200,7 +200,7 @@ const BacklinkServicesForInternationalSites: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic backlink services for international sites?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (

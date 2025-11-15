@@ -38,7 +38,7 @@ const BacklinkPricingGuide: React.FC = () => {
     <p>What sets effective backlink pricing guide apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlink pricing guide builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Backlink Pricing Guide strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Backlink Pricing Guide strategy" width="800" height="400" />
       <p><em>Strategic approach to backlink pricing guide (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const BacklinkPricingGuide: React.FC = () => {
     <p>The Budget Planning industry faces unique challenges and opportunities with backlink pricing guide. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Backlink Pricing Guide</h2>
@@ -198,7 +198,7 @@ const BacklinkPricingGuide: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic backlink pricing guide?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (

@@ -38,7 +38,7 @@ const BacklinksForPortfolioWebsites: React.FC = () => {
     <p>What sets effective backlinks for portfolio websites apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlinks for portfolio websites builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Backlinks for Portfolio Websites strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Backlinks for Portfolio Websites strategy" width="800" height="400" />
       <p><em>Strategic approach to backlinks for portfolio websites (Source: Backlinkoo)</em></p>
     </div>
 

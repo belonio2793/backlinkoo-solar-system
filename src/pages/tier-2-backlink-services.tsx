@@ -38,7 +38,7 @@ const Tier2BacklinkServices: React.FC = () => {
     <p>What sets effective tier 2 backlink services apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional tier 2 backlink services builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Tier 2 Backlink Services strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Tier 2 Backlink Services strategy" width="800" height="400" />
       <p><em>Strategic approach to tier 2 backlink services (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const Tier2BacklinkServices: React.FC = () => {
     <p>The Advanced Strategies industry faces unique challenges and opportunities with tier 2 backlink services. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Tier 2 Backlink Services</h2>
@@ -196,7 +196,7 @@ const Tier2BacklinkServices: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic tier 2 backlink services?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (

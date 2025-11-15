@@ -38,7 +38,7 @@ const BacklinkPenaltyPrevention: React.FC = () => {
     <p>What sets effective backlink penalty prevention apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlink penalty prevention builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Backlink Penalty Prevention strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="Backlink Penalty Prevention strategy" width="800" height="400" />
       <p><em>Strategic approach to backlink penalty prevention (Source: Backlinkoo)</em></p>
     </div>
 

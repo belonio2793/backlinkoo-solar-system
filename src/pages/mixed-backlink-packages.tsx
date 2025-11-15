@@ -38,7 +38,7 @@ const MixedBacklinkPackages: React.FC = () => {
     <p>What sets effective mixed backlink packages apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional mixed backlink packages builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Mixed Backlink Packages strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=400&fit=crop" alt="Mixed Backlink Packages strategy" width="800" height="400" />
       <p><em>Strategic approach to mixed backlink packages (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const MixedBacklinkPackages: React.FC = () => {
     <p>The Link Diversity industry faces unique challenges and opportunities with mixed backlink packages. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Mixed Backlink Packages</h2>
@@ -196,7 +196,7 @@ const MixedBacklinkPackages: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic mixed backlink packages?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (

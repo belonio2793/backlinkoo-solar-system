@@ -38,7 +38,7 @@ const BacklinkDiversityServices: React.FC = () => {
     <p>What sets effective backlink diversity services apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlink diversity services builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Backlink Diversity Services strategy" width="800" height="400" />
+      <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Backlink Diversity Services strategy" width="800" height="400" />
       <p><em>Strategic approach to backlink diversity services (Source: Backlinkoo)</em></p>
     </div>
 
@@ -50,7 +50,7 @@ const BacklinkDiversityServices: React.FC = () => {
     <p>The Link Building Services industry faces unique challenges and opportunities with backlink diversity services. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Backlink Diversity Services</h2>
@@ -196,7 +196,7 @@ const BacklinkDiversityServices: React.FC = () => {
     <p><strong>Ready to transform your SEO results with strategic backlink diversity services?</strong> Contact Backlinkoo today for a free consultation and custom link building strategy.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Advanced link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
 
   return (
