@@ -137,10 +137,6 @@ const HighQualityBacklinksVsLowQuality: React.FC = () => {
   
   <p>These cases highlight the stark contrast in <strong>high quality backlinks vs low quality</strong>.</p>
   
-  <div class="media" style="text-align: center; margin: 20px 0;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Case study video on backlink strategies (Source: Backlinkoo)</em></p>
-  </div>
   
   <h2>Mistakes to Avoid in Link Building</h2>
   
