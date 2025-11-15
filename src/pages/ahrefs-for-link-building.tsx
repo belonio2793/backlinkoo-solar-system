@@ -23,7 +23,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These features make Ahrefs for link building a must-have for anyone aiming to build a robust backlink portfolio.</p>
 
   <div class="media">
-    <Image src="/media/ahrefs-for-link-building-img1.jpg" alt="Ahrefs for link building dashboard overview" width={800} height={400} />
+    <img src="/media/ahrefs-for-link-building-img1.jpg" alt="Ahrefs for link building dashboard overview" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>A visual overview of Ahrefs' Site Explorer tool, essential for link building analysis (Source: Backlinkoo)</em></p>
   </div>
 
