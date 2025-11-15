@@ -39,8 +39,8 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Create shareable infographics and pitch them to resource pages. The <strong>best backlink checker tools</strong> can track where your infographics are linked, ensuring they contribute to your link building goals. Always aim for dofollow links to maximize SEO benefits.</p>
     <p>Resource page outreach involves finding curated lists and suggesting your site. Use checkers to evaluate the domain authority of these pages before investing time.</p>
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/62xe3PHZF2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on Broken Link Building (Source: YouTube)</em></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Best Backlink Checker Tools Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <p><em>Master backlink checking and analysis with the best tools available (Source: YouTube)</em></p>
     </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

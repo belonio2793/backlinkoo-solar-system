@@ -46,8 +46,13 @@ const BuyContextualBacklinks: React.FC = () => {
     
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create exceptional content like infographics, guides, or tools that others want to link to. Promote it on social media and forums. Resource pages, which curate helpful links, are prime targets for contextual backlinks.</p>
-    
+
     <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your link building efforts while maintaining an organic feel.</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Contextual Backlink Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Master the art of buying contextual backlinks for powerful SEO results (Source: YouTube)</em></p>
+    </div>
     
     <p>Organic strategies require time, but they yield high-quality, contextual backlinks that enhance your site's authority naturally.</p>
     

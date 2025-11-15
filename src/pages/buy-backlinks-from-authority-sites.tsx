@@ -44,10 +44,15 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   
   <h3>Resource Page Link Building</h3>
   <p>Many authority sites maintain resource pages listing helpful links. Identify these via Google searches like "inurl:resources + your keyword." Offer your content if it fits, emphasizing its relevance and quality.</p>
-  
+
   <p>Combining this with automated posting tools like <Link to="/xrumer">XRumer for posting</Link> can help scale your efforts without manual drudgery.</p>
-  
+
   <p>Other organic tactics include HARO (Help a Reporter Out) for media mentions and creating shareable infographics that naturally attract links.</p>
+
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Authority Site Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Learn how to secure backlinks from high-authority websites (Source: YouTube)</em></p>
+  </div>
   
   <div class="media">
     <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
