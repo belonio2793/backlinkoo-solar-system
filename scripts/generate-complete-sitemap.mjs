@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { globSync } from 'glob';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -60,9 +59,9 @@ function generateSitemap() {
     else if (slug.includes('ahrefs') || slug.includes('moz') || slug.includes('semrush') || slug.includes('tool') || slug.includes('service')) {
       priority = 0.7;
     }
-    // Lower priority for misc pages
-    else if (slug.match(/^[A-Z]/) || slug === 'index') {
-      priority = 0.5;
+    // Lower priority for misc/admin/debug pages
+    else if (slug.match(/^admin|debug|test|auth|payment|email|blog|domain|automation/) || slug === 'index') {
+      priority = 0.4;
       changefreq = 'quarterly';
     }
 
@@ -83,7 +82,7 @@ function generateSitemap() {
   console.log(`✅ Complete sitemap generated!`);
   console.log(`📊 Total URLs: ${urls.length + 1} (includes homepage)`);
   console.log(`📁 File: public/sitemap.xml`);
-  console.log(`\n📋 Sample URLs:`);
+  console.log(`\n📋 Sample URLs (first 10):`);
   urls.slice(0, 10).forEach(({ url }) => console.log(`   ${url}`));
   console.log(`   ...and ${urls.length - 10} more`);
 
