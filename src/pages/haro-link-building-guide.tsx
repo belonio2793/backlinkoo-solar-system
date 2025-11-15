@@ -29,8 +29,8 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <p>Broken link building is another gem. Use Ahrefs to find dead links on high-authority sites, then offer your content as a replacement. For instance, if a site links to an outdated HARO guide, suggest this one! This method often yields dofollow links and complements HARO efforts by diversifying your backlink profile.</p>
   <p>Other strategies include skyscraper technique (improving on top content) and resource page outreach. Remember, organic link building focuses on value – provide it, and links will follow. For more on this, check out <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' Link Building Guide</a>.</p>
   <div class="media">
-    <iframe width="560" height="315" src="https://videos.pexels.com/video-files/6003997/6003997-sd_540_960_30fps.mp4" title="HARO Link Building Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on pitching for HARO links (Source: Backlinkoo YouTube)</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KWNuixSJgsA" title="HARO Link Building Mastery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Expert guide to earning high-quality backlinks through HARO (Source: YouTube)</em></p>
   </div>
   <p>At Backlinkoo.com, our experts can handle these organic strategies for you, ensuring high-quality dofollow links without the hassle.</p>
 

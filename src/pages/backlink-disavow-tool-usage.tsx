@@ -28,6 +28,11 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     
     <p>For more insights, check out this <a href="https://moz.com/blog/backlink-disavow-tool-usage" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Disavow</a>.</p>
     
+    <div class="media">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fu3PweN-_E" title="Backlink Disavow Tool Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+        <p><em>Complete tutorial on using Google's disavow tool to protect your SEO (Source: YouTube)</em></p>
+    </div>
+
     <h2>Organic Strategies for Building Quality Backlinks</h2>
     <p>Before diving into <strong>backlink disavow tool usage</strong>, it's essential to focus on building a strong foundation with organic link building. This reduces the likelihood of needing to disavow links later. Organic strategies emphasize earning links naturally, which aligns with Google's guidelines and boosts domain authority.</p>
     
