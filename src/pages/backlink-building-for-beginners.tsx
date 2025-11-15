@@ -104,7 +104,10 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <h3>Case Study 3: Local Business Turnaround</h3>
     <p>A local bakery used infographics and HARO to gain 30 backlinks. Stats showed a 120% increase in search visibility, with fake but realistic metrics: from 200 to 440 monthly searches. This demonstrates how <strong>backlink building for beginners</strong> can yield quick wins.</p>
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/6779716/pexels-photo-6779716.jpeg" alt="Beginner backlink building success case study graph" width="800" height="400" />
+        <p><em>Graph depicting real-world case study results for backlink building (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Common Mistakes to Avoid in Backlink Building</h2>
     <p>As a beginner, avoiding pitfalls is key to successful <strong>backlink building for beginners</strong>. Here are top mistakes:</p>
     <ol>

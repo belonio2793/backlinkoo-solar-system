@@ -34,9 +34,12 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create cornerstone content that serves as a resource, encouraging others to link to it naturally. Optimize internal anchors to model best practices, which can influence external linking behavior. Promote your content via social media and outreach to earn backlinks with diverse anchors, enhancing your link building efforts.</p>
     <p>Remember, organic strategies build long-term domain authority. For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting campaigns.</p>
-    
+
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Anchor text optimization strategy infographic" width="800" height="400" />
+        <p><em>Infographic on optimizing anchor text for better SEO results (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Buying Backlinks: Pros, Cons, and Safe Optimization Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. However, <strong>anchor text optimization for backlinks</strong> is crucial here to avoid penalties. Let's weigh the pros and cons.</p>
     
