@@ -138,8 +138,13 @@ const AbTestingAnchorTexts: React.FC = () => {
     <p><em>Graph showing results from A/B testing anchor texts case studies (Source: Backlinkoo)</em></p>
   </div>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_d1BFJckerU" title="Anchor Text Optimization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Learn anchor text strategies in this comprehensive video guide (Source: YouTube)</em></p>
+  </div>
+
   <h2>Common Mistakes to Avoid in A/B Testing Anchor Texts</h2>
-  
+
   <p>Even experts can falter. Avoid these pitfalls to ensure your <strong>A/B testing anchor texts</strong> yields reliable results.</p>
   
   <h3>Over-Optimizing Anchors</h3>
