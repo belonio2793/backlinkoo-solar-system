@@ -68,7 +68,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>Backlinkoo's expert team handles everything, from selection to placement, making it a risk-free option for your travel blog guest posts needs.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/WYXLZU36yAQ" title="Guest Posting for Travel Blogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Guest Posting for Travel Blogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Tools for Managing Travel Blog Guest Posts</h2>

@@ -37,7 +37,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Target resource pages that curate links in your industry. Offer your high-quality content as an addition. This technique is ethical and effective for gaining authoritative backlinks.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IFDgySMVAVE" title="White Hat Link Building Techniques" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw9Fk" title="White Hat Link Building Techniques" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <p>Other organic strategies include influencer collaborations and podcast appearances, all aimed at building genuine relationships.</p>
@@ -153,7 +153,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Higher DA links provide more value, improving your site's ranking potential.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IFDgySMVAVE" title="White Hat Link Building Techniques" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw9Fk" title="White Hat Link Building Techniques" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>
