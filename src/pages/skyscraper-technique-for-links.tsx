@@ -58,10 +58,6 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   
   <p>Once your skyscraper content is live, syndicate it on platforms like Medium or LinkedIn. Encourage social shares to increase visibility, leading to natural backlinks. Remember, the key is to focus on LSI terms like "link building strategies" to optimize for search.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on implementing the skyscraper technique for links (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
   
   <h2>Pros and Cons of Buying Links in the Context of Skyscraper Technique</h2>
   

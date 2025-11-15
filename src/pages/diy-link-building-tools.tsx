@@ -48,10 +48,6 @@ const DiyLinkBuildingTools: React.FC = () => {
   <p>Create shareable content like infographics, guides, or videos that naturally attract links. Promote them on social media and forums. Tools like Canva for visuals or BuzzSumo for trending topics can enhance your <strong>DIY link building tools</strong> arsenal.</p>
   <p>Remember, high-quality content is key. According to <a href="https://backlinko.com/high-quality-backlinks" target="_blank" rel="noopener noreferrer">Backlinko</a>, content with visuals gets 94% more views, increasing link potential.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Tutorial on broken link building (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
   
   <h3>Resource Page Link Building</h3>
   <p>Target resource pages that list helpful links. Use searches like "inurl:resources + keyword" to find them. Pitch your content as a valuable addition.</p>
@@ -182,10 +178,6 @@ const DiyLinkBuildingTools: React.FC = () => {
   <h3>5. What's the difference between dofollow and nofollow links?</h3>
   <p>Dofollow links pass SEO value, while nofollow do not. Focus on a mix for a natural profile.</p>
   
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>FAQ video on link building basics (Source: Backlinkoo YouTube Channel)</em></p>
-  </div>
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
   <p>Mastering <strong>DIY link building tools</strong> can transform your website's performance. As per a <a href="https://moz.com/blog/state-of-link-building" target="_blank" rel="noopener noreferrer">Moz study</a>, 75% of SEO professionals consider link building essential. At Backlinkoo.com, our expert team provides tailored solutions, including <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, to complement your DIY efforts. With years of experience and proven results, we're here to help you achieve higher rankings and sustainable growth. Contact us today to get started!</p>

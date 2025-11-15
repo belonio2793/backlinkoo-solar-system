@@ -34,9 +34,6 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>For more on this, check out this <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs guide on broken link building</a>.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-video" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Link Juice Distribution</h2>
     <p>While organic methods are ideal, buying links can accelerate link juice distribution when done carefully. However, it's a gray area in SEO, with Google frowning upon manipulative practices.</p>

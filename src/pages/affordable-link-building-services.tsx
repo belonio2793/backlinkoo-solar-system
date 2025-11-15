@@ -58,9 +58,6 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>These approaches build <strong>domain authority</strong> organically. For more advanced automation, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content syndication in your link building efforts.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video-id" title="YouTube video on organic link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on broken link building (Source: YouTube)</em></p>
-  </div>
   
   <p>Integrating these with Backlinkoo's <strong>affordable link building services</strong> ensures a balanced SEO approach.</p>
   
@@ -196,9 +193,6 @@ const AffordableLinkBuildingServices: React.FC = () => {
   <p>Avoiding these mistakes ensures your <strong>affordable link building services</strong> yield sustainable results.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-video-id" title="YouTube video on link building mistakes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on avoiding common link building errors (Source: YouTube)</em></p>
-  </div>
   
   <h2>FAQ: Frequently Asked Questions About Affordable Link Building Services</h2>
   

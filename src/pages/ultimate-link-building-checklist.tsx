@@ -56,10 +56,6 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 
 <p>For automation in outreach, consider tools like SENUKE for automation, which Backlinkoo integrates to streamline your campaigns.</p>
 
-<div class="media">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/example-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><em>Video Tutorial: Organic Link Building Strategies (Source: Backlinkoo YouTube Channel)</em></p>
-</div>
 
 <h3>Infographics and Visual Content</h3>
 
@@ -219,10 +215,6 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p><em>Infographic: Enhancing E-E-A-T with Link Building (Source: Backlinkoo)</em></p>
 </div>
 
-<div class="media">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/another-link-building-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><em>Video: Advanced Link Building Tips (Source: Backlinkoo)</em></p>
-</div>
   `;
   const keywords = "ultimate, link, building, checklist";
   

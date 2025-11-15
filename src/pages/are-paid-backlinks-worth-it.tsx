@@ -52,10 +52,6 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     
     <p>Google's Search Central recommends focusing on user experience, which organic strategies enhance. While effective, these methods take time—often months—to show results, prompting many to ask: are paid backlinks worth it for faster gains?</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-organic-link-building-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
     
     <h2>The Pros and Cons of Buying Backlinks</h2>
     
@@ -179,10 +175,6 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <h3>5. How to tell if paid backlinks are worth it for my site?</h3>
     <p>Assess your goals, budget, and competition. If you need fast results in a crowded niche, they might be. Consult Backlinkoo for a free audit.</p>
     
-    <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-paid-backlinks-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on evaluating paid backlinks (Source: Backlinkoo YouTube Channel)</em></p>
-    </div>
     
     <h2>Conclusion: Making Paid Backlinks Work for You</h2>
     

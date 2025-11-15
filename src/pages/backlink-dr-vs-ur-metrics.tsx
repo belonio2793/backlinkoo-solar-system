@@ -60,9 +60,6 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   <p>According to <a href="https://moz.com/blog/link-building-strategies" target="_blank" rel="noopener noreferrer">Moz's guide on link building</a>, high-quality content is the foundation of earning links. Incorporate LSI terms like "link building" and "dofollow links" to optimize for search.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video on link building strategies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on organic link building (Source: YouTube)</em></p>
-  </div>
   
   <p>For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your efforts efficiently.</p>
   

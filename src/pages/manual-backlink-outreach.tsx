@@ -45,9 +45,6 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Collaborate with influencers for mentions and links. Manual backlink outreach via social media or email can lead to endorsements. Focus on building long-term relationships for ongoing link building opportunities.</p>
   
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Tutorial on broken link building for manual backlink outreach (Source: Backlinkoo)</em></p>
-  </div>
   
   <p>These organic strategies require patience but yield sustainable results. For more on link building best practices, check out this <a href="https://moz.com/blog/manual-backlink-outreach" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
   

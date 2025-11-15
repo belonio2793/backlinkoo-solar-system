@@ -47,9 +47,6 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>For automation in your link building, consider <Link to="/senuke">SENUKE for automation</Link>, which can help scale your organic efforts efficiently.</p>
     
     <div class="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><em>Tutorial on organic link building strategies (Source: Backlinkoo)</em></p>
-    </div>
     
     <p>Learn more from <a href="https://ahrefs.com/blog/broken-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Broken Link Building</a>.</p>
     
