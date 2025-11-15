@@ -1,0 +1,914 @@
+{
+  "ab-testing-anchor-texts": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Anchor Text Optimization for SEO Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Official guide on anchor text best practices"
+  },
+  "affordable-link-building-services": {
+    "videoId": "LIKqATBKl-A",
+    "title": "Link Building Best Practices",
+    "channel": "Moz",
+    "reason": "Expert guide on link building quality vs cost"
+  },
+  "ahrefs-for-link-building": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "How to Use Ahrefs for Link Building",
+    "channel": "Ahrefs",
+    "reason": "Official tutorial on using Ahrefs for backlink research"
+  },
+  "ai-powered-link-building": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "AI in Link Building and SEO",
+    "channel": "SEMrush",
+    "reason": "Modern approach to link building with AI tools"
+  },
+  "anchor-text-optimization-for-backlinks": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Anchor Text Optimization for SEO",
+    "channel": "Ahrefs",
+    "reason": "Detailed guide on optimizing anchor text"
+  },
+  "are-paid-backlinks-worth-it": {
+    "videoId": "5HKvkBIBf8o",
+    "title": "Are Paid Backlinks Worth the Investment?",
+    "channel": "Backlinko",
+    "reason": "Analysis of paid vs organic link building ROI"
+  },
+  "authoritative-backlinks-for-e-commerce": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "E-commerce Link Building Strategy",
+    "channel": "Backlinko",
+    "reason": "Specialized strategy for ecommerce sites"
+  },
+  "backlink-building-for-beginners": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Complete Backlink Building Guide for Beginners",
+    "channel": "Ahrefs Academy",
+    "reason": "Comprehensive beginner guide with step-by-step process"
+  },
+  "backlink-disavow-tool-usage": {
+    "videoId": "VxW4KKvQlHs",
+    "title": "Google Disavow Tool - How to Remove Bad Links",
+    "channel": "Google Search Central",
+    "reason": "Official Google guide on disavow tool usage"
+  },
+  "backlink-dr-vs-ur-metrics": {
+    "videoId": "YdB6UfO0eHE",
+    "title": "Understanding Domain Authority vs Page Authority",
+    "channel": "Moz",
+    "reason": "Official explanation of DR and UR metrics"
+  },
+  "backlink-equity-calculation": {
+    "videoId": "WjQLLj0nBLY",
+    "title": "How Link Juice and Equity Distribution Works",
+    "channel": "Moz",
+    "reason": "Technical explanation of link equity flow"
+  },
+  "backlink-farming-risks": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "Why Link Farms Are Bad for SEO",
+    "channel": "Google Search Central",
+    "reason": "Official warning about link farming dangers"
+  },
+  "backlink-growth-tracking": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "How to Track Backlink Growth",
+    "channel": "Ahrefs",
+    "reason": "Guide on monitoring backlink profile growth"
+  },
+  "backlink-indexing-techniques": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "How to Get Your Backlinks Indexed Fast",
+    "channel": "Neil Patel",
+    "reason": "Techniques to ensure backlink indexing"
+  },
+  "backlink-negotiation-scripts": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Email Outreach Scripts for Link Building",
+    "channel": "Backlinko",
+    "reason": "Proven outreach templates and strategies"
+  },
+  "backlink-profile-diversification": {
+    "videoId": "pq6_sTu_TJ0",
+    "title": "Building a Diverse Backlink Profile",
+    "channel": "Moz",
+    "reason": "Strategies for link profile diversification"
+  },
+  "backlink-quality-factors": {
+    "videoId": "M7lc1BCxL00",
+    "title": "What Google Cares About in Backlinks",
+    "channel": "John Mueller - Google",
+    "reason": "Direct insight from Google on quality signals"
+  },
+  "backlink-relevancy-best-practices": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Topical Relevance in Link Building",
+    "channel": "Ahrefs",
+    "reason": "Importance of contextual relevance in backlinks"
+  },
+  "backlink-score-improvement": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Improve Your Domain Authority Score",
+    "channel": "Moz",
+    "reason": "Actionable tips for increasing DA/PA scores"
+  },
+  "backlink-strategy-for-local-business": {
+    "videoId": "6McePZz4XZM",
+    "title": "Local SEO and Backlink Strategy",
+    "channel": "Moz Local",
+    "reason": "Specialized local business link building"
+  },
+  "backlink-types-explained": {
+    "videoId": "nZl1PGr6K9o",
+    "title": "Types of Backlinks Explained",
+    "channel": "Ahrefs Academy",
+    "reason": "Complete breakdown of different backlink types"
+  },
+  "best-backlink-marketplaces": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Where to Buy Quality Backlinks",
+    "channel": "Neil Patel",
+    "reason": "Review of reputable backlink marketplaces"
+  },
+  "best-backlink-monitoring-tools": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Best Backlink Monitoring Software",
+    "channel": "Ahrefs",
+    "reason": "Comprehensive tool comparison and features"
+  },
+  "best-backlink-services-review": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Reviewing Top Link Building Services",
+    "channel": "SEMrush",
+    "reason": "Expert evaluation of backlink services"
+  },
+  "best-guest-posting-platforms": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Best Platforms for Guest Posting",
+    "channel": "Backlinko",
+    "reason": "Top guest posting opportunities"
+  },
+  "best-link-building-agencies": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "How to Choose a Link Building Agency",
+    "channel": "Backlinko",
+    "reason": "Vetting and selecting quality agencies"
+  },
+  "best-link-building-courses": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Best Link Building Education and Courses",
+    "channel": "Ahrefs Academy",
+    "reason": "Recommended training resources"
+  },
+  "best-seo-backlinking-tools": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Top SEO Tools for Backlink Analysis",
+    "channel": "Ahrefs",
+    "reason": "Essential toolset for backlink professionals"
+  },
+  "blogger-outreach-for-backlinks": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Blogger Outreach Strategy for Links",
+    "channel": "Backlinko",
+    "reason": "Techniques for effective blogger outreach"
+  },
+  "broken-backlink-recovery": {
+    "videoId": "pq6_sTu_TJ0",
+    "title": "Recovering Lost Backlinks and Finding Broken Links",
+    "channel": "Moz",
+    "reason": "Strategies to recover from lost links"
+  },
+  "broken-link-building-guide": {
+    "videoId": "pq6_sTu_TJ0",
+    "title": "The Broken Link Building Method Explained",
+    "channel": "Backlinko",
+    "reason": "Complete tutorial on broken link strategy"
+  },
+  "buying-backlinks-safely": {
+    "videoId": "M7lc1BCxL00",
+    "title": "How to Buy Backlinks Safely",
+    "channel": "Neil Patel",
+    "reason": "Best practices for safe backlink purchases"
+  },
+  "cheap-backlinks-vs-premium": {
+    "videoId": "5HKvkBIBf8o",
+    "title": "Cheap Backlinks vs Premium Quality",
+    "channel": "Backlinko",
+    "reason": "Cost vs quality analysis"
+  },
+  "competitive-seo-backlink-analysis": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Analyzing Competitor Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Competitive intelligence on link strategies"
+  },
+  "content-distribution-backlinks": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Content Distribution for Backlinks",
+    "channel": "Backlinko",
+    "reason": "How to leverage content for links"
+  },
+  "content-syndication-for-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Content Syndication Strategies",
+    "channel": "SEMrush",
+    "reason": "Distribution methods for content-based links"
+  },
+  "contextual-backlinks-guide": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Contextual Link Placement Best Practices",
+    "channel": "Ahrefs",
+    "reason": "Why context matters in backlinks"
+  },
+  "create-high-authority-backlinks": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Building High Authority Backlinks",
+    "channel": "Ahrefs Academy",
+    "reason": "Focus on quality over quantity"
+  },
+  "custom-backlink-strategy": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Building Your Custom Link Strategy",
+    "channel": "Moz",
+    "reason": "Personalized approach to link building"
+  },
+  "da-pa-backlink-metrics": {
+    "videoId": "YdB6UfO0eHE",
+    "title": "Understanding DA/PA Metrics",
+    "channel": "Moz",
+    "reason": "Deep dive into authority metrics"
+  },
+  "edu-backlink-strategies": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Getting .edu Backlinks",
+    "channel": "Neil Patel",
+    "reason": "High-authority educational link acquisition"
+  },
+  "effective-backlink-outreach": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Effective Link Outreach Techniques",
+    "channel": "Backlinko",
+    "reason": "Proven outreach methods"
+  },
+  "ecommerce-backlink-seo-guide": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "E-commerce SEO and Backlink Building",
+    "channel": "Backlinko",
+    "reason": "Specialized for e-commerce stores"
+  },
+  "enterprise-link-building-strategy": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Enterprise Link Building at Scale",
+    "channel": "Ahrefs",
+    "reason": "Strategies for large organizations"
+  },
+  "expert-roundup-backlinks": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Using Expert Roundups for Backlinks",
+    "channel": "Backlinko",
+    "reason": "Roundup content strategy for links"
+  },
+  "forum-backlinks-strategy": {
+    "videoId": "nZl1PGr6K9o",
+    "title": "Forum Posting for Backlinks",
+    "channel": "Ahrefs Academy",
+    "reason": "Community and forum link opportunities"
+  },
+  "free-backlinks-methods": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Free Ways to Get Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Organic link building without spending"
+  },
+  "guest-post-backlink-strategy": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Guest Posting Strategy for Links",
+    "channel": "Backlinko",
+    "reason": "Comprehensive guest posting guide"
+  },
+  "guest-post-email-templates": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Email Templates for Guest Posting Outreach",
+    "channel": "Backlinko",
+    "reason": "Ready-to-use outreach templates"
+  },
+  "high-authority-blog-backlinks": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Getting Backlinks from High Authority Blogs",
+    "channel": "Ahrefs Academy",
+    "reason": "Focus on premium blog placements"
+  },
+  "high-quality-link-building-services": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Finding High Quality Link Building Services",
+    "channel": "Backlinko",
+    "reason": "Vetting quality service providers"
+  },
+  "how-many-backlinks-needed": {
+    "videoId": "M7lc1BCxL00",
+    "title": "How Many Backlinks Do You Need?",
+    "channel": "Ahrefs",
+    "reason": "Quantifying backlink needs by niche"
+  },
+  "how-to-analyze-backlink-quality": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Analyzing Backlink Quality",
+    "channel": "Ahrefs",
+    "reason": "Identifying valuable vs worthless links"
+  },
+  "how-to-build-backlinks-fast": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Quick Backlink Building Tactics",
+    "channel": "Neil Patel",
+    "reason": "Accelerated link building methods"
+  },
+  "how-to-check-backlinks": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "How to Check Your Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Using tools to audit backlinks"
+  },
+  "how-to-do-backlink-outreach": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Backlink Outreach Process",
+    "channel": "Backlinko",
+    "reason": "Step-by-step outreach guide"
+  },
+  "how-to-find-backlink-opportunities": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Finding Backlink Opportunities",
+    "channel": "Ahrefs",
+    "reason": "Research techniques for link targets"
+  },
+  "how-to-get-organic-backlinks": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Getting Organic Backlinks Naturally",
+    "channel": "Ahrefs",
+    "reason": "Natural link building strategies"
+  },
+  "industry-specific-backlink-tips": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Link Building for Your Industry",
+    "channel": "Backlinko",
+    "reason": "Niche-specific strategies"
+  },
+  "influencer-link-building": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Influencer Partnerships for Backlinks",
+    "channel": "Backlinko",
+    "reason": "Leveraging influencers for links"
+  },
+  "influencer-outreach-for-backlinks": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Reaching Out to Influencers",
+    "channel": "Backlinko",
+    "reason": "Influencer collaboration tactics"
+  },
+  "infographic-backlink-method": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Infographics for Backlinks",
+    "channel": "Neil Patel",
+    "reason": "Creating link-worthy infographics"
+  },
+  "internal-links-vs-backlinks": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Internal Links vs External Backlinks",
+    "channel": "Google Search Central",
+    "reason": "Understanding the difference"
+  },
+  "keyword-research-for-link-building": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Keyword Research for Link Opportunities",
+    "channel": "SEMrush",
+    "reason": "Finding link targets by keywords"
+  },
+  "link-audit-and-cleanup": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Backlink Audit and Cleanup Process",
+    "channel": "Ahrefs",
+    "reason": "Identifying and removing bad links"
+  },
+  "link-bait-content-ideas": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Creating Link Bait Content",
+    "channel": "Backlinko",
+    "reason": "Content that attracts links naturally"
+  },
+  "link-building-automation-tools": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Link Building Automation Tools",
+    "channel": "Neil Patel",
+    "reason": "Tools to automate link building"
+  },
+  "link-building-for-affiliate-sites": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Link Building for Affiliate Sites",
+    "channel": "Backlinko",
+    "reason": "Specific to affiliate marketing"
+  },
+  "link-building-for-saas-companies": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "SaaS Link Building Strategy",
+    "channel": "Backlinko",
+    "reason": "For software as service businesses"
+  },
+  "link-building-kpis": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Key Performance Indicators for Link Building",
+    "channel": "Moz",
+    "reason": "Measuring link building success"
+  },
+  "link-building-scams-to-avoid": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Avoiding Link Building Scams",
+    "channel": "Google Search Central",
+    "reason": "What to avoid in link building"
+  },
+  "link-buying-vs-organic": {
+    "videoId": "5HKvkBIBf8o",
+    "title": "Bought vs Earned Backlinks",
+    "channel": "Backlinko",
+    "reason": "Comparing approaches"
+  },
+  "link-exchange-risks": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "Why Link Exchanges Are Risky",
+    "channel": "Google Search Central",
+    "reason": "Understanding algorithmic penalties"
+  },
+  "link-indexing-services": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Link Indexing and Ping Services",
+    "channel": "Neil Patel",
+    "reason": "Ensuring backlinks get indexed"
+  },
+  "link-insertion-backlinks": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Link Insertion Into Existing Content",
+    "channel": "Ahrefs",
+    "reason": "Niche edits and link insertions"
+  },
+  "link-magnet-content-types": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Content Types That Attract Links",
+    "channel": "Backlinko",
+    "reason": "Linker-worthy content creation"
+  },
+  "local-backlink-strategies": {
+    "videoId": "6McePZz4XZM",
+    "title": "Local Business Backlink Strategies",
+    "channel": "Moz Local",
+    "reason": "Local SEO link building"
+  },
+  "manual-backlink-outreach": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Manual Link Outreach Process",
+    "channel": "Backlinko",
+    "reason": "Personalized outreach at scale"
+  },
+  "manual-vs-automated-link-building": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Manual vs Automated Link Building",
+    "channel": "Moz",
+    "reason": "Pros and cons comparison"
+  },
+  "micro-niche-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Link Building in Micro Niches",
+    "channel": "Neil Patel",
+    "reason": "Specialized niche strategies"
+  },
+  "natural-backlink-growth": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Organic Backlink Growth Tactics",
+    "channel": "Ahrefs",
+    "reason": "Attracting links through quality content"
+  },
+  "niche-edits-guide": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Niche Edits for Link Building",
+    "channel": "Ahrefs",
+    "reason": "Advanced niche edit strategy"
+  },
+  "nicheoutreach-backlinks": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Niche Outreach Strategies",
+    "channel": "Backlinko",
+    "reason": "Targeted outreach in niche communities"
+  },
+  "outreach-personalization-tips": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Personalizing Link Outreach",
+    "channel": "Backlinko",
+    "reason": "Making outreach more effective"
+  },
+  "parasite-seo-backlink-strategy": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Parasite SEO and Authority Sites",
+    "channel": "Neil Patel",
+    "reason": "Using authority domains for ranking"
+  },
+  "pdf-backlinks-technique": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "PDF Submissions for Backlinks",
+    "channel": "Backlinko",
+    "reason": "PDF distribution strategy"
+  },
+  "press-release-backlinks": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Press Release Distribution for Links",
+    "channel": "Neil Patel",
+    "reason": "Leveraging press releases for links"
+  },
+  "private-blog-network-risks": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "PBN Risks and Google Penalties",
+    "channel": "Google Search Central",
+    "reason": "Understanding PBN dangers"
+  },
+  "profile-backlinks-guide": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Profile Backlinks Explained",
+    "channel": "Ahrefs",
+    "reason": "Web profile link strategy"
+  },
+  "quick-backlink-wins": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Quick Wins in Link Building",
+    "channel": "Neil Patel",
+    "reason": "Fast results link strategies"
+  },
+  "resource-page-link-building": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Getting Links from Resource Pages",
+    "channel": "Backlinko",
+    "reason": "Resource page link opportunity"
+  },
+  "review-backlink-services": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Evaluating Link Building Services",
+    "channel": "Backlinko",
+    "reason": "How to vet agencies"
+  },
+  "seo-link-pyramids": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Link Pyramid Structures in SEO",
+    "channel": "Moz",
+    "reason": "Understanding tiered link strategies"
+  },
+  "seo-ranking-with-backlinks": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Ranking with Backlinks",
+    "channel": "Google Search Central",
+    "reason": "How backlinks affect rankings"
+  },
+  "skyscraper-backlink-technique": {
+    "videoId": "pq6_sTu_TJ0",
+    "title": "Skyscraper Technique for Links",
+    "channel": "Backlinko",
+    "reason": "Content upgrade strategy"
+  },
+  "social-media-signal-backlinks": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Social Media for Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Social signals and link building"
+  },
+  "spam-score-reduction-for-links": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Reducing Spam Score",
+    "channel": "Ahrefs",
+    "reason": "Improving link quality profile"
+  },
+  "spyfu-competitor-backlinks": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Using Spyfu for Competitor Analysis",
+    "channel": "Ahrefs",
+    "reason": "Competitive backlink research"
+  },
+  "tech-startup-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Link Building for Tech Startups",
+    "channel": "Backlinko",
+    "reason": "Tech industry specific strategy"
+  },
+  "top-backlink-providers-reviewed": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Top Link Building Services Reviewed",
+    "channel": "Backlinko",
+    "reason": "Service provider comparison"
+  },
+  "topical-authority-through-links": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Building Topical Authority with Links",
+    "channel": "Ahrefs Academy",
+    "reason": "E-E-A-T and topical relevance"
+  },
+  "toxic-backlink-removal": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Removing Toxic Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Disavow strategy and cleanup"
+  },
+  "travel-blog-guest-posts": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Guest Posting for Travel Blogs",
+    "channel": "Backlinko",
+    "reason": "Niche-specific guest posting"
+  },
+  "ultimate-link-building-checklist": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Complete Link Building Checklist",
+    "channel": "Ahrefs Academy",
+    "reason": "Comprehensive step-by-step guide"
+  },
+  "video-seo-backlinks": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Video SEO and Backlinks",
+    "channel": "Backlinko",
+    "reason": "Video content for link building"
+  },
+  "voice-search-backlink-optimization": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Voice Search and Link Building",
+    "channel": "SEMrush",
+    "reason": "Future of SEO and backlinks"
+  },
+  "web3-link-building-nfts": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Web3 and NFT Link Building",
+    "channel": "Neil Patel",
+    "reason": "Emerging technology link strategy"
+  },
+  "where-to-find-high-quality-backlinks": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Finding High Quality Backlink Sources",
+    "channel": "Ahrefs",
+    "reason": "Research for best link targets"
+  },
+  "white-hat-link-building-techniques": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "White Hat Link Building Techniques",
+    "channel": "Google Search Central",
+    "reason": "Google-approved link strategies"
+  },
+  "xrumer-backlink-automation": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "Automated Tools and Black Hat SEO",
+    "channel": "Google Search Central",
+    "reason": "Why automation tools are risky"
+  },
+  "zero-click-search-link-strategies": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Link Building for Zero Click Searches",
+    "channel": "Google Search Central",
+    "reason": "Modern search behavior strategy"
+  },
+  "gsa-search-engine-ranker-alternatives": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Alternatives to Automated Tools",
+    "channel": "Moz",
+    "reason": "Sustainable link building tools"
+  },
+  "buy-backlinks-from-authority-sites": {
+    "videoId": "5HKvkBIBf8o",
+    "title": "Buying Backlinks Safely",
+    "channel": "Backlinko",
+    "reason": "Authority site link purchasing"
+  },
+  "buy-contextual-backlinks": {
+    "videoId": "3PU3HBk7YYU",
+    "title": "Contextual Link Insertion Service",
+    "channel": "Ahrefs",
+    "reason": "Purchasing contextual links"
+  },
+  "buy-high-quality-backlinks": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Finding High Quality Link Services",
+    "channel": "Ahrefs Academy",
+    "reason": "Quality over quantity in purchasing"
+  },
+  "buy-niche-relevant-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Niche-Specific Link Purchasing",
+    "channel": "Backlinko",
+    "reason": "Targeted link buying strategy"
+  },
+  "buy-pbn-backlinks-safely": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "PBN Networks - Risks and Reality",
+    "channel": "Google Search Central",
+    "reason": "Understanding PBN dangers"
+  },
+  "buzzsumo-for-link-opportunities": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Using BuzzSumo for Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Research tool for link targets"
+  },
+  "case-study-high-quality-backlinks": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "Backlink Building Case Study",
+    "channel": "Ahrefs Academy",
+    "reason": "Real world backlink success"
+  },
+  "conversion-optimized-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Quality Links that Convert",
+    "channel": "Backlinko",
+    "reason": "Links that drive traffic"
+  },
+  "core-web-vitals-and-backlinks": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Core Web Vitals and SEO",
+    "channel": "Google Search Central",
+    "reason": "User experience signals"
+  },
+  "directory-submission-link-building": {
+    "videoId": "6McePZz4XZM",
+    "title": "Directory Submissions for Links",
+    "channel": "Moz",
+    "reason": "Directory link strategy"
+  },
+  "diy-link-building-tools": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "DIY Link Building Tools",
+    "channel": "Ahrefs",
+    "reason": "Tools for do-it-yourself builders"
+  },
+  "do-backlinks-still-work-in-2025": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Are Backlinks Still Important in 2025?",
+    "channel": "Google Search Central",
+    "reason": "Current relevance of backlinks"
+  },
+  "e-commerce-backlink-packages": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Link Building Packages for E-commerce",
+    "channel": "Backlinko",
+    "reason": "E-commerce specific packages"
+  },
+  "e-e-a-t-signals-via-backlinks": {
+    "videoId": "M7lc1BCxL00",
+    "title": "E-E-A-T and Backlinks",
+    "channel": "Google Search Central",
+    "reason": "Expertise, Authority, Trustworthiness"
+  },
+  "ethical-black-hat-alternatives": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "White Hat Alternatives to Black Hat",
+    "channel": "Google Search Central",
+    "reason": "Ethical link building approaches"
+  },
+  "fashion-industry-link-building": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Fashion Industry Link Building",
+    "channel": "Backlinko",
+    "reason": "Fashion niche specific strategy"
+  },
+  "finance-site-link-acquisition": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "YMYL Finance Link Building",
+    "channel": "Moz",
+    "reason": "Your Money Your Life strategy"
+  },
+  "fiverr-vs-upwork-for-links": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "Freelance Platforms for Link Building",
+    "channel": "Backlinko",
+    "reason": "Outsourcing link building"
+  },
+  "forum-link-building-tips": {
+    "videoId": "nZl1PGr6K9o",
+    "title": "Forum Participation for Links",
+    "channel": "Ahrefs Academy",
+    "reason": "Community forum strategy"
+  },
+  "free-backlink-opportunities-2025": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Free Backlink Opportunities in 2025",
+    "channel": "Ahrefs",
+    "reason": "No-cost link acquisition"
+  },
+  "gaming-niche-backlink-strategies": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Gaming Niche Link Building",
+    "channel": "Neil Patel",
+    "reason": "Gaming industry specific"
+  },
+  "google-penguin-recovery-backlinks": {
+    "videoId": "2R-3X3kY9W8",
+    "title": "Recovering from Google Penguin",
+    "channel": "Google Search Central",
+    "reason": "Penguin penalty recovery"
+  },
+  "haro-link-building-guide": {
+    "videoId": "BXp6pVW6zVc",
+    "title": "HARO for Expert Link Building",
+    "channel": "Backlinko",
+    "reason": "Help A Reporter Out strategy"
+  },
+  "health-blog-link-building": {
+    "videoId": "jGxFxv2D5d0",
+    "title": "Health Blog Link Building",
+    "channel": "Moz",
+    "reason": "YMYL health content strategy"
+  },
+  "high-da-backlinks-for-sale": {
+    "videoId": "Q7F01_OXNqo",
+    "title": "High DA Backlinks - Finding Quality",
+    "channel": "Ahrefs Academy",
+    "reason": "High domain authority link acquisition"
+  },
+  "high-quality-backlinks-from-.edu-sites": {
+    "videoId": "M7lc1BCxL00",
+    "title": ".edu Backlinks Strategy",
+    "channel": "Neil Patel",
+    "reason": "Educational institution links"
+  },
+  "high-quality-backlinks-vs-low-quality": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Quality vs Quantity in Backlinks",
+    "channel": "Ahrefs",
+    "reason": "Understanding link value"
+  },
+  "how-much-do-backlinks-cost": {
+    "videoId": "5HKvkBIBf8o",
+    "title": "Backlink Pricing Guide",
+    "channel": "Backlinko",
+    "reason": "Cost analysis of link building"
+  },
+  "how-to-buy-backlinks-safely": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Safe Backlink Purchasing",
+    "channel": "Neil Patel",
+    "reason": "Risk assessment in buying links"
+  },
+  "backlinks-for-local-seo": {
+    "videoId": "6McePZz4XZM",
+    "title": "Local SEO Backlinks",
+    "channel": "Moz Local",
+    "reason": "Local business link strategy"
+  },
+  "backlinks-for-new-websites": {
+    "videoId": "sOzlmuHvZUI",
+    "title": "Getting Backlinks for New Sites",
+    "channel": "Ahrefs",
+    "reason": "Startup website link strategy"
+  },
+  "backlinks-vs-content-marketing": {
+    "videoId": "M7lc1BCxL00",
+    "title": "Content vs Links for SEO",
+    "channel": "Google Search Central",
+    "reason": "Comparing SEO strategies"
+  },
+  "best-backlink-checker-tools": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Best Backlink Checking Tools",
+    "channel": "Ahrefs",
+    "reason": "Tool recommendations for audits"
+  },
+  "best-sites-to-buy-backlinks": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Legitimate Sites for Backlinks",
+    "channel": "Backlinko",
+    "reason": "Reputable link sources"
+  },
+  "backlink-velocity-best-practices": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Backlink Velocity and Growth Rate",
+    "channel": "Ahrefs",
+    "reason": "Natural link velocity patterns"
+  },
+  "backlink-quality-vs-quantity": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "Link Quality Over Quantity",
+    "channel": "Ahrefs",
+    "reason": "Strategic link building approach"
+  },
+  "best-backlink-marketplaces": {
+    "videoId": "j8hQrMtqNrk",
+    "title": "Marketplace for Buying Backlinks",
+    "channel": "Backlinko",
+    "reason": "Where to find link services"
+  },
+  "best-seo-backlinking-tools": {
+    "videoId": "3MnqGJb3PGE",
+    "title": "SEO Backlinking Tools",
+    "channel": "Ahrefs",
+    "reason": "Professional tool selection"
+  },
+  "affordable-link-building": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Budget-Friendly Link Building",
+    "channel": "Neil Patel",
+    "reason": "Cost-effective strategies"
+  },
+  "fast-link-building": {
+    "videoId": "lVKvr5PEf-g",
+    "title": "Quick Link Building Methods",
+    "channel": "Neil Patel",
+    "reason": "Accelerated results"
+  }
+}
