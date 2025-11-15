@@ -47,9 +47,7 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     <h3>Influencer Collaborations and Social Mentions</h3>
     <p>Partnering with influencers can skyrocket your social signals. A mention from a key figure in your industry can lead to widespread shares and backlinks. Focus on building relationships through genuine interactions on platforms like Twitter.</p>
     <p>According to <a href="https://moz.com/blog/broken-link-building" target="_blank" rel="noopener noreferrer">Moz's guide on link building</a>, combining influencer outreach with social promotion yields the best results for <em>domain authority</em> growth.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/J_ub7Etch2U" title="Social Media for Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Buying Social Media Signal Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying social media signal backlinks can accelerate your SEO efforts. However, it's essential to weigh the pros and cons and follow safe practices to avoid penalties.</p>
@@ -148,9 +146,7 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     
     <h3>Ignoring Google's Guidelines</h3>
     <p>Always adhere to <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Google's webmaster guidelines</a> to avoid penalties.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/J_ub7Etch2U" title="Social Media for Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>FAQ: Frequently Asked Questions About Social Media Signal Backlinks</h2>
     <h3>1. What exactly are social media signal backlinks?</h3>

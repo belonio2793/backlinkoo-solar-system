@@ -43,9 +43,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>Choose reputable providers like Backlinkoo, which ensures natural-looking links. Diversify anchor texts and monitor with tools like Google Search Console. Always audit links for relevance and authority.</p>
     <p>For authoritative insights, refer to this <a href="https://moz.com/blog/backlink-buying-guide" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Buying</a>.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Automated Tools and Black Hat SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Tools for XRumer Backlink Automation: A Comparison Table</h2>
     <p>Selecting the right tools is crucial for effective XRumer backlink automation. Below is a table comparing popular options, including XRumer and SENUKE.</p>

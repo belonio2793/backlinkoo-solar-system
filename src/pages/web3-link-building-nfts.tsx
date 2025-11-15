@@ -39,9 +39,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>Syndicate your content across Web3 platforms like Mirror.xyz or decentralized social networks. Collaborate with NFT artists or projects for co-created content, where mutual links are exchanged.</p>
     <p>In one Backlinkoo campaign, we partnered with an NFT creator to produce a joint whitepaper, earning dofollow links from 20+ high-DA sites and boosting domain authority by 25 points.</p>
     <p>LSI terms like "blockchain backlinks" and "decentralized domain authority" can enhance relevance, making your content more discoverable.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Web3 and NFT Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h3>Community Engagement and Forum Participation</h3>
     <p>Engage in Web3 forums like Reddit's r/Web3 or Discord servers for NFT projects. Provide value through insightful comments, subtly including links to your resources. Avoid spamming—focus on building relationships for long-term link opportunities.</p>
@@ -154,9 +152,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <h3>What's the future of Web3 link building NFTs?</h3>
     <p>With blockchain adoption rising, expect more integration with AI and metaverses, per reports from <a href="https://www.statista.com/topics/3133/non-fungible-tokens-nft/" target="_blank" rel="noopener noreferrer">Statista</a>.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Web3 and NFT Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>As an expert in <strong>Web3 link building NFTs</strong>, Backlinkoo draws on years of experience to deliver results. According to a 2023 Ahrefs report, backlinks remain a top ranking factor, with Web3 adding new dimensions. Our authoritative strategies, backed by stats like a 25% average DA increase for clients, ensure trustworthiness. Contact us today to harness the power of decentralized link building and propel your NFT project to the top.</p>

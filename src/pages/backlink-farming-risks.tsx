@@ -32,9 +32,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <p>Create comprehensive guides, infographics, or tools that naturally attract links. Promote them through social media and outreach. Resource pages on educational sites are goldmines for placements. Remember, the key is relevance—ensure your content matches the linking site's audience.</p>
   <p>By focusing on these organic tactics, you sidestep <strong>backlink farming risks</strong> and build a sustainable SEO foundation. For more on ethical automation, check out our page on <Link to="/senuke">SENUKE for automation</Link>, which can streamline outreach without crossing into spam territory.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/J_ub7Etch2U" title="Why Link Farms Are Bad for SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
 
   <h2>Pros and Cons of Buying Backlinks: Safe Tips to Minimize Risks</h2>
   <p>While buying backlinks can be tempting, it's fraught with <strong>backlink farming risks</strong>. However, if done carefully, it can complement organic efforts. Let's weigh the pros and cons.</p>

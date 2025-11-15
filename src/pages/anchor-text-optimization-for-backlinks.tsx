@@ -121,9 +121,7 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
         <p><em>Graph of ranking improvements from optimization (Source: Backlinkoo)</em></p>
     </div>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Anchor Text Optimization for SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+    
 
     <h2>Common Mistakes to Avoid in Anchor Text Optimization</h2>
     <p>Even experts slip up in <strong>anchor text optimization for backlinks</strong>. Avoid these pitfalls to maintain a healthy link profile.</p>

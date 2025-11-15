@@ -198,8 +198,8 @@ const AffordableLinkBuildingServices: React.FC = () => {
   </div>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Affordable Link Building Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video guide on affordable link building strategies</em></p>
+    
+    
   </div>
 
   <h2>FAQ: Frequently Asked Questions About Affordable Link Building Services</h2>

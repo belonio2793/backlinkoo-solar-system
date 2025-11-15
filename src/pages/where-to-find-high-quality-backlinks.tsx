@@ -34,9 +34,7 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
   <h3>Content Marketing and Skyscraper Technique</h3>
   <p>Create exceptional content that naturally attracts links. The Skyscraper Technique, popularized by Brian Dean of Backlinko, involves finding top-performing content in your niche, improving upon it, and reaching out to sites that linked to the original. This can exponentially increase your backlink profile.</p>
   <p>For more on organic strategies, check out this <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs Guide to Link Building</a>.</p>
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw9Fk" title="Finding High Quality Backlink Sources" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
+  
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying backlinks can accelerate your link building efforts. However, it's a gray area in SEO, and Google discourages it if it violates their guidelines. Let's weigh the pros and cons and discuss how to do it safely.</p>
