@@ -37,7 +37,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     <p>These organic strategies ensure long-term benefits in <strong>backlink equity calculation</strong>, aligning with Google's emphasis on natural link profiles.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j-muY1D3wl4" title="How Link Juice and Equity Distribution Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qJTRZ_MXV_c" title="How Link Juice and Equity Distribution Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>

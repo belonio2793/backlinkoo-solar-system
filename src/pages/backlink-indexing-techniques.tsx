@@ -37,7 +37,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your organic strategies and enhance overall link building efficiency.</p>
 
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="How to Get Your Backlinks Indexed Fast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3eTGtVfIZbA" title="How to Get Your Backlinks Indexed Fast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
   <p>These organic methods, when combined with dofollow links and domain authority considerations, form a robust foundation for your SEO strategy.</p>

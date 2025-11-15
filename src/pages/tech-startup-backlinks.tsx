@@ -45,7 +45,7 @@ const TechStartupBacklinks: React.FC = () => {
     <p>Sign up for HARO and respond to queries from journalists covering tech startups. Providing expert quotes can lead to backlinks from major publications like Forbes or Wired.</p>
     <p>These organic methods require time but yield sustainable results. If you're short on resources, Backlinkoo offers services to handle this for you, ensuring your tech startup backlinks are built ethically.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Link Building for Tech Startups" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3eTGtVfIZbA" title="Link Building for Tech Startups" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <h2>Buying Tech Startup Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -124,7 +124,7 @@ const TechStartupBacklinks: React.FC = () => {
     <h3>Case Study 3: EdTech Platform</h3>
     <p>By buying targeted backlinks safely through Backlinkoo and using <a href="/xrumer">XRumer</a> for forum posts, this platform gained 100 dofollow links. Outcome: 200% increase in sign-ups, with rankings improving for LSI terms like "educational tech link building."</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Link Building for Tech Startups" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3eTGtVfIZbA" title="Link Building for Tech Startups" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
     <h2>Common Mistakes to Avoid in Tech Startup Backlinks</h2>

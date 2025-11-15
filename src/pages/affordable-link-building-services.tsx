@@ -198,7 +198,7 @@ const AffordableLinkBuildingServices: React.FC = () => {
   </div>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lwp1zHPFf84" title="Affordable Link Building Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3eTGtVfIZbA" title="Affordable Link Building Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video guide on affordable link building strategies</em></p>
   </div>
 
