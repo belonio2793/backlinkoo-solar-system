@@ -57,7 +57,7 @@ const VideoSeoBacklinks: React.FC = () => {
     <p>Monitor with tools: Use Google Search Console to track backlinks and avoid toxic ones. For automation in posting, consider <Link to="/xrumer">XRumer for posting</Link> to forums and blogs safely.</p>
     <p>Google's guidelines emphasize natural links, so blend bought backlinks with organic ones for best results. Check out <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a> for more insights.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart illustrating pros and cons of buying video SEO backlinks (Source: Backlinkoo)</em></p>
     </div>
 
@@ -119,7 +119,7 @@ const VideoSeoBacklinks: React.FC = () => {
     <p>An edtech company leveraged influencer collaborations and syndication, building 100 video SEO backlinks organically.</p>
     <p>Results: Watch time increased by 150%, with backlinks contributing to a 200% rise in organic search impressions, per Google Analytics.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
 

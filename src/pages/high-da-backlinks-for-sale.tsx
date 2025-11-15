@@ -24,7 +24,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>According to Moz's research, websites with strong backlink profiles see up to 3x more organic traffic. At Backlinkoo.com, our high DA backlinks for sale are sourced from reputable niches, ensuring they align with Google's guidelines and provide long-term value.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="high DA backlinks for sale infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="high DA backlinks for sale infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of high DA backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -119,7 +119,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>Integrate these tools into your strategy for optimal results. For automated solutions, check out our integrations with <Link to="/senuke">SENUKE</Link> at Backlinkoo.com.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     <p>These examples highlight how high DA backlinks for sale can deliver tangible results when sourced from trusted providers like Backlinkoo.com.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1668575007921-da64e5eff1fa?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph depicting traffic growth from high DA backlinks (Source: Backlinkoo)</em></p>
     </div>
     

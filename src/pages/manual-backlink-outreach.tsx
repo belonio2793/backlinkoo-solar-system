@@ -112,7 +112,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>These tools enhance manual backlink outreach by saving time on research and tracking. For personalized recommendations, contact Backlinkoo today.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to top tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -163,7 +163,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Start with Ahrefs for analysis and Hunter.io for emails. For advanced, try <Link to="/xrumer">XRumer</Link>.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
   </div>
   

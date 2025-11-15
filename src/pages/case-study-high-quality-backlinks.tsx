@@ -184,7 +184,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> can save time while maintaining quality.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison chart of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -220,7 +220,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>These case studies highlight the transformative power of high quality backlinks when executed properly.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth in case studies (Source: Backlinkoo)</em></p>
   </div>
   

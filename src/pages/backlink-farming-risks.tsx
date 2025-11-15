@@ -16,7 +16,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <h3>Why Backlink Farming Risks Matter in SEO</h3>
   <p>The risks aren't just theoretical. Search engines use advanced algorithms like Penguin to detect manipulative links. Engaging in backlink farming can erode your site's trust, reduce organic traffic, and damage your brand's reputation. For businesses relying on SEO, these risks can translate to lost revenue. At Backlinkoo, we emphasize sustainable strategies to avoid these pitfalls, helping you build a robust backlink profile that enhances domain authority naturally.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink farming risks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=400&fit=crop" alt="backlink farming risks infographic" width="800" height="400" />
     <p><em>Infographic illustrating common backlink farming risks and penalties (Source: Backlinkoo)</em></p>
   </div>
   
@@ -105,7 +105,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <h3>Case Study 3: Agency Overreach</h3>
   <p>An SEO agency automated 10,000 forum links for a client, ignoring relevance. The site was de-indexed, losing 95% visibility. Post-recovery with ethical strategies, including broken link building, they gained 300 high-quality links and doubled conversions.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph on backlink farming risks" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graph on backlink farming risks" width="800" height="400" />
     <p><em>Graph showing traffic drop due to backlink farming (Source: Backlinkoo)</em></p>
   </div>
   
@@ -136,7 +136,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <p>At Backlinkoo, our expertise is backed by years of experience and data from sources like <a href="https://moz.com/blog/backlink-farming-risks" target="_blank" rel="noopener noreferrer">Moz Guide</a> and <a href="https://ahrefs.com/blog/backlink-farming" target="_blank" rel="noopener noreferrer">Ahrefs Studies</a>. Statistics show that sites with natural backlinks see 3x more organic traffic (Source: Google Search Central). Our authoritative approach ensures trustworthiness, helping you achieve lasting results.</p>
   <p>For more insights, visit <a href="https://search.google.com/search-console/about" target="_blank" rel="noopener noreferrer">Google Search Central</a>, <a href="https://ahrefs.com/blog/link-building" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Guide</a>, or <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks</a>.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="E-E-A-T in SEO infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="E-E-A-T in SEO infographic" width="800" height="400" />
     <p><em>Infographic on E-E-A-T and backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   <p>This comprehensive guide underscores the importance of avoiding <strong>backlink farming risks</strong>. Partner with Backlinkoo for expert, safe link building that drives real results.</p>

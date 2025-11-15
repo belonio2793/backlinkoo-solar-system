@@ -18,7 +18,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Consider this: Organic link building through negotiation can improve your site's domain authority over time, leading to better organic traffic. Backlinkoo's tools can help track these metrics, ensuring your efforts yield measurable results. Without effective scripts, your outreach might come across as spammy, harming your reputation and SEO goals.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink negotiation scripts infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="backlink negotiation scripts infographic" width="800" height="400" />
         <p><em>Infographic illustrating the key components of effective backlink negotiation scripts (Source: Backlinkoo)</em></p>
     </div>
     
@@ -79,7 +79,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Backlinkoo advises against over-reliance on buying; instead, use our services for safe, white-hat alternatives. Reference <a href="https://moz.com/blog/buying-backlinks" target="_blank" rel="noopener noreferrer">Moz's guide on buying backlinks</a> for best practices.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart detailing pros and cons of buying backlinks in link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -144,7 +144,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>An SEO agency negotiated resource page links, gaining 10 high-quality backlinks. Client rankings improved by 15 positions on average (fake stats).</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success metrics graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="Case study success metrics graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink negotiation (Source: Backlinkoo)</em></p>
     </div>
     

@@ -17,7 +17,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>SpyFu's backlink analysis feature scans competitors' domains, revealing metrics like link count, referring domains, and anchor text usage. This data is invaluable for spotting gaps in your strategy. For instance, if a competitor has numerous <strong>dofollow links</strong> from .edu sites, you might prioritize outreach to educational platforms.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="SpyFu competitor backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="SpyFu competitor backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing how SpyFu analyzes competitor backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -48,7 +48,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>For more on safe link buying, check this <a href="https://moz.com/blog/buying-backlinks-guide" target="_blank" rel="noopener noreferrer">Moz Guide on Buying Backlinks</a>.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -109,7 +109,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <p>A local service provider spied on regional competitors via SpyFu, targeting local citations. Using <Link to="/xrumer">XRumer</Link> for automated postings, they secured 100+ links, improving local search rankings and foot traffic by 25%.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     

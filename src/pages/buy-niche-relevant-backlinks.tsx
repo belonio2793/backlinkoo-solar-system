@@ -18,7 +18,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>LSI terms such as "link building services," "high domain authority links," and "dofollow backlinks" often come into play here. By incorporating these, you signal to search engines the contextual depth of your content.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="buy niche relevant backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="buy niche relevant backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of niche relevant backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -94,7 +94,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>These tools, especially <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, integrate seamlessly with Backlinkoo services to maximize your ROI.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for buying niche relevant backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="tools for buying niche relevant backlinks" width="800" height="400" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>Tools like Ahrefs, Moz, and our recommended <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> are excellent starting points.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="FAQ on buying niche relevant backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="FAQ on buying niche relevant backlinks" width="800" height="400" />
         <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

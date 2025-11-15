@@ -118,7 +118,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Using BuzzSumo for influencer outreach, a SaaS firm collaborated on 15 pieces, gaining links with domain authority over 80. Outcome: 200% increase in leads, supported by Backlinkoo's XRumer integration.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
         <p><em>Graph depicting traffic growth from BuzzSumo strategies (Source: Backlinkoo)</em></p>
     </div>
     

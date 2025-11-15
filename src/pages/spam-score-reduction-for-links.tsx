@@ -15,7 +15,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>High spam scores signal to search engines that your backlink profile might be manipulative. This can result in algorithmic penalties or manual actions. By prioritizing <strong>spam score reduction for links</strong>, you enhance trust signals, improve domain authority, and foster long-term SEO success. Studies from Ahrefs show that sites with clean backlink profiles rank 20-30% higher on average.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="spam score reduction for links infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=400&fit=crop" alt="spam score reduction for links infographic" width="800" height="400" />
         <p><em>Infographic illustrating spam score factors (Source: Backlinkoo)</em></p>
     </div>
     
@@ -45,7 +45,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>Outbound link: Learn more from <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Buying Backlinks</a>.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Pros and cons of buying links chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying links chart" width="800" height="400" />
         <p><em>Chart on buying links (Source: Backlinkoo)</em></p>
     </div>
     
@@ -105,7 +105,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <p>An SEO agency used <Link to="/xrumer">XRumer for posting</Link> to build contextual links, reducing average spam score across clients by 25%. One client saw a 40% traffic uplift. Data: From 50% spam to 20%, with 500+ high-DA links.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=400&fit=crop" alt="Case study graph" width="800" height="400" />
         <p><em>Graph showing spam score reduction trends (Source: Backlinkoo)</em></p>
     </div>
     

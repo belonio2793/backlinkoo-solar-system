@@ -27,7 +27,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>Backlinks enhance your site's authority, but Core Web Vitals ensure retention and conversions. At Backlinkoo, we emphasize integrating these for holistic SEO strategies.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Core Web Vitals and backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="Core Web Vitals and backlinks infographic" width="800" height="400" />
         <p><em>Infographic illustrating the relationship between Core Web Vitals and backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -124,7 +124,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>At Backlinkoo, we recommend integrating <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> for efficient link building while monitoring Core Web Vitals.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for Core Web Vitals and backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Tools for Core Web Vitals and backlinks" width="800" height="400" />
         <p><em>Overview of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     

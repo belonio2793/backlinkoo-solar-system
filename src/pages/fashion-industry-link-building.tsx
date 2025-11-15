@@ -13,7 +13,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <p>Why does it matter? According to a study by Ahrefs, pages with more backlinks tend to rank higher in search results. For fashion brands, this means increased visibility for seasonal collections, blog posts on style tips, or e-commerce pages. High domain authority sites linking to you can enhance your site's trustworthiness, leading to better SEO performance. In fact, Moz reports that backlinks are one of the top ranking factors, making <strong>fashion industry link building</strong> essential for long-term success.</p>
     <p>Imagine a fashion blog linking to your online store's latest handbag collection—this not only drives referral traffic but also improves your site's dofollow links profile. Without a solid link building strategy, even the most stunning fashion content might get lost in the digital noise.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="fashion industry link building infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="fashion industry link building infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of link building on fashion SEO (Source: Backlinkoo)</em></p>
     </div>
 
@@ -92,7 +92,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend integrating <Link to="/senuke">SENUKE for automation</Link> with <Link to="/xrumer">XRumer for posting</Link> to supercharge your <strong>fashion industry link building</strong> without manual hassle.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for fashion link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="tools for fashion link building" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -108,7 +108,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <h3>Case Study 3: Fashion Blogger Network</h3>
     <p>A network of bloggers implemented broken link strategies, earning 75 links from authoritative sites. Domain authority improved by 30 points, and monthly visitors grew from 10,000 to 50,000. Backlinkoo's expertise ensured safe practices, avoiding penalties.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graph for fashion link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="case study graph for fashion link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
     </div>
 

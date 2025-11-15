@@ -26,7 +26,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>Local SEO isn't just about Google My Business listings or citations; backlinks amplify your online presence. They improve your site's domain authority, increase referral traffic, and enhance brand visibility. For example, businesses with robust local backlink profiles often see a 15-25% uplift in organic search traffic, as per Ahrefs data. In essence, investing in <strong>backlinks for local SEO</strong> is investing in sustainable growth.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlinks for local SEO infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="backlinks for local SEO infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of backlinks on local SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -140,7 +140,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   <p>Integrating these tools can supercharge your efforts. For personalized recommendations, contact Backlinkoo today.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlinks in local SEO" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Tools for backlinks in local SEO" width="800" height="400" />
     <p><em>Visual comparison of SEO tools for backlink management (Source: Backlinkoo)</em></p>
   </div>
   
@@ -228,7 +228,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   </ul>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="E-E-A-T in local SEO" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="E-E-A-T in local SEO" width="800" height="400" />
     <p><em>Infographic on E-E-A-T signals for SEO success (Source: Backlinkoo)</em></p>
   </div>
   

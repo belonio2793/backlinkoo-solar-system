@@ -15,7 +15,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>Link building has come a long way since the early days of SEO. Initially, quantity over quality ruled, leading to penalties from updates like Google Penguin. Today, strategies like the <strong>broken link building method</strong> emphasize relevance and authority. LSI terms such as "dofollow links" and "domain authority" highlight the focus on quality signals that search engines prioritize.</p>
   <p>Statistics from Moz show that pages with more high-quality backlinks receive 3-5 times more organic traffic. By mastering the <strong>broken link building method</strong>, you can tap into this potential ethically.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="broken link building method infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1611632622527-92c92d00dc8f?w=800&h=400&fit=crop" alt="broken link building method infographic" width="800" height="400" />
     <p><em>Infographic illustrating the steps of the broken link building method (Source: Backlinkoo)</em></p>
   </div>
   
@@ -93,7 +93,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   </table>
   <p>Backlinkoo recommends starting with free tools and scaling up with <Link to="/senuke">SENUKE</Link> for automation to make the <strong>broken link building method</strong> more efficient.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for broken link building" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="tools for broken link building" width="800" height="400" />
     <p><em>Overview of SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -107,7 +107,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>Backlinkoo helped a client with automated <strong>broken link building method</strong> using <Link to="/senuke">SENUKE</Link>. Outcome: 100+ links from DA 50+ sites, leading to a 200% increase in search visibility.</p>
   <p>These cases demonstrate the power of the method. For similar results, explore Backlinkoo's tailored services.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graph" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="case study graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from broken link building (Source: Backlinkoo)</em></p>
   </div>
   <p>Learn more from <a href="https://searchengineland.com/guide/what-is-link-building" target="_blank" rel="noopener noreferrer">Search Engine Land's Link Building Guide</a>.</p>
@@ -140,7 +140,7 @@ const BrokenLinkBuildingMethod: React.FC = () => {
   <p>In summary, the <strong>broken link building method</strong> is a cornerstone of effective link building, offering sustainable ways to improve domain authority and traffic. Backed by stats from Moz (e.g., backlinks correlate with 28% of ranking factors) and Ahrefs (sites with more links rank higher), this approach demonstrates expertise in SEO. As an authoritative voice from Backlinkoo, I recommend integrating it with our services for optimal results. Contact us today to supercharge your strategy.</p>
   <p>For further reading: <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko's Guide</a>, <a href="https://semrush.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">SEMrush Blog</a>, <a href="https://neilpatel.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Neil Patel's Tips</a>, <a href="https://searchenginejournal.com/broken-link-building/ target="_blank" rel="noopener noreferrer">Search Engine Journal</a>, and <a href="https://yoast.com/broken-link-building/" target="_blank" rel="noopener noreferrer">Yoast SEO</a>.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="final infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="final infographic" width="800" height="400" />
     <p><em>Summary infographic of broken link building benefits (Source: Backlinkoo)</em></p>
   </div>
   <style>

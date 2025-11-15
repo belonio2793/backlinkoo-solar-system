@@ -24,7 +24,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>In 2023, Google's John Mueller emphasized the importance of natural link profiles, warning against artificial link building. This is where <strong>SEO backlink audit tools</strong> shine, helping you maintain a balanced, organic-looking profile.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="SEO backlink audit tools infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="SEO backlink audit tools infographic" width="800" height="400" />
         <p><em>Infographic showing key metrics in a backlink audit (Source: Backlinkoo)</em></p>
     </div>
     
@@ -124,7 +124,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>Outbound link: For in-depth reviews, check <a href="https://ahrefs.com/blog/backlink-audit-tools" target="_blank" rel="noopener noreferrer">Ahrefs' own guide</a>.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Comparison chart of SEO backlink audit tools" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Comparison chart of SEO backlink audit tools" width="800" height="400" />
         <p><em>Visual comparison of top tools (Source: Backlinkoo)</em></p>
     </div>
     

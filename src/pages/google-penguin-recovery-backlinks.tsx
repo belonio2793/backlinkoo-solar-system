@@ -18,7 +18,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>LSI terms like "link building strategies" and "backlink quality" are crucial here. Google values relevance and trustworthiness, so prioritizing these in your recovery plan is key.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the steps for Google Penguin recovery (Source: Backlinkoo)</em></p>
     </div>
     

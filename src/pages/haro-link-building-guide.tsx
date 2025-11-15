@@ -11,7 +11,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <p>Why does HARO matter? In the world of SEO, backlinks are the backbone of search engine rankings. According to a study by Ahrefs, sites with higher domain authority tend to rank better, and HARO provides an organic way to earn these links without resorting to spammy tactics. Unlike paid links, HARO-earned backlinks are seen as natural by Google, aligning with their guidelines on <a href="https://developers.google.com/search/docs/essentials" target="_blank" rel="noopener noreferrer">Google Search Central</a>. This makes HARO a cornerstone of any effective link building strategy.</p>
   <p>Imagine getting a dofollow link from outlets like Forbes or The New York Times – that's the power of HARO. It not only boosts your SEO but also builds brand credibility. In fact, statistics from Moz show that sites with diverse backlink profiles see up to 20% better organic traffic. By following this <strong>HARO link building guide</strong>, you can tap into this potential and avoid penalties from unnatural link schemes.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="HARO link building guide infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="HARO link building guide infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the HARO process for link building (Source: Backlinkoo)</em></p>
   </div>
   <p>At Backlinkoo.com, we've helped countless clients leverage HARO to skyrocket their domain authority. If you're ready to integrate HARO into your link building arsenal, keep reading.</p>
@@ -84,7 +84,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   </table>
   <p>For more tools, visit <a href="https://moz.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Moz's Link Building Tools</a>.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for HARO link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Tools for HARO link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to HARO tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -100,7 +100,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
   <h3>Case Study 3: Local Business Expansion</h3>
   <p>A local gym chain used HARO for fitness tips, earning links from Healthline (DA 88). Traffic grew 28%, and they saw a 15% increase in leads. Integrating with <Link to="/senuke">SENUKE for automation</Link> scaled their efforts efficiently.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="HARO case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="HARO case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from HARO (Source: Backlinkoo)</em></p>
   </div>
 

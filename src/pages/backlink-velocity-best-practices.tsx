@@ -15,7 +15,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Domain authority, a metric popularized by Moz, heavily relies on backlink profiles. A balanced velocity helps maintain and improve this score. For instance, if you're building dofollow links too rapidly, it might look suspicious. Instead, aim for a velocity that aligns with your site's age and niche competitiveness.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink velocity best practices infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="backlink velocity best practices infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic illustrating natural vs. unnatural backlink velocity patterns (Source: Backlinkoo)</em></p>
     </div>
     
@@ -124,7 +124,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> in forums, building 25 diverse backlinks monthly. This led to a 40% increase in local search visibility and doubled leads.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph on backlink velocity" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1668575007921-da64e5eff1fa?w=800&h=400&fit=crop" alt="case study graph on backlink velocity" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graph showing traffic growth from optimized backlink velocity (Source: Backlinkoo)</em></p>
     </div>
     
@@ -162,7 +162,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     <p>Yes, but ethically. Tools like <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link> can help when used responsibly.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on backlink strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="FAQ infographic on backlink strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic answering common backlink velocity questions (Source: Backlinkoo)</em></p>
     </div>
     

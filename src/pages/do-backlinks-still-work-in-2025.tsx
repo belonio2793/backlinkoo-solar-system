@@ -135,7 +135,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>Backlinkoo integrates with these tools for seamless link building. Try <Link to="/senuke">SENUKE for automation</Link> to see results fast.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual guide to top backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -195,7 +195,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>At Backlinkoo, our expert team helps you build authoritative, sustainable backlinks. Contact us today to elevate your SEO game.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Final thoughts on backlinks in 2025 (Source: Backlinkoo)</em></p>
     </div>
     

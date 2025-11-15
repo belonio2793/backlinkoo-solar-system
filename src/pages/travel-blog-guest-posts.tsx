@@ -25,7 +25,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>At Backlinkoo, we've seen clients increase their organic traffic by up to 150% through targeted travel blog guest posts. It's not just about quantity; it's about quality and relevance.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="travel blog guest posts infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="travel blog guest posts infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the benefits of travel blog guest posts for SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -160,7 +160,7 @@ const TravelBlogGuestPosts: React.FC = () => {
   <p>We offer end-to-end services, from content creation to secure placements on high-DA sites.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="travel blog guest posts FAQ illustration" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="travel blog guest posts FAQ illustration" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Illustration of common FAQs on travel blog guest posts (Source: Backlinkoo)</em></p>
   </div>
   

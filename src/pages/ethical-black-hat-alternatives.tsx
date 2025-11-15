@@ -24,7 +24,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>By adopting these alternatives, you protect your site while achieving scalable results. At Backlinkoo, we've helped countless clients recover from black hat penalties by shifting to ethical methods, resulting in up to 150% traffic increases within six months.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="ethical black hat alternatives infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="ethical black hat alternatives infographic" width="800" height="400" />
     <p><em>Infographic showing the risks of black hat vs. benefits of ethical alternatives (Source: Backlinkoo)</em></p>
   </div>
   
@@ -112,7 +112,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>At Backlinkoo, we recommend starting with <Link to="/senuke">SENUKE for automation</Link> to streamline your ethical campaigns.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for ethical SEO" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="tools for ethical SEO" width="800" height="400" />
     <p><em>Comparison of SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   

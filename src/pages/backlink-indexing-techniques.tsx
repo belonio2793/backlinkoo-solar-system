@@ -121,7 +121,7 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>A SaaS provider combined organic strategies with tools like <Link to="/xrumer">XRumer for posting</Link>. Outcomes: 95% indexing rate, domain authority increased by 30 points, and conversions up 200%. This demonstrates how backlink indexing techniques can drive business results.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Case study graphs for backlink indexing" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1493723903624-896b32b0a686?w=800&h=400&fit=crop" alt="Case study graphs for backlink indexing" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs showing traffic growth from backlink indexing techniques (Source: Backlinkoo)</em></p>
   </div>
   

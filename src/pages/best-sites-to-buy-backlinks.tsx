@@ -26,7 +26,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   <p>Dofollow links are the gold standard, allowing search engines to follow them and pass authority. Nofollow links, often used in comments or sponsored content, don't pass equity but can still drive traffic. When exploring the <strong>best sites to buy backlinks</strong>, prioritize platforms offering dofollow options from authoritative domains.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="best sites to buy backlinks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="best sites to buy backlinks infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -158,7 +158,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   <p>A local service provider bought niche-relevant backlinks. Traffic grew by 50%, with a 25% increase in leads. Their DA climbed to 48, proving the value of quality over quantity.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for backlink success" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="case study graph for backlink success" width="800" height="400" />
     <p><em>Graph showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   

@@ -24,7 +24,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Moreover, referral traffic from backlinks can improve user metrics, such as time on site and pages per session, which indirectly boost SEO. At Backlinkoo.com, we've seen clients double their referral traffic through strategic link building, leading to a 30% increase in overall site visits.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="referral traffic from backlinks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="referral traffic from backlinks infographic" width="800" height="400" />
     <p><em>Infographic showing the flow of referral traffic from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -91,7 +91,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>Use a mix of dofollow and nofollow links for balance. A <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs article</a> advises auditing purchased links regularly. By following these tips, buying backlinks can safely enhance your referral traffic from backlinks.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -161,7 +161,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>A SaaS provider used skyscraper content and paid links safely. Backlinks increased by 200, leading to 300% more referral traffic (from 1,500 to 6,000 visitors). Conversion rates doubled, backed by data from Google Analytics. Backlinkoo.com's services were pivotal in this success.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph of traffic growth" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="Case study graph of traffic growth" width="800" height="400" />
     <p><em>Graph showing traffic growth in case studies (Source: Backlinkoo)</em></p>
   </div>
   

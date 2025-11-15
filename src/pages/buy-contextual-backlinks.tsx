@@ -137,7 +137,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>A local gym acquired 20 contextual backlinks from health and fitness sites. Traffic doubled, and local search rankings improved by 40%. Fake stats: ROI of 5:1 on investment.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for contextual backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="case study graph for contextual backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -175,7 +175,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>We offer customized packages with high-quality, niche-relevant links to boost your rankings safely.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="FAQ infographic on backlinks" width="800" height="400" />
         <p><em>Visual FAQ on contextual backlinks (Source: Backlinkoo)</em></p>
     </div>
     

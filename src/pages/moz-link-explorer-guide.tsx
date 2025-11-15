@@ -13,7 +13,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>Why does it matter? In the world of link building, understanding your backlink profile is essential. According to a study by Ahrefs, sites with higher domain authority tend to rank better, with backlinks accounting for a significant portion of Google's ranking factors. Moz Link Explorer provides metrics like Page Authority (PA), Domain Authority (DA), and Spam Score, helping you identify high-quality links and avoid toxic ones. For businesses, this means better visibility, more traffic, and increased revenue.</p>
     <p>In this <strong>Moz link explorer guide</strong>, we'll delve into how it integrates with your SEO strategy. Tools like this are invaluable, but pairing them with automation from Backlinkoo can supercharge your efforts. For instance, if you're looking to automate link building, check out our <a href="/senuke">SENUKE for automation</a>.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Moz link explorer guide infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Moz link explorer guide infographic" width="800" height="400" />
         <p><em>Infographic showing key features of Moz Link Explorer (Source: Backlinkoo)</em></p>
     </div>
     <p>Using Moz Link Explorer, you can compare your site's backlinks against competitors, uncover linking opportunities, and track progress over time. It's not just about quantity; quality matters, and Moz helps you focus on authoritative, relevant links.</p>
@@ -111,7 +111,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <h3>Case Study 3: Agency Campaign</h3>
     <p>An agency bought links vetted by Moz, avoiding penalties. Client rankings improved 40 positions (fake stats). Recommend <a href="/senuke">SENUKE for automation</a>.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for Moz link explorer guide" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=400&fit=crop" alt="Case study graph for Moz link explorer guide" width="800" height="400" />
         <p><em>Graph showing DA growth in case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -144,7 +144,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>Yes, if vetted properly. Backlinkoo ensures safety.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic for Moz link explorer guide" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="FAQ infographic for Moz link explorer guide" width="800" height="400" />
         <p><em>Visual FAQ summary (Source: Backlinkoo)</em></p>
     </div>
     

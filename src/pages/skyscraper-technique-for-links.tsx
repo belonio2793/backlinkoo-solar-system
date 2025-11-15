@@ -28,7 +28,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>Moreover, with algorithm updates like Google's Helpful Content Update, creating value-driven content via the skyscraper method ensures your site remains relevant and trustworthy.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="skyscraper technique for links infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="skyscraper technique for links infographic" width="800" height="400" />
     <p><em>Infographic illustrating the steps of the skyscraper technique for links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>A SaaS firm applied the technique to "project management tools." Using tools like <Link to="/senuke">SENUKE for automation</Link>, they acquired 80 high-quality links. Revenue from organic leads grew by 200% over six months.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for skyscraper technique" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Case study graph for skyscraper technique" width="800" height="400" />
     <p><em>Graph showing traffic growth from skyscraper technique (Source: Backlinkoo)</em></p>
   </div>
   

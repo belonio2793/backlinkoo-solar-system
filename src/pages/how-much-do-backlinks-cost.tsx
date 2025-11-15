@@ -19,7 +19,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>Domain authority (DA), a metric developed by Moz, measures a site's potential to rank. Sites with high DA backlinks are more valuable, often commanding higher prices in the link building marketplace.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="how much do backlinks cost infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1611632622527-92c92d00dc8f?w=800&h=400&fit=crop" alt="how much do backlinks cost infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing backlink value factors (Source: Backlinkoo)</em></p>
   </div>
   
@@ -139,7 +139,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>Using Backlinkoo services, a client spent $5,000 on premium dofollow links from DA 50+ sites. Results: 60% increase in search visibility and a ROI of 300% in sales growth.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="backlink case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="backlink case study chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -177,7 +177,7 @@ const HowMuchDoBacklinksCost: React.FC = () => {
   <p>It can be if done through reputable services like Backlinkoo, following best practices.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="backlink pricing tiers" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink pricing tiers" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Pricing tiers for different backlink types (Source: Backlinkoo)</em></p>
   </div>
   

@@ -20,7 +20,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>For instance, if you're writing about "best gaming keyboards," a backlink from a tech review site enhances relevance. Without a strong backlink profile, even stellar content might languish in search obscurity.</p>
 
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="gaming niche backlink strategies infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="gaming niche backlink strategies infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on gaming site rankings (Source: Backlinkoo)</em></p>
     </div>
 
@@ -104,7 +104,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>For automation, consider <Link to="/senuke">SENUKE for automation</Link> to streamline your campaigns, or <Link to="/xrumer">XRumer for posting</Link> to gaming forums efficiently.</p>
 
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for gaming backlink strategies" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="tools for gaming backlink strategies" width="800" height="400" />
         <p><em>Visual comparison of backlink tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -122,7 +122,7 @@ const GamingNicheBacklinkStrategies: React.FC = () => {
     <p>By leveraging <Link to="/senuke">SENUKE for automation</Link> and resource page outreach, they gained 100 high-quality links. DA improved from 30 to 55, leading to a 150% traffic boost and higher conversions.</p>
 
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for gaming backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="case study graph for gaming backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
 

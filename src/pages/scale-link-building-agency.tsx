@@ -97,7 +97,7 @@ const ScaleLinkBuildingAgency: React.FC = () => {
     <h3>Case Study 3: Local Business Expansion</h3>
     <p>A local service provider used our services to build 200 niche-relevant links. Domain authority rose to 50, and local search rankings improved, driving a 300% increase in leads. This demonstrates how a scale link building agency can adapt to various business sizes.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs for scale link building agency" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1493723903624-896b32b0a686?w=800&h=400&fit=crop" alt="case study graphs for scale link building agency" width="800" height="400" />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

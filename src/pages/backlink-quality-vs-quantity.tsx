@@ -21,7 +21,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Focusing on quality ensures sustainable SEO growth, while chasing quantity can lead to penalties. At Backlinkoo.com, we emphasize <strong>backlink quality vs quantity</strong> to help clients build resilient link profiles that drive organic traffic.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic comparing backlink quality vs quantity (Source: Backlinkoo)</em></p>
   </div>
   
@@ -71,7 +71,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>For automation in safe buying, consider <Link to="/senuke">SENUKE for automation</Link>, which helps manage campaigns efficiently.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart on buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   

@@ -97,7 +97,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>For in-depth tool reviews, visit <a href="https://ahrefs.com/blog/backlink-tools" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Tools Guide</a> or <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
 
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for measuring ROI on backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Tools for measuring ROI on backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart comparing backlink tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -114,7 +114,7 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>A content site used organic strategies, acquiring 200 links over six months. With tools like Moz, they measured a 50% traffic increase, translating to $10,000 in ad revenue from a $2,000 investment. ROI: 400%.</p>
 
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Case study graph for ROI on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="Case study graph for ROI on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing ROI growth in case studies (Source: Backlinkoo)</em></p>
   </div>
 

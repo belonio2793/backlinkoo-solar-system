@@ -25,7 +25,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>At Backlinkoo, we use tools like SEMrush to inform our backlink strategies, ensuring our clients receive links that are not only numerous but also relevant and authoritative.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
         <p><em>SEMrush backlink analysis dashboard showing key metrics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -102,7 +102,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: For more on tools, check <a href="https://ahrefs.com/blog/backlink-tools/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Comparison chart of backlink tools" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Comparison chart of backlink tools" width="800" height="400" />
         <p><em>Visual comparison of top backlink tools including SEMrush (Source: Backlinkoo)</em></p>
     </div>
     

@@ -24,7 +24,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>If you're aiming to purchase dofollow backlinks, it's crucial to focus on quality over quantity. Low-quality links can harm your site, but high-quality ones from authoritative domains can skyrocket your domain authority. At Backlinkoo, we ensure every link we provide is from trusted sources, helping you build a robust SEO foundation.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="purchase dofollow backlinks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="purchase dofollow backlinks infographic" width="800" height="400" />
     <p><em>Infographic explaining the difference between dofollow and nofollow links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -119,7 +119,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>These tools can enhance your ability to purchase dofollow backlinks effectively. Backlinkoo integrates with many of them to provide seamless service.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="tools for link building comparison" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for link building comparison" width="800" height="400" />
     <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -178,7 +178,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   <p>Inspect the HTML; absence of rel="nofollow" indicates dofollow. Tools like Ahrefs can help.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="FAQ on backlinks" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ on backlinks" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   

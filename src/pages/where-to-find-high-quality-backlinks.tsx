@@ -13,7 +13,7 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
   <p>Why do they matter? Backlinks are a cornerstone of Google's algorithm, contributing significantly to your site's ranking factors. According to a study by Ahrefs, pages with more backlinks tend to rank higher in search results. In fact, the top result on Google has an average of 3.8 times more backlinks than positions 2-10. Without a solid link building strategy, your content might remain buried in the search engine results pages (SERPs), regardless of its quality.</p>
   <p>Moreover, high quality backlinks drive referral traffic, enhance brand credibility, and can even lead to partnerships. However, focusing on quantity over quality can result in penalties from Google, such as those outlined in their <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener noreferrer">Spam Policies</a>. That's why knowing <strong>where to find high quality backlinks</strong> ethically is key to long-term success.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="where to find high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="where to find high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic: The Impact of High Quality Backlinks on SEO (Source: Backlinkoo)</em></p>
   </div>
 
@@ -98,7 +98,7 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
   </table>
   <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> can save time while ensuring you target high quality backlinks effectively.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=400&fit=crop" alt="Tools for link building comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Image: Top SEO Tools for Backlinks (Source: Backlinkoo)</em></p>
   </div>
 
@@ -114,7 +114,7 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
   <h3>Case Study 3: Agency Campaign</h3>
   <p>An SEO agency partnered with Backlinkoo to buy safe, high quality backlinks for a client. They gained 100 links from niche-relevant sites, resulting in a 180% increase in leads and a domain authority jump from 40 to 65.</p>
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Case study graph on backlink success" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph on backlink success" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph: Traffic Growth from Backlinks (Source: Backlinkoo)</em></p>
   </div>
 

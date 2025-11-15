@@ -17,7 +17,7 @@ const AiPoweredLinkBuilding: React.FC = () => {
     <p>In 2023, Google's algorithms, such as the Helpful Content Update, emphasize quality over quantity. AI helps ensure that your link building efforts align with these standards by focusing on natural, high-value links. It matters because it democratizes SEO—small businesses can now compete with giants by using intelligent tools to build robust link profiles efficiently.</p>
     <p>Statistics from <a href="https://moz.com/blog/ai-seo" target="_blank" rel="noopener noreferrer">Moz</a> show that AI-driven SEO strategies can improve organic traffic by up to 40%. At Backlinkoo, our AI-powered services have helped clients increase their domain authority by an average of 25 points within six months.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="AI-powered link building infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1493723903624-896b32b0a686?w=800&h=400&fit=crop" alt="AI-powered link building infographic" width="800" height="400" />
         <p><em>Infographic showing the growth of AI in link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -100,7 +100,7 @@ const AiPoweredLinkBuilding: React.FC = () => {
     <h3>Case Study 3: Agency Scaling</h3>
     <p>An SEO agency implemented AI-powered strategies via <Link to="/senuke">SENUKE for automation</Link>, acquiring links for 50 clients. Average domain authority increase: 20 points, with 120% traffic growth (hypothetical figures).</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for AI link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Case study graph for AI link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from AI-powered link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -121,7 +121,7 @@ const AiPoweredLinkBuilding: React.FC = () => {
     
     <p>In conclusion, <strong>AI-powered link building</strong> is transforming SEO. Backed by stats from <a href="https://backlinko.com/seo-stats" target="_blank" rel="noopener noreferrer">Backlinko</a> showing backlinks as a top ranking factor, and expert insights from industry leaders, it's clear that adopting AI is essential. At Backlinkoo, our services provide the expertise and tools you need—contact us today to elevate your strategy.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1677442d019cecf33b13e551aa1f9a2736940338?w=800&h=400&fit=crop" alt="Expert tips on AI link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Expert tips on AI link building" width="800" height="400" />
         <p><em>Visual guide to AI tools (Source: Backlinkoo)</em></p>
     </div>
     

@@ -78,7 +78,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>Monitor your backlink profile with tools from <a href="https://ahrefs.com/backlink-checker" target="_blank" rel="noopener noreferrer">Ahrefs</a> to avoid toxic links. Focus on diversity—mix paid with organic for a natural profile.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart illustrating pros and cons of buying influencer outreach for backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>A wellness site bought targeted influencer collaborations safely. Securing 20 links from health influencers via paid posts, they saw traffic surge by 180% and improved rankings for key terms like "natural remedies." Using <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer for posting</Link> helped maintain engagement post-campaign.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from influencer outreach (Source: Backlinkoo)</em></p>
   </div>
   

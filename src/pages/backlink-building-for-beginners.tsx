@@ -15,7 +15,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <h3>Types of Backlinks: Dofollow vs. Nofollow</h3>
     <p>Dofollow links pass on "link juice," helping to improve your domain authority, while nofollow links don't but still drive traffic. Beginners should aim for a mix, focusing on high-quality dofollow links from reputable sites.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink building for beginners infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="backlink building for beginners infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic explaining types of backlinks (Source: Backlinkoo)</em></p>
     </div>
     <p>Building backlinks isn't just about quantity; quality matters. A single backlink from a high-domain-authority site like The New York Times can be worth more than dozens from low-quality directories.</p>

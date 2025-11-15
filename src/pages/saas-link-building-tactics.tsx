@@ -11,7 +11,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>In fact, Moz reports that backlinks are one of the top three ranking factors in Google's algorithm (<a href="https://moz.com/blog/google-ranking-factors" target="_blank" rel="noopener noreferrer">Moz Ranking Factors</a>). Without them, your SaaS product might languish in search obscurity, missing out on potential revenue. At Backlinkoo, we've seen clients double their organic traffic in months by prioritizing these tactics.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="SaaS link building tactics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=400&fit=crop" alt="SaaS link building tactics infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing key SaaS link building tactics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -100,7 +100,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>At Backlinkoo, we integrate tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> to make <strong>SaaS link building tactics</strong> more efficient.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for SaaS link building tactics" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Tools for SaaS link building tactics" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -117,7 +117,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   <p>Focusing on buying safe links and resource pages, they gained 100 high-quality backlinks. Rankings for key terms improved by 50 positions, leading to a 150% traffic boost and 40% more sign-ups. Backlinkoo's expertise ensured compliance and results.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graphs for SaaS link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Case study graphs for SaaS link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs from SaaS case studies (Source: Backlinkoo)</em></p>
   </div>
   

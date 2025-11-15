@@ -117,7 +117,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>These tools can supercharge your <strong>podcast guesting for links</strong> strategy. At Backlinkoo, we recommend integrating them for optimal results.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for podcast guesting for links" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" alt="tools for podcast guesting for links" width="800" height="400" />
     <p><em>Image: Top Tools for Link Building via Podcasts (Source: Backlinkoo)</em></p>
   </div>
   
@@ -170,7 +170,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>High-quality backlinks from podcasts signal trustworthiness to Google, gradually increasing your site's authority (<a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz DA Guide</a>).</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="faq on podcast guesting for links" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="faq on podcast guesting for links" width="800" height="400" />
     <p><em>Infographic: Common FAQs Answered (Source: Backlinkoo)</em></p>
   </div>
   

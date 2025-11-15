@@ -15,7 +15,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>Key benefits include improved search rankings, increased brand exposure, and networking opportunities within your industry. However, it's not without challenges, such as finding suitable sites and ensuring link relevance.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="guest post link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="guest post link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the benefits of guest post link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -101,7 +101,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>These tools can supercharge your guest post link building strategy. At Backlinkoo.com, we integrate SENUKE and XRumer for optimal results.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for guest post link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1668575007921-da64e5eff1fa?w=800&h=400&fit=crop" alt="tools for guest post link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -160,7 +160,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>For more FAQs, visit our blog or contact Backlinkoo.com.</p>
   
   <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="common mistakes in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="common mistakes in link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic on avoiding link building errors (Source: Backlinkoo)</em></p>
   </div>
   

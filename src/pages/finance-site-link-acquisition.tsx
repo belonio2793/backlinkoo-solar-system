@@ -14,7 +14,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>LSI terms like link building, dofollow links, and domain authority play a crucial role here. Dofollow links pass SEO value, while a strong DA (measured by tools like Moz) indicates your site's overall strength. Without a solid strategy, your finance site might languish in obscurity, missing out on potential clients and revenue.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="finance site link acquisition infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1668575007921-da64e5eff1fa?w=800&h=400&fit=crop" alt="finance site link acquisition infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on finance site rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -107,7 +107,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <p>At Backlinkoo, we integrate tools like SENUKE and XRumer into our services to make <strong>finance site link acquisition</strong> effortless and effective.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for finance site link acquisition" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=400&fit=crop" alt="tools for finance site link acquisition" width="800" height="400" />
         <p><em>Visual guide to top link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -126,7 +126,7 @@ const FinanceSiteLinkAcquisition: React.FC = () => {
     <a href="https://ahrefs.com/blog/finance-site-link-acquisition-case-studies" target="_blank" rel="noopener noreferrer">Ahrefs Case Studies on Link Building</a>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs for finance site link acquisition" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graphs for finance site link acquisition" width="800" height="400" />
         <p><em>Graphs depicting traffic growth from link acquisition (Source: Backlinkoo)</em></p>
     </div>
     

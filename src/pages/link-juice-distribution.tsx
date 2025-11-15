@@ -17,7 +17,7 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>Proper link juice distribution can enhance your site's crawlability and indexing. Google's algorithms, as outlined in their <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Search Central guidelines</a>, reward sites with natural, high-quality link profiles. This leads to better organic search positions, increased traffic, and higher conversion rates.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="link juice distribution infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="link juice distribution infographic" width="800" height="400" />
         <p><em>Infographic illustrating how link juice flows between pages (Source: Backlinkoo)</em></p>
     </div>
     
@@ -84,7 +84,7 @@ const LinkJuiceDistribution: React.FC = () => {
     </table>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for link juice optimization" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="tools for link juice optimization" width="800" height="400" />
         <p><em>Comparison of SEO tools for link management (Source: Backlinkoo)</em></p>
     </div>
     
@@ -98,7 +98,7 @@ const LinkJuiceDistribution: React.FC = () => {
     <p>A local service provider used <Link to="/senuke">SENUKE for automation</Link> to build local citations and directory links. Link juice from these sources boosted local SEO, resulting in a 90% increase in leads and top rankings for "service in [city]". Fake stats: From 10 monthly leads to 100.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph on SEO growth" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="case study graph on SEO growth" width="800" height="400" />
         <p><em>Graph showing traffic growth from link juice strategies (Source: Backlinkoo)</em></p>
     </div>
     

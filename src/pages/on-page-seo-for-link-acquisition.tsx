@@ -13,7 +13,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <p>Why does it matter? According to a study by Ahrefs, pages with strong on-page optimization receive 3.8 times more backlinks than those without. In a digital landscape where domain authority is king, attracting dofollow links through compelling on-page elements can skyrocket your rankings. Backlinkoo.com specializes in tools that complement these efforts, helping you acquire links efficiently.</p>
     <p>At its core, <strong>on-page SEO for link acquisition</strong> involves creating link-worthy content, optimizing meta tags, and ensuring fast load times—all of which signal to other webmasters that your site is a valuable resource. This not only improves user engagement but also positions your site as an authority in your niche.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="on-page SEO for link acquisition infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1493723903624-896b32b0a686?w=800&h=400&fit=crop" alt="on-page SEO for link acquisition infographic" width="800" height="400" />
         <p><em>Infographic illustrating key elements of on-page SEO for link acquisition (Source: Backlinkoo)</em></p>
     </div>
     <p>By prioritizing <strong>on-page SEO for link acquisition</strong>, you're laying the foundation for sustainable link building. It's not just about quantity; it's about quality links that enhance your site's trustworthiness.</p>
@@ -96,7 +96,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <p>Integrate these with Backlinkoo services for optimal results.</p>
     
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for on-page SEO and link acquisition" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Tools for on-page SEO and link acquisition" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const OnPageSeoForLinkAcquisition: React.FC = () => {
     <h3>Case Study 3: SaaS Company Growth</h3>
     <p>By buying safe links and optimizing landing pages, this company saw a 300% increase in referral traffic. Domain authority rose to 60, with organic acquisitions making up 70% of new links.</p>
     <div class="media">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graphs for link acquisition" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Case study graphs for link acquisition" width="800" height="400" />
         <p><em>Graphs showing growth metrics (Source: Backlinkoo)</em></p>
     </div>
     
