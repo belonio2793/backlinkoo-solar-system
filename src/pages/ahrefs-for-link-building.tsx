@@ -153,7 +153,7 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>Backlinkoo uses Ahrefs data to inform our services, like automated outreach with SENUKE, ensuring high-quality link building.</p>
 
   <div class="media">
-    <Image src="/media/ahrefs-for-link-building-img3.jpg" alt="FAQ infographic on Ahrefs link building" width={800} height={400} />
+    <img src="/media/ahrefs-for-link-building-img3.jpg" alt="FAQ infographic on Ahrefs link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic summarizing key FAQs for Ahrefs in link building (Source: Backlinkoo)</em></p>
   </div>
 
