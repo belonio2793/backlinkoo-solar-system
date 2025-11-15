@@ -17,7 +17,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>LSI terms like "dofollow links" and "domain authority" are crucial here. Dofollow links pass link juice, directly impacting your site's authority, while tools like XRumer help in acquiring them at scale.</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img1.jpg" alt="XRumer backlink automation infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="XRumer backlink automation infographic" width="800" height="400" />
         <p><em>Infographic showing the workflow of XRumer backlink automation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -100,7 +100,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>An SEO agency combined XRumer with SENUKE, resulting in client domain authority jumps of 20-30 points and 300% ROI in six months (fake stats).</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img2.jpg" alt="Case study graph for XRumer success" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for XRumer success" width="800" height="400" />
         <p><em>Graph showing traffic growth from XRumer backlink automation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -130,7 +130,7 @@ const XrumerBacklinkAutomation: React.FC = () => {
     <p>Terms like link building, dofollow links, and domain authority enhance relevance.</p>
     
     <div class="media">
-        <img src="/media/xrumer-backlink-automation-img3.jpg" alt="FAQ infographic on XRumer" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on XRumer" width="800" height="400" />
         <p><em>Infographic answering common XRumer questions (Source: Backlinkoo)</em></p>
     </div>
     

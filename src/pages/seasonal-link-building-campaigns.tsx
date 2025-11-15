@@ -15,7 +15,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <h3>The Impact on Domain Authority</h3>
     <p>Domain authority (DA), a metric by Moz, measures a site's potential to rank. Seasonal link building campaigns can elevate DA by attracting links from high-DA sites. For example, a Christmas-themed infographic might earn links from retail blogs with DA scores above 70, directly boosting your own metrics.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img1.jpg" alt="seasonal link building campaigns infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="seasonal link building campaigns infographic" width="800" height="400" />
         <p><em>Infographic showing the growth in backlinks during seasonal peaks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -108,7 +108,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <h3>Case Study 3: Tech Brand Back-to-School Campaign</h3>
     <p>Focusing on educational tech, this client used paid links safely combined with organic efforts. They acquired 100 links during August, leading to a 28% ranking improvement for key terms. Backlinkoo's expertise ensured no penalties, with a 45% ROI on the campaign.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img2.jpg" alt="case study graph for seasonal link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graph for seasonal link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from a seasonal campaign (Source: Backlinkoo)</em></p>
     </div>
     
@@ -140,7 +140,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <p>Seasonal link building campaigns are a game-changer for boosting domain authority and traffic. As per Moz's 2023 report, sites with diverse backlink strategies see 2x better rankings. At Backlinkoo, our expert team draws on years of experience to deliver authoritative, trustworthy services. Whether through organic tactics or safe paid options, we're here to help. Contact us today to launch your next campaign.</p>
     <p>Stats source: <a href="https://moz.com/blog/state-of-link-building" target="_blank" rel="noopener noreferrer">Moz State of Link Building</a>; <a href="https://ahrefs.com/blog/link-building-statistics" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Stats</a>; <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     <div class="media">
-        <img src="/media/seasonal-link-building-campaigns-img3.jpg" alt="expert tips for link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="expert tips for link building" width="800" height="400" />
         <p><em>Expert tips infographic (Source: Backlinkoo)</em></p>
     </div>
     

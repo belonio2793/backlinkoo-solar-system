@@ -18,7 +18,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>At Backlinkoo, we believe in a balanced approach. Our services help you acquire premium backlinks that complement your content marketing efforts, driving sustainable growth.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img1.jpg" alt="backlinks vs content marketing infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlinks vs content marketing infographic" width="800" height="400" />
         <p><em>Infographic comparing backlinks and content marketing strategies (Source: Backlinkoo)</em></p>
     </div>
 
@@ -48,7 +48,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>For efficient posting and management, integrate <Link to="/xrumer">XRumer for posting</Link> to automate forum and blog placements ethically.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart illustrating pros and cons in backlinks vs content marketing (Source: Backlinkoo)</em></p>
     </div>
 
@@ -108,7 +108,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>A SaaS company combined both, using content to attract links and buying supplementary ones from Backlinkoo. Stats: 400 backlinks, 120% traffic increase, domain authority to 60 in nine months. This hybrid won the <strong>backlinks vs content marketing</strong> debate.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing growth in case studies (Source: Backlinkoo)</em></p>
     </div>
 
@@ -130,7 +130,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>Use metrics like domain authority, organic traffic, and conversion rates via tools from Moz or Ahrefs.</p>
 
     <div class="media">
-        <img src="/media/backlinks-vs-content-marketing-img4.jpg" alt="FAQ illustration" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="FAQ illustration" width="800" height="400" />
         <p><em>Visual FAQ on backlinks vs content marketing (Source: Backlinkoo)</em></p>
     </div>
 

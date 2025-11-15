@@ -15,7 +15,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <h3>The Role of Domain Authority in Conversion Optimization</h3>
     <p>Domain authority (DA), a metric popularized by Moz, plays a crucial role. Links from sites with DA above 50 are more likely to pass "link juice" that enhances your site's trustworthiness in Google's eyes. But for conversions, it's about more than DA—it's about audience alignment. A backlink from a niche blog with engaged readers can outperform a generic high-DA link.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img1.jpg" alt="conversion-optimized backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="conversion-optimized backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of conversion-optimized backlinks on SEO and sales (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, our experts analyze your site's needs to build a portfolio of conversion-optimized backlinks that deliver real results.</p>
@@ -91,7 +91,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend starting with SENUKE and XRumer for seamless integration into your strategy.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img2.jpg" alt="tools for backlinks table visualization" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for backlinks table visualization" width="800" height="400" />
         <p><em>Visualization of backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -104,7 +104,7 @@ const ConversionOptimizedBacklinks: React.FC = () => {
     <h3>Case Study 3: Content Site Monetization</h3>
     <p>A blog focused on affiliate marketing bought safe backlinks through Backlinkoo. Result: 25% domain authority increase, 50% more referral conversions, adding \\\$30,000 in annual revenue.</p>
     <div class="media">
-        <img src="/media/conversion-optimized-backlinks-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs from case studies on backlink success (Source: Backlinkoo)</em></p>
     </div>
     

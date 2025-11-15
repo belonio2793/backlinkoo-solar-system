@@ -13,7 +13,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <p>At Backlinkoo, we've seen clients boost their organic search traffic by up to 150% through effective resource page link building. It's not just about quantity; it's about quality links that signal trustworthiness to search engines.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/resource-page-link-building-img1.jpg" alt="resource page link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="resource page link building infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the benefits of resource page link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -92,7 +92,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <p>For more on tools, check out this <a href="https://ahrefs.com/blog/link-building-tools/" target="_blank" rel="noopener noreferrer">Ahrefs guide on link building tools</a>.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/resource-page-link-building-img2.jpg" alt="tools for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to top tools in resource page link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <p>For further reading, explore <a href="https://ahrefs.com/blog/resource-page-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' resource page link building guide</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz on backlinks</a>, and <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google's link schemes</a>.</p>
   
   <div class="media" style="margin: 20px 0; text-align: center;">
-    <img src="/media/resource-page-link-building-img3.jpg" alt="conclusion infographic for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="conclusion infographic for resource page link building" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Final thoughts on mastering resource page link building (Source: Backlinkoo)</em></p>
   </div>`;
   const keywords = "resource, page, link, building";

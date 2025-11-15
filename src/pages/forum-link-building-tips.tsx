@@ -13,7 +13,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <p>Why does it matter? Backlinks are a cornerstone of SEO, signaling to search engines like Google that your content is valuable and trustworthy. According to a study by Ahrefs, sites with more backlinks tend to rank higher in search results. Forums, with their active communities, can provide contextual links that not only boost domain authority but also drive targeted traffic. However, not all forums are equal—focusing on niche-relevant ones ensures relevance and avoids penalties from search engines.</p>
     <p>Incorporating forum link building tips into your strategy can lead to improved organic search performance. For instance, dofollow links from high-authority forums pass "link juice," helping your pages climb SERPs. At Backlinkoo, we've seen clients increase their traffic by up to 40% through targeted forum strategies.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img1.jpg" alt="forum link building tips infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="forum link building tips infographic" width="800" height="400" />
         <p><em>Infographic illustrating key forum link building tips (Source: Backlinkoo)</em></p>
     </div>
     
@@ -97,7 +97,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     </table>
     <p>At Backlinkoo, we recommend integrating <Link to="/xrumer">XRumer for posting</Link> with organic strategies for optimal results.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img2.jpg" alt="tools for forum link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for forum link building" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -113,7 +113,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Case Study 3: Service-Based Business Growth</h3>
     <p>A marketing agency used <Link to="/xrumer">XRumer for posting</Link> in business forums like BlackHatWorld (ethically). They secured 100 high-authority links, boosting domain authority to 50 and conversions by 25%. Fake stats: Lead generation increased by 300 leads/quarter.</p>
     <div class="media">
-        <img src="/media/forum-link-building-tips-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs from successful case studies (Source: Backlinkoo)</em></p>
     </div>
     

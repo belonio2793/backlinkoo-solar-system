@@ -15,7 +15,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h3>Why Backlinks Matter in SEO</h3>
     <p>According to a study by <a href="https://ahrefs.com/blog/backlinks-seo/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, pages with more backlinks tend to rank higher. Backlinks signal trustworthiness and relevance, making them essential for link building strategies. However, not all backlinks are created equal—quality over quantity is the mantra in any <strong>safe backlink buying guide</strong>.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img1.jpg" alt="safe backlink buying guide infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="safe backlink buying guide infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     <p>Without strong backlinks, even the best content might languish in search results. This guide emphasizes safe practices to avoid black-hat tactics that could lead to de-indexing.</p>
@@ -98,7 +98,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h3>Case Study 3: Local Business Growth</h3>
     <p>A local service provider bought niche-specific links, leading to a 60% traffic surge. Domain authority improved by 20 points, aligning with Google's emphasis on relevant link building.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img2.jpg" alt="case study graph for safe backlink buying guide" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for safe backlink buying guide" width="800" height="400" />
         <p><em>Graph showing traffic growth from safe backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -130,7 +130,7 @@ const SafeBacklinkBuyingGuide: React.FC = () => {
     <h2>Conclusion: Building Trust with Safe Backlinks</h2>
     <p>As an expert in SEO, Backlinkoo emphasizes E-E-A-T: Experience from years of successful campaigns, Expertise in white-hat strategies, Authoritativeness backed by industry stats (e.g., Ahrefs reports 91% of content gets no traffic without backlinks), and Trustworthiness through transparent services. For personalized help, explore our offerings. Remember, this <strong>safe backlink buying guide</strong> is your roadmap to sustainable SEO success.</p>
     <div class="media">
-        <img src="/media/safe-backlink-buying-guide-img3.jpg" alt="E-E-A-T signals in safe backlink buying guide" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="E-E-A-T signals in safe backlink buying guide" width="800" height="400" />
         <p><em>Illustration of E-E-A-T principles (Source: Backlinkoo)</em></p>
     </div>
     <p>Stats from <a href="https://www.searchenginejournal.com/backlinks-importance/" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>: Quality backlinks can improve rankings by up to 20%. Partner with Backlinkoo for safe, effective link building.</p>

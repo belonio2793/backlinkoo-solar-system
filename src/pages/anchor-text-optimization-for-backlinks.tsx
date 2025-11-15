@@ -16,7 +16,7 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
     <p>In link building, <strong>anchor text optimization for backlinks</strong> directly impacts your site's domain authority and search visibility. According to a study by Ahrefs, sites with diverse and natural anchor text profiles rank higher for competitive terms. Poor optimization can lead to Google penalties, such as those from the Penguin update, which targeted spammy link practices.</p>
     <p>By focusing on natural variations—like branded, generic, and partial-match anchors—you create a balanced profile that mimics organic linking behavior. This not only improves dofollow links' effectiveness but also enhances user experience, as relevant anchors guide visitors to valuable content.</p>
     <div class="media">
-        <img src="/media/anchor-text-optimization-for-backlinks-img1.jpg" alt="anchor text optimization for backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="anchor text optimization for backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing types of anchor text and their SEO impact (Source: Backlinkoo)</em></p>
     </div>
     
@@ -97,7 +97,7 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
     <p>At Backlinkoo, we recommend combining these tools for optimal results in <strong>anchor text optimization for backlinks</strong>.</p>
     
     <div class="media">
-        <img src="/media/anchor-text-optimization-for-backlinks-img2.jpg" alt="Tools for backlink optimization chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlink optimization chart" width="800" height="400" />
         <p><em>Chart comparing SEO tools for anchor text (Source: Backlinkoo)</em></p>
     </div>
     
@@ -114,7 +114,7 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
     <p>Using purchased backlinks with careful anchor diversification, a SaaS company saw a 50% ranking improvement. No penalties occurred, and domain authority rose from 25 to 38. Backlinkoo ensured safe practices.</p>
     
     <div class="media">
-        <img src="/media/anchor-text-optimization-for-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph of ranking improvements from optimization (Source: Backlinkoo)</em></p>
     </div>
     

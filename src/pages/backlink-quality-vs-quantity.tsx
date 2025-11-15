@@ -21,7 +21,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Focusing on quality ensures sustainable SEO growth, while chasing quantity can lead to penalties. At Backlinkoo.com, we emphasize <strong>backlink quality vs quantity</strong> to help clients build resilient link profiles that drive organic traffic.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img1.jpg" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink quality vs quantity infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic comparing backlink quality vs quantity (Source: Backlinkoo)</em></p>
   </div>
   
@@ -71,7 +71,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>For automation in safe buying, consider <Link to="/senuke">SENUKE for automation</Link>, which helps manage campaigns efficiently.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart on buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -142,7 +142,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <p>Outcome: Rankings recovered fully within 4 months, with a 120% traffic uplift. This case underscores the dangers of prioritizing quantity in <strong>backlink quality vs quantity</strong>.</p>
   
   <div class="media">
-    <img src="/media/backlink-quality-vs-quantity-img3.jpg" alt="Case study graph on traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph on traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from quality backlinks (Source: Backlinkoo)</em></p>
   </div>
   

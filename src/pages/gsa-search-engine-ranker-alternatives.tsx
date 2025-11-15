@@ -15,7 +15,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>Using GSA Search Engine Ranker can result in low-quality links that harm your site's domain authority. Google's Penguin update targets unnatural link profiles, making it crucial to explore GSA Search Engine Ranker alternatives that focus on quality over quantity. According to a study by Ahrefs, sites with diverse, high-quality backlinks see up to 3.8 times more organic traffic than those relying on automated spam.</p>
   <p>At Backlinkoo, we emphasize ethical link building to ensure long-term success. Seeking alternatives isn't just about avoiding penalties; it's about building a robust SEO foundation that drives real results.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img1.jpg" alt="GSA Search Engine Ranker alternatives infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="GSA Search Engine Ranker alternatives infographic" width="800" height="400" />
     <p><em>Infographic showing the evolution of link building tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -95,7 +95,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <p>These tools can be powerful GSA Search Engine Ranker alternatives when used ethically. For customized solutions, Backlinkoo integrates with tools like SENUKE to provide seamless automation.</p>
   <p>Learn more from <a href="https://ahrefs.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Ahrefs' Link Building Tools Guide</a>.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img2.jpg" alt="Comparison chart of SEO tools" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Comparison chart of SEO tools" width="800" height="400" />
     <p><em>Chart comparing top GSA alternatives (Source: Backlinkoo)</em></p>
   </div>
 
@@ -133,7 +133,7 @@ const GsaSearchEngineRankerAlternatives: React.FC = () => {
   <h3>5. What metrics should I track for link building success?</h3>
   <p>Monitor domain authority, referral traffic, and keyword rankings using Ahrefs or SEMrush.</p>
   <div class="media">
-    <img src="/media/gsa-search-engine-ranker-alternatives-img3.jpg" alt="FAQ infographic on SEO alternatives" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on SEO alternatives" width="800" height="400" />
     <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
   </div>
 

@@ -26,7 +26,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Statistics from Backlinko show that pages with more backlinks rank higher—top results have an average of 3.8 times more backlinks than positions 2-10. For health blogs, this means targeted link building can lead to better visibility, increased trust, and higher conversion rates for affiliate products or consultations.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img1.jpg" alt="health blog link building infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="health blog link building infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of link building on health blog SEO (Source: Backlinkoo)</em></p>
   </div>
   
@@ -125,7 +125,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Outbound link: Explore Google's take on link schemes at <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener noreferrer">Google Search Central Spam Policies</a>.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img2.jpg" alt="tools for health blog link building" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for health blog link building" width="800" height="400" />
     <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -196,7 +196,7 @@ const HealthBlogLinkBuilding: React.FC = () => {
   <p>Contact us today to supercharge your SEO with proven <strong>health blog link building</strong> strategies. Remember, consistent effort and quality content are key to long-term success.</p>
   
   <div class="media">
-    <img src="/media/health-blog-link-building-img3.jpg" alt="success in health blog link building" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="success in health blog link building" width="800" height="400" />
     <p><em>Chart showing growth from link building (Source: Backlinkoo)</em></p>
   </div>
   

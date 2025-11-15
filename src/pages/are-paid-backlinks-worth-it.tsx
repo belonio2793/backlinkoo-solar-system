@@ -24,7 +24,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <p>Backlinks signal trust and relevance to search engines. Google's PageRank algorithm, though evolved, still relies heavily on them. A <a href="https://moz.com/blog/backlinks-important" target="_blank" rel="noopener noreferrer">Moz study</a> shows that backlinks account for about 20-30% of ranking factors. If you're debating "are paid backlinks worth it," remember that quality trumps quantity—paid or not.</p>
     
     <div class="media">
-        <img src="/media/are-paid-backlinks-worth-it-img1.jpg" alt="are paid backlinks worth it infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="are paid backlinks worth it infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -77,7 +77,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <p>Use tools to monitor links, like Google Search Console. Follow <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google's link scheme guidelines</a> to stay safe. At Backlinkoo, our services ensure compliance and results.</p>
     
     <div class="media">
-        <img src="/media/are-paid-backlinks-worth-it-img2.jpg" alt="Pros and cons of paid backlinks chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of paid backlinks chart" width="800" height="400" />
         <p><em>Chart comparing pros and cons of paid backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -147,7 +147,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <p>A consulting firm spent \\\$1,500 on paid links combined with organic efforts. Leads increased by 35%, and their site climbed to top 5 for competitive keywords. Fake stats: ROI of 300% within a year.</p>
     
     <div class="media">
-        <img src="/media/are-paid-backlinks-worth-it-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph of traffic growth from paid backlinks (Source: Backlinkoo)</em></p>
     </div>
     

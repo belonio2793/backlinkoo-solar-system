@@ -14,7 +14,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>At Backlinkoo, we specialize in tailoring <strong>link building strategies 2025</strong> to your niche, ensuring sustainable growth. Whether you're a small business or an enterprise, understanding the fundamentals is key to avoiding penalties and maximizing ROI.</p>
     
     <div class="media">
-        <img src="/media/link-building-strategies-2025-img1.jpg" alt="link building strategies 2025 infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="link building strategies 2025 infographic" width="800" height="400" />
         <p><em>Infographic showing the evolution of link building from 2020 to 2025 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -103,7 +103,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     <p>At Backlinkoo, we integrate these tools to deliver customized <strong>link building strategies 2025</strong>.</p>
     
     <div class="media">
-        <img src="/media/link-building-strategies-2025-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing top link building tools for 2025 (Source: Backlinkoo)</em></p>
     </div>
     

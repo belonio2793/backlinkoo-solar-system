@@ -37,7 +37,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>A <a href="https://moz.com/blog/state-of-link-building" target="_blank" rel="noopener noreferrer">Moz report</a> reveals that backlinks account for up to 20-30% of ranking factors. Neglecting them can leave your site lagging behind competitors. At Backlinkoo, our services are designed to secure these vital links, ensuring your site's long-term success.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img1.jpg" alt="case study high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="case study high quality backlinks infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the impact of high quality backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -184,7 +184,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> can save time while maintaining quality.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img2.jpg" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for high quality backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison chart of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -220,7 +220,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   <p>These case studies highlight the transformative power of high quality backlinks when executed properly.</p>
   
   <div class="media">
-    <img src="/media/case-study-high-quality-backlinks-img3.jpg" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="success metrics from backlink case studies" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth in case studies (Source: Backlinkoo)</em></p>
   </div>
   

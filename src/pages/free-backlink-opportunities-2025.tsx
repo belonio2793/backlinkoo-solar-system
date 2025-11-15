@@ -15,7 +15,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>In a post-Helpful Content Update era, Google rewards sites that earn links naturally. This means focusing on content that attracts links, such as in-depth guides or original research. At Backlinkoo, we see clients who leverage these opportunities experience up to 30% traffic growth within months. But remember, not all links are equal—priorities high domain authority sources for maximum impact.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img1.jpg" alt="free backlink opportunities 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="free backlink opportunities 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -54,7 +54,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>Create shareable infographics on trending topics for 2025, like "SEO Predictions." Embed them with attribution links, encouraging shares. Sites like Visual.ly can amplify reach, leading to natural backlinks.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img2.jpg" alt="Infographic on organic link building strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Infographic on organic link building strategies" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to free backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   
@@ -141,7 +141,7 @@ const FreeBacklinkOpportunities2025: React.FC = () => {
   <p>A non-profit used infographics and social media to gain 70 backlinks. Engagement metrics improved by 50%, with domain authority jumping 15 points. This demonstrates free backlink opportunities 2025 work across sectors.</p>
   
   <div class="media">
-    <img src="/media/free-backlink-opportunities-2025-img3.jpg" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph of traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   

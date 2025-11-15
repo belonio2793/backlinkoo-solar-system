@@ -18,7 +18,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>LSI terms like "link building strategies" and "backlink quality" are crucial here. Google values relevance and trustworthiness, so prioritizing these in your recovery plan is key.</p>
     
     <div class="media">
-        <img src="/media/google-penguin-recovery-backlinks-img1.jpg" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Google Penguin recovery backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the steps for Google Penguin recovery (Source: Backlinkoo)</em></p>
     </div>
     
@@ -100,7 +100,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     <p>These tools can supercharge your <strong>Google Penguin recovery backlinks</strong> efforts. Backlinkoo integrates seamlessly with SENUKE and XRumer for optimal results.</p>
     
     <div class="media">
-        <img src="/media/google-penguin-recovery-backlinks-img2.jpg" alt="Tools for backlink recovery" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlink recovery" width="800" height="400" />
         <p><em>Visual comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     

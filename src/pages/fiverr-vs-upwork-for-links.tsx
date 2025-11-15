@@ -14,7 +14,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>At Backlinkoo, we specialize in ethical link building that complements these platforms, ensuring your site gains authoritative, dofollow links without the risks associated with freelance marketplaces.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img1.jpg" alt="Fiverr vs Upwork for links infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Fiverr vs Upwork for links infographic" width="800" height="400" />
         <p><em>Infographic comparing Fiverr and Upwork for link building strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -93,7 +93,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>For more tools, explore <a href="https://ahrefs.com/blog/best-seo-tools/" target="_blank" rel="noopener noreferrer">Ahrefs' Best SEO Tools</a>.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img2.jpg" alt="Link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Link building tools comparison chart" width="800" height="400" />
         <p><em>Chart of essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -140,7 +140,7 @@ const FiverrVsUpworkForLinks: React.FC = () => {
     <p>Absolutely! <Link to="/senuke">SENUKE for automation</Link> complements freelance work seamlessly.</p>
     
     <div class="media">
-        <img src="/media/fiverr-vs-upwork-for-links-img3.jpg" alt="FAQ on link building" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="FAQ on link building" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
     

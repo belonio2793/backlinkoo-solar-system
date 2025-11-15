@@ -22,7 +22,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Imagine investing in robust link building only to have it undermined by irrelevant or manipulative links. Disavowing protects your site's reputation and ensures that your efforts in acquiring high-quality backlinks pay off. At Backlinkoo, we emphasize proactive monitoring to avoid the need for disavowal, but when it's necessary, knowing how to use the tool correctly is key.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img1.jpg" alt="backlink disavow tool usage infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlink disavow tool usage infographic" width="800" height="400" />
         <p><em>Infographic explaining the basics of backlink disavow tool usage (Source: Backlinkoo)</em></p>
     </div>
     
@@ -113,7 +113,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>At Backlinkoo, integrating tools like SENUKE and XRumer with <strong>backlink disavow tool usage</strong> ensures a balanced approach.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img2.jpg" alt="backlink disavow tool usage tools comparison" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="backlink disavow tool usage tools comparison" width="800" height="400" />
         <p><em>Comparison of backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -132,7 +132,7 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p>Using <Link to="/senuke">SENUKE for automation</Link>, a client identified and disavowed harmful links, resulting in a 20% boost in search visibility. Fake stats show a recovery from 10,000 to 15,000 monthly visitors.</p>
     
     <div class="media">
-        <img src="/media/backlink-disavow-tool-usage-img3.jpg" alt="backlink disavow tool usage case study graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="backlink disavow tool usage case study graph" width="800" height="400" />
         <p><em>Graph showing traffic recovery after disavow (Source: Backlinkoo)</em></p>
     </div>
     

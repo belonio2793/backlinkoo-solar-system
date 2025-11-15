@@ -14,7 +14,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Backlinkoo, as an expert in SEO services, recommends integrating BuzzSumo into your workflow to identify untapped potentials. This not only saves time but also ensures your link building efforts are data-driven, focusing on LSI terms like domain authority and dofollow links to maximize impact.</p>
     
     <div class="media">
-        <img src="/media/buzzsumo-for-link-opportunities-img1.jpg" alt="BuzzSumo for link opportunities infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="BuzzSumo for link opportunities infographic" width="800" height="400" />
         <p><em>Infographic showing how BuzzSumo uncovers link prospects (Source: Backlinkoo)</em></p>
     </div>
     
@@ -118,7 +118,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>Using BuzzSumo for influencer outreach, a SaaS firm collaborated on 15 pieces, gaining links with domain authority over 80. Outcome: 200% increase in leads, supported by Backlinkoo's XRumer integration.</p>
     
     <div class="media">
-        <img src="/media/buzzsumo-for-link-opportunities-img2.jpg" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph for BuzzSumo link success" width="800" height="400" />
         <p><em>Graph depicting traffic growth from BuzzSumo strategies (Source: Backlinkoo)</em></p>
     </div>
     

@@ -16,7 +16,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Backlinks aren't just about quantity; quality reigns supreme. A single Majestic SEO backlink from a high-authority site can outweigh dozens from low-quality ones. This is why strategies focusing on relevant, niche-specific links are crucial for long-term success.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img1.jpg" alt="Majestic SEO backlinks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Majestic SEO backlinks infographic" width="800" height="400" />
     <p><em>Infographic illustrating Majestic SEO backlinks metrics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -91,7 +91,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>At Backlinkoo, we integrate these tools to deliver optimal Majestic SEO backlink strategies tailored to your needs.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img2.jpg" alt="Tools for Majestic SEO backlinks" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for Majestic SEO backlinks" width="800" height="400" />
     <p><em>Comparison of SEO tools for backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -125,7 +125,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>LSI terms like "dofollow links" and "domain authority" enhance content relevance and backlink value.</p>
   
   <div class="media">
-    <img src="/media/majestic-seo-backlinks-img3.jpg" alt="FAQ on Majestic SEO backlinks" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="FAQ on Majestic SEO backlinks" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   

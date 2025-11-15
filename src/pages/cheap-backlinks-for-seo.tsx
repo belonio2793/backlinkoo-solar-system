@@ -14,7 +14,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>At Backlinkoo, we emphasize that quality trumps quantity. Cheap doesn't mean low-quality; it means strategic, value-driven link building that aligns with Google's guidelines. Ignoring this can lead to penalties, so always prioritize relevance and authority.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img1.jpg" alt="cheap backlinks for SEO infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="cheap backlinks for SEO infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -103,7 +103,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>Integrating tools like <Link to="/senuke">SENUKE for automation</Link> with Backlinkoo services can supercharge your strategy for cheap backlinks for SEO.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img2.jpg" alt="Tools for cheap backlinks for SEO" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for cheap backlinks for SEO" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -120,7 +120,7 @@ const CheapBacklinksForSeo: React.FC = () => {
     <p>A local service provider bought cheap backlinks for SEO targeting regional directories. With 100 links from authoritative local sites, their local rankings improved, leading to a 120% boost in leads. This demonstrates how targeted link building can yield impressive ROI.</p>
     
     <div class="media">
-        <img src="/media/cheap-backlinks-for-seo-img3.jpg" alt="Case study graphs for cheap backlinks for SEO" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Case study graphs for cheap backlinks for SEO" width="800" height="400" />
         <p><em>Graphs showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
     

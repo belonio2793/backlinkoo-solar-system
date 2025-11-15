@@ -23,7 +23,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>Statistics from SEMrush indicate that sites with diverse backlink profiles rank higher, emphasizing the need for this analysis. At Backlinkoo, we recommend starting with your top 3-5 competitors to keep the process manageable yet effective.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img1.jpg" alt="competitor backlink gap analysis infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="competitor backlink gap analysis infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the steps of competitor backlink gap analysis (Source: Backlinkoo)</em></p>
   </div>
   
@@ -115,7 +115,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>For a deeper dive, visit <a href="https://ahrefs.com/blog/backlink-gap-analysis" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Gap Guide</a> or <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img2.jpg" alt="tools for backlink analysis screenshot" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for backlink analysis screenshot" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Screenshot of backlink tools in action (Source: Backlinkoo)</em></p>
   </div>
   
@@ -131,7 +131,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <p>A blogging network targeted gaps in resource pages, using <Link to="/xrumer">XRumer for posting</Link> to automate submissions. They closed 200 gaps, resulting in a 35% traffic surge and better anchor text diversity.</p>
   
   <div class="media">
-    <img src="/media/competitor-backlink-gap-analysis-img3.jpg" alt="case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from backlink gap closure (Source: Backlinkoo)</em></p>
   </div>
   

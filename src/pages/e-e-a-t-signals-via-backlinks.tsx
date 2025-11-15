@@ -26,7 +26,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>In fact, Google's own guidelines highlight that links from authoritative sites help establish trust. Without strong <strong>E-E-A-T signals via backlinks</strong>, even the best content might struggle to rank, especially in competitive niches. This is why integrating backlink strategies is non-negotiable for long-term SEO success.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img1.jpg" alt="E-E-A-T signals via backlinks infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="E-E-A-T signals via backlinks infographic" width="800" height="400" />
     <p><em>Infographic illustrating how backlinks enhance E-E-A-T signals (Source: Backlinkoo)</em></p>
   </div>
   
@@ -126,7 +126,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>These tools, especially <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, integrate seamlessly with Backlinkoo services for optimal results in building <strong>E-E-A-T signals via backlinks</strong>.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img2.jpg" alt="Tools for backlink building comparison chart" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlink building comparison chart" width="800" height="400" />
     <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -145,7 +145,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   <p>A tech startup used a combination of organic and purchased backlinks via Backlinkoo. They secured 200 links, boosting DA from 20 to 45. Organic search traffic grew 400%, and investor interest spiked. This case highlights safe buying practices integrated with tools like <Link to="/xrumer">XRumer</Link> for efficient posting.</p>
   
   <div class="media">
-    <img src="/media/e-e-a-t-signals-via-backlinks-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
   </div>
   

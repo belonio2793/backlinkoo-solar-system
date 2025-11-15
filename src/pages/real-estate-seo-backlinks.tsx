@@ -24,7 +24,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Moreover, backlinks contribute to long-term growth. A Backlinko study found that pages with more backlinks get 3-5 times more organic traffic. For real estate agents, this translates to more leads, showings, and sales. At Backlinkoo.com, we've helped countless clients leverage these strategies to achieve measurable results.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img1.jpg" alt="real estate SEO backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="real estate SEO backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on real estate SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -116,7 +116,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>At Backlinkoo, we recommend starting with <Link to="/senuke">SENUKE for automation</Link> to scale your real estate SEO backlinks efficiently.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img2.jpg" alt="tools for real estate SEO backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for real estate SEO backlinks" width="800" height="400" />
         <p><em>Comparison of SEO tools for backlink building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -133,7 +133,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>An agency used <Link to="/xrumer">XRumer for posting</Link> to build 200+ links across forums. Combined with SENUKE automation, they saw a 120% traffic uplift and expanded to new markets.</p>
     
     <div class="media">
-        <img src="/media/real-estate-seo-backlinks-img3.jpg" alt="case study graph for real estate SEO backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for real estate SEO backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink campaigns (Source: Backlinkoo)</em></p>
     </div>
     

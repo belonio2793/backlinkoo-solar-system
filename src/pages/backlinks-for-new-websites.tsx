@@ -14,7 +14,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Why focus on <strong>backlinks for new websites</strong>? New sites lack the established reputation of older domains, making it harder to attract organic traffic. Effective link building can accelerate growth, improve visibility, and even enhance user trust. At Backlinkoo, we specialize in helping newcomers build these essential links safely and efficiently.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img1.jpg" alt="backlinks for new websites infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="backlinks for new websites infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on new website rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -107,7 +107,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Backlinkoo integrates tools like <Link to="/xrumer">XRumer for posting</Link> to enhance your strategy.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img2.jpg" alt="tools for backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="tools for backlinks infographic" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -164,7 +164,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>Remember, SEO is an ongoing process. Stay updated with resources from <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, <a href="https://moz.com/blog" target="_blank" rel="noopener noreferrer">Moz Blog</a>, and <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central Blog</a>. With persistence and the right strategies, your new website can dominate the SERPs.</p>
     
     <div class="media">
-        <img src="/media/backlinks-for-new-websites-img3.jpg" alt="success with backlinks case study" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="success with backlinks case study" width="800" height="400" />
         <p><em>Visualizing backlink success (Source: Backlinkoo)</em></p>
     </div>
     

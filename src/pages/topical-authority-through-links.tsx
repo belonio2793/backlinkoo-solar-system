@@ -15,7 +15,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>At Backlinkoo, we've seen clients double their traffic by focusing on niche-specific <strong>dofollow links</strong>. But building this authority isn't overnight; it requires a mix of content creation, outreach, and smart linking tactics.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img1.jpg" alt="topical authority through links infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="topical authority through links infographic" width="800" height="400" />
         <p><em>Infographic illustrating how links contribute to topical authority (Source: Backlinkoo)</em></p>
     </div>
     
@@ -112,7 +112,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>Integrating these tools can supercharge your efforts. For instance, use <Link to="/senuke">SENUKE for automation</Link> alongside Ahrefs for analysis.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -163,7 +163,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>For more FAQs, visit <a href="https://ahrefs.com/blog/topical-authority" target="_blank" rel="noopener noreferrer">Ahrefs on Topical Authority</a>.</p>
     
     <div class="media">
-        <img src="/media/topical-authority-through-links-img3.jpg" alt="FAQ infographic on link strategies" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on link strategies" width="800" height="400" />
         <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
     </div>
     

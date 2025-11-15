@@ -14,7 +14,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>LSI terms like "dofollow links" are crucial here—these pass link equity, unlike nofollow links. By prioritizing quality over quantity, you avoid algorithm updates like Penguin, which penalize manipulative practices.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img1.jpg" alt="white hat link building techniques infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="white hat link building techniques infographic" width="800" height="400" />
         <p><em>Infographic illustrating key white hat link building techniques (Source: Backlinkoo)</em></p>
     </div>
 
@@ -102,7 +102,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> from Backlinkoo make implementing white hat link building techniques efficient and scalable.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img2.jpg" alt="tools for white hat link building techniques" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for white hat link building techniques" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -119,7 +119,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>A consulting firm used influencer collaborations. Acquired 100 links, boosting domain authority by 25 points. Traffic grew 50%, with conversions up 35%. This demonstrates how white hat techniques yield sustainable results.</p>
 
     <div class="media">
-        <img src="/media/white-hat-link-building-techniques-img3.jpg" alt="case study graphs for white hat link building techniques" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs for white hat link building techniques" width="800" height="400" />
         <p><em>Graphs showing growth from white hat strategies (Source: Backlinkoo)</em></p>
     </div>
 

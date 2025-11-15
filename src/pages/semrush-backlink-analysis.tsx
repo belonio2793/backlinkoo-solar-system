@@ -25,7 +25,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>At Backlinkoo, we use tools like SEMrush to inform our backlink strategies, ensuring our clients receive links that are not only numerous but also relevant and authoritative.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img1.jpg" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="SEMrush backlink analysis dashboard screenshot" width="800" height="400" />
         <p><em>SEMrush backlink analysis dashboard showing key metrics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -102,7 +102,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: For more on tools, check <a href="https://ahrefs.com/blog/backlink-tools/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img2.jpg" alt="Comparison chart of backlink tools" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Comparison chart of backlink tools" width="800" height="400" />
         <p><em>Visual comparison of top backlink tools including SEMrush (Source: Backlinkoo)</em></p>
     </div>
     
@@ -120,7 +120,7 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: Similar case studies on <a href="https://www.google.com/search/blog/backlink-case-studies" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/semrush-backlink-analysis-img3.jpg" alt="Case study graph showing traffic growth" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study graph showing traffic growth" width="800" height="400" />
         <p><em>Graph illustrating traffic boost from SEMrush backlink analysis (Source: Backlinkoo)</em></p>
     </div>
     

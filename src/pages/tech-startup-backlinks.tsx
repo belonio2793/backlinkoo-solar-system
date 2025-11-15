@@ -24,7 +24,7 @@ const TechStartupBacklinks: React.FC = () => {
     </ul>
     <p>Google's algorithms, as outlined in <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Google Search Central</a>, prioritize sites with natural, relevant backlinks. For tech startups, ignoring this can mean getting lost in the noise of thousands of similar ventures.</p>
     <div class="media">
-        <img src="/media/tech-startup-backlinks-img1.jpg" alt="tech startup backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="tech startup backlinks infographic" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on tech startup growth (Source: Backlinkoo)</em></p>
     </div>
     <p>At Backlinkoo, we've helped numerous tech startups achieve a 200% increase in organic traffic through targeted backlink campaigns. But how do you get started? Let's explore organic strategies next.</p>
@@ -112,7 +112,7 @@ const TechStartupBacklinks: React.FC = () => {
     </table>
     <p>At Backlinkoo, we integrate these tools into our services to deliver optimal results for your tech startup backlinks needs.</p>
     <div class="media">
-        <img src="/media/tech-startup-backlinks-img2.jpg" alt="tools for tech startup backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for tech startup backlinks" width="800" height="400" />
         <p><em>Visual guide to backlink tools (Source: Backlinkoo)</em></p>
     </div>
 

@@ -14,7 +14,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>In this section, we'll explore the foundational aspects, but remember, if you're looking to automate parts of this process without losing the manual touch, check out our <Link to="/senuke">SENUKE for automation</Link> tools that integrate seamlessly with outreach efforts.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img1.jpg" alt="manual backlink outreach infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="manual backlink outreach infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the steps of manual backlink outreach (Source: Backlinkoo)</em></p>
   </div>
   
@@ -112,7 +112,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>These tools enhance manual backlink outreach by saving time on research and tracking. For personalized recommendations, contact Backlinkoo today.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img2.jpg" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual guide to top tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -163,7 +163,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Start with Ahrefs for analysis and Hunter.io for emails. For advanced, try <Link to="/xrumer">XRumer</Link>.</p>
   
   <div class="media">
-    <img src="/media/manual-backlink-outreach-img3.jpg" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
   </div>
   

@@ -28,7 +28,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     </ul>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img1.jpg" alt="mobile-first link acquisition infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="mobile-first link acquisition infographic" width="800" height="400" />
         <p><em>Infographic illustrating the growth of mobile traffic and its impact on link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -106,7 +106,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>Backlinkoo's services ensure safe, effective link purchases tailored to mobile-first strategies.</p>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img2.jpg" alt="Pros and cons of buying links chart" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Pros and cons of buying links chart" width="800" height="400" />
         <p><em>Chart comparing pros and cons of link buying (Source: Backlinkoo)</em></p>
     </div>
     
@@ -174,7 +174,7 @@ const MobileFirstLinkAcquisition: React.FC = () => {
     <p>A local restaurant chain implemented skyscraper content targeted at mobile users. With Backlinkoo's help, they earned 100 natural links, leading to a 40% increase in mobile bookings. Fake stats: DA improvement: 20 points; Mobile traffic: +55%.</p>
     
     <div class="media">
-        <img src="/media/mobile-first-link-acquisition-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

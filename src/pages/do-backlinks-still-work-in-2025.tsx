@@ -17,7 +17,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>At Backlinkoo, we've seen firsthand how strategic link building boosts rankings. But <strong>do backlinks still work in 2025</strong>? Absolutely, but only if they're natural, relevant, and from authoritative sources. Ignoring them means missing out on a key ranking factor, as confirmed by Google's own <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Search Central Blog</a>.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img1.jpg" alt="do backlinks still work in 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="do backlinks still work in 2025 infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the impact of backlinks on SEO rankings in 2025 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -135,7 +135,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>Backlinkoo integrates with these tools for seamless link building. Try <Link to="/senuke">SENUKE for automation</Link> to see results fast.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img2.jpg" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Tools for backlink building in 2025" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual guide to top backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -195,7 +195,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>At Backlinkoo, our expert team helps you build authoritative, sustainable backlinks. Contact us today to elevate your SEO game.</p>
     
     <div class="media" style="margin: 20px 0; text-align: center;">
-        <img src="/media/do-backlinks-still-work-in-2025-img3.jpg" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Conclusion infographic on backlinks" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Final thoughts on backlinks in 2025 (Source: Backlinkoo)</em></p>
     </div>
     

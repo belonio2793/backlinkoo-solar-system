@@ -22,7 +22,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Moreover, these links help in diversifying your backlink profile, which is crucial for avoiding penalties from algorithms like Google's Penguin update. At Backlinkoo, we specialize in sourcing backlinks from authority sites that align with your niche, ensuring natural and effective link building.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img1.jpg" alt="buy backlinks from authority sites infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="buy backlinks from authority sites infographic" width="800" height="400" />
     <p><em>Infographic showing the impact of authority backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   
@@ -88,7 +88,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>For more on safe link building, check out this <a href="https://moz.com/blog/buy-backlinks-from-authority-sites" target="_blank" rel="noopener noreferrer">Moz Guide on Ethical Link Buying</a>.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart illustrating pros and cons of buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -159,7 +159,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Results: Leads increased by 50%, with DA improving from 20 to 40. Fake stats: Google My Business impressions doubled.</p>
   
   <div class="media">
-    <img src="/media/buy-backlinks-from-authority-sites-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from backlink campaigns (Source: Backlinkoo)</em></p>
   </div>
   

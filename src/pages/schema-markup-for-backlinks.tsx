@@ -14,7 +14,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>In essence, <strong>schema markup for backlinks</strong> bridges the gap between raw links and meaningful data, helping search engines like Google reward your site with better positions in search results. At Backlinkoo, we've seen clients double their traffic by optimizing this synergy.</p>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img1.jpg" alt="schema markup for backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="schema markup for backlinks infographic" width="800" height="400" />
         <p><em>Infographic explaining schema markup basics (Source: Backlinkoo)</em></p>
     </div>
     
@@ -98,7 +98,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     </table>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img2.jpg" alt="tools for schema and backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for schema and backlinks" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -115,7 +115,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     <p>A local service provider added LocalBusiness schema and bought 30 safe backlinks. Leads doubled, with a 40% ranking improvement. Fake stats: ROI of 300% in year one.</p>
     
     <div class="media">
-        <img src="/media/schema-markup-for-backlinks-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs showing traffic growth (Source: Backlinkoo)</em></p>
     </div>
     

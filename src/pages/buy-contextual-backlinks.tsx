@@ -24,7 +24,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>By focusing on <strong>buy contextual backlinks</strong> from authoritative sources, you can improve your site's trustworthiness, increase organic traffic, and boost conversions. At Backlinkoo, our services ensure these links come from niche-relevant sites with strong domain authority, helping you avoid penalties and achieve sustainable growth.</p>
     
     <div class="media">
-        <img src="/media/buy-contextual-backlinks-img1.jpg" alt="buy contextual backlinks infographic" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="buy contextual backlinks infographic" width="800" height="400" />
         <p><em>Infographic explaining the benefits of contextual backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>A local gym acquired 20 contextual backlinks from health and fitness sites. Traffic doubled, and local search rankings improved by 40%. Fake stats: ROI of 5:1 on investment.</p>
     
     <div class="media">
-        <img src="/media/buy-contextual-backlinks-img2.jpg" alt="case study graph for contextual backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="case study graph for contextual backlinks" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -175,7 +175,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>We offer customized packages with high-quality, niche-relevant links to boost your rankings safely.</p>
     
     <div class="media">
-        <img src="/media/buy-contextual-backlinks-img3.jpg" alt="FAQ infographic on backlinks" width="800" height="400" />
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="FAQ infographic on backlinks" width="800" height="400" />
         <p><em>Visual FAQ on contextual backlinks (Source: Backlinkoo)</em></p>
     </div>
     

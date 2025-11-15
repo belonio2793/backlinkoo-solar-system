@@ -24,7 +24,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>Moreover, podcast links often come with additional benefits like social shares and referral traffic. Google emphasizes E-A-T (Expertise, Authoritativeness, Trustworthiness), and appearing on reputable podcasts enhances your perceived expertise. At Backlinkoo, we've seen clients increase their organic traffic by up to 40% through strategic <strong>podcast guesting for links</strong>.</p>
   
   <div class="media">
-    <img src="/media/podcast-guesting-for-links-img1.jpg" alt="podcast guesting for links infographic" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="podcast guesting for links infographic" width="800" height="400" />
     <p><em>Infographic: Benefits of Podcast Guesting for Links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -117,7 +117,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>These tools can supercharge your <strong>podcast guesting for links</strong> strategy. At Backlinkoo, we recommend integrating them for optimal results.</p>
   
   <div class="media">
-    <img src="/media/podcast-guesting-for-links-img2.jpg" alt="tools for podcast guesting for links" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e566c72f?w=800&h=400&fit=crop" alt="tools for podcast guesting for links" width="800" height="400" />
     <p><em>Image: Top Tools for Link Building via Podcasts (Source: Backlinkoo)</em></p>
   </div>
   
@@ -170,7 +170,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>High-quality backlinks from podcasts signal trustworthiness to Google, gradually increasing your site's authority (<a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz DA Guide</a>).</p>
   
   <div class="media">
-    <img src="/media/podcast-guesting-for-links-img3.jpg" alt="faq on podcast guesting for links" width="800" height="400" />
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57e39c568f?w=800&h=400&fit=crop" alt="faq on podcast guesting for links" width="800" height="400" />
     <p><em>Infographic: Common FAQs Answered (Source: Backlinkoo)</em></p>
   </div>
   
