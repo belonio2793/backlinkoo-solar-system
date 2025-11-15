@@ -52,7 +52,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>For posting on forums and blogs, tools like <Link to="/xrumer">XRumer for posting</Link> can help automate submissions while maintaining quality.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Real Estate SEO Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -177,7 +177,7 @@ const RealEstateSeoBacklinks: React.FC = () => {
     <p>Start with free options like Google Search Central, then scale to paid tools like <Link to="/senuke">SENUKE</Link> for automation.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Conclusion: Elevate Your Real Estate SEO with Backlinkoo</h2>

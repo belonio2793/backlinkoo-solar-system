@@ -30,14 +30,14 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
     <p>For instance, if a blog post on "top gadgets of 2023" has a broken link to a discontinued product, offer your similar item's page. This not only builds authoritative backlinks for e-commerce but also drives targeted traffic.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j8hQrMtqNrk" title="E-commerce Link Building Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="E-commerce Link Building Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create evergreen content like ultimate guides or infographics that naturally attract links. E-commerce sites can produce "best of" lists or comparison charts. Promote these on social media and forums to encourage shares and backlinks.</p>
     <p>Incorporate LSI terms such as "high-quality backlinks" and "SEO for online stores" to optimize for search. Google favors content that earns natural links, as per their <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener noreferrer">Search Central guidelines</a>.</p>
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j8hQrMtqNrk" title="E-commerce Link Building Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="E-commerce Link Building Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h3>Influencer Collaborations and Partnerships</h3>

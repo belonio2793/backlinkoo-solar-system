@@ -33,7 +33,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Additionally, infographics, videos, and in-depth guides are link magnets. For more on automation, check out <Link to="/xrumer">XRumer for posting</Link> to forums and blogs efficiently.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying Majestic SEO Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -107,7 +107,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>A local service provider used <Link to="/xrumer">XRumer for posting</Link> to build local backlinks. Majestic analysis showed a 40% improvement in Citation Flow, leading to top local search positions and a 150% lead increase.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Common Mistakes to Avoid with Majestic SEO Backlinks</h2>

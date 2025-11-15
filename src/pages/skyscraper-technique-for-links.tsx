@@ -49,7 +49,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>This strategy not only earns dofollow links but also helps webmasters improve their sites, fostering positive relationships in your niche.</p>
 
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pq6_sTu_TJ0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h3>Resource Page Link Building</h3>
@@ -193,7 +193,7 @@ const SkyscraperTechniqueForLinks: React.FC = () => {
   <p>Ahrefs for research, <Link to="/senuke">SENUKE</Link> for automation, and Moz for authority checks.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pq6_sTu_TJ0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

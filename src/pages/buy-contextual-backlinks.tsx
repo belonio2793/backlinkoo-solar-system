@@ -50,7 +50,7 @@ const BuyContextualBacklinks: React.FC = () => {
     <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your link building efforts while maintaining an organic feel.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3PU3HBk7YYU" title="Contextual Link Insertion Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nL8DGr3XLM0" title="Contextual Link Insertion Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <p>Organic strategies require time, but they yield high-quality, contextual backlinks that enhance your site's authority naturally.</p>

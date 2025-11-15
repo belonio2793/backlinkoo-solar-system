@@ -59,7 +59,7 @@ const ReferralTrafficFromBacklinks: React.FC = () => {
   <p>This can lead to viral sharing and increased referral traffic. Backlinkoo.com recommends using <Link to="/xrumer">XRumer for posting</Link> to forums and blogs to amplify your reach organically.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h3>Resource Page Link Building and HARO</h3>

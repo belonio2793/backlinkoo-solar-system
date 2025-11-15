@@ -53,7 +53,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>Remember, organic link building boosts domain authority over time. A Backlinko study found that pages with infographics get 37.5% more backlinks on average.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
@@ -145,7 +145,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>An SEO agency used Moz and XRumer for a client, auditing and posting to build 200 links. Result: 35% increase in search visibility. Backlinkoo's integration helped scale efforts safely.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid in Backlink Audits</h2>
