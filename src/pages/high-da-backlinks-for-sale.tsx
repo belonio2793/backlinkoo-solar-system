@@ -49,8 +49,7 @@ const HighDaBacklinksForSale: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Pros and Cons of Buying High DA Backlinks + Safe Purchasing Tips</h2>
     

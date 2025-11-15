@@ -40,8 +40,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Schema Integration</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. When considering <strong>schema markup for backlinks</strong>, purchased links from schema-rich sites can provide an extra layer of SEO value.</p>
@@ -150,8 +149,7 @@ const SchemaMarkupForBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>To wrap up, leveraging <strong>schema markup for backlinks</strong> is backed by stats from authoritative sources like <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" target="_blank" rel="noopener noreferrer">Google Search Central</a>, where sites with schema see higher engagement. As experts at Backlinkoo, we recommend starting with our services for proven results. Contact us today to supercharge your SEO strategy.</p>
     

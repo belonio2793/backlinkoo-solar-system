@@ -37,8 +37,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate <strong>backlink building for beginners</strong> when done safely. However, it's risky—Google penalizes manipulative practices, as outlined in their <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">link schemes guidelines</a>.</p>

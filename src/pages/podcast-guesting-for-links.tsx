@@ -50,8 +50,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <p>This section alone highlights how <strong>podcast guesting for links</strong> integrates with broader link building tactics, ensuring a robust SEO strategy.</p>
   
@@ -139,8 +138,7 @@ const PodcastGuestingForLinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid in Podcast Guesting for Links</h2>
   

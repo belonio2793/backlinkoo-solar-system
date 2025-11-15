@@ -51,8 +51,7 @@ const BuyContextualBacklinks: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>Organic strategies require time, but they yield high-quality, contextual backlinks that enhance your site's authority naturally.</p>
     

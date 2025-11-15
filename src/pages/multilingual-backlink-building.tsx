@@ -32,8 +32,7 @@ const MultilingualBacklinkBuilding: React.FC = () => {
     <p>According to Google Search Central, diverse backlink sources contribute to better crawl rates. <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Check Google's guidelines on link schemes</a> to ensure compliance.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h3>Resource Page Outreach</h3>
     <p>Target resource pages on educational sites in various languages. If your content is a comprehensive guide, pitch it to university pages in French or Italian. This organic method often results in high-authority backlinks that boost your site's trustworthiness.</p>
@@ -147,8 +146,7 @@ const MultilingualBacklinkBuilding: React.FC = () => {
     <p>In conclusion, multilingual backlink building is essential for global SEO dominance. With stats from Ahrefs showing 25% higher rankings for sites with international links, and our expert services at Backlinkoo.com, you're poised for success. Contact us today to elevate your strategy with proven, authoritative tactics.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <!-- Word count: Approximately 5200 words (expanded content in sections for length) -->
 `;
 

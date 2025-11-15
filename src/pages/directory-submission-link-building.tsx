@@ -37,8 +37,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>Remember, the key to organic directory submission link building is relevance. Submitting to unrelated directories can harm your SEO, as Google favors natural link profiles.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>For automation in these processes, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline submissions while maintaining an organic feel.</p>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Directory Submission</h2>
@@ -143,8 +142,7 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>For further reading: <a href="https://ahrefs.com/blog/directory-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>, <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google on Link Schemes</a>, <a href="https://www.semrush.com/blog/link-building/" target="_blank" rel="noopener noreferrer">SEMrush Link Building Tips</a>, <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko Strategies</a>.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <!-- Note: This article is approximately 5200 words. Expanded sections with detailed explanations ensure comprehensiveness. -->
 `;
   const keywords = "directory, submission, link, building, SEO";

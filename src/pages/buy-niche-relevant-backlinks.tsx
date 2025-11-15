@@ -36,8 +36,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Pros and Cons of Buying Niche Relevant Backlinks</h2>
     <p>When organic methods aren't enough, many turn to <strong>buy niche relevant backlinks</strong> services. At Backlinkoo, we offer curated packages that ensure safety and relevance. However, it's essential to weigh the advantages and drawbacks.</p>
@@ -113,8 +112,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid When Buying Niche Relevant Backlinks</h2>
     <p>Even with the best intentions, pitfalls can derail your efforts. Avoid these common errors to ensure your investment pays off.</p>

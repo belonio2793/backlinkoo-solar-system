@@ -19,8 +19,7 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>However, not all backlinks are created equal. Dofollow links pass SEO value (link juice), while nofollow ones don't. High domain authority (DA) sites provide more benefit, making paid options from reputable sources potentially worthwhile. At Backlinkoo, we focus on securing dofollow links from authoritative domains to ensure real value.</p>
     

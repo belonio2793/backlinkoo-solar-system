@@ -33,8 +33,7 @@ const FashionIndustryLinkBuilding: React.FC = () => {
     <p>Additionally, participate in fashion forums or Reddit communities like r/fashion to share your expertise without spamming. Organic mentions can evolve into full backlinks, enhancing your <strong>fashion industry link building</strong> efforts.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <h2>Buying Links: Pros, Cons, and Safe Tips for Fashion Industry Link Building</h2>
     <p>While organic methods are ideal, buying links can accelerate <strong>fashion industry link building</strong> for time-sensitive campaigns, like launching a new collection. However, it's crucial to approach this carefully to avoid Google penalties.</p>

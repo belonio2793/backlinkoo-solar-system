@@ -41,8 +41,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for 2025</h2>
     <p>While organic methods are ideal, buying links can accelerate growth if done safely. However, Google's guidelines warn against manipulative practices, so caution is key in <strong>link building strategies 2025</strong>.</p>
@@ -127,8 +126,7 @@ const LinkBuildingStrategies2025: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid in Link Building 2025</h2>
     <p>Even seasoned marketers make errors in <strong>link building strategies 2025</strong>. Avoid these pitfalls to protect your site's integrity.</p>

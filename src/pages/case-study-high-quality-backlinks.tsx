@@ -93,8 +93,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Buying High Quality Backlinks: Pros, Cons, and Safe Tips</h2>
   
@@ -254,8 +253,7 @@ const CaseStudyHighQualityBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>FAQ: Answering Your Questions on High Quality Backlinks</h2>
   

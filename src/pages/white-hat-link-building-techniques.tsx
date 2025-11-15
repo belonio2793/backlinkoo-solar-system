@@ -38,8 +38,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <p>Other organic strategies include influencer collaborations and podcast appearances, all aimed at building genuine relationships.</p>
 
@@ -155,8 +154,7 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <h2>Conclusion: Elevate Your SEO with Backlinkoo's Expertise</h2>
     <p>In summary, mastering white hat link building techniques is key to long-term SEO success. As per a 2023 Moz study, sites with strong backlink profiles see 2x higher organic traffic. At Backlinkoo.com, our authoritative services, backed by years of experience, help you implement these strategies effectively. From organic outreach to safe buying tips, we're here to boost your domain authority ethically.</p>

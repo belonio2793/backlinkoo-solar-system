@@ -37,8 +37,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>Create shareable content like infographics or guides, then use Moz to find resource pages linking to similar topics. Pitch your asset for inclusion. This organic approach builds dofollow links naturally, enhancing domain authority.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>For more strategies, explore <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' broken link guide</a>.</p>
     <p>At Backlinkoo, we recommend combining these with our services for faster results. Our tools automate the tedious parts, letting you focus on creativity.</p>
     

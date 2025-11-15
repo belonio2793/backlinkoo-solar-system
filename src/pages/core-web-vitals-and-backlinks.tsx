@@ -54,8 +54,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate your SEO efforts. However, it's a controversial practice that requires caution to avoid Google penalties. When discussing <strong>Core Web Vitals and backlinks</strong>, purchased links should direct to well-optimized pages to ensure value.</p>
@@ -142,8 +141,7 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid When Handling Core Web Vitals and Backlinks</h2>
     <p>Avoid these pitfalls to ensure your efforts in <strong>Core Web Vitals and backlinks</strong> yield positive results:</p>

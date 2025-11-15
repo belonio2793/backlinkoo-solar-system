@@ -51,13 +51,11 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
 
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>The Pros and Cons of Buying Backlinks from Authority Sites</h2>
   
@@ -194,8 +192,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>FAQ: Frequently Asked Questions About Buying Backlinks from Authority Sites</h2>
   

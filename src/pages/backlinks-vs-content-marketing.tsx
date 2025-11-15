@@ -29,8 +29,7 @@ const BacklinksVsContentMarketing: React.FC = () => {
     <p>For example, pitch topics that solve reader problems, and always follow the host site's guidelines. This method aligns perfectly with content marketing principles while boosting your link building efforts.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <h3>Broken Link Building: A Smart Organic Tactic</h3>
     <p>Broken link building involves finding dead links on other websites and suggesting your content as a replacement. This is purely organic and adds value, making it a win-win in <strong>backlinks vs content marketing</strong>. Use tools like Ahrefs' Broken Link Checker to identify opportunities.</p>

@@ -32,8 +32,7 @@ const PremiumBacklinkPackages: React.FC = () => {
     <p>Combine these with social media promotion and influencer collaborations for amplified reach. Remember, organic strategies require time but yield the most enduring results. To accelerate progress, consider supplementing with Backlinkoo's premium backlink packages.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>In-depth research shows that sites using a mix of organic and purchased links see 15% faster ranking improvements, per SEMrush data. Always prioritize quality over quantity to maintain a natural link profile.</p>
     
     <h2>Buying Premium Backlink Packages: Pros, Cons, and Safe Tips</h2>
@@ -143,8 +142,7 @@ const PremiumBacklinkPackages: React.FC = () => {
     <p>Don't leave your rankings to chance—explore our premium backlink packages today and experience the difference. For more resources, visit <a href="https://www.semrush.com/blog/backlink-guide/" target="_blank" rel="noopener noreferrer">SEMrush Backlink Guide</a> or <a href="https://backlinko.com/backlinks-guide" target="_blank" rel="noopener noreferrer">Backlinko Guide</a>.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p><em>This article is authored by the SEO experts at Backlinkoo.com, drawing on data from Google, Ahrefs, and Moz to provide trustworthy, experience-based advice.</em></p>
 `;
   const keywords = "premium, backlink, packages, SEO";

@@ -61,8 +61,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>Integrating LSI terms like "link building best practices" ensures your content ranks well. At Backlinkoo, we recommend combining these with our services for optimal results.</p>
     
@@ -160,8 +159,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid in Backlink Building</h2>
     

@@ -31,8 +31,7 @@ const BacklinksForNewWebsites: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>For more on guest blogging, check out this <a href="https://ahrefs.com/blog/guest-blogging-for-seo/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Guest Blogging</a>.</p>
     
     <h3>Broken Link Building Technique</h3>
@@ -48,8 +47,7 @@ const BacklinksForNewWebsites: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for New Websites</h2>
     <p>While organic methods are ideal, buying <strong>backlinks for new websites</strong> can provide a quick boost. However, it's risky if not done right, as Google penalizes manipulative practices.</p>
@@ -143,9 +141,8 @@ const BacklinksForNewWebsites: React.FC = () => {
     <p>For expert advice, refer to <a href="https://www.semrush.com/blog/link-building-mistakes/" target="_blank" rel="noopener noreferrer">SEMrush's Link Building Mistakes</a>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      </div>
     
     <h2>FAQ: Backlinks for New Websites</h2>
     

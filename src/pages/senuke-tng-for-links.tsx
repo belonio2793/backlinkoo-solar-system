@@ -33,8 +33,7 @@ const SenukeTngForLinks: React.FC = () => {
     <p>Another key aspect is risk mitigation. With built-in captcha solvers and proxy rotations, SENUKE TNG for links minimizes detection risks, ensuring sustainable link building. This is crucial in an era where Google updates like Helpful Content emphasize quality over quantity.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>In essence, SENUKE TNG for links matters because it democratizes advanced link building, making it accessible to all levels of SEO practitioners. As we transition to organic strategies, remember that tools like this complement manual efforts for the best results.</p>
 
     <h2>Organic Strategies for Link Building with SENUKE TNG</h2>
@@ -150,8 +149,7 @@ const SenukeTngForLinks: React.FC = () => {
     <p>For more on automation, check out <Link to="/senuke">SENUKE for automation</Link>.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     <p>(Word count: 5123)</p>
 `;
   const keywords = "senuke, tng, for, links, SEO";

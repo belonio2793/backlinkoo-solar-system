@@ -34,8 +34,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
 
   <h2>Pros and Cons of Buying Backlinks: Safe Tips to Minimize Risks</h2>
   <p>While buying backlinks can be tempting, it's fraught with <strong>backlink farming risks</strong>. However, if done carefully, it can complement organic efforts. Let's weigh the pros and cons.</p>

@@ -31,16 +31,14 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h3>Content Marketing and Resource Pages</h3>
     <p>Create evergreen content like ultimate guides or infographics that naturally attract links. E-commerce sites can produce "best of" lists or comparison charts. Promote these on social media and forums to encourage shares and backlinks.</p>
     <p>Incorporate LSI terms such as "high-quality backlinks" and "SEO for online stores" to optimize for search. Google favors content that earns natural links, as per their <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener noreferrer">Search Central guidelines</a>.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h3>Influencer Collaborations and Partnerships</h3>
     <p>Partner with influencers in your e-commerce niche for shoutouts and backlinks. For example, send free products for reviews, ensuring they include dofollow links to your site. This builds domain authority while exposing your brand to new audiences.</p>

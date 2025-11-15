@@ -36,8 +36,7 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. Analyzing <strong>SpyFu competitor backlinks</strong> might reveal paid opportunities your rivals exploit. However, Google's guidelines warn against manipulative link schemes, so caution is essential.</p>

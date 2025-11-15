@@ -123,8 +123,7 @@ const LinkJuiceDistribution: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Mastering link juice distribution is essential for SEO success. As experts at Backlinkoo.com, we've seen firsthand how strategic link building can transform websites. Backed by data from authoritative sources like Moz (where sites with optimized links see 2-3x better performance) and Ahrefs studies showing 91% of pages get no organic traffic without backlinks, our approach is proven. Trust our experience – with over a decade in SEO, we provide authoritative, trustworthy services to enhance your domain authority and traffic. Contact Backlinkoo today to optimize your link juice distribution and dominate search rankings.</p>

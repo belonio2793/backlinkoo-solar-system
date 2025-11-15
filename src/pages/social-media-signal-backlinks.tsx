@@ -49,8 +49,7 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     <p>According to <a href="https://moz.com/blog/broken-link-building" target="_blank" rel="noopener noreferrer">Moz's guide on link building</a>, combining influencer outreach with social promotion yields the best results for <em>domain authority</em> growth.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Social Media Signal Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying social media signal backlinks can accelerate your SEO efforts. However, it's essential to weigh the pros and cons and follow safe practices to avoid penalties.</p>
@@ -151,8 +150,7 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     <p>Always adhere to <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Google's webmaster guidelines</a> to avoid penalties.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>FAQ: Frequently Asked Questions About Social Media Signal Backlinks</h2>
     <h3>1. What exactly are social media signal backlinks?</h3>

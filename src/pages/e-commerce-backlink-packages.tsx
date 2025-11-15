@@ -47,8 +47,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>At Backlinkoo, we recommend blending organic strategies with our e-commerce backlink packages for a balanced approach. For automation in outreach, consider <Link to="/senuke">SENUKE for automation</Link>, which streamlines guest post submissions.</p>
     
@@ -184,8 +183,7 @@ const ECommerceBacklinkPackages: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 15px;">Conclusion: Elevate Your E-Commerce SEO with Backlinkoo</h2>
     

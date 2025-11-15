@@ -35,8 +35,7 @@ const VoiceSearchBacklinkOptimization: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 
     <h3>Broken Link Building for Voice Search Content</h3>
     <p>Identify broken links on authority sites that referenced voice search or conversational query content. Suggest your comprehensive voice search optimization guide as a replacement. This strategy works particularly well because voice search is a growing topic with many outdated resources.</p>

@@ -41,8 +41,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h3>Resource Page Link Building</h3>
     <p>Search BuzzSumo for "resource pages" in your niche to find curated lists. If your content fits, pitch it for inclusion. This is a low-effort, high-reward strategy for gaining authoritative backlinks.</p>
@@ -155,8 +154,7 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Conclusion: Elevate Your Strategy with Backlinkoo</h2>
     <p>Leveraging <strong>BuzzSumo for link opportunities</strong> can transform your SEO game, backed by stats like Ahrefs' finding that top-ranking pages have 3.8x more backlinks. As experts at Backlinkoo, we emphasize an authoritative approach: Combine BuzzSumo's insights with our services for optimal results. With experience in thousands of campaigns, we ensure your link building is effective and penalty-free. Contact us today to supercharge your strategy.</p>

@@ -58,8 +58,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
   
@@ -185,8 +184,7 @@ const EEATSignalsViaBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Final Thoughts on E-E-A-T Signals: Stats and Expert Insights</h2>
   

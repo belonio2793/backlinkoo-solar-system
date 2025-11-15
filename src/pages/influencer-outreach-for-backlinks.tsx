@@ -55,8 +55,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <p>Other organic methods include HARO (Help a Reporter Out) queries, where you provide expert quotes to journalists (who are often influencers), earning backlinks in published articles. This builds credibility and domain authority over time.</p>
   
@@ -182,8 +181,7 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 20px;">Conclusion: Elevate Your SEO with Backlinkoo</h2>
   

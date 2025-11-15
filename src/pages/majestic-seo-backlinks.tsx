@@ -34,8 +34,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Buying Majestic SEO Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying Majestic SEO backlinks can accelerate growth when done safely. However, it's a double-edged sword—Google penalizes manipulative practices, so caution is key.</p>
@@ -109,8 +108,7 @@ const MajesticSeoBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid with Majestic SEO Backlinks</h2>
   <p>Avoiding pitfalls is crucial for sustainable SEO. One common mistake is ignoring link diversity—relying solely on one type of backlink can signal manipulation to Google. Always mix dofollow links with nofollow for a natural profile.</p>

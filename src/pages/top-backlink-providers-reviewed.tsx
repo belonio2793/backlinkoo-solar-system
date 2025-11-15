@@ -46,8 +46,7 @@ const TopBacklinkProvidersReviewed: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <p>Organic strategies require time but build a foundation of trust with search engines. Google favors natural link profiles, as outlined in their <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central Link Guidelines</a>.</p>
   
@@ -140,8 +139,7 @@ const TopBacklinkProvidersReviewed: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid in Backlink Building</h2>
   <p>Even with the best <strong>top backlink providers reviewed</strong>, mistakes can derail your efforts. Here are key pitfalls and how to sidestep them.</p>

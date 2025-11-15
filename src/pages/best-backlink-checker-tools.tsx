@@ -40,8 +40,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     <p>Resource page outreach involves finding curated lists and suggesting your site. Use checkers to evaluate the domain authority of these pages before investing time.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying backlinks is a controversial topic. The <strong>best backlink checker tools</strong> are invaluable here to verify purchased links' quality and avoid penalties.</p>
@@ -130,8 +129,7 @@ const BestBacklinkCheckerTools: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid When Using Backlink Checker Tools</h2>
     <p>Even with the <strong>best backlink checker tools</strong>, pitfalls abound. Here's how to steer clear.</p>

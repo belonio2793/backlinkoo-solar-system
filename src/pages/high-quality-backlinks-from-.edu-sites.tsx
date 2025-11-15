@@ -39,8 +39,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying High Quality Backlinks from .Edu Sites: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying <strong>high quality backlinks from .edu sites</strong> can accelerate your SEO efforts—if done safely. However, Google's guidelines warn against manipulative link schemes, so proceed with caution.</p>
@@ -123,8 +122,7 @@ const HighQualityBacklinksFromeduSites: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid When Pursuing High Quality Backlinks from .Edu Sites</h2>
     <p>Even with the best intentions, pitfalls abound in <em>link building</em>. Avoid these to safeguard your SEO.</p>

@@ -50,8 +50,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Pros and Cons of Buying Dofollow Backlinks</h2>
   <p>Deciding to purchase dofollow backlinks is a strategic choice that comes with both advantages and potential drawbacks. Understanding these can help you make an informed decision.</p>
@@ -144,8 +143,7 @@ const PurchaseDofollowBacklinks: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid When Purchasing Dofollow Backlinks</h2>
   <p>Avoiding pitfalls is key to successful link building. Here are common errors and how to steer clear.</p>

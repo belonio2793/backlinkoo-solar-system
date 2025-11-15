@@ -41,8 +41,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
 
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <p>For automation in outreach, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline your guest posting efforts while adhering to best practices.</p>
     
@@ -64,8 +63,7 @@ const BacklinkVelocityBestPractices: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <a href="https://moz.com/blog/buying-links" target="_blank" rel="noopener noreferrer">Moz Guide on Buying Links</a>
     

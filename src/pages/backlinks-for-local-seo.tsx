@@ -27,8 +27,7 @@ const BacklinksForLocalSeo: React.FC = () => {
 
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   </div>
   
   <p>If you're struggling to build these links manually, Backlinkoo offers professional services to secure high-quality, location-specific backlinks that align with Google's guidelines.</p>
@@ -65,8 +64,7 @@ const BacklinksForLocalSeo: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Buying Backlinks for Local SEO: Pros, Cons, and Safe Tips</h2>
   
@@ -167,9 +165,8 @@ const BacklinksForLocalSeo: React.FC = () => {
   <a href="https://moz.com/blog/local-seo-case-study" target="_blank" rel="noopener noreferrer">Moz Local SEO Case Study</a>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      </div>
   
   <h2>Common Mistakes to Avoid When Building Backlinks for Local SEO</h2>
   

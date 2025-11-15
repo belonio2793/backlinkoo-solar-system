@@ -33,8 +33,7 @@ const SpamScoreReductionForLinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Spam Score Reduction</h2>
     <p>While organic methods are ideal, buying links can accelerate <strong>spam score reduction for links</strong> if done safely. However, it's a gray area in SEO, so proceed with caution.</p>

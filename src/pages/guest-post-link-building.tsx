@@ -38,8 +38,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Buying Guest Posts: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying guest posts can accelerate your guest post link building efforts. This involves paying for placement on reputable sites, often securing dofollow links quickly.</p>
@@ -124,8 +123,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid in Guest Post Link Building</h2>
   <p>Even experts can falter in guest post link building. Here are key pitfalls and how to sidestep them.</p>

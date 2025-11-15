@@ -40,8 +40,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Google Penguin Recovery</h2>
     <p>While organic methods are ideal, buying backlinks can accelerate recovery if done safely. However, it's risky—Google penalizes manipulative practices. At Backlinkoo, we advocate for transparent, high-quality purchases that mimic natural links.</p>
@@ -123,8 +122,7 @@ const GooglePenguinRecoveryBacklinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid in Google Penguin Recovery Backlinks</h2>
     <p>Avoid repeating past errors. Don't rush into mass link building—focus on quality. Ignoring anchor text diversity can flag your site again. Failing to disavow bad links before building new ones prolongs recovery.</p>

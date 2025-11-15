@@ -31,8 +31,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <p>For automation in your link management, consider <Link to="/senuke">SENUKE for automation</Link>, which can help streamline audits and outreach processes.</p>
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Pros, Cons, and Safe Tips for Buying Services in Toxic Backlink Removal</h2>
   <p>While DIY methods work, buying professional toxic backlink removal services can save time and ensure thoroughness. At Backlinkoo, we offer expert solutions, but let's weigh the pros and cons.</p>
@@ -131,8 +130,7 @@ const ToxicBacklinkRemoval: React.FC = () => {
   </div>
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Conclusion: Trust Backlinkoo for Expert Toxic Backlink Removal</h2>
   <p>As SEO experts at Backlinkoo.com, we've seen firsthand how toxic backlink removal can transform struggling sites. Backed by data from sources like Moz (where 60% of penalized sites recover post-removal) and Ahrefs (noting a 25% average domain authority boost), our services deliver results. With an authoritative approach grounded in experience, we help you maintain a clean link profile for long-term success. Contact us today to start your toxic backlink removal journey and elevate your link building strategy.</p>

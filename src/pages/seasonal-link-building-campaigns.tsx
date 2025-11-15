@@ -32,8 +32,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     <p>Remember, quality over quantity—aim for content that solves problems or provides unique insights to encourage natural linking.</p>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Seasonal Campaigns</h2>
     <p>While organic methods are ideal, buying links can accelerate seasonal link building campaigns. However, it's risky due to Google's penalties for manipulative practices. At Backlinkoo, we advocate for white-hat approaches but understand the appeal of paid options for quick wins.</p>
@@ -148,8 +147,7 @@ const SeasonalLinkBuildingCampaigns: React.FC = () => {
     </div>
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
 `;
   const keywords = "seasonal, link, building, campaigns, SEO";
   

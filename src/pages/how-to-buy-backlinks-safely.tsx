@@ -47,8 +47,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h3 style="font-size: 1.5em; margin-top: 30px;">Content Marketing and Skyscraper Technique</h3>
   
@@ -182,8 +181,7 @@ const HowToBuyBacklinksSafely: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2 style="font-size: 2em; margin-top: 40px;">Conclusion: Building Trust with Safe Backlinks</h2>
   

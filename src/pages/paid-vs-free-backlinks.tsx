@@ -36,8 +36,7 @@ const PaidVsFreeBacklinks: React.FC = () => {
 <p>Social sharing on platforms like LinkedIn or Reddit can lead to organic backlinks if your content goes viral. According to Google Search Central, natural links from diverse sources signal authenticity. Combine these with content marketing to maximize free backlink acquisition.</p>
 <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-</div>
+      </div>
 <p>These strategies require time but build a robust backlink profile. For those short on time, Backlinkoo offers hybrid services that blend organic outreach with paid enhancements.</p>
 
 <h2>Paid Backlinks: Pros, Cons, and Safe Acquisition Tips</h2>

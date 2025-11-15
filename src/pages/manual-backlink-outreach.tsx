@@ -132,8 +132,7 @@ const ManualBacklinkOutreach: React.FC = () => {
   
   <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-  </div>
+      </div>
   
   <h2>Common Mistakes to Avoid in Manual Backlink Outreach</h2>
   <p>Even seasoned pros make errors. Here are key pitfalls:</p>

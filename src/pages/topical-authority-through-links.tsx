@@ -41,8 +41,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying links can accelerate your path to <strong>topical authority through links</strong>. However, it's a controversial practice due to Google's penalties for manipulative link schemes. At Backlinkoo, we advocate for ethical, white-hat approaches even when purchasing links.</p>
@@ -136,8 +135,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     
     <div class="media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      
-    </div>
+      </div>
     
     <h2>Common Mistakes to Avoid in Building Topical Authority Through Links</h2>
     <p>Even seasoned SEOs make errors. Here are key pitfalls:</p>
