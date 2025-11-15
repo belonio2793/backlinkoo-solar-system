@@ -1,316 +1,7 @@
 {
   "total": 109,
   "analyzed": 109,
-  "needsExpansion": [
-    {
-      "slug": "backlink-quality-factors",
-      "wordCount": 228
-    },
-    {
-      "slug": "backlink-relevancy-best-practices",
-      "wordCount": 217
-    },
-    {
-      "slug": "backlink-score-improvement",
-      "wordCount": 227
-    },
-    {
-      "slug": "backlink-strategy-for-local-business",
-      "wordCount": 228
-    },
-    {
-      "slug": "backlink-types-explained",
-      "wordCount": 225
-    },
-    {
-      "slug": "best-backlink-marketplaces",
-      "wordCount": 217
-    },
-    {
-      "slug": "best-backlink-monitoring-tools",
-      "wordCount": 227
-    },
-    {
-      "slug": "best-backlink-services-review",
-      "wordCount": 217
-    },
-    {
-      "slug": "best-guest-posting-platforms",
-      "wordCount": 227
-    },
-    {
-      "slug": "best-link-building-agencies",
-      "wordCount": 226
-    },
-    {
-      "slug": "best-link-building-courses",
-      "wordCount": 227
-    },
-    {
-      "slug": "best-seo-backlinking-tools",
-      "wordCount": 227
-    },
-    {
-      "slug": "blogger-outreach-for-backlinks",
-      "wordCount": 216
-    },
-    {
-      "slug": "broken-backlink-recovery",
-      "wordCount": 226
-    },
-    {
-      "slug": "broken-link-building-guide",
-      "wordCount": 227
-    },
-    {
-      "slug": "buying-backlinks-safely",
-      "wordCount": 226
-    },
-    {
-      "slug": "cheap-backlinks-vs-premium",
-      "wordCount": 235
-    },
-    {
-      "slug": "competitive-seo-backlink-analysis",
-      "wordCount": 226
-    },
-    {
-      "slug": "content-distribution-backlinks",
-      "wordCount": 216
-    },
-    {
-      "slug": "content-syndication-for-backlinks",
-      "wordCount": 217
-    },
-    {
-      "slug": "contextual-backlinks-guide",
-      "wordCount": 217
-    },
-    {
-      "slug": "create-high-authority-backlinks",
-      "wordCount": 227
-    },
-    {
-      "slug": "custom-backlink-strategy",
-      "wordCount": 227
-    },
-    {
-      "slug": "da-pa-backlink-metrics",
-      "wordCount": 226
-    },
-    {
-      "slug": "edu-backlink-strategies",
-      "wordCount": 217
-    },
-    {
-      "slug": "effective-backlink-outreach",
-      "wordCount": 217
-    },
-    {
-      "slug": "ecommerce-backlink-seo-guide",
-      "wordCount": 218
-    },
-    {
-      "slug": "enterprise-link-building-strategy",
-      "wordCount": 225
-    },
-    {
-      "slug": "expert-roundup-backlinks",
-      "wordCount": 217
-    },
-    {
-      "slug": "forum-backlinks-strategy",
-      "wordCount": 217
-    },
-    {
-      "slug": "free-backlinks-methods",
-      "wordCount": 219
-    },
-    {
-      "slug": "guest-post-backlink-strategy",
-      "wordCount": 218
-    },
-    {
-      "slug": "guest-post-email-templates",
-      "wordCount": 225
-    },
-    {
-      "slug": "high-authority-blog-backlinks",
-      "wordCount": 227
-    },
-    {
-      "slug": "high-quality-link-building-services",
-      "wordCount": 227
-    },
-    {
-      "slug": "how-many-backlinks-needed",
-      "wordCount": 216
-    },
-    {
-      "slug": "how-to-analyze-backlink-quality",
-      "wordCount": 217
-    },
-    {
-      "slug": "how-to-build-backlinks-fast",
-      "wordCount": 227
-    },
-    {
-      "slug": "how-to-check-backlinks",
-      "wordCount": 219
-    },
-    {
-      "slug": "how-to-do-backlink-outreach",
-      "wordCount": 217
-    },
-    {
-      "slug": "how-to-find-backlink-opportunities",
-      "wordCount": 226
-    },
-    {
-      "slug": "how-to-get-organic-backlinks",
-      "wordCount": 218
-    },
-    {
-      "slug": "industry-specific-backlink-tips",
-      "wordCount": 216
-    },
-    {
-      "slug": "influencer-link-building",
-      "wordCount": 216
-    },
-    {
-      "slug": "infographic-backlink-method",
-      "wordCount": 217
-    },
-    {
-      "slug": "internal-links-vs-backlinks",
-      "wordCount": 234
-    },
-    {
-      "slug": "keyword-research-for-link-building",
-      "wordCount": 235
-    },
-    {
-      "slug": "link-audit-and-cleanup",
-      "wordCount": 218
-    },
-    {
-      "slug": "link-bait-content-ideas",
-      "wordCount": 227
-    },
-    {
-      "slug": "link-building-automation-tools",
-      "wordCount": 227
-    },
-    {
-      "slug": "link-building-for-affiliate-sites",
-      "wordCount": 218
-    },
-    {
-      "slug": "link-building-for-saas-companies",
-      "wordCount": 227
-    },
-    {
-      "slug": "link-building-kpis",
-      "wordCount": 217
-    },
-    {
-      "slug": "link-building-scams-to-avoid",
-      "wordCount": 228
-    },
-    {
-      "slug": "link-buying-vs-organic",
-      "wordCount": 236
-    },
-    {
-      "slug": "link-exchange-risks",
-      "wordCount": 226
-    },
-    {
-      "slug": "link-indexing-services",
-      "wordCount": 217
-    },
-    {
-      "slug": "link-insertion-backlinks",
-      "wordCount": 217
-    },
-    {
-      "slug": "link-magnet-content-types",
-      "wordCount": 227
-    },
-    {
-      "slug": "local-backlink-strategies",
-      "wordCount": 217
-    },
-    {
-      "slug": "manual-vs-automated-link-building",
-      "wordCount": 227
-    },
-    {
-      "slug": "micro-niche-backlinks",
-      "wordCount": 215
-    },
-    {
-      "slug": "natural-backlink-growth",
-      "wordCount": 217
-    },
-    {
-      "slug": "niche-edits-guide",
-      "wordCount": 218
-    },
-    {
-      "slug": "nicheoutreach-backlinks",
-      "wordCount": 217
-    },
-    {
-      "slug": "outreach-personalization-tips",
-      "wordCount": 217
-    },
-    {
-      "slug": "parasite-seo-backlink-strategy",
-      "wordCount": 216
-    },
-    {
-      "slug": "pdf-backlinks-technique",
-      "wordCount": 217
-    },
-    {
-      "slug": "press-release-backlinks",
-      "wordCount": 226
-    },
-    {
-      "slug": "private-blog-network-risks",
-      "wordCount": 218
-    },
-    {
-      "slug": "profile-backlinks-guide",
-      "wordCount": 217
-    },
-    {
-      "slug": "quick-backlink-wins",
-      "wordCount": 217
-    },
-    {
-      "slug": "review-backlink-services",
-      "wordCount": 217
-    },
-    {
-      "slug": "seo-link-pyramids",
-      "wordCount": 217
-    },
-    {
-      "slug": "seo-ranking-with-backlinks",
-      "wordCount": 217
-    },
-    {
-      "slug": "skyscraper-backlink-technique",
-      "wordCount": 216
-    },
-    {
-      "slug": "voice-search-backlink-optimization",
-      "wordCount": 919
-    }
-  ],
+  "needsExpansion": [],
   "hasVideos": [
     {
       "slug": "ab-testing-anchor-texts",
@@ -523,14 +214,6 @@
       ]
     },
     {
-      "slug": "voice-search-backlink-optimization",
-      "videoCount": 2,
-      "videos": [
-        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kJQP7kiw9Fk\" title=\"Voice Search and Link Building\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"max-width: 100%;\">",
-        "https://www.youtube.com/embed/kJQP7kiw9Fk"
-      ]
-    },
-    {
       "slug": "web3-link-building-nfts",
       "videoCount": 4,
       "videos": [
@@ -584,83 +267,83 @@
     "backlink-indexing-techniques": 1432,
     "backlink-negotiation-scripts": 1587,
     "backlink-profile-diversification": 1838,
-    "backlink-quality-factors": 228,
-    "backlink-relevancy-best-practices": 217,
-    "backlink-score-improvement": 227,
-    "backlink-strategy-for-local-business": 228,
-    "backlink-types-explained": 225,
-    "best-backlink-marketplaces": 217,
-    "best-backlink-monitoring-tools": 227,
-    "best-backlink-services-review": 217,
-    "best-guest-posting-platforms": 227,
-    "best-link-building-agencies": 226,
-    "best-link-building-courses": 227,
-    "best-seo-backlinking-tools": 227,
-    "blogger-outreach-for-backlinks": 216,
-    "broken-backlink-recovery": 226,
-    "broken-link-building-guide": 227,
-    "buying-backlinks-safely": 226,
-    "cheap-backlinks-vs-premium": 235,
-    "competitive-seo-backlink-analysis": 226,
-    "content-distribution-backlinks": 216,
-    "content-syndication-for-backlinks": 217,
-    "contextual-backlinks-guide": 217,
-    "create-high-authority-backlinks": 227,
-    "custom-backlink-strategy": 227,
-    "da-pa-backlink-metrics": 226,
-    "edu-backlink-strategies": 217,
-    "effective-backlink-outreach": 217,
-    "ecommerce-backlink-seo-guide": 218,
-    "enterprise-link-building-strategy": 225,
-    "expert-roundup-backlinks": 217,
-    "forum-backlinks-strategy": 217,
-    "free-backlinks-methods": 219,
-    "guest-post-backlink-strategy": 218,
-    "guest-post-email-templates": 225,
-    "high-authority-blog-backlinks": 227,
-    "high-quality-link-building-services": 227,
-    "how-many-backlinks-needed": 216,
-    "how-to-analyze-backlink-quality": 217,
-    "how-to-build-backlinks-fast": 227,
-    "how-to-check-backlinks": 219,
-    "how-to-do-backlink-outreach": 217,
-    "how-to-find-backlink-opportunities": 226,
-    "how-to-get-organic-backlinks": 218,
-    "industry-specific-backlink-tips": 216,
-    "influencer-link-building": 216,
-    "infographic-backlink-method": 217,
-    "internal-links-vs-backlinks": 234,
-    "keyword-research-for-link-building": 235,
-    "link-audit-and-cleanup": 218,
-    "link-bait-content-ideas": 227,
-    "link-building-automation-tools": 227,
-    "link-building-for-affiliate-sites": 218,
-    "link-building-for-saas-companies": 227,
-    "link-building-kpis": 217,
-    "link-building-scams-to-avoid": 228,
-    "link-buying-vs-organic": 236,
-    "link-exchange-risks": 226,
-    "link-indexing-services": 217,
-    "link-insertion-backlinks": 217,
-    "link-magnet-content-types": 227,
-    "local-backlink-strategies": 217,
-    "manual-vs-automated-link-building": 227,
-    "micro-niche-backlinks": 215,
-    "natural-backlink-growth": 217,
-    "niche-edits-guide": 218,
-    "nicheoutreach-backlinks": 217,
-    "outreach-personalization-tips": 217,
-    "parasite-seo-backlink-strategy": 216,
-    "pdf-backlinks-technique": 217,
-    "press-release-backlinks": 226,
-    "private-blog-network-risks": 218,
-    "profile-backlinks-guide": 217,
-    "quick-backlink-wins": 217,
+    "backlink-quality-factors": 1773,
+    "backlink-relevancy-best-practices": 1813,
+    "backlink-score-improvement": 1772,
+    "backlink-strategy-for-local-business": 1857,
+    "backlink-types-explained": 1770,
+    "best-backlink-marketplaces": 1771,
+    "best-backlink-monitoring-tools": 1814,
+    "best-backlink-services-review": 1813,
+    "best-guest-posting-platforms": 1814,
+    "best-link-building-agencies": 1813,
+    "best-link-building-courses": 1814,
+    "best-seo-backlinking-tools": 1814,
+    "blogger-outreach-for-backlinks": 1812,
+    "broken-backlink-recovery": 1771,
+    "broken-link-building-guide": 1814,
+    "buying-backlinks-safely": 1771,
+    "cheap-backlinks-vs-premium": 1813,
+    "competitive-seo-backlink-analysis": 1813,
+    "content-distribution-backlinks": 1776,
+    "content-syndication-for-backlinks": 1813,
+    "contextual-backlinks-guide": 1771,
+    "create-high-authority-backlinks": 1814,
+    "custom-backlink-strategy": 1772,
+    "da-pa-backlink-metrics": 1807,
+    "edu-backlink-strategies": 1771,
+    "effective-backlink-outreach": 1771,
+    "ecommerce-backlink-seo-guide": 1814,
+    "enterprise-link-building-strategy": 1812,
+    "expert-roundup-backlinks": 1771,
+    "forum-backlinks-strategy": 1771,
+    "free-backlinks-methods": 1773,
+    "guest-post-backlink-strategy": 1814,
+    "guest-post-email-templates": 1812,
+    "high-authority-blog-backlinks": 1814,
+    "high-quality-link-building-services": 1856,
+    "how-many-backlinks-needed": 1812,
+    "how-to-analyze-backlink-quality": 1855,
+    "how-to-build-backlinks-fast": 1856,
+    "how-to-check-backlinks": 1815,
+    "how-to-do-backlink-outreach": 1855,
+    "how-to-find-backlink-opportunities": 1855,
+    "how-to-get-organic-backlinks": 1856,
+    "industry-specific-backlink-tips": 1806,
+    "influencer-link-building": 1770,
+    "infographic-backlink-method": 1771,
+    "internal-links-vs-backlinks": 1812,
+    "keyword-research-for-link-building": 1855,
+    "link-audit-and-cleanup": 1814,
+    "link-bait-content-ideas": 1814,
+    "link-building-automation-tools": 1814,
+    "link-building-for-affiliate-sites": 1856,
+    "link-building-for-saas-companies": 1856,
+    "link-building-kpis": 1771,
+    "link-building-scams-to-avoid": 1857,
+    "link-buying-vs-organic": 1814,
+    "link-exchange-risks": 1771,
+    "link-indexing-services": 1771,
+    "link-insertion-backlinks": 1771,
+    "link-magnet-content-types": 1814,
+    "local-backlink-strategies": 1771,
+    "manual-vs-automated-link-building": 1856,
+    "micro-niche-backlinks": 1763,
+    "natural-backlink-growth": 1771,
+    "niche-edits-guide": 1772,
+    "nicheoutreach-backlinks": 1735,
+    "outreach-personalization-tips": 1771,
+    "parasite-seo-backlink-strategy": 1812,
+    "pdf-backlinks-technique": 1771,
+    "press-release-backlinks": 1771,
+    "private-blog-network-risks": 1814,
+    "profile-backlinks-guide": 1771,
+    "quick-backlink-wins": 1771,
     "resource-page-link-building": 1432,
-    "review-backlink-services": 217,
-    "seo-link-pyramids": 217,
-    "seo-ranking-with-backlinks": 217,
-    "skyscraper-backlink-technique": 216,
+    "review-backlink-services": 1771,
+    "seo-link-pyramids": 1771,
+    "seo-ranking-with-backlinks": 1813,
+    "skyscraper-backlink-technique": 1764,
     "social-media-signal-backlinks": 1601,
     "spam-score-reduction-for-links": 1768,
     "spyfu-competitor-backlinks": 1626,
@@ -671,7 +354,7 @@
     "travel-blog-guest-posts": 1528,
     "ultimate-link-building-checklist": 1675,
     "video-seo-backlinks": 1611,
-    "voice-search-backlink-optimization": 919,
+    "voice-search-backlink-optimization": 1814,
     "web3-link-building-nfts": 1658,
     "where-to-find-high-quality-backlinks": 1510,
     "white-hat-link-building-techniques": 1329,
