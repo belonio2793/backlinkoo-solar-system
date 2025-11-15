@@ -65,7 +65,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Collaborate on co-created content, such as webinars or podcasts, which often result in mutual backlinks. This builds a network of natural referrals.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pKR-VvVeFJU" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Buying Links: Pros, Cons, and Safe Tips for Natural Patterns</h2>
@@ -215,7 +215,7 @@ const NaturalLinkBuildingPatterns: React.FC = () => {
     <p>Higher DA sites provide more value, strengthening your overall profile.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pKR-VvVeFJU" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

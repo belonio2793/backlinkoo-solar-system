@@ -37,7 +37,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>For more on automation in link building, check out our <Link to="/senuke">SENUKE for automation</Link> page, which can streamline your outreach efforts.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/p-OhCj6YPoI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Buying Guest Posts: Pros, Cons, and Safe Tips</h2>
@@ -122,7 +122,7 @@ const GuestPostLinkBuilding: React.FC = () => {
   <p>These cases show how guest post link building can drive measurable results. Ready to start? Contact Backlinkoo.com today.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXp6pVW6zVc" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/p-OhCj6YPoI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>Common Mistakes to Avoid in Guest Post Link Building</h2>
