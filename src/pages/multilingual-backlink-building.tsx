@@ -1,27 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MultilingualBacklinkBuilding: React.FC = () => {
-  return (
-    <>
-            <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Multilingual Backlink Building: The Key to Dominating Google Rankings in 2025</h1>
-        
-        <div dangerouslySetInnerHTML=<html>
-<head>
-    <title>Multilingual Backlink Building: A Comprehensive Guide</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 1200px; margin: 0 auto; }
-        h1, h2, h3 { color: #333; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        table th, table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        .media { text-align: center; margin: 20px 0; }
-        .media img { max-width: 100%; height: auto; }
-        @media (max-width: 768px) { body { margin: 10px; } }
-    </style>
-</head>
-<body>
+  const htmlContent = `
     <h1>Multilingual Backlink Building: Strategies for Global SEO Success</h1>
     <p>In the ever-evolving world of search engine optimization (SEO), multilingual backlink building stands out as a crucial strategy for businesses aiming to expand their reach across international borders. At Backlinkoo.com, we specialize in helping brands navigate the complexities of global link building to boost domain authority and drive organic traffic from diverse linguistic markets. This comprehensive guide will delve into everything you need to know about multilingual backlink building, from its fundamentals to advanced tactics, ensuring you're equipped to enhance your website's visibility worldwide.</p>
     
@@ -169,15 +150,20 @@ const MultilingualBacklinkBuilding: React.FC = () => {
         <p><em>Advanced tutorial (Source: Backlinkoo)</em></p>
     </div>
     <!-- Word count: Approximately 5200 words (expanded content in sections for length) -->
-</body>
-</html> />
+`;
+
+  return (
+    <>
+      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
+        <h1>Multilingual Backlink Building: The Key to Dominating Google Rankings in 2025</h1>
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
         <div className="author-bio">
           <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
         </div>
 
         <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 multilingual Free!
+          Register for Backlink ∞ Today – Get Your First 10 links Free!
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
