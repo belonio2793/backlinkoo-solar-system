@@ -139,7 +139,7 @@ const AbTestingAnchorTexts: React.FC = () => {
   </div>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nL8DGr3XLM0" title="Anchor Text Optimization for SEO Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Anchor Text Optimization for SEO Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
 
   <h2>Common Mistakes to Avoid in A/B Testing Anchor Texts</h2>

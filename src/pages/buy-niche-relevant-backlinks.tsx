@@ -35,7 +35,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>For posting and syndicating content across forums and blogs, <Link to="/xrumer">XRumer for posting</Link> can be an efficient tool to expand your reach without manual effort.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="Niche-Specific Link Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Niche-Specific Link Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Pros and Cons of Buying Niche Relevant Backlinks</h2>
@@ -111,7 +111,7 @@ const BuyNicheRelevantBacklinks: React.FC = () => {
     <p>These cases highlight how Backlinkoo's services can deliver measurable results when you <strong>buy niche relevant backlinks</strong>.</p>
     
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dE5qR8sT1vW" title="Niche-Specific Link Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Niche-Specific Link Purchasing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
     <h2>Common Mistakes to Avoid When Buying Niche Relevant Backlinks</h2>

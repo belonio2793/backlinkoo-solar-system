@@ -50,11 +50,11 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>Other organic tactics include HARO (Help a Reporter Out) for media mentions and creating shareable infographics that naturally attract links.</p>
 
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/mC2vN7pK4fG" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/mC2vN7pK4fG" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>The Pros and Cons of Buying Backlinks from Authority Sites</h2>
@@ -191,7 +191,7 @@ const BuyBacklinksFromAuthoritySites: React.FC = () => {
   <p>At Backlinkoo, we help you avoid these mistakes with expert-managed campaigns.</p>
   
   <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/mC2vN7pK4fG" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VxW4KKvQlHs" title="Buying Backlinks Safely" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
   
   <h2>FAQ: Frequently Asked Questions About Buying Backlinks from Authority Sites</h2>
