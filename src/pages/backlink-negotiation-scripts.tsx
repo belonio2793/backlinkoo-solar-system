@@ -34,9 +34,14 @@ const BacklinkNegotiationScripts: React.FC = () => {
     
     <h3>Guest Posting: Pitching Your Expertise</h3>
     <p>Guest posting involves writing articles for other sites in exchange for a backlink. It's a win-win: you get exposure and a link, they get quality content. To negotiate effectively, use scripts that highlight your expertise and the value of your contribution.</p>
-    
+
     <p>Sample Script for Guest Post Pitch:</p>
     <p>"Hi [Name], I came across your article on [Topic] and loved your insights on [Specific Point]. As an expert in [Your Niche], I'd love to contribute a guest post on [Proposed Topic] that dives deeper into [Benefit]. This could add value to your readers and include a dofollow link back to my site. What do you think?"</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link Building Negotiation Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Master the art of negotiating backlinks with webmasters and influencers (Source: YouTube)</em></p>
+    </div>
     
     <p>This script incorporates personalization and mutual benefit, key LSI elements in link building. Tools like <a href="/senuke">SENUKE for automation</a> can help scale your guest post outreach by automating email sends while keeping them personalized.</p>
     

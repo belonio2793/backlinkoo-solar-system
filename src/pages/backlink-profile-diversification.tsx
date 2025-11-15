@@ -36,8 +36,13 @@ const BacklinkProfileDiversification: React.FC = () => {
     
     <h3>Guest Posting: A Cornerstone of Link Building</h3>
     <p>Guest posting involves writing articles for other websites in exchange for a backlink. This strategy is excellent for backlink profile diversification because it allows you to target niche-relevant sites with varying domain authorities. Start by identifying authoritative blogs in your industry using tools like Ahrefs or SEMrush.</p>
-    
+
     <p>To succeed, craft high-quality, original content that provides real value. Pitch topics that solve problems or offer new insights. For instance, if you're in e-commerce, guest post on retail blogs about trends in consumer behavior. This not only diversifies your backlinks but also exposes your brand to new audiences.</p>
+
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Diversifying Your Backlink Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <p><em>Complete guide to building a diverse and natural backlink profile (Source: YouTube)</em></p>
+    </div>
     
     <p>Remember to vary your anchor texts—use a mix of branded, exact-match, and long-tail keywords to keep things natural. Guest posting can yield dofollow links from high-authority domains, significantly boosting your site's credibility.</p>
     
