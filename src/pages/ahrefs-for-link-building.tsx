@@ -44,9 +44,6 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These organic methods, powered by Ahrefs for link building, build sustainable SEO without risking penalties from Google.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/example-tutorial-id" title="Ahrefs Link Building Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Watch this tutorial on using Ahrefs for organic link building strategies (Source: Ahrefs YouTube)</em></p>
-  </div>
 
   <h2>Buying Backlinks: Pros, Cons, and Safe Tips with Ahrefs</h2>
   <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. Ahrefs for link building helps verify the quality of purchased links by checking metrics like DA, traffic, and spam score.</p>
@@ -162,9 +159,6 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>Our authoritative approach ensures trustworthiness—backed by stats from sources like Moz (where domain authority correlates with rankings) and Google Search Central. For personalized strategies, contact Backlinkoo today and let us handle your link building with Ahrefs precision.</p>
 
   <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/another-tutorial-id" title="Advanced Ahrefs Link Building" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><em>Advanced tutorial on integrating Ahrefs with other tools for link building (Source: Backlinkoo YouTube)</em></p>
-  </div>
 
   <a href="https://ahrefs.com/blog/" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>
   <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>
