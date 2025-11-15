@@ -1,0 +1,161 @@
+#!/usr/bin/env node
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// All 100 pages that should exist
+const requiredPages = [
+  'ab-testing-anchor-texts.tsx',
+  'affordable-link-building-services.tsx',
+  'ahrefs-for-link-building.tsx',
+  'ai-powered-link-building.tsx',
+  'anchor-text-optimization-for-backlinks.tsx',
+  'are-paid-backlinks-worth-it.tsx',
+  'authoritative-backlinks-for-e-commerce.tsx',
+  'backlink-building-for-beginners.tsx',
+  'backlink-disavow-tool-usage.tsx',
+  'backlink-dr-vs-ur-metrics.tsx',
+  'backlink-equity-calculation.tsx',
+  'backlink-farming-risks.tsx',
+  'backlink-growth-tracking.tsx',
+  'backlink-indexing-techniques.tsx',
+  'backlink-negotiation-scripts.tsx',
+  'backlink-profile-diversification.tsx',
+  'backlink-quality-factors.tsx',
+  'backlink-relevancy-best-practices.tsx',
+  'backlink-score-improvement.tsx',
+  'backlink-strategy-for-local-business.tsx',
+  'backlink-types-explained.tsx',
+  'best-backlink-marketplaces.tsx',
+  'best-backlink-monitoring-tools.tsx',
+  'best-backlink-services-review.tsx',
+  'best-guest-posting-platforms.tsx',
+  'best-link-building-agencies.tsx',
+  'best-link-building-courses.tsx',
+  'best-seo-backlinking-tools.tsx',
+  'blogger-outreach-for-backlinks.tsx',
+  'broken-backlink-recovery.tsx',
+  'broken-link-building-guide.tsx',
+  'buying-backlinks-safely.tsx',
+  'cheap-backlinks-vs-premium.tsx',
+  'competitive-seo-backlink-analysis.tsx',
+  'content-distribution-backlinks.tsx',
+  'content-syndication-for-backlinks.tsx',
+  'contextual-backlinks-guide.tsx',
+  'create-high-authority-backlinks.tsx',
+  'custom-backlink-strategy.tsx',
+  'da-pa-backlink-metrics.tsx',
+  'edu-backlink-strategies.tsx',
+  'effective-backlink-outreach.tsx',
+  'ecommerce-backlink-seo-guide.tsx',
+  'enterprise-link-building-strategy.tsx',
+  'expert-roundup-backlinks.tsx',
+  'forum-backlinks-strategy.tsx',
+  'free-backlinks-methods.tsx',
+  'guest-post-backlink-strategy.tsx',
+  'guest-post-email-templates.tsx',
+  'high-authority-blog-backlinks.tsx',
+  'high-quality-link-building-services.tsx',
+  'how-many-backlinks-needed.tsx',
+  'how-to-analyze-backlink-quality.tsx',
+  'how-to-build-backlinks-fast.tsx',
+  'how-to-check-backlinks.tsx',
+  'how-to-do-backlink-outreach.tsx',
+  'how-to-find-backlink-opportunities.tsx',
+  'how-to-get-organic-backlinks.tsx',
+  'industry-specific-backlink-tips.tsx',
+  'influencer-link-building.tsx',
+  'infographic-backlink-method.tsx',
+  'internal-links-vs-backlinks.tsx',
+  'keyword-research-for-link-building.tsx',
+  'link-audit-and-cleanup.tsx',
+  'link-bait-content-ideas.tsx',
+  'link-building-automation-tools.tsx',
+  'link-building-for-affiliate-sites.tsx',
+  'link-building-for-saas-companies.tsx',
+  'link-building-kpis.tsx',
+  'link-building-scams-to-avoid.tsx',
+  'link-buying-vs-organic.tsx',
+  'link-exchange-risks.tsx',
+  'link-indexing-services.tsx',
+  'link-insertion-backlinks.tsx',
+  'link-magnet-content-types.tsx',
+  'local-backlink-strategies.tsx',
+  'manual-vs-automated-link-building.tsx',
+  'micro-niche-backlinks.tsx',
+  'natural-backlink-growth.tsx',
+  'niche-edits-guide.tsx',
+  'nicheoutreach-backlinks.tsx',
+  'outreach-personalization-tips.tsx',
+  'parasite-seo-backlink-strategy.tsx',
+  'pdf-backlinks-technique.tsx',
+  'press-release-backlinks.tsx',
+  'private-blog-network-risks.tsx',
+  'profile-backlinks-guide.tsx',
+  'quick-backlink-wins.tsx',
+  'resource-page-link-building.tsx',
+  'review-backlink-services.tsx',
+  'seo-link-pyramids.tsx',
+  'seo-ranking-with-backlinks.tsx',
+  'skyscraper-backlink-technique.tsx',
+  'social-media-signal-backlinks.tsx',
+  'spam-score-reduction-for-links.tsx',
+  'spyfu-competitor-backlinks.tsx',
+  'tech-startup-backlinks.tsx',
+  'top-backlink-providers-reviewed.tsx',
+  'topical-authority-through-links.tsx',
+  'toxic-backlink-removal.tsx',
+  'travel-blog-guest-posts.tsx',
+  'ultimate-link-building-checklist.tsx',
+  'video-seo-backlinks.tsx',
+  'voice-search-backlink-optimization.tsx',
+  'web3-link-building-nfts.tsx',
+  'where-to-find-high-quality-backlinks.tsx',
+  'white-hat-link-building-techniques.tsx',
+  'xrumer-backlink-automation.tsx',
+  'zero-click-search-link-strategies.tsx',
+];
+
+const pagesDir = path.join(__dirname, 'src', 'pages');
+
+console.log('=== Validating 100 Required Pages ===\n');
+
+const missing = [];
+const found = [];
+const existing = new Set(fs.readdirSync(pagesDir));
+
+requiredPages.forEach((pageName, index) => {
+  const pageNumber = index + 1;
+  if (existing.has(pageName)) {
+    found.push(pageName);
+    process.stdout.write(`✓ [${pageNumber}/100] ${pageName}\n`);
+  } else {
+    missing.push(pageName);
+    process.stdout.write(`✗ [${pageNumber}/100] MISSING: ${pageName}\n`);
+  }
+});
+
+console.log('\n=== Summary ===');
+console.log(`Total Required: ${requiredPages.length}`);
+console.log(`Found: ${found.length}`);
+console.log(`Missing: ${missing.length}`);
+console.log(`Completion: ${((found.length / requiredPages.length) * 100).toFixed(1)}%`);
+
+if (missing.length > 0) {
+  console.log('\n=== Missing Pages ===');
+  missing.forEach((page, i) => {
+    console.log(`${i + 1}. ${page}`);
+  });
+  
+  console.log('\n=== Creation Command ===');
+  console.log('To create missing pages, run:');
+  missing.forEach(page => {
+    const baseName = page.replace(/\.tsx$/, '');
+    const pascalCase = baseName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('');
+    console.log(`# Create ${page}`);
+  });
+}
