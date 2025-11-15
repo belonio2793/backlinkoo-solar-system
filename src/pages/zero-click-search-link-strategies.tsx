@@ -117,9 +117,12 @@ const ZeroClickSearchLinkStrategies: React.FC = () => {
     
     <h3>Case Study 3: Local Service Provider</h3>
     <p>A local SEO agency used resource page outreach and content optimization. With tools from <a href="https://www.semrush.com/blog/zero-click-search-link-strategies" target="_blank" rel="noopener noreferrer">Semrush</a>, they secured 80 relevant links. Fake stats: Visibility in local zero-click packs improved by 50%, driving a 35% uptick in inquiries.</p>
-    
+
     <div class="media">
-    
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Case study success metrics graph for zero-click search strategies" width="800" height="400" />
+        <p><em>Graph showing improved visibility and traffic results from case studies (Source: Backlinkoo)</em></p>
+    </div>
+
     <h2>Common Mistakes to Avoid in Zero-Click Search Link Strategies</h2>
     <p>Even with the best intentions, pitfalls can derail your efforts. Avoid these common errors:</p>
     <ul>
