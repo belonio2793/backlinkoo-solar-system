@@ -62,10 +62,10 @@ const AffordableHighDrGuestPosts: React.FC = () => {
     <p>Niche edits are a targeted approach where we identify already-ranking content that's relevant to your niche and request strategic placement of your link.</p>
 
     <h3>Resource Page Link Building</h3>
-    <p>Resource pages function as comprehensive directories and compilations that aggregate useful tools, educational materials, and industry references.</p>
+    <p>Resource pages serve as centralized hubs that compile the best tools, guides, and references within a niche.</p>
 
     <h3>Broken Link Building</h3>
-    <p>This method focuses on locating non-functional hyperlinks on authoritative sites and offering suitable replacements.</p>
+    <p>The broken link method discovers dead hyperlinks on high-authority sites and proposes your content as a superior alternative.</p>
 
     <h2>Link Quality Metrics That Matter</h2>
     <table style="width:100%; border-collapse:collapse; border:1px solid #ddd;">

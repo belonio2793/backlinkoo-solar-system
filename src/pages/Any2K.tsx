@@ -198,7 +198,7 @@ export default function Any2KPage() {
           <section>
             <h2>Use cases by industry</h2>
 
-            <h3>Publishing & Newsrooms</h3>
+            <h2>Publishing & Newsrooms</h2>
             <p>
               Newsrooms deliver thousands of images and multimedia assets daily. Any2K automates responsive image generation, ensures consistent EXIF stripping for privacy, and produces multiple renditions for editorial systems.
             </p>
@@ -222,7 +222,7 @@ export default function Any2KPage() {
           <section>
             <h2>Case studies</h2>
 
-            <h3>Media agency: faster time-to-publish</h3>
+            <h2>Media agency: faster time-to-publish</h2>
             <p>
               A digital agency integrated Any2K into its CMS ingest. By automating image sizing, color profile normalization, and WebP generation, editorial time dropped by 40% and page load times improved measurably across the publisher's top 50 pages.
             </p>
@@ -326,7 +326,7 @@ console.log(job.id);`}
             <h3>Can we run it on-premise?</h3>
             <p>Yes — on-premise or VPC-hosted deployments are available for customers with strict data policies.</p>
 
-            <h3>Is there an undo for bulk jobs?</h3>
+            <h2>Is there an undo for bulk jobs?</h2>
             <p>All jobs produce operation logs and reversible steps to rollback transformations when necessary.</p>
           </section>
 

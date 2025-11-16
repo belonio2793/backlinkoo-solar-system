@@ -304,7 +304,7 @@ export default function BrianDean() {
 
             <section id="timeline" className="brian-section">
               <header className="mb-4">
-                <h2 className="brian-section__title">Milestones</h2>
+                <h3>Milestones</h3>
                 <p className="brian-section__summary">Key phases that shaped the Backlinko approach and its long‑term influence.</p>
               </header>
               <div className="mt-2 rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-xl">
@@ -361,7 +361,7 @@ export default function BrianDean() {
                 <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em]">
                   <Globe2 className="h-4 w-4" /> Put Ideas Into Motion
                 </span>
-                <h2 className="text-3xl font-black tracking-tight md:text-4xl">Execute the Backlinko‑Inspired Playbook</h2>
+                <h3>Execute the Backlinko‑Inspired Playbook</h3>
                 <p className="max-w-3xl text-lg text-white/85">
                   Pick one topic cluster, publish one definitive hub, and support it with three spokes. Add a small data asset and invite a handful of relevant sites
                   to reference it. Measure, refresh, and repeat. Small consistent wins become authority.

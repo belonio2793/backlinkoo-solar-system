@@ -44,7 +44,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
     <p>While organic methods are ideal, buying links can accelerate your path to <strong>topical authority through links</strong>. However, it's a controversial practice due to Google's penalties for manipulative link schemes. At Backlinkoo, we advocate for ethical, white-hat approaches even when purchasing links.</p>
     
-    <h3>Pros of Buying Links</h3>
+    <h2>Pros of Buying Links</h2>
     <ul>
         <li>Speed: Quickly acquire high-quality <strong>dofollow links</strong> from niche sites.</li>
         <li>Control: Choose exact anchor texts and placements for better relevance.</li>
@@ -123,7 +123,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>A health supplement store struggled with low rankings. By implementing a mix of guest posts and broken link building, they acquired 150 high-quality <strong>dofollow links</strong> over six months. Result: Organic traffic increased by 180%, from 5,000 to 14,000 monthly visitors. Domain authority rose from 35 to 52, per Moz metrics.</p>
     <p>Key takeaway: Focused <strong>link building</strong> in the health niche established strong topical authority.</p>
     
-    <h3>Case Study 2: Tech Blog Boost</h3>
+    <h2>Case Study 2: Tech Blog Boost</h2>
     <p>A tech blog used bought links safely through Backlinkoo, combining them with organic strategies. They gained 80 niche-specific links, leading to a 120% ranking improvement for core keywords. Traffic surged by 250%, and conversions doubled.</p>
     <p>Fake stats for illustration: Pre-campaign DA: 28; Post: 45. This demonstrates how <strong>topical authority through links</strong> can transform visibility.</p>
     
@@ -153,7 +153,7 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <h3>How many links do I need to build topical authority?</h3>
     <p>It's quality over quantity; 50-100 high-authority, relevant links can make a big difference, per Ahrefs data.</p>
     
-    <h3>Is buying links safe for SEO?</h3>
+    <h2>Is buying links safe for SEO?</h2>
     <p>If done ethically through providers like Backlinkoo, yes, but always prioritize natural-looking placements.</p>
     
     <h3>What tools are best for tracking link building progress?</h3>

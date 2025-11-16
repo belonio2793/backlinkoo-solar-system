@@ -191,11 +191,11 @@ export default function LinksThatRankPage() {
         html: `
         <p>While offers vary by provider, you’ll typically encounter these service types:</p>
         <div class="ltr-cards">
-          <div class="ltr-card"><h3>Custom Outreach & Guest Posts</h3><p>Editorial contributions developed for relevant publications. Quality hinges on topic selection, drafts, and the host’s standards.</p></div>
+          <div class="ltr-card"><h2>Custom Outreach & Guest Posts</h2><p>Editorial contributions developed for relevant publications. Quality hinges on topic selection, drafts, and the host’s standards.</p></div>
           <div class="ltr-card"><h3>Niche Edits (Contextual Links)</h3><p>Links added to existing articles where they <em>improve</em> the content. Vet the site, the page, and the context.</p></div>
           <div class="ltr-card"><h3>Digital PR</h3><p>Story‑driven campaigns that earn coverage through data, expert commentary, or unique angles. Long‑cycle, higher editorial bar.</p></div>
           <div class="ltr-card"><h3>Local Citations</h3><p>Aggregator submissions and curated directories to establish NAP consistency for local visibility.</p></div>
-          <div class="ltr-card"><h3>Content Production</h3><p>Linkable assets and supporting articles crafted for outreach and on‑site authority building.</p></div>
+          <div class="ltr-card"><h2>Content Production</h2><p>Linkable assets and supporting articles crafted for outreach and on‑site authority building.</p></div>
           <div class="ltr-card"><h3>Technical & On‑Page Support</h3><p>Ensuring target pages deserve to rank: crawlability, UX, internal links, and intent alignment.</p></div>
         </div>
       `,
@@ -262,7 +262,7 @@ export default function LinksThatRankPage() {
         title: 'Composite Case Patterns',
         html: `
         <div class="ltr-cards">
-          <div class="ltr-card"><h3>B2B SaaS</h3><p>Build linkable resources around industry benchmarks and pair with outreach to analyst blogs and practitioner communities. Links support cluster pages mapped to commercial problems.</p></div>
+          <div class="ltr-card"><h2>B2B SaaS</h2><p>Build linkable resources around industry benchmarks and pair with outreach to analyst blogs and practitioner communities. Links support cluster pages mapped to commercial problems.</p></div>
           <div class="ltr-card"><h3>Ecommerce</h3><p>Launch seasonal guides and category‑level explainers. Earn lifestyle and niche editorial placements that point into hubs; use internal links to push equity down to product grids.</p></div>
           <div class="ltr-card"><h3>Local Services</h3><p>Establish citations; add regional guest posts answering decisive homeowner questions; maintain GMB optimization and reviews. Measure increases in branded queries and calls.</p></div>
         </div>
@@ -299,7 +299,7 @@ export default function LinksThatRankPage() {
         html: `
         <h3>Is “Links That Rank” legit?</h3>
         <p>“Links That Rank” is referenced as a brand and as a standard for quality link acquisition. Always verify offers, samples, and policies directly with the provider before purchase.</p>
-        <h3>How fast will links impact rankings?</h3>
+        <h2>How fast will links impact rankings?</h2>
         <p>Effects depend on competition, on‑site strength, and link quality. Expect visible movement in 2–6 months for most scenarios.</p>
         <h3>Can I choose the sites?</h3>
         <p>Some vendors offer marketplace filters; managed outreach typically aligns on criteria rather than specific domains to preserve editorial integrity.</p>

@@ -105,7 +105,7 @@ export default function PrivateResumeBuilder() {
         </section>
 
         <section>
-          <h2>Features That Matter for Hiring Success</h2>
+          <h3>Features That Matter for Hiring Success</h3>
           <p>
             Effective resumes blend clear structure with targeted content. A privacy-oriented resume generator should provide features that improve both the document's clarity and its discoverability by hiring systems.
           </p>
@@ -151,7 +151,7 @@ export default function PrivateResumeBuilder() {
         </section>
 
         <section>
-          <h2>Advanced Capabilities: Automation, Versioning, and Integrations</h2>
+          <h3>Advanced Capabilities: Automation, Versioning, and Integrations</h3>
           <p>
             For power users, private resume tools offer advanced features that improve workflow without compromising privacy.
           </p>
@@ -192,7 +192,7 @@ export default function PrivateResumeBuilder() {
         </section>
 
         <section>
-          <h2>Who Should Use a Private Resume Builder?</h2>
+          <h3>Who Should Use a Private Resume Builder?</h3>
           <p>
             Private resume builders are ideal for professionals who prioritize confidentiality: executives, legal professionals, security personnel, or anyone applying to roles where discretion matters. They are also valuable to privacy-conscious jobseekers who prefer drafts and version history on their personal machine rather than a vendor cloud.
           </p>
@@ -213,7 +213,7 @@ export default function PrivateResumeBuilder() {
         </section>
 
         <section>
-          <h2>Practical Tips: Writing a Resume That Gets Read</h2>
+          <h3>Practical Tips: Writing a Resume That Gets Read</h3>
           <p>
             A great resume is concise, quantifiable, and tailored. Use these practical tips when building your resume with a private tool:
           </p>
@@ -256,7 +256,7 @@ export default function PrivateResumeBuilder() {
         </section>
 
         <section>
-          <h2>Final Thoughts</h2>
+          <h3>Final Thoughts</h3>
           <p>
             The Private Resume Builder approach gives you control, security, and the flexibility to craft better resumes without surrendering personal data to third parties. For jobseekers who value privacy and want professional outputs, a local-first, open-source resume generator is a modern and ethical choice.
           </p>

@@ -108,7 +108,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <h2>Case Studies: Real-World Success with Backlink Negotiation Scripts</h2>
     <p>Let's look at practical examples to see backlink negotiation scripts in action.</p>
     
-    <h3>Case Study 1: E-commerce Site Boost</h3>
+    <h2>Case Study 1: E-commerce Site Boost</h2>
     <p>An online store used our scripts for guest posting on fashion blogs. Result: 15 dofollow links from DA 40+ sites, increasing organic traffic by 25% in 3 months (fake stats for illustration). They leveraged <a href="/senuke">SENUKE</a> for automation.</p>
     
     <h3>Case Study 2: Tech Blog Expansion</h3>
@@ -139,7 +139,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <h3>1. What makes a good backlink negotiation script?</h3>
     <p>A good script is personalized, value-driven, and includes a clear CTA, incorporating LSI terms like dofollow links and domain authority.</p>
     
-    <h3>2. Are backlink negotiation scripts legal?</h3>
+    <h2>2. Are backlink negotiation scripts legal?</h2>
     <p>Yes, as long as they promote ethical link building, aligning with SEO best practices.</p>
     
     <h3>3. How do I measure success with these scripts?</h3>

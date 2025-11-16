@@ -172,7 +172,7 @@ export default function PluralPage(): JSX.Element {
             </section>
 
             <section id="use-cases">
-              <h2>Who Uses Plural: Primary Use Cases</h2>
+              <h3>Who Uses Plural: Primary Use Cases</h3>
 
               <h3>Incident Response</h3>
               <p>Operations teams keep runbooks for common failure modes—database incidents, server outages, or degraded services. Runnable steps and integrations with alerting systems speed resolution and reduce toil.</p>
@@ -222,7 +222,7 @@ export default function PluralPage(): JSX.Element {
             </section>
 
             <section id="metrics">
-              <h2>Measuring Impact: KPIs & ROI</h2>
+              <h3>Measuring Impact: KPIs & ROI</h3>
 
               <p>To quantify the value of Plural, focus on outcomes tied to speed, reliability, and knowledge transfer:</p>
               <ul>
@@ -279,7 +279,7 @@ export default function PluralPage(): JSX.Element {
             </section>
 
             <section id="limitations">
-              <h2>Limitations & When to Use Caution</h2>
+              <h3>Limitations & When to Use Caution</h3>
 
               <p>While playbooks are powerful, they are not a silver bullet. Consider these limitations:</p>
               <ul>
@@ -312,7 +312,7 @@ export default function PluralPage(): JSX.Element {
             </section>
 
             <section id="register" className="mt-8 mb-12">
-              <h2>Get More Visibility for Your Playbooks & Services</h2>
+              <h3>Get More Visibility for Your Playbooks & Services</h3>
               <p>If your team publishes valuable playbooks, guides, or tools, visibility helps attract collaborators, customers, and contributors. Backlink ∞ helps organizations build targeted backlinks and SEO strategies that increase discoverability and drive organic traffic to your resources.</p>
               <p className="mt-4"><a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer" className="text-blue-800 underline">Register for Backlink ∞ to buy backlinks (https://backlinkoo.com/register) and get traffic using SEO with user registration</a></p>
             </section>

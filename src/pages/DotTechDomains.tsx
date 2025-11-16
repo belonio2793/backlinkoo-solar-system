@@ -159,7 +159,7 @@ export default function DotTechDomainsPage(): JSX.Element {
                 Using .Tech can subtly increase perceived domain authority for technology queries if the content, authoritativeness, and backlink profile support the claim. It is not a direct ranking signal, but it supports brand perception and topical clustering.
               </p>
 
-              <h3>When to prefer .Tech over .com</h3>
+              <h2>When to prefer .Tech over .com</h2>
               <ul>
                 <li>Company or product is squarely focused on technology and developer audiences.</li>
                 <li>The ideal .com is unavailable or would be confusing; the .tech name offers clarity.</li>
@@ -188,7 +188,7 @@ export default function DotTechDomainsPage(): JSX.Element {
                 To maximize SEO on a .Tech site, implement rigorous technical SEO practices: fast page loads, mobile-first design, structured data (FAQ, Article), and a well-structured content hierarchy. These signals matter far more than the TLD.
               </p>
 
-              <h3>Backlink strategies that work for .Tech</h3>
+              <h2>Backlink strategies that work for .Tech</h2>
               <ol>
                 <li>Guest posts on developer blogs and engineering publications.</li>
                 <li>Documentation links from GitHub projects and README files.</li>
@@ -230,7 +230,7 @@ export default function DotTechDomainsPage(): JSX.Element {
                 <li>Check for social handle availability to maintain a cohesive brand across channels.</li>
               </ul>
 
-              <h3>Protecting your brand</h3>
+              <h2>Protecting your brand</h2>
               <p>
                 Consider registering common variations and related TLDs if you expect significant brand traffic. Redirect fallback domains to your primary .tech domain to capture mis-typed traffic and preserve brand integrity.
               </p>
@@ -262,7 +262,7 @@ export default function DotTechDomainsPage(): JSX.Element {
                 The content that succeeds on .tech domains tends to be technical, reference-oriented, and actionable. Below are categories to prioritize.
               </p>
 
-              <h3>Documentation & API references</h3>
+              <h2>Documentation & API references</h2>
               <p>
                 High-quality docs increase conversions and backlinks. Make docs searchable, versioned, and easy to embed in developer workflows. Provide code snippets in multiple languages and offer quick-start tutorials.
               </p>
@@ -286,7 +286,7 @@ export default function DotTechDomainsPage(): JSX.Element {
             <section id="seo-tactics">
               <h2>Practical SEO Tactics for .Tech Domains</h2>
 
-              <h3>1. Structure content for intent</h3>
+              <h2>1. Structure content for intent</h2>
               <p>
                 Map content to user intent: docs for "how to use", product pages for "what it does", and blog posts for discovery and long-tail queries. Use clear headings, short paragraphs, and code blocks so both humans and search engines parse your content easily.
               </p>
@@ -306,7 +306,7 @@ export default function DotTechDomainsPage(): JSX.Element {
                 Reach out to integrations, open-source contributors, and related tooling vendors. Publish example projects and SDKs that others link to from tutorials and guides.
               </p>
 
-              <h3>5. Community & developer relations</h3>
+              <h2>5. Community & developer relations</h2>
               <p>
                 Community involvement — sponsoring OSS projects, hosting webinars, and engaging on developer forums — builds trust and naturally attracts links.
               </p>

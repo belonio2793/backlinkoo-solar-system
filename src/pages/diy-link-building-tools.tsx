@@ -55,7 +55,7 @@ const DiyLinkBuildingTools: React.FC = () => {
   <h3> HARO (Help a Reporter Out)</h3>
   <p>Sign up for HARO to respond to journalist queries. Providing expert quotes can earn you <em>dofollow links</em> from high-authority sites like Forbes.</p>
   
-  <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
+  <h3>Buying Links: Pros, Cons, and Safe Tips</h3>
   <p>While organic methods are preferred, buying links can accelerate growth if done carefully. However, Google frowns upon paid links that manipulate rankings, so proceed with caution.</p>
   
   <h3>Pros of Buying Links</h3>
@@ -143,7 +143,7 @@ const DiyLinkBuildingTools: React.FC = () => {
     <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
   </div>
   
-  <h2>Common Mistakes to Avoid in DIY Link Building</h2>
+  <h3>Common Mistakes to Avoid in DIY Link Building</h3>
   <p>Even with the best <strong>DIY link building tools</strong>, mistakes can derail your efforts. Here are key pitfalls:</p>
   
   <h3>Ignoring Link Quality</h3>

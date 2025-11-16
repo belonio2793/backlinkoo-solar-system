@@ -204,7 +204,7 @@ export default function AnswerThePublic() {
             </section>
 
             <section id="features" className="atp-section">
-              <h2>Key Features</h2>
+              <h3>Key Features</h3>
               <div className="grid grid-cols-1 gap-6">
                 {[{title:'Question Families', body:'What, why, how, where, which, can—organized to mirror real intent.'}, {title:'Prepositions & Comparisons', body:'Discover "for", "with", "near", and X vs Y phrasing to identify decision criteria.'}, {title:'Alphabetical Expansions', body:'A–Z lists uncover long‑tail phrasings editors often miss.'}, {title:'Exports', body:'Move shortlists into CSV, notes, or planning tools to build briefs and sitemaps.'}, {title:'Team Collaboration', body:'Use shared lists and consistent naming so research scales across teams.'}].map(c => (
                   <Card key={c.title}><CardHeader><CardTitle className="flex items-center gap-2"><Sparkles className="h-4 w-4 text-indigo-600"/>{c.title}</CardTitle></CardHeader><CardContent><p>{c.body}</p></CardContent></Card>
@@ -246,7 +246,7 @@ export default function AnswerThePublic() {
             </section>
 
             <section id="use-cases" className="atp-section">
-              <h2>Use Cases</h2>
+              <h3>Use Cases</h3>
               <Tabs defaultValue="content">
                 <TabsList className="flex flex-wrap gap-1">
                   <TabsTrigger value="content">Content</TabsTrigger>
@@ -280,7 +280,7 @@ export default function AnswerThePublic() {
             </section>
 
             <section id="research" className="atp-section">
-              <h2>Expanded Guide</h2>
+              <h3>Expanded Guide</h3>
               <p>Below is an extended guide with methodology, examples, prompt lists, and checklists.</p>
               <InlineExpandedGuide />
             </section>

@@ -159,7 +159,7 @@ export default function LeadcheePage(): JSX.Element {
               <h3>Customizable Pipelines & Kanban Boards</h3>
               <p>Visual pipelines let teams track deals with drag-and-drop simplicity. Each board can be tailored with custom stages, automations, and shared with stakeholders so progress is transparent.</p>
 
-              <h3>Built-in Calling & Call Logging</h3>
+              <h2>Built-in Calling & Call Logging</h2>
               <p>Leadchee includes integrated calling with call recording and automatic logging. Make international calls from the platform, view a call history on each lead, and attach notes to preserve conversational context.</p>
 
               <h3>Proposal Generation & Tracking</h3>
@@ -171,7 +171,7 @@ export default function LeadcheePage(): JSX.Element {
               <h3>Integrations & Exports</h3>
               <p>Sync contacts with popular tools, export CSVs for reporting, and connect to Zapier or webhooks to automate downstream workflows like invoicing or marketing automation.</p>
 
-              <h3>Simple Pricing & Transparent Limits</h3>
+              <h2>Simple Pricing & Transparent Limits</h2>
               <p>Leadchee favors straightforward pricing models — typically a flat per-user price with generous features included to avoid surprises for scaling teams.</p>
             </section>
 
@@ -202,7 +202,7 @@ export default function LeadcheePage(): JSX.Element {
               <h3>Seed-Stage Sales Teams</h3>
               <p>Early-stage sales teams that need structure without bloat find Leadchee’s pipelines and proposal tools helpful for establishing repeatable processes quickly.</p>
 
-              <h3>Customer Success & Account Management</h3>
+              <h2>Customer Success & Account Management</h2>
               <p>Leadchee’s contact timelines and call logs provide a concise history for CSMs to manage renewals and upsells, ensuring no context is lost between handoffs.</p>
             </section>
 

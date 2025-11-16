@@ -137,7 +137,7 @@ export default function AidyPage() {
             <h3>Medication adherence</h3>
             <p>Log medications, doses, and missed doses. Linking administration times to symptom data helps clinicians assess treatment effectiveness and informs decisions like dose adjustments or switching therapies.</p>
 
-            <h3>Stool charting</h3>
+            <h2>Stool charting</h2>
             <p>Many IBD care teams use stool scales (Bristol scale) as an objective measure. Aidy provides stool logging with standardized categories, enabling trend analysis and clearer symptom narratives.</p>
 
             <h3>IBD-specific chatbot</h3>
@@ -188,7 +188,7 @@ export default function AidyPage() {
             <h3>Identifying dietary triggers</h3>
             <p>Patients who consistently log food and symptoms can spot patterns—certain foods correlate with late-night flares or specific bowel changes—leading to targeted dietary trials under clinical supervision.</p>
 
-            <h3>Monitoring medication effectiveness</h3>
+            <h2>Monitoring medication effectiveness</h2>
             <p>Objective adherence data helps assess whether lack of response is due to pharmacologic failure or inconsistent dosing.</p>
 
             <h3>Reducing avoidable escalations</h3>
@@ -236,7 +236,7 @@ export default function AidyPage() {
             <p>Don\'t worry—consistency is helpful but not perfect. Use scheduled reminders, and prioritize short entries over long blank days. Many patients build the habit by linking the log action to an existing daily cue (a morning routine or evening medication).</p>
             <h3>How do clinicians prefer receiving data?</h3>
             <p>Most clinicians appreciate concise exports summarizing key trends: frequency of flares, stool patterns, medication gaps, and notable triggers. Avoid sending raw, unfiltered logs unless requested.</p>
-            <h3>Is the chatbot a replacement for medical advice?</h3>
+            <h2>Is the chatbot a replacement for medical advice?</h2>
             <p>No. The chatbot provides educational information and triage guidance but cannot replace personalized clinical assessment.</p>
           </section>
 

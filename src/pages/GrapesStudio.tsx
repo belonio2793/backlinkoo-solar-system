@@ -160,7 +160,7 @@ export default function GrapesStudioPage(): JSX.Element {
               <h3>HTML-First Export & Ownership</h3>
               <p>Unlike many visual builders that introduce proprietary layers, Grapes Studio outputs standard HTML and CSS. This makes the exported site portable, easy to host on any platform, and friendly to developers who prefer to maintain code in version control.</p>
 
-              <h3>Clean, Semantic Markup</h3>
+              <h2>Clean, Semantic Markup</h2>
               <p>Exported code aims to be semantic and readable—class names, structural elements, and asset organization are preserved in a way that minimizes the cleanup required for production use.</p>
 
               <h3>Template Library & Blocks</h3>
@@ -192,7 +192,7 @@ export default function GrapesStudioPage(): JSX.Element {
             <section id="use-cases">
               <h2>Who Benefits Most: Primary Use Cases</h2>
 
-              <h3>Small Businesses Modernizing Sites</h3>
+              <h2>Small Businesses Modernizing Sites</h2>
               <p>Small businesses with legacy sites can import an existing presence, refresh design and messaging, and export deployable code—all without hefty developer hours. This is ideal for businesses that need quick turnaround on seasonal promotions or a brand refresh.</p>
 
               <h3>Designers & Agencies</h3>
@@ -204,7 +204,7 @@ export default function GrapesStudioPage(): JSX.Element {
               <h3>Marketing Teams & Content Creators</h3>
               <p>Marketers can iterate on landing pages, update hero content, and test variants without opening a code editor. AI copy suggestions and block templates accelerate A/B testing and campaign launches.</p>
 
-              <h3>Migration & Replatforming Projects</h3>
+              <h2>Migration & Replatforming Projects</h2>
               <p>Teams migrating away from monolithic CMS platforms can use Grapes Studio to capture site structure and generate portable assets for migration planning and phased launches.</p>
             </section>
 

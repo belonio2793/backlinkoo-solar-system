@@ -292,7 +292,7 @@ const EmailConfirmation = () => {
               <AlertCircle className="h-6 w-6 text-red-600" />
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-red-800">Verification failed</h3>
+              <h2>Verification failed</h2>
               <p className="text-muted-foreground mt-2">
                 {errorMessage || 'We couldn\'t verify your email address. Please try again.'}
               </p>

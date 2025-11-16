@@ -207,7 +207,7 @@ export default function EmergentPage() {
             <p>
               Designers use Emergent to put realistic interaction in front of stakeholders. Instead of static mockups, you present live flows with actual state and basic data—enough to validate direction before heavy engineering investment.
             </p>
-            <h3>Education and learning</h3>
+            <h2>Education and learning</h2>
             <p>
               For new developers, seeing a complete app emerge from a description can be transformational. You explore patterns (auth, routing, forms) by tweaking a working implementation, not reading about it in the abstract.
             </p>
@@ -227,7 +227,7 @@ export default function EmergentPage() {
             <p>
               Most modern apps need auth on day one. Emergent aims to make this boring—in a good way. Email-first onboarding, social login options, and role-based access are common asks that the platform scaffolds without significant ceremony.
             </p>
-            <h3>4) Deployment posture</h3>
+            <h2>4) Deployment posture</h2>
             <p>
               The messaging around “production-ready” matters. It signals that generated output is not just a toy, but something you can plausibly deploy, observe, and iterate on. You should still treat <strong>environment configuration, logging, monitoring, and security reviews</strong> as essential.
             </p>
@@ -302,7 +302,7 @@ export default function EmergentPage() {
 
           <section>
             <h2>Deep Dive: From Prompt to Production</h2>
-            <h3>Scaffolding an MVP</h3>
+            <h2>Scaffolding an MVP</h2>
             <p>
               Start with a high-level prompt that includes your users, the core objects they manipulate, and the key journeys they take. The first draft should give you navigation, forms, list/detail pages, and minimal validation. Read it like a product manager: does this flow reduce time-to-value for your users?
             </p>
@@ -318,7 +318,7 @@ export default function EmergentPage() {
             <p>
               Ask explicitly for structured logs, error boundaries, and request tracing. Even on day one, observability separates toys from tools. Your future self will thank you when a stakeholder asks, “What happened at 2:17 PM yesterday?”
             </p>
-            <h3>Shipping safely</h3>
+            <h2>Shipping safely</h2>
             <p>
               Before exposing users to a new flow, review security-sensitive code paths and enable basic rate limiting. Version your prompts or keep a simple changelog so you can track how the app evolved over time.
             </p>
@@ -430,7 +430,7 @@ export default function EmergentPage() {
 
           <section>
             <h2>Checklists</h2>
-            <h3>Security and reliability</h3>
+            <h2>Security and reliability</h2>
             <ul>
               <li>Input validation and output encoding on all boundary layers.</li>
               <li>Role checks on sensitive routes; deny by default.</li>
@@ -515,7 +515,7 @@ export default function EmergentPage() {
             <p>
               The platform evolves quickly. Rather than anchoring on a single framework, assume modern web conventions: component-based UIs, REST/JSON endpoints (sometimes GraphQL), and conventional persistence. If your stack is unusual, state your preferences in the prompt.
             </p>
-            <h3>How do I maintain generated apps?</h3>
+            <h2>How do I maintain generated apps?</h2>
             <p>
               Treat the output like a living codebase. Add linting, tests, and CI. Keep a record of the prompts that shaped each feature so you can reproduce or extend them predictably.
             </p>

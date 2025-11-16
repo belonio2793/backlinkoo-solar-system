@@ -253,7 +253,7 @@ export default function RybbitPage() {
 
           {/* Pricing Section */}
           <section className="rybbit-section">
-            <h2 className="rybbit-section__title">Transparent Pricing Structure</h2>
+            <h3>Transparent Pricing Structure</h3>
             <div className="rybbit-pricing">
               <div className="rybbit-pricing__grid">
                 <div className="rybbit-pricing-tier">
@@ -416,7 +416,7 @@ export default function RybbitPage() {
 
           {/* Glossary */}
           <section className="rybbit-section">
-            <h2 className="rybbit-section__title">Analytics Terminology Glossary</h2>
+            <h3>Analytics Terminology Glossary</h3>
             <p className="rybbit-section__description">
               Master the language of analytics with our comprehensive glossary of key terms and concepts.
             </p>

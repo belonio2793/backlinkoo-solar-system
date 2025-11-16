@@ -35,7 +35,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <p>Create exceptional content worthy of resource pages, such as ultimate guides, infographics, or tools. Promote it via social media and email outreach to curators. Remember, the key to successful resource page link building is relevance and quality.</p>
   
   
-  <h2>Buying Resource Page Links: Pros, Cons, and Safe Tips</h2>
+  <h3>Buying Resource Page Links: Pros, Cons, and Safe Tips</h3>
   <p>While organic methods are ideal, buying links can accelerate your resource page link building efforts. However, it's crucial to approach this carefully to avoid Google's penalties.</p>
   
   <h3>Pros of Buying Links</h3>
@@ -109,7 +109,7 @@ const ResourcePageLinkBuilding: React.FC = () => {
   
   
   
-  <h2>Common Mistakes to Avoid in Resource Page Link Building</h2>
+  <h3>Common Mistakes to Avoid in Resource Page Link Building</h3>
   <p>Avoid these pitfalls to ensure your resource page link building efforts succeed:</p>
   <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Ignoring relevance: Only target resource pages in your niche to maintain a natural link profile.</li>

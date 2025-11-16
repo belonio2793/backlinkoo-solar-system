@@ -247,7 +247,7 @@ export default function ScorecardSEO() {
             </p>
 
             <div>
-              <h3>Ready to grow your traffic?</h3>
+              <h2>Ready to grow your traffic?</h2>
               <p>
                 Register for Backlink ∞ to acquire targeted backlinks and drive organic traffic to your product pages, case studies, or documentation: <a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Register for Backlink ∞</a>.
               </p>

@@ -220,7 +220,7 @@ export default function InterShipFlowPage() {
               <div className="flex gap-4">
                 <Users className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Inconsistent Customer Experience</h3>
+                  <h2>Inconsistent Customer Experience</h2>
                   <p className="text-slate-700">When agents must manually search external systems, information retrieval becomes inconsistent. Some agents remember to check current tracking details, while others provide outdated information. This inconsistency creates a poor customer experience and can lead to misinformation about delivery timelines.</p>
                 </div>
               </div>
@@ -266,7 +266,7 @@ export default function InterShipFlowPage() {
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
                   <Zap className="w-6 h-6 text-pink-600" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Lightning-Fast Response Times</h3>
+                <h2>Lightning-Fast Response Times</h2>
                 <p className="text-slate-700 leading-relaxed">
                   InterShipFlow is engineered for speed. Order searches typically return results in 1-2 seconds, allowing agents to answer customer questions almost instantly. This responsiveness means agents can handle significantly more customer inquiries in the same time period, directly improving team throughput and customer satisfaction. For support teams measuring response time as a key performance metric, InterShipFlow provides measurable improvements in response time performance.
                 </p>
@@ -304,7 +304,7 @@ export default function InterShipFlowPage() {
               </div>
 
               <div className="border-l-4 border-purple-600 pl-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Multi-Warehouse and Multi-Location Businesses</h3>
+                <h2>Multi-Warehouse and Multi-Location Businesses</h2>
                 <p className="text-slate-700 leading-relaxed">
                   Businesses operating multiple warehouses or fulfillment centers benefit significantly from InterShipFlow's comprehensive order visibility. When a customer's order was fulfilled from a specific warehouse location, agents can instantly see which warehouse processed the order, track the shipment from that specific location, and understand fulfillment timelines across the organization. This unified visibility prevents inconsistent customer responses and enables agents to provide accurate information about warehouse-specific considerations, estimated delivery times by location, and carrier partnerships that vary by warehouse.
                 </p>
@@ -339,7 +339,7 @@ export default function InterShipFlowPage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">Real-Time API Proxying for Data Freshness</h3>
+                <h2>Real-Time API Proxying for Data Freshness</h2>
                 <p className="text-slate-700 leading-relaxed">
                   InterShipFlow proxies requests directly to Shipmondo's API on demand rather than caching order data. This architecture ensures every order lookup reflects Shipmondo's current state, preventing stale or outdated information. When a carrier updates tracking status, that update is immediately visible to agents using InterShipFlow. This real-time approach is essential for customer support, where outdated information can lead to misinformation and customer frustration. The architecture also simplifies InterShipFlow's data model, as no synchronization or caching logic is required.
                 </p>
@@ -489,7 +489,7 @@ export default function InterShipFlowPage() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2">Install from Intercom App Store</h3>
+                  <h2>Install from Intercom App Store</h2>
                   <p className="text-slate-700">Search for InterShipFlow in the Intercom App Store and click install. The app integrates directly with your workspace in seconds. No external links, no complicated permissions.</p>
                 </div>
               </div>

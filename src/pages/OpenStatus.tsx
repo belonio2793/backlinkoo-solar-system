@@ -324,7 +324,7 @@ const OpenStatus = () => {
       <section id="integrations" className="py-24 px-6 bg-black/40">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Powerful Integrations</h2>
+            <h3>Powerful Integrations</h3>
             <p className="text-xl text-gray-400">
               Connect OpenStatus with your favorite tools and platforms
             </p>
@@ -475,7 +475,7 @@ const OpenStatus = () => {
       {/* Getting Started Section */}
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">Getting Started with OpenStatus</h2>
+          <h3>Getting Started with OpenStatus</h3>
           <p className="text-center text-gray-400 mb-12 text-lg">
             Quick steps to begin monitoring your services
           </p>

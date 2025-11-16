@@ -48,7 +48,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   <p>These methods boost visibility and domain authority ethically. For more on this, check out <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' guide to broken link building</a>.</p>
   
   
-  <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
+  <h3>Buying Links: Pros, Cons, and Safe Tips</h3>
   
   <p>While buying links is often seen as black hat, there are ethical ways to approach it—focusing on sponsored content or partnerships. Let's break down the pros, cons, and how to do it safely as part of your ethical black hat alternatives arsenal.</p>
   
@@ -128,7 +128,7 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   
   
   
-  <h2>Common Mistakes to Avoid in Ethical Black Hat Alternatives</h2>
+  <h3>Common Mistakes to Avoid in Ethical Black Hat Alternatives</h3>
   
   <p>Even with good intentions, pitfalls abound. Avoid over-optimizing anchor text, which can flag your site as spammy—Google's data shows 30% of penalties stem from this. Don't neglect mobile optimization; with 60% of searches on mobile (Statista), ensure your strategies are responsive.</p>
   

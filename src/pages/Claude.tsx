@@ -329,7 +329,7 @@ const Claude = () => {
       <section id="use-cases" className="py-24 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-slate-900">Industry Applications</h2>
+            <h3>Industry Applications</h3>
             <p className="text-lg text-slate-600">
               Claude transforms workflows across diverse sectors
             </p>
@@ -468,7 +468,7 @@ const Claude = () => {
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center">
-            <h2 className="text-4xl font-bold mb-6 text-slate-900">Access Claude Today</h2>
+            <h3>Access Claude Today</h3>
             <p className="text-lg text-slate-600 mb-8">
               Start using Claude for free or integrate it into your enterprise workflow
             </p>
@@ -607,7 +607,7 @@ const Claude = () => {
       {/* Footer CTA */}
       <section className="py-16 px-6 border-t border-slate-200 bg-white">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 text-slate-900">Ready to Transform Your Workflow?</h2>
+          <h3>Ready to Transform Your Workflow?</h3>
           <p className="text-lg text-slate-600 mb-8">
             Start using Claude today and register for Backlink ∞ to amplify your digital presence
           </p>
@@ -730,7 +730,7 @@ const Claude = () => {
       {/* Getting Started Guide */}
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center text-slate-900">Getting Started with Claude</h2>
+          <h3>Getting Started with Claude</h3>
           <p className="text-center text-slate-600 mb-12 text-lg">
             Quick steps to begin leveraging Claude for your needs
           </p>

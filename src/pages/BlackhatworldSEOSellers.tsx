@@ -125,7 +125,7 @@ export default function BlackhatworldSEOSellers() {
   </section>
 
   <section id="signals" class="bhw-section">
-    <h2>Selection Signals</h2>
+    <h3>Selection Signals</h3>
     <ul>
       <li>Editorial context over raw DR/DA—do articles help readers achieve something?</li>
       <li>Anchor governance—prefer branded/partial‑match; reserve exact‑match for exceptional editorial fits.</li>
@@ -158,7 +158,7 @@ export default function BlackhatworldSEOSellers() {
   </section>
 
   <section id="quality" class="bhw-section">
-    <h2>Quality & Risk Controls</h2>
+    <h3>Quality & Risk Controls</h3>
     <div class="bhw-grid">
       <div class="bhw-card">
         <h3>Quality Controls</h3>
@@ -201,7 +201,7 @@ export default function BlackhatworldSEOSellers() {
   </section>
 
   <section id="faq" class="bhw-section">
-    <h2>Frequently Asked Questions</h2>
+    <h3>Frequently Asked Questions</h3>
     <details><summary>Is BlackHatWorld safe for buyers?</summary><p>It depends on your diligence. Validate vendors through thread history, proofs, and clear remediation terms. Avoid unrealistic claims and prioritize relevance and editorial quality.</p></details>
     <details><summary>Do you endorse specific sellers?</summary><p>No. This guide offers vendor‑agnostic criteria and neutral profiles so you can evaluate fit for your goals.</p></details>
   </section>

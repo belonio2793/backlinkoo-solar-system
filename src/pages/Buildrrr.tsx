@@ -158,7 +158,7 @@ export default function Buildrrr() {
               </p>
             </div>
             <div className="bg-gray-800 p-8 rounded-lg border border-gray-700">
-              <h3 className="text-2xl font-bold text-white mb-4">Distribution Compliance</h3>
+              <h2>Distribution Compliance</h2>
               <p className="text-gray-300 leading-relaxed">
                 Gatekeeper and code signing requirements evolve continuously. Buildrrr stays current with Apple's requirements and applies best practices automatically, ensuring your installers pass distribution checks without rejection or compatibility issues.
               </p>
@@ -196,7 +196,7 @@ export default function Buildrrr() {
             </div>
 
             <div className="bg-white">
-              <h3 className="text-2xl font-bold text-white mb-4">Template System for Consistency</h3>
+              <h2>Template System for Consistency</h2>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Once you've designed the perfect installer layout, save it as a reusable template. This ensures every release maintains identical branding and layout without redesigning each time. Templates preserve all layout decisions, brand elements, and customizations for instant application to new builds.
               </p>
@@ -261,7 +261,7 @@ export default function Buildrrr() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white mb-2">Setup Your Project</h3>
+                <h2>Setup Your Project</h2>
                 <p className="text-gray-300 leading-relaxed">
                   Start by naming your project and selecting the macOS application you want to distribute. Choose your compression settings to balance between file size and installation speed. This initial setup takes just minutes and establishes the foundation for your DMG creation process.
                 </p>
@@ -313,7 +313,7 @@ export default function Buildrrr() {
           </div>
 
           <div className="bg-gray-800 rounded-lg p-12 border border-gray-700 mb-8">
-            <h3 className="text-2xl font-bold text-white mb-6">For Development Teams</h3>
+            <h2>For Development Teams</h2>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Development teams release software frequently, often multiple times per week. Buildrrr's template system allows you to define branding and layout once, then every team member can generate production-ready installers without design or technical knowledge. This eliminates the "only one person knows how to build DMGs" bottleneck that plagues many organizations.
             </p>
@@ -539,7 +539,7 @@ export default function Buildrrr() {
             </div>
 
             <div className="bg-gray-800 rounded-lg p-8 border border-gray-700">
-              <h3 className="text-xl font-bold text-white mb-4">Can multiple team members use the same templates?</h3>
+              <h2>Can multiple team members use the same templates?</h2>
               <p className="text-gray-300 leading-relaxed">
                 Absolutely. Templates are stored locally on each machine, but you can export and share them across your team. This ensures everyone builds releases with identical branding and layout, eliminating inconsistencies and reducing the need for design oversight on every release.
               </p>
@@ -574,7 +574,7 @@ export default function Buildrrr() {
           
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-4">Professional First Impressions Matter</h3>
+              <h2>Professional First Impressions Matter</h2>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 Users form opinions about software quality instantly when they encounter your installer. A branded, professional DMG signals attention to detail and reliability. Buildrrr ensures first impressions reinforce your brand identity rather than leaving users with generic, forgettable experiences.
               </p>
@@ -625,7 +625,7 @@ export default function Buildrrr() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-800 p-8 rounded-lg border border-gray-700">
-              <h3 className="text-xl font-bold text-white mb-4">For CI/CD Pipelines</h3>
+              <h2>For CI/CD Pipelines</h2>
               <p className="text-gray-300 leading-relaxed">
                 Buildrrr works alongside your continuous integration systems. Build your application in CI, then use Buildrrr to package and sign it for distribution. The tool integrates with shell scripts and automation workflows, allowing you to trigger builds programmatically as part of your release pipeline.
               </p>

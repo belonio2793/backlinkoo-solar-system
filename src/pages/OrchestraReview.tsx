@@ -297,7 +297,7 @@ export default function OrchestraReview(): JSX.Element {
             and consider conducting a proof-of-concept with real production traffic.
           </p>
 
-          <h3>Can I run my own code within workflows?</h3>
+          <h2>Can I run my own code within workflows?</h2>
           <p>
             Yes — most orchestration platforms provide SDKs or serverless hooks that let you execute custom code. Keep custom logic small
             and well-tested to reduce operational risk.

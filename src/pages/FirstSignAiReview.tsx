@@ -42,7 +42,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>What is FirstSign.ai?</h2>
+          <h3>What is FirstSign.ai?</h3>
           <p>
             FirstSign.ai is a cloud service and SDK suite that converts raw video or camera frames into interpreted sign language labels
             and gesture events. It aims to be accessible to developers through simple APIs and SDKs, enabling rapid integrations in web,
@@ -89,7 +89,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Accuracy & real-world performance</h2>
+          <h3>Accuracy & real-world performance</h3>
           <p>
             Gesture recognition accuracy is the most critical metric. In our tests, FirstSign.ais base models performed well for
             prototypical, clearly-executed gestures under good lighting. In controlled conditions the system reached high precision for a
@@ -139,7 +139,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Integration & developer experience</h2>
+          <h3>Integration & developer experience</h3>
           <p>
             The developer experience is crucial for adoption. FirstSign.ais SDKs are straightforward for common scenarios: a few lines
             to initialize the client, start a camera stream, and receive labeled events with timestamps. Example snippets for web and
@@ -183,7 +183,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Pricing, tiers & value</h2>
+          <h3>Pricing, tiers & value</h3>
           <p>
             Pricing for these services typically scales with usage: number of API calls, minutes of processed video, or concurrent
             sessions. Evaluate expected usage patterns early: a low-volume prototype can run on modest budgets, but interactive,
@@ -242,7 +242,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Security considerations</h2>
+          <h3>Security considerations</h3>
           <p>
             Treat camera data as sensitive. Use secure transport (HTTPS), minimize server-side retention of frames, and provide clear
             privacy notices to users. If processing under regulatory constraints, establish data processing agreements and ensure
@@ -277,7 +277,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Step-by-step integration example (web)</h2>
+          <h3>Step-by-step integration example (web)</h3>
           <p>
             1) Create an account and retrieve an API key. 2) Install the SDK or include the client script. 3) Request camera permission via
             getUserMedia. 4) Initialize the FirstSign client and start streaming frames. 5) Listen for labeled events and handle them in your
@@ -322,7 +322,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Practical pitfalls and how to avoid them</h2>
+          <h3>Practical pitfalls and how to avoid them</h3>
           <p>
             Avoid launching with a single input mode for critical actions—always include an alternate path. Test with diverse signers and
             lighting conditions, and gather metrics to detect bias. When accuracy is borderline, surface the uncertainty to users and ask
@@ -368,7 +368,7 @@ export default function FirstSignAiReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Checklist before launching a production deployment</h2>
+          <h3>Checklist before launching a production deployment</h3>
           <ul>
             <li>Run a privacy impact assessment and remove unnecessary frame retention</li>
             <li>Collect representative training data for your user population</li>

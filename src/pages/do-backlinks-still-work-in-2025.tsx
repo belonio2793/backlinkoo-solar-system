@@ -53,7 +53,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <p>Backlinkoo's automation tools, such as <Link to="/senuke">SENUKE for automation</Link>, streamline finding and outreach for broken links, saving you time.</p>
     
-    <h3>Resource Page Link Building and HARO</h3>
+    <h2>Resource Page Link Building and HARO</h2>
     
     <p>Resource pages curate helpful links; get featured by offering valuable resources. HARO (Help a Reporter Out) connects you with journalists needing sources, often leading to high-authority backlinks.</p>
     
@@ -145,7 +145,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     
     <p>Let's look at three fictional but realistic case studies showcasing how backlinks drive results.</p>
     
-    <h3>Case Study 1: E-Commerce Site Boost</h3>
+    <h2>Case Study 1: E-Commerce Site Boost</h2>
     
     <p>An online store used organic guest posts and <Link to="/xrumer">XRumer for posting</Link> to acquire 150 high-domain authority backlinks. Result: Organic traffic increased by 45% in six months, with domain authority rising from 35 to 52. Sales jumped 30%, proving <strong>do backlinks still work in 2025</strong> for e-commerce.</p>
     
@@ -178,7 +178,7 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <h3>1. Do backlinks still work in 2025?</h3>
     <p>Yes, they remain a core SEO factor, enhancing domain authority and rankings when high-quality.</p>
     
-    <h3>2. What's the difference between dofollow and nofollow links?</h3>
+    <h2>2. What's the difference between dofollow and nofollow links?</h2>
     <p>Dofollow pass link juice; nofollow don't but can still benefit traffic.</p>
     
     <h3>3. Is buying backlinks safe?</h3>

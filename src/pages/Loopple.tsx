@@ -143,7 +143,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>How templates accelerate launches</h2>
+            <h3>How templates accelerate launches</h3>
             <p>Templates shrink the time between concept and live campaign. There are three concrete time-savings mechanisms:</p>
             <ol>
               <li><strong>Design reuse:</strong> Starting from a tested layout removes the need for bespoke layout decisions for each campaign.</li>
@@ -180,7 +180,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>From Figma to production: practical workflow</h2>
+            <h3>From Figma to production: practical workflow</h3>
             <p>A robust workflow ensures that design changes are implemented predictably and that non-developers can modify content without breaking layout. A common workflow follows these steps:</p>
             <ol>
               <li>Designers finalize a Figma page and annotate components with token references and editable content regions.</li>
@@ -220,7 +220,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>SEO fundamentals for template-powered pages</h2>
+            <h3>SEO fundamentals for template-powered pages</h3>
             <p>Templates provide structural benefits, but SEO depends largely on the content and how it is presented. Key SEO practices include:</p>
             <ul>
               <li><strong>Semantic structure:</strong> Use a single H1 that conveys product intent, and H2/H3 headings that align with targeted long-tail keywords.</li>
@@ -260,7 +260,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>Content strategy: pairing templates with long-form resources</h2>
+            <h3>Content strategy: pairing templates with long-form resources</h3>
             <p>Templates are the landing scaffold; content drives organic discovery and authority. Complement template pages with longer content: how-to guides, case studies, and tutorials that explain product value and implementation. This creates a content funnel where long-form posts attract search traffic and templates convert visitors into leads.</p>
 
             <p>Examples of content that pairs well with templates:</p>
@@ -298,7 +298,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>Analytics, attribution, and conversion tracking</h2>
+            <h3>Analytics, attribution, and conversion tracking</h3>
             <p>Templates should include hooks for analytics out of the box. Track the following:</p>
             <ul>
               <li>Session-level metrics: page views, average time on page, bounce rate.</li>
@@ -336,7 +336,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>Testimonials</h2>
+            <h3>Testimonials</h3>
             <blockquote>"Templates gave our small team a professional look without hiring a full-time designer. We launched campaigns weekly and learned what actually resonated with customers." — Growth Lead, Bootstrap Startup</blockquote>
             <blockquote>"The Figma files were easy to edit and the exported assets saved our devs hours. We now have a repeatable process for launching features and collecting feedback." — Product Manager, Scaleup</blockquote>
           </section>
@@ -366,7 +366,7 @@ export default function LoopplePage() {
           </section>
 
           <section>
-            <h2>Common mistakes and how to avoid them</h2>
+            <h3>Common mistakes and how to avoid them</h3>
             <ul>
               <li><strong>Overcustomization:</strong> Excessive layout changes can erode the benefits of using a template. Keep changes focused on copy, images, and tokens.</li>
               <li><strong>Lack of testing:</strong> Failing to test templates across devices and content lengths leads to broken layouts and missed conversions.</li>

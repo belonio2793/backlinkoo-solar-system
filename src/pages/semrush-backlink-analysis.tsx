@@ -140,16 +140,16 @@ const SemrushBacklinkAnalysis: React.FC = () => {
     <p>Outbound link: Common SEO mistakes from <a href="https://moz.com/blog/seo-mistakes" target="_blank" rel="noopener noreferrer">Moz</a>.</p>
     
     <h2>FAQ: Frequently Asked Questions About SEMrush Backlink Analysis</h2>
-    <h3>1. What is the difference between dofollow and nofollow links in SEMrush backlink analysis?</h3>
-    <p>Dofollow links pass authority, boosting domain authority, while nofollow do not. SEMrush categorizes them for easy analysis.</p>
-    <h3>2. How often should I perform SEMrush backlink analysis?</h3>
-    <p>Monthly audits are recommended, especially after link building campaigns, to monitor toxic scores and new acquisitions.</p>
-    <h3>3. Can SEMrush backlink analysis help with competitor research?</h3>
-    <p>Yes, it reveals competitors' referring domains and strategies, aiding your own link building.</p>
-    <h3>4. Is buying backlinks safe when using SEMrush?</h3>
-    <p>It can be if you vet with SEMrush and choose quality providers like Backlinkoo.</p>
     <h3>5. How does domain authority factor into SEMrush backlink analysis?</h3>
     <p>SEMrush uses its Authority Score, similar to Moz's DA, to evaluate link quality and overall site strength.</p>
+    <h3>4. Is buying backlinks safe when using SEMrush?</h3>
+    <p>It can be if you vet with SEMrush and choose quality providers like Backlinkoo.</p>
+    <h3>3. Can SEMrush backlink analysis help with competitor research?</h3>
+    <p>Yes, it reveals competitors' referring domains and strategies, aiding your own link building.</p>
+    <h3>2. How often should I perform SEMrush backlink analysis?</h3>
+    <p>Monthly audits are recommended, especially after link building campaigns, to monitor toxic scores and new acquisitions.</p>
+    <h3>1. What is the difference between dofollow and nofollow links in SEMrush backlink analysis?</h3>
+    <p>Dofollow links pass authority, boosting domain authority, while nofollow do not. SEMrush categorizes them for easy analysis.</p>
     
     
     

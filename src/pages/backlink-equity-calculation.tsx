@@ -52,7 +52,7 @@ const BacklinkEquityCalculation: React.FC = () => {
   
   <p>The difference is dramatic—Forbes link = 45x more value than the low-authority link.</p>
   
-  <h2>Organic Strategies for Building High-Equity Backlinks</h2>
+  <h3>Organic Strategies for Building High-Equity Backlinks</h3>
   
   <p>Organic link building is the cornerstone of sustainable SEO and high-equity acquisition. These methods focus on earning backlinks naturally, which often results in higher equity due to their authenticity and relevance.</p>
   
@@ -112,7 +112,7 @@ const BacklinkEquityCalculation: React.FC = () => {
     </tbody>
   </table>
   
-  <h2>Case Studies: Equity-Focused Link Building Results</h2>
+  <h3>Case Studies: Equity-Focused Link Building Results</h3>
   
   <h3>Case Study 1: Quality Over Quantity Strategy Yields Exceptional ROI</h3>
   <p>A tech startup focused exclusively on high-equity links (DA 60+ only). Over 12 months, they acquired 50 links from Forbes, TechCrunch, and industry blogs.</p>
@@ -158,7 +158,7 @@ const BacklinkEquityCalculation: React.FC = () => {
   <h3>Does anchor text affect equity?</h3>
   <p>Yes significantly. Optimized, relevant anchors increase equity transfer efficiency; generic anchors reduce it.</p>
   
-  <h2>Conclusion: Master Equity for Sustainable Link Building Success</h2>
+  <h3>Conclusion: Master Equity for Sustainable Link Building Success</h3>
   
   <p>Understanding and strategically applying <strong>backlink equity calculation</strong> principles transforms link building from a guessing game into a precision science. By focusing on high-equity sources and understanding the factors that drive equity transfer, you build link profiles that Google rewards with sustained rankings and organic growth.</p>
   

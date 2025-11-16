@@ -158,7 +158,7 @@ export default function TightStudioPage(): JSX.Element {
               <h3>Instant Exports & Presets</h3>
               <p>Export presets for podcast hosts, YouTube, Instagram, and TikTok streamline delivery. Batch exports reduce manual resizing or encoding steps.</p>
 
-              <h3>Commenting & Time-Stamped Notes</h3>
+              <h2>Commenting & Time-Stamped Notes</h2>
               <p>Comment directly on timeline positions and attach suggested edits or assets. Time-stamped notes make reviews fast and precise.</p>
 
               <h3>Remote Recording & Asset Uploads</h3>
@@ -188,7 +188,7 @@ export default function TightStudioPage(): JSX.Element {
             <section id="use-cases">
               <h2>Use Cases: Who Benefits from Tight Studio</h2>
 
-              <h3>Podcasters & Audio Creators</h3>
+              <h2>Podcasters & Audio Creators</h2>
               <p>Quick assembly and export for episodes, remote guest takes, and chapter markers for podcast platforms.</p>
 
               <h3>Social Video Creators</h3>

@@ -51,7 +51,7 @@ const AiPoweredLinkBuilding: React.FC = () => {
     
     <p>This data-driven approach makes outreach more targeted and effective, dramatically increasing your chances of earning links.</p>
     
-    <h2>Buying Links Safely: AI-Powered Vetting and Quality Assurance</h2>
+    <h3>Buying Links Safely: AI-Powered Vetting and Quality Assurance</h3>
     <p>While organic methods are ideal, buying links can accelerate growth when done safely. AI helps significantly by vetting sellers, analyzing link quality, and predicting link value before acquisition.</p>
     
     <h3>Pros of AI-Powered Link Buying</h3>
@@ -145,7 +145,7 @@ const AiPoweredLinkBuilding: React.FC = () => {
     <p><em>Video tutorial on this topic</em></p>
   </div>
 
-  <h2>FAQ: AI-Powered Link Building</h2>
+  <h3>FAQ: AI-Powered Link Building</h3>
     <h3>What is AI-powered link building exactly?</h3>
     <p>It's using machine learning and artificial intelligence to automate and optimize acquiring backlinks, from opportunity identification to outreach personalization to quality assurance.</p>
     

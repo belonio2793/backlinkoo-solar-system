@@ -173,7 +173,7 @@ export default function PraximPage() {
             <h3>Contextual editing: Files, web, and preferences</h3>
             <p>Praxim can augment editing instructions with context from multiple sources: the document itself, uploaded files (OneDrive, SharePoint), web search results, and user-configured preferences (industry jargon, tone guidelines, brand standards). A user editing a marketing report can instruct Praxim to "Update all statistics with the latest data from our Q4 earnings report" (referencing an uploaded file) or "Ensure all product descriptions match our website copy" (triggering web search). This multi-source context enables more accurate and informed edits.</p>
 
-            <h3>Voice-powered editing</h3>
+            <h2>Voice-powered editing</h2>
             <p>Praxim supports voice input for natural language editing instructions. Users can dictate complex edits—"Change all instances of 'the client' to 'the customer,' but only in the executive summary"—and Praxim interprets and executes the instruction. Voice editing enables editing at the speed of thought, reducing the cognitive load of translating intentions into precise instructions. This feature is available on Pro and MAX plans.</p>
 
             <h3>Diff previews with clickable change navigation</h3>
@@ -185,7 +185,7 @@ export default function PraximPage() {
             <h3>Multi-source support: Files, web, and voice</h3>
             <p>Praxim can access and process multiple files simultaneously (on Pro and MAX plans), search the web for current information, and accept voice input. This makes it suitable for complex workflows where gathering context from multiple sources is the bottleneck. A legal team redlining a contract can reference precedent documents; a marketing team can pull latest data from the web; a translator can use industry-specific glossaries stored in OneDrive.</p>
 
-            <h3>Quick edits and region-based modifications</h3>
+            <h2>Quick edits and region-based modifications</h2>
             <p>For rapid, targeted changes, users can select a region of the document and request specific modifications to that section. This "quick edit" mode trades the intelligence of agentic editing for speed and precision when you already know exactly which text needs changing.</p>
 
             <h3>Document generation from scratch</h3>
@@ -201,7 +201,7 @@ export default function PraximPage() {
             <h3>Technical writers and documentation teams</h3>
             <p>Managing large technical documentation sets (user guides, API docs, internal wikis) requires consistent terminology, version updates, and tone adjustments across hundreds of pages. Praxim can automate bulk updates: "Replace all instances of 'deprecated feature X' with 'feature Y' and add migration notes" across entire documentation sets. The formatting preservation ensures documentation remains technically valid after edits.</p>
 
-            <h3>Business analysts and report generation</h3>
+            <h2>Business analysts and report generation</h2>
             <p>Analysts often produce regular reports (weekly status, quarterly metrics, annual reviews) with similar structures but updated data. Praxim can accelerate this workflow by generating report templates, pulling latest data from web sources or uploaded files, and formatting everything into a professional report. Organizations can establish templates and let Praxim handle routine data updates and formatting.</p>
 
             <h3>Sales and business development teams</h3>
@@ -213,7 +213,7 @@ export default function PraximPage() {
             <h3>Academic and research professionals</h3>
             <p>Researchers and academics can use Praxim to streamline manuscript editing, maintain consistent citation formatting, incorporate peer review feedback at scale, and update research documentation with latest literature. The ability to pull cited sources and maintain formatting is valuable for academic documents that require rigorous structure.</p>
 
-            <h3>Grant writers and nonprofit professionals</h3>
+            <h2>Grant writers and nonprofit professionals</h2>
             <p>Grant writing involves crafting tailored proposals to different funders with similar components. Praxim can generate grant applications from templates, customize language for different funders, incorporate specific metrics and outcomes, and ensure all required sections are present and properly formatted.</p>
           </section>
 
@@ -229,7 +229,7 @@ export default function PraximPage() {
             <h3>MAX plan: $299.99/month</h3>
             <p>The MAX plan serves power users and departments. It includes 5000 credits per month (marketed as 25% cheaper than usage-based pricing if purchased separately), up to 50 stored uploaded files, ability to attach up to 6 files per query, 24MB per file limit, and all Pro features. The MAX plan is designed for organizations running dozens of editing jobs monthly and managing large document libraries. The economics favor power users: 5000 credits monthly at approximately $0.06 per credit ($299.99 ÷ 5000) provides significant savings versus consumption-based pricing.</p>
 
-            <h3>Enterprise plan: Custom pricing</h3>
+            <h2>Enterprise plan: Custom pricing</h2>
             <p>Enterprise customers receive dedicated support, admin dashboards with team controls, email and communication channel integration (Slack, Teams), enterprise database search capabilities, custom workflow automation, zero data retention options, and enterprise-grade security and compliance (SOC 2, ISO 27001, GDPR, data residency). Enterprise pricing is custom and negotiated based on usage, team size, and integration requirements.</p>
 
             <h3>Calculating ROI and unit economics</h3>
@@ -246,7 +246,7 @@ export default function PraximPage() {
             <h3>External data sources and APIs</h3>
             <p>Enterprise customers can integrate Praxim with custom data sources through API connections: pulling sales data from Salesforce, customer information from CRM systems, pricing from billing platforms, or metrics from analytics tools. This enables fully automated workflows where Praxim generates documents that pull live data from business systems.</p>
 
-            <h3>Custom workflows and automation</h3>
+            <h2>Custom workflows and automation</h2>
             <p>Organizations can establish custom workflows: "When a new customer is added to Salesforce, automatically generate a customized onboarding guide from our template and email it to the customer." These workflows can be scheduled, event-triggered, or manual.</p>
 
             <h3>Implementing Praxim at organizational scale</h3>
@@ -270,7 +270,7 @@ export default function PraximPage() {
             <h3>Batch editing and template instantiation</h3>
             <p>Rather than editing one document at a time, users can batch-edit multiple documents with the same instructions. This is valuable for applying consistent changes across document libraries—updating terminology across a 200-page documentation set becomes a single batch operation rather than 200 individual edits.</p>
 
-            <h3>Diff filtering and selective acceptance</h3>
+            <h2>Diff filtering and selective acceptance</h2>
             <p>When reviewing diffs from large edits, users can filter by change type (additions, deletions, replacements), by section, or by confidence level. This allows users to quickly scan for unexpected changes while accepting expected modifications in bulk.</p>
 
             <h3>Citation and audit trail management</h3>
@@ -286,7 +286,7 @@ export default function PraximPage() {
             <h3>How Praxim differs from ChatGPT, Claude, and generic AI assistants</h3>
             <p>Generic AI assistants (ChatGPT, Claude, Copilot) operate outside of Word and require copying text back and forth. Praxim integrates directly into Word, maintaining document context and formatting. Generic assistants are text-focused; Praxim understands Word document structure and preserves formatting. Generic assistants require multiple back-and-forth conversations; Praxim enables agentic editing with a single instruction.</p>
 
-            <h3>How Praxim differs from Microsoft Copilot for Word</h3>
+            <h2>How Praxim differs from Microsoft Copilot for Word</h2>
             <p>Microsoft Copilot for Word is a general-purpose assistant; Praxim is a specialized editing tool. Copilot handles chat and basic suggestions; Praxim handles complex, multi-section edits with agentic decision-making. Praxim's diff preview, voice input, and web/file integration are specialized features designed for professional editors.</p>
 
             <h3>How Praxim differs from Grammarly and editing tools</h3>
@@ -302,7 +302,7 @@ export default function PraximPage() {
             <h3>Compliance certifications and standards</h3>
             <p>Praxim meets enterprise compliance standards: SOC 2 Type II certification ensures security controls and audit practices; ISO 27001 certification covers information security management; GDPR compliance for European users; HIPAA compliance available for healthcare customers. These certifications are standard for enterprise SaaS tools handling sensitive documents.</p>
 
-            <h3>Audit logs and change tracking</h3>
+            <h2>Audit logs and change tracking</h2>
             <p>Enterprise deployments include comprehensive audit logs showing who accessed documents, what edits were made, when, and which instructions triggered each change. This is essential for regulated industries (legal, healthcare, finance) where documentation of decisions and modifications is legally required.</p>
 
             <h3>Authentication and access control</h3>
@@ -318,7 +318,7 @@ export default function PraximPage() {
             <h3>Legal professionals on contract efficiency</h3>
             <p>"Praxim cut our contract redline time in half. What previously took a team of junior associates 8 hours now takes 2 hours of AI editing plus 1 hour of human review. The diff preview feature is essential—we can quickly validate that edits match our intent." — Contract review attorney, 100+ person law firm</p>
 
-            <h3>Technical writers on documentation updates</h3>
+            <h2>Technical writers on documentation updates</h2>
             <p>"Managing 500+ pages of API documentation with quarterly updates was consuming entire weeks. Now we use Praxim to batch-update terminology, version numbers, and deprecation notices. Accuracy is high, formatting never breaks, and our team has reclaimed 40 hours per quarter." — Documentation lead, enterprise software company</p>
 
             <h3>Sales operations on proposal generation</h3>
@@ -334,7 +334,7 @@ export default function PraximPage() {
             <h3>Current release features</h3>
             <p>As of late 2025, Praxim offers core agentic editing, voice input, web and file search, diff previews, and integration with Microsoft Office. The product is stable and production-ready for individual and team use.</p>
 
-            <h3>Planned enhancements</h3>
+            <h2>Planned enhancements</h2>
             <p>The Praxim team has publicly discussed several planned features: deeper Slack and Teams integration for collaborative editing workflows, Google Docs support (in addition to Word), batch scheduling for recurring document updates, more sophisticated custom integrations with enterprise systems, and enhanced analytics showing time saved, edits made, and usage patterns.</p>
 
             <h3>Competitive roadmap considerations</h3>
@@ -356,7 +356,7 @@ export default function PraximPage() {
             <h3>Building organizational templates</h3>
             <p>Organizations multiplying Praxim value should develop templates for frequently produced documents: proposal templates, report templates, policy document templates, contract templates. These become the foundation for repeatable Praxim workflows.</p>
 
-            <h3>Establishing diff review protocols</h3>
+            <h2>Establishing diff review protocols</h2>
             <p>Before using Praxim edits in sensitive documents, establish protocols: who reviews diffs, what approval processes are required, how changes are documented. For legal or compliance documents, multiple human reviewers should validate diffs before acceptance.</p>
 
             <h3>Maintaining document version control</h3>
@@ -372,7 +372,7 @@ export default function PraximPage() {
             <h3>Over-reliance on AI without review</h3>
             <p>While Praxim is sophisticated, it's not infallible. Critical documents (contracts, compliance documents, medical records) require human review. The most effective use case pairs AI editing with human validation, using Praxim to accelerate routine changes while maintaining human oversight.</p>
 
-            <h3>Inadequate prompt clarity</h3>
+            <h2>Inadequate prompt clarity</h2>
             <p>Ambiguous instructions produce ambiguous results. "Improve the document" is less effective than "Standardize all date formats to MM/DD/YYYY and update all references to version 1.0 to version 2.0." Investment in clear prompts pays off in better edits.</p>
 
             <h3>Formatting conflicts and pseudo-structures</h3>
@@ -388,7 +388,7 @@ export default function PraximPage() {
           <section>
             <h2>Frequently asked questions about Praxim</h2>
 
-            <h3>How long does Praxim processing take?</h3>
+            <h2>How long does Praxim processing take?</h2>
             <p>Processing speed depends on document size and instruction complexity. Typical edits on documents under 10,000 words complete in 30-90 seconds. Large documents (50,000+ words) or complex instructions with web searches may take 2-5 minutes. Voice input processing is typically faster than web search-based edits.</p>
 
             <h3>Can Praxim edit documents in languages other than English?</h3>
@@ -400,7 +400,7 @@ export default function PraximPage() {
             <h3>How does credit usage relate to document size and instruction complexity?</h3>
             <p>Credit consumption depends on the amount of AI processing required. Simple edits on small documents consume fewer credits; large documents or complex instructions (particularly those involving web search) consume more. On average, editing a 5,000-word document costs 50-150 credits depending on instruction complexity. Users can estimate credit usage before confirming edits.</p>
 
-            <h3>Can Praxim handle tables, charts, and images?</h3>
+            <h2>Can Praxim handle tables, charts, and images?</h2>
             <p>Praxim can edit text within tables and make structural changes to tables (adding rows, changing column counts). Edits to table content maintain the table structure. Charts and images are preserved in their original positions but not directly edited by Praxim—if text labels within charts need updating, those are edited as text.</p>
 
             <h3>Is Praxim suitable for collaborative editing?</h3>
@@ -412,7 +412,7 @@ export default function PraximPage() {
             <h3>Can Praxim be used offline?</h3>
             <p>No, Praxim requires cloud connectivity to process edits. The AI processing, web search, and file handling all happen on Praxim's servers, not locally. This cloud-first design allows Praxim to leverage powerful AI models and maintain data security, but does require internet connectivity.</p>
 
-            <h3>What happens if a Praxim edit produces an error or incorrect result?</h3>
+            <h2>What happens if a Praxim edit produces an error or incorrect result?</h2>
             <p>If an edit produces unexpected results, users can reject the diff and try again with a more specific prompt. Praxim supports iterative refinement—if an initial instruction doesn't produce desired results, clarifying the instruction often resolves the issue. For systematic problems, Praxim's support team can assist.</p>
 
             <h3>How does Praxim pricing scale for large organizations?</h3>
@@ -445,7 +445,7 @@ export default function PraximPage() {
               <li>Calculate payback period: typically 1-3 months for teams with substantial document workflows</li>
             </ol>
 
-            <h3>Competitive advantages from Praxim adoption</h3>
+            <h2>Competitive advantages from Praxim adoption</h2>
             <p>Beyond time savings, Praxim adoption offers organizational benefits: faster proposal turnaround (marketing advantage), improved document quality through automated formatting and consistency (brand perception), accelerated document workflows enabling faster decision-making (operational advantage), and employee satisfaction from reduced routine document work (retention advantage).</p>
           </section>
 

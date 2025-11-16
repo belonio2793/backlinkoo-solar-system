@@ -61,7 +61,7 @@ const HowToBoostDomainAuthorityFast: React.FC = () => {
     <p>Niche edits are a targeted approach where we identify already-ranking content that's relevant to your niche and request strategic placement of your link.</p>
 
     <h3>Resource Page Link Building</h3>
-    <p>Resource pages function as comprehensive directories and compilations that aggregate useful tools, educational materials, and industry references.</p>
+    <p>Resource hubs showcase industry-leading tools and educational materials in one convenient location.</p>
 
     <h3>Broken Link Building</h3>
     <p>We discover hyperlinks that have become inactive or point to deleted content, then suggest your resources as superior alternatives.</p>

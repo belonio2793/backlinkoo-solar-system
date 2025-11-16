@@ -62,10 +62,10 @@ const BacklinkDiversityServices: React.FC = () => {
     <p>Niche edits are a targeted approach where we identify already-ranking content that's relevant to your niche and request strategic placement of your link.</p>
 
     <h3>Resource Page Link Building</h3>
-    <p>Resource pages function as comprehensive directories and compilations that aggregate useful tools, educational materials, and industry references.</p>
+    <p>These directories aggregate the most valuable tools, guides, and resources for their target audience.</p>
 
     <h3>Broken Link Building</h3>
-    <p>This method focuses on locating non-functional hyperlinks on authoritative sites and offering suitable replacements.</p>
+    <p>This approach locates unavailable links on trusted domains and bridges the gap with your own quality resources.</p>
 
     <h2>Link Quality Metrics That Matter</h2>
     <table style="width:100%; border-collapse:collapse; border:1px solid #ddd;">

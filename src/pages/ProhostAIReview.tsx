@@ -147,7 +147,7 @@ export default function ProhostAIReview() {
             <h3>2. Automated Task Management</h3>
             <p>Vacation rental hosting involves coordinating cleaning, maintenance, repairs, and other tasks. Traditionally, hosts read guest reviews and messages, manually identify issues, create tasks, and assign them to contractors or team members. ProhostAI automates this entire workflow. When guests mention a maintenance issue, cleaning requirement, or repair need—whether in pre-arrival messages, post-stay reviews, or general communication—the AI creates a task automatically, assigns it to the appropriate team member, and tracks completion status. This eliminates the manual task creation process and ensures no maintenance issue falls through the cracks.</p>
 
-            <h3>3. Smart Upsell Optimization</h3>
+            <h2>3. Smart Upsell Optimization</h2>
             <p>Revenue optimization is critical for rental profitability. ProhostAI automatically identifies "gap nights"—periods between bookings where the property could be occupied if the right offer was made. The platform sends personalized outreach to previous guests offering extended stays, late checkouts, experience packages, or equipment rentals tailored to guest profiles and seasonal demands. This targeted upselling happens automatically, identifying and pursuing revenue opportunities that hosts might miss while managing day-to-day operations.</p>
 
             <h3>4. AI-Powered Guidebooks</h3>
@@ -169,7 +169,7 @@ export default function ProhostAIReview() {
             
             <p>For example, if a guest asks "Can we check in early?" the AI doesn't just draft a generic response. It checks your house rules (which might allow flexible early check-in, might require 24-hour notice, or might be absolutely impossible depending on prior guests). It checks if this guest has stayed before (perhaps they're a returning guest who deserves special consideration). It reviews your communication history with this guest (perhaps you've already discussed flexibility with them). The resulting response is contextually appropriate and personalized.</p>
 
-            <h3>Voice Consistency</h3>
+            <h2>Voice Consistency</h2>
             <p>A critical feature is that all drafted responses maintain your unique hosting voice. Some hosts are warm and casual, others professional and formal. Some use humor, others emphasize reliability. ProhostAI learns your voice from prior communications and ensures all AI-drafted messages sound like they came from you. This consistency is crucial for building guest relationships and maintaining your reputation.</p>
 
             <h3>Confidence Scoring and Approval Workflow</h3>
@@ -187,7 +187,7 @@ export default function ProhostAIReview() {
             <h3>Automatic Task Creation</h3>
             <p>When an issue is detected, ProhostAI automatically creates a task in your project management system. It includes relevant details: what the issue is, which room or system is affected, severity level, and guest information. The task includes a link to the guest's message so the contractor has full context.</p>
 
-            <h3>Team Assignment and Tracking</h3>
+            <h2>Team Assignment and Tracking</h2>
             <p>The system routes tasks to appropriate team members based on issue type and existing assignments. A maintenance issue goes to your maintenance contractor, a cleaning issue to your cleaning team. As work is completed and marked done, the host is notified. This systematic approach eliminates miscommunication and ensures nothing falls through the cracks.</p>
 
             <h3>Preventive Maintenance Insights</h3>
@@ -205,7 +205,7 @@ export default function ProhostAIReview() {
             <h3>Personalized Offer Strategy</h3>
             <p>The offers aren't generic. ProhostAI analyzes previous guest reviews and behavior to tailor offers. A guest who mentioned loving hiking gets offered late checkout so they can enjoy a final hike. A couple celebrating an anniversary might get offered a champagne upgrade. A business traveler might get offered a discount for a multi-week stay. This personalization increases acceptance rates dramatically.</p>
 
-            <h3>Experience and Equipment Upsells</h3>
+            <h2>Experience and Equipment Upsells</h2>
             <p>Beyond booking extension offers, ProhostAI suggests experience and equipment upsells. Late checkout packages, kitchen equipment rentals, experience coordination (tours, activities, etc.), or special amenities (wine tastings, spa services) are proposed based on guest profile and seasonality. When done strategically rather than aggressively, these upsells increase revenue 10-20% without degrading guest satisfaction.</p>
           </section>
 
@@ -223,7 +223,7 @@ export default function ProhostAIReview() {
             <h3>Reduced Inquiry Volume</h3>
             <p>When guests have access to comprehensive guides answering common questions, the volume of guest inquiries drops measurably. Research suggests comprehensive guidebooks reduce repetitive inquiries by 30-40%. This reduction translates directly into host time savings.</p>
 
-            <h3>Continuous Improvement</h3>
+            <h2>Continuous Improvement</h2>
             <p>As guests ask new questions repeatedly, ProhostAI recognizes these patterns and suggests adding answers to the guidebook. Over time, the guide becomes more comprehensive and more effective at reducing inquiries.</p>
           </section>
 
@@ -241,7 +241,7 @@ export default function ProhostAIReview() {
             <h3>Guesty Integration</h3>
             <p>Guesty users can integrate ProhostAI directly, automating task creation, guest communication, and calendar optimization within their Guesty ecosystem. All guest data, bookings, and communications stay synchronized.</p>
 
-            <h3>Calendar Synchronization</h3>
+            <h2>Calendar Synchronization</h2>
             <p>The platform synchronizes calendar data across all integrated platforms, ensuring booking information is current and preventing double-booking. This is particularly important for hosts managing the same property across multiple listing platforms.</p>
 
             <h3>Task Management System Integration</h3>
@@ -258,7 +258,7 @@ export default function ProhostAIReview() {
             <h3>Property Management Companies Scaling Operations</h3>
             <p>Growing property management companies face pressure: as they add properties, operational costs increase. Without automation, they'd need to hire more support staff. ProhostAI provides that operational capacity without proportional cost increases, improving profitability while maintaining quality.</p>
 
-            <h3>International Hosts Serving Diverse Markets</h3>
+            <h2>International Hosts Serving Diverse Markets</h2>
             <p>Hosts serving guests from multiple countries face language barriers and cultural communication differences. AI messaging that maintains voice while adapting to guest communication style, combined with multilingual guidebooks, removes these barriers. International hosts can serve global markets without hiring multilingual staff.</p>
 
             <h3>Hosts Seeking Revenue Growth</h3>
@@ -276,7 +276,7 @@ export default function ProhostAIReview() {
             <h3>Subscription Tiers</h3>
             <p>While specific pricing tiers aren't publicly listed on the primary site, the platform works on a subscription model where costs scale based on property count and usage level. Hosts managing single properties pay less than those managing portfolios of properties. The pricing reflects this variable cost structure.</p>
 
-            <h3>ROI Analysis</h3>
+            <h2>ROI Analysis</h2>
             <p>For most hosts, ProhostAI's value proposition is compelling from an ROI perspective. If the platform saves 10 hours per month on messaging, task management, and guidebook support, and the host's time is worth $25-50/hour, the time savings alone justify the subscription cost. Additional revenue from upsell optimization typically exceeds the subscription cost, making ProhostAI profitable from month one.</p>
           </section>
 
@@ -293,7 +293,7 @@ export default function ProhostAIReview() {
             <h3>Revenue Improvement</h3>
             <p>Upsell optimization and gap-night detection generate additional revenue. Hosts report 5-15% revenue increases through automated upselling, varying based on market conditions and property type.</p>
 
-            <h3>Reduced Response Time</h3>
+            <h2>Reduced Response Time</h2>
             <p>AI-drafted responses enable faster reply times. Rather than guests waiting hours for a response while the host catches up on messaging, AI can respond in seconds (after host approval for high-value conversations). Faster response times improve guest satisfaction and reduce booking cancellations.</p>
 
             <h3>Guest Satisfaction</h3>
@@ -310,7 +310,7 @@ export default function ProhostAIReview() {
             <h3>vs. Virtual Assistant Services</h3>
             <p>Hiring a virtual assistant for property management costs $1,000-2,000/month. ProhostAI costs a fraction of that while operating 24/7. The trade-off: a virtual assistant provides higher-touch service and human judgment. ProhostAI works best for operational tasks that are routine enough to be systematized.</p>
 
-            <h3>vs. Generic Chatbots</h3>
+            <h2>vs. Generic Chatbots</h2>
             <p>Generic chatbots are cheaper but lack hospitality training and context awareness. They generate robotic responses. ProhostAI is specifically trained for vacation rental hosting and learns your voice, resulting in guest-appropriate communication that maintains your brand.</p>
 
             <h3>vs. Simple Automation Tools</h3>
@@ -376,7 +376,7 @@ export default function ProhostAIReview() {
           <section id="getting-started" className="content-section">
             <h2>Getting Started with ProhostAI: Implementation Guide</h2>
 
-            <h3>Step 1: Sign Up for Free Trial</h3>
+            <h2>Step 1: Sign Up for Free Trial</h2>
             <p>Begin with the 30-day free trial. No credit card required, no commitment. This gives you a full month to evaluate the platform with your actual properties and guests.</p>
 
             <h3>Step 2: Connect Your Listing Platform</h3>
@@ -388,7 +388,7 @@ export default function ProhostAIReview() {
             <h3>Step 4: Set Automation Preferences</h3>
             <p>Configure which message types can auto-send without approval, which require approval, and which need manual composition. Start conservative (auto-send only routine confirmations) and expand as you build confidence in the AI's responses.</p>
 
-            <h3>Step 5: Review and Approve</h3>
+            <h2>Step 5: Review and Approve</h2>
             <p>For the first week, review all AI-drafted responses before sending. This accomplishes two things: it ensures quality in early interactions and it trains the AI through your approvals/rejections. The AI learns from which responses you approve or modify.</p>
 
             <h3>Step 6: Enable Progressive Automation</h3>
@@ -408,7 +408,7 @@ export default function ProhostAIReview() {
             </div>
 
             <div className="faq-item">
-              <h3>What happens if the AI makes a mistake?</h3>
+              <h2>What happens if the AI makes a mistake?</h2>
               <p>Critical messages require your approval before sending, so you catch mistakes. For auto-send messages, mistakes are rare, but if they happen, you can immediately correct via follow-up message. The AI learns from corrections, improving future responses.</p>
             </div>
 
@@ -428,7 +428,7 @@ export default function ProhostAIReview() {
             </div>
 
             <div className="faq-item">
-              <h3>Does ProhostAI share my guest data?</h3>
+              <h2>Does ProhostAI share my guest data?</h2>
               <p>No. Guest data is used only to optimize your property management and communication. The company maintains privacy by default and complies with relevant data protection regulations.</p>
             </div>
           </section>

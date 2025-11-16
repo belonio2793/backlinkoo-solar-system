@@ -396,7 +396,7 @@ export default function Basalt() {
           </div>
 
           <div className="bg-slate-50 p-8 rounded-xl border border-slate-200">
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Comprehensive Monitoring & Observability</h3>
+            <h2>Comprehensive Monitoring & Observability</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
               Production monitoring goes beyond simple uptime checks. Basalt captures detailed execution traces showing exactly what your agents did, which models they used, which versions of prompts were called, and what the results were. This comprehensive traceability enables rapid debugging and continuous optimization.
             </p>
@@ -636,7 +636,7 @@ export default function Basalt() {
             }
           ].map((item, i) => (
             <div key={i} className="p-6 border border-slate-200 rounded-lg hover:border-purple-300 transition-colors">
-              <h3 className="font-bold text-slate-900 mb-3">{item.q}</h3>
+              <h2>{item.q}</h2>
               <p className="text-slate-600 leading-relaxed">{item.a}</p>
             </div>
           ))}
@@ -720,7 +720,7 @@ export default function Basalt() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-slate-900 mb-4">Company</h3>
+              <h2>Company</h2>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li><a href="#" className="hover:text-blue-600">About</a></li>
                 <li><a href="#" className="hover:text-blue-600">Careers</a></li>

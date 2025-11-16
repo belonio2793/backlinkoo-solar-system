@@ -56,7 +56,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
       </div>
     
-    <h2>Buying Backlinks: Pros, Cons, and Safe Tips</h2>
+    <h3>Buying Backlinks: Pros, Cons, and Safe Tips</h3>
     
     <p>While organic methods are ideal, buying backlinks can accelerate growth if done carefully. However, Google's guidelines strictly prohibit manipulative link schemes, so proceed with caution.</p>
     
@@ -146,7 +146,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     
     
     
-    <h2>Common Mistakes to Avoid in Backlink Audits</h2>
+    <h3>Common Mistakes to Avoid in Backlink Audits</h3>
     
     <p>Avoid these pitfalls to ensure your <strong>SEO backlink audit tools</strong> efforts pay off:</p>
     

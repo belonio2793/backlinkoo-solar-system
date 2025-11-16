@@ -150,7 +150,7 @@ export default function RankTank() {
         </ul>
       </div>
       <div class="rt-card">
-        <h3>RT Original Sheet</h3>
+        <h2>RT Original Sheet</h2>
         <ul>
           <li>Best for very large sets (10,000+ keywords per sheet)</li>
           <li>Default depth of 100 results, desktop & mobile agents</li>

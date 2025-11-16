@@ -252,7 +252,7 @@ export default function PaltecaReview(): JSX.Element {
             commerce features.
           </p>
 
-          <h3>Can I use my own domain?</h3>
+          <h2>Can I use my own domain?</h2>
           <p>
             Most platforms like Palteca allow custom domains on paid tiers. Using a custom domain is a good idea if you want to consolidate
             brand authority and improve SEO for your domain.

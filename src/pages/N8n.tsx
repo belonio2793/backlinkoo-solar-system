@@ -143,7 +143,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Practical workflows and examples</h2>
+            <h3>Practical workflows and examples</h3>
             <p>Here are detailed, practical examples that illustrate how n8n solves common automation problems. These recipes are intentionally concrete so you can adapt them quickly.</p>
 
             <h3>Lead enrichment and routing</h3>
@@ -206,7 +206,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Security, secrets management, and compliance</h2>
+            <h3>Security, secrets management, and compliance</h3>
             <p>Security is paramount when automations interact with sensitive systems. Follow these controls:</p>
             <ul>
               <li><strong>Secrets storage:</strong> Avoid plaintext storage. Integrate n8n with secret managers (Vault, cloud KMS) or keep secrets in an encrypted Postgres column with strict access controls.</li>
@@ -252,7 +252,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Testing, CI/CD, and workflow governance</h2>
+            <h3>Testing, CI/CD, and workflow governance</h3>
             <p>Treat workflow definitions as code. Integrate them into your version control and deployment pipeline. Recommended practices:</p>
             <ul>
               <li>Export workflows as JSON and store them in a repository. Use descriptive commit messages and PR reviews.</li>
@@ -300,7 +300,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Migration and adoption playbook</h2>
+            <h3>Migration and adoption playbook</h3>
             <p>Rolling out automation across an organization requires more than technology; it needs processes and education.</p>
             <ol>
               <li><strong>Pilot phase:</strong> Identify 3–5 high-value, low-risk automations to prove value quickly.</li>
@@ -344,7 +344,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Testimonials</h2>
+            <h3>Testimonials</h3>
             <blockquote>"n8n enabled our team to automate complex API orchestrations without building bespoke microservices. We moved fast and kept full control of our data." — Head of Platform, SaaS company</blockquote>
             <blockquote>"Self-hosting gave us the security assurances we needed. Integrations are simple to maintain and the community nodes saved weeks of work." — Security Architect, Fintech</blockquote>
           </section>
@@ -372,7 +372,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Frequently asked questions (expanded)</h2>
+            <h3>Frequently asked questions (expanded)</h3>
             <h3>Is n8n suitable for mission-critical processes?</h3>
             <p>Yes, provided you follow production best practices: durable storage, scaled workers, secrets management, and observability. For highly regulated workloads, validate compliance options with n8n.cloud or design strong network/isolation boundaries for self-hosted setups.</p>
 
@@ -400,7 +400,7 @@ export default function N8nPage() {
           </section>
 
           <section>
-            <h2>Measuring impact: metrics to track</h2>
+            <h3>Measuring impact: metrics to track</h3>
             <p>To quantify automation ROI, track both technical and business metrics:</p>
             <ul>
               <li><strong>Technical:</strong> execution success rate, mean execution time, queue depth, number of retries.</li>

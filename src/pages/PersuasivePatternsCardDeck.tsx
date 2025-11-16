@@ -179,7 +179,7 @@ export default function PersuasivePatternsCardDeckPage(): JSX.Element {
               <p>Essence: Set the option that benefits the user (and business) as the default while keeping choices transparent. Why it works: People often accept defaults to reduce effort and cognitive load.</p>
               <p>Examples: Prechecked preferences for accessibility features that improve experience, opt-out vs opt-in choices. Test prompt: Evaluate conversion and satisfaction when a helpful default is applied vs manual selection.</p>
 
-              <h3>Friction Reduction</h3>
+              <h2>Friction Reduction</h2>
               <p>Essence: Remove unnecessary steps and make critical actions easier. Why it works: Every interaction adds cognitive and time cost — reducing friction increases action likelihood.</p>
               <p>Examples: Autofill from browser, single-click purchases, or progressive disclosure of complexity. Test prompt: Remove a non-essential field from signup and measure completion rate and quality of signups.</p>
 
@@ -199,7 +199,7 @@ export default function PersuasivePatternsCardDeckPage(): JSX.Element {
             <section id="use-cases">
               <h2>Use Cases & Practical Applications</h2>
 
-              <h3>Onboarding Optimization</h3>
+              <h2>Onboarding Optimization</h2>
               <p>Use the deck to identify low-risk patterns that reduce drop-off: show social proof early, add a progress indicator, and ask for one micro-commitment to increase completion rates.</p>
 
               <h3>Checkout & Pricing</h3>
@@ -217,7 +217,7 @@ export default function PersuasivePatternsCardDeckPage(): JSX.Element {
 
               <p>The card deck is especially effective in collaborative settings. Here are a few workshop recipes to get practical outcomes in a short time.</p>
 
-              <h3>30-Minute Pattern Storm</h3>
+              <h2>30-Minute Pattern Storm</h2>
               <ol>
                 <li>Pick a single user problem (e.g., signup drop-off).</li>
                 <li>Shuffle the deck and draw 8–12 cards quickly.</li>

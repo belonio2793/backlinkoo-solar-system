@@ -30,7 +30,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Guest Posting on Forums</h3>
     <p>While traditional guest posting is for blogs, forums sometimes allow guest threads or AMAs (Ask Me Anything). Pitch valuable content, such as a tutorial on link building, and include backlinks. This is a prime forum link building tip for establishing authority.</p>
     
-    <h3>Broken Link Building in Forums</h3>
+    <h2>Broken Link Building in Forums</h2>
     <p>Scan forums for broken links in old threads using tools like Ahrefs. Reach out to moderators or users suggesting your content as a replacement. This not only secures a link but also revives dead discussions, enhancing community value.</p>
     <p>For more on broken link strategies, check out this <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs Guide on Broken Link Building</a>.</p>
     
@@ -49,7 +49,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Cons of Buying Forum Links</h3>
     <p>Risks include Google penalties if links appear unnatural. Low-quality providers might use spammy forums, harming your site's reputation. Costs can add up, and there's no guarantee of long-term value.</p>
     
-    <h3>Safe Tips for Buying Forum Links</h3>
+    <h2>Safe Tips for Buying Forum Links</h2>
     <p>Choose reputable providers like Backlinkoo, which vets forums for relevance and authority. Ensure links are contextual and dofollow. Monitor your backlink profile with tools from <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz</a> to avoid over-optimization. Diversify your strategy to include organic efforts, and always adhere to Google's webmaster guidelines via <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     <p>For automation in safe buying, consider our <Link to="/senuke">SENUKE for automation</Link> tool, which streamlines the process without risking penalties.</p>
     
@@ -132,7 +132,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <p>Avoid these to ensure your forum link building tips yield positive results.</p>
     
     <h2>FAQ: Forum Link Building Tips</h2>
-    <h3>What are the best forums for link building?</h3>
+    <h2>What are the best forums for link building?</h2>
     <p>Niche-specific ones like Reddit, Quora, and industry boards offer the best opportunities for dofollow links and targeted traffic.</p>
     
     <h3>Are forum links still effective in 2023?</h3>
@@ -144,7 +144,7 @@ const ForumLinkBuildingTips: React.FC = () => {
     <h3>Can buying forum links hurt my SEO?</h3>
     <p>If from low-quality sources, yes. Opt for safe providers like Backlinkoo to mitigate risks.</p>
     
-    <h3>What tools do you recommend for automation?</h3>
+    <h2>What tools do you recommend for automation?</h2>
     <p>We suggest <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> for efficient campaigns.</p>
     
     

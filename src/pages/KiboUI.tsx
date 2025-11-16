@@ -200,7 +200,7 @@ export default function KiboUI() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="bg-white border border-slate-200 p-6">
-                <h3 className="text-lg font-bold mb-2 text-slate-900">Collaborative Canvas</h3>
+                <h2>Collaborative Canvas</h2>
                 <p className="text-slate-700 text-sm mb-4">
                   Build collaborative interfaces with real-time interactions and presence indicators.
                 </p>

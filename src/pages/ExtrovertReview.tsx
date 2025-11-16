@@ -37,7 +37,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>What is Extrovert?</h2>
+          <h3>What is Extrovert?</h3>
           <p>
             Extrovert is a SaaS platform built for outreach workflows. It typically provides features like list management, multi-step
             sequences (email, SMS, LinkedIn, and webhooks), personalization tokens, simple analytics, and sending infrastructure with
@@ -94,7 +94,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Onboarding and ease of use</h2>
+          <h3>Onboarding and ease of use</h3>
           <p>
             Extroverts onboarding is targeted at non-technical users. A guided flow helps set up sending domains, verify DNS records,
             and import contacts. Practical friction points we observed were domain verification delay (dependent on DNS TTL) and the need
@@ -143,7 +143,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>List handling and hygiene</h2>
+          <h3>List handling and hygiene</h3>
           <p>
            A healthy list is the foundation of successful outreach. Extrovert supports common hygiene steps: deduplication, bounce
             handling, and optional email validation. We strongly recommend pre-validating lists and removing catch-all addresses before
@@ -185,7 +185,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Compliance, opt-outs, and ethical considerations</h2>
+          <h3>Compliance, opt-outs, and ethical considerations</h3>
           <p>
             Outbound outreach must respect legal frameworks (CAN-SPAM, GDPR) and ethical norms. Extrovert provides tools for unsubscribe
             handling and suppression lists, but compliance begins with process: get appropriate consent where required, provide clear
@@ -226,7 +226,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Pricing and value proposition</h2>
+          <h3>Pricing and value proposition</h3>
           <p>
             Pricing often balances seats, monthly sends, and access to advanced features like deliverability tools or multi-channel
             messaging. For small teams, the time saved in campaign orchestration and template reuse tends to justify subscription costs.
@@ -281,7 +281,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Testimonials</h2>
+          <h3>Testimonials</h3>
 
           <figure>
             <blockquote>
@@ -331,7 +331,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>SEO strategy: building authority for an "Extrovert Review"</h2>
+          <h3>SEO strategy: building authority for an "Extrovert Review"</h3>
           <p>
             To rank for "Extrovert Review," produce a long-form, original analysis with unique case studies and benchmarks. Include
             structured headings, concise answers for featured snippets, and a robust FAQ section to capture common queries. Publish a
@@ -366,7 +366,7 @@ export default function ExtrovertReview(): JSX.Element {
         </section>
 
         <section>
-          <h2>Final thoughts</h2>
+          <h3>Final thoughts</h3>
           <p>
             Extrovert is a pragmatic choice for teams that want to move quickly with outreach while retaining sensible controls for deliverability
             and personalization. It pairs well with teams that iterate on messaging frequently and want an easy-to-use, repeatable platform

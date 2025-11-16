@@ -264,7 +264,7 @@ export default function NanochatPage() {
 
           <section>
             <h2>Troubleshooting and common issues</h2>
-            <h3>Slow model responses</h3>
+            <h2>Slow model responses</h2>
             <p>Symptoms: high latency or token stalls. Fixes: switch to a quantized runtime, reduce model size, or increase available CPU/GPU resources.</p>
 
             <h3>Token streaming glitches</h3>
@@ -290,7 +290,7 @@ export default function NanochatPage() {
             <h3>Academic research lab</h3>
             <p>A research group used Nanochat to run prompt-sensitivity experiments on small models locally. Outcome: reproducible experiments and quick iteration on prompt families without paying for hosted APIs.</p>
 
-            <h3>Privacy-first startup</h3>
+            <h2>Privacy-first startup</h2>
             <p>A startup delivered an internal knowledge assistant by running a small model on-prem and exposing it through Nanochat. Outcome: improved internal search and private assistant functionality without sending data to external providers.</p>
           </section>
 

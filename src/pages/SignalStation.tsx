@@ -230,7 +230,7 @@ export default function SignalStationPage() {
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                   <Globe className="w-6 h-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Comprehensive Economic Calendar</h3>
+                <h2>Comprehensive Economic Calendar</h2>
                 <p className="text-slate-700 leading-relaxed">
                   Access a consolidated calendar covering 180 plus countries with historical data, consensus forecasts, and actual economic releases. Advanced filtering by country, importance level, asset class, and specific economic indicators helps you focus on events that matter to your trading strategy. Real-time updates and revision notifications ensure historical accuracy.
                 </p>
@@ -270,7 +270,7 @@ export default function SignalStationPage() {
                 <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="w-6 h-6 text-yellow-600" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Real-Time Financial News Integration</h3>
+                <h2>Real-Time Financial News Integration</h2>
                 <p className="text-slate-700 leading-relaxed">
                   Breaking news, expert analysis, and market commentary are delivered instantly and connected directly to calendar events. The integrated news feed provides critical context for understanding market reactions, helping you move faster than competitors who rely on fragmented information sources. News is automatically relevant to events you're tracking.
                 </p>
@@ -305,7 +305,7 @@ export default function SignalStationPage() {
               </div>
 
               <div className="border-l-4 border-orange-600 pl-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Automated Trading Systems and Algorithms</h3>
+                <h2>Automated Trading Systems and Algorithms</h2>
                 <p className="text-slate-700 leading-relaxed">
                   Quantitative traders and algo developers use Signal Station's webhook integrations to trigger algorithms around scheduled economic events. By knowing exactly when volatility is expected, automated systems can adjust parameters, reduce exposure, or implement specialized event-trading strategies during announcement windows.
                 </p>
@@ -340,7 +340,7 @@ export default function SignalStationPage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">Global Time Zone Management</h3>
+                <h2>Global Time Zone Management</h2>
                 <p className="text-slate-700 leading-relaxed">
                   Signal Station automatically handles time zone conversions across 180 plus countries, displaying event times in your local timezone while accounting for daylight saving time changes. This eliminates confusion about when events occur and ensures you never miss releases due to timezone misunderstandings.
                 </p>

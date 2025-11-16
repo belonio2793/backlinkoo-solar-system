@@ -60,7 +60,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
   
   <p>While organic strategies are ideal, they can be slow. That's where buying backlinks from reputable sites comes in—Backlinkoo offers a safe, effective shortcut.</p>
   
-  <h2>Pros and Cons of Buying Backlinks</h2>
+  <h3>Pros and Cons of Buying Backlinks</h3>
   
   <p>Buying backlinks can accelerate your SEO, but it's not without risks. Let's weigh the advantages and disadvantages.</p>
   
@@ -165,7 +165,7 @@ const BestSitesToBuyBacklinks: React.FC = () => {
     <p><em>Graph showing traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
-  <h2>Common Mistakes to Avoid When Buying Backlinks</h2>
+  <h3>Common Mistakes to Avoid When Buying Backlinks</h3>
   
   <p>Avoid these pitfalls to ensure your link building is effective and safe.</p>
   

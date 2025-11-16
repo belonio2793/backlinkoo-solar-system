@@ -274,7 +274,7 @@ export default function RandFishkin() {
 
             <section id="faq" className="rand-section">
               <header className="mb-4">
-                <h2 className="rand-section__title">Rand Fishkin FAQ</h2>
+                <h3>Rand Fishkin FAQ</h3>
                 <p className="rand-section__summary">Direct, people‑also‑ask‑style answers grounded in public sources and reproducible methods.</p>
               </header>
               <div className="rand-faq">

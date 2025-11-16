@@ -156,7 +156,7 @@ export default function NyraAIReview() {
             
             <p>The algorithm considers multiple variables: conversion rates by channel, customer lifetime value, seasonal trends, competitive activity, and even predictive signals about future performance. If Meta campaigns suddenly become more efficient, Nyra automatically shifts budget from Google to Meta. If TikTok audiences show higher engagement but lower conversion value, the algorithm adjusts accordingly.</p>
 
-            <h3>3. Real-Time Performance Tracking</h3>
+            <h2>3. Real-Time Performance Tracking</h2>
             <p>Nyra provides granular, real-time performance tracking across all channels. Users can monitor not just traditional metrics like CTR and CPC, but also platform-specific signals: engagement metrics on TikTok, conversion events on Facebook, Quality Score on Google. The system aggregates this data and presents it in formats tailored to different user roles—finance teams see ROI, marketing managers see performance vs. targets, creative teams see which ad variations perform best.</p>
 
             <h3>4. Conversion Tracking and Attribution</h3>
@@ -178,7 +178,7 @@ export default function NyraAIReview() {
             
             <p>The platform automatically conducts A/B testing on all generated variations, giving you real-time feedback about which approaches resonate most with each audience segment. This creates a continuous learning loop where the system becomes better at predicting which creative variations will perform well with each segment.</p>
 
-            <h3>Scalability Without Loss of Authenticity</h3>
+            <h2>Scalability Without Loss of Authenticity</h2>
             <p>For many brands, the challenge with paid advertising is that authentic, high-performing creative is expensive to produce at scale. A single professional ad video can cost $2,000-10,000. Photography sessions add up. Copywriting hours are endless. Nyra solves this by automating the iteration and testing process, allowing brands to maintain authentic creative at a fraction of the cost and time.</p>
           </section>
 
@@ -206,7 +206,7 @@ export default function NyraAIReview() {
             <h2>Pricing & Plans: Finding Your Fit</h2>
             <p>Nyra AI's pricing philosophy emphasizes simplicity and transparency—no hidden fees, no surprise tier jumps. The company offers three primary tiers:</p>
 
-            <h3>Free Plan</h3>
+            <h2>Free Plan</h2>
             <p>The Free plan is designed for testing and learning. It includes:</p>
             <ul className="feature-list">
               <li>Up to 5 Vibe Ads per month</li>
@@ -252,7 +252,7 @@ export default function NyraAIReview() {
             <h2>Real-World Use Cases and Applications</h2>
             <p>Nyra AI serves different businesses in distinctly different ways:</p>
 
-            <h3>E-Commerce Brands</h3>
+            <h2>E-Commerce Brands</h2>
             <p>For e-commerce businesses, Nyra is transformative. Imagine a D2C skincare brand that sells through Shopify. They need to continuously test new creative, scale winners, and maintain consistent messaging across Facebook, Instagram, TikTok, and Google. Nyra automates the creation of product-specific ads that maintain brand voice, automatically optimizes which products to feature to which audiences, and tracks the complete customer journey from ad impression to repeat purchase. Many e-commerce users report 25-40% improvements in ROAS (Return on Ad Spend) in the first three months.</p>
 
             <h3>SaaS Companies</h3>
@@ -270,7 +270,7 @@ export default function NyraAIReview() {
             <h2>Nyra AI vs. Competitors: How It Stacks Up</h2>
             <p>The marketing automation space is crowded. How does Nyra compare to established alternatives?</p>
 
-            <h3>vs. Manual Management</h3>
+            <h2>vs. Manual Management</h2>
             <p>The most direct comparison is manual management—hiring a marketing manager or agency to manage campaigns. Nyra costs a fraction of even a junior marketer's salary while providing 24/7 optimization that a single human couldn't achieve. The trade-off is that Nyra works best for campaigns with clear KPIs and regular optimization needs; highly creative, experimental campaigns might benefit from human judgment that Nyra's algorithms haven't yet encountered.</p>
 
             <h3>vs. Traditional Marketing Automation (HubSpot, Marketo)</h3>
@@ -287,7 +287,7 @@ export default function NyraAIReview() {
           <section id="pros-cons" className="content-section">
             <h2>Pros and Cons: The Complete Picture</h2>
 
-            <h3>Significant Advantages</h3>
+            <h2>Significant Advantages</h2>
             <ul className="pros-list">
               <li><strong>Time Savings:</strong> Automation of ad creation, optimization, and reporting saves 15-30 hours per week for active marketing teams</li>
               <li><strong>Improved Performance:</strong> Users consistently report 20-40% improvement in campaign ROAS within the first 3 months</li>
@@ -371,7 +371,7 @@ export default function NyraAIReview() {
             <h3>Step 2: Connect Your Advertising Accounts</h3>
             <p>Connect your Google Ads, Meta (Facebook/Instagram), and/or TikTok Ads accounts. Nyra uses standard OAuth authentication, so no sensitive credentials are exposed. During this step, you'll grant Nyra permission to read your campaign performance data and create/edit campaigns on your behalf.</p>
 
-            <h3>Step 3: Set Business Objectives and KPIs</h3>
+            <h2>Step 3: Set Business Objectives and KPIs</h2>
             <p>Define what success looks like: are you optimizing for leads? Sales? App installs? Brand awareness? The more specific your KPIs, the better Nyra's algorithms can optimize. For e-commerce, specify your target cost per acquisition. For lead gen, specify your target lead cost. For brand awareness, define your target CPM or engagement rate.</p>
 
             <h3>Step 4: Create Your First Campaign</h3>
@@ -391,7 +391,7 @@ export default function NyraAIReview() {
             </div>
 
             <div className="faq-item">
-              <h3>How long does it take to see results?</h3>
+              <h2>How long does it take to see results?</h2>
               <p>Initial results appear within 2-4 weeks as campaigns gather data and Nyra's algorithms begin optimizing. Significant improvements (20%+ ROAS improvement) typically materialize within 6-12 weeks as the system learns your audience and optimizes creative variations.</p>
             </div>
 
@@ -411,7 +411,7 @@ export default function NyraAIReview() {
             </div>
 
             <div className="faq-item">
-              <h3>How is my data protected?</h3>
+              <h2>How is my data protected?</h2>
               <p>Nyra uses industry-standard encryption and security practices. Your advertising account credentials are never stored—Nyra uses OAuth tokens that can be revoked at any time. Detailed information about security is available in Nyra's privacy policy and SOC 2 certification documentation.</p>
             </div>
           </section>

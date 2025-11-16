@@ -120,7 +120,7 @@ export default function CompyleSEO() {
             Compyle proposes safe refactors — rename variable across local scope, extract methods, inline functions, or modernize patterns (e.g., migrate callbacks to async/await). Suggestions are presented with diffs so developers can preview the impact before applying changes.
           </p>
 
-          <h3>4. Intelligent Tests & Mocks</h3>
+          <h2>4. Intelligent Tests & Mocks</h2>
           <p>
             Generating unit tests and mocks is a common productivity blocker. Compyle can scaffold test cases based on function signatures and edge-case heuristics, producing a coverage-first set of examples that developers can refine and run immediately.
           </p>
@@ -236,7 +236,7 @@ export default function CompyleSEO() {
             Compyle provides high-quality suggestions but code should always be reviewed and tested in context. Its strength is in accelerating drafts, producing tests, and surfacing patterns, not replacing engineering judgment.
           </p>
 
-          <h3>Can Compyle replace a junior developer?</h3>
+          <h2>Can Compyle replace a junior developer?</h2>
           <p>
             No. It amplifies developer productivity and helps junior engineers be more effective, but it does not replace domain knowledge, architecture thinking, or deep debugging skills.
           </p>

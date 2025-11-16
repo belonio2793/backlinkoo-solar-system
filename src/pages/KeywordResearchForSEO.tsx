@@ -350,7 +350,7 @@ export default function KeywordResearchForSEO() {
             </section>
 
             <section id="search-intent" className="kr-section">
-              <h2>Understanding Search Intent in Keyword Research</h2>
+              <h3>Understanding Search Intent in Keyword Research</h3>
 
               <p>Search intent—the reason behind a query—is arguably the most critical concept in modern keyword research. Google has made matching search intent a core ranking factor, prioritizing results that satisfy what the user actually wants rather than just matching keyword presence.</p>
 
@@ -645,7 +645,7 @@ export default function KeywordResearchForSEO() {
             </section>
 
             <section id="analysis" className="kr-section">
-              <h2>Analyzing and Selecting Keywords</h2>
+              <h3>Analyzing and Selecting Keywords</h3>
 
               <p>Once you've collected a large list of candidate keywords, the next step is rigorous analysis and prioritization. Not all keywords deserve content investment.</p>
 
@@ -791,7 +791,7 @@ export default function KeywordResearchForSEO() {
             </section>
 
             <section id="advanced" className="kr-section">
-              <h2>Advanced Keyword Research Strategies</h2>
+              <h3>Advanced Keyword Research Strategies</h3>
 
               <h3>Search Intent Segmentation</h3>
 

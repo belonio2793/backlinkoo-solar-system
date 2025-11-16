@@ -158,7 +158,7 @@ export default function StencilBySuperhandsPage(): JSX.Element {
               <h3>Human-in-the-Loop Review</h3>
               <p>Every generated asset passes through a review queue where designers or brand stewards can accept, tweak, or reject items. This review step preserves quality and ensures sensitive messaging is vetted.</p>
 
-              <h3>Production Handoff & Exports</h3>
+              <h2>Production Handoff & Exports</h2>
               <p>Export assets in production-ready formats or push them directly to scheduling and publishing systems. Stencil supports layered exports for advanced finishing or flattened files ready for immediate upload.</p>
 
               <h3>Campaign Bundles & Versioning</h3>
@@ -176,7 +176,7 @@ export default function StencilBySuperhandsPage(): JSX.Element {
 
               <p>Stencil supports multiple production patterns depending on scale and goals. Here are three common workflows:</p>
 
-              <h3>Rapid Social Production (High Volume)</h3>
+              <h2>Rapid Social Production (High Volume)</h2>
               <ol>
                 <li>Create a campaign brief with target sizes and messaging variants.</li>
                 <li>Stencil generates 10–20 initial concepts per brief tailored to each platform format.</li>
@@ -205,7 +205,7 @@ export default function StencilBySuperhandsPage(): JSX.Element {
               <h3>Small in-house teams</h3>
               <p>Teams with limited headcount produce volume creative quickly while maintaining brand consistency through templates and review rules.</p>
 
-              <h3>Agencies and studios</h3>
+              <h2>Agencies and studios</h2>
               <p>Agencies use Stencil to scale deliverables across clients with repeatable templates and streamlined approvals, allowing junior designers to execute at scale while senior staff focus on strategy.</p>
 
               <h3>Performance marketers</h3>

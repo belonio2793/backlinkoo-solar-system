@@ -61,7 +61,7 @@ const HowToIncreaseCrawlDemand: React.FC = () => {
     <p>The niche edit strategy focuses on discovering established, well-ranking pages within your industry and securing contextual link placement.</p>
 
     <h3>Resource Page Link Building</h3>
-    <p>Resource pages function as comprehensive directories and compilations that aggregate useful tools, educational materials, and industry references.</p>
+    <p>Resource hubs showcase industry-leading tools and educational materials in one convenient location.</p>
 
     <h3>Broken Link Building</h3>
     <p>The broken link approach identifies outdated links across the web and proposes relevant alternatives, creating win-win opportunities.</p>

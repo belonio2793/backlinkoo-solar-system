@@ -47,7 +47,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <h3>The Penguin Update Impact</h3>
   <p>Google's Penguin algorithm, launched in 2012 and continuously updated, specifically targets unnatural link patterns. Sites caught with link farm profiles experienced ranking losses of 50-99% in some cases.</p>
   
-  <h3>Known Link Farm Busts</h3>
+  <h2>Known Link Farm Busts</h2>
   <p>Several well-known sites have been penalized for link farming:
   <ul>
     <li>Major e-commerce site: Dropped from page 1 to page 10+ for 40+ keywords after Penguin update</li>
@@ -86,7 +86,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <h3>HARO (Help A Reporter Out) and Digital PR</h3>
   <p>HARO connects journalists with expert sources. By providing valuable responses to journalistic queries, you earn media links from high-authority publications—entirely risk-free.</p>
   
-  <h3>Resource Page Link Building</h3>
+  <h2>Resource Page Link Building</h2>
   <p>Identify resource pages in your niche and request inclusion for your high-quality content. This method builds links naturally without manipulation.</p>
   
   <h2>How to Audit Your Backlink Profile for Farming Risk</h2>
@@ -165,7 +165,7 @@ const BacklinkFarmingRisks: React.FC = () => {
   <h3>Can I use PBNs safely?</h3>
   <p>No. Google actively detects and penalizes PBN links. The risk isn't worth any potential short-term gain.</p>
   
-  <h3>Are directory links still safe?</h3>
+  <h2>Are directory links still safe?</h2>
   <p>High-quality, niche-relevant directories (DMOZ, industry-specific) are safe. Bulk, low-quality directory submissions are risky.</p>
   
   <h2>Conclusion: Build Authority Safely, Avoid Backlink Farming Risks</h2>

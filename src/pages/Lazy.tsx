@@ -220,7 +220,7 @@ export default function LazyPage() {
 
           {/* Comparisons */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Lazy vs. Manual Capture Stacks</h2>
+            <h3>Lazy vs. Manual Capture Stacks</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-slate-700">
                 <thead>
@@ -282,7 +282,7 @@ export default function LazyPage() {
 
           {/* Testimonials */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-10">What People Say</h2>
+            <h3>What People Say</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 { quote: 'The shortcut capture changed how I read. I never leave flow, but nothing gets lost.', author: 'Amelia R.', role: 'Researcher' },
@@ -322,7 +322,7 @@ export default function LazyPage() {
           {/* Final CTA: only Backlink∞ registration */}
           <section className="mb-0">
             <div className="bg-violet-600 rounded-lg p-12 text-center">
-              <h2 className="text-3xl font-bold text-white mb-6">Grow Organic Traffic with Strategic Backlinks</h2>
+              <h3>Grow Organic Traffic with Strategic Backlinks</h3>
               <p className="text-lg text-white mb-8 max-w-2xl mx-auto leading-relaxed">Publishing guides about personal knowledge management, capture workflows, or connected graphs? Earn topical authority with high‑quality backlinks to rank for competitive productivity keywords.</p>
               <p className="text-lg text-white mb-10 max-w-2xl mx-auto leading-relaxed">Backlink ∞ acquires relevant, reputable backlinks that compound your organic reach. Register to start building durable search visibility.</p>
               <a href="https://backlinkoo.com/register" className="inline-flex items-center justify-center px-10 py-4 bg-white text-violet-700 font-semibold rounded-lg hover:bg-violet-50 transition-colors">

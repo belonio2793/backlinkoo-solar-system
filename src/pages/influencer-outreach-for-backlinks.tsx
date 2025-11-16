@@ -164,20 +164,20 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   
   <h2 style="font-size: 2em; margin-top: 40px; margin-bottom: 20px;">FAQ: Influencer Outreach for Backlinks</h2>
   
-  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What is the best way to find influencers for backlinks?</h3>
-  <p>Use tools like BuzzSumo or Ahrefs to identify influencers with high domain authority in your niche. Focus on relevance and engagement rates.</p>
-  
-  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Are dofollow links essential in influencer outreach?</h3>
-  <p>Yes, dofollow links pass link equity, boosting SEO. However, a mix with nofollow can create a natural profile.</p>
-  
-  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">How much does influencer outreach cost?</h3>
-  <p>Costs vary: organic is free but time-intensive; paid can range from $50-$5000 per influencer, depending on reach.</p>
+  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What metrics should I track for success?</h3>
+  <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
   
   <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Can I automate influencer outreach for backlinks?</h3>
   <p>Yes, tools like <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> automate emails and tracking, saving time while maintaining personalization.</p>
   
-  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What metrics should I track for success?</h3>
-  <p>Monitor backlink count, domain authority changes, organic traffic, and referral conversions using Google Analytics and Ahrefs.</p>
+  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">How much does influencer outreach cost?</h3>
+  <p>Costs vary: organic is free but time-intensive; paid can range from $50-$5000 per influencer, depending on reach.</p>
+  
+  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">Are dofollow links essential in influencer outreach?</h3>
+  <p>Yes, dofollow links pass link equity, boosting SEO. However, a mix with nofollow can create a natural profile.</p>
+  
+  <h3 style="font-size: 1.5em; margin-top: 20px; margin-bottom: 10px;">What is the best way to find influencers for backlinks?</h3>
+  <p>Use tools like BuzzSumo or Ahrefs to identify influencers with high domain authority in your niche. Focus on relevance and engagement rates.</p>
   
   
   

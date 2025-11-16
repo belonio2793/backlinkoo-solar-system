@@ -37,7 +37,7 @@ const MultilingualBacklinkBuilding: React.FC = () => {
     <h3>Resource Page Outreach</h3>
     <p>Target resource pages on educational sites in various languages. If your content is a comprehensive guide, pitch it to university pages in French or Italian. This organic method often results in high-authority backlinks that boost your site's trustworthiness.</p>
     
-    <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Multilingual Strategies</h2>
+    <h3>Buying Backlinks: Pros, Cons, and Safe Tips for Multilingual Strategies</h3>
     <p>While organic methods are ideal, buying backlinks can accelerate your multilingual backlink building efforts. However, it's essential to approach this carefully to avoid penalties.</p>
     
     <h3>Pros of Buying Multilingual Backlinks</h3>
@@ -116,7 +116,7 @@ const MultilingualBacklinkBuilding: React.FC = () => {
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     
-    <h2>Common Mistakes to Avoid in Multilingual Backlink Building</h2>
+    <h3>Common Mistakes to Avoid in Multilingual Backlink Building</h3>
     <p>Avoid these pitfalls to ensure your efforts yield positive results:</p>
     <ul>
         <li>Ignoring cultural nuances: Tailor content to local customs to avoid alienating audiences.</li>

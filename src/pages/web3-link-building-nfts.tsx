@@ -138,20 +138,20 @@ const Web3LinkBuildingNfts: React.FC = () => {
   </div>
 
   <h2>FAQ: Web3 Link Building NFTs</h2>
-    <h3>What exactly are Web3 link building NFTs?</h3>
-    <p>They are NFTs used to facilitate or represent backlinks in Web3 ecosystems, enhancing SEO through decentralized means.</p>
-    
-    <h3>Are bought NFTs safe for link building?</h3>
-    <p>Yes, if sourced from reputable sellers and integrated with organic strategies, as per tips from <a href="https://moz.com/blog/web3-seo" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
-    
-    <h3>How do tools like SENUKE help?</h3>
-    <p><a >SENUKE for automation</a> streamlines campaign management, making Web3 link building efficient.</p>
+    <h3>What's the future of Web3 link building NFTs?</h3>
+    <p>With blockchain adoption rising, expect more integration with AI and metaverses, per reports from <a href="https://www.statista.com/topics/3133/non-fungible-tokens-nft/" target="_blank" rel="noopener noreferrer">Statista</a>.</p>
     
     <h3>Can Web3 link building improve domain authority?</h3>
     <p>Absolutely—high-quality dofollow links from Web3 sites can significantly boost DA, as seen in our case studies.</p>
     
-    <h3>What's the future of Web3 link building NFTs?</h3>
-    <p>With blockchain adoption rising, expect more integration with AI and metaverses, per reports from <a href="https://www.statista.com/topics/3133/non-fungible-tokens-nft/" target="_blank" rel="noopener noreferrer">Statista</a>.</p>
+    <h3>How do tools like SENUKE help?</h3>
+    <p><a >SENUKE for automation</a> streamlines campaign management, making Web3 link building efficient.</p>
+    
+    <h3>Are bought NFTs safe for link building?</h3>
+    <p>Yes, if sourced from reputable sellers and integrated with organic strategies, as per tips from <a href="https://moz.com/blog/web3-seo" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
+    
+    <h3>What exactly are Web3 link building NFTs?</h3>
+    <p>They are NFTs used to facilitate or represent backlinks in Web3 ecosystems, enhancing SEO through decentralized means.</p>
     
     
     

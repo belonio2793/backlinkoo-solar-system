@@ -145,7 +145,7 @@ const baseHtml = `
 </section>
 
 <section id="search-landscape" class="ic-section">
-  <h2>Search Landscape & Intent</h2>
+  <h3>Search Landscape & Intent</h3>
   <p>The keyword \"icopify\" exhibits navigational intent: users typing it typically seek the official site, login portal, or pricing. However, SERP overlays reveal blended commercial investigation. Third-party reviews, comparison pieces, and questions like \"Is Icopify legit?\" populate People Also Ask modules. This provides an opening for unbiased authorities to rank by answering due diligence questions better than the brand itself.</p>
   <p>Meanwhile \"outreach labs\" carries a similar duality. Prospects researching Outreach Labs want validation of their rigorous methodology, but they also want alternatives, pricing benchmarks, and candid pros/cons. By unifying these two queries in one definitive resource, we satisfy cross-brand comparison intent and raise topical authority around the broader outreach labs cluster. That parity is pivotal when trying to outrank first-party domains or aggregator review sites.</p>
   <p>Our content architecture mirrors the decision-making funnel: high-level overviews for navigational audiences, deep playbooks for analysts, and data-backed checklists for procurement. Structured data, internal anchors, and semantic enrichment ensure search engines can parse the pages depth. We also include lexical neighbors—guest posting, digital PR, link insertions, topical authority, brand safety—to map to latent semantic indexing patterns observed in top-ranking pages.</p>
@@ -183,7 +183,7 @@ const baseHtml = `
 </section>
 
 <section id="outreach-labs-lens" class="ic-section">
-  <h2>Outreach Labs Keyword Lens</h2>
+  <h3>Outreach Labs Keyword Lens</h3>
   <p>The keyword \"outreach labs\" is purposefully woven into this analysis because buyers rarely research Icopify in isolation. Outreach Labs has cultivated a reputation for meticulous link building, elevated price points, and an obsession with relevance. When stakeholders search for them, they often benchmark other vendors along the way. We therefore frame Icopifys capabilities through an Outreach Labs lens, noting where each excels.</p>
   <p>Both brands tout access to high-quality websites. The difference lies in curation. Outreach Labs centers human relationships and rejection-ready QA processes; Icopify opens the gates to anyone meeting base criteria. That means the buyers discipline determines success on Icopify, while Outreach Labs shoulders more responsibility natively. In practical terms, Icopify can replicate Outreach Labs results when the buyer invests in strategy, but it will not hand that strategy to you.</p>
   <p>Search engines increasingly reward authenticity, brand cohesion, and transparent authorship. Outreach Labs meets those expectations via bespoke briefings and co-created thought leadership. Icopify provides the infrastructure to publish at scale. This report shows how to infuse Icopify campaigns with Outreach Labs-grade rigor, ensuring the keyword cluster we target aligns with the actual value delivered.</p>
@@ -227,7 +227,7 @@ const baseHtml = `
 </section>
 
 <section id="content-operations" class="ic-section">
-  <h2>Content Operations & Editorial Workflow</h2>
+  <h3>Content Operations & Editorial Workflow</h3>
   <p>Content determines whether a placement feels native or stands out as advertorial fluff. Icopifys writers operate with platform-standard briefs unless buyers provide granular direction. That means tone, narrative depth, and CTAs can vary widely. To ensure consistency, define narrative arcs, primary/secondary keywords, internal link expectations, and conversion microcopy before the task is accepted.</p>
   <p>We recommend structuring briefs around outcome statements rather than mere keywords. For example: \"Position our Outreach Labs comparison as a pragmatic alternative for SaaS founders evaluating link partners.\" Provide three supporting talking points, brand differentiators, and proof assets (case metrics, testimonials) that can be woven into the draft. This prework mirrors how Outreach Labs handles editorial collaboration and prevents rewrites.</p>
   <p>Editing should follow a two-phase model: substantive edits to align structure with strategy, followed by copy edits to polish grammar and voice. Build a feedback library so future orders reuse approved phrasing and storylines. Over time, you cultivate a pseudo-house style even when leveraging external writers.</p>

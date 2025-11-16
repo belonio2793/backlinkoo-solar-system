@@ -84,7 +84,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
   Cost: Free (tools are free/cheap)
   Expected result: 1 in 10 outreach emails converts to a link</p>
   
-  <h3>Strategy 3: HARO (Help A Reporter Out)</h3>
+  <h2>Strategy 3: HARO (Help A Reporter Out)</h2>
   
   <p>HARO connects journalists with expert sources. When you provide helpful responses to journalist queries, they often mention and link to your site in published articles.</p>
   
@@ -204,7 +204,7 @@ const BacklinkBuildingForBeginners: React.FC = () => {
   <h3>How long before I see results?</h3>
   <p>Expect 2-3 months to see rankings improvements, 3-6 months for noticeable traffic increases. Patience is crucial with <strong>backlink building for beginners</strong>.</p>
   
-  <h3>Can I buy backlinks as a beginner?</h3>
+  <h2>Can I buy backlinks as a beginner?</h2>
   <p>Not recommended initially. Focus on organic methods to build solid foundations. If you must buy, only from reputable providers offering high-quality links (DA 40+).</p>
   
   <h3>Will Google penalize me for link building?</h3>

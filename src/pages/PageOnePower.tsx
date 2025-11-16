@@ -332,7 +332,7 @@ Thanks,
   <p>Pitches reference recent articles, fill coverage gaps, and offer original material (data, expert quotes, graphics). Calls-to-action are guided by editorial needs, not brand demands. This editor-first approach is central to Page One Power’s backlinks program.</p>
 </section>
 <section class="pop-section">
-  <h2>Page One Power SEO: Turning Links Into Business Value</h2>
+  <h3>Page One Power SEO: Turning Links Into Business Value</h3>
   <p>Backlinks amplify pages that are already ready to win. Page One Power emphasizes on-page foundations: search intent alignment, accessible information architecture, and internal link graphs that route authority to money pages. Links are mapped to keyword clusters and tracked against rank movement, referral sessions, and assisted conversions.</p>
   <h3>On-Page Prerequisites</h3>
   <ol>
@@ -360,7 +360,7 @@ Thanks,
   <p>A nine‑month cadence of category‑aligned placements increased category traffic by 48% while keeping link velocity natural. Internal links from category hubs routed equity into product detail pages to lift conversion rate.</p>
 </section>
 <section class="pop-section">
-  <h2>Operational SOPs: How Page One Power Works Day‑to‑Day</h2>
+  <h3>Operational SOPs: How Page One Power Works Day‑to‑Day</h3>
   <ol>
     <li>Quarterly planning and topical cluster selection</li>
     <li>Prospecting sprints with editorial vetting</li>
@@ -389,7 +389,7 @@ Thanks,
   </ul>
 </section>
 <section class="pop-section">
-  <h2>Pricing, Engagement Models, and Buyer Fit</h2>
+  <h3>Pricing, Engagement Models, and Buyer Fit</h3>
   <p>Page One Power typically scopes custom campaigns based on velocity, editorial difficulty, and asset production. The best buyers have content resources, clear ICPs, and patience for editorial timelines. POP is strongest when asked to win durable links for assets that deserve attention.</p>
 </section>
 <section class="pop-section">
@@ -637,7 +637,7 @@ Thanks,
             <meta itemProp="headline" content={metaTitle} />
 
             <section id="summary" className="pop-section">
-              <h2>Executive Summary</h2>
+              <h3>Executive Summary</h3>
               <p>
                 Page One Power is known for relevance-forward link building, editorial collaboration, and custom strategies tailored to industry context.
                 Engagements emphasize quality sourcing and alignment with client narratives rather than transactional link quotas. This approach benefits
@@ -679,7 +679,7 @@ Thanks,
             </section>
 
             <section id="pricing" className="pop-section">
-              <h2>Pricing & Client Fit</h2>
+              <h3>Pricing & Client Fit</h3>
               <p>
                 Pricing reflects bespoke scope, vertical complexity, and editorial targets. Instead of fixed menus, proposals align outreach velocity and
                 content production with growth objectives. Best-fit clients value sustainable authority building over short-term spikes.
@@ -703,7 +703,7 @@ Thanks,
             </section>
 
             <section id="ux" className="pop-section">
-              <h2>User Experience & Onboarding</h2>
+              <h3>User Experience & Onboarding</h3>
               <p>
                 Expect structured onboarding, alignment workshops, and working agreements for approvals. Reporting should clearly show live links, target
                 anchors, context snippets, and next-step recommendations.
@@ -740,7 +740,7 @@ Thanks,
             </section>
 
             <section id="risk" className="pop-section">
-              <h2>Risk Controls & Compliance</h2>
+              <h3>Risk Controls & Compliance</h3>
               <p>
                 Sustainable link building includes diversified anchors, relevance safeguards, and monitoring for link rot. Clear policies around sponsored
                 content, disclosures, and content revisions help protect brand reputation.
@@ -777,7 +777,7 @@ Thanks,
 
 
             <section className="pop-section">
-              <h2>Extended 10,000-word Page One Power Backlinks & SEO Analysis</h2>
+              <h3>Extended 10,000-word Page One Power Backlinks & SEO Analysis</h3>
               <div className="pop-cta">
                 <Button onClick={loadExtended} disabled={loadingMore}>
                   {loadingMore ? 'Appending…' : 'Append More Expert Content'}

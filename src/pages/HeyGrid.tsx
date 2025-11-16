@@ -248,7 +248,7 @@ export default function HeyGrid() {
                   <CheckCircle className="w-8 h-8 text-green-500 mt-1" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3">Beyond Traditional Link-in-Bio Tools</h3>
+                  <h2>Beyond Traditional Link-in-Bio Tools</h2>
                   <p className="text-slate-700 leading-relaxed">
                     Traditional link-in-bio tools limit you to a boring vertical list. HeyGrid breaks those constraints with an infinite grid that lets you create stunning visual presentations. Your links become a destination, not just a list.
                   </p>
@@ -296,7 +296,7 @@ export default function HeyGrid() {
                   <CheckCircle className="w-8 h-8 text-green-500 mt-1" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3">Data-Driven Optimization</h3>
+                  <h2>Data-Driven Optimization</h2>
                   <p className="text-slate-700 leading-relaxed">
                     Comprehensive analytics show exactly which links get clicks and when. Make informed decisions about layout, content, and strategy based on real user behavior data.
                   </p>
@@ -388,7 +388,7 @@ export default function HeyGrid() {
               <div className="flex gap-6 items-start">
                 <div className="flex-shrink-0 w-12 h-12 bg-emerald-600/30 border border-emerald-500 rounded-full flex items-center justify-center text-2xl font-bold text-emerald-400">1</div>
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-bold mb-2">Sign Up in Seconds</h3>
+                  <h2>Sign Up in Seconds</h2>
                   <p className="text-slate-600">Create your account and connect your social profiles. No credit card required, start free immediately.</p>
                 </div>
               </div>
@@ -496,7 +496,7 @@ export default function HeyGrid() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               <Card className="bg-white">
                 <BarChart3 className="w-8 h-8 text-emerald-400 mb-4" />
-                <h3 className="text-2xl font-bold mb-3">Higher Click-Through Rates</h3>
+                <h2>Higher Click-Through Rates</h2>
                 <p className="text-slate-700">Interactive grids with visual hierarchy naturally guide users to click. Creators report 40-60% higher CTR compared to basic link lists.</p>
               </Card>
 
@@ -535,7 +535,7 @@ export default function HeyGrid() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               <Card className="bg-emerald-900/20 border-emerald-500/30 p-6">
                 <Rocket className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-                <h3 className="font-bold mb-2">Organic Discovery</h3>
+                <h2>Organic Discovery</h2>
                 <p className="text-sm text-slate-600">Quality backlinks improve your search rankings, bringing organic traffic directly to your HeyGrid page and website.</p>
               </Card>
 
@@ -597,7 +597,7 @@ export default function HeyGrid() {
       <section className="heygrid-final-cta py-16 md:py-20 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Bio Link?</h3>
+            <h2>Ready to Transform Your Bio Link?</h2>
             <p className="text-slate-600 mb-6">Create a stunning, conversion-focused link hub with HeyGrid. Join 50,000+ creators already using HeyGrid to engage audiences and grow their business.</p>
           </div>
         </div>

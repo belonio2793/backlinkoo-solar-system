@@ -132,20 +132,20 @@ const MeasuringRoiOnBacklinks: React.FC = () => {
   <p>For more tips, refer to <a href="https://ahrefs.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building Mistakes</a>.</p>
 
   <h2>FAQ: Measuring ROI on Backlinks</h2>
-  <h3>What is the best way to calculate ROI on backlinks?</h3>
-  <p>Subtract costs from revenue generated, divide by costs, and multiply by 100 for percentage.</p>
-
-  <h3>Are dofollow links better for ROI?</h3>
-  <p>Yes, they pass link equity, impacting rankings more than nofollow links.</p>
-
-  <h3>How long does it take to see ROI from backlinks?</h3>
-  <p>Typically 3-6 months, depending on strategy and competition.</p>
+  <h3>Is buying backlinks safe?</h3>
+  <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
 
   <h3>Can tools like SENUKE help in measuring ROI?</h3>
   <p>Absolutely, by automating campaigns and providing analytics integration.</p>
 
-  <h3>Is buying backlinks safe?</h3>
-  <p>Yes, if done through trusted services like Backlinkoo, focusing on quality.</p>
+  <h3>How long does it take to see ROI from backlinks?</h3>
+  <p>Typically 3-6 months, depending on strategy and competition.</p>
+
+  <h3>Are dofollow links better for ROI?</h3>
+  <p>Yes, they pass link equity, impacting rankings more than nofollow links.</p>
+
+  <h3>What is the best way to calculate ROI on backlinks?</h3>
+  <p>Subtract costs from revenue generated, divide by costs, and multiply by 100 for percentage.</p>
 
   
 

@@ -167,7 +167,7 @@ export default function BarrySchwartz() {
             ))}
 
             <section id="faq" className="barry-section">
-              <header className="mb-4"><h2 className="barry-section__title">Barry Schwartz FAQ</h2><p className="barry-section__summary">Direct, people‑also‑ask‑style answers grounded in public sources and reproducible methods.</p></header>
+              <header className="mb-4"><h3>Barry Schwartz FAQ</h3><p className="barry-section__summary">Direct, people‑also‑ask‑style answers grounded in public sources and reproducible methods.</p></header>
               <div className="barry-faq">
                 <Accordion type="single" collapsible>
                   {barrySchwartzFaqs.map((faq, index) => (

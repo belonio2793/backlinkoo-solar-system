@@ -324,7 +324,7 @@ export default function StellarSEO() {
 
             {/* Pricing */}
             <section id="pricing" className="stellar-section">
-              <h2>Stellar SEO Pricing</h2>
+              <h3>Stellar SEO Pricing</h3>
               <p>
                 Pricing visibility is a strong signal for agency-market fit. Public references commonly highlight two managed link-building packages, plus
                 custom plans depending on scope and competitiveness. Always verify current pricing directly on{' '}
@@ -466,7 +466,7 @@ export default function StellarSEO() {
 
             {/* Process */}
             <section id="process" className="stellar-section">
-              <h2>Process & Reporting</h2>
+              <h3>Process & Reporting</h3>
               <ol className="stellar-list">
                 <li>
                   <strong>Goals → Strategy:</strong> Start with growth targets and map link objectives to revenue, not just DR.
@@ -554,7 +554,7 @@ export default function StellarSEO() {
 
             {/* Testimonials */}
             <section id="testimonials" className="stellar-section">
-              <h2>Testimonials & Social Proof Roundup</h2>
+              <h3>Testimonials & Social Proof Roundup</h3>
               <p>According to public case summaries and external review sites (e.g., Clutch), customers frequently highlight:</p>
               <div className="stellar-grid">
                 <div>
@@ -624,7 +624,7 @@ export default function StellarSEO() {
 
             {/* Risk Playbook */}
             <section id="risks" className="stellar-section">
-              <h2>Risk Playbook & Due Diligence</h2>
+              <h3>Risk Playbook & Due Diligence</h3>
               <ol className="stellar-list">
                 <li>Request sample placements with traffic estimates and editorial policies.</li>
                 <li>Confirm no sponsored/paid tags where do‑follow signals are promised.</li>
@@ -698,7 +698,7 @@ export default function StellarSEO() {
 
             {/* Glossary */}
             <section id="glossary" className="stellar-section">
-              <h2>Glossary</h2>
+              <h3>Glossary</h3>
               <dl className="stellar-glossary">
                 <dt>Digital PR</dt>
                 <dd>Using data‑driven stories and expert commentary to earn editorial links from publications.</dd>

@@ -169,7 +169,7 @@ export default function GlueAIPage(): JSX.Element {
             </section>
 
             <section id="how-it-works">
-              <h2>How Glue AI Works — The Engine Under the Hood</h2>
+              <h3>How Glue AI Works — The Engine Under the Hood</h3>
 
               <p>Glue AI connects to your tools and pipelines, indexes permitted content, and runs models that are tuned to workplace language. The workflow typically looks like:</p>
               <ol>
@@ -214,7 +214,7 @@ export default function GlueAIPage(): JSX.Element {
             </section>
 
             <section id="integrations">
-              <h2>Integrations & Extensibility</h2>
+              <h3>Integrations & Extensibility</h3>
 
               <p>Glue integrates with the tools teams already use, enabling automations that keep work flowing:</p>
               <ul>
@@ -268,7 +268,7 @@ export default function GlueAIPage(): JSX.Element {
             </section>
 
             <section id="limitations">
-              <h2>Limitations & Responsible Use</h2>
+              <h3>Limitations & Responsible Use</h3>
 
               <p>AI assistants are powerful but imperfect. Consider these limitations when adopting Glue:</p>
               <ul>
@@ -301,7 +301,7 @@ export default function GlueAIPage(): JSX.Element {
             </section>
 
             <section id="register" className="mt-8 mb-12">
-              <h2>Boost Visibility for Your AI Initiatives</h2>
+              <h3>Boost Visibility for Your AI Initiatives</h3>
               <p>If you’re launching AI-driven tools like Glue AI, visibility and credibility matter. Backlink ∞ helps AI startups, teams, and authors build authoritative backlinks and SEO strategies that increase organic discovery and drive targeted traffic to product pages.</p>
               <p className="mt-4"><a href="https://backlinkoo.com/register" target="_blank" rel="noopener noreferrer" className="text-blue-800 underline">Register for Backlink ∞ to buy backlinks (https://backlinkoo.com/register) and get traffic using SEO with user registration</a></p>
             </section>

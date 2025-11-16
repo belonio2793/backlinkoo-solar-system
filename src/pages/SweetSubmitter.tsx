@@ -185,7 +185,7 @@ export default function SweetSubmitter() {
         </section>
 
         <section id="smart-engine" className="space-y-4">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Smart Engine: Modern, Safer Patterns</h2>
+          <h3>Smart Engine: Modern, Safer Patterns</h3>
           <div className="grid md:grid-cols-3 gap-4">
             <Card><CardHeader><CardTitle className="flex items-center gap-2"><Settings2 className="h-5 w-5"/> Sharded Sitemaps</CardTitle></CardHeader><CardContent className="text-gray-700">Segment by type and recency. Keep a hot shard for newest URLs and update it rapidly to broadcast change.</CardContent></Card>
             <Card><CardHeader><CardTitle className="flex items-center gap-2"><Rocket className="h-5 w-5"/> Internal Link Hubs</CardTitle></CardHeader><CardContent className="text-gray-700">Refresh hub pages that link to fresh content. These hubs become reliable beacons for crawlers and people.</CardContent></Card>
@@ -211,7 +211,7 @@ export default function SweetSubmitter() {
         </section>
 
         <section id="ethics" className="space-y-4">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Ethics & Policy Awareness</h2>
+          <h3>Ethics & Policy Awareness</h3>
           <p className="text-gray-700 leading-relaxed">Automating distribution without considering platform rules risks penalties and reputational harm. Replace volume‑chasing tactics with durable, value‑adding distribution. Treat every destination as an audience, not a dumping ground. When in doubt, publish better content, improve internal links, and strengthen hubs.</p>
         </section>
 

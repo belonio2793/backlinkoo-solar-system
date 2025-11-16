@@ -151,7 +151,7 @@ export default function FlaskPage() {
              Tags let teams slice feedback any way they need: by feature, by client, by priority. Filters turn long timelines into action lists: show me only bugs, or only style changes. Organization reduces cognitive load and speeds triage.
             </p>
 
-            <h3>Shared workspaces and uploads (Pro)</h3>
+            <h2>Shared workspaces and uploads (Pro)</h2>
             <p>
              Teams on Pro get shared spaces, direct uploads, versioning, and the ability to remove branding—features that matter when you move from experimentation to daily practice.
             </p>
@@ -248,7 +248,7 @@ export default function FlaskPage() {
 
           <section>
             <h2>Frequently asked questions</h2>
-            <h3>How much does Pro cost?</h3>
+            <h2>How much does Pro cost?</h2>
             <p>
              Price signals indicate a modest per-member monthly fee when billed annually. The right plan depends on team size and whether you require uploads and workspace management.
             </p>
@@ -289,7 +289,7 @@ export default function FlaskPage() {
             <p>
              A production studio replaced multi-email feedback chains with Flask. Producers recorded direction, editors attached versions, and clients approved via timestamped comments. Turnaround improved and client satisfaction rose due to clearer expectations.
             </p>
-            <h3>Design studio</h3>
+            <h2>Design studio</h2>
             <p>
              A design team used Flask to centralize brand reviews. Tags and filters created a single source of truth for revisions and eliminated duplicated feedback across threads.
             </p>

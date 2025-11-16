@@ -217,7 +217,7 @@ export default function RatelyPage(): JSX.Element {
             </section>
 
             <section id="features">
-              <h2>Core Features — Flexible Controls Without Infrastructure Drag</h2>
+              <h3>Core Features — Flexible Controls Without Infrastructure Drag</h3>
               <h3>Customizable policies</h3>
               <p>
                 Define limits by IP, user ID, API key, plan tier, endpoint path, HTTP method, headers (such as client version), or location. Combine conditions to separate anonymous traffic from authenticated customers, or to protect expensive endpoints more aggressively than read‑only ones.
@@ -279,7 +279,7 @@ export default function RatelyPage(): JSX.Element {
             </section>
 
             <section id="governance">
-              <h2>Governance, Risk, and Customer Experience</h2>
+              <h3>Governance, Risk, and Customer Experience</h3>
               <p>
                 Throttling should never feel punitive to good users. Establish guardrails: exemptions for critical webhooks, documented burst policies for paid plans, and a fair escalation path when a customer hits a ceiling unexpectedly. Internally, define who can change policies, who approves temporary overrides, and how long exceptions live.
               </p>
@@ -314,7 +314,7 @@ export default function RatelyPage(): JSX.Element {
             </section>
 
             <section id="case-studies">
-              <h2>Case‑Style Examples (Composites)</h2>
+              <h3>Case‑Style Examples (Composites)</h3>
               <h3>Realtime analytics provider</h3>
               <p>
                 Anonymous dashboards received scraping bursts every Monday. By introducing IP and header‑based limits at the edge, the team cut origin load by 38% while preserving legitimate access. Premium customers received higher ceilings tied to account tiers.
@@ -362,7 +362,7 @@ export default function RatelyPage(): JSX.Element {
 
             <section id="cta" className="not-prose mt-16 border-t pt-10">
               <div className="rounded-xl bg-slate-900 text-white p-8 md:p-10 shadow-lg">
-                <h2 className="text-2xl md:text-3xl font-semibold mb-3">Ready to grow traffic the durable way?</h2>
+                <h3>Ready to grow traffic the durable way?</h3>
                 <p className="text-white/90 mb-6 max-w-2xl">Protecting your API is one side of the equation. To earn compounding traffic, invest in content and links that deserve to rank. Join Backlink ∞ and start building authority with transparency and control.</p>
                 <p className="text-lg font-medium">
                   <a className="inline-block bg-white text-slate-900 font-semibold px-5 py-3 rounded-lg hover:bg-emerald-50" href="https://backlinkoo.com/register" rel="noopener">Register for Backlink ∞</a>

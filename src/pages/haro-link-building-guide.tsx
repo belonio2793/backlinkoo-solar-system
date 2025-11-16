@@ -33,7 +33,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
       </div>
   <p>At Backlinkoo.com, our experts can handle these organic strategies for you, ensuring high-quality dofollow links without the hassle.</p>
 
-  <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
+  <h3>Buying Links: Pros, Cons, and Safe Tips</h3>
   <p>While this <strong>HARO link building guide</strong> emphasizes organic methods like HARO, buying links is a controversial topic in SEO. Let's break down the pros, cons, and how to do it safely if you choose this route.</p>
   
   <h3>Pros of Buying Links</h3>
@@ -106,7 +106,7 @@ const HaroLinkBuildingGuide: React.FC = () => {
     <p><em>Graph showing traffic growth from HARO (Source: Backlinkoo)</em></p>
   </div>
 
-  <h2>Common Mistakes to Avoid in HARO Link Building</h2>
+  <h3>Common Mistakes to Avoid in HARO Link Building</h3>
   <p>Even with the best <strong>HARO link building guide</strong>, pitfalls exist. Avoid these:</p>
   <ol>
     <li><strong>Generic Pitches:</strong> Tailor responses; generic ones get ignored.</li>
