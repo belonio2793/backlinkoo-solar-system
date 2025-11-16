@@ -178,10 +178,6 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 
 <p>Avoid these by partnering with Backlinkoo for expert guidance and risk-free link building.</p>
 
-<div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Ultimate Link Building Checklist</h2>
 <h3>What is the ultimate link building checklist?</h3>
