@@ -8,7 +8,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { Layers, ShieldCheck } from 'lucide-react';
-import '@/styles/sherlock-hacks-google.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

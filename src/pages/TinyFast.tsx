@@ -4,7 +4,6 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ExternalLink, Download, Shield, Zap, Lock, FileIcon, Image, Video, FileText, Smartphone, Award, TrendingUp, CheckCircle, ArrowRight, Globe } from 'lucide-react';
-import '@/styles/tinyfast.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

@@ -9,7 +9,6 @@ import {
   abStats,
   abGlossary,
 } from '@/data/authorityBuildersContent';
-import '@/styles/authority-builders.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

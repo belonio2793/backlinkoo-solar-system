@@ -17,7 +17,6 @@ import {
   neilPatelFaqs,
   neilPatelGlossary,
 } from '@/data/neilPatelContent';
-import '@/styles/neil-patel.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

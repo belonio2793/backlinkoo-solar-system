@@ -12,7 +12,6 @@ import {
   brianDeanFaqs,
   brianDeanGlossary,
 } from '@/data/brianDeanContent';
-import '@/styles/brian-dean.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

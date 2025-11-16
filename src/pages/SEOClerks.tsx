@@ -6,7 +6,6 @@ import { Button } from '@/components/ui/button';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ExternalLink, Sparkles, ShieldCheck, BarChart3, Globe2, CheckCircle2, Info, Link as LinkIcon, BookOpen } from 'lucide-react';
-import '@/styles/seo-clerks.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

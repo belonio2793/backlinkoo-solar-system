@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Seo from "@/components/Seo";
-import '@/styles/androidify.css';
 import { ANDROIDIFY_HTML } from '@/content/androidifyArticles';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';

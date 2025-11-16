@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Seo from "@/components/Seo";
-import '@/styles/blai.css';
 import { BLAI_HTML } from '@/content/blaiArticles';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';

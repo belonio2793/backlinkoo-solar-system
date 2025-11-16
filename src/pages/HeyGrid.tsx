@@ -4,7 +4,6 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ExternalLink, Layout, Zap, Palette, Share2, BarChart3, Lock, Layers, GitBranch, Sparkles, CheckCircle, ArrowRight, Users, Rocket, BookOpen, Image as ImageIcon } from 'lucide-react';
-import '@/styles/heygrid.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

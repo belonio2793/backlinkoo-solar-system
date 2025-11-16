@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import '@/styles/the-brief-review.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

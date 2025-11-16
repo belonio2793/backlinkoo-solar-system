@@ -4,7 +4,6 @@ import { Footer } from '@/components/Footer';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Sparkles, ShieldCheck, BarChart3, Globe2, Info, Link as LinkIcon, BookOpen } from 'lucide-react';
-import '@/styles/ignite-visibility.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

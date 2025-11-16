@@ -9,7 +9,6 @@ import { Badge } from '@/components/ui/badge';
 import { Slider } from '@/components/ui/slider';
 import { CheckCircle2, AlertTriangle, ShieldCheck, Gauge, Activity, Star, ListChecks, ArrowLeft, ArrowRight } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/senuke.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

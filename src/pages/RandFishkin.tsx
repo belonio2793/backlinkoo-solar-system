@@ -12,7 +12,6 @@ import {
   randFishkinFaqs,
   randFishkinGlossary,
 } from '@/data/randFishkinContent';
-import '@/styles/rand-fishkin.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

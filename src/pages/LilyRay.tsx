@@ -7,7 +7,6 @@ import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import { ArrowRight, ExternalLink, Globe2, Target } from 'lucide-react';
 import { lilySections, lilyStats, lilyTimeline, lilyFaqs, lilyGlossary } from '@/data/lilyRayContent';
 import { lilyLongSections } from '@/data/lilyRayLongContent';
-import '@/styles/lily-ray.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

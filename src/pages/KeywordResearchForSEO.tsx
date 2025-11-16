@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, AlertTriangle, TrendingUp, Search, BarChart3, Zap, Target, Brain, FileText, ArrowRight, BookOpen, Eye } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/keyword-research-for-seo.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

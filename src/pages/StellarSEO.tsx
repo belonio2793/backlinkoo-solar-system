@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/stellar-seo.css';
 
 // Small helper to safely upsert a tag in <head>
 function upsertMeta(name: string, content: string) {

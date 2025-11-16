@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Globe2, LineChart, Target, ExternalLink } from 'lucide-react';
 import { stanVenturesSections, stanVenturesStats, stanVenturesFaqs } from '@/data/stanVenturesContent';
-import '@/styles/stan-ventures.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

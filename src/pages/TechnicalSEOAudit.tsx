@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { AlertTriangle, CheckCircle2, Zap, Settings, Layers, TrendingUp, Shield, Search, Code, Database, ArrowLeft, ArrowRight } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/senuke.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

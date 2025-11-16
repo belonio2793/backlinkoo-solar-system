@@ -12,7 +12,6 @@ import {
   barrySchwartzFaqs,
   barrySchwartzGlossary,
 } from '@/data/barrySchwartzContent';
-import '@/styles/barry-schwartz.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

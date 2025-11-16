@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import '@/styles/proximity-lock-system.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

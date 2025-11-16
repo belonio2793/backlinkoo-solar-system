@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ArrowRight, CheckCircle2, TrendingUp, Globe, Zap, Users, Clock, AlertCircle, BarChart3, Bell, Eye } from 'lucide-react';
-import '@/styles/signal-station.css';
 
 const signalStationFaqs = [
   {

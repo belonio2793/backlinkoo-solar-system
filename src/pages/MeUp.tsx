@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/meup.css';
 
 const metaTitle = 'MeUp.com Outreach Intelligence: Definitive Marketplace + Outreach Labs Companion Playbook';
 const metaDescription = 'A 10,000-word analysis of MeUp.com that benchmarks marketplace mechanics, outreach workflows, and advanced link building frameworks while mapping how Outreach Labs-style relationship programs integrate with MeUp for maximum SEO velocity.';

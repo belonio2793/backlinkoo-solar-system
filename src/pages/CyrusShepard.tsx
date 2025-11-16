@@ -7,7 +7,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { ArrowRight, ExternalLink, Globe2, Target, Link as LinkIcon } from 'lucide-react';
 import { cyrusSections, cyrusStats, cyrusTimeline, cyrusFaqs, cyrusGlossary, cyrusSameAs } from '@/data/cyrusShepardContent';
 import { cyrusLongSections } from '@/data/cyrusShepardLongContent';
-import '@/styles/cyrus-shepard.css';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 import { interlinkTargets } from '@/data/interlinkTargets';

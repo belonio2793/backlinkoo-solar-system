@@ -22,7 +22,6 @@ import {
   Smartphone,
   Eye
 } from 'lucide-react';
-import '@/styles/proximity-lock-system.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

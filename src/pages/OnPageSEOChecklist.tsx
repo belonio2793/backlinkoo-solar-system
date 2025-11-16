@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, AlertTriangle, TrendingUp, Search, BarChart3, Zap, Target, Code, FileText, ArrowRight, BookOpen, AlertCircle, Lightbulb } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/on-page-seo-checklist.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

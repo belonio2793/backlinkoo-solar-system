@@ -4,7 +4,6 @@ import RankHeader from '@/components/RankHeader';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import '@/styles/daftmusic.css';
 import {
   ChevronDown,
   Music,

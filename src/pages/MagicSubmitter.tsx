@@ -9,7 +9,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { Slider } from '@/components/ui/slider';
 import { ShieldCheck, Activity, Star, ListChecks, ArrowLeft, ArrowRight, Gauge } from 'lucide-react';
-import '@/styles/magicsubmitter.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

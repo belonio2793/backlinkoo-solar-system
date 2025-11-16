@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Seo from "@/components/Seo";
-import '@/styles/adxom.css';
 import { ADXOM_HTML } from '@/content/adxomArticles';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';

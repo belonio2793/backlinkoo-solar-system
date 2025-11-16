@@ -9,7 +9,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { Slider } from '@/components/ui/slider';
 import { Search, Sparkles, ListChecks, Download, ArrowLeft, ArrowRight, BarChart3, Globe2, Wand2 } from 'lucide-react';
-import '@/styles/answerthepublic.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

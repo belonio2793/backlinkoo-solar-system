@@ -14,7 +14,6 @@ import ContentBriefGenerator from '@/components/firstpagedigital/ContentBriefGen
 import PricingEstimator from '@/components/firstpagedigital/PricingEstimator';
 import TestimonialsGrid from '@/components/firstpagedigital/TestimonialsGrid';
 import FeatureGrid from '@/components/firstpagedigital/FeatureGrid';
-import '@/styles/first-page-digital.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

@@ -6,7 +6,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, Award, Target, Zap, TrendingUp, Users, Lightbulb, Clock } from 'lucide-react';
-import '@/styles/intryc.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

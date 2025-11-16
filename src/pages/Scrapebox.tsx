@@ -8,7 +8,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { ListChecks, Gauge } from 'lucide-react';
-import '@/styles/scrapebox.css';
 
 // Interactive search simulator widget
 function ScrapeboxSearchSimulator() {

@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/bhw-sellers.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

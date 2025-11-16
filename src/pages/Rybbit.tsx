@@ -10,7 +10,6 @@ import {
   rybbitSections,
   rybbitGlossary,
 } from '@/data/rybbitContent';
-import '@/styles/rybbit.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

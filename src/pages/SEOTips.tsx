@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, AlertTriangle, TrendingUp, BookOpen, Shield, Zap, Search, Link2, PenTool, Gauge, Target, Code, Users, Award } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/seo-tips.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

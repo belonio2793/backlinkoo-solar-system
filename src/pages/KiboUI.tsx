@@ -4,7 +4,6 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Github, ArrowRight } from 'lucide-react';
-import '@/styles/kiboui.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

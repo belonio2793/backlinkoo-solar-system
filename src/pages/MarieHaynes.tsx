@@ -7,7 +7,6 @@ import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
 import { ArrowRight, ExternalLink, Globe2, Target, LineChart } from 'lucide-react';
 import { marieSections, marieStats, marieTimeline, marieFaqs, marieGlossary } from '@/data/marieHaynesContent';
 import { marieLongSections } from '@/data/marieHaynesLongContent';
-import '@/styles/marie-haynes.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

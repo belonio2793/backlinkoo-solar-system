@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, AlertTriangle, ShieldCheck, Gauge, Activity, Star, ListChecks, ArrowLeft, ArrowRight } from 'lucide-react';
 import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
-import '@/styles/backlink-how-to-schema.css';
 
 function upsertMeta(name: string, content: string) {
   if (typeof document === 'undefined') return;

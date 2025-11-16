@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Seo from "@/components/Seo";
-import '@/styles/dadreply.css';
 import { DAD_REPLY_HTML } from '@/content/dadReplyArticles';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';

@@ -12,7 +12,6 @@ import {
   aleydaFaqs,
   aleydaGlossary,
 } from '@/data/aleydaSolisContent';
-import '@/styles/aleyda-solis.css';
 import { aleydaLongSections } from '@/data/aleydaSolisLongContent';
 
 function upsertMeta(name: string, content: string) {
