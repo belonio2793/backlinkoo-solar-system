@@ -149,6 +149,11 @@ const CheapBacklinksVsPremium: React.FC = () => {
   </div>
 
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=400&fit=crop" alt="Backlink quality vs cost analysis" width="800" height="400" />
+    <p><em>Backlink quality vs cost analysis (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

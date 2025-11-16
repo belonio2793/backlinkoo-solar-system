@@ -136,6 +136,11 @@ const AiPoweredLinkBuilding: React.FC = () => {
   </div>
 
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Smart analytics and automation" width="800" height="400" />
+    <p><em>Smart analytics and automation (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/2zFqSyZ57-8" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

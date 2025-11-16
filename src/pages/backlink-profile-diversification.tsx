@@ -26,9 +26,9 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>Without diversification, your site risks being flagged for manipulative practices, leading to drops in rankings or even de-indexing. In contrast, a well-diversified backlink profile signals to search engines that your content is valuable and widely referenced, boosting your SEO performance.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="backlink profile diversification infographic" width="800" height="400" />
-        <p><em>Infographic illustrating the benefits of backlink profile diversification (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Backlink profile diversification strategy" width="800" height="400" />
+    <p><em>Backlink profile diversification strategy (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Organic Strategies for Backlink Profile Diversification</h2>
     
@@ -60,9 +60,9 @@ const BacklinkProfileDiversification: React.FC = () => {
     <p>For automation in these strategies, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content distribution and link acquisition processes.</p>
 
     <div class="media">
-        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Backlink profile diversification strategy guide" width="800" height="400" />
-        <p><em>Infographic showing the importance of diversifying your backlink sources and types (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link source variety and distribution" width="800" height="400" />
+    <p><em>Link source variety and distribution (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Diversification</h2>
     
@@ -139,9 +139,9 @@ const BacklinkProfileDiversification: React.FC = () => {
     <a href="https://moz.com/blog/backlink-tools" target="_blank" rel="noopener noreferrer">Moz Guide to Backlink Tools</a>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for backlink diversification" width="800" height="400" />
-        <p><em>Visual guide to SEO tools for diversification (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Anchor text and source analysis" width="800" height="400" />
+    <p><em>Anchor text and source analysis (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Case Studies: Real-World Success with Backlink Profile Diversification</h2>
     
@@ -175,7 +175,12 @@ const BacklinkProfileDiversification: React.FC = () => {
         <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
     </div>
     
-    <h2>FAQ on Backlink Profile Diversification</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ on Backlink Profile Diversification</h2>
     
     <h3>What is the ideal ratio for diversified backlinks?</h3>
     <p>A balanced profile might include 40% from blogs, 20% from directories, 20% from social media, and 20% from other sources. Adjust based on your niche.</p>

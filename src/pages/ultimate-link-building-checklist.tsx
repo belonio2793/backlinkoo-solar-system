@@ -18,9 +18,9 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>This <strong>ultimate link building checklist</strong> will guide you through the fundamentals, ensuring you focus on dofollow links that pass authority and avoid nofollow ones that don't. Remember, quality over quantity is key—links from high-domain-authority sites are far more valuable than numerous low-quality ones.</p>
 
 <div class="media">
-<img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="ultimate link building checklist infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
-<p><em>Infographic: Key Steps in the Ultimate Link Building Checklist (Source: Backlinkoo)</em></p>
-</div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Ultimate link building checklist" width="800" height="400" />
+    <p><em>Ultimate link building checklist (Source: Backlinkoo)</em></p>
+  </div>
 
 <h2>Organic Link Building Strategies</h2>
 
@@ -82,9 +82,9 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>Monitor your backlinks with tools like Google Search Console to disavow any toxic ones. Remember, integrate bought links with organic efforts for a balanced approach.</p>
 
 <div class="media">
-<img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
-<p><em>Chart: Weighing the Pros and Cons of Buying Backlinks (Source: Backlinkoo)</em></p>
-</div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Complete SEO checklist" width="800" height="400" />
+    <p><em>Complete SEO checklist (Source: Backlinkoo)</em></p>
+  </div>
 
 <h2>Essential Link Building Tools: A Comprehensive Table</h2>
 
@@ -152,9 +152,9 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 <p>A local service provider used a mix of organic and bought links safely managed by Backlinkoo. They secured 100 relevant backlinks, boosting local search visibility. Organic leads increased by 50%, and their site climbed from page 5 to page 1 for competitive keywords.</p>
 
 <div class="media">
-<img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Link building case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
-<p><em>Graph: Traffic Growth from Link Building Case Studies (Source: Backlinkoo)</em></p>
-</div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link building process" width="800" height="400" />
+    <p><em>Link building process (Source: Backlinkoo)</em></p>
+  </div>
 
 <h2>Common Link Building Mistakes to Avoid</h2>
 
@@ -182,7 +182,12 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 
 <p>Avoid these by partnering with Backlinkoo for expert guidance and risk-free link building.</p>
 
-<h2>FAQ: Ultimate Link Building Checklist</h2>
+<div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Ultimate Link Building Checklist</h2>
 
 <h3>What is the ultimate link building checklist?</h3>
 

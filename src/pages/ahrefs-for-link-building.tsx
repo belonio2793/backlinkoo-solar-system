@@ -41,8 +41,8 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These comprehensive features make <strong>Ahrefs for link building</strong> an absolutely essential tool for anyone aiming to build a robust, high-quality backlink portfolio and dominate search rankings.</p>
 
   <div class="media">
-    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Ahrefs Site Explorer dashboard for backlink analysis and link building strategy" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Visual overview of Ahrefs' Site Explorer tool, essential for comprehensive link building analysis (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Ahrefs SEO tool dashboard and metrics" width="800" height="400" />
+    <p><em>Ahrefs SEO tool dashboard and metrics (Source: Backlinkoo)</em></p>
   </div>
 
   <h2>Organic Link Building Strategies Using Ahrefs: White-Hat Methods for Sustainable Growth</h2>
@@ -101,8 +101,8 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>These organic methods, powered by <strong>Ahrefs for link building</strong>, build sustainable SEO without risking penalties from Google's algorithm updates.</p>
 
   <div class="media">
-      <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Ahrefs Content Explorer interface for finding link building opportunities" width="800" height="400" />
-      <p><em>Visual guide to using Ahrefs for comprehensive link building analysis and opportunity discovery (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" alt="Backlink analysis and competitor research" width="800" height="400" />
+    <p><em>Backlink analysis and competitor research (Source: Backlinkoo)</em></p>
   </div>
 
   <h2>Buying Backlinks Safely: Ahrefs Vetting and Quality Control</h2>
@@ -220,8 +220,8 @@ const AhrefsForLinkBuilding: React.FC = () => {
   </ul></p>
 
   <div class="media">
-    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Case study showing link growth and ranking improvements from Ahrefs strategy" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Graph illustrating backlink growth and ranking improvements from Ahrefs-powered link building campaigns (Source: Backlinkoo Research)</em></p>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="SEO analytics and reporting" width="800" height="400" />
+    <p><em>SEO analytics and reporting (Source: Backlinkoo)</em></p>
   </div>
 
   <h2>Common Mistakes to Avoid When Using Ahrefs for Link Building</h2>
@@ -240,6 +240,11 @@ const AhrefsForLinkBuilding: React.FC = () => {
   <p>By steering clear of these pitfalls, your <strong>Ahrefs for link building</strong> efforts will yield significantly better results. Backlinkoo can help audit and optimize your entire link building strategy.</p>
 
   <p><a href="https://ahrefs.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">See Ahrefs' detailed guide on link building mistakes</a></p>
+
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
 
   <h2>FAQ: Everything You Need to Know About Ahrefs for Link Building</h2>
   
