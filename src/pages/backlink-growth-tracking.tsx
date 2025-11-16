@@ -121,7 +121,7 @@ const BacklinkGrowthTracking: React.FC = () => {
     <p>Avoid these by leveraging Backlinkoo's expertise and tools like <Link to="/senuke">SENUKE</Link> for smart automation.</p>
     
     <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>
 

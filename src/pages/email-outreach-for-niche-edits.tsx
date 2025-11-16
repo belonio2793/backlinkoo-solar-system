@@ -50,7 +50,7 @@ const EmailOutreachForNicheEdits: React.FC = () => {
     <p>The Outreach Strategy industry faces unique challenges and opportunities with email outreach for niche edits. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kZfRzlLLd5M" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Email Outreach for Niche Edits</h2>

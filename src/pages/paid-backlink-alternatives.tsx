@@ -50,7 +50,7 @@ const PaidBacklinkAlternatives: React.FC = () => {
     <p>The Organic Growth industry faces unique challenges and opportunities with paid backlink alternatives. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <h2>Core Strategies for Paid Backlink Alternatives</h2>
