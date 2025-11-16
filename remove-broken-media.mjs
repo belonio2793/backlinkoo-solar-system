@@ -18,8 +18,9 @@ function removeMediaBlocks(filePath) {
     let removed = 0;
 
     // Pattern 1: Remove entire <div class="media">...</div> block containing the broken video
+    // This pattern matches: <div class="media"> ... iframe with broken video ... </div>
     const videoPattern = new RegExp(
-      `<div class="media">\\s*<iframe[^>]*src="https:\\/\\/www\\.youtube\\.com\\/embed\\/${BROKEN_VIDEO_ID}"[^>]*>.*?<\\/iframe>\\s*<p>[^<]*<\\/p>\\s*<\\/div>`,
+      `<div class="media">\\s*<iframe[^>]*src="https://www\\.youtube\\.com/embed/${BROKEN_VIDEO_ID}"[^>]*></iframe>\\s*<p>[^<]*</p>\\s*</div>`,
       'gs'
     );
     
@@ -30,7 +31,7 @@ function removeMediaBlocks(filePath) {
 
     // Pattern 2: Remove entire <div class="media">...</div> block containing the broken image
     const imagePattern = new RegExp(
-      `<div class="media">\\s*<img[^>]*src="https:\\/\\/images\\.unsplash\\.com\\/photo-1460925895917-adf4e565db18[^"]*"[^>]*>\\s*<p>[^<]*<\\/p>\\s*<\\/div>`,
+      `<div class="media">\\s*<img[^>]*src="https://images\\.unsplash\\.com/photo-1460925895917-adf4e565db18[^"]*"[^>]*>\\s*<p>[^<]*</p>\\s*</div>`,
       'gs'
     );
     
