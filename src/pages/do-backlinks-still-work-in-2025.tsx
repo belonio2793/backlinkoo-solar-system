@@ -62,9 +62,6 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p>Other tactics: Infographics, skyscraper technique (improving top content), and social</p>
   <p> media amplification. Remember, organic strategies build sustainable domain authority.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Are Backlinks Still Important in 2025?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
     
     <p>Integrating LSI terms like "link building best practices" ensures your content ranks</p>
   <p> well. At Backlinkoo, we recommend combining these with our services for optimal results.</p>
