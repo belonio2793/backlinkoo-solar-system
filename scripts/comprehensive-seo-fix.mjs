@@ -123,8 +123,7 @@ async function fixAllPages() {
   console.log('🔧 Fixing syntax errors and ensuring proper SEO...\n');
 
   const files = fs.readdirSync(PAGES_DIR)
-    .filter(f => f.endsWith('.tsx') && f.match(/^(anchor-text|backlink|link-building|dofollow|link-gap|link-insertion|link-prospecting|link-reclamation|link-velocity|referral|unlinked)/))
-    .slice(0, 100);
+    .filter(f => f.endsWith('.tsx') && f.match(/^(anchor-text|backlink|link-building|dofollow|link-gap|link-insertion|link-prospecting|link-reclamation|link-velocity|referral|unlinked)/));
 
   let fixed = 0;
 
