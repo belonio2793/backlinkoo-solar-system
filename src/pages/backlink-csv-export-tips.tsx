@@ -79,7 +79,7 @@ export default function BacklinkCsvExportTips() {
     <p>At Backlinkoo, our platform simplifies this by offering one-click CSV exports, integrated with advanced analytics. This not only saves time but also enhances your overall SEO strategy. For more on backlink fundamentals, check out this <a href="https://moz.com/blog/backlinks" target="_blank" rel="noopener noreferrer">Moz Guide on Backlinks</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-csv-export-tips-img1.jpg" alt="backlink csv export tips infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic showing the benefits of backlink CSV exports (Source: Backlinkoo)</em></p>
     </div>
     
@@ -171,7 +171,7 @@ export default function BacklinkCsvExportTips() {
     <p>For official guidelines, visit <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-csv-export-tips-img2.jpg" alt="tools for backlink csv export tips" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink csv export tips" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Comparison of backlink tools (Source: Backlinkoo)</em></p>
     </div>
     

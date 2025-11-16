@@ -85,7 +85,7 @@ export default function LinkBuildingGoogleSheetsHacks() {
     <p>Backlinkoo.com enhances these hacks by offering professional services that integrate seamlessly with your Sheets setup. Imagine pulling in high-quality dofollow links while your spreadsheet tracks every metric effortlessly.</p>
     
     <div class="media">
-        <img src="/media/link-building-google-sheets-hacks-img1.jpg" alt="link building google sheets hacks infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing key link building Google Sheets hacks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -210,7 +210,7 @@ export default function LinkBuildingGoogleSheetsHacks() {
     <p>An SEO agency managed client campaigns via shared Sheets. Hacks like automated DA checks led to 200+ links per client, with average ranking improvements of 15 positions (fake stats). Integration with tools like <a href="/senuke">SENUKE</a> streamlined automation.</p>
     
     <div class="media">
-        <img src="/media/link-building-google-sheets-hacks-img2.jpg" alt="case study graph for link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building" width="800" height="400" />
         <p><em>Graph showing traffic growth from link building hacks (Source: Backlinkoo)</em></p>
     </div>
     

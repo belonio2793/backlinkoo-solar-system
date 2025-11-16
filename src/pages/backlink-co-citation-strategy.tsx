@@ -81,7 +81,7 @@ export default function BacklinkCoCitationStrategy() {
   <p>LSI terms like link building, domain authority, and anchor text play a key role here. By strategically placing your site in conversations with high-authority domains, you build a network of implied endorsements.</p>
   
   <div class="media">
-    <img src="/media/backlink-co-citation-strategy-img1.jpg" alt="backlink co-citation strategy infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic illustrating how co-citation works in link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -120,7 +120,7 @@ export default function BacklinkCoCitationStrategy() {
   <p>Always audit purchased links for relevance. For guidance, check Google's Search Central at <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
   
   <div class="media">
-    <img src="/media/backlink-co-citation-strategy-img2.jpg" alt="Pros and cons of buying backlinks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks" width="800" height="400" />
     <p><em>Visual breakdown of buying backlinks for co-citation (Source: Backlinkoo)</em></p>
   </div>
   
@@ -180,7 +180,7 @@ export default function BacklinkCoCitationStrategy() {
   <p>A marketing agency bought targeted backlinks for co-citation with HubSpot. Outcome: 30% increase in dofollow links and a jump in search visibility. Safe buying tips from Backlinkoo ensured no penalties.</p>
   
   <div class="media">
-    <img src="/media/backlink-co-citation-strategy-img3.jpg" alt="Case study graphs" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graphs" width="800" height="400" />
     <p><em>Graphs showing traffic growth from co-citation (Source: Backlinkoo)</em></p>
   </div>
   
@@ -208,7 +208,7 @@ export default function BacklinkCoCitationStrategy() {
   <p>It signals topical relevance, potentially boosting authority by 10-20% per a SEMrush study.</p>
   
   <div class="media">
-    <img src="/media/backlink-co-citation-strategy-img4.jpg" alt="FAQ infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Key FAQs on backlink co-citation strategy (Source: Backlinkoo)</em></p>
   </div>
   

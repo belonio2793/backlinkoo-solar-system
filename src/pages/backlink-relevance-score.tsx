@@ -91,7 +91,7 @@ export default function BacklinkRelevanceScore() {
   </ul>
   
   <div class="media">
-    <img src="/media/backlink-relevance-score-img1.jpg" alt="backlink relevance score infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic explaining backlink relevance score factors (Source: Backlinkoo)</em></p>
   </div>
   
@@ -176,7 +176,7 @@ export default function BacklinkRelevanceScore() {
   <p>Statistics from <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs</a> show that safe buying can increase traffic by 20% when relevance is prioritized.</p>
   
   <div class="media">
-    <img src="/media/backlink-relevance-score-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart on buying backlinks with relevance focus (Source: Backlinkoo)</em></p>
   </div>
   
@@ -251,7 +251,7 @@ export default function BacklinkRelevanceScore() {
   <p>A local service provider enhanced their score through resource page links and buying safe backlinks via Backlinkoo. Score improved from 60 to 95, with traffic up 50% (5k to 7.5k) and leads increasing by 30%.</p>
   
   <div class="media">
-    <img src="/media/backlink-relevance-score-img3.jpg" alt="Case study graphs on backlink improvements" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graphs on backlink improvements" width="800" height="400" />
     <p><em>Graphs from case studies on backlink relevance score (Source: Backlinkoo)</em></p>
   </div>
   

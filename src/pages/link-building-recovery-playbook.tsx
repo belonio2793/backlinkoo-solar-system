@@ -76,7 +76,7 @@ export default function LinkBuildingRecoveryPlaybook() {
     <p>With over a decade of experience in link building, Backlinkoo has assisted thousands of sites in regaining their domain authority and search rankings. Stick around as we dive deep into organic strategies, the nuances of buying links, essential tools like <Link href="/senuke">SENUKE for automation</Link>, case studies, and more. By the end, you'll have a tailored <strong>link building recovery playbook</strong> to implement immediately.</p>
     
     <div class="media">
-        <img src="/media/link-building-recovery-playbook-img1.jpg" alt="link building recovery playbook infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic: Key Steps in a Link Building Recovery Playbook (Source: Backlinkoo)</em></p>
     </div>
     
@@ -137,7 +137,7 @@ export default function LinkBuildingRecoveryPlaybook() {
     <p>Choose reputable providers like Backlinkoo, focusing on niche-relevant, high-DA sites. Diversify anchors, monitor with tools, and integrate with organic strategies. Use <Link href="/senuke">SENUKE for automation</Link> to blend paid and earned links seamlessly. Always prioritize white-hat vendors to avoid red flags.</p>
     
     <div class="media">
-        <img src="/media/link-building-recovery-playbook-img2.jpg" alt="Pros and cons of buying links chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Pros and cons of buying links chart" width="800" height="400" />
         <p><em>Chart: Balancing Pros and Cons in Link Buying (Source: Backlinkoo)</em></p>
     </div>
     
@@ -202,7 +202,7 @@ export default function LinkBuildingRecoveryPlaybook() {
     <p>An SEO agency client lost 40% of referring domains post-algorithm update. Our strategy, leveraging <Link href="/senuke">SENUKE for automation</Link>, added 200 diverse links. Traffic surged by 75%, and DA improved from 45 to 68 (fake stats).</p>
     
     <div class="media">
-        <img src="/media/link-building-recovery-playbook-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph: Traffic Recovery in Case Studies (Source: Backlinkoo)</em></p>
     </div>
     

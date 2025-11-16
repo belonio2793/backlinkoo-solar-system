@@ -81,7 +81,7 @@ export default function LinkBuildingHelpfulContent() {
     <p>Consider this: Google's E-A-T (Expertise, Authoritativeness, Trustworthiness) guidelines emphasize content quality. Helpful content aligns perfectly with this, making your link building efforts more sustainable and penalty-resistant.</p>
     
     <div class="media">
-        <img src="/media/link-building-helpful-content-img1.jpg" alt="link building helpful content infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the link building process with helpful content (Source: Backlinkoo)</em></p>
     </div>
     
@@ -180,7 +180,7 @@ export default function LinkBuildingHelpfulContent() {
     <p>At Backlinkoo, we recommend integrating <Link href="/xrumer">XRumer for posting</Link> to automate outreach and content distribution.</p>
     
     <div class="media">
-        <img src="/media/link-building-helpful-content-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
     </div>
     

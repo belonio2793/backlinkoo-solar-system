@@ -87,7 +87,7 @@ export default function BacklinkCollaborationIdeas() {
   <p>For example, a collaborative backlink from a high-DA site can improve your search positions for competitive keywords. Backlinkoo's services streamline this process, connecting you with vetted partners for seamless collaborations.</p>
   
   <div class="media">
-    <Image src="/media/backlink-collaboration-ideas-img1.jpg" alt="backlink collaboration ideas infographic" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width={800} height={400} />
     <p><em>Infographic showing the benefits of backlink collaborations (Source: Backlinkoo)</em></p>
   </div>
   
@@ -172,7 +172,7 @@ export default function BacklinkCollaborationIdeas() {
   <p>Integrate these tools with Backlinkoo's services for optimal results in your backlink collaboration ideas.</p>
   
   <div class="media">
-    <Image src="/media/backlink-collaboration-ideas-img2.jpg" alt="tools for backlink collaboration" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink collaboration" width={800} height={400} />
     <p><em>Visual guide to backlink tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -189,7 +189,7 @@ export default function BacklinkCollaborationIdeas() {
   <p>An agency ran joint webinars, earning 80 backlinks. Domain authority jumped to 60, with a 250% referral traffic increase (hypothetical stats).</p>
   
   <div class="media">
-    <Image src="/media/backlink-collaboration-ideas-img3.jpg" alt="case study graphs" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graphs" width={800} height={400} />
     <p><em>Graphs from successful case studies (Source: Backlinkoo)</em></p>
   </div>
   

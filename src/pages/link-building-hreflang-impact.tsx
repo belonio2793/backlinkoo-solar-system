@@ -83,7 +83,7 @@ export default function LinkBuildingHreflangImpact() {
     <p>Backlinks act as endorsements. When a high-domain-authority site links to your Spanish page, it boosts that page's relevance for Spanish queries, amplifying the hreflang signal. This is where the <strong>link building hreflang impact</strong> shines—strategic links can make or break your international SEO.</p>
     
     <div class="media">
-        <img src="/media/link-building-hreflang-impact-img1.jpg" alt="link building hreflang impact infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing how backlinks influence hreflang tags (Source: Backlinkoo)</em></p>
     </div>
     
@@ -162,7 +162,7 @@ export default function LinkBuildingHreflangImpact() {
     <p>Integrating these tools with Backlinkoo.com services ensures your link building aligns perfectly with hreflang for optimal impact.</p>
     
     <div class="media">
-        <img src="/media/link-building-hreflang-impact-img2.jpg" alt="tools for link building and hreflang" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building and hreflang" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -176,7 +176,7 @@ export default function LinkBuildingHreflangImpact() {
     <p>Using <a href="/xrumer">XRumer for posting</a>, a blog network built 100 links to multilingual content, resulting in a 50% traffic boost and better hreflang compliance, as verified by Google Search Central.</p>
     
     <div class="media">
-        <img src="/media/link-building-hreflang-impact-img3.jpg" alt="case study graphs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs" width="800" height="400" />
         <p><em>Graphs from case studies (Source: Backlinkoo)</em></p>
     </div>
     

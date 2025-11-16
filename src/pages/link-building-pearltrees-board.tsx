@@ -79,7 +79,7 @@ export default function LinkBuildingPearltreesBoard() {
   <p>At Backlinkoo, we've seen clients increase their organic traffic by up to 150% through organized link building efforts. This board acts as a central hub for your strategies, incorporating LSI terms like dofollow links and domain authority to ensure relevance.</p>
   
   <div class="media">
-    <img src="/media/link-building-pearltrees-board-img1.jpg" alt="link building pearltrees board infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic showing a sample link building Pearltrees board (Source: Backlinkoo)</em></p>
   </div>
   
@@ -176,7 +176,7 @@ export default function LinkBuildingPearltreesBoard() {
   <p>Backlinkoo recommends integrating these with your link building Pearltrees board for maximum efficiency.</p>
   
   <div class="media">
-    <img src="/media/link-building-pearltrees-board-img2.jpg" alt="link building tools table" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools table" width="800" height="400" />
     <p><em>Visual representation of link building tools (Source: Backlinkoo)</em></p>
   </div>
   

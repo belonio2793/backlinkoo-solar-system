@@ -83,7 +83,7 @@ export default function BacklinkHaroResponseTemplate() {
     <p>Key elements of a backlink HARO response template include: an engaging subject line, a brief introduction, your credentials, the core response, and a subtle call-to-action for linking back. This template streamlines the process, making it easier to respond quickly— a must since HARO queries have tight deadlines.</p>
     
     <div class="media">
-        <img src="/media/backlink-haro-response-template-img1.jpg" alt="backlink haro response template infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the structure of a backlink HARO response template (Source: Backlinkoo)</em></p>
     </div>
     
@@ -172,7 +172,7 @@ export default function BacklinkHaroResponseTemplate() {
     <p>These tools, especially <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link>, integrate seamlessly with your backlink HARO response template workflow.</p>
     
     <div class="media">
-        <img src="/media/backlink-haro-response-template-img2.jpg" alt="tools for backlink haro response template" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink haro response template" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -223,7 +223,7 @@ export default function BacklinkHaroResponseTemplate() {
     <p>Track domain authority via Moz, backlink quality with Ahrefs, and traffic increases in Google Analytics.</p>
     
     <div class="media">
-        <img src="/media/backlink-haro-response-template-img3.jpg" alt="faq on backlink haro response template" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="faq on backlink haro response template" width="800" height="400" />
         <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
     </div>
     

@@ -82,7 +82,7 @@ export default function BacklinkMentionMonitoring() {
     <p>Statistics from SEMrush indicate that sites with proactive mention monitoring see a 25% higher backlink growth rate. This practice also helps in reputation management, as you can address negative mentions promptly.</p>
     
     <div class="media">
-        <img src="/media/backlink-mention-monitoring-img1.jpg" alt="backlink mention monitoring infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating the process of backlink mention monitoring (Source: Backlinkoo)</em></p>
     </div>
     
@@ -163,7 +163,7 @@ export default function BacklinkMentionMonitoring() {
     <p>At Backlinkoo.com, we recommend combining these with our services for optimal results. For more on tools, check <a href="https://www.google.com/search/central" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-mention-monitoring-img2.jpg" alt="tools for backlink mention monitoring comparison" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink mention monitoring comparison" width="800" height="400" />
         <p><em>Comparison chart of monitoring tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -187,7 +187,7 @@ export default function BacklinkMentionMonitoring() {
     <p>For more insights, visit <a href="https://ahrefs.com/blog/backlink-mistakes/" target="_blank" rel="noopener noreferrer">Ahrefs on Backlink Mistakes</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-mention-monitoring-img3.jpg" alt="common mistakes in backlink monitoring" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="common mistakes in backlink monitoring" width="800" height="400" />
         <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
     </div>
     

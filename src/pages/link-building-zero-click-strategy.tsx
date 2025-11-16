@@ -79,7 +79,7 @@ export default function LinkBuildingZeroClickStrategy() {
   <p>At Backlinkoo, we've seen clients increase their organic traffic by up to 300% by adopting a link building zero-click strategy. It's not just about quantity; it's about quality dofollow links from high-authority sites that signal trust to search engines like Google.</p>
   
   <div class="media">
-    <img src="/media/link-building-zero-click-strategy-img1.jpg" alt="link building zero-click strategy infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the core components of a link building zero-click strategy (Source: Backlinkoo)</em></p>
   </div>
   
@@ -126,7 +126,7 @@ export default function LinkBuildingZeroClickStrategy() {
   <p>According to <a href="https://ahrefs.com/blog/buying-backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, safe link buying can be effective if it supplements organic efforts.</p>
   
   <div class="media">
-    <img src="/media/link-building-zero-click-strategy-img2.jpg" alt="Pros and cons of buying links infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual breakdown of buying links in a zero-click strategy (Source: Backlinkoo)</em></p>
   </div>
   
@@ -191,7 +191,7 @@ export default function LinkBuildingZeroClickStrategy() {
   <p>A niche blog network adopted content syndication and HARO for passive links. By optimizing for zero-click searches, they earned mentions in major publications. Results: 400% growth in backlinks, DA up to 60. Fake stats: Traffic from 10k to 50k monthly visitors.</p>
   
   <div class="media">
-    <img src="/media/link-building-zero-click-strategy-img3.jpg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study success graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
   </div>
   

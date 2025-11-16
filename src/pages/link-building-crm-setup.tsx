@@ -81,7 +81,7 @@ export default function LinkBuildingCrmSetup() {
     <p>Statistics from Moz indicate that 70% of SEO success hinges on off-page factors like backlinks. By setting up a CRM, you align your efforts with these insights, ensuring scalable growth.</p>
     
     <div class="media">
-        <Image src="/media/link-building-crm-setup-img1.jpg" alt="link building crm setup infographic" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width={800} height={400} />
         <p><em>Infographic showing the workflow of a link building CRM setup (Source: Backlinkoo)</em></p>
     </div>
     
@@ -174,7 +174,7 @@ export default function LinkBuildingCrmSetup() {
     <p>A niche blog network set up a custom CRM with Ahrefs integration. Through organic outreach, they secured 200 resource page links, elevating domain authority to 60 and tripling ad revenue (simulated data).</p>
     
     <div class="media">
-        <Image src="/media/link-building-crm-setup-img2.jpg" alt="link building crm setup case study chart" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building crm setup case study chart" width={800} height={400} />
         <p><em>Chart depicting traffic growth from CRM-optimized link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -204,7 +204,7 @@ export default function LinkBuildingCrmSetup() {
     <p>Backlinkoo offers tailored services, including tool integrations and expert consultations to optimize your setup.</p>
     
     <div class="media">
-        <Image src="/media/link-building-crm-setup-img3.jpg" alt="link building crm setup tools overview" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building crm setup tools overview" width={800} height={400} />
         <p><em>Overview of tools for link building CRM (Source: Backlinkoo)</em></p>
     </div>
     

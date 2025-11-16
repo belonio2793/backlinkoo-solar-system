@@ -84,7 +84,7 @@ export default function BacklinkHubAndSpokeModel() {
   <p>Implementing the <strong>backlink hub and spoke model</strong> can lead to exponential growth in organic traffic. It helps in distributing page authority evenly, reducing bounce rates, and improving user experience. For instance, Moz reports that well-structured sites with hub-and-spoke architectures often rank higher for competitive keywords due to enhanced topical relevance.</p>
   <p>At Backlinkoo, we've helped countless clients boost their domain authority by 20-50 points through tailored <strong>backlink hub and spoke model</strong> implementations. If you're looking to elevate your SEO, our services provide the high-quality backlinks you need without the hassle.</p>
   <div class="media">
-    <img src="/media/backlink-hub-and-spoke-model-img1.jpg" alt="backlink hub and spoke model infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic illustrating the backlink hub and spoke model structure (Source: Backlinkoo)</em></p>
   </div>
 
@@ -170,7 +170,7 @@ export default function BacklinkHubAndSpokeModel() {
   </table>
   <p>These tools, combined with Backlinkoo's services, can help you build a powerful <strong>backlink hub and spoke model</strong>. For more on automation, check out our guides on <a href="https://ahrefs.com/blog/link-building-tools/" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Tools</a>.</p>
   <div class="media">
-    <img src="/media/backlink-hub-and-spoke-model-img2.jpg" alt="tools for backlink hub and spoke model" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink hub and spoke model" width="800" height="400" />
     <p><em>Visual comparison of SEO tools (Source: Backlinkoo)</em></p>
   </div>
 
@@ -195,7 +195,7 @@ export default function BacklinkHubAndSpokeModel() {
   </ul>
   <p>By steering clear of these, you'll build a resilient model. Backlinkoo's experts can audit your strategy for optimal results.</p>
   <div class="media">
-    <img src="/media/backlink-hub-and-spoke-model-img3.jpg" alt="common mistakes in backlink strategies" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="common mistakes in backlink strategies" width="800" height="400" />
     <p><em>Infographic on SEO mistakes to avoid (Source: Backlinkoo)</em></p>
   </div>
 

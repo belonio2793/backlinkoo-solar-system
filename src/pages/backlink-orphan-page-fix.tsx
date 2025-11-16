@@ -79,7 +79,7 @@ export default function BacklinkOrphanPageFix() {
   <p>Why does this matter? Orphan pages can hold valuable content—think blog posts, product pages, or resources—that aren't contributing to your overall SEO efforts. Without internal links, they miss out on link equity distribution, and without backlinks, they lack external validation. According to a study by Ahrefs, pages without backlinks receive virtually no organic traffic, even if they're indexed. Fixing this through backlinks can improve your site's domain authority and overall ranking potential.</p>
   <p>Imagine a scenario where you've created a detailed guide on "link building strategies," but it's buried as an orphan page. A proper <strong>backlink orphan page fix</strong> involves securing dofollow links from authoritative sites, signaling to Google that this page is valuable. This not only helps with indexing but also boosts metrics like page authority.</p>
   <div class="media">
-    <img src="/media/backlink-orphan-page-fix-img1.jpg" alt="backlink orphan page fix infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic illustrating orphan pages and backlink fixes (Source: Backlinkoo)</em></p>
   </div>
   <p>Statistics from Moz show that sites with well-linked internal structures see up to 20% higher organic traffic. By incorporating backlinks into your orphan page strategy, you're essentially creating a hybrid approach that combines internal optimization with external link building. This is where Backlinkoo excels—our services ensure your orphan pages get the backlinks they need to thrive.</p>
@@ -204,7 +204,7 @@ export default function BacklinkOrphanPageFix() {
   <h3>Case Study 3: Niche Forum Integration</h3>
   <p>A tech blog fixed orphan pages with <a href="/xrumer">XRumer</a>-assisted postings, gaining 300 links. This led to a 35% increase in referral traffic.</p>
   <div class="media">
-    <img src="/media/backlink-orphan-page-fix-img2.jpg" alt="case study graph for backlink orphan page fix" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph for backlink orphan page fix" width="800" height="400" />
     <p><em>Graph showing traffic growth post-fix (Source: Backlinkoo)</em></p>
   </div>
 
@@ -244,7 +244,7 @@ export default function BacklinkOrphanPageFix() {
   <a href="https://searchengineland.com/guide/what-is-seo" target="_blank" rel="noopener noreferrer">Search Engine Land SEO Guide</a>
   <a href="https://backlinko.com/seo-this-year" target="_blank" rel="noopener noreferrer">Backlinko Annual Report</a>
   <div class="media">
-    <img src="/media/backlink-orphan-page-fix-img3.jpg" alt="expert tips infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Expert Tips for SEO Success (Source: Backlinkoo)</em></p>
   </div>
   <!-- Note: This article exceeds 5000 words with detailed expansions in each section. Actual word count: ~5200 --> 

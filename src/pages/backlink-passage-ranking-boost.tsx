@@ -94,7 +94,7 @@ export default function BacklinkPassageRankingBoost() {
     <p>Moreover, in an era where mobile searches dominate, passage ranking ensures that users get quick, relevant answers. Without a solid backlink passage ranking boost, your content might get buried under competitors with stronger link profiles. This is where Backlinkoo comes in – our services are designed to provide that essential edge.</p>
     
     <div class="media">
-        <img src="/media/backlink-passage-ranking-boost-img1.jpg" alt="backlink passage ranking boost infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating how backlinks boost passage rankings (Source: Backlinkoo)</em></p>
     </div>
     
@@ -182,7 +182,7 @@ export default function BacklinkPassageRankingBoost() {
     <p>At Backlinkoo, we integrate tools like SENUKE and XRumer into our services to provide a seamless backlink passage ranking boost experience.</p>
     
     <div class="media">
-        <img src="/media/backlink-passage-ranking-boost-img2.jpg" alt="Tools for backlink building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Tools for backlink building" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -199,7 +199,7 @@ export default function BacklinkPassageRankingBoost() {
     <p>A local service provider focused on resource page links. After integrating LSI terms and securing 20 authority backlinks, their service passages ranked higher, leading to a 50% revenue increase. Domain authority improved by 20 points.</p>
     
     <div class="media">
-        <img src="/media/backlink-passage-ranking-boost-img3.jpg" alt="Case study graphs" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graphs" width="800" height="400" />
         <p><em>Graphs showing ranking improvements (Source: Backlinkoo)</em></p>
     </div>
     

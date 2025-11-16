@@ -82,7 +82,7 @@ export default function BacklinkExpertQuoteCollection() {
   <p>Google's algorithm uses backlinks as a key ranking factor. Brian Dean of Backlinko states: "Backlinks are one of Google's top three ranking factors—ignore them at your peril." In our <strong>backlink expert quote collection</strong>, this underscores the importance of strategic link building for organic traffic growth.</p>
   <p>Studies from Ahrefs show that pages with more backlinks rank higher. For instance, top-ranking pages have an average of 3.8 times more backlinks than those in positions 2-10. This LSI term-rich insight into domain authority emphasizes why investing in backlinks is crucial.</p>
   <div class="media">
-    <Image src="/media/backlink-expert-quote-collection-img1.jpg" alt="backlink expert quote collection infographic" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width={800} height={400} />
     <p><em>Infographic showing the impact of backlinks on SEO rankings (Source: Backlinkoo)</em></p>
   </div>
   <p>At Backlinkoo, we help you acquire these valuable assets through proven methods, ensuring your site climbs the SERPs.</p>
@@ -174,7 +174,7 @@ export default function BacklinkExpertQuoteCollection() {
   <h3>Case Study 3: Local Business Growth</h3>
   <p>A local service acquired 100 niche backlinks via outreach. Domain authority jumped 20 points, leads increased 250%. Expert insight: "Local link building is gold," per Google Search Central.</p>
   <div class="media">
-    <Image src="/media/backlink-expert-quote-collection-img2.jpg" alt="backlink expert quote collection case study chart" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink expert quote collection case study chart" width={800} height={400} />
     <p><em>Chart of traffic growth from backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -202,7 +202,7 @@ export default function BacklinkExpertQuoteCollection() {
   <h2>Conclusion: Building Trust with Backlinks</h2>
   <p>This <strong>backlink expert quote collection</strong> draws from authoritative sources like <a href="https://ahrefs.com/blog/backlinks" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a> and Moz, where stats show backlinks drive 70% of ranking factors (per SEMrush study). With an expert tone backed by years of experience at Backlinkoo, we demonstrate E-E-A-T through reliable insights. Trust us to handle your link building—contact Backlinkoo today for personalized strategies.</p>
   <div class="media">
-    <Image src="/media/backlink-expert-quote-collection-img3.jpg" alt="backlink expert quote collection summary" width={800} height={400} />
+    <Image src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink expert quote collection summary" width={800} height={400} />
     <p><em>Summary infographic of key quotes (Source: Backlinkoo)</em></p>
   </div>
   <div class="media">

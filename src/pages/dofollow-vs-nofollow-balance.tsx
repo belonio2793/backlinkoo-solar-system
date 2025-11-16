@@ -84,7 +84,7 @@ export default function DofollowVsNofollowBalance() {
     <p>Balancing dofollow and nofollow links is akin to a balanced diet for your website's health. According to a study by <a href="https://ahrefs.com/blog/dofollow-vs-nofollow-balance" target="_blank" rel="noopener noreferrer">Ahrefs</a>, sites with a 60-70% dofollow to 30-40% nofollow ratio often perform better in rankings. This balance prevents over-optimization and aligns with Google's guidelines on natural link profiles.</p>
     
     <div class="media">
-        <img src="/media/dofollow-vs-nofollow-balance-img1.jpg" alt="dofollow vs nofollow balance infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
         <p><em>Infographic illustrating the ideal dofollow vs nofollow balance (Source: Backlinkoo)</em></p>
     </div>
     
@@ -166,7 +166,7 @@ export default function DofollowVsNofollowBalance() {
     <p>Integrating these tools with Backlinkoo's expertise ensures your <strong>dofollow vs nofollow balance</strong> is optimized for peak performance.</p>
     
     <div class="media">
-        <img src="/media/dofollow-vs-nofollow-balance-img2.jpg" alt="Tools for dofollow vs nofollow balance" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Tools for dofollow vs nofollow balance" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -180,7 +180,7 @@ export default function DofollowVsNofollowBalance() {
     <p>Using Backlinkoo's services, a consulting firm balanced links through automated tools, resulting in a 25% domain authority increase and doubled leads. Their ratio: 70% dofollow from buys, 30% nofollow from organic sources.</p>
     
     <div class="media">
-        <img src="/media/dofollow-vs-nofollow-balance-img3.jpg" alt="Case study graphs for dofollow vs nofollow balance" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Case study graphs for dofollow vs nofollow balance" width="800" height="400" />
         <p><em>Graphs showing SEO improvements (Source: Backlinkoo)</em></p>
     </div>
     

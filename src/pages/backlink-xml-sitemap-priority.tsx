@@ -79,7 +79,7 @@ export default function BacklinkXmlSitemapPriority() {
     <p>According to a study by <a href="https://ahrefs.com/blog/backlink-xml-sitemap-priority" target="_blank" rel="noopener noreferrer">Ahrefs</a>, sites that align backlinks with sitemap priorities see up to 30% better crawl efficiency. At Backlinkoo, we've helped countless clients boost their domain authority by implementing this approach, making it a cornerstone of modern SEO.</p>
     <p>Why does it matter? In a competitive digital landscape, not all pages are equal. Prioritizing backlinks to high-value pages (like cornerstone content) can lead to faster indexing, higher rankings, and increased organic traffic. Ignoring backlink XML sitemap priority might result in wasted efforts on low-priority pages, diluting your SEO gains.</p>
     <div class="media">
-        <img src="/media/backlink-xml-sitemap-priority-img1.jpg" alt="backlink xml sitemap priority infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating how backlink XML sitemap priority works (Source: Backlinkoo)</em></p>
     </div>
     <p>Imagine your website as a city: the XML sitemap is the map, priorities are the traffic signals, and backlinks are the highways leading visitors in. Aligning them ensures smooth traffic flow to your most important destinations.</p>
@@ -188,7 +188,7 @@ export default function BacklinkXmlSitemapPriority() {
     <h3>Case Study 3: SaaS Company Growth</h3>
     <p>A SaaS provider focused on skyscraper content for priority pages, resulting in 300% ROI on link building. Domain authority jumped from 40 to 65, with conversions up 35%. Tools like <Link href="/senuke">SENUKE</Link> automated the process.</p>
     <div class="media">
-        <img src="/media/backlink-xml-sitemap-priority-img2.jpg" alt="backlink xml sitemap priority case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink xml sitemap priority case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -223,7 +223,7 @@ export default function BacklinkXmlSitemapPriority() {
     <p>As SEO experts at Backlinkoo, with over 10 years of experience, we emphasize E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Studies from <a href="https://semrush.com/blog/backlink-xml-sitemap-priority" target="_blank" rel="noopener noreferrer">Semrush</a> show that sites with strong backlink profiles have 3.5x higher trust signals. According to Google, proper sitemap priorities can improve crawl rates by 50%. Trust Backlinkoo for authoritative strategies that build lasting SEO success.</p>
     <p>Contact us today to prioritize your backlinks effectively!</p>
     <div class="media">
-        <img src="/media/backlink-xml-sitemap-priority-img3.jpg" alt="backlink xml sitemap priority tools overview" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink xml sitemap priority tools overview" width="800" height="400" />
         <p><em>Overview of SEO tools for backlink priority (Source: Backlinkoo)</em></p>
     </div>
     <div class="media">

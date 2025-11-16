@@ -82,7 +82,7 @@ export default function LinkBuildingUpdateCadence() {
     <p>Domain authority (DA) is a score predicting how well a website will rank. Regular updates to your link profile, aligned with link building update cadence, can elevate your DA. For example, refreshing old links or replacing broken ones keeps your site's authority intact.</p>
     
     <div class="media">
-        <img src="/media/link-building-update-cadence-img1.jpg" alt="link building update cadence infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic illustrating the optimal link building update cadence for SEO success (Source: Backlinkoo)</em></p>
     </div>
     
@@ -159,7 +159,7 @@ export default function LinkBuildingUpdateCadence() {
     <p>At Backlinkoo, we recommend starting with <Link href="/senuke">SENUKE for automation</Link> to maintain a consistent link building update cadence.</p>
     
     <div class="media">
-        <img src="/media/link-building-update-cadence-img2.jpg" alt="tools for link building update cadence" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building update cadence" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -202,7 +202,7 @@ export default function LinkBuildingUpdateCadence() {
     <p>Start with <Link href="/senuke">SENUKE for automation</Link> and Ahrefs for analysis.</p>
     
     <div class="media">
-        <img src="/media/link-building-update-cadence-img3.jpg" alt="faq on link building update cadence" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="faq on link building update cadence" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>FAQ infographic for quick reference (Source: Backlinkoo)</em></p>
     </div>
     

@@ -83,7 +83,7 @@ export default function BacklinkContentUpgradeMethod() {
     <p>Using the backlink content upgrade method can lead to higher organic traffic, improved domain authority, and better conversion rates. It's a sustainable approach that avoids penalties from black-hat tactics. Plus, it positions your brand as an authority in your niche.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-upgrade-method-img1.jpg" alt="backlink content upgrade method infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating the steps of the backlink content upgrade method (Source: Backlinkoo)</em></p>
     </div>
     
@@ -162,7 +162,7 @@ export default function BacklinkContentUpgradeMethod() {
     <p>At Backlinkoo, we integrate tools like <Link href="/xrumer">XRumer for posting</Link> to make your backlink content upgrade method more efficient.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-upgrade-method-img2.jpg" alt="tools for backlink content upgrade method" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink content upgrade method" width="800" height="400" />
         <p><em>Visual guide to SEO tools for link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -206,7 +206,7 @@ export default function BacklinkContentUpgradeMethod() {
     <p>Typically 3-6 months, depending on your niche and effort. Consistent application yields faster domain authority gains.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-upgrade-method-img3.jpg" alt="FAQ on backlink content upgrade method" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="FAQ on backlink content upgrade method" width="800" height="400" />
         <p><em>Infographic summarizing key FAQs (Source: Backlinkoo)</em></p>
     </div>
     

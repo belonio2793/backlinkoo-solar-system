@@ -81,7 +81,7 @@ export default function LinkBuildingRoiTracker() {
   <p>Without tracking ROI, you're essentially flying blind. According to a study by <a href="https://ahrefs.com/blog/link-building-statistics/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, effective link building can increase organic traffic by up to 300%, but only if you measure and optimize. A link building ROI tracker helps identify which strategies yield the best returns, allowing you to allocate resources efficiently. For businesses, this means better budgeting and higher profits from SEO investments.</p>
   <p>At Backlinkoo, our services integrate seamless ROI tracking, helping clients see real-time impacts on their domain authority and traffic. Imagine investing in guest posts and knowing exactly how much revenue each link brings— that's the power of a proper tracker.</p>
   <div class="media">
-    <img src="/media/link-building-roi-tracker-img1.jpg" alt="link building roi tracker infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing key metrics for link building ROI (Source: Backlinkoo)</em></p>
   </div>
   
@@ -158,7 +158,7 @@ export default function LinkBuildingRoiTracker() {
   </table>
   <p>Backlinkoo recommends combining these tools for a robust <strong>link building ROI tracker</strong> setup. Our platform integrates seamlessly with SENUKE and XRumer for automated, trackable results.</p>
   <div class="media">
-    <img src="/media/link-building-roi-tracker-img2.jpg" alt="tools for link building roi tracker" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building roi tracker" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -171,7 +171,7 @@ export default function LinkBuildingRoiTracker() {
   <h3>Case Study 3: Content Site Turnaround</h3>
   <p>A blog struggling with low visibility used organic strategies and XRumer for distribution. The tracker revealed a 200% traffic surge, with links contributing to a domain authority jump from 20 to 40, resulting in ad revenue doubling to \$10,000 monthly.</p>
   <div class="media">
-    <img src="/media/link-building-roi-tracker-img3.jpg" alt="case study graphs for link building roi" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs for link building roi" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs from successful case studies (Source: Backlinkoo)</em></p>
   </div>
   

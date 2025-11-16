@@ -91,7 +91,7 @@ export default function BacklinkAnchorCloudAnalysis() {
     <p>At Backlinkoo, our experts use advanced tools to perform <strong>backlink anchor cloud analysis</strong>, providing insights that drive organic traffic growth. For more on SEO fundamentals, check out this <a href="https://moz.com/blog/anchor-text" target="_blank" rel="noopener noreferrer">Moz Guide on Anchor Text</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-anchor-cloud-analysis-img1.jpg" alt="backlink anchor cloud analysis infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing a sample backlink anchor cloud (Source: Backlinkoo)</em></p>
     </div>
     
@@ -180,7 +180,7 @@ export default function BacklinkAnchorCloudAnalysis() {
     <p>Backlinkoo integrates with these tools to offer a seamless <strong>backlink anchor cloud analysis</strong> experience. For a deep dive, visit <a href="https://ahrefs.com/backlink-checker" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Checker</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-anchor-cloud-analysis-img2.jpg" alt="tools for backlink analysis screenshot" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink analysis screenshot" width="800" height="400" />
         <p><em>Screenshot of backlink tools interface (Source: Backlinkoo)</em></p>
     </div>
     
@@ -198,7 +198,7 @@ export default function BacklinkAnchorCloudAnalysis() {
     <p>These examples highlight how <strong>backlink anchor cloud analysis</strong> can transform SEO outcomes. For similar results, contact Backlinkoo today.</p>
     
     <div class="media">
-        <img src="/media/backlink-anchor-cloud-analysis-img3.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from analysis (Source: Backlinkoo)</em></p>
     </div>
     

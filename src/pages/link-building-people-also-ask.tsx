@@ -83,7 +83,7 @@ export default function LinkBuildingPeopleAlsoAsk() {
     <p>Understanding "link building people also ask" helps in creating FAQ sections or blog posts that answer these queries, potentially earning you backlinks naturally as others reference your comprehensive resources.</p>
     
     <div class="media">
-        <img src="/media/link-building-people-also-ask-img1.jpg" alt="link building people also ask infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing top PAA questions for link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -174,7 +174,7 @@ export default function LinkBuildingPeopleAlsoAsk() {
     <p>At Backlinkoo, we integrate these tools into our services for optimal results. Outbound link: Check Ahrefs' guide at <a href="https://ahrefs.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Tools</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-people-also-ask-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -206,7 +206,7 @@ export default function LinkBuildingPeopleAlsoAsk() {
     <p>Outbound link: Google's advice at <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-people-also-ask-img3.jpg" alt="common link building mistakes infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
     </div>
     

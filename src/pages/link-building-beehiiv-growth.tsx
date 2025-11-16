@@ -82,7 +82,7 @@ export default function LinkBuildingBeehiivGrowth() {
     <p>Dofollow links are the gold standard in link building, as they pass "link juice" or SEO value to your site. Unlike nofollow links, which don't influence rankings directly, dofollow links from high-DA sites can significantly enhance your Beehiiv domain authority. For growth-focused creators, prioritizing dofollow backlinks is essential.</p>
     <p>Backlinkoo specializes in helping Beehiiv users secure these valuable links through ethical strategies, ensuring your newsletter climbs the ranks without risking penalties from Google.</p>
     <div class="media">
-        <img src="/media/link-building-beehiiv-growth-img1.jpg" alt="link building beehiiv growth infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on newsletter growth (Source: Backlinkoo)</em></p>
     </div>
 
@@ -158,7 +158,7 @@ export default function LinkBuildingBeehiivGrowth() {
     </table>
     <p>Integrating tools like <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link> can automate tedious tasks, making <strong>link building beehiiv growth</strong> more efficient. Backlinkoo offers expert guidance on these tools.</p>
     <div class="media">
-        <img src="/media/link-building-beehiiv-growth-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -171,7 +171,7 @@ export default function LinkBuildingBeehiivGrowth() {
     <h3>Case Study 3: Lifestyle Brand Expansion</h3>
     <p>A lifestyle newsletter used a mix of strategies, including automation with <Link href="/senuke">SENUKE for automation</Link>. From 200 subscribers, they reached 8,000 after securing 80 links, with a 120% traffic increase. This highlights the persuasive power of Backlinkoo's services in <strong>link building beehiiv growth</strong>.</p>
     <div class="media">
-        <img src="/media/link-building-beehiiv-growth-img3.jpg" alt="case study graph for beehiiv growth" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for beehiiv growth" width="800" height="400" />
         <p><em>Graph showing subscriber growth from link building (Source: Backlinkoo)</em></p>
     </div>
 
@@ -204,7 +204,7 @@ export default function LinkBuildingBeehiivGrowth() {
     <p>In summary, <strong>link building beehiiv growth</strong> is a proven path to newsletter success. From organic tactics to smart tool usage, the strategies outlined here can transform your visibility. Backed by stats from authoritative sources like <a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz on domain authority</a> (where top sites average DA 90+), and Ahrefs data showing backlinks correlate with 90% of top-ranking pages, it's clear that expertise matters.</p>
     <p>As an authoritative voice in SEO, Backlinkoo draws on years of experience to deliver results. Our clients have seen average traffic boosts of 150% through tailored link building. Don't leave your growth to chance—contact Backlinkoo today for personalized <strong>link building beehiiv growth</strong> solutions.</p>
     <div class="media">
-        <img src="/media/link-building-beehiiv-growth-img4.jpg" alt="final infographic on beehiiv seo growth" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic summarizing link building benefits (Source: Backlinkoo)</em></p>
     </div>
     <p>For more resources, explore <a href="https://ahrefs.com/blog/link-building" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Guide</a>, <a href="https://moz.com/blog/link-building-strategies" target="_blank" rel="noopener noreferrer">Moz Strategies</a>, and <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Central Blog</a>.</p>

@@ -79,7 +79,7 @@ export default function BacklinkCommentSectionStrategy() {
     <p>Moreover, a well-executed <strong>backlink comment section strategy</strong> fosters community building. It's not just about links; it's about establishing your brand as an authority in your niche. For instance, dofollow links from comment sections allow search engines to pass "link juice," boosting your site's credibility. However, not all comments yield dofollow links—many sites use nofollow tags to prevent spam. At Backlinkoo, we recommend focusing on sites that offer dofollow opportunities while maintaining genuine interactions to avoid penalties from algorithms like Google's Penguin update.</p>
     <p>This strategy is particularly effective for niches like e-commerce, blogging, and digital marketing, where discussions are abundant. By integrating LSI terms such as link building, domain authority, and dofollow links into your comments, you can optimize for relevance and SEO value. Remember, the goal is quality over quantity— a single backlink from a high-authority site can outperform dozens from low-quality ones.</p>
     <div class="media">
-        <img src="/media/backlink-comment-section-strategy-img1.jpg" alt="backlink comment section strategy infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating the flow of a successful backlink comment section strategy (Source: Backlinkoo)</em></p>
     </div>
     
@@ -123,7 +123,7 @@ export default function BacklinkCommentSectionStrategy() {
     <p>To buy safely, vet providers for quality. At Backlinkoo, we offer vetted backlink packages that include comment section placements on relevant, high-DA sites. Ensure diversity in anchor text and focus on dofollow links from niche-relevant pages. Monitor your backlink profile with tools like Google Search Console to detect issues early.</p>
     <p>Always prioritize white-hat practices: Buy from services that mimic organic growth, like gradual link acquisition. Combine with organic strategies for a balanced approach.</p>
     <div class="media">
-        <img src="/media/backlink-comment-section-strategy-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart comparing pros and cons of buying backlinks in comment strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -186,7 +186,7 @@ export default function BacklinkCommentSectionStrategy() {
     <h3>Case Study 3: Service Provider Scales with Automation</h3>
     <p>A digital marketing agency used <Link href="/senuke">SENUKE for automation</Link> to manage comment postings across 200+ forums. They acquired 300 backlinks, boosting DA by 30 points and conversion rates by 25%. Fake stats: ROI of 4x on their investment, with 15% of leads coming directly from comment referrals.</p>
     <div class="media">
-        <img src="/media/backlink-comment-section-strategy-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from comment backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -224,7 +224,7 @@ export default function BacklinkCommentSectionStrategy() {
     <p>At Backlinkoo, our expertise is backed by years of experience in SEO. According to Google's Search Central, backlinks remain a top ranking factor, with studies from SEMrush indicating that sites with diverse backlink profiles rank 2.2 times higher. Ahrefs reports that 66.5% of links to top pages are dofollow, emphasizing quality. We draw from authoritative sources like <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz's backlink guide</a> and <a href="https://ahrefs.com/blog/backlinks/" target="_blank" rel="noopener noreferrer">Ahrefs' research</a> to ensure our strategies are data-driven.</p>
     <p>In conclusion, a robust <strong>backlink comment section strategy</strong> can transform your SEO game. Partner with Backlinkoo for tailored services that deliver results. Contact us today to get started!</p>
     <div class="media">
-        <img src="/media/backlink-comment-section-strategy-img4.jpg" alt="E-E-A-T signals infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic on E-E-A-T in link building (Source: Backlinkoo)</em></p>
     </div>
     <a href="https://developers.google.com/search/docs/advanced/guidelines/eeat" target="_blank" rel="noopener noreferrer">Google's E-E-A-T guidelines</a>.

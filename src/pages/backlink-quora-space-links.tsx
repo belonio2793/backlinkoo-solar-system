@@ -89,7 +89,7 @@ export default function BacklinkQuoraSpaceLinks() {
   <p>Statistics from Moz show that sites with diverse backlink profiles rank higher (<a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>). Incorporating <strong>backlink Quora space links</strong> into your strategy diversifies your portfolio while targeting niche audiences.</p>
   
   <div class="media">
-    <img src="/media/backlink-quora-space-links-img1.jpg" alt="backlink quora space links infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic showing the impact of backlink Quora space links on SEO metrics (Source: Backlinkoo)</em></p>
   </div>
   
@@ -181,7 +181,7 @@ export default function BacklinkQuoraSpaceLinks() {
   <p>At Backlinkoo, we recommend combining these tools for optimal results in your <strong>backlink Quora space links</strong> strategy.</p>
   
   <div class="media">
-    <img src="/media/backlink-quora-space-links-img2.jpg" alt="tools for backlink quora space links" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink quora space links" width="800" height="400" />
     <p><em>Visual guide to SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -198,7 +198,7 @@ export default function BacklinkQuoraSpaceLinks() {
   <p>Using <Link href="/xrumer">XRumer for posting</Link>, a consulting firm built 40 links. Outcomes: 80% increase in leads, DA up 25 points.</p>
   
   <div class="media">
-    <img src="/media/backlink-quora-space-links-img3.jpg" alt="case study graph for backlink quora space links" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph for backlink quora space links" width="800" height="400" />
     <p><em>Graph depicting traffic growth from Quora links (Source: Backlinkoo)</em></p>
   </div>
   

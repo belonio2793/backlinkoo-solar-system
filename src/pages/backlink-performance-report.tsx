@@ -89,7 +89,7 @@ export default function BacklinkPerformanceReport() {
   <p>For businesses, these reports are invaluable for demonstrating progress to stakeholders. They reveal how backlinks contribute to key performance indicators (KPIs) like organic traffic growth and conversion rates. Without regular backlink performance reporting, you risk building links blindly, which can lead to diminishing returns or even search engine penalties.</p>
   
   <div class="media">
-    <img src="/media/backlink-performance-report-img1.jpg" alt="backlink performance report infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing key metrics in a backlink performance report (Source: Backlinkoo)</em></p>
   </div>
   
@@ -186,7 +186,7 @@ export default function BacklinkPerformanceReport() {
   <p>Integrate these tools with Backlinkoo services for customized backlink performance reports that include LSI keyword optimization and domain authority tracking.</p>
   
   <div class="media">
-    <img src="/media/backlink-performance-report-img2.jpg" alt="tools for backlink performance report" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink performance report" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -202,7 +202,7 @@ export default function BacklinkPerformanceReport() {
   <p>After a Google penalty, a SaaS firm analyzed their backlink performance report, identifying 40% toxic links. Using <Link href="/senuke">SENUKE for automation</Link>, they disavowed bad links and built 150 new organic ones. Post-recovery report showed DA rebound to 55 and traffic growth of 120% (from 8,000 to 17,600 monthly users).</p>
   
   <div class="media">
-    <img src="/media/backlink-performance-report-img3.jpg" alt="case study graph for backlink performance" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph for backlink performance" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from backlink optimization (Source: Backlinkoo)</em></p>
   </div>
   

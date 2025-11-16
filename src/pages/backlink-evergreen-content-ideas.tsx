@@ -83,7 +83,7 @@ export default function BacklinkEvergreenContentIdeas() {
     <p>Stats from Ahrefs show that pages with evergreen content receive 50% more backlinks over time compared to time-sensitive posts. This is why at Backlinkoo, we emphasize <strong>backlink evergreen content ideas</strong> in our strategies to help clients achieve sustainable growth.</p>
     
     <div class="media">
-        <img src="/media/backlink-evergreen-content-ideas-img1.jpg" alt="backlink evergreen content ideas infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the lifecycle of evergreen content for backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -164,7 +164,7 @@ export default function BacklinkEvergreenContentIdeas() {
     </table>
     
     <div class="media">
-        <img src="/media/backlink-evergreen-content-ideas-img2.jpg" alt="tools for backlink evergreen content ideas" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink evergreen content ideas" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -206,7 +206,7 @@ export default function BacklinkEvergreenContentIdeas() {
     <p>Typically 3-6 months for organic backlinks to impact rankings.</p>
     
     <div class="media">
-        <img src="/media/backlink-evergreen-content-ideas-img3.jpg" alt="FAQ infographic for backlink ideas" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Visual FAQ summary (Source: Backlinkoo)</em></p>
     </div>
     

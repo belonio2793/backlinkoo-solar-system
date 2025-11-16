@@ -83,7 +83,7 @@ export default function LinkBuildingEntityOptimization() {
   <p>At Backlinkoo, we've seen clients improve their search rankings by 40% through targeted entity optimization in link building campaigns. This isn't just about quantity; it's about quality links from authoritative sources that signal to search engines that your entity is a leader in its niche.</p>
   
   <div class="media">
-    <img src="/media/link-building-entity-optimization-img1.jpg" alt="link building entity optimization infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic illustrating the key components of link building entity optimization (Source: Backlinkoo)</em></p>
   </div>
   
@@ -210,7 +210,7 @@ export default function LinkBuildingEntityOptimization() {
   <p>These tools, when used in conjunction with Backlinkoo's services, can supercharge your link building entity optimization efforts.</p>
   
   <div class="media">
-    <img src="/media/link-building-entity-optimization-img2.jpg" alt="Tools for link building entity optimization" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools for link building entity optimization" width="800" height="400" />
     <p><em>Overview of essential SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -284,7 +284,7 @@ export default function LinkBuildingEntityOptimization() {
   <p>Typically 3-6 months, depending on your starting domain authority and the quality of strategies implemented.</p>
   
   <div class="media">
-    <img src="/media/link-building-entity-optimization-img3.jpg" alt="FAQ on link building entity optimization" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="FAQ on link building entity optimization" width="800" height="400" />
     <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
   </div>
   

@@ -85,7 +85,7 @@ export default function LinkBuildingWorkflowAutomation() {
     <p>Backlinkoo.com specializes in providing automated solutions that integrate seamlessly into your SEO toolkit, helping you build dofollow links efficiently while maintaining high domain authority standards.</p>
     
     <div class="media">
-        <img src="/media/link-building-workflow-automation-img1.jpg" alt="link building workflow automation infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the steps in link building workflow automation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -211,7 +211,7 @@ export default function LinkBuildingWorkflowAutomation() {
     <p>Backlinkoo integrates these tools into custom workflows for optimal results. For a deeper dive, visit <a href="https://moz.com/learn/seo/link-building" target="_blank" rel="noopener noreferrer">Moz's Link Building Guide</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-workflow-automation-img2.jpg" alt="Tools comparison chart for link building automation" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools comparison chart for link building automation" width="800" height="400" />
         <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
     </div>
     

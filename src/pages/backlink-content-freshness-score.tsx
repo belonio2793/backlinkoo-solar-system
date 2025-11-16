@@ -83,7 +83,7 @@ export default function BacklinkContentFreshnessScore() {
     <p>Imagine securing dofollow links from evergreen content that's regularly refreshed – that's the power of optimizing for freshness. At Backlinkoo, we've seen clients boost their rankings by 30% simply by focusing on this metric.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-freshness-score-img1.jpg" alt="backlink content freshness score infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic explaining backlink content freshness score factors (Source: Backlinkoo)</em></p>
     </div>
     
@@ -161,7 +161,7 @@ export default function BacklinkContentFreshnessScore() {
     <p>At Backlinkoo, we recommend combining these tools for optimal results in link building.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-freshness-score-img2.jpg" alt="tools for backlink freshness" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink freshness" width="800" height="400" />
         <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -175,7 +175,7 @@ export default function BacklinkContentFreshnessScore() {
     <p>Implementing guest posts on high-freshness sites via <Link href="/xrumer">XRumer for posting</Link>, this client saw a 35% ranking improvement. Their <strong>backlink content freshness score</strong> averaged 90, leading to a 50% increase in leads.</p>
     
     <div class="media">
-        <img src="/media/backlink-content-freshness-score-img3.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from freshness optimization (Source: Backlinkoo)</em></p>
     </div>
     

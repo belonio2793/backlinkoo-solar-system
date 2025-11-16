@@ -87,7 +87,7 @@ export default function BacklinkCarouselPlacement() {
     <p>Moreover, with the rise of E-A-T (Expertise, Authoritativeness, Trustworthiness), having a diverse and interconnected backlink strategy can enhance your site's credibility. At Backlinkoo, we've seen clients improve their search rankings by 30-50% through targeted backlink carousel placement. It's not just about getting links; it's about placing them smartly to maximize ROI.</p>
     
     <div class="media">
-        <img src="/media/backlink-carousel-placement-img1.jpg" alt="backlink carousel placement infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Infographic illustrating the flow of backlink carousel placement (Source: Backlinkoo)</em></p>
     </div>
     
@@ -177,7 +177,7 @@ export default function BacklinkCarouselPlacement() {
     <p>At Backlinkoo, we integrate these tools to provide seamless backlink carousel placement services.</p>
     
     <div class="media">
-        <img src="/media/backlink-carousel-placement-img2.jpg" alt="tools for backlink carousel placement" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink carousel placement" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Visual comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -192,7 +192,7 @@ export default function BacklinkCarouselPlacement() {
     <p>A SaaS firm leveraged backlink carousel placement with resource pages and syndication. Results: 35% more leads, DA increased to 55. This demonstrates how integrating LSI terms and diverse strategies pays off.</p>
     
     <div class="media">
-        <img src="/media/backlink-carousel-placement-img3.jpg" alt="case study graphs for backlink carousel placement" width="800" height="400" style="max-width: 100%; height: auto;" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graphs for backlink carousel placement" width="800" height="400" style="max-width: 100%; height: auto;" />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

@@ -81,7 +81,7 @@ export default function LinkBuildingPitchDeck() {
     <p>Remember, the goal is to showcase how link building can solve pain points, such as low search visibility or stagnant traffic. By integrating LSI terms like "backlink strategies" and "authority building," your pitch deck becomes more SEO-friendly and persuasive.</p>
     
     <div class="media">
-        <img src="/media/link-building-pitch-deck-img1.jpg" alt="link building pitch deck infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the structure of a link building pitch deck (Source: Backlinkoo)</em></p>
     </div>
     
@@ -174,7 +174,7 @@ export default function LinkBuildingPitchDeck() {
     <p>A blog with stagnant growth implemented our <strong>link building pitch deck</strong>, incorporating XRumer for efficient posting. We focused on resource page links, resulting in 100 new dofollow links. Traffic grew by 400%, and ad revenue doubled within a year.</p>
     
     <div class="media">
-        <img src="/media/link-building-pitch-deck-img2.jpg" alt="link building case study chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building case study chart" width="800" height="400" />
         <p><em>Chart showing traffic growth from link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -206,7 +206,7 @@ export default function LinkBuildingPitchDeck() {
     <p>Backlinkoo provides expert services, tools, and customized pitch decks to elevate your SEO game.</p>
     
     <div class="media">
-        <img src="/media/link-building-pitch-deck-img3.jpg" alt="link building tools overview" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools overview" width="800" height="400" />
         <p><em>Overview of essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     

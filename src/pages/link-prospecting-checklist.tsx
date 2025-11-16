@@ -83,7 +83,7 @@ export default function LinkProspectingChecklist() {
     <h3>The Importance in SEO</h3>
     <p>Implementing a link prospecting checklist can lead to a 20-30% increase in organic traffic, as per case studies from SEMrush. It matters because search engines like Google prioritize sites with natural, high-quality backlinks. Neglecting this can result in stagnant rankings or even algorithmic penalties.</p>
     <div class="media">
-        <img src="/media/link-prospecting-checklist-img1.jpg" alt="link prospecting checklist infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
         <p><em>Infographic illustrating the steps in a link prospecting checklist (Source: Backlinkoo)</em></p>
     </div>
     
@@ -170,7 +170,7 @@ export default function LinkProspectingChecklist() {
     <h3>Case Study 3: Agency Campaign</h3>
     <p>Using Backlinkoo tools like <Link href="/senuke">SENUKE</Link>, an agency bought and organically acquired 300 links safely. Client's site jumped from page 3 to page 1 for competitive keywords, with a 50% revenue increase.</p>
     <div class="media">
-        <img src="/media/link-prospecting-checklist-img2.jpg" alt="case study graph for link prospecting" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="case study graph for link prospecting" width="800" height="400" />
         <p><em>Graph showing traffic growth from link prospecting (Source: Backlinkoo)</em></p>
     </div>
     
@@ -202,7 +202,7 @@ export default function LinkProspectingChecklist() {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Mastering the <strong>link prospecting checklist</strong> is key to long-term SEO success. As experts at Backlinkoo, we've seen clients achieve remarkable results—backed by stats like Ahrefs' report that sites with strong backlink profiles rank 3.8x higher. Trust our authoritative tools and services to guide you. For more, explore <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs Link Building Guide</a> or contact us today.</p>
     <div class="media">
-        <img src="/media/link-prospecting-checklist-img3.jpg" alt="tools for link prospecting" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="tools for link prospecting" width="800" height="400" />
         <p><em>Overview of essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz on Backlinks</a>

@@ -80,7 +80,7 @@ export default function AnchorTextRatioGuide() {
   <h3>Why Anchor Text Ratio is Crucial for SEO</h3>
   <p>An imbalanced anchor text ratio can signal manipulative link building practices, leading to algorithmic penalties or manual actions from Google. According to a study by Ahrefs, sites with a natural anchor text distribution see up to 20% better ranking stability. This <strong>anchor text ratio guide</strong> emphasizes maintaining a ratio that mimics organic linking patterns, incorporating LSI terms like dofollow links and domain authority to boost relevance.</p>
   <div class="media">
-    <img src="/media/anchor-text-ratio-guide-img1.jpg" alt="anchor text ratio guide infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Anchor text ratio SEO optimization strategy" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating optimal anchor text ratios (Source: Backlinkoo)</em></p>
   </div>
   <p>By following this <strong>anchor text ratio guide</strong>, you can improve your site's trustworthiness and climb the SERPs.</p>
@@ -167,7 +167,7 @@ export default function AnchorTextRatioGuide() {
   <h3>Case Study 3: SaaS Company Scale-Up</h3>
   <p>A SaaS provider used broken link building and bought safe links from Backlinkoo. Maintaining a 35% partial match ratio, they saw domain authority rise from 25 to 45. Traffic surged 120%, with conversions up 80%. Tools like <Link href="/senuke">SENUKE for automation</Link> ensured efficiency.</p>
   <div class="media">
-    <img src="/media/anchor-text-ratio-guide-img2.jpg" alt="case study graph for anchor text ratio" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="case study graph for anchor text ratio" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth post-optimization (Source: Backlinkoo)</em></p>
   </div>
   
@@ -197,7 +197,7 @@ export default function AnchorTextRatioGuide() {
   <h3>How does anchor text affect domain authority?</h3>
   <p>Natural, varied anchors from high-authority sites boost domain authority by signaling trustworthiness to search engines.</p>
   <div class="media">
-    <img src="/media/anchor-text-ratio-guide-img3.jpg" alt="FAQ infographic for anchor text" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Anchor text ratio SEO optimization strategy" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual FAQ summary (Source: Backlinkoo)</em></p>
   </div>
   <a href="https://ahrefs.com/blog/anchor-text/" target="_blank" rel="noopener noreferrer">Ahrefs Anchor Text Guide</a>

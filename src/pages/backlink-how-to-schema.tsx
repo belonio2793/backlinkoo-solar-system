@@ -78,7 +78,7 @@ export default function BacklinkHowToSchema() {
     <p>Implementing a proper <strong>backlink how-to schema</strong> can dramatically improve your site's organic traffic. For instance, high-quality dofollow links from authoritative sites pass "link juice," enhancing your page rank. Without a clear strategy, however, you risk penalties from Google for spammy practices. At Backlinkoo, we emphasize ethical link building to help you avoid these pitfalls and achieve sustainable growth.</p>
     <p>Backlinks are a cornerstone of SEO, influencing factors like domain authority (DA) and page authority (PA). Moz's research shows that sites with DA above 50 often dominate competitive keywords. By following our <strong>backlink how-to schema</strong>, you'll learn to prioritize quality over quantity, focusing on relevant, high-DA sources for maximum impact.</p>
     <div class="media">
-        <img src="/media/backlink-how-to-schema-img1.jpg" alt="backlink how-to schema infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating the basics of backlink how-to schema (Source: Backlinkoo)</em></p>
     </div>
     <p>This schema isn't just theory—it's a practical roadmap. It incorporates LSI terms like anchor text optimization, nofollow vs. dofollow links, and referral traffic analysis to ensure your efforts align with search engine algorithms.</p>
@@ -162,7 +162,7 @@ export default function BacklinkHowToSchema() {
     </table>
     <p>Backlinkoo integrates these tools seamlessly, making your <strong>backlink how-to schema</strong> more efficient. For official guidelines, visit <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     <div class="media">
-        <img src="/media/backlink-how-to-schema-img2.jpg" alt="backlink tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -206,7 +206,7 @@ export default function BacklinkHowToSchema() {
     
     <p>In conclusion, mastering the <strong>backlink how-to schema</strong> is key to SEO success. Backed by stats from Moz (e.g., backlinks account for 20-30% of ranking factors) and Ahrefs (top pages have 3.8x more backlinks), our expert guidance at Backlinkoo ensures you're equipped with authoritative strategies. Trust our services for persuasive, results-driven link building—contact us today to elevate your domain authority.</p>
     <div class="media">
-        <img src="/media/backlink-how-to-schema-img3.jpg" alt="backlink success metrics" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink success metrics" width="800" height="400" />
         <p><em>Metrics showing backlink impact (Source: Backlinkoo)</em></p>
     </div>
     <p>For further reading: <a href="https://backlinko.com/backlinks-guide" target="_blank" rel="noopener noreferrer">Backlinko Guide</a>, <a href="https://neilpatel.com/blog/backlinks/" target="_blank" rel="noopener noreferrer">Neil Patel on Backlinks</a>, <a href="https://www.semrush.com/blog/backlink-guide/" target="_blank" rel="noopener noreferrer">SEMrush Backlink Guide</a>, <a href="https://developers.google.com/search/blog" target="_blank" rel="noopener noreferrer">Google Search Blog</a>, <a href="https://majestic.com/blog/backlinks" target="_blank" rel="noopener noreferrer">Majestic SEO</a>.</p>

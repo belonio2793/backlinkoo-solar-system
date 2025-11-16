@@ -83,7 +83,7 @@ export default function LinkBuildingMediumPublication() {
   <p>In today's competitive digital landscape, where algorithms like Google's E-A-T (Expertise, Authoritativeness, Trustworthiness) emphasize quality backlinks, ignoring <strong>link building medium publication</strong> could mean missing out on significant traffic gains. For instance, a single well-placed link from a Medium publication can drive referral traffic and improve your domain authority over time.</p>
   
   <div class="media">
-    <img src="/media/link-building-medium-publication-img1.jpg" alt="link building medium publication infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic showing the benefits of link building on Medium publications (Source: Backlinkoo)</em></p>
   </div>
   
@@ -184,7 +184,7 @@ export default function LinkBuildingMediumPublication() {
   <p>At Backlinkoo, we recommend integrating <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link> for automated, efficient <strong>link building medium publication</strong>.</p>
   
   <div class="media">
-    <img src="/media/link-building-medium-publication-img2.jpg" alt="tools for link building medium publication" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building medium publication" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -201,7 +201,7 @@ export default function LinkBuildingMediumPublication() {
   <p>A digital agency bought safe links through Backlinkoo for Medium publications. This led to 20 high-quality backlinks, boosting their site's visibility and leading to a 35% growth in client inquiries. Their domain authority improved from 42 to 55 within six months.</p>
   
   <div class="media">
-    <img src="/media/link-building-medium-publication-img3.jpg" alt="case study graph for link building medium publication" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building medium publication" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
   </div>
   

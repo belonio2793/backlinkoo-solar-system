@@ -87,7 +87,7 @@ export default function LinkBuildingMonthlyAudit() {
     <p>Statistics from Moz show that sites with proactive link management see a 25% increase in referral traffic. Don't let outdated links drag down your SEO—make audits a habit.</p>
 
     <div class="media">
-        <img src="/media/link-building-monthly-audit-img1.jpg" alt="link building monthly audit infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the steps of a link building monthly audit (Source: Backlinkoo)</em></p>
     </div>
 
@@ -166,7 +166,7 @@ export default function LinkBuildingMonthlyAudit() {
     <p>At Backlinkoo, we recommend combining these tools for a thorough audit. For more on SEO tools, check <a href="https://ahrefs.com/blog/link-building-monthly-audit" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>.</p>
 
     <div class="media">
-        <img src="/media/link-building-monthly-audit-img2.jpg" alt="Tools for link building audit" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools for link building audit" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
 
@@ -209,7 +209,7 @@ export default function LinkBuildingMonthlyAudit() {
     <p>We offer tailored services, including automation with <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link>, to optimize your backlink profile.</p>
 
     <div class="media">
-        <img src="/media/link-building-monthly-audit-img3.jpg" alt="FAQ on link building audits" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="FAQ on link building audits" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
 

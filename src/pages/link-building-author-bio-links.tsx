@@ -79,7 +79,7 @@ export default function LinkBuildingAuthorBioLinks() {
     <p>From an SEO perspective, author bio links are a form of off-page optimization that builds trust and relevance. They help in diversifying your backlink profile, which is crucial for avoiding penalties from algorithms like Google's Penguin update. Moreover, they provide a subtle way to promote your brand without overt advertising, aligning with user-focused content strategies.</p>
     <p>At Backlinkoo, we've seen clients boost their domain authority by 20-30 points through targeted <strong>link building author bio links</strong> campaigns. If you're looking to integrate this into your strategy, our services can handle the outreach and placement for you, ensuring high-quality, relevant links.</p>
     <div class="media">
-        <img src="/media/link-building-author-bio-links-img1.jpg" alt="link building author bio links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the flow of link building author bio links (Source: Backlinkoo)</em></p>
     </div>
     
@@ -169,7 +169,7 @@ export default function LinkBuildingAuthorBioLinks() {
     </table>
     <p>These tools, especially <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link>, can supercharge your efforts. Backlinkoo integrates these for optimal results.</p>
     <div class="media">
-        <img src="/media/link-building-author-bio-links-img2.jpg" alt="tools for link building author bio links" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building author bio links" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -185,7 +185,7 @@ export default function LinkBuildingAuthorBioLinks() {
     <h3>Case Study 3: SaaS Company Expansion</h3>
     <p>A SaaS provider bought targeted author bio links via Backlinkoo, combining with organic efforts. Outcomes: 70% ranking improvement for core keywords, with domain authority hitting 65 from 40. Revenue from organic search doubled in a year.</p>
     <div class="media">
-        <img src="/media/link-building-author-bio-links-img3.jpg" alt="case study graphs for link building author bio links" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs for link building author bio links" width="800" height="400" />
         <p><em>Graphs showing SEO growth (Source: Backlinkoo)</em></p>
     </div>
     

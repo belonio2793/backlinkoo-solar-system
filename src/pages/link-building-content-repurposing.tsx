@@ -91,7 +91,7 @@ export default function LinkBuildingContentRepurposing() {
     <p>Moreover, repurposed content can improve your site's E-A-T (Expertise, Authoritativeness, Trustworthiness), a key factor in Google's algorithm. Repurposing helps you reach new audiences on platforms like LinkedIn or Reddit, where users might link back to your original or adapted content.</p>
     
     <div class="media">
-        <img src="/media/link-building-content-repurposing-img1.jpg" alt="link building content repurposing infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the process of link building content repurposing (Source: Backlinkoo)</em></p>
     </div>
     
@@ -196,7 +196,7 @@ export default function LinkBuildingContentRepurposing() {
     <p>A niche blog network repurposed old articles into email newsletters and social threads, attracting 150 backlinks. Domain authority climbed to 60, with a 250% traffic increase. Backlinkoo's services ensured safe, integrated link building.</p>
     
     <div class="media">
-        <img src="/media/link-building-content-repurposing-img2.jpg" alt="case study graph for link building content repurposing" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building content repurposing" width="800" height="400" />
         <p><em>Graph showing traffic growth from repurposing (Source: Backlinkoo)</em></p>
     </div>
     
@@ -226,7 +226,7 @@ export default function LinkBuildingContentRepurposing() {
     <p>Yes, especially if optimized with keywords and shared strategically, leading to natural backlinks.</p>
     
     <div class="media">
-        <img src="/media/link-building-content-repurposing-img3.jpg" alt="FAQ infographic for link building content repurposing" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Visual FAQ on link building content repurposing (Source: Backlinkoo)</em></p>
     </div>
     

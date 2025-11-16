@@ -88,7 +88,7 @@ export default function LinkBuildingMicroContentHooks() {
   <p>For more insights on domain authority, check out this <a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz Guide on Domain Authority</a>.</p>
   
   <div class="media">
-    <img src="/media/link-building-micro-content-hooks-img1.jpg" alt="link building micro-content hooks infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic illustrating the power of micro-content in link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -174,7 +174,7 @@ export default function LinkBuildingMicroContentHooks() {
   </table>
   
   <div class="media">
-    <img src="/media/link-building-micro-content-hooks-img2.jpg" alt="tools for link building micro-content hooks" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building micro-content hooks" width="800" height="400" />
     <p><em>Visual guide to essential tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -188,7 +188,7 @@ export default function LinkBuildingMicroContentHooks() {
   <p>A SaaS firm developed short video hooks. Outreach led to features on sites like Forbes, resulting in 300 high-authority links and a 60% increase in leads (simulated results from Backlinkoo strategies).</p>
   
   <div class="media">
-    <img src="/media/link-building-micro-content-hooks-img3.jpg" alt="case study graphs for link building" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs for link building" width="800" height="400" />
     <p><em>Graphs showing traffic growth from micro-content hooks (Source: Backlinkoo)</em></p>
   </div>
   

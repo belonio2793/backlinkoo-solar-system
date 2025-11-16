@@ -79,7 +79,7 @@ export default function LinkBuildingVirtualSummit() {
     <p>At Backlinkoo, we believe in empowering users with knowledge. Our link building virtual summit covers everything from organic tactics to advanced tools, helping you avoid penalties and achieve sustainable growth.</p>
     
     <div class="media">
-        <img src="/media/link-building-virtual-summit-img1.jpg" alt="link building virtual summit infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic highlighting key benefits of attending a link building virtual summit (Source: Backlinkoo)</em></p>
     </div>
     
@@ -177,7 +177,7 @@ export default function LinkBuildingVirtualSummit() {
     <p>These tools, discussed in depth at Backlinkoo's link building virtual summit, can supercharge your efforts. We recommend starting with <Link href="/senuke">SENUKE for automation</Link> for beginners.</p>
     
     <div class="media">
-        <img src="/media/link-building-virtual-summit-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing link building tools featured in the summit (Source: Backlinkoo)</em></p>
     </div>
     
@@ -233,7 +233,7 @@ export default function LinkBuildingVirtualSummit() {
     <p>Quality backlinks signal trustworthiness, directly improving DA as per <a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-virtual-summit-img3.jpg" alt="FAQ infographic for link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic answering common link building questions (Source: Backlinkoo)</em></p>
     </div>
     

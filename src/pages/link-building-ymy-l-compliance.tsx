@@ -78,7 +78,7 @@ export default function LinkBuildingYmyLCompliance() {
     <p>Why does it matter? Non-compliance can lead to manual actions, algorithmic demotions, or even de-indexing. According to Google's Search Quality Evaluator Guidelines, YMYL content must be created by qualified experts and supported by high-quality links. Effective <strong>link building</strong> boosts domain authority, but for YMYL sites, it must prioritize quality over quantity to maintain trust.</p>
     <p>In fact, a study by Ahrefs shows that sites with strong backlink profiles see 3.8 times more traffic. For YMYL compliance, focus on dofollow links from reputable sources to signal credibility.</p>
     <div class="media">
-        <img src="/media/link-building-ymy-l-compliance-img1.jpg" alt="link building ymy l compliance infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic on YMYL Link Building Best Practices (Source: Backlinkoo)</em></p>
     </div>
     <p>Backlinkoo specializes in helping YMYL sites navigate these challenges, offering tools that ensure compliant <strong>link building</strong> strategies.</p>
@@ -184,7 +184,7 @@ export default function LinkBuildingYmyLCompliance() {
     <p>By partnering with experts and syndicating content, this site earned 100 natural links. Domain authority jumped from 40 to 65, with a 120% traffic surge.</p>
     <p>Fake stats: Natural links: 100; DA increase: +25; Traffic surge: 120%.</p>
     <div class="media">
-        <img src="/media/link-building-ymy-l-compliance-img2.jpg" alt="link building ymy l compliance case study chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building ymy l compliance case study chart" width="800" height="400" />
         <p><em>Chart Showing Traffic Growth from Compliant Link Building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -227,7 +227,7 @@ export default function LinkBuildingYmyLCompliance() {
     <p>Resource pages are goldmines. Search for "intitle:resources + your niche" to find them. Your content should be evergreen, like a "comprehensive guide to mental health resources," cited by APA sources. This attracts natural links and improves metrics like trust flow.</p>
     <p>Content syndication involves republishing with permission. Platforms like LinkedIn Pulse can amplify reach, leading to indirect backlinks. Partnerships with influencers in YMYL fields, such as doctors or financial advisors, add credibility. Always use rel=canonical to avoid duplicate content issues.</p>
     <div class="media">
-        <img src="/media/link-building-ymy-l-compliance-img3.jpg" alt="link building ymy l compliance tools screenshot" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building ymy l compliance tools screenshot" width="800" height="400" />
         <p><em>Screenshot of Tools for YMYL Link Building (Source: Backlinkoo)</em></p>
     </div>
     <p>Regarding buying links, the pros include rapid scaling, but cons outweigh them for YMYL. A Penguin penalty can drop traffic by 70%, as seen in past updates. Safe tips: Negotiate for editorial links, not advertorials. Use contracts specifying nofollow. Backlinkoo offers white-hat alternatives, avoiding these risks entirely.</p>

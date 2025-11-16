@@ -79,7 +79,7 @@ export default function BacklinkVisualAssetIdeas() {
     <p>At Backlinkoo, we specialize in creating these assets to help you stand out. Whether you're targeting dofollow links or enhancing your overall link profile, backlink visual asset ideas are essential for modern SEO success.</p>
     
     <div class="media">
-        <img src="/media/backlink-visual-asset-ideas-img1.jpg" alt="backlink visual asset ideas infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showcasing top backlink visual asset ideas (Source: Backlinkoo)</em></p>
     </div>
     
@@ -127,7 +127,7 @@ export default function BacklinkVisualAssetIdeas() {
     <p>Always monitor with Ahrefs or Moz to maintain a healthy link profile.</p>
     
     <div class="media">
-        <img src="/media/backlink-visual-asset-ideas-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart on buying backlinks for visual assets (Source: Backlinkoo)</em></p>
     </div>
     
@@ -193,7 +193,7 @@ export default function BacklinkVisualAssetIdeas() {
     <p>A health website revived its link profile with video infographics on wellness tips. Combining guest posts and tools like <Link href="/xrumer">XRumer</Link>, they gained 120 links, improving domain authority by 20 points and conversion rates by 25%.</p>
     
     <div class="media">
-        <img src="/media/backlink-visual-asset-ideas-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing backlink growth from visual assets (Source: Backlinkoo)</em></p>
     </div>
     

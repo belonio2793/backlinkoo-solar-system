@@ -83,7 +83,7 @@ export default function LinkBuildingFaqPageLinks() {
   <p>At Backlinkoo, we've helped countless clients leverage link building FAQ page links to climb SERPs. Imagine transforming your site's visibility overnight— that's the power of well-executed link building.</p>
   
   <div class="media">
-    <img src="/media/link-building-faq-page-links-img1.jpg" alt="link building faq page links infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic explaining the basics of link building FAQ page links (Source: Backlinkoo)</em></p>
   </div>
   
@@ -188,7 +188,7 @@ export default function LinkBuildingFaqPageLinks() {
   <p>Integrating <Link href="/xrumer">XRumer for posting</Link> with Backlinkoo's expertise can supercharge your efforts in securing link building FAQ page links.</p>
   
   <div class="media">
-    <img src="/media/link-building-faq-page-links-img2.jpg" alt="link building tools comparison chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width="800" height="400" />
     <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -239,7 +239,7 @@ export default function LinkBuildingFaqPageLinks() {
   <p>Results can appear in 1-3 months, depending on strategy, with organic traffic boosts up to 30% (Backlinko data).</p>
   
   <div class="media">
-    <img src="/media/link-building-faq-page-links-img3.jpg" alt="link building faq infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>FAQ infographic for link building (Source: Backlinkoo)</em></p>
   </div>
   

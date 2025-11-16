@@ -87,7 +87,7 @@ export default function BacklinkAcquisitionFunnel() {
     <p>Implementing a backlink acquisition funnel ensures efficiency, scalability, and measurable results. It helps you track metrics like referral traffic, domain rating improvements, and conversion rates from outreach to link placement. At Backlinkoo, we've helped countless clients boost their domain authority by 20-50 points through optimized funnels.</p>
     
     <div class="media">
-        <img src="/media/backlink-acquisition-funnel-img1.jpg" alt="backlink acquisition funnel infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building and backlink acquisition strategy" width="800" height="400" />
         <p><em>Visual representation of the backlink acquisition funnel stages (Source: Backlinkoo)</em></p>
     </div>
     
@@ -197,7 +197,7 @@ export default function BacklinkAcquisitionFunnel() {
     <p>These tools streamline every stage of the backlink acquisition funnel. For instance, use Ahrefs for TOFU research and <Link href="/senuke">SENUKE</Link> for MOFU automation. Backlinkoo integrates these seamlessly into our services for maximum efficiency.</p>
     
     <div class="media">
-        <img src="/media/backlink-acquisition-funnel-img2.jpg" alt="tools for backlink acquisition funnel" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for backlink acquisition funnel" width="800" height="400" />
         <p><em>Comparison of SEO tools for link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -222,7 +222,7 @@ export default function BacklinkAcquisitionFunnel() {
     <p>These cases highlight how Backlinkoo tailors funnels for diverse needs, delivering measurable SEO wins.</p>
     
     <div class="media">
-        <img src="/media/backlink-acquisition-funnel-img3.jpg" alt="case study graphs for backlink acquisition" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs for backlink acquisition" width="800" height="400" />
         <p><em>Graphs showing traffic growth from backlink funnels (Source: Backlinkoo)</em></p>
     </div>
     

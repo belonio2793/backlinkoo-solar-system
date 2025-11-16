@@ -89,7 +89,7 @@ export default function BacklinkVelocityTrends() {
     <p>At Backlinkoo, we've seen clients double their organic traffic by aligning with these trends. It's about sustainable link building that supports long-term domain authority growth.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-trends-img1.jpg" alt="backlink velocity trends infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing backlink velocity patterns over time (Source: Backlinkoo)</em></p>
     </div>
     
@@ -183,7 +183,7 @@ export default function BacklinkVelocityTrends() {
     <p>These tools help monitor your backlink velocity, ensuring it aligns with current trends for optimal SEO performance.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-trends-img2.jpg" alt="tools for backlink velocity" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink velocity" width="800" height="400" />
         <p><em>Comparison of SEO tools for link building (Source: Backlinkoo)</em></p>
     </div>
     
@@ -200,7 +200,7 @@ export default function BacklinkVelocityTrends() {
     <p>A new tech startup focused on skyscraper content, gaining 200 links in the first year at a consistent pace. This led to a 70% increase in leads, showcasing the power of aligned <strong>backlink velocity trends</strong>.</p>
     
     <div class="media">
-        <img src="/media/backlink-velocity-trends-img3.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph of backlink growth in case studies (Source: Backlinkoo)</em></p>
     </div>
     

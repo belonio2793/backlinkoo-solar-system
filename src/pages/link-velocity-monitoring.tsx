@@ -81,7 +81,7 @@ export default function LinkVelocityMonitoring() {
     <h3>The Importance in SEO</h3>
     <p>Monitoring link velocity helps maintain domain authority. High-quality backlinks from authoritative sites signal trust to Google. Tools like those from Backlinkoo can automate this tracking, ensuring your link building remains effective without risking over-optimization.</p>
     <div class="media">
-        <img src="/media/link-velocity-monitoring-img1.jpg" alt="link velocity monitoring infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
         <p><em>Infographic showing link velocity trends over time (Source: Backlinkoo)</em></p>
     </div>
     <p>For more on SEO basics, check out this <a href="https://moz.com/blog/link-velocity-monitoring" target="_blank" rel="noopener noreferrer">Moz Guide on Link Building</a>.</p>
@@ -157,7 +157,7 @@ export default function LinkVelocityMonitoring() {
     </table>
     <p>Backlinkoo recommends starting with our integrated tools for seamless <strong>link velocity monitoring</strong>.</p>
     <div class="media">
-        <img src="/media/link-velocity-monitoring-img2.jpg" alt="tools for link velocity monitoring" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="tools for link velocity monitoring" width="800" height="400" />
         <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -182,7 +182,7 @@ export default function LinkVelocityMonitoring() {
     </ul>
     <p>By steering clear, you'll maintain healthy <strong>link velocity monitoring</strong>.</p>
     <div class="media">
-        <img src="/media/link-velocity-monitoring-img3.jpg" alt="common mistakes in link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="common mistakes in link building" width="800" height="400" />
         <p><em>Visual guide to SEO mistakes (Source: Backlinkoo)</em></p>
     </div>
     <p>For expert advice, see <a href="https://ahrefs.com/blog/link-velocity/" target="_blank" rel="noopener noreferrer">Ahrefs on Link Velocity</a>.</p>

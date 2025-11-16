@@ -91,7 +91,7 @@ export default function LinkGapAnalysisTemplate() {
   <p>Moreover, ignoring link gaps can lead to missed revenue. Businesses that invest in link building see an average 14% increase in organic traffic, per <a href="https://ahrefs.com/blog/link-building-statistics/" target="_blank" rel="noopener noreferrer">Ahrefs data</a>. At Backlinkoo, we've helped countless clients close these gaps, resulting in measurable ROI.</p>
   
   <div class="media">
-    <img src="/media/link-gap-analysis-template-img1.jpg" alt="link gap analysis template infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
     <p><em>Infographic illustrating the steps of link gap analysis (Source: Backlinkoo)</em></p>
   </div>
   
@@ -192,7 +192,7 @@ export default function LinkGapAnalysisTemplate() {
   <p>Integrate these with Backlinkoo for seamless link gap closure.</p>
   
   <div class="media">
-    <img src="/media/link-gap-analysis-template-img2.jpg" alt="tools for link gap analysis" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="tools for link gap analysis" width="800" height="400" />
     <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -208,7 +208,7 @@ export default function LinkGapAnalysisTemplate() {
   <p>A SaaS firm closed gaps with HARO and bought links from Backlinkoo, resulting in 60 new referring domains. Domain authority jumped 15 points, with a 50% traffic surge. This demonstrates the power of a balanced approach.</p>
   
   <div class="media">
-    <img src="/media/link-gap-analysis-template-img3.jpg" alt="case study graphs" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="case study graphs" width="800" height="400" />
     <p><em>Graphs showing traffic growth from link gap analysis (Source: Backlinkoo)</em></p>
   </div>
   

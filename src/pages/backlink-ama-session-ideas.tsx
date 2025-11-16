@@ -91,7 +91,7 @@ export default function BacklinkAmaSessionIdeas() {
     <p>Statistics from <a href="https://moz.com/blog/why-backlinks-matter" target="_blank" rel="noopener noreferrer">Moz</a> show that backlinks account for up to 20% of ranking factors. By sharing <strong>backlink AMA session ideas</strong>, you educate while subtly guiding users toward professional help.</p>
     
     <div class="media">
-        <img src="/media/backlink-ama-session-ideas-img1.jpg" alt="backlink ama session ideas infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic on key benefits of backlink AMA sessions (Source: Backlinkoo)</em></p>
     </div>
     
@@ -196,7 +196,7 @@ export default function BacklinkAmaSessionIdeas() {
     <p>These tools can be hot topics in your <strong>backlink AMA session ideas</strong>. Backlinkoo integrates them seamlessly into our services.</p>
     
     <div class="media">
-        <img src="/media/backlink-ama-session-ideas-img2.jpg" alt="backlink tools comparison chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink tools comparison chart" width="800" height="400" />
         <p><em>Chart comparing backlink tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -219,7 +219,7 @@ export default function BacklinkAmaSessionIdeas() {
     <p>These cases show how <strong>backlink AMA session ideas</strong> translate to results. Partner with Backlinkoo for similar success.</p>
     
     <div class="media">
-        <img src="/media/backlink-ama-session-ideas-img3.jpg" alt="case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     

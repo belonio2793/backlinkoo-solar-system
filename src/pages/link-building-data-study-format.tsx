@@ -83,7 +83,7 @@ export default function LinkBuildingDataStudyFormat() {
 <p>At Backlinkoo.com, we emphasize the importance of data in link building. Our services include detailed reports in a customized <strong>link building data study format</strong> that helps clients understand the value of each backlink. This data-driven approach ensures transparency and measurable success.</p>
 
 <div class="media">
-<Image src="/media/link-building-data-study-format-img1.jpg" alt="link building data study format infographic" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width={800} height={400} />
 <p><em>Infographic illustrating key components of a link building data study format (Source: Backlinkoo)</em></p>
 </div>
 
@@ -198,7 +198,7 @@ export default function LinkBuildingDataStudyFormat() {
 <p>These tools integrate well with your <strong>link building data study format</strong>, providing exportable data for analysis. For more on automation, explore <Link href="/xrumer">XRumer for posting</Link>.</p>
 
 <div class="media">
-<Image src="/media/link-building-data-study-format-img2.jpg" alt="link building tools comparison chart" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison chart" width={800} height={400} />
 <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
 </div>
 
@@ -219,7 +219,7 @@ export default function LinkBuildingDataStudyFormat() {
 <p>An SEO agency leveraged bought links safely through Backlinkoo. In their <strong>link building data study format</strong>, they noted a 20% ranking boost across client sites, with no penalties. Stats: 300 links acquired, average DA 55, leading to 35% more organic sessions.</p>
 
 <div class="media">
-<Image src="/media/link-building-data-study-format-img3.jpg" alt="case study graph for link building" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building" width={800} height={400} />
 <p><em>Graph showing traffic growth from link building case study (Source: Backlinkoo)</em></p>
 </div>
 

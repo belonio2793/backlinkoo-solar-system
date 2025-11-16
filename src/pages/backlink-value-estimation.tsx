@@ -95,7 +95,7 @@ export default function BacklinkValueEstimation() {
   <p>At Backlinkoo, our experts use proprietary algorithms to assist in backlink value estimation, ensuring you only invest in links that align with your SEO goals. For more insights, check out this <a href="https://moz.com/blog/backlink-value-estimation" target="_blank" rel="noopener noreferrer">Moz Guide on Backlink Valuation</a>.</p>
   
   <div class="media">
-    <img src="/media/backlink-value-estimation-img1.jpg" alt="backlink value estimation infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic illustrating key factors in backlink value estimation (Source: Backlinkoo)</em></p>
   </div>
   
@@ -193,7 +193,7 @@ export default function BacklinkValueEstimation() {
   <p>These tools empower you to perform precise backlink value estimation. Backlinkoo integrates them for seamless workflows.</p>
   
   <div class="media">
-    <img src="/media/backlink-value-estimation-img2.jpg" alt="tools for backlink value estimation comparison" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink value estimation comparison" width="800" height="400" />
     <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -222,7 +222,7 @@ export default function BacklinkValueEstimation() {
   <p>Backlinkoo helps you sidestep these mistakes with expert guidance and advanced analytics.</p>
   
   <div class="media">
-    <img src="/media/backlink-value-estimation-img3.jpg" alt="common mistakes in backlink value estimation" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="common mistakes in backlink value estimation" width="800" height="400" />
     <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
   </div>
   

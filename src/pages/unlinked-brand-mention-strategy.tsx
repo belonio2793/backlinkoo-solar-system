@@ -93,7 +93,7 @@ export default function UnlinkedBrandMentionStrategy() {
     <p>From a broader perspective, implementing an unlinked brand mention strategy can improve your overall online reputation management. It encourages positive associations and can lead to increased referral traffic once those mentions become clickable links.</p>
     
     <div class="media">
-        <img src="/media/unlinked-brand-mention-strategy-img1.jpg" alt="unlinked brand mention strategy infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
         <p><em>Infographic illustrating the process of converting unlinked mentions to backlinks (Source: Backlinkoo)</em></p>
     </div>
     
@@ -210,7 +210,7 @@ export default function UnlinkedBrandMentionStrategy() {
     <p>At Backlinkoo, we recommend starting with free tools like Google Alerts and scaling up to premium options for deeper insights. Our experts can help integrate these into a tailored unlinked brand mention strategy.</p>
     
     <div class="media">
-        <img src="/media/unlinked-brand-mention-strategy-img2.jpg" alt="Tools for unlinked brand mention strategy" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Tools for unlinked brand mention strategy" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -233,7 +233,7 @@ export default function UnlinkedBrandMentionStrategy() {
     <p>These cases demonstrate the tangible benefits of a well-executed unlinked brand mention strategy. Backlinkoo's expertise ensures similar results for your business.</p>
     
     <div class="media">
-        <img src="/media/unlinked-brand-mention-strategy-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from unlinked mentions (Source: Backlinkoo)</em></p>
     </div>
     

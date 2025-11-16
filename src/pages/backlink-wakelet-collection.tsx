@@ -94,7 +94,7 @@ export default function BacklinkWakeletCollection() {
 
 <p>At Backlinkoo, we've seen clients increase their organic traffic by 30% through targeted <strong>backlink Wakelet collections</strong>. It's not just about quantity; quality matters. High-DA sites linking to your Wakelet collection can pass valuable link juice, boosting your overall SEO performance.</p>
 
-<div class="media"><img src="/media/backlink-wakelet-collection-img1.jpg" alt="backlink wakelet collection infographic" width="800" height="400" /><p><em>Infographic showing the flow of backlinks in a Wakelet collection (Source: Backlinkoo)</em></p></div>
+<div class="media"><img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" /><p><em>Infographic showing the flow of backlinks in a Wakelet collection (Source: Backlinkoo)</em></p></div>
 
 <h2>Organic Strategies for Building Your Backlink Wakelet Collection</h2>
 
@@ -183,7 +183,7 @@ export default function BacklinkWakeletCollection() {
 
 <p>These tools, especially <a href="/senuke">SENUKE for automation</a> and <a href="/xrumer">XRumer for posting</a>, can supercharge your strategy when used ethically.</p>
 
-<div class="media"><img src="/media/backlink-wakelet-collection-img2.jpg" alt="tools for backlink wakelet collection" width="800" height="400" /><p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p></div>
+<div class="media"><img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink wakelet collection" width="800" height="400" /><p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p></div>
 
 <h2>Case Studies: Success Stories with Backlink Wakelet Collections</h2>
 
@@ -226,7 +226,7 @@ export default function BacklinkWakeletCollection() {
 
 <p>In conclusion, mastering <strong>backlink Wakelet collections</strong> can significantly elevate your SEO game. With stats from <a href="https://moz.com/blog" target="_blank" rel="noopener noreferrer">Moz</a> indicating that backlinks account for 20-30% of ranking factors, investing in this strategy is wise. At Backlinkoo, our expert team can help you build authoritative collections tailored to your needs. Contact us today to get started!</p>
 
-<div class="media"><img src="/media/backlink-wakelet-collection-img3.jpg" alt="success metrics for backlink wakelet collection" width="800" height="400" /><p><em>Chart showing SEO growth (Source: Backlinkoo)</em></p></div>
+<div class="media"><img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="success metrics for backlink wakelet collection" width="800" height="400" /><p><em>Chart showing SEO growth (Source: Backlinkoo)</em></p></div>
 
 </div>
 

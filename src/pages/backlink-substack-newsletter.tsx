@@ -81,7 +81,7 @@ export default function BacklinkSubstackNewsletter() {
     <p>Domain authority, a metric developed by Moz, predicts how well a website will rank on search engines. For a <strong>backlink Substack newsletter</strong>, aiming for links from sites with DA above 50 can make a substantial difference. LSI terms like "link building" and "dofollow links" come into play here, as they help search engines understand the context of your content.</p>
     
     <div class="media">
-        <img src="/media/backlink-substack-newsletter-img1.jpg" alt="backlink substack newsletter infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on Substack newsletter growth (Source: Backlinkoo)</em></p>
     </div>
     
@@ -166,7 +166,7 @@ export default function BacklinkSubstackNewsletter() {
     <p>Using <Link href="/senuke">SENUKE for automation</Link>, a finance Substack gained 100 dofollow links, resulting in a 40-point DA increase and monetization revenue doubling to \$5,000 monthly.</p>
     
     <div class="media">
-        <img src="/media/backlink-substack-newsletter-img2.jpg" alt="backlink substack newsletter case study chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink substack newsletter case study chart" width="800" height="400" />
         <p><em>Chart depicting subscriber growth from backlink strategies (Source: Backlinkoo)</em></p>
     </div>
     
@@ -194,7 +194,7 @@ export default function BacklinkSubstackNewsletter() {
     <p>By improving search rankings and driving targeted traffic.</p>
     
     <div class="media">
-        <img src="/media/backlink-substack-newsletter-img3.jpg" alt="backlink substack newsletter FAQ illustration" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink substack newsletter FAQ illustration" width="800" height="400" />
         <p><em>Illustration of common FAQ on backlinks (Source: Backlinkoo)</em></p>
     </div>
     

@@ -82,7 +82,7 @@ export default function LinkBuildingPartnershipTypes() {
     <p>Google's algorithms, like Penguin, penalize manipulative tactics, so ethical <strong>link building</strong> is essential. Explore resources from <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a> for best practices.</p>
     
     <div class="media">
-        <img src="/media/link-building-partnership-types-img1.jpg" alt="link building partnership types infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing various link building partnership types (Source: Backlinkoo)</em></p>
     </div>
     
@@ -165,7 +165,7 @@ export default function LinkBuildingPartnershipTypes() {
     <p>At Backlinkoo, we integrate these tools into our services for optimal results.</p>
     
     <div class="media">
-        <img src="/media/link-building-partnership-types-img2.jpg" alt="tools for link building partnerships" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building partnerships" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -207,7 +207,7 @@ export default function LinkBuildingPartnershipTypes() {
     <p>Tools like <Link href="/senuke">SENUKE</Link> for automation and Ahrefs for analysis are essential. Check <a href="https://ahrefs.com/blog/link-building" target="_blank" rel="noopener noreferrer">Ahrefs Guide</a> for more.</p>
     
     <div class="media">
-        <img src="/media/link-building-partnership-types-img3.jpg" alt="FAQ on link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="FAQ on link building" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
     

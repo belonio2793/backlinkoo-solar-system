@@ -82,7 +82,7 @@ export default function LinkBuildingInternalAnchorText() {
     <p>Anchor text is the visible, clickable part of a hyperlink. In <strong>link building internal anchor text</strong>, it should be natural, relevant, and varied to avoid over-optimization penalties. Types include exact-match (e.g., "SEO tools"), partial-match (e.g., "best SEO tools for beginners"), and branded (e.g., "Backlinkoo services"). Using LSI terms like "dofollow links" or "domain authority" in your anchors can further enhance topical relevance.</p>
     <p>Internal links pass "link juice" or PageRank within your site, helping to elevate cornerstone content. A report from <a href="https://moz.com/blog/internal-link-structures" target="_blank" rel="noopener noreferrer">Moz</a> highlights that sites with strategic internal anchoring achieve higher rankings for competitive keywords.</p>
     <div class="media">
-        <img src="/media/link-building-internal-anchor-text-img1.jpg" alt="link building internal anchor text infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the flow of link juice through internal anchor text (Source: Backlinkoo)</em></p>
     </div>
     <p>Beyond SEO, <strong>link building internal anchor text</strong> improves user engagement. Imagine a blog post on "SEO basics" linking internally to "advanced link building techniques" with anchor text like "learn more about dofollow links." This keeps users on your site longer, signaling quality to search engines.</p>
@@ -169,7 +169,7 @@ export default function LinkBuildingInternalAnchorText() {
     <h3>Case Study 1: E-commerce Site Boost</h3>
     <p>A fictional online store implemented <strong>link building internal anchor text</strong> by optimizing anchors in product categories. Using Backlinkoo services, they added 200 internal links with LSI terms like "dofollow links for e-commerce." Result: Organic traffic increased by 35%, and domain authority rose from 40 to 55 within six months (fake stats for illustration).</p>
     <div class="media">
-        <img src="/media/link-building-internal-anchor-text-img2.jpg" alt="case study graph for link building internal anchor text" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building internal anchor text" width="800" height="400" />
         <p><em>Graph showing traffic growth (Source: Backlinkoo)</em></p>
     </div>
     <h3>Case Study 2: Blog Network Optimization</h3>

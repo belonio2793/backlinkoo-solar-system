@@ -78,7 +78,7 @@ export default function BacklinkSchemaMarkupTypes() {
     <p>When we talk about <strong>backlink schema markup types</strong>, we're essentially exploring how different types of backlinks can be enhanced or categorized using schema markup. For instance, schema types like "Article" or "WebPage" can include properties that reference external links, indirectly supporting your link building efforts. Why does this matter? High-quality backlinks improve domain authority, drive organic traffic, and enhance search rankings. Combining them with schema markup can amplify these benefits by making your content more discoverable.</p>
     <p>According to Moz, websites with strong backlink profiles see up to 3.5 times more traffic. Integrating <strong>backlink schema markup types</strong> ensures your links are not just numerous but also contextually relevant, using LSI terms like dofollow links and link building to optimize further.</p>
     <div class="media">
-        <img src="/media/backlink-schema-markup-types-img1.jpg" alt="backlink schema markup types infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating various backlink schema markup types (Source: Backlinkoo)</em></p>
     </div>
     <p>Schema markup types such as LocalBusiness or Organization can include backlinks in their structured data, helping search engines crawl and index them more effectively. This synergy is why mastering <strong>backlink schema markup types</strong> is essential for any serious SEO campaign.</p>
@@ -160,7 +160,7 @@ export default function BacklinkSchemaMarkupTypes() {
     <h3>Case Study 1: E-commerce Site Boost</h3>
     <p>An e-commerce client used organic guest posts and <strong>backlink schema markup types</strong> to increase traffic by 150% in 6 months. Fake stats: From 10k to 25k monthly visitors, domain authority from 30 to 45.</p>
     <div class="media">
-        <img src="/media/backlink-schema-markup-types-img2.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth (Source: Backlinkoo)</em></p>
     </div>
     

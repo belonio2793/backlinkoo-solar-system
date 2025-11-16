@@ -96,7 +96,7 @@ export default function LinkBuildingSiloStructure() {
 <p>At Backlinkoo, we've seen clients double their organic traffic by optimizing their <strong>link building silo structure</strong>. If you're struggling with scattered links or low authority, this is where we can help with our expert services.</p>
 
 <div class="media">
-<Image src="/media/link-building-silo-structure-img1.jpg" alt="link building silo structure infographic" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width={800} height={400} />
 <p><em>Infographic illustrating a basic link building silo structure (Source: Backlinkoo)</em></p>
 </div>
 
@@ -155,7 +155,7 @@ export default function LinkBuildingSiloStructure() {
 <p>Our team at Backlinkoo ensures all purchased links enhance your silo without risks.</p>
 
 <div class="media">
-<Image src="/media/link-building-silo-structure-img2.jpg" alt="Pros and cons of buying links chart" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Pros and cons of buying links chart" width={800} height={400} />
 <p><em>Chart showing pros and cons of buying links for silos (Source: Backlinkoo)</em></p>
 </div>
 
@@ -223,7 +223,7 @@ export default function LinkBuildingSiloStructure() {
 <p>A SaaS company saw stagnant growth until we restructured their site with silos for "product features" and "industry tips." Organic strategies combined with tools like <Link href="/senuke">SENUKE for automation</Link> led to a 150% traffic boost. Fake stats: Backlink growth: 300%; Top 10 rankings: 50 new keywords.</p>
 
 <div class="media">
-<Image src="/media/link-building-silo-structure-img3.jpg" alt="Case study success graph" width={800} height={400} />
+<Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study success graph" width={800} height={400} />
 <p><em>Graph showing traffic growth from silo implementation (Source: Backlinkoo)</em></p>
 </div>
 

@@ -81,7 +81,7 @@ export default function BacklinkSpamBrainRecovery() {
     <p>Statistics from Google Search Central indicate that over 90% of spam detections are automated, making proactive <strong>backlink spam brain recovery</strong> a must for site owners.</p>
     
     <div class="media">
-        <img src="/media/backlink-spam-brain-recovery-img1.jpg" alt="backlink spam brain recovery infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the impact of SpamBrain penalties on site traffic (Source: Backlinkoo)</em></p>
     </div>
     
@@ -157,7 +157,7 @@ export default function BacklinkSpamBrainRecovery() {
     <p>Backlinkoo integrates these tools into our services for seamless recovery.</p>
     
     <div class="media">
-        <img src="/media/backlink-spam-brain-recovery-img2.jpg" alt="tools for backlink recovery" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink recovery" width="800" height="400" />
         <p><em>Comparison of SEO tools for link recovery (Source: Backlinkoo)</em></p>
     </div>
     
@@ -185,7 +185,7 @@ export default function BacklinkSpamBrainRecovery() {
     <p>Reference: <a href="https://developers.google.com/search/blog/spambrain-update" target="_blank" rel="noopener noreferrer">Google Search Central on SpamBrain</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-spam-brain-recovery-img3.jpg" alt="mistakes in backlink recovery" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="mistakes in backlink recovery" width="800" height="400" />
         <p><em>Common SEO mistakes infographic (Source: Backlinkoo)</em></p>
     </div>
     

@@ -91,7 +91,7 @@ export default function BacklinkEEATSignals() {
     <p>Backlinks are foundational to SEO, acting as votes of confidence. High-quality ones improve domain authority, drive referral traffic, and enhance <strong>backlink E-E-A-T signals</strong>. Google's algorithms, like PageRank, use backlinks to gauge relevance and quality. Incorporating LSI terms such as "link building strategies" and "anchor text optimization" can further strengthen these signals.</p>
     
     <div class="media">
-        <img src="/media/backlink-e-e-a-t-signals-img1.jpg" alt="backlink e-e-a-t signals infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating how backlinks contribute to E-E-A-T signals (Source: Backlinkoo)</em></p>
     </div>
     
@@ -185,7 +185,7 @@ export default function BacklinkEEATSignals() {
     <p>These tools help maintain high <strong>backlink E-E-A-T signals</strong> by ensuring links are from trustworthy sources.</p>
     
     <div class="media">
-        <img src="/media/backlink-e-e-a-t-signals-img2.jpg" alt="tools for backlink e-e-a-t signals" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink e-e-a-t signals" width="800" height="400" />
         <p><em>Visual guide to SEO tools enhancing E-E-A-T (Source: Backlinkoo)</em></p>
     </div>
     
@@ -233,7 +233,7 @@ export default function BacklinkEEATSignals() {
     <p>Partner with Backlinkoo today to elevate your <strong>backlink E-E-A-T signals</strong> and dominate the SERPs. Our services provide safe, effective strategies tailored to your needs.</p>
     
     <div class="media">
-        <img src="/media/backlink-e-e-a-t-signals-img3.jpg" alt="e-e-a-t stats infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Stats on E-E-A-T and backlinks (Source: Backlinkoo)</em></p>
     </div>
     

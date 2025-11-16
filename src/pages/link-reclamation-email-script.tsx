@@ -85,7 +85,7 @@ export default function LinkReclamationEmailScript() {
     <p>A templated script ensures consistency while allowing customization. It saves time and increases efficiency in your link building campaigns. Plus, incorporating LSI terms like "dofollow links" and "domain authority" in your emails can subtly reinforce your expertise.</p>
     
     <div class="media">
-        <img src="/media/link-reclamation-email-script-img1.jpg" alt="link reclamation email script infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
         <p><em>Infographic showing the steps of link reclamation (Source: Backlinkoo)</em></p>
     </div>
     
@@ -179,7 +179,7 @@ export default function LinkReclamationEmailScript() {
     <a href="https://www.semrush.com/" target="_blank" rel="noopener noreferrer">Visit SEMrush</a>
     
     <div class="media">
-        <img src="/media/link-reclamation-email-script-img2.jpg" alt="tools for link reclamation comparison" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="tools for link reclamation comparison" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -239,7 +239,7 @@ export default function LinkReclamationEmailScript() {
     <p>Backlinkoo offers expert services, custom scripts, and tools to reclaim and build links efficiently, boosting your SEO results.</p>
     
     <div class="media">
-        <img src="/media/link-reclamation-email-script-img3.jpg" alt="FAQ on link reclamation" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="FAQ on link reclamation" width="800" height="400" />
         <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
     </div>
     

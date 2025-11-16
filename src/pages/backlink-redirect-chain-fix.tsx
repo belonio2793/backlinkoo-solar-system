@@ -83,7 +83,7 @@ export default function BacklinkRedirectChainFix() {
     <p>To illustrate, consider a scenario where a high-authority backlink from a site like Forbes redirects multiple times before reaching your content. Without a backlink redirect chain fix, you might lose up to 15-20% of the link's value per redirect, as per insights from <a href="https://ahrefs.com/blog/redirect-chains/" target="_blank" rel="noopener noreferrer">Ahrefs' analysis on redirect chains</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-redirect-chain-fix-img1.jpg" alt="backlink redirect chain fix infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the flow of a redirect chain and its fix (Source: Backlinkoo)</em></p>
     </div>
     
@@ -158,7 +158,7 @@ export default function BacklinkRedirectChainFix() {
     <p>At Backlinkoo, we recommend integrating <Link href="/senuke">SENUKE for automation</Link> with <Link href="/xrumer">XRumer for posting</Link> to streamline your backlink redirect chain fix processes.</p>
     
     <div class="media">
-        <img src="/media/backlink-redirect-chain-fix-img2.jpg" alt="Tools for backlink redirect chain fix" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Tools for backlink redirect chain fix" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -172,7 +172,7 @@ export default function BacklinkRedirectChainFix() {
     <p>An agency client bought backlinks riddled with redirects. Backlinkoo's audit and fix strategy, using <Link href="/senuke">SENUKE</Link>, resolved issues, leading to a 40% traffic surge and avoidance of Google penalties.</p>
     
     <div class="media">
-        <img src="/media/backlink-redirect-chain-fix-img3.jpg" alt="Case study graph for backlink redirect chain fix" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graph for backlink redirect chain fix" width="800" height="400" />
         <p><em>Graph showing traffic improvements post-fix (Source: Backlinkoo)</em></p>
     </div>
     

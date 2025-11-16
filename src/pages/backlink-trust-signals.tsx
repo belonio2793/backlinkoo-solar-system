@@ -91,7 +91,7 @@ export default function BacklinkTrustSignals() {
 <p>Without focusing on trust signals, your link building efforts could backfire, resulting in penalties. That's where services like Backlinkoo come in – we specialize in creating links with robust trust signals to safeguard and elevate your SEO strategy.</p>
 
 <div class="media">
-  <img src="/media/backlink-trust-signals-img1.jpg" alt="backlink trust signals infographic" width="800" height="400" />
+  <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
   <p><em>Infographic illustrating key backlink trust signals (Source: Backlinkoo)</em></p>
 </div>
 
@@ -190,7 +190,7 @@ export default function BacklinkTrustSignals() {
 <p>Backlinkoo recommends combining these tools for a holistic approach to enhancing your <strong>backlink trust signals</strong>.</p>
 
 <div class="media">
-  <img src="/media/backlink-trust-signals-img2.jpg" alt="tools for backlink analysis" width="800" height="400" />
+  <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink analysis" width="800" height="400" />
   <p><em>Comparison of SEO tools for backlinks (Source: Backlinkoo)</em></p>
 </div>
 
@@ -211,7 +211,7 @@ export default function BacklinkTrustSignals() {
 <p>A local service provider focused on buying safe backlinks. With Backlinkoo's help and <Link href="/xrumer">XRumer for posting</Link>, they achieved a 150% increase in local search visibility, emphasizing contextual relevance.</p>
 
 <div class="media">
-  <img src="/media/backlink-trust-signals-img3.jpg" alt="case study graph" width="800" height="400" />
+  <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
   <p><em>Graph showing traffic growth from backlink strategies (Source: Backlinkoo)</em></p>
 </div>
 

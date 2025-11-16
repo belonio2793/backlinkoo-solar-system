@@ -78,7 +78,7 @@ export default function LinkBuildingHumanEditLayer() {
     <p>Why does it matter? In today's SEO landscape, backlinks remain a top ranking factor. According to a study by <a href="https://ahrefs.com/blog/link-building/" target="_blank" rel="noopener noreferrer">Ahrefs</a>, sites with high-quality dofollow links see up to 3.8 times more traffic. However, without a human edit layer, automated link building can lead to black-hat tactics that result in de-indexing. At Backlinkoo, our link building human edit layer ensures compliance with best practices, enhancing your site's domain authority while reducing risks.</p>
     <p>Consider the evolution of SEO: Google's Penguin update in 2012 penalized manipulative link schemes. A human edit layer adds authenticity, making links appear as genuine endorsements. This not only improves SERP positions but also builds long-term trust with search engines.</p>
     <div class="media">
-        <img src="/media/link-building-human-edit-layer-img1.jpg" alt="link building human edit layer infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing the benefits of adding a human edit layer to link building (Source: Backlinkoo)</em></p>
     </div>
     <p>By integrating this layer, businesses can achieve a balanced link profile with a mix of dofollow links, nofollow links, and varied anchor texts, all contributing to higher domain authority scores.</p>
@@ -167,7 +167,7 @@ export default function LinkBuildingHumanEditLayer() {
     </table>
     <p>These tools, when combined with Backlinkoo's human edit layer, create a powerful <strong>link building human edit layer</strong> ecosystem.</p>
     <div class="media">
-        <img src="/media/link-building-human-edit-layer-img2.jpg" alt="Tools for link building with human edit layer" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools for link building with human edit layer" width="800" height="400" />
         <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -183,7 +183,7 @@ export default function LinkBuildingHumanEditLayer() {
     <h3>Case Study 3: SaaS Startup Growth</h3>
     <p>A SaaS startup leveraged resource page outreach with manual edits. In 4 months, they gained 80 high-DA links, boosting conversions by 50% (fake stat: from 200 to 300 monthly sign-ups). Tools like <Link href="/senuke">SENUKE for automation</Link> were refined by humans for natural integration.</p>
     <div class="media">
-        <img src="/media/link-building-human-edit-layer-img3.jpg" alt="Case study graphs for link building success" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study graphs for link building success" width="800" height="400" />
         <p><em>Graphs depicting traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

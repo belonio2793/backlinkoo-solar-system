@@ -82,7 +82,7 @@ export default function BacklinkFollowUpSequence() {
     <p>LSI terms like domain authority, link building, and dofollow links are crucial here—ensure your sequence targets sites with high domain authority for maximum impact.</p>
     
     <div class="media">
-        <img src="/media/backlink-follow-up-sequence-img1.jpg" alt="backlink follow-up sequence infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating a sample backlink follow-up sequence (Source: Backlinkoo)</em></p>
     </div>
     
@@ -158,7 +158,7 @@ export default function BacklinkFollowUpSequence() {
     <p>At Backlinkoo, we recommend integrating these tools into your strategy for optimal results in link building and <strong>backlink follow-up sequence</strong> management.</p>
     
     <div class="media">
-        <img src="/media/backlink-follow-up-sequence-img2.jpg" alt="tools for backlink follow-up sequence" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink follow-up sequence" width="800" height="400" />
         <p><em>Visual guide to SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -198,7 +198,7 @@ export default function BacklinkFollowUpSequence() {
     <p>We offer tailored services, including automation with tools like <a href="/senuke">SENUKE</a> and <a href="/xrumer">XRumer</a>, to streamline your efforts.</p>
     
     <div class="media">
-        <img src="/media/backlink-follow-up-sequence-img3.jpg" alt="FAQ on backlink follow-up sequence" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="FAQ on backlink follow-up sequence" width="800" height="400" />
         <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
     </div>
     

@@ -89,7 +89,7 @@ export default function BacklinkInterlinkingStrategy() {
   <p>Domain authority (DA), a metric developed by Moz, predicts how well a website will rank on search engines. Sites with high DA backlinks pass more "link juice" to your pages, enhancing your own authority. Incorporating LSI terms like "dofollow links" and "link building" into your content can further optimize your backlink interlinking strategy for better relevance.</p>
   
   <div class="media">
-    <img src="/media/backlink-interlinking-strategy-img1.jpg" alt="backlink interlinking strategy infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the flow of link juice in a backlink interlinking strategy (Source: Backlinkoo)</em></p>
   </div>
   
@@ -145,7 +145,7 @@ export default function BacklinkInterlinkingStrategy() {
   <p>For posting on forums and blogs, <Link href="/xrumer">XRumer for posting</Link> can help automate safe, contextual placements.</p>
   
   <div class="media">
-    <img src="/media/backlink-interlinking-strategy-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Chart comparing pros and cons in a backlink interlinking strategy (Source: Backlinkoo)</em></p>
   </div>
   
@@ -215,7 +215,7 @@ export default function BacklinkInterlinkingStrategy() {
   <p>A content blog network used skyscraper content and HARO to build links. With 300 new backlinks over a year, traffic surged 400% (from 5,000 to 25,000 visitors), and revenue from affiliates doubled. Tools like <Link href="/xrumer">XRumer for posting</Link> ensured consistent, natural placements.</p>
   
   <div class="media">
-    <img src="/media/backlink-interlinking-strategy-img3.jpg" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graph showing traffic growth" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph depicting traffic growth from a successful backlink interlinking strategy (Source: Backlinkoo)</em></p>
   </div>
   

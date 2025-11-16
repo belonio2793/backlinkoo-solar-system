@@ -85,7 +85,7 @@ export default function BacklinkToolStack2026() {
     <p>Key components include tools for prospecting, outreach, analysis, and automation. Integrating these into your workflow can skyrocket your site's visibility. For instance, focusing on dofollow links from high domain authority sites can improve your rankings exponentially.</p>
     
     <div class="media">
-        <img src="/media/backlink-tool-stack-2026-img1.jpg" alt="backlink tool stack 2026 infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the evolution of backlink tools from 2020 to 2026 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -196,7 +196,7 @@ export default function BacklinkToolStack2026() {
     <p>Backlinkoo integrates these tools into our services, offering a customized backlink tool stack 2026 for optimal results.</p>
     
     <div class="media">
-        <img src="/media/backlink-tool-stack-2026-img2.jpg" alt="backlink tool stack 2026 tools comparison" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink tool stack 2026 tools comparison" width="800" height="400" />
         <p><em>Comparison chart of top backlink tools for 2026 (Source: Backlinkoo)</em></p>
     </div>
     
@@ -215,7 +215,7 @@ export default function BacklinkToolStack2026() {
     <p>TechTool Inc. combined buying safe links with tools like SEMrush. With Backlinkoo's help, they secured 100 niche-relevant dofollow links, resulting in a 35% revenue increase (from \$50k to \$67.5k quarterly) through better SEO visibility.</p>
     
     <div class="media">
-        <img src="/media/backlink-tool-stack-2026-img3.jpg" alt="backlink tool stack 2026 case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink tool stack 2026 case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

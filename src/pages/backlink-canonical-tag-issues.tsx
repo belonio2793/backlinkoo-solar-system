@@ -80,7 +80,7 @@ export default function BacklinkCanonicalTagIssues() {
     <p>At Backlinkoo, we've helped countless clients overcome <strong>backlink canonical tag issues</strong> to boost their SEO performance. By understanding the root causes—such as inconsistent URL structures or improper tag implementation—you can safeguard your link building investments.</p>
     
     <div class="media">
-        <img src="/media/backlink-canonical-tag-issues-img1.jpg" alt="backlink canonical tag issues infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating common backlink canonical tag issues and their impact on SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -164,7 +164,7 @@ export default function BacklinkCanonicalTagIssues() {
     <p>These tools, especially <a href="/senuke">SENUKE for automation</a> and <a href="/xrumer">XRumer for posting</a>, are integral to Backlinkoo's services for resolving <strong>backlink canonical tag issues</strong>.</p>
     
     <div class="media">
-        <img src="/media/backlink-canonical-tag-issues-img2.jpg" alt="Tools for backlink canonical tag issues" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Tools for backlink canonical tag issues" width="800" height="400" />
         <p><em>Visual guide to SEO tools for managing canonical issues (Source: Backlinkoo)</em></p>
     </div>
     
@@ -183,7 +183,7 @@ export default function BacklinkCanonicalTagIssues() {
     <p>These cases highlight how Backlinkoo can help; visit <a href="https://search.google.com/search-console/about" target="_blank" rel="noopener noreferrer">Google Search Central</a> for more best practices.</p>
     
     <div class="media">
-        <img src="/media/backlink-canonical-tag-issues-img3.jpg" alt="Case study infographic on backlink canonical tag issues" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic of case study results (Source: Backlinkoo)</em></p>
     </div>
     

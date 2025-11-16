@@ -78,7 +78,7 @@ export default function LinkBuildingSurveyOutreach() {
     <p>Why does it matter? In today's SEO landscape, search engines like Google prioritize high-quality, relevant backlinks as a key ranking factor. According to a study by Ahrefs, pages with more backlinks tend to rank higher in search results. <strong>Link building survey outreach</strong> not only helps in acquiring these links but also positions your brand as a thought leader. For instance, by surveying industry professionals on trends in digital marketing, you can create reports that get cited by blogs, news sites, and influencers, leading to organic link growth.</p>
     <p>At Backlinkoo, we've seen clients increase their domain authority by up to 30% through targeted survey outreach campaigns. This method is particularly effective because it combines content marketing with relationship-building, fostering long-term partnerships that yield ongoing SEO benefits.</p>
     <div class="media">
-        <img src="/media/link-building-survey-outreach-img1.jpg" alt="link building survey outreach infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the process of link building survey outreach (Source: Backlinkoo)</em></p>
     </div>
     
@@ -172,7 +172,7 @@ export default function LinkBuildingSurveyOutreach() {
     <p>At Backlinkoo, we recommend integrating <Link href="/senuke">SENUKE for automation</Link> with SurveyMonkey for seamless <strong>link building survey outreach</strong>.</p>
     
     <div class="media">
-        <img src="/media/link-building-survey-outreach-img2.jpg" alt="tools for link building survey outreach" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building survey outreach" width="800" height="400" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -188,7 +188,7 @@ export default function LinkBuildingSurveyOutreach() {
     <h3>Case Study 3: Niche Blog Expands Reach</h3>
     <p>A health blog ran a survey on wellness habits, leading to features in major publications like Healthline. They acquired 80 high-quality links, increasing domain authority by 25% and monthly visitors from 10k to 25k.</p>
     <div class="media">
-        <img src="/media/link-building-survey-outreach-img3.jpg" alt="case study graph for link building survey outreach" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building survey outreach" width="800" height="400" />
         <p><em>Graph showing traffic growth from survey outreach (Source: Backlinkoo)</em></p>
     </div>
     

@@ -95,7 +95,7 @@ export default function BacklinkDecayPrevention() {
     <p>By prioritizing backlink decay prevention, you can maintain steady growth in rankings and traffic. Tools and strategies discussed later in this article, including those from Backlinkoo, can help mitigate these risks.</p>
     
     <div class="media">
-        <img src="/media/backlink-decay-prevention-img1.jpg" alt="backlink decay prevention infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating common causes of backlink decay (Source: Backlinkoo)</em></p>
     </div>
     
@@ -204,7 +204,7 @@ export default function BacklinkDecayPrevention() {
     <p>These tools can integrate into your workflow for proactive backlink decay prevention. Backlinkoo recommends SENUKE and XRumer for their automation capabilities.</p>
     
     <div class="media">
-        <img src="/media/backlink-decay-prevention-img2.jpg" alt="tools for backlink decay prevention" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink decay prevention" width="800" height="400" />
         <p><em>Comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     

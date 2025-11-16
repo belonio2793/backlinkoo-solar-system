@@ -81,7 +81,7 @@ export default function BacklinkFeaturedSnippetLinks() {
     <p>For instance, if you're targeting queries like "best SEO practices," securing backlinks from authority sites can propel your content into the snippet position.</p>
     
     <div class="media">
-        <img src="/media/backlink-featured-snippet-links-img1.jpg" alt="backlink featured snippet links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the impact of backlinks on featured snippets (Source: Backlinkoo)</em></p>
     </div>
     
@@ -158,7 +158,7 @@ export default function BacklinkFeaturedSnippetLinks() {
     </table>
     
     <div class="media">
-        <img src="/media/backlink-featured-snippet-links-img2.jpg" alt="Tools for backlink featured snippet links" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Tools for backlink featured snippet links" width="800" height="400" />
         <p><em>Visual comparison of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -172,7 +172,7 @@ export default function BacklinkFeaturedSnippetLinks() {
     <p>A local service provider bought targeted <strong>backlink featured snippet links</strong> safely. This led to a featured snippet for "best plumber in [city]," increasing leads by 80% and improving local search rankings significantly.</p>
     
     <div class="media">
-        <img src="/media/backlink-featured-snippet-links-img3.jpg" alt="Case study graphs for backlink featured snippet links" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graphs for backlink featured snippet links" width="800" height="400" />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

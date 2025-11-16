@@ -83,7 +83,7 @@ export default function BacklinkAiContentDetection() {
   <p>At Backlinkoo, our services incorporate advanced AI to streamline this detection process, ensuring your backlinks are not only numerous but also high-quality. This leads to better organic traffic and long-term SEO success.</p>
   
   <div class="media">
-    <img src="/media/backlink-ai-content-detection-img1.jpg" alt="backlink ai content detection infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the process of backlink AI content detection (Source: Backlinkoo)</em></p>
   </div>
   
@@ -206,7 +206,7 @@ export default function BacklinkAiContentDetection() {
   <p>These tools, when used with Backlinkoo's expertise, can supercharge your backlink AI content detection efforts. For more on tools, check <a href="https://www.google.com/search/central" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
   
   <div class="media">
-    <img src="/media/backlink-ai-content-detection-img2.jpg" alt="backlink ai content detection tools comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink ai content detection tools comparison" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Comparison chart of backlink AI tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -231,7 +231,7 @@ export default function BacklinkAiContentDetection() {
   <p>An SEO agency faced penalties due to undetected AI content. Switching to Backlinkoo's backlink AI content detection, they audited 500 links, removing 150 low-quality ones. Results: Rankings recovered, with a 35% traffic increase and domain authority improving from 40 to 55.</p>
   
   <div class="media">
-    <img src="/media/backlink-ai-content-detection-img3.jpg" alt="backlink ai content detection case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="backlink ai content detection case study graph" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graph showing traffic growth from case study (Source: Backlinkoo)</em></p>
   </div>
   

@@ -82,7 +82,7 @@ export default function BacklinkTopicalMapCreation() {
   <p>A solid backlink topical map can enhance your site's crawlability, improve user experience, and boost metrics like domain authority. For instance, integrating <strong>backlink topical map creation</strong> with content clusters can lead to a 15-30% increase in keyword rankings, as per data from SEMrush.</p>
   
   <div class="media">
-    <img src="/media/backlink-topical-map-creation-img1.jpg" alt="backlink topical map creation infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Infographic illustrating the structure of backlink topical map creation (Source: Backlinkoo)</em></p>
   </div>
   
@@ -160,7 +160,7 @@ export default function BacklinkTopicalMapCreation() {
   <p>For in-depth tutorials, visit <a href="https://ahrefs.com/blog/backlink-tools" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Tools Guide</a>.</p>
   
   <div class="media">
-    <img src="/media/backlink-topical-map-creation-img2.jpg" alt="tools for backlink topical map creation" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink topical map creation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Visual comparison of tools used in backlink topical map creation (Source: Backlinkoo)</em></p>
   </div>
   
@@ -174,7 +174,7 @@ export default function BacklinkTopicalMapCreation() {
   <p>A wellness site bought targeted links safely through Backlinkoo, integrating with <Link href="/xrumer">XRumer for posting</Link>. Topical map on "mental health tips" led to a 35% traffic boost and 40-point domain authority increase.</p>
   
   <div class="media">
-    <img src="/media/backlink-topical-map-creation-img3.jpg" alt="case study graphs for backlink topical map creation" width="800" height="400" style="max-width: 100%; height: auto;" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graphs for backlink topical map creation" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs showing growth from backlink topical map creation case studies (Source: Backlinkoo)</em></p>
   </div>
   

@@ -79,7 +79,7 @@ export default function LinkBuildingClusterContent() {
     <p>At Backlinkoo, we've seen clients double their organic traffic by implementing link building cluster content strategies. It's not just about quantity; it's about quality links that drive real results.</p>
     
     <div class="media">
-        <img src="/media/link-building-cluster-content-img1.jpg" alt="link building cluster content infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the structure of content clusters and link building integration (Source: Backlinkoo)</em></p>
     </div>
     
@@ -195,7 +195,7 @@ export default function LinkBuildingClusterContent() {
     <p>For more tool recommendations, visit <a href="https://ahrefs.com/blog/best-seo-tools/" target="_blank" rel="noopener noreferrer">Ahrefs' Best SEO Tools Guide</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-cluster-content-img2.jpg" alt="tools for link building cluster content" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building cluster content" width="800" height="400" />
         <p><em>Comparison chart of SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -212,7 +212,7 @@ export default function LinkBuildingClusterContent() {
     <p>A niche blog on health and wellness built clusters around "mental health tips." Through skyscraper content and resource links, they acquired 150 links, boosting rankings for 50+ keywords. Domain rating jumped 25 points, with a 200% traffic increase. Backlinkoo's <Link href="/senuke">SENUKE</Link> automated the process efficiently.</p>
     
     <div class="media">
-        <img src="/media/link-building-cluster-content-img3.jpg" alt="case study graphs for link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graphs for link building" width="800" height="400" />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

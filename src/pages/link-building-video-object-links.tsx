@@ -88,7 +88,7 @@ export default function LinkBuildingVideoObjectLinks() {
     <p>LSI terms like domain authority, dofollow links, and backlink strategies come into play here. A video with embedded links can direct users to your site, while external sites linking back to your video create a robust link profile.</p>
     
     <div class="media">
-        <img src="/media/link-building-video-object-links-img1.jpg" alt="link building video object links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the flow of link building video object links (Source: Backlinkoo)</em></p>
     </div>
     
@@ -176,7 +176,7 @@ export default function LinkBuildingVideoObjectLinks() {
     <p>At Backlinkoo, we recommend integrating <Link href="/senuke">SENUKE for automation</Link> with <Link href="/xrumer">XRumer for posting</Link> to efficiently manage <strong>link building video object links</strong>.</p>
     
     <div class="media">
-        <img src="/media/link-building-video-object-links-img2.jpg" alt="Tools for link building video object links" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools for link building video object links" width="800" height="400" />
         <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -222,7 +222,7 @@ export default function LinkBuildingVideoObjectLinks() {
     <p>Outbound link: Avoid common mistakes with insights from <a href="https://moz.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">Moz's Link Building Mistakes</a>.</p>
     
     <div class="media">
-        <img src="/media/link-building-video-object-links-img3.jpg" alt="Common mistakes in link building" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Common mistakes in link building" width="800" height="400" />
         <p><em>Infographic on mistakes to avoid (Source: Backlinkoo)</em></p>
     </div>
     

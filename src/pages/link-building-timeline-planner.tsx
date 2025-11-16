@@ -78,7 +78,7 @@ export default function LinkBuildingTimelinePlanner() {
     <p>Why does it matter? According to a study by Ahrefs, pages with more backlinks tend to rank higher in search results. In fact, the top-ranking pages have an average of 3.8 times more backlinks than those in positions 2-10. A structured planner ensures consistent progress, allowing you to track metrics like dofollow links, domain authority (DA), and referral traffic.</p>
     <p>At Backlinkoo, our experts recommend starting with a 3-6 month timeline to see measurable improvements. This approach aligns with Google's emphasis on natural link profiles, as outlined in their <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Search Central guidelines</a>.</p>
     <div class="media">
-        <img src="/media/link-building-timeline-planner-img1.jpg" alt="link building timeline planner infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic showing a sample link building timeline planner (Source: Backlinkoo)</em></p>
     </div>
     <p>By using a link building timeline planner, you avoid common pitfalls like over-optimization and focus on LSI terms such as anchor text optimization and link diversity for better SEO outcomes.</p>
@@ -168,7 +168,7 @@ export default function LinkBuildingTimelinePlanner() {
     </table>
     <p>At Backlinkoo, we integrate these tools into our services to optimize your link building timeline planner.</p>
     <div class="media">
-        <img src="/media/link-building-timeline-planner-img2.jpg" alt="link building tools comparison" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="link building tools comparison" width="800" height="400" />
         <p><em>Comparison of link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -186,7 +186,7 @@ export default function LinkBuildingTimelinePlanner() {
     <h3>Case Study 3: Blog Network Growth</h3>
     <p>A content site used resource page building and tools like Ahrefs. In 3 months, domain authority jumped from 30 to 50, with 300 new links. Page views doubled (fake stats).</p>
     <div class="media">
-        <img src="/media/link-building-timeline-planner-img3.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from link building (Source: Backlinkoo)</em></p>
     </div>
     

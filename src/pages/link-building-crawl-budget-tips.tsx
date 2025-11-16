@@ -95,7 +95,7 @@ export default function LinkBuildingCrawlBudgetTips() {
   <p>By incorporating <strong>link building crawl budget tips</strong>, you can align your backlink acquisition with site optimization, ensuring search engines value your efforts. For instance, if you're building links to a page that's buried deep in your site structure, it might not get crawled as often, diminishing the link's impact.</p>
   
   <div class="media">
-    <img src="/media/link-building-crawl-budget-tips-img1.jpg" alt="link building crawl budget tips infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic illustrating crawl budget factors and link building integration (Source: Backlinkoo)</em></p>
   </div>
   
@@ -164,7 +164,7 @@ export default function LinkBuildingCrawlBudgetTips() {
   <p>At Backlinkoo, we recommend combining purchased links with organic efforts for a balanced approach. For safe automation, explore <Link href="/senuke">SENUKE for automation</Link> to manage your link buying campaigns efficiently.</p>
   
   <div class="media">
-    <img src="/media/link-building-crawl-budget-tips-img2.jpg" alt="pros and cons of buying links chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="pros and cons of buying links chart" width="800" height="400" />
     <p><em>Chart showing pros and cons of buying links in link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -234,7 +234,7 @@ export default function LinkBuildingCrawlBudgetTips() {
   <p>A SaaS firm bought 100 safe links while monitoring crawl budget with Google tools. This led to a 35% domain authority boost and 55% more organic leads. Safe practices ensured no penalties, proving the value of balanced <strong>link building crawl budget tips</strong>.</p>
   
   <div class="media">
-    <img src="/media/link-building-crawl-budget-tips-img3.jpg" alt="case study success graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
   </div>
   

@@ -80,7 +80,7 @@ export default function LinkInsertionPricingModels() {
   <p><strong>Link insertion pricing models</strong> vary based on factors like domain authority (DA), traffic, niche relevance, and link type (e.g., dofollow links vs. nofollow). Common models include per-link pricing, package deals, and performance-based options. For instance, a high-DA site might charge \$100-\$500 per insertion, while bulk packages could reduce costs to \$50 per link.</p>
   <p>These models matter because they directly impact your SEO budget. Poorly chosen models can lead to wasted resources, whereas strategic ones enhance your site's authority. Backlinkoo offers flexible pricing tailored to your goals, incorporating LSI terms like domain authority and dofollow links to ensure optimal results.</p>
   <div class="media">
-    <img src="/media/link-insertion-pricing-models-img1.jpg" alt="link insertion pricing models infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
     <p><em>Infographic illustrating various link insertion pricing models (Source: Backlinkoo)</em></p>
   </div>
   
@@ -169,7 +169,7 @@ export default function LinkInsertionPricingModels() {
   <h3>Case Study 3: Local Business Expansion</h3>
   <p>A local gym chain used organic and paid insertions via Backlinkoo. With a hybrid model, they gained 30 links, resulting in a 150% traffic surge. Fake stats: Local searches: 2k to 5k/month.</p>
   <div class="media">
-    <img src="/media/link-insertion-pricing-models-img2.jpg" alt="case study graph for link insertion" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="case study graph for link insertion" width="800" height="400" />
     <p><em>Graph showing traffic growth from link insertion (Source: Backlinkoo)</em></p>
   </div>
   
@@ -197,7 +197,7 @@ export default function LinkInsertionPricingModels() {
   <p>Mastering <strong>link insertion pricing models</strong> is essential for SEO success. As per a Backlinko study, backlinks remain a top ranking factor, with sites having them outperforming others by 3x in traffic. At Backlinkoo, our authoritative services, backed by years of expertise, ensure trustworthy link building. Contact us today to explore models that fit your budget and goals.</p>
   <p>For more insights, visit <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz on Backlinks</a>, <a href="https://ahrefs.com/blog/backlink-pricing" target="_blank" rel="noopener noreferrer">Ahrefs Backlink Pricing</a>, or <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Google's Link Schemes</a>.</p>
   <div class="media">
-    <img src="/media/link-insertion-pricing-models-img3.jpg" alt="SEO expert tips infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="Digital marketing and SEO strategy" width="800" height="400" />
     <p><em>Expert tips on link building (Source: Backlinkoo)</em></p>
   </div>
   <div class="media">
@@ -205,7 +205,7 @@ export default function LinkInsertionPricingModels() {
     <p><em>Advanced tutorial on pricing models (Source: Backlinkoo)</em></p>
   </div>
   <div class="media">
-    <img src="/media/link-insertion-pricing-models-img4.jpg" alt="tools comparison chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg" alt="tools comparison chart" width="800" height="400" />
     <p><em>Chart comparing link building tools (Source: Backlinkoo)</em></p>
   </div>
 </article> />

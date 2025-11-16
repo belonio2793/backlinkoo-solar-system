@@ -96,7 +96,7 @@ export default function LinkBuildingServerResponseCodes() {
   <p>By monitoring these in your link building campaigns, you ensure that your efforts contribute positively to your site's authority. Tools like Google Search Console can help track these codes for your backlinks.</p>
   
   <div class="media">
-    <img src="/media/link-building-server-response-codes-img1.jpg" alt="link building server response codes infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic explaining common HTTP status codes in link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -167,7 +167,7 @@ export default function LinkBuildingServerResponseCodes() {
   <p>Outbound link: Learn more from <a href="https://moz.com/blog/link-building-guide" target="_blank" rel="noopener noreferrer">Moz's Link Building Guide</a>.</p>
   
   <div class="media">
-    <img src="/media/link-building-server-response-codes-img2.jpg" alt="Pros and cons of buying links infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Visual breakdown of buying links with server code considerations (Source: Backlinkoo)</em></p>
   </div>
   
@@ -235,7 +235,7 @@ export default function LinkBuildingServerResponseCodes() {
   <p>An SEO agency partnered with us to monitor link building server response codes. Post-optimization, their clients saw a 50% reduction in broken links and a 25% traffic increase, backed by Ahrefs data.</p>
   
   <div class="media">
-    <img src="/media/link-building-server-response-codes-img3.jpg" alt="Case study success graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study success graph" width="800" height="400" />
     <p><em>Graph showing traffic growth after code optimization (Source: Backlinkoo)</em></p>
   </div>
   

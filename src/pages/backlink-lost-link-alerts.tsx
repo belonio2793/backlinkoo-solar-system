@@ -91,7 +91,7 @@ export default function BacklinkLostLinkAlerts() {
     <p>Statistics from Moz highlight that 70% of SEO experts consider backlink monitoring essential, yet only 40% actively use alerts. Don't fall into that gap—implementing backlink lost link alerts can safeguard your investments in link building and ensure sustained growth.</p>
     
     <div class="media">
-        <img src="/media/backlink-lost-link-alerts-img1.jpg" alt="backlink lost link alerts infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing the impact of lost backlinks on SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -190,7 +190,7 @@ export default function BacklinkLostLinkAlerts() {
     <p>Outbound link: Explore more tools at <a href="https://www.google.com/search-central/docs/seo-tools" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     
     <div class="media">
-        <img src="/media/backlink-lost-link-alerts-img2.jpg" alt="tools for backlink monitoring" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink monitoring" width="800" height="400" />
         <p><em>Comparison of SEO tools for alerts (Source: Backlinkoo)</em></p>
     </div>
     
@@ -208,7 +208,7 @@ export default function BacklinkLostLinkAlerts() {
     <p>These cases demonstrate how proactive use of backlink lost link alerts, combined with Backlinkoo tools, leads to tangible SEO improvements.</p>
     
     <div class="media">
-        <img src="/media/backlink-lost-link-alerts-img3.jpg" alt="case study graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph" width="800" height="400" />
         <p><em>Graph showing traffic recovery post-alerts (Source: Backlinkoo)</em></p>
     </div>
     

@@ -83,7 +83,7 @@ export default function BacklinkPodcastGuestStrategy() {
   <p>At Backlinkoo, we've seen clients boost their domain authority by 20-30 points through targeted podcast appearances. This isn't just about links—it's about establishing thought leadership, which indirectly supports your link building efforts. For instance, a single podcast episode can lead to multiple dofollow links if the host promotes it across social media and their blog.</p>
   
   <div class="media">
-    <img src="/media/backlink-podcast-guest-strategy-img1.jpg" alt="backlink podcast guest strategy infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic illustrating the flow of a successful backlink podcast guest strategy (Source: Backlinkoo)</em></p>
   </div>
   
@@ -190,7 +190,7 @@ export default function BacklinkPodcastGuestStrategy() {
   <p>Integrate tools like <Link href="/senuke">SENUKE for automation</Link> to streamline your outreach, saving time while maintaining a natural <strong>backlink podcast guest strategy</strong>.</p>
   
   <div class="media">
-    <img src="/media/backlink-podcast-guest-strategy-img2.jpg" alt="tools for backlink podcast guest strategy" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink podcast guest strategy" width="800" height="400" />
     <p><em>Visual guide to essential SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -247,7 +247,7 @@ export default function BacklinkPodcastGuestStrategy() {
   <p>Typically 1-3 months, depending on the quality and quantity of backlinks acquired.</p>
   
   <div class="media">
-    <img src="/media/backlink-podcast-guest-strategy-img3.jpg" alt="FAQ on backlink podcast guest strategy" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="FAQ on backlink podcast guest strategy" width="800" height="400" />
     <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
   </div>
   

@@ -88,7 +88,7 @@ export default function LinkBuildingContentPillarPages() {
   <p>Statistics from Ahrefs show that pages with over 50 backlinks rank higher in SERPs. By focusing on link building content pillar pages, you're investing in long-term SEO success. At Backlinkoo, we've seen clients double their organic traffic through targeted pillar strategies.</p>
   
   <div class="media">
-    <img src="/media/link-building-content-pillar-pages-img1.jpg" alt="link building content pillar pages infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic illustrating the structure of link building content pillar pages (Source: Backlinkoo)</em></p>
   </div>
   
@@ -163,7 +163,7 @@ export default function LinkBuildingContentPillarPages() {
   <p>For more tools, explore <a href="https://moz.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Moz's Link Building Tools Guide</a>.</p>
   
   <div class="media">
-    <img src="/media/link-building-content-pillar-pages-img2.jpg" alt="tools for link building content pillar pages" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building content pillar pages" width="800" height="400" />
     <p><em>Visual guide to SEO tools for link building (Source: Backlinkoo)</em></p>
   </div>
   
@@ -205,7 +205,7 @@ export default function LinkBuildingContentPillarPages() {
   <p>Backlinkoo provides expert services for creating and promoting link building content pillar pages, ensuring SEO success.</p>
   
   <div class="media">
-    <img src="/media/link-building-content-pillar-pages-img3.jpg" alt="FAQ on link building content pillar pages" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="FAQ on link building content pillar pages" width="800" height="400" />
     <p><em>Infographic FAQ section (Source: Backlinkoo)</em></p>
   </div>
   

@@ -88,7 +88,7 @@ export default function LinkBuilding301Strategy() {
     <p>Moreover, in an era where Google's algorithms prioritize user experience, avoiding 404 errors through 301s keeps visitors engaged, reducing bounce rates and improving overall SEO health.</p>
     
     <div class="media">
-        <Image src="/media/link-building-301-strategy-img1.jpg" alt="link building 301 strategy infographic" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width={800} height={400} />
         <p><em>Infographic illustrating the flow of link equity via 301 redirects (Source: Backlinkoo)</em></p>
     </div>
     
@@ -183,7 +183,7 @@ export default function LinkBuilding301Strategy() {
     <p>Integrating tools like <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link> can supercharge your efforts, as offered through Backlinkoo services.</p>
     
     <div class="media">
-        <Image src="/media/link-building-301-strategy-img2.jpg" alt="Tools for link building 301 strategy" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Tools for link building 301 strategy" width={800} height={400} />
         <p><em>Visual guide to essential link building tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -203,7 +203,7 @@ export default function LinkBuilding301Strategy() {
     <p>Stats: Recovered 80% of lost rankings, acquired 250 high-DA links.</p>
     
     <div class="media">
-        <Image src="/media/link-building-301-strategy-img3.jpg" alt="Case study graphs for link building 301 strategy" width={800} height={400} />
+        <Image src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Case study graphs for link building 301 strategy" width={800} height={400} />
         <p><em>Graphs showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

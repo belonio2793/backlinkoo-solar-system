@@ -89,7 +89,7 @@ export default function LinkBuildingWebinarPromotion() {
   <p>Businesses that invest in link building webinar promotion often see a 20-30% increase in lead generation, as per data from HubSpot. It's a cost-effective way to showcase expertise and drive organic traffic back to your site.</p>
   
   <div class="media">
-    <img src="/media/link-building-webinar-promotion-img1.jpg" alt="link building webinar promotion infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic showing key stats on link building webinar promotion (Source: Backlinkoo)</em></p>
   </div>
   
@@ -188,7 +188,7 @@ export default function LinkBuildingWebinarPromotion() {
   <p>At Backlinkoo, we integrate tools like <Link href="/senuke">SENUKE for automation</Link> and <Link href="/xrumer">XRumer for posting</Link> to make your link building webinar promotion effortless and effective.</p>
   
   <div class="media">
-    <img src="/media/link-building-webinar-promotion-img2.jpg" alt="tools for link building webinar promotion" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building webinar promotion" width="800" height="400" />
     <p><em>Visual guide to essential SEO tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -245,7 +245,7 @@ export default function LinkBuildingWebinarPromotion() {
   <p>Absolutely, by attracting links from attendees and partners sharing your content.</p>
   
   <div class="media">
-    <img src="/media/link-building-webinar-promotion-img3.jpg" alt="FAQ on link building webinar promotion" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="FAQ on link building webinar promotion" width="800" height="400" />
     <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
   </div>
   

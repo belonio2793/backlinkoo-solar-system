@@ -89,7 +89,7 @@ export default function BacklinkLogFileAnalysis() {
   <p>Imagine discovering that a guest post on a high-domain authority site is sending low-quality traffic. Backlink log file analysis reveals this, allowing you to pivot your efforts toward more effective link building tactics.</p>
   
   <div class="media">
-    <img src="/media/backlink-log-file-analysis-img1.jpg" alt="backlink log file analysis infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
     <p><em>Infographic showing the flow of backlink log file analysis (Source: Backlinkoo)</em></p>
   </div>
   
@@ -147,7 +147,7 @@ export default function BacklinkLogFileAnalysis() {
   <p>For safe practices, refer to <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a>.</p>
   
   <div class="media">
-    <img src="/media/backlink-log-file-analysis-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
     <p><em>Chart on buying backlinks (Source: Backlinkoo)</em></p>
   </div>
   
@@ -215,7 +215,7 @@ export default function BacklinkLogFileAnalysis() {
   <p>Using <Link href="/xrumer">XRumer for posting</Link>, an agency built links and monitored via log analysis, resulting in a 35% ranking improvement for clients.</p>
   
   <div class="media">
-    <img src="/media/backlink-log-file-analysis-img3.jpg" alt="Case study graph" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study graph" width="800" height="400" />
     <p><em>Graph of traffic growth from backlink analysis (Source: Backlinkoo)</em></p>
   </div>
   

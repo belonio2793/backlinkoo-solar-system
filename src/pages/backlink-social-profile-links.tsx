@@ -86,7 +86,7 @@ export default function BacklinkSocialProfileLinks() {
     <p>Statistics from <a href="https://ahrefs.com/blog/backlink-profile/" target="_blank" rel="noopener noreferrer">Ahrefs</a> show that sites with diverse backlink profiles, including social links, rank 20-30% higher on average. At Backlinkoo.com, we emphasize creating a balanced portfolio of backlink social profile links to avoid over-optimization penalties.</p>
     
     <div class="media">
-        <img src="/media/backlink-social-profile-links-img1.jpg" alt="backlink social profile links infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic illustrating the impact of backlink social profile links on SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -142,7 +142,7 @@ export default function BacklinkSocialProfileLinks() {
     <p>Use <Link href="/xrumer">XRumer for posting</Link> to automate safe link placements without risking over-optimization.</p>
     
     <div class="media">
-        <img src="/media/backlink-social-profile-links-img2.jpg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
         <p><em>Chart comparing pros and cons of buying backlink social profile links (Source: Backlinkoo)</em></p>
     </div>
     
@@ -207,7 +207,7 @@ export default function BacklinkSocialProfileLinks() {
     <p>A blog site revived its traffic by fixing broken links and adding social profile backlinks. Integrating <Link href="/xrumer">XRumer for posting</Link>, they gained 400 links. Traffic surged 80%, with domain authority hitting 50. Fake stats: Bounce rate dropped from 70% to 45%.</p>
     
     <div class="media">
-        <img src="/media/backlink-social-profile-links-img3.jpg" alt="Case study success graph" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Case study success graph" width="800" height="400" />
         <p><em>Graph showing traffic growth from case studies (Source: Backlinkoo)</em></p>
     </div>
     

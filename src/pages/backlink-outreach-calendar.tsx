@@ -78,7 +78,7 @@ export default function BacklinkOutreachCalendar() {
     <p>Why does it matter? According to a study by Ahrefs, websites with higher domain authority tend to rank better in search results, and backlinks are a key factor in building that authority. Without a structured approach, your efforts might scatter, leading to missed opportunities and inefficient use of time. A backlink outreach calendar ensures consistency, which is vital for long-term SEO success. It helps in securing dofollow links from authoritative sites, improving your site's credibility and visibility.</p>
     <p>At Backlinkoo, we've seen clients increase their organic traffic by up to 150% through disciplined use of such calendars. By planning ahead, you can align your outreach with content publication schedules, seasonal trends, and algorithm updates from Google.</p>
     <div class="media">
-        <img src="/media/backlink-outreach-calendar-img1.jpg" alt="backlink outreach calendar infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="Backlink analysis and data visualization" width="800" height="400" />
         <p><em>Infographic showing a sample backlink outreach calendar (Source: Backlinkoo)</em></p>
     </div>
     
@@ -168,7 +168,7 @@ export default function BacklinkOutreachCalendar() {
     </table>
     <p>Integrate these into your calendar for tasks like prospecting and tracking. For automation, <Link href="/senuke">SENUKE</Link> can handle repetitive outreach, saving you time.</p>
     <div class="media">
-        <img src="/media/backlink-outreach-calendar-img2.jpg" alt="tools for backlink outreach calendar" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="tools for backlink outreach calendar" width="800" height="400" />
         <p><em>Overview of essential SEO tools (Source: Backlinkoo)</em></p>
     </div>
     
@@ -184,7 +184,7 @@ export default function BacklinkOutreachCalendar() {
     <h3>Case Study 3: SaaS Startup Growth</h3>
     <p>A SaaS company blended organic strategies with automated tools in their calendar. With <Link href="/senuke">SENUKE for automation</Link>, they built 300 links in a year, boosting rankings for key terms. Fake stats: Domain authority up 40 points, user sign-ups increased 150%.</p>
     <div class="media">
-        <img src="/media/backlink-outreach-calendar-img3.jpg" alt="case study graph for backlink outreach" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg" alt="case study graph for backlink outreach" width="800" height="400" />
         <p><em>Graph showing traffic growth from backlink outreach (Source: Backlinkoo)</em></p>
     </div>
     

@@ -81,7 +81,7 @@ export default function LinkBuildingForumSignature() {
     <p>Forum signatures typically allow users to add a short bio or promotional text, often including hyperlinks. Platforms like Reddit, Warrior Forum, or Digital Point are prime examples where link building forum signature can be applied. These links can be dofollow, meaning they pass link juice, or nofollow, which still provide value through traffic and brand exposure.</p>
     <p>Understanding the difference is key: Dofollow links contribute directly to your site's authority, while nofollow links help diversify your backlink profile. Google's Search Central emphasizes the importance of natural link building, and forum signatures, when used ethically, align with these guidelines.</p>
     <div class="media">
-        <img src="/media/link-building-forum-signature-img1.jpg" alt="link building forum signature infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Infographic illustrating the impact of forum signatures on SEO (Source: Backlinkoo)</em></p>
     </div>
     
@@ -161,7 +161,7 @@ export default function LinkBuildingForumSignature() {
     <h3>Case Study 3: Service-Based Business Expansion</h3>
     <p>A consulting firm targeted industry forums, integrating signatures with guest posts. This resulted in 300+ links, a 35% traffic uplift, and improved rankings for key terms like "link building strategies."</p>
     <div class="media">
-        <img src="/media/link-building-forum-signature-img2.jpg" alt="case study graph for link building forum signature" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building forum signature" width="800" height="400" />
         <p><em>Graph showing traffic growth from forum signatures (Source: Backlinkoo)</em></p>
     </div>
     
@@ -187,7 +187,7 @@ export default function LinkBuildingForumSignature() {
     <p>In conclusion, link building forum signature is a potent tactic when executed correctly. Backed by stats from Moz—where sites with diverse backlinks see 3x better rankings—and our expert insights at Backlinkoo, this guide equips you with the knowledge to succeed. For personalized assistance, explore our services, including <Link href="/senuke">SENUKE</Link> and <Link href="/xrumer">XRumer</Link>. Contact us today to transform your link building strategy.</p>
     <p>As an authority in SEO, Backlinkoo draws from years of experience and data from sources like <a href="https://ahrefs.com/blog" target="_blank" rel="noopener noreferrer">Ahrefs Blog</a>, ensuring our advice is reliable and effective.</p>
     <div class="media">
-        <img src="/media/link-building-forum-signature-img3.jpg" alt="expert tips infographic" width="800" height="400" />
+        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
         <p><em>Expert tips for mastering link building (Source: Backlinkoo)</em></p>
     </div>
     <div class="media">

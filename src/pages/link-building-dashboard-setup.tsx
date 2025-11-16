@@ -91,7 +91,7 @@ export default function LinkBuildingDashboardSetup() {
   <p>Statistics from <a href="https://moz.com/blog/link-building-metrics" target="_blank" rel="noopener noreferrer">Moz</a> show that sites with diverse, high-quality backlinks see up to 3.8 times more organic traffic. By setting up your dashboard, you can prioritize strategies that enhance domain authority while minimizing risks associated with low-quality links.</p>
   
   <div class="media">
-    <img src="/media/link-building-dashboard-setup-img1.jpg" alt="link building dashboard setup infographic" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="Link building strategy and implementation" width="800" height="400" />
     <p><em>Infographic showing key components of a link building dashboard setup (Source: Backlinkoo)</em></p>
   </div>
   
@@ -196,7 +196,7 @@ export default function LinkBuildingDashboardSetup() {
   <p>Integrate these into your link building dashboard setup for a holistic view. Backlinkoo recommends starting with SENUKE and XRumer for automation efficiency.</p>
   
   <div class="media">
-    <img src="/media/link-building-dashboard-setup-img2.jpg" alt="tools for link building dashboard setup" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="tools for link building dashboard setup" width="800" height="400" />
     <p><em>Visual comparison of link building tools (Source: Backlinkoo)</em></p>
   </div>
   
@@ -217,7 +217,7 @@ export default function LinkBuildingDashboardSetup() {
   <p>These cases highlight how a proper link building dashboard setup, powered by Backlinkoo services, can drive measurable results.</p>
   
   <div class="media">
-    <img src="/media/link-building-dashboard-setup-img3.jpg" alt="case study graph for link building" width="800" height="400" />
+    <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg" alt="case study graph for link building" width="800" height="400" />
     <p><em>Graph showing traffic growth from dashboard setup (Source: Backlinkoo)</em></p>
   </div>
   
