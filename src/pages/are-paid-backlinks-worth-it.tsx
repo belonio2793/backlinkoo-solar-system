@@ -201,10 +201,6 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
   </div>
 
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Are Paid Backlinks Worth It?</h2>
     
