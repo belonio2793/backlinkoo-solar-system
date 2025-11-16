@@ -144,6 +144,11 @@ const NicheoutreachBacklinks: React.FC = () => {
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your nicheoutreach backlinks efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Niche outreach and backlinks" width="800" height="400" />
+    <p><em>Niche outreach and backlinks (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

@@ -121,6 +121,11 @@ const ResourcePageLinkBuilding: React.FC = () => {
   <p>For more insights, refer to <a href="https://moz.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">Moz's guide on link building mistakes</a>.</p>
   
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Resource page link building strategy" width="800" height="400" />
+    <p><em>Resource page link building strategy (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

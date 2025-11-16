@@ -991,22 +991,21 @@ function replaceMediaInPage(filePath) {
       return { changed: false, error: 'No media mapping found', slug: basename };
     }
 
-    // Replace images in media divs
+    // Replace images in media divs with safer logic
     let imageIndex = 0;
-    content = content.replace(/<div class="media">[\s\S]*?<\/div>/g, () => {
-      if (imageIndex >= mediaData.images.length) {
-        imageIndex++;
-        return `<div class="media">
-    <img src="${mediaData.images[imageIndex - 1].src}" alt="${mediaData.images[imageIndex - 1].alt}" width="800" height="400" />
-    <p><em>${mediaData.images[imageIndex - 1].alt} (Source: Backlinkoo)</em></p>
-  </div>`;
-      }
-      const img = mediaData.images[imageIndex++];
-      return `<div class="media">
+    const mediaRegex = /<div class="media">[\s\S]*?<\/div>/g;
+    const mediaDivs = content.match(mediaRegex) || [];
+
+    if (mediaDivs.length > 0) {
+      for (let i = 0; i < mediaDivs.length && imageIndex < mediaData.images.length; i++) {
+        const img = mediaData.images[imageIndex++];
+        const newDiv = `<div class="media">
     <img src="${img.src}" alt="${img.alt}" width="800" height="400" />
     <p><em>${img.alt} (Source: Backlinkoo)</em></p>
   </div>`;
-    });
+        content = content.replace(mediaDivs[i], newDiv);
+      }
+    }
 
     // Add video if missing
     if (!content.includes('youtube.com/embed/')) {

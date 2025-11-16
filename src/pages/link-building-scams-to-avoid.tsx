@@ -144,6 +144,11 @@ const LinkBuildingScamsToAvoid: React.FC = () => {
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your link building scams to avoid efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="Link building scams to avoid" width="800" height="400" />
+    <p><em>Link building scams to avoid (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/IGtv_2YTqfI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

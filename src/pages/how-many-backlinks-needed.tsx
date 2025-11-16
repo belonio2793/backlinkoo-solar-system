@@ -144,6 +144,11 @@ const HowManyBacklinksNeeded: React.FC = () => {
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your how many backlinks needed efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
   <div class="media">
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="How many backlinks are needed for ranking" width="800" height="400" />
+    <p><em>How many backlinks are needed for ranking (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>

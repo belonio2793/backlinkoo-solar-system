@@ -135,6 +135,11 @@ const TechStartupBacklinks: React.FC = () => {
     <p>Backlinkoo's experts help you avoid these, ensuring your strategy is foolproof.</p>
 
     <div class="media">
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Technology industry SEO" width="800" height="400" />
+    <p><em>Technology industry SEO (Source: Backlinkoo)</em></p>
+  </div>
+
+  <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
     <p><em>Video tutorial on this topic</em></p>
   </div>
