@@ -53,9 +53,6 @@ const CoreWebVitalsAndBacklinks: React.FC = () => {
     <p>The skyscraper technique involves creating superior content to existing popular pieces and reaching out for backlinks. Ensure your content is optimized for Core Web Vitals—compress images for better LCP and minimize JavaScript for lower FID.</p>
     <p>By focusing on these organic strategies, you can build a robust backlink profile that complements your site's performance metrics.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Core Web Vitals and SEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
     
     <h3>Buying Backlinks: Pros, Cons, and Safe Tips</h3>
     <p>While organic methods are ideal, buying backlinks can accelerate your SEO efforts. However, it's a controversial practice that requires caution to avoid Google penalties. When discussing <strong>Core Web Vitals and backlinks</strong>, purchased links should direct to well-optimized pages to ensure value.</p>
