@@ -30,9 +30,6 @@ const MultilingualBacklinkBuilding: React.FC = () => {
     <h3>Content Syndication and Partnerships</h3>
     <p>Syndicate your content on international platforms like Medium's foreign-language versions or region-specific news aggregators. Form partnerships with influencers in non-English markets to co-create content, naturally earning backlinks. For instance, collaborating with a Brazilian blogger can lead to valuable Portuguese backlinks.</p>
     <p>According to Google Search Central, diverse backlink sources contribute to better crawl rates. <a href="https://developers.google.com/search/docs/advanced/guidelines/link-scheme" target="_blank" rel="noopener noreferrer">Check Google's guidelines on link schemes</a> to ensure compliance.</p>
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
     
     <h3>Resource Page Outreach</h3>
     <p>Target resource pages on educational sites in various languages. If your content is a comprehensive guide, pitch it to university pages in French or Italian. This organic method often results in high-authority backlinks that boost your site's trustworthiness.</p>
