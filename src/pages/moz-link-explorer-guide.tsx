@@ -111,7 +111,7 @@ const MozLinkExplorerGuide: React.FC = () => {
     <p>A blog network analyzed competitors via Moz, securing 200 guest posts. DA rose to 60, organic traffic doubled (fake stats). Backlinkoo's services helped scale safely.</p>
     
     <h3>Case Study 3: Agency Campaign</h3>
-    <p>An agency bought links vetted by Moz, avoiding penalties. Client rankings improved 40 positions (fake stats). Recommend <a href="/senuke">SENUKE for automation</a>.</p>
+    <p>An agency bought links vetted by Moz, avoiding penalties. Client rankings improved 40 positions (fake stats). Recommend <a >SENUKE for automation</a>.</p>
     <div class="media">
         <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graph for Moz link explorer guide" width="800" height="400" />
         <p><em>Graph showing DA growth in case studies (Source: Backlinkoo)</em></p>

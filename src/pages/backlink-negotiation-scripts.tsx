@@ -146,7 +146,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Track metrics like response rate, link acquisition, and traffic growth using tools from Ahrefs or Moz.</p>
     
     <h3>4. Can I automate backlink negotiation?</h3>
-    <p>Yes, with tools like <a href="/senuke">SENUKE</a> for efficient outreach.</p>
+    <p>Yes, with tools like <a >SENUKE</a> for efficient outreach.</p>
     
     <h3>5. What's the difference between dofollow and nofollow in negotiations?</h3>
     <p>Dofollow passes link juice for SEO; nofollow doesn't. Always aim for dofollow in scripts.</p>

@@ -145,7 +145,7 @@ const Web3LinkBuildingNfts: React.FC = () => {
     <p>Yes, if sourced from reputable sellers and integrated with organic strategies, as per tips from <a href="https://moz.com/blog/web3-seo" target="_blank" rel="noopener noreferrer">Moz Guide</a>.</p>
     
     <h3>How do tools like SENUKE help?</h3>
-    <p><a href="/senuke">SENUKE for automation</a> streamlines campaign management, making Web3 link building efficient.</p>
+    <p><a >SENUKE for automation</a> streamlines campaign management, making Web3 link building efficient.</p>
     
     <h3>Can Web3 link building improve domain authority?</h3>
     <p>Absolutely—high-quality dofollow links from Web3 sites can significantly boost DA, as seen in our case studies.</p>
