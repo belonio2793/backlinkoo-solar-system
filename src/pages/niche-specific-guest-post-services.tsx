@@ -49,9 +49,6 @@ const NicheSpecificGuestPostServices: React.FC = () => {
     <h3>Industry-Specific Impact: Niche Content</h3>
     <p>The Niche Content industry faces unique challenges and opportunities with niche-specific guest post services. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h3>Core Strategies for Niche-Specific Guest Post Services</h3>
     <h3>Guest Posting Excellence</h3>
