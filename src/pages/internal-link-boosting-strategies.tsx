@@ -49,9 +49,6 @@ const InternalLinkBoostingStrategies: React.FC = () => {
     <h3>Industry-Specific Impact: On-Page SEO</h3>
     <p>The On-Page SEO industry faces unique challenges and opportunities with internal link boosting strategies. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h3>Core Strategies for Internal Link Boosting Strategies</h3>
     <h3>Guest Posting Excellence</h3>
