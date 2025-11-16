@@ -1,53 +1,74 @@
-
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Badge } from '@/components/ui/badge';
+import { CheckCircle2, AlertTriangle, ShieldCheck, Gauge, Activity, Star, ListChecks, ArrowLeft, ArrowRight } from 'lucide-react';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
+import '@/styles/link-building-roi-tracker.css';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
+function upsertMeta(name: string, content: string) {
+  if (typeof document === 'undefined') return;
+  const sel = `meta[name="${name}"]`;
+  let el = document.head.querySelector(sel) as HTMLMetaElement | null;
+  if (!el) {
+    el = document.createElement('meta');
+    el.setAttribute('name', name);
+    document.head.appendChild(el);
   }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
+  el.setAttribute('content', content);
+}
 
-const link-building-roi-trackerPage: React.FC = () => {
+function upsertCanonical(href: string) {
+  if (typeof document === 'undefined') return;
+  let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+  if (!el) {
+    el = document.createElement('link');
+    el.setAttribute('rel', 'canonical');
+    document.head.appendChild(el);
+  }
+  el.setAttribute('href', href);
+}
+
+function injectJSONLD(id: string, json: any) {
+  if (typeof document === 'undefined') return;
+  let el = document.getElementById(id) as HTMLScriptElement | null;
+  const text = JSON.stringify(json);
+  if (!el) {
+    el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = id;
+    el.text = text;
+    document.head.appendChild(el);
+  } else {
+    el.text = text;
+  }
+}
+
+export default function LinkBuildingRoiTracker() {
+  React.useEffect(() => {
+    upsertMeta('description', `Discover how to acquire link building roi tracker for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`);
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    injectJSONLD('link-building-roi-tracker-schema', {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: `Link Building Roi Tracker: Ultimate Guide to Boost SEO in 2025`,
+      description: `Discover how to acquire link building roi tracker for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
+      datePublished: new Date().toISOString().split('T')[0],
+    });
+  }, []);
+
   return (
     <>
-      <Head>
-        <title>Link Building Roi Tracker: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire link building roi tracker for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Link Building Roi Tracker: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/link-building-roi-tracker-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
-        <h1>Link Building Roi Tracker: The Key to Dominating Google Rankings in 2025</h1>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
+        <div className="container mx-auto px-4 py-12">
+          <article className="prose prose-slate max-w-4xl mx-auto dark:prose-invert">
+            <div dangerouslySetInnerHTML={{ __html: `<h1>Link Building Roi Tracker: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
   <h1>Link Building ROI Tracker: Maximize Your SEO Investments</h1>
@@ -108,13 +129,13 @@ const link-building-roi-trackerPage: React.FC = () => {
         <td style="border: 1px solid #ddd; padding: 8px;">Ahrefs</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Backlink analysis, ROI metrics, domain authority tracking</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Comprehensive SEO audits</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">$99/month</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">\$99/month</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">Moz Pro</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Link explorer, spam score, ROI dashboards</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Domain authority optimization</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">$99/month</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">\$99/month</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;"><Link href="/senuke">SENUKE</Link></td>
@@ -145,11 +166,11 @@ const link-building-roi-trackerPage: React.FC = () => {
   <h2>Case Studies: Real-World Success with Link Building ROI Trackers</h2>
   <p>Let's look at some anonymized case studies showcasing the power of tracking link building ROI.</p>
   <h3>Case Study 1: E-Commerce Boost</h3>
-  <p>A mid-sized online retailer used Backlinkoo's services to acquire 50 high-quality dofollow links via guest posts and broken link building. With our <strong>link building ROI tracker</strong>, they measured a 45% increase in organic traffic within 3 months, leading to $20,000 in additional revenue. Domain authority rose from 35 to 48, proving the strategy's worth.</p>
+  <p>A mid-sized online retailer used Backlinkoo's services to acquire 50 high-quality dofollow links via guest posts and broken link building. With our <strong>link building ROI tracker</strong>, they measured a 45% increase in organic traffic within 3 months, leading to \$20,000 in additional revenue. Domain authority rose from 35 to 48, proving the strategy's worth.</p>
   <h3>Case Study 2: B2B Service Provider</h3>
-  <p>A SaaS company invested in paid links from niche sites. Tracking with integrated tools showed a 60% ROI, with keyword rankings improving for 20 target terms. Referral traffic converted at 15%, generating $15,000 in new leads. This was facilitated by <Link href="/senuke">SENUKE for automation</Link>.</p>
+  <p>A SaaS company invested in paid links from niche sites. Tracking with integrated tools showed a 60% ROI, with keyword rankings improving for 20 target terms. Referral traffic converted at 15%, generating \$15,000 in new leads. This was facilitated by <Link href="/senuke">SENUKE for automation</Link>.</p>
   <h3>Case Study 3: Content Site Turnaround</h3>
-  <p>A blog struggling with low visibility used organic strategies and XRumer for distribution. The tracker revealed a 200% traffic surge, with links contributing to a domain authority jump from 20 to 40, resulting in ad revenue doubling to $10,000 monthly.</p>
+  <p>A blog struggling with low visibility used organic strategies and XRumer for distribution. The tracker revealed a 200% traffic surge, with links contributing to a domain authority jump from 20 to 40, resulting in ad revenue doubling to \$10,000 monthly.</p>
   <div class="media">
     <img src="/media/link-building-roi-tracker-img3.jpg" alt="case study graphs for link building roi" width="800" height="400" style="max-width: 100%; height: auto;" />
     <p><em>Graphs from successful case studies (Source: Backlinkoo)</em></p>
@@ -198,10 +219,14 @@ const link-building-roi-trackerPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>` }} />
+          </article>
+          <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800">
+            <BacklinkInfinityCTA />
+          </div>
+        </div>
+      </main>
+      <Footer />
     </>
   );
-};
-
-export default link-building-roi-trackerPage;
+}

@@ -1,53 +1,74 @@
-
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Badge } from '@/components/ui/badge';
+import { CheckCircle2, AlertTriangle, ShieldCheck, Gauge, Activity, Star, ListChecks, ArrowLeft, ArrowRight } from 'lucide-react';
+import { BacklinkInfinityCTA } from '@/components/BacklinkInfinityCTA';
+import '@/styles/link-building-core-web-vitals.css';
 
-const PageContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-
-  h1 { font-size: 2.5em; color: #2c3e50; margin-bottom: 20px; }
-  h2 { font-size: 2em; color: #34495e; margin-top: 40px; }
-  p { margin-bottom: 15px; }
-  ul, ol { margin-left: 20px; }
-  .cta-button { 
-    background: #e74c3c; color: white; padding: 15px 30px; 
-    border: none; border-radius: 5px; font-size: 1.2em; 
-    cursor: pointer; margin: 20px 0; display: block; 
+function upsertMeta(name: string, content: string) {
+  if (typeof document === 'undefined') return;
+  const sel = `meta[name="${name}"]`;
+  let el = document.head.querySelector(sel) as HTMLMetaElement | null;
+  if (!el) {
+    el = document.createElement('meta');
+    el.setAttribute('name', name);
+    document.head.appendChild(el);
   }
-  .media { text-align: center; margin: 30px 0; }
-  .author-bio { background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; margin: 40px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background-color: #f2f2f2; }
-`;
+  el.setAttribute('content', content);
+}
 
-const link-building-core-web-vitalsPage: React.FC = () => {
+function upsertCanonical(href: string) {
+  if (typeof document === 'undefined') return;
+  let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+  if (!el) {
+    el = document.createElement('link');
+    el.setAttribute('rel', 'canonical');
+    document.head.appendChild(el);
+  }
+  el.setAttribute('href', href);
+}
+
+function injectJSONLD(id: string, json: any) {
+  if (typeof document === 'undefined') return;
+  let el = document.getElementById(id) as HTMLScriptElement | null;
+  const text = JSON.stringify(json);
+  if (!el) {
+    el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = id;
+    el.text = text;
+    document.head.appendChild(el);
+  } else {
+    el.text = text;
+  }
+}
+
+export default function LinkBuildingCoreWebVitals() {
+  React.useEffect(() => {
+    upsertMeta('description', `Discover how to acquire link building core web vitals for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`);
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    injectJSONLD('link-building-core-web-vitals-schema', {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: `Link Building Core Web Vitals: Ultimate Guide to Boost SEO in 2025`,
+      description: `Discover how to acquire link building core web vitals for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
+      datePublished: new Date().toISOString().split('T')[0],
+    });
+  }, []);
+
   return (
     <>
-      <Head>
-        <title>Link Building Core Web Vitals: Ultimate Guide to Boost SEO in 2025</title>
-        <meta name="description" content="Discover how to acquire link building core web vitals for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Link Building Core Web Vitals: Ultimate Guide",
-            "author": { "@type": "Person", "name": "Backlinkoo SEO Expert" },
-            "datePublished": "2025-11-14",
-            "image": "https://backlinkoo.com/media/link-building-core-web-vitals-hero.jpg"
-          })}
-        </script>
-      </Head>
-      <PageContainer>
-        <h1>Link Building Core Web Vitals: The Key to Dominating Google Rankings in 2025</h1>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
+        <div className="container mx-auto px-4 py-12">
+          <article className="prose prose-slate max-w-4xl mx-auto dark:prose-invert">
+            <div dangerouslySetInnerHTML={{ __html: `<h1>Link Building Core Web Vitals: The Key to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
     <h1>Link Building Core Web Vitals: The Ultimate Guide to Boosting SEO Performance</h1>
@@ -208,10 +229,14 @@ const link-building-core-web-vitalsPage: React.FC = () => {
         </button>
         <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
 
-        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </PageContainer>
+        <p>Related Reads: <Link href="/senuke">SENUKE Review</Link> | <Link href="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>` }} />
+          </article>
+          <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800">
+            <BacklinkInfinityCTA />
+          </div>
+        </div>
+      </main>
+      <Footer />
     </>
   );
-};
-
-export default link-building-core-web-vitalsPage;
+}
