@@ -135,10 +135,6 @@ const TechStartupBacklinks: React.FC = () => {
     <p>Backlinkoo's experts help you avoid these, ensuring your strategy is foolproof.</p>
 
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Tech Startup Backlinks</h2>
     <h3>1. What are the best sources for tech startup backlinks?</h3>
