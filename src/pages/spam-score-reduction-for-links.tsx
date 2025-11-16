@@ -103,10 +103,6 @@ const SpamScoreReductionForLinks: React.FC = () => {
     <h3>Case Study 3: Agency Client Boost</h3>
     <p>An SEO agency used <Link to="/xrumer">XRumer for posting</Link> to build contextual links, reducing average spam score across clients by 25%. One client saw a 40% traffic uplift. Data: From 50% spam to 20%, with 500+ high-DA links.</p>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Safety and compliance" width="800" height="400" />
-    <p><em>Safety and compliance (Source: Backlinkoo)</em></p>
-  </div>
     
     <h2>Common Mistakes to Avoid in Spam Score Reduction for Links</h2>
     <p>Avoiding pitfalls is key to successful <strong>spam score reduction for links</strong>.</p>

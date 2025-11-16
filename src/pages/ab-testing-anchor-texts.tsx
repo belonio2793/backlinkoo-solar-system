@@ -199,10 +199,6 @@ const AbTestingAnchorTexts: React.FC = () => {
   
   <p>For more on these tools, check out <a href="https://moz.com/blog/link-building-tools" target="_blank" rel="noopener noreferrer">Moz's Guide to Link Building Tools</a>.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Testing and optimization graphs" width="800" height="400" />
-    <p><em>Testing and optimization graphs (Source: Backlinkoo)</em></p>
-  </div>
   
   <h2>Case Studies: Real-World Success with A/B Testing Anchor Texts</h2>
   

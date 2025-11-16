@@ -53,10 +53,6 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
     <li>DR improvements indicate domain-wide authority growth over time</li>
   </ul></p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="DR and UR metrics comparison" width="800" height="400" />
-    <p><em>DR and UR metrics comparison (Source: Backlinkoo)</em></p>
-  </div>
   
   <h2>Organic Strategies: Building DR and UR Through Quality Links</h2>
   

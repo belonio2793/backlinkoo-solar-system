@@ -115,10 +115,6 @@ const VideoSeoBacklinks: React.FC = () => {
     <h3>Case Study 3: Educational Tutorial Series</h3>
     <p>An edtech company leveraged influencer collaborations and syndication, building 100 video SEO backlinks organically.</p>
     <p>Results: Watch time increased by 150%, with backlinks contributing to a 200% rise in organic search impressions, per Google Analytics.</p>
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Video content strategy" width="800" height="400" />
-    <p><em>Video content strategy (Source: Backlinkoo)</em></p>
-  </div>
 
     <h2>Common Mistakes to Avoid in Video SEO Backlinks</h2>
     <p>Even seasoned marketers make errors. Here's how to steer clear.</p>

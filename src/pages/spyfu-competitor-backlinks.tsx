@@ -16,10 +16,6 @@ const SpyfuCompetitorBacklinks: React.FC = () => {
     <h3>How SpyFu Uncovers Competitor Backlinks</h3>
     <p>SpyFu's backlink analysis feature scans competitors' domains, revealing metrics like link count, referring domains, and anchor text usage. This data is invaluable for spotting gaps in your strategy. For instance, if a competitor has numerous <strong>dofollow links</strong> from .edu sites, you might prioritize outreach to educational platforms.</p>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Spyfu competitor backlinks analysis" width="800" height="400" />
-    <p><em>Spyfu competitor backlinks analysis (Source: Backlinkoo)</em></p>
-  </div>
     
     <h2>Organic Strategies for Acquiring SpyFu Competitor Backlinks</h2>
     <p>Once you've identified <strong>SpyFu competitor backlinks</strong>, the next step is acquiring similar ones organically. Organic <strong>link building</strong> focuses on earning links through value creation, avoiding penalties from manipulative tactics. Here, we'll explore proven methods like guest posting and broken link building.</p>

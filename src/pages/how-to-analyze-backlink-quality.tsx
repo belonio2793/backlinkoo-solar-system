@@ -148,10 +148,6 @@ const HowToAnalyzeBacklinkQuality: React.FC = () => {
     <p><em>How to analyze backlink quality (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Quality assessment methodology" width="800" height="400" />
-    <p><em>Quality assessment methodology (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>

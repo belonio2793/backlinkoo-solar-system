@@ -117,10 +117,6 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <h3>Case Study 3: Agency Campaign</h3>
     <p>An SEO agency negotiated resource page links, gaining 10 high-quality backlinks. Client rankings improved by 15 positions on average (fake stats).</p>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Outreach strategy and techniques" width="800" height="400" />
-    <p><em>Outreach strategy and techniques (Source: Backlinkoo)</em></p>
-  </div>
     
     <h2>Common Mistakes to Avoid in Backlink Negotiation</h2>
     <p>Avoid these pitfalls to ensure success:</p>

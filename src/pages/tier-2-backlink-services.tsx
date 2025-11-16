@@ -37,10 +37,6 @@ const Tier2BacklinkServices: React.FC = () => {
     
     <p>What sets effective tier 2 backlink services apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional tier 2 backlink services builds genuine authority that compounds over time.</p>
 
-    <div class="media">
-      <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Tier 2 Backlink Services strategy" width="800" height="400" />
-      <p><em>Strategic approach to tier 2 backlink services (Source: Backlinkoo)</em></p>
-    </div>
 
     <h2>Why Tier 2 Backlink Services Matters Now</h2>
     <h3>Current SEO Landscape</h3>

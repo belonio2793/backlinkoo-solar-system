@@ -193,10 +193,6 @@ const BacklinkPackagesForAgencies: React.FC = () => {
       </ul>
     </div>
 
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="White label solutions" width="800" height="400" />
-    <p><em>White label solutions (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>

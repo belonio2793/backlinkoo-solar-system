@@ -143,10 +143,6 @@ const EcommerceBacklinkSeoGuide: React.FC = () => {
   <h3>User Experience Signals</h3>
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your ecommerce backlink seo guide efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="E-commerce backlink and SEO guide" width="800" height="400" />
-    <p><em>E-commerce backlink and SEO guide (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Online store optimization" width="800" height="400" />

@@ -120,10 +120,6 @@ const Web3LinkBuildingNfts: React.FC = () => {
     
     <h3>Case Study 3: Metaverse Startup</h3>
     <p>This client leveraged syndicated content and tool automation with <a href="/senuke">SENUKE for automation</a>. Acquired 200 links through NFT collaborations. Results: Domain authority jumped 40 points, leading to a 300% increase in partnerships. Fake stats: Links: 200; DA increase: 40; Partnership growth: 300%.</p>
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Web3 marketing strategy" width="800" height="400" />
-    <p><em>Web3 marketing strategy (Source: Backlinkoo)</em></p>
-  </div>
     
     <h2>Common Mistakes to Avoid in Web3 Link Building NFTs</h2>
     <p>Even experts can falter. Here are pitfalls to steer clear of:</p>

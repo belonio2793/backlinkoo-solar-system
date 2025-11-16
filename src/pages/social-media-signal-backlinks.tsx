@@ -148,10 +148,6 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     <p>Always adhere to <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Google's webmaster guidelines</a> to avoid penalties.</p>
     
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Social media engagement" width="800" height="400" />
-    <p><em>Social media engagement (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
@@ -177,10 +173,6 @@ const SocialMediaSignalBacklinks: React.FC = () => {
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>In conclusion, social media signal backlinks are a vital component of modern <em>link building</em>, offering pathways to higher <em>domain authority</em> and organic growth. As experts at Backlinkoo, we've seen firsthand how these strategies can transform websites. According to a 2023 Ahrefs study, sites with strong social signals experience up to 22% better ranking performance. Trust our authoritative services to guide you—contact us today to start building your backlink empire.</p>
     <p><em>This article is based on extensive experience in SEO, drawing from sources like Moz, Ahrefs, and Google Search Central for accuracy and trustworthiness.</em></p>
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Social media engagement" width="800" height="400" />
-    <p><em>Social media engagement (Source: Backlinkoo)</em></p>
-  </div>
     <!-- Note: This article is approximately 5200 words when expanded with detailed content. For brevity in response, sections are summarized; in full production, expand paragraphs accordingly. -->
 `;
   const keywords = "social, media, signal, backlinks";

@@ -25,10 +25,6 @@ const BacklinkGrowthTracking: React.FC = () => {
     
     <p>Tracking allows you to identify trends, spot toxic links, and measure ROI from link building campaigns. It helps in competitor analysis, revealing strategies to outpace rivals. At Backlinkoo, our services make this process seamless, integrating automation tools like <Link to="/senuke">SENUKE for automation</Link> to streamline your efforts.</p>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Backlink growth monitoring and tracking" width="800" height="400" />
-    <p><em>Backlink growth monitoring and tracking (Source: Backlinkoo)</em></p>
-  </div>
     
     <p>Imagine your website as a growing tree; backlinks are the roots that provide stability and nourishment. Without tracking, those roots could wither or become entangled in weeds (spammy links). Proper <strong>backlink growth tracking</strong> ensures healthy expansion, leading to better visibility and conversions.</p>
     
@@ -120,10 +116,6 @@ const BacklinkGrowthTracking: React.FC = () => {
     
     <p>Avoid these by leveraging Backlinkoo's expertise and tools like <Link to="/senuke">SENUKE</Link> for smart automation.</p>
     
-    <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Backlink Growth Tracking</h2>
     

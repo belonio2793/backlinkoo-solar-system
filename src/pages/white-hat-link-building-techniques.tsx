@@ -118,10 +118,6 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <h3>Case Study 3: Service-Based Business</h3>
     <p>A consulting firm used influencer collaborations. Acquired 100 links, boosting domain authority by 25 points. Traffic grew 50%, with conversions up 35%. This demonstrates how white hat techniques yield sustainable results.</p>
 
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Safe link building methods" width="800" height="400" />
-    <p><em>Safe link building methods (Source: Backlinkoo)</em></p>
-  </div>
 
     <h2>Common Mistakes to Avoid in White Hat Link Building Techniques</h2>
     <p>Even with good intentions, pitfalls can derail your efforts. Avoid these:</p>

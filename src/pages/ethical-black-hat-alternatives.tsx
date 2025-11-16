@@ -47,9 +47,6 @@ const EthicalBlackHatAlternatives: React.FC = () => {
   
   <p>These methods boost visibility and domain authority ethically. For more on this, check out <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' guide to broken link building</a>.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="White Hat Alternatives to Black Hat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
   
   <h2>Buying Links: Pros, Cons, and Safe Tips</h2>
   

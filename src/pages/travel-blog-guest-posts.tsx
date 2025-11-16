@@ -142,10 +142,6 @@ const TravelBlogGuestPosts: React.FC = () => {
   
   <p>Backlinkoo helps you sidestep these errors with expert oversight.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Travel industry partnerships" width="800" height="400" />
-    <p><em>Travel industry partnerships (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
@@ -169,10 +165,6 @@ const TravelBlogGuestPosts: React.FC = () => {
   <h3>5. How can Backlinkoo help with my travel blog guest posts?</h3>
   <p>We offer end-to-end services, from content creation to secure placements on high-DA sites.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Travel industry partnerships" width="800" height="400" />
-    <p><em>Travel industry partnerships (Source: Backlinkoo)</em></p>
-  </div>
   
   <p>In conclusion, travel blog guest posts are a vital component of modern SEO strategies. Backed by data from authoritative sources like Moz and Ahrefs—where backlinks account for 20-30% of ranking factors—investing in them can transform your online presence. At Backlinkoo, our expertise ensures you get the most out of this tactic. Contact us today to elevate your travel site's domain authority and traffic.</p>
   

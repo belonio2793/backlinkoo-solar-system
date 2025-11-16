@@ -49,10 +49,6 @@ const BacklinkImpactOnDomainAuthority: React.FC = () => {
     <h3>Industry-Specific Impact: SEO Education</h3>
     <p>The SEO Education industry faces unique challenges and opportunities with backlink impact on domain authority. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Authority metrics" width="800" height="400" />
-    <p><em>Authority metrics (Source: Backlinkoo)</em></p>
-  </div>
 
     <h2>Core Strategies for Backlink Impact on Domain Authority</h2>
     <h3>Guest Posting Excellence</h3>
@@ -194,10 +190,6 @@ const BacklinkImpactOnDomainAuthority: React.FC = () => {
     <p><em>Domain strength (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>Conclusion: Your Path Forward</h2>
     <p>Implementing effective backlink impact on domain authority requires strategic planning, quality execution, and sustained commitment. By following the principles outlined in this guide—prioritizing quality, maintaining diversity, and focusing on relevance—you can build a sustainable backlink profile that delivers lasting SEO results.</p>

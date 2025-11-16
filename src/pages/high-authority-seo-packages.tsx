@@ -37,10 +37,6 @@ const HighAuthoritySeoPackages: React.FC = () => {
     
     <p>What sets effective high-authority seo packages apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional high-authority seo packages builds genuine authority that compounds over time.</p>
 
-    <div class="media">
-      <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="High-Authority SEO Packages strategy" width="800" height="400" />
-      <p><em>Strategic approach to high-authority seo packages (Source: Backlinkoo)</em></p>
-    </div>
 
     <h2>Why High-Authority SEO Packages Matters Now</h2>
     <h3>Current SEO Landscape</h3>

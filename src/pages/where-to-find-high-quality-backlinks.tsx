@@ -110,10 +110,6 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
 
   <h3>Case Study 3: Agency Campaign</h3>
   <p>An SEO agency partnered with Backlinkoo to buy safe, high quality backlinks for a client. They gained 100 links from niche-relevant sites, resulting in a 180% increase in leads and a domain authority jump from 40 to 65.</p>
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link opportunity discovery" width="800" height="400" />
-    <p><em>Link opportunity discovery (Source: Backlinkoo)</em></p>
-  </div>
 
   <h2>Common Mistakes to Avoid When Seeking High Quality Backlinks</h2>
   <p>Even seasoned marketers make errors in link building. Here are key mistakes to steer clear of:</p>

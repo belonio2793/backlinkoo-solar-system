@@ -143,10 +143,6 @@ const InternalLinksVsBacklinks: React.FC = () => {
   <h3>User Experience Signals</h3>
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your internal links vs backlinks efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Internal links vs backlinks comparison" width="800" height="400" />
-    <p><em>Internal links vs backlinks comparison (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Link architecture and structure" width="800" height="400" />

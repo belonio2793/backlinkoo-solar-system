@@ -49,9 +49,6 @@ const Tier3BacklinkServices: React.FC = () => {
     <h3>Industry-Specific Impact: Advanced Strategies</h3>
     <p>The Advanced Strategies industry faces unique challenges and opportunities with tier 3 backlink services. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h2>Core Strategies for Tier 3 Backlink Services</h2>
     <h3>Guest Posting Excellence</h3>

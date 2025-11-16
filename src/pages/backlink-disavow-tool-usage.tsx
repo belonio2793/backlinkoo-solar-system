@@ -143,10 +143,6 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <p><em>Harmful link removal process (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Backlink Disavow Tool</h2>
   <h3>Will disavowing links hurt my site?</h3>

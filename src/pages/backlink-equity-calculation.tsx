@@ -136,10 +136,6 @@ const BacklinkEquityCalculation: React.FC = () => {
     <li><strong>Disregarding anchor text optimization:</strong> Poor anchors reduce equity transfer efficiency</li>
   </ul>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="SEO value distribution analysis" width="800" height="400" />
-    <p><em>SEO value distribution analysis (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Authority transfer metrics" width="800" height="400" />

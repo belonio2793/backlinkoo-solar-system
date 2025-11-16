@@ -24,10 +24,6 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
     
     <p>Building domain authority through link building isn't just about quantity; it's about strategic quality. Search engines like Google use algorithms such as PageRank to evaluate link value, prioritizing links from trusted sources in your niche, such as industry blogs, product review sites, and e-commerce directories.</p>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="E-commerce backlink authority strategy" width="800" height="400" />
-    <p><em>E-commerce backlink authority strategy (Source: Backlinkoo)</em></p>
-  </div>
     
     <p>Moreover, authoritative backlinks for e-commerce improve user trust significantly. When a respected product review site or industry authority links to your product pages, it reassures potential customers of your credibility and product quality. This is crucial in e-commerce, where conversion rates can drop 20-40% if visitors doubt your site's legitimacy.</p>
     

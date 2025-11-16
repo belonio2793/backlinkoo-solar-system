@@ -143,10 +143,6 @@ const BestBacklinkMarketplaces: React.FC = () => {
   <h3>User Experience Signals</h3>
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your best backlink marketplaces efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Best backlink marketplaces and platforms" width="800" height="400" />
-    <p><em>Best backlink marketplaces and platforms (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Link marketplace selection guide" width="800" height="400" />

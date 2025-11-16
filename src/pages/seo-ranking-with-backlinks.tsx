@@ -143,20 +143,12 @@ const SeoRankingWithBacklinks: React.FC = () => {
   <h3>User Experience Signals</h3>
   <p>Core Web Vitals and other user experience metrics now play a role in rankings. Links alone are not sufficient; the pages you're building links to must also provide excellent user experiences. Ensure that your seo ranking with backlinks efforts are paired with comprehensive on-page optimization and technical SEO improvements.</p>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="SEO ranking improvement with backlinks" width="800" height="400" />
-    <p><em>SEO ranking improvement with backlinks (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Ranking factor analysis" width="800" height="400" />
     <p><em>Ranking factor analysis (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>Conclusion</h2>
   <p>Mastering seo ranking with backlinks is essential for long-term SEO success. By understanding the fundamentals, implementing best practices, avoiding common pitfalls, and staying current with industry trends, you can build a sustainable competitive advantage through strategic link building. Remember that successful seo ranking with backlinks is not about quick wins or shortcuts, but about building genuine authority and credibility in your industry through quality content and authentic relationships.</p>

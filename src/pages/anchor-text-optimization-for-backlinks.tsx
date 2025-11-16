@@ -157,10 +157,6 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
       <li><strong>Failing to diversify sources:</strong> Mix guest posts, directories, HARO, and other tactics for natural distribution</li>
     </ul>
     
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Keyword optimization strategy" width="800" height="400" />
-    <p><em>Keyword optimization strategy (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="SEO text analysis" width="800" height="400" />

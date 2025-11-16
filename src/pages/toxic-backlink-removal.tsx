@@ -111,10 +111,6 @@ const ToxicBacklinkRemoval: React.FC = () => {
   </ul>
   <p>For more tips, read this <a href="https://searchengineland.com/toxic-backlinks-avoid" target="_blank" rel="noopener noreferrer">Search Engine Land Article</a>.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link health recovery" width="800" height="400" />
-    <p><em>Link health recovery (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
@@ -132,10 +128,6 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <p>Ahrefs, SEMrush, and Backlinkoo's <Link to="/senuke">SENUKE</Link> for automation are top choices.</p>
   <h3>How long does recovery take after removal?</h3>
   <p>Typically 1-3 months, depending on the penalty severity and follow-up link building.</p>
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link health recovery" width="800" height="400" />
-    <p><em>Link health recovery (Source: Backlinkoo)</em></p>
-  </div>
   
   
   <h2>Conclusion: Trust Backlinkoo for Expert Toxic Backlink Removal</h2>

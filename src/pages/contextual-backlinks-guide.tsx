@@ -148,15 +148,7 @@ const ContextualBacklinksGuide: React.FC = () => {
     <p><em>Contextual backlinks guide and best practices (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="In-content link placement" width="800" height="400" />
-    <p><em>In-content link placement (Source: Backlinkoo)</em></p>
-  </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>Conclusion</h2>
   <p>Mastering contextual backlinks guide is essential for long-term SEO success. By understanding the fundamentals, implementing best practices, avoiding common pitfalls, and staying current with industry trends, you can build a sustainable competitive advantage through strategic link building. Remember that successful contextual backlinks guide is not about quick wins or shortcuts, but about building genuine authority and credibility in your industry through quality content and authentic relationships.</p>

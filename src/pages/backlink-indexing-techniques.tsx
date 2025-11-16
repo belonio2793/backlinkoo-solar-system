@@ -103,10 +103,6 @@ const BacklinkIndexingTechniques: React.FC = () => {
   
   <p>These tools, especially <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, can supercharge your backlink indexing techniques.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Google indexing process" width="800" height="400" />
-    <p><em>Google indexing process (Source: Backlinkoo)</em></p>
-  </div>
   
   <h2>Case Studies: Success with Backlink Indexing Techniques</h2>
   <p>Real-world examples highlight the power of backlink indexing techniques. Here are three case studies with anonymized data from Backlinkoo clients.</p>

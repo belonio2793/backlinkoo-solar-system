@@ -219,10 +219,6 @@ const AhrefsForLinkBuilding: React.FC = () => {
     <li>Local citation improvements: 15 new high-authority mentions</li>
   </ul></p>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="SEO analytics and reporting" width="800" height="400" />
-    <p><em>SEO analytics and reporting (Source: Backlinkoo)</em></p>
-  </div>
 
   <h2>Common Mistakes to Avoid When Using Ahrefs for Link Building</h2>
   <p>Even with a powerful tool like <strong>Ahrefs for link building</strong>, pitfalls abound. Avoid these to ensure success:</p>

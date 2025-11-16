@@ -59,10 +59,6 @@ const BacklinkProfileDiversification: React.FC = () => {
     
     <p>For automation in these strategies, consider tools like <Link to="/senuke">SENUKE for automation</Link>, which can streamline content distribution and link acquisition processes.</p>
 
-    <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link source variety and distribution" width="800" height="400" />
-    <p><em>Link source variety and distribution (Source: Backlinkoo)</em></p>
-  </div>
 
     <h2>Buying Backlinks: Pros, Cons, and Safe Tips for Diversification</h2>
     

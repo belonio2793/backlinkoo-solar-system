@@ -151,10 +151,6 @@ const UltimateLinkBuildingChecklist: React.FC = () => {
 
 <p>A local service provider used a mix of organic and bought links safely managed by Backlinkoo. They secured 100 relevant backlinks, boosting local search visibility. Organic leads increased by 50%, and their site climbed from page 5 to page 1 for competitive keywords.</p>
 
-<div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link building process" width="800" height="400" />
-    <p><em>Link building process (Source: Backlinkoo)</em></p>
-  </div>
 
 <h2>Common Link Building Mistakes to Avoid</h2>
 

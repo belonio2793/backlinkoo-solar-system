@@ -191,10 +191,6 @@ const AffordableLinkBuildingServices: React.FC = () => {
   
   <p>These tools, especially <Link to="/senuke">SENUKE</Link> and <Link to="/xrumer">XRumer</Link>, integrate seamlessly with Backlinkoo's <strong>affordable link building services</strong> for optimal results and transparency.</p>
   
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Budget planning and ROI analysis" width="800" height="400" />
-    <p><em>Budget planning and ROI analysis (Source: Backlinkoo)</em></p>
-  </div>
   
   <h2>Case Studies: Real Results from Affordable Link Building Services</h2>
   
@@ -281,10 +277,6 @@ const AffordableLinkBuildingServices: React.FC = () => {
       <p><em>Visual summary of mistakes to avoid when building backlinks affordably (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8VlxLkFoWo" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: Frequently Asked Questions About Affordable Link Building Services</h2>
 

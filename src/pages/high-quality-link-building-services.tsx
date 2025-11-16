@@ -148,10 +148,6 @@ const HighQualityLinkBuildingServices: React.FC = () => {
     <p><em>High quality link building services (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Professional link building services" width="800" height="400" />
-    <p><em>Professional link building services (Source: Backlinkoo)</em></p>
-  </div>
 
   <div class="media">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
