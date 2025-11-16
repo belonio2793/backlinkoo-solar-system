@@ -168,10 +168,12 @@ export default function WaydevPage() {
             <p>Leaders use Waydev to answer strategic questions: Are we shipping features on cadence? Which teams are blocked? Where should we invest to reduce cycle time? Dashboards show trends, but the recommendations enable targeted experiments.</p>
 
             <h3>Product managers</h3>
-            <p>PMs use delivery metrics to set realistic commitments, watch scope creep, and coordinate releases. Waydev helps quantify the tradeoffs between pushing new features and reducing technical debt.</p>
+            <p>PMs use delivery metrics to set realistic commitments, watch scope creep, and coordinate</p>
+  <p> releases. Waydev helps quantify the tradeoffs between pushing new features and reducing technical debt.</p>
 
             <h3>QA & SRE</h3>
-            <p>Operational teams focus on flakiness, MTTR, and incident correlation. Waydev provides failure artifacts (screenshots, logs) alongside the test history to accelerate triage.</p>
+            <p>Operational teams focus on flakiness, MTTR, and incident correlation. Waydev provides</p>
+  <p> failure artifacts (screenshots, logs) alongside the test history to accelerate triage.</p>
 
             <h3>Finance & Executives</h3>
             <p>Finance teams use cost capitalization modules to record engineering spend by project and to estimate time-to-value. Executives get concise one‑pagers that map engineering performance to business outcomes.</p>
@@ -180,16 +182,19 @@ export default function WaydevPage() {
           <section>
             <h2>Sample KPIs and how to interpret them</h2>
             <h3>Cycle time distribution</h3>
-            <p>Rather than a single average, use distributions and percentiles (p50, p75, p95). A small number of longoutsider PRs can skew averages; percentiles show where most work falls and where outliers lie.</p>
+            <p>Rather than a single average, use distributions and percentiles (p50, p75, p95). A small number of</p>
+  <p> longoutsider PRs can skew averages; percentiles show where most work falls and where outliers lie.</p>
 
             <h3>PR review time and merge quality</h3>
-            <p>Track review latency, number of reviewers, and post-merge incidents. A high number of reviewers with long delays often signals unclear ownership or overloaded reviewers.</p>
+            <p>Track review latency, number of reviewers, and post-merge incidents. A high number</p>
+  <p> of reviewers with long delays often signals unclear ownership or overloaded reviewers.</p>
 
             <h3>Flakiness rate</h3>
             <p>Measure the percentage of failed runs that pass after a retry. High flakiness masks true regressions and wastes engineering time. Waydev surfaces flaky tests and groups them by test owner and suite to prioritize fixes.</p>
 
             <h3>Delivery predictability</h3>
-            <p>Compare committed work to delivered work across sprints and measure the variance. Over time, teams can use these signals to adjust planning cadence and buffer allocation for riskier features.</p>
+            <p>Compare committed work to delivered work across sprints and measure the variance. Over time,</p>
+  <p> teams can use these signals to adjust planning cadence and buffer allocation for riskier features.</p>
           </section>
 
           <section>
@@ -209,7 +214,8 @@ export default function WaydevPage() {
             <p>Hypothesis: Reducing PR size reduces review time and lowers post-merge defects. Run a 6‑week experiment: set a soft PR size target, track average review time, incidents, and throughput. Use Waydev to segment by repository and author to find where gated policies help.</p>
 
             <h3>Experiment: Flaky test quarantine</h3>
-            <p>Hypothesis: Quarantining flaky tests reduces CI noise. Identify top flaky tests with Waydev, create an isolated suite, and monitor the reduction in false failures and developer interruptions.</p>
+            <p>Hypothesis: Quarantining flaky tests reduces CI noise. Identify top flaky tests with Waydev,</p>
+  <p> create an isolated suite, and monitor the reduction in false failures and developer interruptions.</p>
           </section>
 
           <section>
@@ -232,7 +238,8 @@ export default function WaydevPage() {
           <section>
             <h2>Security, privacy and governance</h2>
             <p>Engineering telemetry is often sensitive. Before enabling analytics, decide what data you will ingest and what you will mask. Waydev supports SSO, role-based access, and audit logs. For regulated environments, evaluate data residency and contractual commitments.</p>
-            <p>Consider a hybrid approach: public repositories and low-risk pipelines sent to cloud analytics; private or regulated flows kept in a controlled environment.</p>
+            <p>Consider a hybrid approach: public repositories and low-risk pipelines sent to</p>
+  <p> cloud analytics; private or regulated flows kept in a controlled environment.</p>
           </section>
 
           <section>
@@ -277,11 +284,13 @@ export default function WaydevPage() {
           <section>
             <h2>Frequently asked questions (expanded)</h2>
             <h3>How fast is integration?</h3>
-            <p>Connectors are typically fast—linking VCS and CI can be completed in a day. Full historical backfill depends on the amount of data and the retention window you choose.</p>
+            <p>Connectors are typically fast—linking VCS and CI can be completed in a day. Full</p>
+  <p> historical backfill depends on the amount of data and the retention window you choose.</p>
             <h3>What if we have monorepos?</h3>
             <p>Waydev supports monorepos—use path-based filters to partition data and build team-level views for different product lines within the same repository.</p>
             <h3>How do we avoid gaming the metrics?</h3>
-            <p>Focus on a small set of business-aligned KPIs and combine qualitative reviews with metrics. Transparency and clear ownership reduce the temptation to game results.</p>
+            <p>Focus on a small set of business-aligned KPIs and combine qualitative reviews</p>
+  <p> with metrics. Transparency and clear ownership reduce the temptation to game results.</p>
           </section>
 
           <section>

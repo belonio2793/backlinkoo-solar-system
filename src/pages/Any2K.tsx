@@ -128,7 +128,8 @@ export default function Any2KPage() {
           <section>
             <h2>Presets & profiles explained</h2>
             <p>
-              Presets translate user intent into deterministic pipelines. Typical profile axes include quality, target device, and delivery channel. Examples:
+              Presets translate user intent into deterministic pipelines. Typical</p>
+  <p> profile axes include quality, target device, and delivery channel. Examples:
             </p>
             <ul>
               <li><strong>Web — Progressive:</strong> convert to WebP/AVIF with progressive loading, small thumbnails, and responsive srcset generation.</li>
@@ -184,7 +185,8 @@ export default function Any2KPage() {
               The platform is designed to scale horizontally: workers handle CPU-bound transcodes while a coordinator manages job state and retries. For high-throughput needs, Any2K supports batching, parallel chunking of large files, and intelligent caching of analysis results to avoid redundant work on identical inputs.
             </p>
             <p>
-              Observability is built in: monitor throughput, queue depth, error rates, and average latency per file to tune resource allocation and cost models.
+              Observability is built in: monitor throughput, queue depth, error rates,</p>
+  <p> and average latency per file to tune resource allocation and cost models.
             </p>
           </section>
 
@@ -210,7 +212,8 @@ export default function Any2KPage() {
 
             <h3>Education & Research</h3>
             <p>
-              Researchers need reproducible datasets. Any2K can normalize experiment outputs, tag artifacts with provenance, and package reproducible datasets for sharing or archival.
+              Researchers need reproducible datasets. Any2K can normalize experiment outputs, tag</p>
+  <p> artifacts with provenance, and package reproducible datasets for sharing or archival.
             </p>
 
             <h3>Enterprises & Legal</h3>

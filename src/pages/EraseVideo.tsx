@@ -195,16 +195,20 @@ export default function EraseVideoPage(): JSX.Element {
               <h2>Use Cases — Who Benefits</h2>
 
               <h3>Content Creators & Social Editors</h3>
-              <p>Creators repurposing clips for compilations, montages, or educational videos can quickly remove distracting overlays without exporting large projects or learning complex compositing tools.</p>
+              <p>Creators repurposing clips for compilations, montages, or educational videos can quickly</p>
+  <p> remove distracting overlays without exporting large projects or learning complex compositing tools.</p>
 
               <h3>Educators & Trainers</h3>
-              <p>Instructional footage sometimes contains burned-in timestamps or watermarks that distract learners. EraseVideo helps produce clean instructional materials for classrooms or online courses.</p>
+              <p>Instructional footage sometimes contains burned-in timestamps or watermarks that distract</p>
+  <p> learners. EraseVideo helps produce clean instructional materials for classrooms or online courses.</p>
 
               <h3>Archivists & Hobbyists</h3>
-              <p>People restoring old footage or cleaning home videos may find the tool useful for removing timestamps or camcorder overlays before archiving or sharing.</p>
+              <p>People restoring old footage or cleaning home videos may find the tool</p>
+  <p> useful for removing timestamps or camcorder overlays before archiving or sharing.</p>
 
               <h3>Pre-production & Proxy Workflows</h3>
-              <p>For quick client reviews or short-form edits, teams can clean clips locally and share lighter proxies without exposing raw production assets to external servers.</p>
+              <p>For quick client reviews or short-form edits, teams can clean clips locally and</p>
+  <p> share lighter proxies without exposing raw production assets to external servers.</p>
             </section>
 
             <section id="legal">
@@ -218,7 +222,8 @@ export default function EraseVideoPage(): JSX.Element {
                 <li><strong>Educational & archival exceptions:</strong> Some uses such as restoration, critique, or fair use contexts may permit limited removal, but verify local laws and platform policies.</li>
               </ul>
 
-              <p>Many platforms prohibit the removal of watermarks from videos they host. Always consult terms of service and, when necessary, legal guidance before altering third-party content.</p>
+              <p>Many platforms prohibit the removal of watermarks from videos they host. Always consult</p>
+  <p> terms of service and, when necessary, legal guidance before altering third-party content.</p>
             </section>
 
             <section id="quality-tips">
@@ -277,7 +282,8 @@ export default function EraseVideoPage(): JSX.Element {
             <section id="limitations">
               <h2>Limitations & When Not to Use It</h2>
 
-              <p>EraseVideo is a helpful tool for quick cleanup, but it's not a replacement for advanced compositing. Situations where you should consider a different approach include:</p>
+              <p>EraseVideo is a helpful tool for quick cleanup, but it's not a replacement for</p>
+  <p> advanced compositing. Situations where you should consider a different approach include:</p>
               <ul>
                 <li><strong>Complex motion and occlusion:</strong> When overlays intersect with moving subjects or complex occlusions, automated inpainting may fail or create artifacts.</li>
                 <li><strong>High-resolution feature films:</strong> Feature-grade restoration and VFX require specialized pipelines and manual artistry.</li>

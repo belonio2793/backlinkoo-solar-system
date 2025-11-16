@@ -152,22 +152,28 @@ export default function AmpFreePage(): JSX.Element {
               <h2>Core Features & Capabilities</h2>
 
               <h3>Simple Deployment</h3>
-              <p>Deploy from CLI, Git, or drag-and-drop with a single command or push. The deployment pipeline optimizes assets, generates immutable artifact URLs, and provisions edge caching automatically.</p>
+              <p>Deploy from CLI, Git, or drag-and-drop with a single command or push. The deployment pipeline</p>
+  <p> optimizes assets, generates immutable artifact URLs, and provisions edge caching automatically.</p>
 
               <h3>Edge Caching & CDN</h3>
-              <p>Static assets and pre-rendered pages are cached at the edge, delivering sub-200ms responses to users worldwide. Cache invalidation is integrated into the deployment model for safe rollouts.</p>
+              <p>Static assets and pre-rendered pages are cached at the edge, delivering sub-200ms responses to</p>
+  <p> users worldwide. Cache invalidation is integrated into the deployment model for safe rollouts.</p>
 
               <h3>Serverless Function Support</h3>
-              <p>Run small, event-driven functions for APIs, form handlers, or webhook endpoints. The functions follow a pay-per-use model and are optimized for cold-start performance and memory-efficient execution.</p>
+              <p>Run small, event-driven functions for APIs, form handlers, or webhook endpoints. The functions</p>
+  <p> follow a pay-per-use model and are optimized for cold-start performance and memory-efficient execution.</p>
 
               <h3>Automatic HTTPS & Security</h3>
-              <p>Automatic TLS provisioning and security headers are applied by default. The platform can also integrate WAF rules and rate-limiting for high-traffic endpoints.</p>
+              <p>Automatic TLS provisioning and security headers are applied by default. The</p>
+  <p> platform can also integrate WAF rules and rate-limiting for high-traffic endpoints.</p>
 
               <h3>Asset Optimization</h3>
-              <p>Built-in tooling compresses images, generates responsive srcsets, and bundles JS with tree-shaking to keep payloads small and improve time-to-interactive.</p>
+              <p>Built-in tooling compresses images, generates responsive srcsets, and bundles</p>
+  <p> JS with tree-shaking to keep payloads small and improve time-to-interactive.</p>
 
               <h3>Environment & Secrets Management</h3>
-              <p>Developers can define environment variables and secrets through an admin console or CLI, enabling safe configuration of API keys and service integrations without leaking sensitive data into builds.</p>
+              <p>Developers can define environment variables and secrets through an admin console or CLI, enabling</p>
+  <p> safe configuration of API keys and service integrations without leaking sensitive data into builds.</p>
 
               <h3>Observability & Logs</h3>
               <p>Amp Free provides logs and usage metrics to troubleshoot serverless functions and monitor bandwidth, latency, and error rates. Integrations to common monitoring platforms are typically available for deeper analysis.</p>
@@ -195,10 +201,12 @@ export default function AmpFreePage(): JSX.Element {
               <h2>Use Cases — Where Amp Free Shines</h2>
 
               <h3>Marketing Sites & Landing Pages</h3>
-              <p>Fast builds, global edge delivery, and image optimization make Amp Free ideal for marketing campaigns and landing pages where performance directly impacts conversion rates.</p>
+              <p>Fast builds, global edge delivery, and image optimization make Amp Free ideal for</p>
+  <p> marketing campaigns and landing pages where performance directly impacts conversion rates.</p>
 
               <h3>Product Documentation & Blogs</h3>
-              <p>Static content with CDN backing provides reliable, fast documentation hosting. Built-in search indexing and versioned deployments support content teams' needs.</p>
+              <p>Static content with CDN backing provides reliable, fast documentation hosting.</p>
+  <p> Built-in search indexing and versioned deployments support content teams' needs.</p>
 
               <h3>Proofs-of-Concept & Prototypes</h3>
               <p>Developers and designers can ship working prototypes that behave like production apps without provisioning infrastructure or managing servers.</p>
@@ -207,7 +215,8 @@ export default function AmpFreePage(): JSX.Element {
               <p>Small APIs and webhook handlers benefit from serverless functions—ample for integrations, form processing, and event-driven tasks.</p>
 
               <h3>Static E-commerce Front-Ends</h3>
-              <p>Static front-ends paired with headless commerce backends can serve product catalogs at scale while delegating checkout or cart operations to secure serverless endpoints.</p>
+              <p>Static front-ends paired with headless commerce backends can serve product catalogs</p>
+  <p> at scale while delegating checkout or cart operations to secure serverless endpoints.</p>
             </section>
 
             <section id="workflow">
@@ -284,7 +293,8 @@ export default function AmpFreePage(): JSX.Element {
                 <li><strong>Strict compliance needs:</strong> Regulated industries may require specific data residency and compliance controls that go beyond free tiers.</li>
               </ul>
 
-              <p>For teams that outgrow the free tier, most platforms provide clear migration paths to paid plans or enterprise offerings that preserve the deployment model while adding capacity and controls.</p>
+              <p>For teams that outgrow the free tier, most platforms provide clear migration paths to paid</p>
+  <p> plans or enterprise offerings that preserve the deployment model while adding capacity and controls.</p>
             </section>
 
             <section id="best-practices">

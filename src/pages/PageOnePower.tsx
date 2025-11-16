@@ -102,7 +102,8 @@ export default function PageOnePower() {
   </ul>
 
   <h3 id="services-methodology">Services & Methodology</h3>
-  <p>POP’s core offerings align with modern, editorially-minded link building: content-led outreach, digital PR, and strategic SEO consulting. A dependable process looks like this:</p>
+  <p>POP’s core offerings align with modern, editorially-minded link building: content-led</p>
+  <p> outreach, digital PR, and strategic SEO consulting. A dependable process looks like this:</p>
   <ol>
     <li><strong>Discovery & Goals</strong> — align on target pages, conversion goals, priority keywords, and acceptable risk levels. This shapes the anchor strategy and editorial angles.</li>
     <li><strong>Research & Prospecting</strong> — manual prospecting to find publishers with topical relevance, readable content, and engaged audiences. Emphasis on proprietary prospect lists rather than automated scraping alone.</li>
@@ -274,7 +275,8 @@ Thanks,
   <p>Blend manual review with tool-assisted discovery. Use scraping and query operators to find recent articles mentioning target topics, then manually verify audience fit and editorial style before outreach. Prioritize sites that publish evergreen content and show organic engagement.</p>
 
   <h4>Creating linkable assets</h4>
-  <p>Linkable assets that earn placements often include original data, local studies, interactive tools, or expert roundups. Invest in a single high-quality asset rather than many thin pieces.</p>
+  <p>Linkable assets that earn placements often include original data, local studies, interactive</p>
+  <p> tools, or expert roundups. Invest in a single high-quality asset rather than many thin pieces.</p>
 
   <h4>Pitch refinement and A/B testing</h4>
   <p>Test subject lines, angle framing, and asset formats to see what yields the highest acceptance rates. Track metrics such as reply rate, positive reply rate, and placement rate to optimize outreach templates.</p>
@@ -767,7 +769,8 @@ Thanks,
               <h2>FAQs</h2>
               <details>
                 <summary>Is Page One Power good for competitive industries?</summary>
-                <p>Yes—provided you invest in high-quality assets and accept editorial lead times. Competitive sectors often require thought leadership and data-driven pitches.</p>
+                <p>Yes—provided you invest in high-quality assets and accept editorial lead</p>
+  <p> times. Competitive sectors often require thought leadership and data-driven pitches.</p>
               </details>
               <details>
                 <summary>Can campaigns be measured beyond DR?</summary>

@@ -112,7 +112,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
                 <td>SENUKE</td>
                 <td>Automation for link building and audits, integrates with Backlinkoo</td>
                 <td>Custom pricing</td>
-                <td>Automated campaigns (<a href="/senuke">Learn more</a>)</td>
+                <td>Automated campaigns (<a >Learn more</a>)</td>
             </tr>
             <tr>
                 <td>XRumer</td>
@@ -175,7 +175,7 @@ const SeoBacklinkAuditTools: React.FC = () => {
     <p>Dofollow links pass SEO value, unlike nofollow, which are marked with rel="nofollow".</p>
     
     <h3>5. How does Backlinkoo help with backlink audits?</h3>
-    <p>We provide expert services, integrating tools like <a >SENUKE</a> and <a href="/xrumer">XRumer</a> for comprehensive audits and building.</p>
+    <p>We provide expert services, integrating tools like <a >SENUKE</a> and <a >XRumer</a> for comprehensive audits and building.</p>
     
     <p>In conclusion, mastering <strong>SEO backlink audit tools</strong> is essential for SEO success. With stats from Ahrefs showing that backlinks account for 20-30% of ranking factors, investing in audits pays off. At Backlinkoo, our authoritative expertise ensures your link profile is optimized—contact us today for personalized strategies. Sources: Ahrefs 2023 Study, Moz DA Metrics, Google Search Central Guidelines.</p>
     

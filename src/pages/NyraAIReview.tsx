@@ -387,7 +387,8 @@ export default function NyraAIReview() {
 
             <div className="faq-item">
               <h3>How much does Nyra AI cost?</h3>
-              <p>Nyra offers free and paid tiers. Free includes basic features (5 ads/month). Pro plan is typically $99-199/month. Enterprise is $499+/month with custom pricing. Most active marketers use the Pro plan.</p>
+              <p>Nyra offers free and paid tiers. Free includes basic features (5 ads/month). Pro plan is typically</p>
+  <p> $99-199/month. Enterprise is $499+/month with custom pricing. Most active marketers use the Pro plan.</p>
             </div>
 
             <div className="faq-item">
@@ -402,12 +403,14 @@ export default function NyraAIReview() {
 
             <div className="faq-item">
               <h3>Can I use Nyra alongside my agency?</h3>
-              <p>Absolutely. Many companies use Nyra to execute day-to-day optimization while working with an agency on strategy. This hybrid approach is increasingly popular because it maximizes efficiency.</p>
+              <p>Absolutely. Many companies use Nyra to execute day-to-day optimization while working with an</p>
+  <p> agency on strategy. This hybrid approach is increasingly popular because it maximizes efficiency.</p>
             </div>
 
             <div className="faq-item">
               <h3>What if I need to pause or stop using Nyra?</h3>
-              <p>Your campaigns revert to manual management. Any campaigns created by Nyra remain in your advertising accounts and can be managed directly through the platform's native interface. There's no lock-in.</p>
+              <p>Your campaigns revert to manual management. Any campaigns created by Nyra remain in your</p>
+  <p> advertising accounts and can be managed directly through the platform's native interface. There's no lock-in.</p>
             </div>
 
             <div className="faq-item">
@@ -422,7 +425,8 @@ export default function NyraAIReview() {
               <h2>Ready to Amplify Your SEO with Strategic Backlinks?</h2>
               <p>Nyra AI excels at driving traffic through paid advertising and content optimization. To maximize that traffic's value and build sustainable search authority, strategic backlinks are essential. Backlink ∞ helps you acquire high-quality backlinks that complement your Nyra-powered marketing strategy.</p>
               
-              <p>Our backlink acquisition service integrates seamlessly with your SEO and paid advertising efforts, helping you build the topical authority and domain authority that search engines reward.</p>
+              <p>Our backlink acquisition service integrates seamlessly with your SEO and paid advertising</p>
+  <p> efforts, helping you build the topical authority and domain authority that search engines reward.</p>
               
               <a href="https://backlinkoo.com/register" className="cta-button">Register for Backlink ∞ and Start Building Authority</a>
             </div>
@@ -431,7 +435,8 @@ export default function NyraAIReview() {
           {/* Conclusion */}
           <section className="conclusion-section">
             <h2>Conclusion: Is Nyra AI Right for You?</h2>
-            <p>Nyra AI represents a meaningful evolution in how marketing teams approach digital advertising and organic search optimization. It's particularly valuable for:</p>
+            <p>Nyra AI represents a meaningful evolution in how marketing teams approach</p>
+  <p> digital advertising and organic search optimization. It's particularly valuable for:</p>
             <ul>
               <li>E-commerce and D2C businesses managing multiple advertising channels</li>
               <li>SaaS companies balancing paid lead generation with organic search authority</li>

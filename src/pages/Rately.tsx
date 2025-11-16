@@ -252,7 +252,8 @@ export default function RatelyPage(): JSX.Element {
               </p>
               <h3>3) Client version rollouts</h3>
               <p>
-                When a legacy client produces noisy retries, apply header‑based rate limits to that version only, buying your team breathing room while you guide users to upgrade.
+                When a legacy client produces noisy retries, apply header‑based rate limits to</p>
+  <p> that version only, buying your team breathing room while you guide users to upgrade.
               </p>
               <h3>4) Regional throttling</h3>
               <p>

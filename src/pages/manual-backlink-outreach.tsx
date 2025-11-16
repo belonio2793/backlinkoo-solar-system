@@ -35,7 +35,8 @@ const ManualBacklinkOutreach: React.FC = () => {
   
   <h3>Resource Page Link Building</h3>
   <p>Target resource pages that curate lists of helpful links. Manual backlink outreach here involves suggesting your content for inclusion. Search for phrases like "best resources for [niche]" + "inurl:resources."</p>
-  <p>Craft a compelling pitch highlighting why your page deserves a spot. This can yield high-quality dofollow links from educational or industry sites, boosting your overall link building efforts.</p>
+  <p>Craft a compelling pitch highlighting why your page deserves a spot. This can yield high-quality</p>
+  <p> dofollow links from educational or industry sites, boosting your overall link building efforts.</p>
   
   <h3>Skyscraper Technique</h3>
   <p>Popularized by Brian Dean of Backlinko, the skyscraper technique involves finding top-performing content, creating something better, and outreach to sites linking to the original. This manual backlink outreach strategy can dramatically increase your backlink count.</p>
@@ -52,11 +53,13 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>While organic manual backlink outreach is ideal, buying backlinks is a controversial topic. It involves paying for links from other sites, often through marketplaces or agencies. However, Google's guidelines warn against manipulative link schemes, so proceed with caution.</p>
   
   <h3>Pros of Buying Backlinks</h3>
-  <p>Speed: Acquire links faster than manual methods. Scale: Quickly build a diverse link profile. Targeted: Choose high domain authority sites for dofollow links.</p>
+  <p>Speed: Acquire links faster than manual methods. Scale: Quickly build a diverse</p>
+  <p> link profile. Targeted: Choose high domain authority sites for dofollow links.</p>
   <p>According to a SEMrush study, 45% of SEO professionals admit to buying links, and when done right, it can enhance link building efforts.</p>
   
   <h3>Cons of Buying Backlinks</h3>
-  <p>Risks: Potential Google penalties if links appear unnatural. Cost: High-quality links can be expensive. Quality Issues: Many sellers provide spammy links that harm domain authority.</p>
+  <p>Risks: Potential Google penalties if links appear unnatural. Cost: High-quality links can</p>
+  <p> be expensive. Quality Issues: Many sellers provide spammy links that harm domain authority.</p>
   
   <h3>Safe Tips for Buying Backlinks</h3>
   <p>Choose reputable providers like Backlinkoo, which ensures natural-looking, high-quality links. Focus on relevance and diversity. Monitor your link profile with tools like Ahrefs to avoid over-optimization.</p>
@@ -126,7 +129,8 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>Another client, a tech blog, used skyscraper technique and influencer outreach. They gained 80 backlinks, leading to a 60% traffic surge and better SERP positions. Integrating <Link to="/xrumer">XRumer for posting</Link> helped automate follow-ups.</p>
   
   <h3>Case Study 3: Local Business Growth</h3>
-  <p>A local service provider combined resource page outreach with buying safe links. Outcomes: 120 new links, 35% revenue growth from SEO traffic. Domain authority jumped 25 points.</p>
+  <p>A local service provider combined resource page outreach with buying safe links.</p>
+  <p> Outcomes: 120 new links, 35% revenue growth from SEO traffic. Domain authority jumped 25 points.</p>
   
   <p>These cases show how manual backlink outreach, when done right, delivers measurable results. Learn more from <a href="https://www.semrush.com/blog/link-building-case-studies" target="_blank" rel="noopener noreferrer">SEMrush Case Studies</a>.</p>
   
@@ -149,24 +153,14 @@ const ManualBacklinkOutreach: React.FC = () => {
   <p>For official advice, visit <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google Search Central on Link Schemes</a>.</p>
   
   <h2>FAQ: Frequently Asked Questions About Manual Backlink Outreach</h2>
-  <h3>1. What is the difference between manual and automated backlink outreach?</h3>
+<h3>1. What is the difference between manual and automated backlink outreach?</h3>
   <p>Manual involves personalized efforts, while automated uses tools like <Link to="/senuke">SENUKE</Link> for efficiency, but manual ensures higher quality.</p>
-  
   <h3>2. How long does manual backlink outreach take to show results?</h3>
   <p>Typically 3-6 months, depending on effort and niche competitiveness.</p>
-  
   <h3>3. Are dofollow links better than nofollow in manual backlink outreach?</h3>
   <p>Yes, dofollow pass link equity, boosting domain authority more effectively.</p>
-  
-  <h3>4. Can I buy backlinks safely?</h3>
-  <p>Yes, if from reputable sources like Backlinkoo, focusing on natural integration.</p>
-  
   <h3>5. What tools do you recommend for beginners in manual backlink outreach?</h3>
   <p>Start with Ahrefs for analysis and Hunter.io for emails. For advanced, try <Link to="/xrumer">XRumer</Link>.</p>
-  
-  <div class="media">
-    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="faq on manual backlink outreach" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>FAQ infographic (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>

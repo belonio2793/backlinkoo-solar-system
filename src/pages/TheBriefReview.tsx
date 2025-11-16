@@ -141,7 +141,8 @@ export default function TheBriefReview() {
             
             <p>Simultaneously, brands struggle with consistency. Without careful governance, assets become misaligned with brand voice. Localized content loses key messaging. Campaign launches miss optimal timing windows. Performance data gets siloed across tools, making it difficult to identify patterns or optimize future campaigns. The result: marketing teams spend significant time on administrative work instead of strategic thinking.</p>
             
-            <p>The Brief solves this through AI agents that handle the execution—research, creative generation, deployment, and optimization—so human teams can focus on strategy and brand direction.</p>
+            <p>The Brief solves this through AI agents that handle the execution—research, creative</p>
+  <p> generation, deployment, and optimization—so human teams can focus on strategy and brand direction.</p>
           </section>
 
           {/* Section 2: Transformation */}
@@ -168,7 +169,8 @@ export default function TheBriefReview() {
           {/* Section 4: Discover Agent */}
           <section id="discover-agent" className="content-section">
             <h2>Discover Agent: AI-Powered Competitive Intelligence and Research</h2>
-            <p>Every great marketing campaign starts with insight. The Discover Agent automates the research process that traditionally consumes hours of a strategist's time.</p>
+            <p>Every great marketing campaign starts with insight. The Discover Agent</p>
+  <p> automates the research process that traditionally consumes hours of a strategist's time.</p>
 
             <h3>What Discover Agent Does</h3>
             <p>The Discover Agent analyzes the competitive landscape, identifies top-performing campaigns across platforms, decodes the strategies behind those campaigns, and presents insights in a moodboard-style visual interface. Rather than spending days combing through competitors' advertising, a marketer can generate instant competitive intelligence.</p>
@@ -205,7 +207,8 @@ export default function TheBriefReview() {
           {/* Section 6: Launch Agent */}
           <section id="launch-agent" className="content-section">
             <h2>Launch Agent: Multi-Channel Campaign Deployment (Coming Soon)</h2>
-            <p>Once creative is ready, it needs to be deployed across multiple channels. The Launch Agent (currently in development) will automate this critical stage.</p>
+            <p>Once creative is ready, it needs to be deployed across multiple channels.</p>
+  <p> The Launch Agent (currently in development) will automate this critical stage.</p>
 
             <h3>Planned Capabilities</h3>
             <p>The Launch Agent will validate creative against platform specifications, match creatives to audience segments intelligently, recommend optimal launch timing based on historical performance and current competitive activity, handle the technical aspects of campaign setup across Meta, Google, LinkedIn, and other platforms, and manage batch exports in all required formats (MP4, PNG, PDF, GIF, etc.).</p>
@@ -273,7 +276,8 @@ export default function TheBriefReview() {
           {/* Section 10: Security */}
           <section id="security" className="content-section">
             <h2>Enterprise Security & Compliance: Trust at Scale</h2>
-            <p>For enterprise organizations, security and compliance aren't afterthoughts—they're essential requirements. The Brief recognizes this through comprehensive security infrastructure.</p>
+            <p>For enterprise organizations, security and compliance aren't afterthoughts—they're</p>
+  <p> essential requirements. The Brief recognizes this through comprehensive security infrastructure.</p>
 
             <h3>Certifications and Compliance</h3>
             <p>The Brief holds ISO 27001 certification, demonstrating that information security controls meet international standards. The platform is GDPR compliant and CCPA ready, essential for organizations managing customer data across jurisdictions. Single Sign-On (SSO) integration enables enterprises to manage user access through their existing identity systems. Role-based access control ensures different team members see only the data and tools they need. Two-factor authentication (2FA) protects account access. Service Level Agreements (SLAs) guarantee platform availability and performance.</p>
@@ -475,7 +479,8 @@ export default function TheBriefReview() {
               <li>Enterprises requiring security, compliance, and governance infrastructure</li>
             </ul>
             
-            <p>The main limitations: Launch Agent is still in development (though current launch capabilities are functional), and maximizing value requires clear brand definition and comprehensive tool integration.</p>
+            <p>The main limitations: Launch Agent is still in development (though current launch capabilities are</p>
+  <p> functional), and maximizing value requires clear brand definition and comprehensive tool integration.</p>
             
             <p>If your marketing team spends significant time on routine creative tasks, struggles to produce enough asset variations for proper testing, or needs to create localized content across multiple markets, The Brief's proven results (80% faster launches, 40% lower costs, 2X creative output) make it worth evaluating.</p>
             

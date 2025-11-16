@@ -155,25 +155,14 @@ const PodcastGuestingForLinks: React.FC = () => {
   <p>By steering clear of these, you'll maximize your link building ROI. Backlinkoo can help you navigate these challenges expertly.</p>
   
   <h2>FAQ: Podcast Guesting for Links</h2>
-  
-  <h3>1. What is podcast guesting for links?</h3>
+<h3>1. What is podcast guesting for links?</h3>
   <p>It's appearing on podcasts to earn backlinks from show notes or related content, enhancing SEO through natural link building.</p>
-  
   <h3>2. How do I find podcasts for guesting?</h3>
   <p>Use directories like Listen Notes or tools like BuzzSumo to discover niche shows, then pitch with value-driven proposals.</p>
-  
   <h3>3. Are podcast links always dofollow?</h3>
   <p>Not always, but most reputable podcasts provide dofollow links in show notes to boost domain authority.</p>
-  
-  <h3>4. Can I buy podcast guest spots for links?</h3>
-  <p>Yes, but ensure it's ethical. Backlinkoo offers safe options to integrate with your strategy.</p>
-  
   <h3>5. How does podcast guesting improve domain authority?</h3>
   <p>High-quality backlinks from podcasts signal trustworthiness to Google, gradually increasing your site's authority (<a href="https://moz.com/learn/seo/domain-authority" target="_blank" rel="noopener noreferrer">Moz DA Guide</a>).</p>
-  
-  <div class="media">
-    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="faq on podcast guesting for links" width="800" height="400" />
-    <p><em>Infographic: Common FAQs Answered (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Conclusion: Elevate Your SEO with Podcast Guesting for Links</h2>

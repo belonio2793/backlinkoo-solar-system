@@ -156,7 +156,8 @@ export default function PluralPage(): JSX.Element {
               <p>Start with templates for common scenarios—incident response, customer onboarding, content launches—and adapt them to your org. Libraries help teams maintain consistent standards across similar processes.</p>
 
               <h3>Searchable Knowledge Graph</h3>
-              <p>Content is indexed for fast retrieval. Teams can surface playbooks by intent ("how to reset a DB"), by alert type, or by role to minimize time spent searching for answers.</p>
+              <p>Content is indexed for fast retrieval. Teams can surface playbooks by intent ("how to</p>
+  <p> reset a DB"), by alert type, or by role to minimize time spent searching for answers.</p>
 
               <h3>Integrations & Automations</h3>
               <p>Connect playbooks to monitoring, chat, ticketing, and CI/CD systems so steps can trigger actions or pre-populate fields. Automations reduce manual work and keep the playbook context in sync with systems of record.</p>
@@ -165,10 +166,12 @@ export default function PluralPage(): JSX.Element {
               <p>Manage who can run, edit, or publish playbooks. Version history ensures you can roll back to a prior iteration and track changes over time.</p>
 
               <h3>Embedded Checklists & Run Metrics</h3>
-              <p>Capture completion data—who ran a playbook, how long it took, and which steps were skipped. This data powers retrospectives and continuous improvement.</p>
+              <p>Capture completion data—who ran a playbook, how long it took, and which</p>
+  <p> steps were skipped. This data powers retrospectives and continuous improvement.</p>
 
               <h3>Onboarding & Learning Paths</h3>
-              <p>Use playbooks as interactive onboarding guides: new hires can follow playbooks to learn tasks with embedded quizzes and checkpoints to validate understanding.</p>
+              <p>Use playbooks as interactive onboarding guides: new hires can follow playbooks</p>
+  <p> to learn tasks with embedded quizzes and checkpoints to validate understanding.</p>
             </section>
 
             <section id="use-cases">
@@ -178,13 +181,16 @@ export default function PluralPage(): JSX.Element {
               <p>Operations teams keep runbooks for common failure modes—database incidents, server outages, or degraded services. Runnable steps and integrations with alerting systems speed resolution and reduce toil.</p>
 
               <h3>Customer Onboarding & Support</h3>
-              <p>Support and success teams use playbooks to standardize onboarding sequences, troubleshoot common issues, and escalate consistent handoffs to engineering.</p>
+              <p>Support and success teams use playbooks to standardize onboarding sequences,</p>
+  <p> troubleshoot common issues, and escalate consistent handoffs to engineering.</p>
 
               <h3>Product Launches & Campaigns</h3>
-              <p>Marketing and product teams coordinate launches with playbooks that list publication tasks, verification checks, and contingency plans for launch-day issues.</p>
+              <p>Marketing and product teams coordinate launches with playbooks that list</p>
+  <p> publication tasks, verification checks, and contingency plans for launch-day issues.</p>
 
               <h3>Security & Compliance</h3>
-              <p>Security incident workflows and audit procedures benefit from immutable playbooks that record who executed which steps and when for compliance evidence.</p>
+              <p>Security incident workflows and audit procedures benefit from immutable</p>
+  <p> playbooks that record who executed which steps and when for compliance evidence.</p>
 
               <h3>Remote & Distributed Teams</h3>
               <p>For distributed teams, runnable playbooks reduce synchronous coordination and make critical processes discoverable across time zones.</p>
@@ -233,7 +239,8 @@ export default function PluralPage(): JSX.Element {
                 <li><strong>Coverage:</strong> Percentage of critical processes that have runnable playbooks—coverage shows institutionalization of knowledge.</li>
               </ul>
 
-              <p>Collecting these metrics requires instrumentation and tagging of playbook runs, but the resulting insights help justify investment and prioritize playbook creation.</p>
+              <p>Collecting these metrics requires instrumentation and tagging of playbook runs,</p>
+  <p> but the resulting insights help justify investment and prioritize playbook creation.</p>
             </section>
 
             <section id="case-studies">

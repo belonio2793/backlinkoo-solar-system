@@ -367,7 +367,8 @@ export default function HowToBuildBacklinks() {
                     <CardTitle className="text-sm">2. Skyscraper Content</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm">
-                    <p>Find popular, well-linked content in your niche. Create an even better, more comprehensive version. Reach out to sites linking to the original, showing them your improved version.</p>
+                    <p>Find popular, well-linked content in your niche. Create an even better, more</p>
+  <p> comprehensive version. Reach out to sites linking to the original, showing them your improved version.</p>
                     <p className="text-xs text-gray-600 mt-1">Example: Find a popular "SEO guide" linked by 100 sites. Create a 10,000-word advanced guide. Email the 100 linking sites.</p>
                   </CardContent>
                 </Card>
@@ -377,7 +378,8 @@ export default function HowToBuildBacklinks() {
                     <CardTitle className="text-sm">3. Unlinked Brand Mentions</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm">
-                    <p>Monitor brand mentions across the web. Find instances where your brand is mentioned without a link. Reach out asking them to add a link. Many will comply.</p>
+                    <p>Monitor brand mentions across the web. Find instances where your brand is</p>
+  <p> mentioned without a link. Reach out asking them to add a link. Many will comply.</p>
                     <p className="text-xs text-gray-600 mt-1">Example: Find 50 articles mentioning "Backlink Infinity" without linking. Request links.</p>
                   </CardContent>
                 </Card>
@@ -426,7 +428,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="content-marketing" className="scrape-section">
               <h2>Content Marketing as Link Generation</h2>
-              <p>The best link building starts with creating content worth linking to. You can't earn links to mediocre content, but exceptional content attracts links naturally.</p>
+              <p>The best link building starts with creating content worth linking to. You can't</p>
+  <p> earn links to mediocre content, but exceptional content attracts links naturally.</p>
 
               <h3 className="mt-6 font-semibold">Content Types That Attract Links</h3>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">
@@ -442,7 +445,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="outreach" className="scrape-section">
               <h2>Effective Link Outreach Strategy</h2>
-              <p>Creating great content is necessary but not sufficient. You need to actively reach out to potential linking websites to earn their links. This is where strategic outreach makes the difference.</p>
+              <p>Creating great content is necessary but not sufficient. You need to actively reach out to</p>
+  <p> potential linking websites to earn their links. This is where strategic outreach makes the difference.</p>
 
               <h3 className="mt-6 font-semibold">The Outreach Process</h3>
               <div className="space-y-3 text-sm mt-4">
@@ -496,7 +500,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="resource-links" className="scrape-section">
               <h2>Resource Pages and Directories</h2>
-              <p>Resource pages and industry directories are goldmines for link building. These curated lists exist specifically to link to valuable resources, making them perfect targets.</p>
+              <p>Resource pages and industry directories are goldmines for link building. These</p>
+  <p> curated lists exist specifically to link to valuable resources, making them perfect targets.</p>
 
               <h3 className="mt-6 font-semibold">How to Get on Resource Pages</h3>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">
@@ -510,7 +515,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="broken-link" className="scrape-section">
               <h2>Broken Link Building (Advanced)</h2>
-              <p>Broken link building is a high-ROI technique where you find broken links on authority sites, create replacement content, and reach out asking them to link to your content instead.</p>
+              <p>Broken link building is a high-ROI technique where you find broken links on authority</p>
+  <p> sites, create replacement content, and reach out asking them to link to your content instead.</p>
 
               <h3 className="mt-6 font-semibold">The Broken Link Building Process</h3>
               <div className="space-y-3 text-sm mt-4">
@@ -554,7 +560,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="digital-pr" className="scrape-section">
               <h2>Digital PR and Earned Media</h2>
-              <p>Digital PR focuses on earning media coverage, press mentions, and news links through compelling stories, newsjacking, and relationship building with journalists and bloggers.</p>
+              <p>Digital PR focuses on earning media coverage, press mentions, and news links through</p>
+  <p> compelling stories, newsjacking, and relationship building with journalists and bloggers.</p>
 
               <h3 className="mt-6 font-semibold">Digital PR Tactics for Links</h3>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">
@@ -571,7 +578,8 @@ export default function HowToBuildBacklinks() {
 
             <section id="analysis" className="scrape-section">
               <h2>Link Analysis and Competitor Intelligence</h2>
-              <p>Understanding your competitors' backlinks reveals link building opportunities you might miss. Where are your competitors getting links? Can you pursue those same opportunities?</p>
+              <p>Understanding your competitors' backlinks reveals link building opportunities you might</p>
+  <p> miss. Where are your competitors getting links? Can you pursue those same opportunities?</p>
 
               <h3 className="mt-6 font-semibold">Analyzing Competitor Backlinks</h3>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">

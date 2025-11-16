@@ -148,7 +148,8 @@ export default function BeatovenAIPage(): JSX.Element {
             <section id="how-it-works">
               <h2>How AI Music Generation Works (Simplified)</h2>
 
-              <p>AI music systems combine models trained on large datasets of musical pieces with algorithmic arrangements that produce coherent tracks. The workflow typically follows these steps:</p>
+              <p>AI music systems combine models trained on large datasets of musical pieces with</p>
+  <p> algorithmic arrangements that produce coherent tracks. The workflow typically follows these steps:</p>
               <ol>
                 <li><strong>Input parameters:</strong> Creator selects mood, tempo (BPM), length, and style. Some systems allow uploading reference tracks or specifying instrumentation.</li>
                 <li><strong>Generation:</strong> The model composes a base track, constructing melodic and harmonic elements and arranging instruments based on style constraints.</li>
@@ -163,10 +164,12 @@ export default function BeatovenAIPage(): JSX.Element {
               <h2>Primary Use Cases for Beatoven.ai</h2>
 
               <h3>Video creators & filmmakers</h3>
-              <p>Custom scores for YouTube videos, short films, and social content. Beatoven.ai enables producers to match music to scene tone, edit length to sync with cuts, and export stems for mixing with dialogue.</p>
+              <p>Custom scores for YouTube videos, short films, and social content. Beatoven.ai enables producers to</p>
+  <p> match music to scene tone, edit length to sync with cuts, and export stems for mixing with dialogue.</p>
 
               <h3>Podcasts & audio storytelling</h3>
-              <p>Generate theme music, transition stings, and background ambiances tailored to episode tone. Licensing ensures creators can monetize episodes without music rights hassles.</p>
+              <p>Generate theme music, transition stings, and background ambiances tailored to episode</p>
+  <p> tone. Licensing ensures creators can monetize episodes without music rights hassles.</p>
 
               <h3>Ads & marketing</h3>
               <p>Create upbeat or emotional tracks for ads that align precisely with campaign timing, brand voice, and platform constraints.</p>
@@ -190,7 +193,8 @@ export default function BeatovenAIPage(): JSX.Element {
                 <li><strong>Export with license:</strong> Export final stems and mixes in required formats (WAV/MP3) and include licensing metadata for distribution.</li>
               </ol>
 
-              <p>For teams, integrating Beatoven.ai into the production pipeline with asset management and version control reduces rework and ensures consistent sound across releases.</p>
+              <p>For teams, integrating Beatoven.ai into the production pipeline with asset</p>
+  <p> management and version control reduces rework and ensures consistent sound across releases.</p>
             </section>
 
             <section id="quality-and-limitations">
@@ -217,7 +221,8 @@ export default function BeatovenAIPage(): JSX.Element {
                 <li>Check publishing platforms: streaming services and ad platforms may have specific requirements for music rights.</li>
               </ol>
 
-              <p>Beatoven.ai and similar services typically provide clear licensing tiers. For high-budget commercial uses, consider bespoke composer work or exclusive licensing if needed.</p>
+              <p>Beatoven.ai and similar services typically provide clear licensing tiers. For</p>
+  <p> high-budget commercial uses, consider bespoke composer work or exclusive licensing if needed.</p>
             </section>
 
             <section id="comparison">

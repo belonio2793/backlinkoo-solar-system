@@ -170,7 +170,8 @@ function InlineExpandedGuide() {
 
       <section>
         <h4>Monitoring & Measurement</h4>
-        <p>Instrument landing pages and Hubs with event tracking, server logs, and periodic crawl validation to detect regressions caused by content changes or external policy updates.</p>
+        <p>Instrument landing pages and Hubs with event tracking, server logs, and periodic crawl</p>
+  <p> validation to detect regressions caused by content changes or external policy updates.</p>
       </section>
     </div>
   );
@@ -435,7 +436,8 @@ export default function Senuke() {
                   <TabsTrigger value="internal">Internal Links</TabsTrigger>
                 </TabsList>
                 <TabsContent value="prospecting">
-                  <p>Automate the boring parts: dedupe harvested lists, enrich with titles and contact pages, classify topics, and surface the best editorial matches for human outreach.</p>
+                  <p>Automate the boring parts: dedupe harvested lists, enrich with titles and contact</p>
+  <p> pages, classify topics, and surface the best editorial matches for human outreach.</p>
                   <ul className="mt-3 grid grid-cols-1 gap-2 not-prose">
                     <li className="flex items-center gap-2"><ListChecks className="h-4 w-4 text-indigo-600"/> De‑dupe & enrich leads</li>
                     <li className="flex items-center gap-2"><ListChecks className="h-4 w-4 text-indigo-600"/> Topic & tech stack classification</li>
@@ -476,7 +478,8 @@ export default function Senuke() {
 
             <section id="auditing" className="scrape-section">
               <h2>Auditing & Validation</h2>
-              <p>Automation is powerful when it highlights issues for humans to fix: duplicate titles, orphan pages, slow templates, and ambiguous internal anchors. Measure, prioritize, and iterate—no shortcuts.</p>
+              <p>Automation is powerful when it highlights issues for humans to fix: duplicate titles, orphan</p>
+  <p> pages, slow templates, and ambiguous internal anchors. Measure, prioritize, and iterate—no shortcuts.</p>
             </section>
 
             <section id="ethics" className="scrape-section">
@@ -497,7 +500,8 @@ export default function Senuke() {
                 </Card>
                 <Card>
                   <CardHeader><CardTitle>Local Services</CardTitle></CardHeader>
-                  <CardContent><p>A service brand consolidates scattered pages into well‑structured city hubs, adds FAQ schema, and earns citations from real partners. Indexation rates improve and leads increase month‑over‑month.</p></CardContent>
+                  <CardContent><p>A service brand consolidates scattered pages into well‑structured city hubs, adds FAQ schema, and</p>
+  <p> earns citations from real partners. Indexation rates improve and leads increase month‑over‑month.</p></CardContent>
                 </Card>
               </div>
             </section>

@@ -156,19 +156,23 @@ export default function StencilBySuperhandsPage(): JSX.Element {
               <p>Define your brand tokens—colors, type, spacing, logo usage—and build templates that enforce brand rules automatically. When AI generates variants, they are automatically adapted to these templates to ensure consistency across assets.</p>
 
               <h3>Human-in-the-Loop Review</h3>
-              <p>Every generated asset passes through a review queue where designers or brand stewards can accept, tweak, or reject items. This review step preserves quality and ensures sensitive messaging is vetted.</p>
+              <p>Every generated asset passes through a review queue where designers or brand stewards can accept,</p>
+  <p> tweak, or reject items. This review step preserves quality and ensures sensitive messaging is vetted.</p>
 
               <h2>Production Handoff & Exports</h2>
               <p>Export assets in production-ready formats or push them directly to scheduling and publishing systems. Stencil supports layered exports for advanced finishing or flattened files ready for immediate upload.</p>
 
               <h3>Campaign Bundles & Versioning</h3>
-              <p>Create grouped campaign bundles with multiple variants for A/B testing. Versioning keeps history of iterations and allows rollbacks to earlier creative directions.</p>
+              <p>Create grouped campaign bundles with multiple variants for A/B testing.</p>
+  <p> Versioning keeps history of iterations and allows rollbacks to earlier creative directions.</p>
 
               <h3>Workflow Automation & Approvals</h3>
-              <p>Automate approvals, stakeholder notifications, and direct uploads to ad platforms or content schedulers. Define gates so legal, compliance, or brand teams can sign off before publishing.</p>
+              <p>Automate approvals, stakeholder notifications, and direct uploads to ad platforms or content</p>
+  <p> schedulers. Define gates so legal, compliance, or brand teams can sign off before publishing.</p>
 
               <h3>Performance Insights</h3>
-              <p>Track creative performance metrics and surface which templates or AI prompts produce the best engagement—feeding back into the system to inform future generation.</p>
+              <p>Track creative performance metrics and surface which templates or AI prompts</p>
+  <p> produce the best engagement—feeding back into the system to inform future generation.</p>
             </section>
 
             <section id="workflows">
@@ -206,7 +210,8 @@ export default function StencilBySuperhandsPage(): JSX.Element {
               <p>Teams with limited headcount produce volume creative quickly while maintaining brand consistency through templates and review rules.</p>
 
               <h2>Agencies and studios</h2>
-              <p>Agencies use Stencil to scale deliverables across clients with repeatable templates and streamlined approvals, allowing junior designers to execute at scale while senior staff focus on strategy.</p>
+              <p>Agencies use Stencil to scale deliverables across clients with repeatable templates and</p>
+  <p> streamlined approvals, allowing junior designers to execute at scale while senior staff focus on strategy.</p>
 
               <h3>Performance marketers</h3>
               <p>Marketers iterate creative for ads and quickly produce multiformat variants for A/B testing and campaign optimization.</p>

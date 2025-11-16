@@ -206,11 +206,13 @@ export default function FreshlySqueezed() {
                 </p>
                 <h3>3) Deep Dives with Context</h3>
                 <p>
-                  Some links deserve more context. Use editorial notes to cite key quotes, risks, or metrics, and elevate your take from aggregation to analysis.
+                  Some links deserve more context. Use editorial notes to cite key</p>
+  <p> quotes, risks, or metrics, and elevate your take from aggregation to analysis.
                 </p>
                 <h3>4) Jobs, Tools, and Events Sections</h3>
                 <p>
-                  Recurring sections convert well because readers know what to expect. Templates save time and reinforce your brand’s structure every issue.
+                  Recurring sections convert well because readers know what to expect.</p>
+  <p> Templates save time and reinforce your brand’s structure every issue.
                 </p>
               </section>
 
@@ -249,7 +251,8 @@ export default function FreshlySqueezed() {
                   "Freshly Squeezed let us ship our weekly digest in hours, not days—our open rates climbed because structure improved and readers knew exactly where to find the good stuff."
                 </p>
                 <p>
-                  "The summaries are concise and on‑brand. It keeps our editorial voice consistent while letting researchers contribute quickly."
+                  "The summaries are concise and on‑brand. It keeps our</p>
+  <p> editorial voice consistent while letting researchers contribute quickly."
                 </p>
                 <p>
                   "Templates for sections like Jobs and Tools removed the last‑mile formatting we used to dread."
@@ -308,7 +311,8 @@ export default function FreshlySqueezed() {
                 </p>
                 <h3>Step 5: Add Editorial Personality</h3>
                 <p>
-                  Brief notes, informed caveats, and relevant comparisons make your digest feel authored—not aggregated. Your voice is a feature, not an afterthought.
+                  Brief notes, informed caveats, and relevant comparisons make your digest</p>
+  <p> feel authored—not aggregated. Your voice is a feature, not an afterthought.
                 </p>
               </section>
 
@@ -416,7 +420,8 @@ export default function FreshlySqueezed() {
                   A marketing team condensed a 12‑tab research ritual into a single hour by tagging daily and templating sections. Their web archives began ranking for tool‑comparison terms within three months due to consistent formatting and internal linking.
                 </p>
                 <p>
-                  An indie creator improved click‑through 28% by rewriting item intros to foreground reader intent and by removing low‑yield sections that cluttered each issue.
+                  An indie creator improved click‑through 28% by rewriting item intros to</p>
+  <p> foreground reader intent and by removing low‑yield sections that cluttered each issue.
                 </p>
               </section>
 
@@ -452,7 +457,8 @@ export default function FreshlySqueezed() {
               <section id="cta" className="mt-16">
                 <h2>Get More Traffic with Authoritative Backlinks</h2>
                 <p>
-                  Ready to grow your newsletter site’s search visibility? Register for Backlink ∞ to plan, buy, and manage high‑quality backlinks that compound your organic growth.
+                  Ready to grow your newsletter site’s search visibility? Register for Backlink ∞</p>
+  <p> to plan, buy, and manage high‑quality backlinks that compound your organic growth.
                 </p>
                 <p>
                   <a href="https://backlinkoo.com/register" className="underline text-violet-300 hover:text-violet-200" rel="nofollow noopener" target="_blank">

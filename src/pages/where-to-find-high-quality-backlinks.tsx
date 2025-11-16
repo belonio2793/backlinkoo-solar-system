@@ -40,7 +40,8 @@ const WhereToFindHighQualityBacklinks: React.FC = () => {
   <p>While organic methods are ideal, buying backlinks can accelerate your link building efforts. However, it's a gray area in SEO, and Google discourages it if it violates their guidelines. Let's weigh the pros and cons and discuss how to do it safely.</p>
 
   <h3>Pros of Buying Backlinks</h3>
-  <p>Speed: You can quickly acquire high quality backlinks from established sites. Control: Choose exact anchor text and placement. Scalability: Ideal for large campaigns.</p>
+  <p>Speed: You can quickly acquire high quality backlinks from established sites.</p>
+  <p> Control: Choose exact anchor text and placement. Scalability: Ideal for large campaigns.</p>
 
   <h3>Cons of Buying Backlinks</h3>
   <p>Risks: Potential penalties if links are spammy. Cost: High quality ones aren't cheap. Quality Control: Not all sellers deliver on promises.</p>

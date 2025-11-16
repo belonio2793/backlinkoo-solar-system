@@ -126,18 +126,15 @@ const DirectorySubmissionLinkBuilding: React.FC = () => {
     <p>Avoid these, and your strategy will thrive. For guidance, Backlinkoo offers audits to refine your approach.</p>
     
     <h2>FAQ: Directory Submission Link Building</h2>
-    <h3>What is the difference between dofollow and nofollow links in directory submissions?</h3>
+<h3>What is the difference between dofollow and nofollow links in directory submissions?</h3>
     <p>Dofollow links pass SEO value, while nofollow ones don't but can still drive traffic. Prioritize dofollow for directory submission link building.</p>
-    <h3>How many directory submissions should I do per month?</h3>
+  <h3>How many directory submissions should I do per month?</h3>
     <p>Aim for 20-50 quality submissions to avoid looking spammy. Quality over quantity is key.</p>
-    <h3>Is directory submission still effective in 2023?</h3>
+  <h3>Is directory submission still effective in 2023?</h3>
     <p>Yes, when done right. Google's updates favor high-quality links, so reputable directories remain valuable.</p>
-    <h3>Can I use automation tools for directory submissions?</h3>
-    <p>Absolutely. Tools like <Link to="/senuke">SENUKE</Link> automate safely, but combine with manual efforts.</p>
-    <h3>How does Backlinkoo help with directory submission link building?</h3>
+  <h3>How does Backlinkoo help with directory submission link building?</h3>
     <p>We provide expert services, from directory selection to submission, ensuring high-DA dofollow links. Contact us for a free consultation.</p>
-    
-    <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
+  <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Directory submission link building is a proven method to enhance domain authority and drive traffic. Backed by stats from Ahrefs (e.g., top-ranking pages have 3.8x more backlinks) and Moz, this strategy, when executed expertly, yields results. At Backlinkoo, our team of SEO specialists brings years of experience to help you succeed. Ready to boost your link building? Explore our services today.</p>
     <p>For further reading: <a href="https://ahrefs.com/blog/directory-link-building" target="_blank" rel="noopener noreferrer">Ahrefs on Link Building</a>, <a href="https://moz.com/learn/seo/backlinks" target="_blank" rel="noopener noreferrer">Moz Backlinks Guide</a>, <a href="https://developers.google.com/search/docs/advanced/guidelines/link-schemes" target="_blank" rel="noopener noreferrer">Google on Link Schemes</a>, <a href="https://www.semrush.com/blog/link-building/" target="_blank" rel="noopener noreferrer">SEMrush Link Building Tips</a>, <a href="https://backlinko.com/link-building" target="_blank" rel="noopener noreferrer">Backlinko Strategies</a>.</p>
     

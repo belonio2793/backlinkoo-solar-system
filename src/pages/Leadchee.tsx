@@ -157,7 +157,8 @@ export default function LeadcheePage(): JSX.Element {
               <p>Leadchee employs lightweight AI to surface intent signals in incoming messages. Tags such as "Interested in pricing", "Feature question", or "Partnership opportunity" help prioritize follow-ups. These insights are exposed next to each lead to guide action and reduce guesswork.</p>
 
               <h3>Customizable Pipelines & Kanban Boards</h3>
-              <p>Visual pipelines let teams track deals with drag-and-drop simplicity. Each board can be tailored with custom stages, automations, and shared with stakeholders so progress is transparent.</p>
+              <p>Visual pipelines let teams track deals with drag-and-drop simplicity. Each board can be</p>
+  <p> tailored with custom stages, automations, and shared with stakeholders so progress is transparent.</p>
 
               <h2>Built-in Calling & Call Logging</h2>
               <p>Leadchee includes integrated calling with call recording and automatic logging. Make international calls from the platform, view a call history on each lead, and attach notes to preserve conversational context.</p>
@@ -166,10 +167,12 @@ export default function LeadcheePage(): JSX.Element {
               <p>Create professional proposals quickly with templates, attach pricing, and send tracked documents to prospects. Leadchee shows proposal views and acceptance status so teams can follow up at the right moment.</p>
 
               <h3>Contact & Company Management</h3>
-              <p>Maintain a centralized view of people and companies, with relationship histories, roles, and communication timelines. This is essential for teams managing multiple stakeholders per deal.</p>
+              <p>Maintain a centralized view of people and companies, with relationship histories, roles, and</p>
+  <p> communication timelines. This is essential for teams managing multiple stakeholders per deal.</p>
 
               <h3>Integrations & Exports</h3>
-              <p>Sync contacts with popular tools, export CSVs for reporting, and connect to Zapier or webhooks to automate downstream workflows like invoicing or marketing automation.</p>
+              <p>Sync contacts with popular tools, export CSVs for reporting, and connect to Zapier</p>
+  <p> or webhooks to automate downstream workflows like invoicing or marketing automation.</p>
 
               <h2>Simple Pricing & Transparent Limits</h2>
               <p>Leadchee favors straightforward pricing models — typically a flat per-user price with generous features included to avoid surprises for scaling teams.</p>
@@ -187,7 +190,8 @@ export default function LeadcheePage(): JSX.Element {
                 <li><strong>Close & onboard:</strong> After proposal acceptance, transition the lead to a customer record, export necessary info for billing, and hand off to operations.</li>
               </ol>
 
-              <p>The system is intentionally opinionated: it automates the common steps and keeps advanced customizations optional, so teams stay focused on driving revenue rather than configuring complex rules.</p>
+              <p>The system is intentionally opinionated: it automates the common steps and keeps advanced</p>
+  <p> customizations optional, so teams stay focused on driving revenue rather than configuring complex rules.</p>
             </section>
 
             <section id="use-cases">
@@ -197,13 +201,16 @@ export default function LeadcheePage(): JSX.Element {
               <p>Founders who handle customer conversations personally benefit from Leadchee’s auto-capture and AI prioritization. It reduces administrative overhead and helps founders focus on high-value conversations.</p>
 
               <h3>Consultants & Freelancers</h3>
-              <p>Consultants who respond to inbound inquiries can centralize leads, send proposals, and keep track of follow-ups without juggling spreadsheets and multiple apps.</p>
+              <p>Consultants who respond to inbound inquiries can centralize leads, send</p>
+  <p> proposals, and keep track of follow-ups without juggling spreadsheets and multiple apps.</p>
 
               <h3>Seed-Stage Sales Teams</h3>
-              <p>Early-stage sales teams that need structure without bloat find Leadchee’s pipelines and proposal tools helpful for establishing repeatable processes quickly.</p>
+              <p>Early-stage sales teams that need structure without bloat find Leadchee’s</p>
+  <p> pipelines and proposal tools helpful for establishing repeatable processes quickly.</p>
 
               <h2>Customer Success & Account Management</h2>
-              <p>Leadchee’s contact timelines and call logs provide a concise history for CSMs to manage renewals and upsells, ensuring no context is lost between handoffs.</p>
+              <p>Leadchee’s contact timelines and call logs provide a concise history for CSMs</p>
+  <p> to manage renewals and upsells, ensuring no context is lost between handoffs.</p>
             </section>
 
             <section id="workflow">

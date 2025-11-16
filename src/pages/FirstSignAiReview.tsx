@@ -348,7 +348,8 @@ export default function FirstSignAiReview(): JSX.Element {
 
           <h3>How do I improve accuracy for my users?</h3>
           <p>
-            Collect labeled examples that match the demographics and environments of your users, tune confidence thresholds, and include a
+            Collect labeled examples that match the demographics and environments of your users,</p>
+  <p> tune confidence thresholds, and include a
             human fallback for critical flows.
           </p>
         </section>
@@ -362,7 +363,8 @@ export default function FirstSignAiReview(): JSX.Element {
           </p>
 
           <p>
-            The projects success depended on careful data collection, clear privacy notices to parents, and a mixed workflow where the
+            The projects success depended on careful data collection, clear privacy notices to</p>
+  <p> parents, and a mixed workflow where the
             teacher validated low-confidence cases.
           </p>
         </section>

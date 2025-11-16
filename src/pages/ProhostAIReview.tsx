@@ -197,7 +197,8 @@ export default function ProhostAIReview() {
           {/* Section 6: Upsell Optimization */}
           <section id="upsell-optimization" className="content-section">
             <h2>Smart Upsell Optimization: Maximizing Revenue Per Guest</h2>
-            <p>Revenue optimization separates profitable rental operations from barely-surviving ones. ProhostAI identifies and pursues revenue opportunities automatically.</p>
+            <p>Revenue optimization separates profitable rental operations from</p>
+  <p> barely-surviving ones. ProhostAI identifies and pursues revenue opportunities automatically.</p>
 
             <h3>Gap Night Detection</h3>
             <p>The platform analyzes your booking calendar and identifies "gap nights"—nights between bookings where the property sits empty. Rather than accepting these gaps as inevitable, ProhostAI automatically identifies guests who stayed before or browsed your property but didn't book, then sends personalized offers to fill those gaps. A guest who stayed three months ago and left a great review receives an offer: "We'd love to have you back! We have March 15-18 available at a special rate for returning guests."</p>
@@ -291,7 +292,8 @@ export default function ProhostAIReview() {
             <p>By automating communication and task management, ProhostAI ensures consistency. Every guest receives timely, thoughtful responses. Every maintenance issue gets captured and tracked. Every revenue opportunity gets identified. This consistency improves both guest satisfaction (reflected in reviews) and operational efficiency.</p>
 
             <h3>Revenue Improvement</h3>
-            <p>Upsell optimization and gap-night detection generate additional revenue. Hosts report 5-15% revenue increases through automated upselling, varying based on market conditions and property type.</p>
+            <p>Upsell optimization and gap-night detection generate additional revenue. Hosts report 5-15%</p>
+  <p> revenue increases through automated upselling, varying based on market conditions and property type.</p>
 
             <h2>Reduced Response Time</h2>
             <p>AI-drafted responses enable faster reply times. Rather than guests waiting hours for a response while the host catches up on messaging, AI can respond in seconds (after host approval for high-value conversations). Faster response times improve guest satisfaction and reduce booking cancellations.</p>
@@ -342,7 +344,8 @@ export default function ProhostAIReview() {
               <p className="testimonial-attribution">— Property Manager, Portfolio Owner</p>
             </div>
 
-            <p>These testimonials highlight the core value: time savings, operational consistency, and maintained quality. Users appreciate that the AI feels natural and doesn't sacrifice their unique hosting voice.</p>
+            <p>These testimonials highlight the core value: time savings, operational consistency, and maintained</p>
+  <p> quality. Users appreciate that the AI feels natural and doesn't sacrifice their unique hosting voice.</p>
           </section>
 
           {/* Section 14: Pros and Cons */}
@@ -377,10 +380,12 @@ export default function ProhostAIReview() {
             <h2>Getting Started with ProhostAI: Implementation Guide</h2>
 
             <h2>Step 1: Sign Up for Free Trial</h2>
-            <p>Begin with the 30-day free trial. No credit card required, no commitment. This gives you a full month to evaluate the platform with your actual properties and guests.</p>
+            <p>Begin with the 30-day free trial. No credit card required, no commitment. This</p>
+  <p> gives you a full month to evaluate the platform with your actual properties and guests.</p>
 
             <h3>Step 2: Connect Your Listing Platform</h3>
-            <p>Connect your Airbnb, Hostaway, or Guesty account. ProhostAI uses OAuth authentication, so you're not sharing passwords. Permission approval takes 2-3 minutes.</p>
+            <p>Connect your Airbnb, Hostaway, or Guesty account. ProhostAI uses OAuth</p>
+  <p> authentication, so you're not sharing passwords. Permission approval takes 2-3 minutes.</p>
 
             <h3>Step 3: Build Your AI Memory</h3>
             <p>Provide your house rules, property manual, house guidelines, and communication preferences. The more complete this information, the better the AI performs. Spend 30-60 minutes documenting what you want the AI to know about your property and hosting style.</p>
@@ -419,17 +424,20 @@ export default function ProhostAIReview() {
 
             <div className="faq-item">
               <h3>Can I use ProhostAI for multiple properties with different brands?</h3>
-              <p>Absolutely. You can configure separate AI profiles for different properties, each with unique voice and house rules. The system manages multiple distinct properties without confusion.</p>
+              <p>Absolutely. You can configure separate AI profiles for different properties, each with</p>
+  <p> unique voice and house rules. The system manages multiple distinct properties without confusion.</p>
             </div>
 
             <div className="faq-item">
               <h3>What if my property management changes platforms?</h3>
-              <p>ProhostAI integrates with multiple platforms. If you switch from Airbnb to Hostaway or add new platforms, you can connect them. Your AI profile and settings transfer across platforms.</p>
+              <p>ProhostAI integrates with multiple platforms. If you switch from Airbnb to Hostaway or add</p>
+  <p> new platforms, you can connect them. Your AI profile and settings transfer across platforms.</p>
             </div>
 
             <div className="faq-item">
               <h2>Does ProhostAI share my guest data?</h2>
-              <p>No. Guest data is used only to optimize your property management and communication. The company maintains privacy by default and complies with relevant data protection regulations.</p>
+              <p>No. Guest data is used only to optimize your property management and communication. The</p>
+  <p> company maintains privacy by default and complies with relevant data protection regulations.</p>
             </div>
           </section>
 

@@ -180,7 +180,8 @@ export default function LaunchiePage(): JSX.Element {
             <section id="roles">
               <h2>Roles & Responsibilities</h2>
 
-              <p>Successful launches depend on clear role definitions and accountability. A recommended RACI (Responsible, Accountable, Consulted, Informed) breakdown clarifies ownership.</p>
+              <p>Successful launches depend on clear role definitions and accountability. A</p>
+  <p> recommended RACI (Responsible, Accountable, Consulted, Informed) breakdown clarifies ownership.</p>
 
               <h3>Core Roles</h3>
               <ul>
@@ -198,7 +199,8 @@ export default function LaunchiePage(): JSX.Element {
             <section id="playbooks">
               <h2>Go-to-Market Playbooks</h2>
 
-              <p>Launchie encourages teams to use playbooks — repeatable sequences of actions tailored to different launch types (beta, major, minor, regional). Below are condensed playbooks you can adapt.</p>
+              <p>Launchie encourages teams to use playbooks — repeatable sequences of actions tailored to</p>
+  <p> different launch types (beta, major, minor, regional). Below are condensed playbooks you can adapt.</p>
 
               <h3>Beta Launch Playbook</h3>
               <ol>

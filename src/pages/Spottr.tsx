@@ -150,13 +150,16 @@ export default function SpottrPage(): JSX.Element {
               <h2>Key Features</h2>
 
               <h3>Full-Video Indexing</h3>
-              <p>Spottr processes video files, extracts frames, and indexes recognized elements. This creates a searchable catalog of moments that can be queried by keywords or tags.</p>
+              <p>Spottr processes video files, extracts frames, and indexes recognized elements.</p>
+  <p> This creates a searchable catalog of moments that can be queried by keywords or tags.</p>
 
               <h3>Object & Text Detection</h3>
-              <p>Spottr’s models identify common objects and readable text (OCR) in scenes — from vehicles and logos to on-screen captions — enabling precise searches like "Toyota Camry" or a specific serial number.</p>
+              <p>Spottr’s models identify common objects and readable text (OCR) in scenes — from vehicles and logos</p>
+  <p> to on-screen captions — enabling precise searches like "Toyota Camry" or a specific serial number.</p>
 
               <h3>Natural-Language Search</h3>
-              <p>Search with natural language queries and receive ranked results with timestamps and preview thumbnails. The interface is designed to be familiar to text search users while tuned for visual relevance.</p>
+              <p>Search with natural language queries and receive ranked results with timestamps and preview</p>
+  <p> thumbnails. The interface is designed to be familiar to text search users while tuned for visual relevance.</p>
 
               <h3>Timestamps & Clips Export</h3>
               <p>Export found moments as timestamped clips or CSV timelines, which can be used in editing timelines, legal exhibits, or reporting workflows.</p>
@@ -165,7 +168,8 @@ export default function SpottrPage(): JSX.Element {
               <p>Upload folders of footage and let Spottr process them in the background, making large libraries searchable without manual tagging.</p>
 
               <h3>Privacy & Local Options</h3>
-              <p>Depending on the offering, Spottr can process footage in the cloud for scale or offer local/edge processing for privacy-sensitive scenarios where footage cannot leave the premises.</p>
+              <p>Depending on the offering, Spottr can process footage in the cloud for scale or offer</p>
+  <p> local/edge processing for privacy-sensitive scenarios where footage cannot leave the premises.</p>
             </section>
 
             <section id="how-it-works">
@@ -180,7 +184,8 @@ export default function SpottrPage(): JSX.Element {
                 <li><strong>Export & integrate:</strong> Selected moments can be exported as clips, annotations, or timeline CSVs for downstream tools.</li>
               </ol>
 
-              <p>Quality and recall depend on model selection, sampling rates, and processing budgets — higher sample density and more advanced models increase detection fidelity at the cost of compute and time.</p>
+              <p>Quality and recall depend on model selection, sampling rates, and processing budgets — higher</p>
+  <p> sample density and more advanced models increase detection fidelity at the cost of compute and time.</p>
             </section>
 
             <section id="use-cases">
@@ -231,7 +236,8 @@ export default function SpottrPage(): JSX.Element {
 
               <p>Spottr’s pricing models typically reflect processing costs: pay-per-minute or subscription plans with included indexing hours. Factors that influence cost include sample rate, model complexity, retention duration, and whether processing happens in the cloud or locally.</p>
 
-              <p>Lower tiers are suited for occasional search tasks or small teams, while enterprise plans include higher throughput, on-premise options, and SLAs for critical workflows.</p>
+              <p>Lower tiers are suited for occasional search tasks or small teams, while enterprise</p>
+  <p> plans include higher throughput, on-premise options, and SLAs for critical workflows.</p>
             </section>
 
             <section id="case-studies">
@@ -285,7 +291,8 @@ export default function SpottrPage(): JSX.Element {
                 <li><strong>Model bias:</strong> Detection models have strengths and weaknesses depending on training data — validate results and corroborate with multiple sources for critical cases.</li>
               </ul>
 
-              <p>For high-stakes use (e.g., legal evidence), treat Spottr as a discovery and prioritization tool rather than the final authoritative source — combine automated search with human review.</p>
+              <p>For high-stakes use (e.g., legal evidence), treat Spottr as a discovery and prioritization</p>
+  <p> tool rather than the final authoritative source — combine automated search with human review.</p>
             </section>
 
             <section id="best-practices">

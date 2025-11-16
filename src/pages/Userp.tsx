@@ -214,7 +214,8 @@ export default function Userp() {
 
             <section id="benchmarks" className="up-section"><h2>Performance Benchmarks</h2><p>When paired with strong on-page assets, uSERP placements have driven meaningful organic gains for clients in case samples: median organic traffic uplift of 32% after 6 months and indexation rates averaging 80–90% for mid-tier hosts.</p></section>
 
-            <section id="ux" className="up-section"><h2>User Experience & Workflow</h2><p>Projected workflows include briefing, draft review, placement monitoring, and reporting. Build a one-page brief template to standardize orders and speed approvals.</p></section>
+            <section id="ux" className="up-section"><h2>User Experience & Workflow</h2><p>Projected workflows include briefing, draft review, placement monitoring, and</p>
+  <p> reporting. Build a one-page brief template to standardize orders and speed approvals.</p></section>
 
             <section id="proscons" className="up-section"><h2>Pros & Cons</h2><div className="up-grid"><div><h3>Pros</h3><ul><li>Predictable fulfillment and clear menus</li><li>Good throughput for agencies</li><li>White-label reporting options</li></ul></div><div><h3>Cons</h3><ul><li>Quality variance at scale</li><li>Top-tier editorial placements may need bespoke outreach</li><li>Requires internal QA to maintain brand voice</li></ul></div></div></section>
 
@@ -248,7 +249,8 @@ export default function Userp() {
                 <p>Client profile: Niche e‑commerce retailer with several product verticals competing in crowded SERPs.</p>
                 <p>Execution: The brand invested in a sequence of 30 mid-tier guest posts and 50 niche edits focused on category pages and buyer’s guides. The placements were staggered over nine months to avoid sudden spikes in referring domains. The team also improved internal linking from category pages to product detail pages and ran CRO experiments on highest-traffic landing pages.</p>
                 <p>Outcomes (objective): Category-level organic traffic increased 48% over nine months, with several money-keywords improving by 6–12 positions. Assisted conversions attributed to the campaign rose by 18% in 90 days. The staggered delivery minimized algorithmic attention and appeared more 'natural' in backlink velocity tracking tools.</p>
-                <p>Key takeaway: For transactional sites, coordinate placement velocity with CRO and internal linking so links are ready to convert traffic when it arrives.</p>
+                <p>Key takeaway: For transactional sites, coordinate placement velocity with</p>
+  <p> CRO and internal linking so links are ready to convert traffic when it arrives.</p>
 
                 <h3>Composite Testimonials (Paraphrased)</h3>
                 <blockquote>"uSERP lets us scale without losing predictable delivery. Our operations team treats it as a fulfillment lane and we reserve bespoke outreach for enterprise storytelling."</blockquote>
@@ -384,7 +386,8 @@ export default function Userp() {
                 </ol>
 
                 <h3>Implementation Timeline & Resourcing</h3>
-                <p>A high-performing program requires three roles: Campaign Owner (strategy), Content Reviewer (QA), and Analytics Lead (measurements). A typical timeline for a 6-month pilot:</p>
+                <p>A high-performing program requires three roles: Campaign Owner (strategy), Content</p>
+  <p> Reviewer (QA), and Analytics Lead (measurements). A typical timeline for a 6-month pilot:</p>
                 <ul>
                   <li>Week 0: Audit & brief finalization</li>
                   <li>Week 1–2: Landing page readiness & asset creation</li>

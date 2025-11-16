@@ -109,7 +109,7 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Let's look at practical examples to see backlink negotiation scripts in action.</p>
     
     <h2>Case Study 1: E-commerce Site Boost</h2>
-    <p>An online store used our scripts for guest posting on fashion blogs. Result: 15 dofollow links from DA 40+ sites, increasing organic traffic by 25% in 3 months (fake stats for illustration). They leveraged <a href="/senuke">SENUKE</a> for automation.</p>
+    <p>An online store used our scripts for guest posting on fashion blogs. Result: 15 dofollow links from DA 40+ sites, increasing organic traffic by 25% in 3 months (fake stats for illustration). They leveraged <a >SENUKE</a> for automation.</p>
     
     <h3>Case Study 2: Tech Blog Expansion</h3>
     <p>A tech blog employed broken link scripts, securing 20 links. Domain authority rose from 35 to 50, with a 40% traffic uplift (fake stats). XRumer helped in posting follow-ups.</p>

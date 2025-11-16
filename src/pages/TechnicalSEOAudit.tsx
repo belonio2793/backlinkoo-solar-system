@@ -597,7 +597,8 @@ export default function TechnicalSEOAudit() {
 
             <section id="checklist" className="scrape-section">
               <h2>Complete Technical SEO Audit Checklist</h2>
-              <p>Use this comprehensive checklist to evaluate your site's technical SEO foundation. Score each item as Pass/Fail/Needs Work, then prioritize fixes based on impact and effort.</p>
+              <p>Use this comprehensive checklist to evaluate your site's technical SEO foundation.</p>
+  <p> Score each item as Pass/Fail/Needs Work, then prioritize fixes based on impact and effort.</p>
 
               <div className="space-y-6 mt-6">
                 <div>
@@ -796,7 +797,8 @@ export default function TechnicalSEOAudit() {
 
             <section id="monitoring" className="scrape-section">
               <h2>Ongoing Technical SEO Monitoring</h2>
-              <p>A one-time audit is insufficient. Technical SEO requires continuous monitoring to detect regressions, new issues, and opportunities. Implement ongoing monitoring using these tools and practices:</p>
+              <p>A one-time audit is insufficient. Technical SEO requires continuous monitoring to detect</p>
+  <p> regressions, new issues, and opportunities. Implement ongoing monitoring using these tools and practices:</p>
 
               <h3 className="mt-6 font-semibold">Essential Monitoring Practices</h3>
               <ul className="list-disc pl-6 space-y-2 text-sm mt-3">

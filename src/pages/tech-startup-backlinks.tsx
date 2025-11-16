@@ -118,9 +118,9 @@ const TechStartupBacklinks: React.FC = () => {
     <h3>Case Study 1: AI Chatbot Startup</h3>
     <p>A budding AI startup partnered with Backlinkoo for a mix of organic and bought backlinks. We secured 50 high-DA links from tech blogs via guest posts and HARO. Results: Organic traffic increased by 150% in 3 months, with domain authority jumping from 20 to 45. Fake stats: Pre-campaign SERP position #50; post-campaign #5 for key terms.</p>
     <h3>Case Study 2: Fintech App Launch</h3>
-    <p>This startup used broken link building and automated tools like <a href="/senuke">SENUKE</a>. We replaced 30 broken links on finance sites, leading to a 300% referral traffic boost. Domain authority rose to 60, and they secured \\\$2M in funding partly due to enhanced visibility.</p>
+    <p>This startup used broken link building and automated tools like <a >SENUKE</a>. We replaced 30 broken links on finance sites, leading to a 300% referral traffic boost. Domain authority rose to 60, and they secured \\\$2M in funding partly due to enhanced visibility.</p>
     <h3>Case Study 3: EdTech Platform</h3>
-    <p>By buying targeted backlinks safely through Backlinkoo and using <a href="/xrumer">XRumer</a> for forum posts, this platform gained 100 dofollow links. Outcome: 200% increase in sign-ups, with rankings improving for LSI terms like "educational tech link building."</p>
+    <p>By buying targeted backlinks safely through Backlinkoo and using <a >XRumer</a> for forum posts, this platform gained 100 dofollow links. Outcome: 200% increase in sign-ups, with rankings improving for LSI terms like "educational tech link building."</p>
     
 
     <h2>Common Mistakes to Avoid in Tech Startup Backlinks</h2>

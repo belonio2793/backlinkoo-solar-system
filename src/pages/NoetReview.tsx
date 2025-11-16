@@ -99,7 +99,8 @@ export default function NoetReview(): JSX.Element {
           </p>
 
           <p>
-            The tests aim to reveal strengths (speed, coherence) and common pitfalls such as hallucinations and context loss in longer
+            The tests aim to reveal strengths (speed, coherence) and common pitfalls</p>
+  <p> such as hallucinations and context loss in longer
             synthesis tasks.
           </p>
         </section>
@@ -318,7 +319,8 @@ export default function NoetReview(): JSX.Element {
           </figure>
 
           <p>
-            Users consistently report faster drafting and improved focus when Noet is used as a first-pass synthesis tool rather than a final
+            Users consistently report faster drafting and improved focus when Noet is</p>
+  <p> used as a first-pass synthesis tool rather than a final
             editor.
           </p>
         </section>

@@ -106,7 +106,7 @@ const PaidVsFreeBacklinks: React.FC = () => {
 <p>Use guest posting and broken link building.</p>
 
 <h3>What tools help with backlink building?</h3>
-<p>Ahrefs, Moz, and Backlinkoo's <a href="/senuke">SENUKE</a>.</p>
+<p>Ahrefs, Moz, and Backlinkoo's <a >SENUKE</a>.</p>
 
 <h3>Should I use paid or free backlinks?</h3>
 <p>A mix is best for sustainable growth.</p>

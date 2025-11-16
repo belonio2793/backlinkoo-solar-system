@@ -126,7 +126,8 @@ function InlineExpandedGuide() {
     <div className="prose prose-slate max-w-none">
       <section>
         <h3>Scrapebox: Practical Guide</h3>
-        <p>This guide covers harvesting, deduping, enrichment, and ethical usage of Scrapebox-style workflows. Use these patterns for research and prospecting—not automated posting.</p>
+        <p>This guide covers harvesting, deduping, enrichment, and ethical usage of</p>
+  <p> Scrapebox-style workflows. Use these patterns for research and prospecting—not automated posting.</p>
       </section>
       <section>
         <h4>Audit Workflow</h4>

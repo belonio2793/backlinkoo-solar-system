@@ -144,13 +144,15 @@ export default function CalPage() {
             <p>Cal connects with Zoom, Google Meet, Microsoft Teams, and custom meeting links. Integrations with CRMs (HubSpot, Salesforce) and webhooks allow automatic creation of contacts, deal updates, or triggering post-booking workflows.</p>
 
             <h3>Workflows and automations</h3>
-            <p>Automate confirmations, reminders, calendar invites, and follow-ups. Cal's automation capabilities reduce manual coordination and ensure consistent communication across touchpoints.</p>
+            <p>Automate confirmations, reminders, calendar invites, and follow-ups. Cal's automation</p>
+  <p> capabilities reduce manual coordination and ensure consistent communication across touchpoints.</p>
 
             <h3>Team scheduling and round-robin</h3>
             <p>Support for team availability, round-robin assignment, and priority routing helps distribute meetings fairly and automatically assign the right resource based on rules like timezone, skill, or capacity.</p>
 
             <h3>Embeds and widgets</h3>
-            <p>Cal provides embeddable widgets for websites, landing pages, and documentation, as well as shareable meeting links. Embeds reduce friction by allowing users to book without leaving your site.</p>
+            <p>Cal provides embeddable widgets for websites, landing pages, and documentation, as well as</p>
+  <p> shareable meeting links. Embeds reduce friction by allowing users to book without leaving your site.</p>
 
           </section>
 
@@ -159,10 +161,12 @@ export default function CalPage() {
             <p>Cal suits a wide range of users. Below are common personas and how they typically use scheduling effectively.</p>
 
             <h3>Freelancers and consultants</h3>
-            <p>Freelancers use booking pages to let clients self-schedule discovery calls, consultations, and paid sessions. Payment capture at booking avoids follow-ups about invoices and secures time commitment.</p>
+            <p>Freelancers use booking pages to let clients self-schedule discovery calls, consultations, and paid</p>
+  <p> sessions. Payment capture at booking avoids follow-ups about invoices and secures time commitment.</p>
 
             <h3>Sales and customer success teams</h3>
-            <p>Sales teams embed scheduling links in outreach and signatures to shorten the path from lead to meeting. CS teams use scheduling to streamline onboarding calls and regular check-ins.</p>
+            <p>Sales teams embed scheduling links in outreach and signatures to shorten the path from</p>
+  <p> lead to meeting. CS teams use scheduling to streamline onboarding calls and regular check-ins.</p>
 
             <h3>Recruiters and hiring teams</h3>
             <p>Recruiters share configurable slots for interviews, automate timezone handling, and attach pre-interview forms to collect candidate context.</p>
@@ -283,7 +287,8 @@ export default function CalPage() {
           <section>
             <h2>Frequently asked questions</h2>
             <h3>How long does it take to integrate my calendar?</h3>
-            <p>Most users connect a primary calendar in minutes. For enterprise integrations, SSO and permission reviews can add time—plan for a few days for full deployment.</p>
+            <p>Most users connect a primary calendar in minutes. For enterprise integrations,</p>
+  <p> SSO and permission reviews can add time—plan for a few days for full deployment.</p>
             <h3>Can I change availability per event type?</h3>
             <p>Yes. Event types support per-type availability windows, buffer times, and rules to prevent conflicts.</p>
             <h3>How do I reduce no-shows?</h3>

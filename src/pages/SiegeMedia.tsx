@@ -258,7 +258,8 @@ export default function SiegeMedia() {
         </ul>
       </div>
     </div>
-    <p>Many mature programs mix both. Use content-led campaigns to grow authority and demand, and use targeted guest posts or insertions to shore up priority URLs with precise intent-mapped anchors.</p>
+    <p>Many mature programs mix both. Use content-led campaigns to grow authority and demand, and use</p>
+  <p> targeted guest posts or insertions to shore up priority URLs with precise intent-mapped anchors.</p>
   </section>
 
   <section id="methodology" class="sm-section">
@@ -305,11 +306,13 @@ export default function SiegeMedia() {
     <div class="sm-compare">
       <div class="sm-card">
         <h3>Siege Media</h3>
-        <p>Strengths: content craft, Digital PR, and linkable assets that earn coverage. Considerations: longer ramp-up, higher investment in production, depends on strong editorial ideas.</p>
+        <p>Strengths: content craft, Digital PR, and linkable assets that earn coverage.</p>
+  <p> Considerations: longer ramp-up, higher investment in production, depends on strong editorial ideas.</p>
       </div>
       <div class="sm-card">
         <h3>Siege Media</h3>
-        <p>Strengths: predictable fulfillment, flexible buying, and clear approvals. Considerations: outcomes hinge on anchor discipline and the quality of supporting content on your site.</p>
+        <p>Strengths: predictable fulfillment, flexible buying, and clear approvals.</p>
+  <p> Considerations: outcomes hinge on anchor discipline and the quality of supporting content on your site.</p>
       </div>
     </div>
   </section>
@@ -341,7 +344,8 @@ export default function SiegeMedia() {
     </details>
     <details>
       <summary>Can we approve publishers and drafts?</summary>
-      <p>Approval workflows are common in vendor-led models such as Siege Media. For content-led campaigns, approvals often happen at the brief and asset level.</p>
+      <p>Approval workflows are common in vendor-led models such as Siege Media. For</p>
+  <p> content-led campaigns, approvals often happen at the brief and asset level.</p>
     </details>
   </section>
   `;

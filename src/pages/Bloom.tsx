@@ -155,19 +155,23 @@ export default function BloomPage(): JSX.Element {
               <p>Built-in motion tools let creators animate text, images, and vector elements with simple keyframes and presets. The timeline is approachable for non-specialists while still supporting export-compatible motion curves and easing functions.</p>
 
               <h3>Collaborative Editing & Comments</h3>
-              <p>Invite reviewers, leave time-stamped comments on frames, and approve versions. Bloom’s collaboration model reduces back-and-forth by linking feedback to specific frames or elements in the composition.</p>
+              <p>Invite reviewers, leave time-stamped comments on frames, and approve versions. Bloom’s collaboration</p>
+  <p> model reduces back-and-forth by linking feedback to specific frames or elements in the composition.</p>
 
               <h3>Asset Management & Brand Kits</h3>
-              <p>Store logos, fonts, and approved imagery in a shared brand kit so every team member works with the latest assets. Version history ensures you can revert to previous iterations if needed.</p>
+              <p>Store logos, fonts, and approved imagery in a shared brand kit so every team member works</p>
+  <p> with the latest assets. Version history ensures you can revert to previous iterations if needed.</p>
 
               <h3>Auto-Resize & Multi-Format Exports</h3>
-              <p>Export assets in multiple aspect ratios and formats automatically—crop and reflow content for stories, feed posts, and ads without rebuilding the composition for each target.</p>
+              <p>Export assets in multiple aspect ratios and formats automatically—crop and reflow</p>
+  <p> content for stories, feed posts, and ads without rebuilding the composition for each target.</p>
 
               <h3>Content Scheduling & Drafts</h3>
               <p>Plan campaigns, create drafts for future publication, and export ready-to-upload files to social schedulers or CMS systems. Some integrations enable direct publishing to social platforms when available.</p>
 
               <h3>High-Fidelity Exports</h3>
-              <p>Export high-resolution video and layered files for further editing in desktop tools if your creative pipeline requires advanced color grading or audio mastering.</p>
+              <p>Export high-resolution video and layered files for further editing in desktop</p>
+  <p> tools if your creative pipeline requires advanced color grading or audio mastering.</p>
             </section>
 
             <section id="how-it-works">
@@ -187,10 +191,12 @@ export default function BloomPage(): JSX.Element {
               <h2>Use Cases — Who Benefits from Bloom</h2>
 
               <h3>Social & Content Teams</h3>
-              <p>Teams that publish daily or weekly content benefit from templates, auto-resize, and scheduling features. Bloom reduces the iteration cycle and helps maintain a consistent brand voice across formats.</p>
+              <p>Teams that publish daily or weekly content benefit from templates, auto-resize, and scheduling</p>
+  <p> features. Bloom reduces the iteration cycle and helps maintain a consistent brand voice across formats.</p>
 
               <h3>Agencies & Creative Studios</h3>
-              <p>Agencies can prototype rapid concepts for clients, gather approvals inside the platform, and export master files for fine-tuning if required by the production pipeline.</p>
+              <p>Agencies can prototype rapid concepts for clients, gather approvals inside the</p>
+  <p> platform, and export master files for fine-tuning if required by the production pipeline.</p>
 
               <h3>Product & Marketing</h3>
               <p>Product teams can produce explainer clips, teaser videos, and promotional assets without needing to queue a motion designer for every request.</p>
@@ -263,7 +269,8 @@ export default function BloomPage(): JSX.Element {
                 <li><strong>Large-scale studio pipelines:</strong> Enterprises with large motion pipelines may require additional integrations or asset handoff practices to meet compliance and archival needs.</li>
               </ul>
 
-              <p>For many teams, Bloom complements existing toolchains by handling early-stage ideation, social edits, and client approvals, while leaving final mastering to specialist tools when necessary.</p>
+              <p>For many teams, Bloom complements existing toolchains by handling early-stage ideation, social</p>
+  <p> edits, and client approvals, while leaving final mastering to specialist tools when necessary.</p>
             </section>
 
             <section id="best-practices">

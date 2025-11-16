@@ -378,7 +378,8 @@ export default function EmergentPage() {
           <section>
             <h2>Integration Catalog and Data Flows</h2>
             <p>
-              Modern applications rarely live in isolation. When describing integrations, specify the direction of data, sync cadence, and error handling. Example patterns:
+              Modern applications rarely live in isolation. When describing integrations,</p>
+  <p> specify the direction of data, sync cadence, and error handling. Example patterns:
             </p>
             <ul>
               <li><strong>Payments:</strong> one-time and subscriptions, webhooks for events, idempotency keys, retry strategy, and a reconciliation view.</li>
@@ -517,11 +518,13 @@ export default function EmergentPage() {
             </p>
             <h2>How do I maintain generated apps?</h2>
             <p>
-              Treat the output like a living codebase. Add linting, tests, and CI. Keep a record of the prompts that shaped each feature so you can reproduce or extend them predictably.
+              Treat the output like a living codebase. Add linting, tests, and CI. Keep a record</p>
+  <p> of the prompts that shaped each feature so you can reproduce or extend them predictably.
             </p>
             <h3>What about vendor lock‑in?</h3>
             <p>
-              Favor workflows that let you export code and run it in your own environment. Document any platform-specific services you rely on and provide fallbacks when feasible.
+              Favor workflows that let you export code and run it in your own environment.</p>
+  <p> Document any platform-specific services you rely on and provide fallbacks when feasible.
             </p>
             <h3>Can I use it for mobile?</h3>
             <p>

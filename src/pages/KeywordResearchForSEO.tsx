@@ -217,7 +217,8 @@ export default function KeywordResearchForSEO() {
               
               <p>In 2025, keyword research has evolved far beyond simply identifying search volumes. Today's approach integrates search intent analysis, content gap identification, competitive intelligence, and semantic relationships. The best SEOs understand that keywords aren't just about ranking for high-volume terms��they're about reaching the right people at the right moment in their buyer's journey.</p>
 
-              <p>This comprehensive guide covers everything you need to know about keyword research for SEO, from fundamental concepts to advanced strategies used by top-ranking websites.</p>
+              <p>This comprehensive guide covers everything you need to know about keyword research</p>
+  <p> for SEO, from fundamental concepts to advanced strategies used by top-ranking websites.</p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
                 <Card>
@@ -647,7 +648,8 @@ export default function KeywordResearchForSEO() {
             <section id="analysis" className="kr-section">
               <h3>Analyzing and Selecting Keywords</h3>
 
-              <p>Once you've collected a large list of candidate keywords, the next step is rigorous analysis and prioritization. Not all keywords deserve content investment.</p>
+              <p>Once you've collected a large list of candidate keywords, the next step is</p>
+  <p> rigorous analysis and prioritization. Not all keywords deserve content investment.</p>
 
               <h3>The Keyword Selection Framework</h3>
 

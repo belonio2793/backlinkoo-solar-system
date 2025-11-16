@@ -121,7 +121,8 @@ export default function SEOClerksPage() {
     (async () => {
       try {
         const parts: string[] = [];
-        parts.push(`<section><h2>Overview</h2><p>SEOClerks is a marketplace for SEO services; this guide explains how to evaluate sellers, structure orders, mitigate risk, and integrate marketplace purchases into a sustainable strategy.</p></section>`);
+        parts.push(`<section><h2>Overview</h2><p>SEOClerks is a marketplace for SEO services; this guide explains how to evaluate sellers,</p>
+  <p> structure orders, mitigate risk, and integrate marketplace purchases into a sustainable strategy.</p></section>`);
         const text = parts.join('\n');
         if (!cancelled) setHtml(text);
       } catch (e: any) {

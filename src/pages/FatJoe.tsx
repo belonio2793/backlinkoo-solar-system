@@ -504,13 +504,15 @@ export default function FatJoe() {
                 <p>Key learning: FATJOE's speed and volume fit local citation and authority-building use cases when placements are carefully filtered for geographic relevance. The vendor’s throughput allowed the agency to iterate on anchor strategies and anchor placement context quickly, enabling A/B tests on CTAs and landing page copy.</p>
 
                 <h3>Case Study B — SaaS Niche: From Awareness to Qualified Leads</h3>
-                <p>Profile: A mid-stage B2B SaaS focused on field operations software. Goal: Capture feature-intent queries and reduce cost-per-acquisition for demo requests.</p>
+                <p>Profile: A mid-stage B2B SaaS focused on field operations software. Goal:</p>
+  <p> Capture feature-intent queries and reduce cost-per-acquisition for demo requests.</p>
                 <p>Intervention: FATJOE placements targeted niche tech blogs, industry roundups, and partner content hubs. The campaign used a mix of long-form guest posts and authority-focused niche edits pointing to comparison pages and feature hubs. The in-house team created distinct long-form resources to host link equity.</p>
                 <p>Outcomes (objective): The company saw a 22% uplift in organic demo requests from target pages over five months, a 17% improvement in Rank for several mid-funnel keywords, and a 3x increase in inbound product-qualified leads referencing educational assets.</p>
                 <p>Key learning: For SaaS, FATJOE’s catalog provides good reach into mid-tier publishers that can drive awareness among niche audiences. However, achieving high-quality lead flow required pairing link acquisition with strong gated assets and nurture sequences.</p>
 
                 <h3>Composite Testimonials & Voices</h3>
-                <p>We aggregated common themes across dozens of agency reviews and client notes. Below are paraphrased composite testimonials that reflect frequent, repeated feedback:</p>
+                <p>We aggregated common themes across dozens of agency reviews and client notes.</p>
+  <p> Below are paraphrased composite testimonials that reflect frequent, repeated feedback:</p>
                 <blockquote>
                   “FATJOE gives us operational speed. We can spin up 30 placements a month and keep our clients happy with steady reporting. Quality is good when we pre-filter niches and require draft approvals.”
                 </blockquote>

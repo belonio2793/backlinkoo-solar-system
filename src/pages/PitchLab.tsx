@@ -160,19 +160,22 @@ export default function PitchLabPage(): JSX.Element {
               <h2>Core Features & Capabilities</h2>
 
               <h3>Structured templates</h3>
-              <p>Composable templates for investor slides, technical demos, and sales walkthroughs. Templates include recommended timing, priority bullets, and demo checkpoints.</p>
+              <p>Composable templates for investor slides, technical demos, and sales</p>
+  <p> walkthroughs. Templates include recommended timing, priority bullets, and demo checkpoints.</p>
 
               <h3>Rehearsal and recording</h3>
               <p>Practice mode with recording, timeboxing, and playback so presenters can iterate. Teams can leave time-stamped notes and tag sections for improvement.</p>
 
               <h3>Scenario-driven demo flows</h3>
-              <p>Scripts that adapt to audience type (investor, technical, non-technical) and allow presenters to skip or expand sections dynamically without losing coherence.</p>
+              <p>Scripts that adapt to audience type (investor, technical, non-technical) and</p>
+  <p> allow presenters to skip or expand sections dynamically without losing coherence.</p>
 
               <h3>Feedback and scoring</h3>
               <p>After each pitch, teammates can score clarity, relevance, and persuasiveness. Scores aggregate over time to show improvement or regressions.</p>
 
               <h3>Analytics & conversion tracking</h3>
-              <p>Integrations track follow-up actions (signups, meetings booked) tied to specific demos enabling teams to correlate narrative choices with downstream outcomes.</p>
+              <p>Integrations track follow-up actions (signups, meetings booked) tied to</p>
+  <p> specific demos enabling teams to correlate narrative choices with downstream outcomes.</p>
 
               <h3>Collaboration & versioning</h3>
               <p>Collaborative editing, version history, and the ability to branch demo flows for different use cases.</p>
@@ -230,7 +233,8 @@ export default function PitchLabPage(): JSX.Element {
 
               <p>PitchLab works best when integrated into existing workflows: calendar systems for scheduling rehearsals, video platforms for recording playback, analytics platforms to track conversions, and CRM systems to link demo outcomes to customer records.</p>
 
-              <p>Exportable snippets and embeddable demos allow teams to include short demo GIFs or clips on marketing pages, product pages, and knowledge bases to improve onboarding and SEO.</p>
+              <p>Exportable snippets and embeddable demos allow teams to include short demo GIFs or</p>
+  <p> clips on marketing pages, product pages, and knowledge bases to improve onboarding and SEO.</p>
             </section>
 
             <section id="pricing-models">

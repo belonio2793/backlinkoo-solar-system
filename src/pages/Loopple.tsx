@@ -129,7 +129,8 @@ export default function LoopplePage() {
 
           <section>
             <h2>What Loopple-style templates include</h2>
-            <p>Loopple-style template bundles typically include a collection of assets and documentation designed to reduce iteration time and ensure production readiness. Expect to find:</p>
+            <p>Loopple-style template bundles typically include a collection of assets and</p>
+  <p> documentation designed to reduce iteration time and ensure production readiness. Expect to find:</p>
             <ul>
               <li><strong>Multiple landing page variants:</strong> Hero-first pages, product detail pages, pricing views, and campaign-specific microsites—all optimized for clarity and speed.</li>
               <li><strong>Figma source files:</strong> Full editable design files for teams to customize colors, typography, spacing, and imagery while preserving layout integrity.</li>
@@ -139,7 +140,8 @@ export default function LoopplePage() {
               <li><strong>Documentation:</strong> Best practices for customization, accessibility notes, and examples of common layout changes.</li>
             </ul>
 
-            <p>Such packages accelerate collaboration: designers tweak Figma files while developers convert the exported assets into components. Marketers can then iterate copy and images without structural changes.</p>
+            <p>Such packages accelerate collaboration: designers tweak Figma files while developers convert the</p>
+  <p> exported assets into components. Marketers can then iterate copy and images without structural changes.</p>
           </section>
 
           <section>
@@ -169,7 +171,8 @@ export default function LoopplePage() {
 
           <section>
             <h2>Design tokens: the single source of truth</h2>
-            <p>Design tokens—variables for colors, spacing, font sizes, and radii—are the glue between design and implementation. Using tokens offers several benefits:</p>
+            <p>Design tokens—variables for colors, spacing, font sizes, and radii—are the</p>
+  <p> glue between design and implementation. Using tokens offers several benefits:</p>
             <ul>
               <li><strong>Single updates:</strong> Changing a token (for example, primary color) updates all components consistently.</li>
               <li><strong>Theming:</strong> Switch brand themes for campaigns or clients with minimal effort.</li>
@@ -181,7 +184,8 @@ export default function LoopplePage() {
 
           <section>
             <h3>From Figma to production: practical workflow</h3>
-            <p>A robust workflow ensures that design changes are implemented predictably and that non-developers can modify content without breaking layout. A common workflow follows these steps:</p>
+            <p>A robust workflow ensures that design changes are implemented predictably and that</p>
+  <p> non-developers can modify content without breaking layout. A common workflow follows these steps:</p>
             <ol>
               <li>Designers finalize a Figma page and annotate components with token references and editable content regions.</li>
               <li>Developers extract assets and either use an HTML export as a reference or convert components into React/Tailwind components using the design tokens.</li>
@@ -189,7 +193,8 @@ export default function LoopplePage() {
               <li>Marketers or content authors update copy through a headless CMS or a lightweight content file to avoid code changes for simple edits.</li>
             </ol>
 
-            <p>Including a small library of content fragments—prewritten hero variants, benefit lists, and testimonial formats—speeds up content creation across campaigns.</p>
+            <p>Including a small library of content fragments—prewritten hero variants,</p>
+  <p> benefit lists, and testimonial formats—speeds up content creation across campaigns.</p>
           </section>
 
           <section>
@@ -273,7 +278,8 @@ export default function LoopplePage() {
 
           <section>
             <h2>Building an internal template library</h2>
-            <p>As teams scale, capturing successful patterns into an internal library saves time and preserves institutional knowledge. A simple internal library includes:</p>
+            <p>As teams scale, capturing successful patterns into an internal library saves</p>
+  <p> time and preserves institutional knowledge. A simple internal library includes:</p>
             <ul>
               <li>Versioned template files and example pages with performance metrics attached.</li>
               <li>Documentation on token usage, component APIs, and copy guidelines.</li>
@@ -312,7 +318,8 @@ export default function LoopplePage() {
 
           <section>
             <h2>Integrations and automation</h2>
-            <p>Templates are most powerful when combined with automation: connect form submissions to CRMs, email platforms, analytics, and experimentation systems. Typical integrations include:</p>
+            <p>Templates are most powerful when combined with automation: connect form submissions to</p>
+  <p> CRMs, email platforms, analytics, and experimentation systems. Typical integrations include:</p>
             <ul>
               <li>CRMs (HubSpot, Salesforce) for lead routing and lifecycle automation.</li>
               <li>Email platforms (Mailchimp, Postmark) for onboarding sequences and nurture flows.</li>
@@ -332,7 +339,8 @@ export default function LoopplePage() {
             <p>A growth team created a library of template variants and ran 50+ experiments across headlines and hero layouts. The systematic approach increased conversion by 18% year-over-year and improved promotional ROI for paid campaigns.</p>
 
             <h3>Agency: client launches and reuse</h3>
-            <p>An agency adopted a template library to deliver consistent landing pages for clients, reducing time-to-delivery by 60% and allowing the agency to scale services without hiring additional designers.</p>
+            <p>An agency adopted a template library to deliver consistent landing pages for clients, reducing</p>
+  <p> time-to-delivery by 60% and allowing the agency to scale services without hiring additional designers.</p>
           </section>
 
           <section>
@@ -379,13 +387,15 @@ export default function LoopplePage() {
           <section>
             <h2>Frequently asked questions (expanded)</h2>
             <h3>Can I edit templates without Figma?</h3>
-            <p>Yes. Many teams edit copy and images through a headless CMS while retaining the template layout. For structural changes, Figma or a designer is recommended.</p>
+            <p>Yes. Many teams edit copy and images through a headless CMS while retaining</p>
+  <p> the template layout. For structural changes, Figma or a designer is recommended.</p>
 
             <h3>Are templates SEO-friendly out of the box?</h3>
             <p>Templates provide a strong structural foundation for SEO, but content quality, unique copy, and on-page optimization are essential for ranking. Use schema markup, unique meta descriptions, and high-quality supporting content to improve organic performance.</p>
 
             <h3>How long does it take to launch a page from a template?</h3>
-            <p>For a basic MVP landing, a small team can launch in a day or two. More complex, branded implementations with CMS integration can take a few days to a couple of weeks depending on integration needs.</p>
+            <p>For a basic MVP landing, a small team can launch in a day or two. More complex, branded</p>
+  <p> implementations with CMS integration can take a few days to a couple of weeks depending on integration needs.</p>
           </section>
 
           <section>

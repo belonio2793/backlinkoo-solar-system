@@ -243,25 +243,15 @@ const AhrefsForLinkBuilding: React.FC = () => {
   </div>
 
   <h2>FAQ: Everything You Need to Know About Ahrefs for Link Building</h2>
-  
-  <h3>1. How does Ahrefs help in finding link building opportunities?</h3>
+<h3>1. How does Ahrefs help in finding link building opportunities?</h3>
   <p><strong>Ahrefs for link building</strong> tools like Site Explorer, Content Explorer, and Link Intersect reveal competitor backlinks, high-performing content in your niche, and sites linking to competitors but not you—providing a roadmap for strategic outreach.</p>
-  
   <h3>2. Is buying backlinks safe when using Ahrefs to vet them?</h3>
-  <p>Yes, if you use Ahrefs to verify quality metrics (DA > 40, organic traffic, no spam flags) and combine with organic methods. Ahrefs helps you avoid low-quality link sources that could harm your site.</p>
-  
+  <p>Yes, if you use Ahrefs to verify quality metrics (DA > 40, organic traffic, no spam flags) and</p>
+  <p> combine with organic methods. Ahrefs helps you avoid low-quality link sources that could harm your site.</p>
   <h3>3. What are dofollow links, and why does Ahrefs track them?</h3>
   <p>Dofollow links pass SEO value and improve domain authority directly. Ahrefs tracks them because they're more valuable than nofollow links. A healthy profile includes both but emphasizes dofollow from relevant, authoritative sources.</p>
-  
-  <h3>4. Can I use Ahrefs for free, or do I need a paid plan?</h3>
-  <p><strong>Ahrefs for link building</strong> offers limited free features, but most advanced capabilities require paid subscriptions starting at $99/month. The investment typically pays for itself through improved rankings and traffic.</p>
-  
   <h3>5. How does Backlinkoo integrate with Ahrefs data?</h3>
   <p>We use Ahrefs insights to inform all our services—identifying high-quality link sources, vetting sellers, monitoring backlink health, and optimizing anchor text distribution for safety and effectiveness.</p>
-
-  <div class="media">
-    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="FAQ infographic on using Ahrefs for link building strategy" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Comprehensive infographic answering common questions about Ahrefs for link building (Source: Backlinkoo)</em></p>
   </div>
 
   <h2>Conclusion: Master Link Building with Ahrefs and Backlinkoo</h2>
