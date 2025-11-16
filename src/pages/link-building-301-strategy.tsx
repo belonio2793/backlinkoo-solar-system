@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/link-building-301-strategy') {
+function upsertCanonical(href: string) {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -50,12 +50,12 @@ function injectJSONLD(id: string, json: any) {
 export default function LinkBuilding301Strategy() {
   React.useEffect(() => {
     upsertMeta('description', `Master 301 redirect strategy with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
-    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : 'https://backlinkoo.com/link-building-301-strategy');
     injectJSONLD('link-building-301-strategy-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: `301 redirect strategy - Ultimate Guide to SEO & Backlinks in 2025`,
-      description: `Discover how to acquire link building 301 strategy for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      description: `Master 301 redirect strategy with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
     });
