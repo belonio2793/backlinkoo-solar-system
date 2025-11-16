@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(href: string) {
+function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/link-building-medium-publication') {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -49,12 +49,12 @@ function injectJSONLD(id: string, json: any) {
 
 export default function LinkBuildingMediumPublication() {
   React.useEffect(() => {
-    upsertMeta('description', `Discover how to acquire link building medium publication for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`);
+    upsertMeta('description', `Master link building medium publication with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
     upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
     injectJSONLD('link-building-medium-publication-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: `Link Building Medium Publication: Ultimate Guide to Boost SEO in 2025`,
+      headline: `Link building medium publication - Ultimate Guide to SEO & Backlinks in 2025`,
       description: `Discover how to acquire link building medium publication for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
@@ -67,7 +67,7 @@ export default function LinkBuildingMediumPublication() {
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
         <div className="container mx-auto px-4 py-12">
           <article className="prose prose-slate max-w-4xl mx-auto dark:prose-invert">
-            <div dangerouslySetInnerHTML={{ __html: `<h1>Link Building Medium Publication: The Key to Dominating Google Rankings in 2025</h1>
+            <div dangerouslySetInnerHTML={{ __html: `<h1>Link building medium publication: The Ultimate Guide to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<div class="article-container" style="max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; font-size: 16px;">
   <h1>Link Building Medium Publication: The Ultimate Guide to Boosting Your SEO</h1>

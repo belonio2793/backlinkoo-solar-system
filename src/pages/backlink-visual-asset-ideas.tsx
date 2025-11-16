@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(href: string) {
+function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/backlink-visual-asset-ideas') {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -49,12 +49,12 @@ function injectJSONLD(id: string, json: any) {
 
 export default function BacklinkVisualAssetIdeas() {
   React.useEffect(() => {
-    upsertMeta('description', `Discover how to acquire backlink visual asset ideas for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`);
+    upsertMeta('description', `Master backlink visual asset ideas with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
     upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
     injectJSONLD('backlink-visual-asset-ideas-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: `Backlink Visual Asset Ideas: Ultimate Guide to Boost SEO in 2025`,
+      headline: `Backlink visual asset ideas - Ultimate Guide to SEO & Backlinks in 2025`,
       description: `Discover how to acquire backlink visual asset ideas for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
@@ -67,7 +67,7 @@ export default function BacklinkVisualAssetIdeas() {
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
         <div className="container mx-auto px-4 py-12">
           <article className="prose prose-slate max-w-4xl mx-auto dark:prose-invert">
-            <div dangerouslySetInnerHTML={{ __html: `<h1>Backlink Visual Asset Ideas: The Key to Dominating Google Rankings in 2025</h1>
+            <div dangerouslySetInnerHTML={{ __html: `<h1>Backlink visual asset ideas: The Ultimate Guide to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
     <h1>Backlink Visual Asset Ideas: Boost Your SEO with Engaging Content</h1>

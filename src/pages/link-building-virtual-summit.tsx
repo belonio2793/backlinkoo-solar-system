@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(href: string) {
+function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/link-building-virtual-summit') {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -49,12 +49,12 @@ function injectJSONLD(id: string, json: any) {
 
 export default function LinkBuildingVirtualSummit() {
   React.useEffect(() => {
-    upsertMeta('description', `Discover how to acquire link building virtual summit for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`);
+    upsertMeta('description', `Master link building virtual summit with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
     upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
     injectJSONLD('link-building-virtual-summit-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: `Link Building Virtual Summit: Ultimate Guide to Boost SEO in 2025`,
+      headline: `Link building virtual summit - Ultimate Guide to SEO & Backlinks in 2025`,
       description: `Discover how to acquire link building virtual summit for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
@@ -67,7 +67,7 @@ export default function LinkBuildingVirtualSummit() {
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
         <div className="container mx-auto px-4 py-12">
           <article className="prose prose-slate max-w-4xl mx-auto dark:prose-invert">
-            <div dangerouslySetInnerHTML={{ __html: `<h1>Link Building Virtual Summit: The Key to Dominating Google Rankings in 2025</h1>
+            <div dangerouslySetInnerHTML={{ __html: `<h1>Link building virtual summit: The Ultimate Guide to Dominating Google Rankings in 2025</h1>
         
         <div dangerouslySetInnerHTML=<article>
     <h1>Link Building Virtual Summit: Your Ultimate Guide to Mastering SEO Backlinks</h1>
