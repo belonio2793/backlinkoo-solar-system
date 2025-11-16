@@ -54,8 +54,8 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
   </ul></p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Ahrefs Domain Rating vs URL Rating comparison showing backlink metrics" width="800" height="400" />
-    <p><em>Visual comparison of Domain Rating and URL Rating metrics in Ahrefs analysis (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="DR and UR metrics comparison" width="800" height="400" />
+    <p><em>DR and UR metrics comparison (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Organic Strategies: Building DR and UR Through Quality Links</h2>
@@ -154,6 +154,11 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
     <li>Keyword rankings: 35 competitive keywords to page 1</li>
   </ul></p>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: DR vs UR Metrics</h2>
   
   <h3>Which is more important, DR or UR?</h3>

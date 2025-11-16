@@ -15,9 +15,9 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>At Backlinkoo, we've seen clients double their traffic by focusing on niche-specific <strong>dofollow links</strong>. But building this authority isn't overnight; it requires a mix of content creation, outreach, and smart linking tactics.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="topical authority through links infographic" width="800" height="400" />
-        <p><em>Infographic illustrating how links contribute to topical authority (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Topical authority through backlinks" width="800" height="400" />
+    <p><em>Topical authority through backlinks (Source: Backlinkoo)</em></p>
+  </div>
     
     <p>Statistics from Moz show that sites with strong backlink profiles see a 20-30% increase in organic rankings. For more on this, check out this <a href="https://moz.com/blog/topical-authority" target="_blank" rel="noopener noreferrer">Moz Guide on Topical Authority</a>.</p>
     
@@ -112,9 +112,9 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>Integrating these tools can supercharge your efforts. For instance, use <Link to="/senuke">SENUKE for automation</Link> alongside Ahrefs for analysis.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="link building tools comparison chart" width="800" height="400" />
-        <p><em>Chart comparing essential link building tools (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Topic clustering and authority" width="800" height="400" />
+    <p><em>Topic clustering and authority (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Case Studies: Real-World Success with Topical Authority Through Links</h2>
     <p>Let's look at some case studies to illustrate the impact of <strong>topical authority through links</strong>. These examples use anonymized data from Backlinkoo clients.</p>
@@ -144,7 +144,12 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     </ol>
     <p>Avoid these to maintain a healthy link profile. For guidance, see SEMrush's article on link building mistakes at <a href="https://www.semrush.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">SEMrush Blog</a>.</p>
     
-    <h2>FAQ: Answering Your Questions on Topical Authority Through Links</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Answering Your Questions on Topical Authority Through Links</h2>
     <h3>What is the difference between topical authority and domain authority?</h3>
     <p>Domain authority is a site-wide metric, while topical authority focuses on expertise in a specific niche, often built via <strong>topical authority through links</strong>.</p>
     
@@ -163,9 +168,9 @@ const TopicalAuthorityThroughLinks: React.FC = () => {
     <p>For more FAQs, visit <a href="https://ahrefs.com/blog/topical-authority" target="_blank" rel="noopener noreferrer">Ahrefs on Topical Authority</a>.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="FAQ infographic on link strategies" width="800" height="400" />
-        <p><em>Infographic answering common questions (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Content authority building" width="800" height="400" />
+    <p><em>Content authority building (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Conclusion: Elevate Your SEO with Backlinkoo</h2>
     <p>Building <strong>topical authority through links</strong> is essential for long-term SEO success. As experts at Backlinkoo, we've drawn from sources like Moz (where studies show backlinks account for 20% of ranking factors) and Ahrefs (reporting that top pages have 3.8x more backlinks). Our authoritative approach ensures you get results without risks.</p>

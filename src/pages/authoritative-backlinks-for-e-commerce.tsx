@@ -25,9 +25,9 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
     <p>Building domain authority through link building isn't just about quantity; it's about strategic quality. Search engines like Google use algorithms such as PageRank to evaluate link value, prioritizing links from trusted sources in your niche, such as industry blogs, product review sites, and e-commerce directories.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Authoritative backlinks for e-commerce showing domain authority impact on rankings" width="800" height="400" style="max-width: 100%; height: auto;" />
-        <p><em>Comprehensive infographic illustrating the direct impact of backlinks on e-commerce SEO and sales (Source: Backlinkoo Research)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="E-commerce backlink authority strategy" width="800" height="400" />
+    <p><em>E-commerce backlink authority strategy (Source: Backlinkoo)</em></p>
+  </div>
     
     <p>Moreover, authoritative backlinks for e-commerce improve user trust significantly. When a respected product review site or industry authority links to your product pages, it reassures potential customers of your credibility and product quality. This is crucial in e-commerce, where conversion rates can drop 20-40% if visitors doubt your site's legitimacy.</p>
     
@@ -196,7 +196,12 @@ const AuthoritativeBacklinksForECommerce: React.FC = () => {
       <li><strong>Underestimating user trust signals:</strong> Links from trusted review sites dramatically improve conversion rates</li>
     </ul>
     
-    <h2>FAQ: Authoritative Backlinks for E-Commerce</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Authoritative Backlinks for E-Commerce</h2>
     
     <h3>How many authoritative backlinks does an e-commerce site need?</h3>
     <p>For competitive categories, 50-100 links from DA 40+ sites can establish authority. For less competitive niches, 20-30 may suffice.</p>

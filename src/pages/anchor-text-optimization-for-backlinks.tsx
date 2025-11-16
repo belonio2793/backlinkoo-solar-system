@@ -19,9 +19,9 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
     <p>By focusing on natural variations—including branded anchors (your company name), generic anchors ("click here," "resource"), partial-match anchors ("best SEO tools for beginners"), and exact-match anchors ("SEO tools")—you create a balanced profile that mimics organic linking behavior. This approach not only improves the effectiveness of dofollow links but also enhances user experience, as relevant anchors guide visitors to genuinely valuable content.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="Anchor text types and optimization for backlinks showing branded, exact-match, partial-match examples" width="800" height="400" />
-        <p><em>Comprehensive infographic showing different anchor text types and their strategic SEO impact (Source: Backlinkoo Research)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Anchor text optimization techniques" width="800" height="400" />
+    <p><em>Anchor text optimization techniques (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Types of Anchor Text and Strategic Distribution</h2>
     <p>Understanding anchor text types is fundamental to <strong>anchor text optimization for backlinks</strong>. Each type serves a specific purpose and carries different SEO weight:</p>
@@ -157,7 +157,12 @@ const AnchorTextOptimizationForBacklinks: React.FC = () => {
       <li><strong>Failing to diversify sources:</strong> Mix guest posts, directories, HARO, and other tactics for natural distribution</li>
     </ul>
     
-    <h2>FAQ: Anchor Text Optimization</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Anchor Text Optimization</h2>
     <h3>What's the ideal anchor text distribution?</h3>
     <p>40% branded, 30% generic, 20% partial-match, 10% exact-match. Adjust based on your niche competitiveness.</p>
     

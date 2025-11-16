@@ -18,9 +18,9 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>Consider this: Organic link building through negotiation can improve your site's domain authority over time, leading to better organic traffic. Backlinkoo's tools can help track these metrics, ensuring your efforts yield measurable results. Without effective scripts, your outreach might come across as spammy, harming your reputation and SEO goals.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg" alt="backlink negotiation scripts infographic" width="800" height="400" />
-        <p><em>Infographic illustrating the key components of effective backlink negotiation scripts (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Link building negotiation scripts" width="800" height="400" />
+    <p><em>Link building negotiation scripts (Source: Backlinkoo)</em></p>
+  </div>
     
     <p>In essence, mastering backlink negotiation scripts is about turning cold outreach into warm conversations. They matter because they align with Google's emphasis on natural, high-quality links, as outlined in <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Google Search Central guidelines</a>. By using these scripts, you're not just building links—you're fostering relationships that can lead to long-term SEO success.</p>
     
@@ -53,37 +53,9 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>This approach leverages tools like Ahrefs for finding broken links. For more efficiency, integrate with <a href="/xrumer">XRumer for posting</a> to automate initial scans and outreach.</p>
     
     <div class="media">
-    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="Link building guide infographic" width="800" height="400" />
-    <p>Moz reports that broken link building can yield response rates up to 15%, making it a staple in organic link building strategies.</p>
-    
-    <h3>Resource Page Link Building: Getting Listed</h3>
-    <p>Resource pages curate helpful links on specific topics. Negotiate inclusion by proving your content's worth.</p>
-    
-    <p>Sample Script:</p>
-    <p>"Dear [Name], Your resource page on [Topic] is incredibly useful! I noticed it could benefit from including my guide on [Subtopic], which has helped [Statistic] readers. A dofollow link would be appreciated—let's discuss?"</p>
-    
-    <p>Enhance this with data from authoritative sources like <a href="https://ahrefs.com/blog/broken-link-building/" target="_blank" rel="noopener noreferrer">Ahrefs' guide on broken link building</a>.</p>
-    
-    <h2>Buying Backlinks: Pros, Cons, and Safe Negotiation Tips</h2>
-    <p>While organic methods are ideal, buying backlinks can accelerate growth if done safely. However, it's risky due to Google's penalties for manipulative schemes. Backlink negotiation scripts can help in negotiating fair deals with sellers.</p>
-    
-    <h3>Pros of Buying Backlinks</h3>
-    <p>Quick results: Acquire high-DA links faster than organic methods. Scalability: Ideal for large campaigns. Targeted: Choose niches and anchor texts precisely.</p>
-    
-    <h3>Cons of Buying Backlinks</h3>
-    <p>Risk of penalties: If detected, your site could be de-indexed. Cost: High-quality links aren't cheap. Quality variance: Not all sellers deliver as promised.</p>
-    
-    <p>According to SEMrush, 45% of sites buying links face penalties, so caution is key.</p>
-    
-    <h3>Safe Tips for Negotiation</h3>
-    <p>Use scripts to vet sellers: "Hi [Seller], I'm interested in a dofollow link from your DA 60+ site. Can you provide metrics like traffic and relevance? What's your rate for a contextual placement?"</p>
-    
-    <p>Backlinkoo advises against over-reliance on buying; instead, use our services for safe, white-hat alternatives. Reference <a href="https://moz.com/blog/buying-backlinks" target="_blank" rel="noopener noreferrer">Moz's guide on buying backlinks</a> for best practices.</p>
-    
-    <div class="media">
-        <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Pros and cons of buying backlinks chart" width="800" height="400" />
-        <p><em>Chart detailing pros and cons of buying backlinks in link building (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Email outreach communication" width="800" height="400" />
+    <p><em>Email outreach communication (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Tools for Enhancing Backlink Negotiation Scripts</h2>
     <p>To supercharge your efforts, leverage tools that automate and optimize negotiation. Here's a comparison table:</p>
@@ -146,9 +118,9 @@ const BacklinkNegotiationScripts: React.FC = () => {
     <p>An SEO agency negotiated resource page links, gaining 10 high-quality backlinks. Client rankings improved by 15 positions on average (fake stats).</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg" alt="Case study success metrics graph" width="800" height="400" />
-        <p><em>Graph showing traffic growth from backlink negotiation (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Outreach strategy and techniques" width="800" height="400" />
+    <p><em>Outreach strategy and techniques (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Common Mistakes to Avoid in Backlink Negotiation</h2>
     <p>Avoid these pitfalls to ensure success:</p>
@@ -162,7 +134,12 @@ const BacklinkNegotiationScripts: React.FC = () => {
     
     <p>Backlinkoo's experts can help you steer clear of these errors with tailored advice.</p>
     
-    <h2>FAQ: Backlink Negotiation Scripts</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nZl1PGr6K9o" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Backlink Negotiation Scripts</h2>
     <h3>1. What makes a good backlink negotiation script?</h3>
     <p>A good script is personalized, value-driven, and includes a clear CTA, incorporating LSI terms like dofollow links and domain authority.</p>
     

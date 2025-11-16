@@ -15,8 +15,8 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>Why Toxic Backlink Removal Is Crucial</h3>
   <p>Search engines prioritize user experience and trustworthiness. Toxic links signal manipulation, leading to penalties like those from Google's Penguin update. Removing them can recover lost rankings, improve crawl efficiency, and enhance your site's credibility. In fact, Moz reports that sites undergoing thorough toxic backlink removal often see a 20-50% increase in search visibility within months.</p>
   <div class="media">
-    <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="toxic backlink removal infographic" width="800" height="400" />
-    <p><em>Infographic showing the impact of toxic backlinks on SEO (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="Toxic backlink removal strategy" width="800" height="400" />
+    <p><em>Toxic backlink removal strategy (Source: Backlinkoo)</em></p>
   </div>
   <p>For more on backlink basics, check out this <a href="https://moz.com/blog/toxic-backlinks" target="_blank" rel="noopener noreferrer">Moz Guide on Toxic Backlinks</a>.</p>
   
@@ -96,8 +96,8 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>Case Study 3: Agency Client Turnaround</h3>
   <p>An SEO agency client had low domain authority due to outdated directories. Our team handled toxic backlink removal, combining manual outreach with <Link to="/xrumer">XRumer</Link> for monitoring. Post-removal, the site saw a 40% boost in search impressions and a 30% increase in conversions.</p>
   <div class="media">
-    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="case study graph for toxic backlink removal" width="800" height="400" />
-    <p><em>Graph showing traffic recovery after removal (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Link cleanup and disavowal" width="800" height="400" />
+    <p><em>Link cleanup and disavowal (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Common Mistakes to Avoid in Toxic Backlink Removal</h2>
@@ -111,6 +111,11 @@ const ToxicBacklinkRemoval: React.FC = () => {
   </ul>
   <p>For more tips, read this <a href="https://searchengineland.com/toxic-backlinks-avoid" target="_blank" rel="noopener noreferrer">Search Engine Land Article</a>.</p>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Toxic Backlink Removal</h2>
   <h3>What is toxic backlink removal?</h3>
   <p>Toxic backlink removal involves identifying and eliminating harmful links that hurt your SEO, often through audits, outreach, and disavowal.</p>
@@ -123,8 +128,8 @@ const ToxicBacklinkRemoval: React.FC = () => {
   <h3>How long does recovery take after removal?</h3>
   <p>Typically 1-3 months, depending on the penalty severity and follow-up link building.</p>
   <div class="media">
-    <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="FAQ infographic on toxic backlinks" width="800" height="400" />
-    <p><em>Visual FAQ guide (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Link health recovery" width="800" height="400" />
+    <p><em>Link health recovery (Source: Backlinkoo)</em></p>
   </div>
   
   

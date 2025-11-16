@@ -38,9 +38,9 @@ const BacklinkDiversityServices: React.FC = () => {
     <p>What sets effective backlink diversity services apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional backlink diversity services builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Backlink Diversity Services strategy" width="800" height="400" />
-      <p><em>Strategic approach to backlink diversity services (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Backlink diversity services" width="800" height="400" />
+    <p><em>Backlink diversity services (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Why Backlink Diversity Services Matters Now</h2>
     <h3>Current SEO Landscape</h3>
@@ -50,8 +50,9 @@ const BacklinkDiversityServices: React.FC = () => {
     <p>The Link Building Services industry faces unique challenges and opportunities with backlink diversity services. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Diverse link profile" width="800" height="400" />
+    <p><em>Diverse link profile (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Core Strategies for Backlink Diversity Services</h2>
     <h3>Guest Posting Excellence</h3>
@@ -188,7 +189,12 @@ const BacklinkDiversityServices: React.FC = () => {
       </ul>
     </div>
 
-    <h2>Conclusion: Your Path Forward</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>Conclusion: Your Path Forward</h2>
     <p>Implementing effective backlink diversity services requires strategic planning, quality execution, and sustained commitment. By following the principles outlined in this guide—prioritizing quality, maintaining diversity, and focusing on relevance—you can build a sustainable backlink profile that delivers lasting SEO results.</p>
 
     <p>At Backlinkoo, we've helped hundreds of seo agencies and enterprise clients achieve significant ranking and traffic improvements through strategic backlink diversity services. Whether you're looking to implement these strategies yourself or partner with experienced professionals, the key is to start today.</p>

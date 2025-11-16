@@ -14,8 +14,8 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>Search engines use crawlers to discover new content. If a backlink isn't crawled, it won't be indexed. Techniques like sitemaps, social signals, and ping services play a pivotal role here. Incorporating LSI terms such as "link equity" and "anchor text optimization" can further enhance your understanding and application of these methods.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="backlink indexing techniques infographic" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Infographic illustrating key backlink indexing techniques (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Backlink indexing and coverage" width="800" height="400" />
+    <p><em>Backlink indexing and coverage (Source: Backlinkoo)</em></p>
   </div>
   
   <p>Statistics from <a href="https://moz.com/blog/backlink-indexing" target="_blank" rel="noopener noreferrer">Moz</a> show that indexed backlinks can improve domain authority by 15-20 points on average. This underscores the importance of not just acquiring backlinks but ensuring they are properly indexed through reliable techniques.</p>
@@ -104,8 +104,8 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>These tools, especially <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link>, can supercharge your backlink indexing techniques.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg" alt="Tools for backlink indexing techniques" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Visual guide to SEO tools for backlink indexing (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Google indexing process" width="800" height="400" />
+    <p><em>Google indexing process (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Case Studies: Success with Backlink Indexing Techniques</h2>
@@ -121,8 +121,8 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>A SaaS provider combined organic strategies with tools like <Link to="/xrumer">XRumer for posting</Link>. Outcomes: 95% indexing rate, domain authority increased by 30 points, and conversions up 200%. This demonstrates how backlink indexing techniques can drive business results.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/6281145/pexels-photo-6281145.jpeg" alt="Case study graphs for backlink indexing" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Graphs showing traffic growth from backlink indexing techniques (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop" alt="Search engine crawling" width="800" height="400" />
+    <p><em>Search engine crawling (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Common Mistakes to Avoid in Backlink Indexing Techniques</h2>
@@ -134,6 +134,11 @@ const BacklinkIndexingTechniques: React.FC = () => {
   <p>5. Not Using Tools Properly: Misusing automation like <Link to="/senuke">SENUKE for automation</Link> can lead to spammy patterns. Backlinkoo provides guidance to avoid this.</p>
   <p>By steering clear of these mistakes, your backlink indexing techniques will be more effective and sustainable.</p>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sOzlmuHvZUI" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ on Backlink Indexing Techniques</h2>
   <h3>What are the best backlink indexing techniques for beginners?</h3>
   <p>Start with organic methods like guest posting and social sharing, combined with free tools from Google Search Central.</p>

@@ -23,8 +23,8 @@ const BacklinkEquityCalculation: React.FC = () => {
   <p>For instance, a single backlink from a high-DA site like Forbes or TechCrunch carries exponentially more equity than 100 links from low-authority blogs. Yet many beginners waste resources building quantity instead of equity.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="Backlink equity calculation and link juice transfer visualization" width="800" height="400" />
-    <p><em>Comprehensive infographic illustrating how backlink equity and link juice flow through website architecture (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=400&fit=crop" alt="Link equity flow calculation" width="800" height="400" />
+    <p><em>Link equity flow calculation (Source: Backlinkoo)</em></p>
   </div>
   
   <p>At Backlinkoo, we emphasize that effective <strong>backlink equity calculation</strong> isn't just academic—it's the foundation of ROI-focused link building. Poor calculations lead to wasted resources and penalties from Google.</p>
@@ -136,6 +136,11 @@ const BacklinkEquityCalculation: React.FC = () => {
     <li><strong>Disregarding anchor text optimization:</strong> Poor anchors reduce equity transfer efficiency</li>
   </ul>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Backlink Equity Calculation</h2>
   
   <h3>How much equity does a high-DA backlink transfer?</h3>

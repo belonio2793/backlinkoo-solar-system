@@ -120,6 +120,11 @@ const ResourcePageLinkBuilding: React.FC = () => {
   </ul>
   <p>For more insights, refer to <a href="https://moz.com/blog/link-building-mistakes" target="_blank" rel="noopener noreferrer">Moz's guide on link building mistakes</a>.</p>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Resource Page Link Building</h2>
   <h3>What is the difference between resource page link building and general link building?</h3>
   <p>Resource page link building specifically targets curated resource lists, often yielding higher-quality dofollow links compared to general methods.</p>

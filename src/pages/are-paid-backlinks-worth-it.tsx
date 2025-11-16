@@ -24,9 +24,9 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
     <p>Backlinks signal trust and relevance to search engines. Google's PageRank algorithm, though evolved since its inception, still relies heavily on link signals. A Moz study shows that backlinks account for approximately 20-30% of Google's ranking factors. If you're debating <strong>are paid backlinks worth it</strong>, remember that quality trumps quantity—paid or not—but paid links allow you to guarantee quality if you choose the right provider.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="Infographic showing the ROI and impact of paid backlinks versus organic link building" width="800" height="400" />
-        <p><em>Comprehensive infographic analyzing the cost-benefit ratio of paid backlinks (Source: Backlinkoo Research)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Paid vs organic backlinks ROI analysis" width="800" height="400" />
+    <p><em>Paid vs organic backlinks ROI analysis (Source: Backlinkoo)</em></p>
+  </div>
     
     <p>In a competitive digital landscape, ignoring backlinks means falling behind. But rushing into paid options without strategy can lead to wasted budgets or penalties. Understanding the value proposition is critical.</p>
     
@@ -195,7 +195,12 @@ const ArePaidBacklinksWorthIt: React.FC = () => {
       <li><strong>Skipping due diligence:</strong> Always vet providers thoroughly</li>
     </ul>
     
-    <h2>FAQ: Are Paid Backlinks Worth It?</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1BCxL00" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Are Paid Backlinks Worth It?</h2>
     
     <h3>Should I buy backlinks or focus on organic methods?</h3>
     <p>A hybrid approach often works best: use organic methods for sustainable growth while strategically purchasing high-quality links to accelerate rankings for target keywords.</p>

@@ -23,8 +23,8 @@ const BacklinkBuildingForBeginners: React.FC = () => {
   <p>For beginners, this means that <strong>backlink building for beginners</strong> should be a core part of your SEO strategy. Without backlinks, even excellent content will struggle to rank and get discovered by your target audience.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Backlink building for beginners showing the impact of links on search rankings" width="800" height="400" style="max-width: 100%; height: auto;" />
-    <p><em>Infographic illustrating why backlinks are crucial for search engine rankings (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="Beginner guide to backlink building" width="800" height="400" />
+    <p><em>Beginner guide to backlink building (Source: Backlinkoo)</em></p>
   </div>
   
   <h3>Types of Backlinks: Dofollow vs. Nofollow</h3>
@@ -185,6 +185,11 @@ const BacklinkBuildingForBeginners: React.FC = () => {
     <li><strong>Keyword rankings:</strong> Track 5-10 target keywords; rankings should improve over 3-6 months</li>
   </ul>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Backlink Building for Beginners</h2>
   
   <h3>How many backlinks do I need to rank?</h3>

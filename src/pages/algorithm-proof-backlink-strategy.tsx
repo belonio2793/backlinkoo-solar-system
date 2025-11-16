@@ -38,9 +38,9 @@ const AlgorithmProofBacklinkStrategy: React.FC = () => {
     <p>What sets effective algorithm-proof backlink strategy apart from mediocre attempts? The answer lies in strategic targeting, meticulous execution, and a commitment to sustainable growth. Unlike outdated black-hat techniques that temporarily inflate metrics before inevitable penalties, professional algorithm-proof backlink strategy builds genuine authority that compounds over time.</p>
 
     <div class="media">
-      <img src="https://images.unsplash.com/photo-1611987620912-b7873f301371?w=800&h=400&fit=crop" alt="Algorithm-Proof Backlink Strategy strategy" width="800" height="400" />
-      <p><em>Strategic approach to algorithm-proof backlink strategy (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1611987620912-b7873f301371?w=800&h=400&fit=crop" alt="Algorithm proof backlink strategy" width="800" height="400" />
+    <p><em>Algorithm proof backlink strategy (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Why Algorithm-Proof Backlink Strategy Matters Now</h2>
     <h3>Current SEO Landscape</h3>
@@ -50,8 +50,9 @@ const AlgorithmProofBacklinkStrategy: React.FC = () => {
     <p>The SEO Safety industry faces unique challenges and opportunities with algorithm-proof backlink strategy. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
     <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="SEO algorithm safety" width="800" height="400" />
+    <p><em>SEO algorithm safety (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Core Strategies for Algorithm-Proof Backlink Strategy</h2>
     <h3>Guest Posting Excellence</h3>
@@ -190,7 +191,12 @@ const AlgorithmProofBacklinkStrategy: React.FC = () => {
       </ul>
     </div>
 
-    <h2>Conclusion: Your Path Forward</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6McePZz4XZM" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>Conclusion: Your Path Forward</h2>
     <p>Implementing effective algorithm-proof backlink strategy requires strategic planning, quality execution, and sustained commitment. By following the principles outlined in this guide—prioritizing quality, maintaining diversity, and focusing on relevance—you can build a sustainable backlink profile that delivers lasting SEO results.</p>
 
     <p>At Backlinkoo, we've helped hundreds of risk-conscious businesses and seo professionals achieve significant ranking and traffic improvements through strategic algorithm-proof backlink strategy. Whether you're looking to implement these strategies yourself or partner with experienced professionals, the key is to start today.</p>

@@ -14,9 +14,9 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>LSI terms like "dofollow links" are crucial here—these pass link equity, unlike nofollow links. By prioritizing quality over quantity, you avoid algorithm updates like Penguin, which penalize manipulative practices.</p>
 
     <div class="media">
-        <img src="https://images.pexels.com/photos/33137126/pexels-photo-33137126.jpeg" alt="white hat link building techniques infographic" width="800" height="400" />
-        <p><em>Infographic illustrating key white hat link building techniques (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1516534775068-bb57ce32cb4d?w=800&h=400&fit=crop" alt="White hat link building techniques" width="800" height="400" />
+    <p><em>White hat link building techniques (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Organic White Hat Link Building Strategies</h2>
     <p>Organic strategies form the backbone of effective white hat link building techniques. These methods rely on creating valuable content and fostering genuine connections, ensuring your links are earned naturally.</p>
@@ -102,9 +102,9 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>Tools like <Link to="/senuke">SENUKE for automation</Link> and <Link to="/xrumer">XRumer for posting</Link> from Backlinkoo make implementing white hat link building techniques efficient and scalable.</p>
 
     <div class="media">
-        <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="tools for white hat link building techniques" width="800" height="400" />
-        <p><em>Visual guide to link building tools (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" alt="Ethical SEO practices" width="800" height="400" />
+    <p><em>Ethical SEO practices (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Case Studies: Real-World Success with White Hat Link Building Techniques</h2>
     <p>Let's look at some case studies to illustrate the power of white hat link building techniques.</p>
@@ -119,9 +119,9 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     <p>A consulting firm used influencer collaborations. Acquired 100 links, boosting domain authority by 25 points. Traffic grew 50%, with conversions up 35%. This demonstrates how white hat techniques yield sustainable results.</p>
 
     <div class="media">
-        <img src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg" alt="case study graphs for white hat link building techniques" width="800" height="400" />
-        <p><em>Graphs showing growth from white hat strategies (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=800&h=400&fit=crop" alt="Safe link building methods" width="800" height="400" />
+    <p><em>Safe link building methods (Source: Backlinkoo)</em></p>
+  </div>
 
     <h2>Common Mistakes to Avoid in White Hat Link Building Techniques</h2>
     <p>Even with good intentions, pitfalls can derail your efforts. Avoid these:</p>
@@ -134,7 +134,12 @@ const WhiteHatLinkBuildingTechniques: React.FC = () => {
     </ol>
     <p>By steering clear, you'll maximize the benefits of white hat link building techniques.</p>
 
-    <h2>FAQ: Frequently Asked Questions on White Hat Link Building Techniques</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: Frequently Asked Questions on White Hat Link Building Techniques</h2>
     <h3>What is the difference between white hat and black hat link building?</h3>
     <p>White hat focuses on ethical, value-driven methods, while black hat uses manipulative tactics like link farms.</p>
 

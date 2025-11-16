@@ -38,8 +38,8 @@ const BacklinkFarmingRisks: React.FC = () => {
   <p>For businesses relying on organic search, these risks can translate to devastating lost revenue. At Backlinkoo, we emphasize sustainable strategies to avoid these pitfalls, helping you build robust backlink profiles that enhance domain authority naturally and safely.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Backlink farming risks and Google penalties infographic" width="800" height="400" />
-    <p><em>Infographic illustrating backlink farming risks, penalties, and the cost of recovery (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="Backlink farming risks and penalties" width="800" height="400" />
+    <p><em>Backlink farming risks and penalties (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>Real Consequences of Backlink Farming: Case Studies and Research</h2>
@@ -143,6 +143,11 @@ const BacklinkFarmingRisks: React.FC = () => {
     </tbody>
   </table>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGxFxv2D5d0" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Backlink Farming Risks and Safe Link Building</h2>
   
   <h3>Will I get penalized for old link farm links?</h3>

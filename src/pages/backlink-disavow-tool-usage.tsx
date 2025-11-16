@@ -16,8 +16,8 @@ const BacklinkDisavowToolUsage: React.FC = () => {
   <p>Why does this matter critically? According to Ahrefs research, sites with toxic backlinks experience an average 15-20% drop in organic traffic post-penalty. Proper use of the disavow tool can recover these losses. At Backlinkoo, we've helped clients recover from Penguin penalties by strategically disavowing harmful links while building quality replacements.</p>
   
   <div class="media">
-    <img src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" alt="Google disavow tool guide for removing toxic backlinks" width="800" height="400" />
-    <p><em>Infographic explaining the backlink disavow tool and its role in SEO recovery (Source: Backlinkoo)</em></p>
+    <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="Backlink disavow tool and cleanup" width="800" height="400" />
+    <p><em>Backlink disavow tool and cleanup (Source: Backlinkoo)</em></p>
   </div>
   
   <h2>When to Use the Disavow Tool: Identifying Toxic Backlinks</h2>
@@ -133,6 +133,11 @@ const BacklinkDisavowToolUsage: React.FC = () => {
     <li><strong>Impatience:</strong> Recovery takes months, not weeks</li>
   </ul>
   
+  <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVKvr5PEf-g" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
   <h2>FAQ: Backlink Disavow Tool</h2>
   <h3>Will disavowing links hurt my site?</h3>
   <p>Not if done correctly. Strategic disavowal removes toxic links' negative impact. However, disavowing good links can harm you.</p>

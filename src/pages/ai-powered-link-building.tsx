@@ -22,9 +22,9 @@ const AiPoweredLinkBuilding: React.FC = () => {
     <p>Statistics from <a href="https://moz.com/blog/ai-seo" target="_blank" rel="noopener noreferrer">Moz</a> demonstrate that AI-driven SEO strategies can improve organic traffic by up to 40%. At Backlinkoo, our AI-powered services have helped clients increase their domain authority by an average of 25-30 points within just six months—a feat that would take years with traditional methods.</p>
     
     <div class="media">
-        <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg" alt="AI-powered link building infographic showing artificial intelligence technology" width="800" height="400" />
-        <p><em>Infographic illustrating how AI transforms traditional link building into a scalable, intelligent process (Source: Backlinkoo)</em></p>
-    </div>
+    <img src="https://images.unsplash.com/photo-1518611505868-48510c8dfa93?w=800&h=400&fit=crop" alt="AI and machine learning for link building" width="800" height="400" />
+    <p><em>AI and machine learning for link building (Source: Backlinkoo)</em></p>
+  </div>
     
     <h2>Organic Strategies Enhanced by AI for Sustainable Link Building</h2>
     <p>Organic link building focuses on earning links naturally through valuable content and strategic relationships. AI supercharges these strategies by identifying opportunities at scale, optimizing content for linkability, and personalizing outreach based on psychological and behavioral data.</p>
@@ -130,7 +130,12 @@ const AiPoweredLinkBuilding: React.FC = () => {
       <li>Timeline: Results achieved in 6 months</li>
     </ul></p>
     
-    <h2>FAQ: AI-Powered Link Building</h2>
+    <div class="media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2zFqSyZ57-8" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <p><em>Video tutorial on this topic</em></p>
+  </div>
+
+  <h2>FAQ: AI-Powered Link Building</h2>
     <h3>What is AI-powered link building exactly?</h3>
     <p>It's using machine learning and artificial intelligence to automate and optimize acquiring backlinks, from opportunity identification to outreach personalization to quality assurance.</p>
     
