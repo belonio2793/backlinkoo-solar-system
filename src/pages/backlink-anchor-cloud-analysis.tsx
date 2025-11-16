@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/backlink-anchor-cloud-analysis') {
+function upsertCanonical(href: string) {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -50,12 +50,12 @@ function injectJSONLD(id: string, json: any) {
 export default function BacklinkAnchorCloudAnalysis() {
   React.useEffect(() => {
     upsertMeta('description', `Master backlink anchor cloud with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
-    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : 'https://backlinkoo.com/backlink-anchor-cloud-analysis');
     injectJSONLD('backlink-anchor-cloud-analysis-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: `Backlink anchor cloud - Ultimate Guide to SEO & Backlinks in 2025`,
-      description: `Discover how to acquire backlink anchor cloud analysis for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      description: `Master backlink anchor cloud with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
     });

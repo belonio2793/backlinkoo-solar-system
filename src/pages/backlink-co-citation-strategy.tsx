@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/backlink-co-citation-strategy') {
+function upsertCanonical(href: string) {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -50,12 +50,12 @@ function injectJSONLD(id: string, json: any) {
 export default function BacklinkCoCitationStrategy() {
   React.useEffect(() => {
     upsertMeta('description', `Master co-citation strategy with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
-    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : 'https://backlinkoo.com/backlink-co-citation-strategy');
     injectJSONLD('backlink-co-citation-strategy-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: `Co-citation strategy - Ultimate Guide to SEO & Backlinks in 2025`,
-      description: `Discover how to acquire backlink co-citation strategy for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      description: `Master co-citation strategy with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
     });

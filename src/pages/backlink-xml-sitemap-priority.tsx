@@ -21,7 +21,7 @@ function upsertMeta(name: string, content: string) {
   el.setAttribute('content', content);
 }
 
-function upsertCanonical(typeof window !== 'undefined' ? `https://backlinkoo.com/${window.location.pathname}` : 'https://backlinkoo.com/backlink-xml-sitemap-priority') {
+function upsertCanonical(href: string) {
   if (typeof document === 'undefined') return;
   let el = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
   if (!el) {
@@ -50,12 +50,12 @@ function injectJSONLD(id: string, json: any) {
 export default function BacklinkXmlSitemapPriority() {
   React.useEffect(() => {
     upsertMeta('description', `Master backlink xml sitemap priority with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`);
-    upsertCanonical(typeof window !== 'undefined' ? window.location.href : '');
+    upsertCanonical(typeof window !== 'undefined' ? window.location.href : 'https://backlinkoo.com/backlink-xml-sitemap-priority');
     injectJSONLD('backlink-xml-sitemap-priority-schema', {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: `Backlink xml sitemap priority - Ultimate Guide to SEO & Backlinks in 2025`,
-      description: `Discover how to acquire backlink xml sitemap priority for superior Google rankings. Expert strategies, tools like SENUKE & XRumer, and safe buying tips.`,
+      description: `Master backlink xml sitemap priority with our comprehensive guide. Learn proven strategies, tools, and best practices to boost your SEO rankings and acquire high-quality backlinks in 2025.`,
       author: { '@type': 'Person', name: 'Backlinkoo SEO Expert' },
       datePublished: new Date().toISOString().split('T')[0],
     });
