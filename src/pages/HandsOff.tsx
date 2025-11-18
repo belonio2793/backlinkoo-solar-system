@@ -154,7 +154,7 @@ export default function HandsOff() {
               </div>
             </nav>
 
-            <article className="md:col-span-3 prose prose-invert text-white max-w-none">
+            <article className="md:col-span-3 prose prose-invert prose-slate max-w-none text-gray-200 [&_h2]:text-white [&_h3]:text-gray-100 [&_p]:text-gray-300 [&_li]:text-gray-300 [&_strong]:text-white [&_em]:text-gray-200">
               <section id="what-is">
                 <h2>What is Hands Off?</h2>
                 <p>
