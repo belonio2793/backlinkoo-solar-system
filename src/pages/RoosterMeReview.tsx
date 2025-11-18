@@ -42,7 +42,7 @@ export default function RoosterMeReview() {
       <Seo title={title} description={description} canonical={pageUrl} jsonLd={[jsonLd, softwareLd]} />
       <Header />
 
-      <section className="bg-white">
+      <section className="bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4 py-20 md:py-28">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block mb-5 px-3 py-1 rounded-full border border-yellow-300/20 bg-yellow-400/10 text-yellow-200 text-xs tracking-wide">
@@ -179,7 +179,7 @@ export default function RoosterMeReview() {
               <section id="testimonials">
                 <h2>User Reviews & Real Feedback</h2>
                 <p>
-                  "I started using RoosterMe for our product updates. It’s fast and the audience grouping saved us time on segmented rollouts." — Product Manager at a mid‑sized startup.
+                  "I started using RoosterMe for our product updates. It���s fast and the audience grouping saved us time on segmented rollouts." — Product Manager at a mid‑sized startup.
                 </p>
                 <p>
                   "The focus on short updates made it easier for our team to share wins without crafting long posts. Scheduling is foolproof." — Indie Creator
