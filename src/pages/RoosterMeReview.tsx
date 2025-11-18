@@ -77,7 +77,7 @@ export default function RoosterMeReview() {
               </div>
             </nav>
 
-            <article className="md:col-span-3 prose prose-invert prose-slate max-w-none">
+            <article className="md:col-span-3 prose prose-invert prose-slate max-w-none text-gray-100 [&_h2]:text-white [&_h3]:text-gray-100 [&_p]:text-gray-300 [&_strong]:text-white [&_em]:text-gray-200">
               <section id="quick-summary">
                 <h2>Quick Summary</h2>
                 <p>
