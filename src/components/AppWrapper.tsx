@@ -34,10 +34,7 @@ const PaymentSuccess = lazy(() => import('@/pages/PaymentSuccess'));
 const PaymentCancelled = lazy(() => import('@/pages/PaymentCancelled'));
 const SubscriptionSuccess = lazy(() => import('@/pages/SubscriptionSuccess'));
 const SubscriptionCancelled = lazy(() => import('@/pages/SubscriptionCancelled'));
-const CampaignDeliverables = lazy(async () => {
-  const module = await import('@/pages/CampaignDeliverables');
-  return { default: module.CampaignDeliverables };
-});
+const CampaignDeliverables = lazy(() => import('@/pages/CampaignDeliverables'));
 const EmailMarketing = lazy(() => import('@/pages/EmailMarketing'));
 const BacklinkReport = lazy(() => import('@/pages/BacklinkReport'));
 const ReportViewer = lazy(() => import('@/pages/ReportViewer'));
