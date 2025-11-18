@@ -124,7 +124,7 @@ export default function HandsOff() {
               Automate Repetitive Workflows • Ship Faster
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-white">
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
               Hands Off — Automate the Work You Hate, Keep the Work You Love
             </h1>
 
