@@ -25,10 +25,7 @@ const Register = lazy(() => import('@/pages/Register'));
 const EmailConfirmation = lazy(() => import('@/pages/EmailConfirmation'));
 const AuthCallback = lazy(() => import('@/pages/AuthCallback'));
 const PasswordReset = lazy(() => import('@/pages/PasswordReset'));
-const BlogPreview = lazy(async () => {
-  const module = await import('@/pages/BlogPreview');
-  return { default: module.BlogPreview };
-});
+const BlogPreview = lazy(() => import('@/pages/BlogPreview'));
 const BlogPost = lazy(async () => {
   const module = await import('@/pages/BlogPost');
   return { default: module.BlogPost };

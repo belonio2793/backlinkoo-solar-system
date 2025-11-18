@@ -62,7 +62,7 @@ interface CampaignDeliverable {
   };
 }
 
-export function CampaignDeliverables() {
+export default function CampaignDeliverables() {
   const { campaignId } = useParams();
   const navigate = useNavigate();
   const [campaign, setCampaign] = useState<CampaignDeliverable | null>(null);
