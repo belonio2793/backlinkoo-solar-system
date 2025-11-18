@@ -37,7 +37,7 @@ export default function Basecamp() {
             Refreshingly Straightforward Project Management
           </div>
 
-          <h1 className="text-5xl sm:text-6xl font-bold bg-clip-text text-transparent bg-white">
+          <h1 className="text-5xl sm:text-6xl font-bold text-gray-900">
             Basecamp: The Calm, Organized Way to Manage Projects
           </h1>
 
@@ -673,7 +673,7 @@ export default function Basecamp() {
               With over two decades of real-world experience managing teams across every industry, 37signals has refined project management down to its essentials. Every feature in Basecamp exists because teams consistently asked for it. Every feature that would add complexity has been rejected, no matter how trendy.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              The future of work belongs to teams that embrace simplicity. Teams that consolidate rather than fragment. Teams that value clarity over complexity. Basecamp leads that future by proving that great project management doesn't require overwhelming features—it requires organization, communication, and a place where all work lives together meaningfully.
+              The future of work belongs to teams that embrace simplicity. Teams that consolidate rather than fragment. Teams that value clarity over complexity. Basecamp leads that future by proving that great project management doesn't require overwhelming features��it requires organization, communication, and a place where all work lives together meaningfully.
             </p>
           </div>
         </div>
