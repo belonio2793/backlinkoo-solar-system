@@ -37,7 +37,7 @@ export default function Apparency() {
             The App That Opens Apps
           </div>
 
-          <h1 className="text-5xl sm:text-6xl font-bold bg-clip-text text-transparent bg-white">
+          <h1 className="text-5xl sm:text-6xl font-bold text-gray-900">
             Apparency: Inspect Every macOS Application
           </h1>
 
