@@ -121,13 +121,13 @@ export default function FreshlySqueezed() {
       <section className="bg-white">
         <div className="container mx-auto px-4 py-20 md:py-28">
           <div className="max-w-5xl mx-auto text-center">
-            <div className="inline-block mb-5 px-3 py-1 rounded-full border border-purple-400/30 bg-purple-500/10 text-white text-xs tracking-wide">
+            <div className="inline-block mb-5 px-3 py-1 rounded-full border border-purple-300/30 bg-purple-50 text-purple-700 text-xs tracking-wide font-medium">
               Newsletter Automation & Curation Platform
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-white">
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
               Freshly Squeezed: Curate Brilliant Newsletters in Half the Time
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto">
+            <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               Collect links, summarize sources, and publish beautiful issues faster. This in-depth guide reverse‑engineers top‑ranking page structures and expands on user expectations with practical workflows, SEO‑ready formatting, and review‑driven insights.
             </p>
           </div>
