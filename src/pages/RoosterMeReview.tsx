@@ -51,7 +51,7 @@ export default function RoosterMeReview() {
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
               RoosterMe Review: Features, Privacy, UX, and Verdict
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-slate-300/90 max-w-3xl mx-auto">
+            <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               This comprehensive review walks through RoosterMe’s core ideas — an app that helps people schedule, broadcast, or organize short updates — examining its usability, integrations, privacy stance, and whether it is right for creators and small teams.
             </p>
           </div>
