@@ -10,11 +10,19 @@ const pageModules = import.meta.glob('/src/pages/**/*.tsx', { import: 'default' 
 // Build a map of routes to lazy components
 const routeMap = new Map<string, React.LazyExoticComponent<React.ComponentType<any>>>();
 
+// Helper function to convert PascalCase to kebab-case
+function pascalToKebab(str: string): string {
+  return str
+    .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+    .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2')
+    .toLowerCase();
+}
+
 // Populate route map from discovered page modules
 Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
   // Convert file path to route
-  // e.g., '/src/pages/Blog.tsx' -> '/blog'
-  //       '/src/pages/blog/Index.tsx' -> '/blog'
+  // e.g., '/src/pages/Blog.tsx' -> 'Blog'
+  //       '/src/pages/blog/Index.tsx' -> 'Index'
   const withoutExt = filePath.replace('/src/pages', '').replace(/\.tsx$/i, '');
 
   // Handle index files
@@ -23,19 +31,10 @@ Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
     route = route.replace(/\/index$/, '');
   }
 
-  // Normalized route (lowercased, keeps slashes)
-  const normalized = (route === '' ? '/' : route).toLowerCase();
-
-  // Also support kebab-case route derived from PascalCase filenames (e.g., KeywordResearch -> keyword-research)
-  // Extract the file base name for last segment
+  // Extract the file base name
   const segments = route.split('/').filter(Boolean);
   const last = segments.length > 0 ? segments[segments.length - 1] : '';
-  const kebabFromPascal = last
-    ? '/' + segments.slice(0, -1).concat([last
-        .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
-        .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2')
-        .toLowerCase()]).join('/')
-    : null;
+  const parentPath = segments.length > 1 ? '/' + segments.slice(0, -1).join('/') : '';
 
   // Create lazy component
   const LazyComponent = lazy(async () => {
@@ -43,20 +42,27 @@ Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
     return { default: Comp };
   });
 
-  // Add normalized route
-  routeMap.set(normalized, LazyComponent);
-  if (normalized !== '/' && !normalized.startsWith('/')) {
-    routeMap.set('/' + normalized, LazyComponent);
+  // Generate all possible route variations
+  const routes = new Set<string>();
+
+  // 1. Full path lowercase (e.g., RoosterMeReview -> /roostermeview)
+  if (route) {
+    routes.add('/' + route.toLowerCase());
+    routes.add(route.toLowerCase());
   }
 
-  // Add kebab-case alternate route if different
-  if (kebabFromPascal) {
-    const kebabNormalized = kebabFromPascal.toLowerCase();
-    if (kebabNormalized !== normalized) {
-      routeMap.set(kebabNormalized, LazyComponent);
-      if (!kebabNormalized.startsWith('/')) routeMap.set('/' + kebabNormalized, LazyComponent);
-    }
+  // 2. Kebab-case conversion (e.g., RoosterMeReview -> /rooster-me-review)
+  if (last) {
+    const kebab = pascalToKebab(last);
+    const kebabRoute = parentPath ? parentPath + '/' + kebab : '/' + kebab;
+    routes.add(kebabRoute);
+    if (!kebabRoute.startsWith('/')) routes.add('/' + kebabRoute);
   }
+
+  // 3. Add all variations to the map
+  routes.forEach(r => {
+    routeMap.set(r, LazyComponent);
+  });
 });
 
 const DynamicPageLoader: React.FC = () => {
