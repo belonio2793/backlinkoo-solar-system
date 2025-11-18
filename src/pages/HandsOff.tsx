@@ -120,7 +120,7 @@ export default function HandsOff() {
       <section className="bg-white">
         <div className="container mx-auto px-4 py-20 md:py-28">
           <div className="max-w-5xl mx-auto text-center">
-            <div className="inline-block mb-5 px-3 py-1 rounded-full border border-cyan-400/20 bg-cyan-600/10 text-white text-xs tracking-wide">
+            <div className="inline-block mb-5 px-3 py-1 rounded-full border border-cyan-300/30 bg-cyan-50 text-cyan-700 text-xs tracking-wide font-medium">
               Automate Repetitive Workflows • Ship Faster
             </div>
 
@@ -128,7 +128,7 @@ export default function HandsOff() {
               Hands Off — Automate the Work You Hate, Keep the Work You Love
             </h1>
 
-            <p className="mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto">
+            <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               Hands Off helps creators, solopreneurs, and small teams remove repetitive tasks from their calendars. This comprehensive guide deconstructs the top ranking pages, improves on their structure, and provides an actionable plan to adopt automation responsibly while preserving quality and brand voice.
             </p>
           </div>
