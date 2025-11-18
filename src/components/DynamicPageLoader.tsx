@@ -87,6 +87,21 @@ const DynamicPageLoader: React.FC = () => {
       Comp = routeMap.get('/' + normalized);
     }
 
+    // Try fuzzy match: convert visited path to kebab-case and search
+    // e.g., /roostermeview can be converted to /rooster-me-view and matched against /rooster-me-review
+    if (!Comp && normalized.length > 0) {
+      const pathSegment = normalized.startsWith('/') ? normalized.slice(1) : normalized;
+      const candidates = Array.from(routeMap.keys()).filter(route => {
+        const routeSegment = route.startsWith('/') ? route.slice(1) : route;
+        // Check if routes are similar (allow for slight variations in hyphenation)
+        return routeSegment.replace(/-/g, '') === pathSegment.replace(/-/g, '');
+      });
+
+      if (candidates.length > 0) {
+        Comp = routeMap.get(candidates[0])!;
+      }
+    }
+
     // Try first segment (e.g., /blog/slug -> /blog)
     if (!Comp && normalized.includes('/')) {
       const firstSegment = '/' + normalized.split('/')[1];
