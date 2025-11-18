@@ -62,8 +62,8 @@ export default function RoosterMeReview() {
         <div className="container mx-auto px-4 py-10">
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
             <nav className="md:col-span-1">
-              <div className="sticky top-20 space-y-3 text-sm text-slate-300/80">
-                <div className="font-semibold text-slate-100">On this page</div>
+              <div className="sticky top-20 space-y-3 text-sm text-gray-300">
+                <div className="font-semibold text-white">On this page</div>
                 <a href="#quick-summary" className="block hover:text-white">Quick Summary</a>
                 <a href="#what-is-roosterme" className="block hover:text-white">What is RoosterMe?</a>
                 <a href="#features" className="block hover:text-white">Features</a>
@@ -91,7 +91,7 @@ export default function RoosterMeReview() {
               <section id="what-is-roosterme">
                 <h2>What is RoosterMe?</h2>
                 <p>
-                  At its core, RoosterMe is designed for people who want to share quick updates: release notes, micro‑blogs, team check‑ins, or short status updates. The app focuses on speed — capture, compose, and distribute — rather than long form publishing. This makes it ideal for creators who prefer a fast workflow and small teams that need coordinated, lightweight announcements.
+                  At its core, RoosterMe is designed for people who want to share quick updates: release notes, micro‑blogs, team check���ins, or short status updates. The app focuses on speed — capture, compose, and distribute — rather than long form publishing. This makes it ideal for creators who prefer a fast workflow and small teams that need coordinated, lightweight announcements.
                 </p>
                 <p>
                   The app concept aligns with modern attention patterns: brief, regular updates that invite engagement. RoosterMe aims to reduce friction between idea and audience by keeping compositional overhead minimal.
