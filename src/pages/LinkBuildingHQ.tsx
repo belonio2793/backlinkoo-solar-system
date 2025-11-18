@@ -174,7 +174,7 @@ export default function LinkBuildingHQPage() {
             <div className="space-y-6">
               <Badge variant="secondary" className="bg-indigo-50 text-indigo-700 border-indigo-200">Expert Analysis</Badge>
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                <span className="bg-clip-text text-transparent bg-white">Link Building HQ</span> — comprehensive, data‑driven guide to services, strategy, and results
+                <span className="text-gray-900 font-semibold">Link Building HQ</span> — comprehensive, data‑driven guide to services, strategy, and results
               </h1>
               <p className="text-slate-600 text-lg md:text-xl">
                 An original, exhaustive deep dive into Link Building HQ: how they approach white‑label link building, enterprise campaigns, and Digital PR—plus the playbooks and measurements that make link acquisition safe and effective.
