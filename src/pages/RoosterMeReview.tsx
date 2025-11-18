@@ -48,7 +48,7 @@ export default function RoosterMeReview() {
             <div className="inline-block mb-5 px-3 py-1 rounded-full border border-yellow-300/20 bg-yellow-400/10 text-yellow-200 text-xs tracking-wide">
               RoosterMe Review & Guide
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-white">
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
               RoosterMe Review: Features, Privacy, UX, and Verdict
             </h1>
             <p className="mt-6 text-lg md:text-xl text-slate-300/90 max-w-3xl mx-auto">
