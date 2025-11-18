@@ -73,7 +73,7 @@ export default function CompyleSEO() {
   return (
     <div className="compyle-page bg-black text-white">
       <Header minimal />
-      <main className="max-w-4xl mx-auto px-6 py-16 prose prose-invert">
+      <main className="max-w-4xl mx-auto px-6 py-16 prose prose-invert prose-slate text-gray-200 [&_h1]:text-white [&_h2]:text-white [&_h3]:text-gray-100 [&_p]:text-gray-300 [&_li]:text-gray-300 [&_.lead]:text-gray-300 [&_strong]:text-white [&_em]:text-gray-200">
         <header>
           <h1>Compyle: The Practical Guide to AI-Powered Code Assistance</h1>
           <p className="lead">Everything developers and product teams need to know about Compyle — features, workflows, privacy, comparisons, and how to amplify reach through SEO and backlinks.</p>
