@@ -167,7 +167,7 @@ export default function PressWhizzPage() {
             <div className="space-y-6">
               <Badge variant="secondary" className="bg-indigo-50 text-indigo-700 border-indigo-200">Expert Marketplace Analysis</Badge>
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                <span className="bg-clip-text text-transparent bg-white">PressWhizz</span> — AI‑powered link building marketplace: curated publishers, global coverage, and fast TAT
+                <span className="text-gray-900 font-semibold">PressWhizz</span> — AI‑powered link building marketplace: curated publishers, global coverage, and fast TAT
               </h1>
               <p className="text-slate-600 text-lg md:text-xl">
                 An original, exhaustive deep dive into PressWhizz: how the marketplace works, its vetting standards, delivery speed, and the strategies to maximize ROI while safeguarding E‑E‑A‑T.
