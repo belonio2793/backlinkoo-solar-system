@@ -37,7 +37,7 @@ export default function Basalt() {
             Ship AI Agents Your Users Will Trust
           </div>
           
-          <h1 className="text-5xl sm:text-6xl font-bold bg-clip-text text-transparent bg-white">
+          <h1 className="text-5xl sm:text-6xl font-bold text-gray-900">
             The Complete AI Agent Platform
           </h1>
 
