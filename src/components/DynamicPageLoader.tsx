@@ -5,7 +5,7 @@ import NotFound from '@/pages/NotFound';
 
 // Map of route patterns to lazy-loaded page components
 // This dynamically discovers pages but lazy-loads them on demand
-const pageModules = import.meta.glob('/src/pages/**/*.tsx', { import: 'default' });
+const pageModules = import.meta.glob('../pages/**/*.tsx', { import: 'default' });
 
 // Build a map of routes to lazy components
 const routeMap = new Map<string, React.LazyExoticComponent<React.ComponentType<any>>>();
