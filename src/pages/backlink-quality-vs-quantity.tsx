@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const BacklinkQualityVsQuantity: React.FC = () => {
   const htmlContent = `<h1>Backlink Quality vs Quantity: The Ultimate Guide to Building Effective SEO Links</h1>
@@ -187,7 +186,7 @@ const BacklinkQualityVsQuantity: React.FC = () => {
     <>
       <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
         <h1>Backlink Quality Vs Quantity: The Key to Dominating Google Rankings in 2025</h1>
-        <SeoArticlePage htmlContent={htmlContent} />
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
         <div className="author-bio">
           <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>

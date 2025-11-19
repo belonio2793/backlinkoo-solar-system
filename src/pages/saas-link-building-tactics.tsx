@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const SaasLinkBuildingTactics: React.FC = () => {
   const htmlContent = `<h1>SaaS Link Building Tactics: Boost Your Software's SEO in 2023</h1>
@@ -150,7 +149,11 @@ const SaasLinkBuildingTactics: React.FC = () => {
       </div>
   `;
 
-  return <SeoArticlePage htmlContent={htmlContent} />;
+  return (
+    <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+    </div>
+  );
 };
 
 export default SaasLinkBuildingTactics;

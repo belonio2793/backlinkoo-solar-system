@@ -1,6 +1,5 @@
 import React from 'react';
 import { GenericPageTemplate } from '@/components/GenericPageTemplate';
-import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const MajesticSeoBacklinks: React.FC = () => {
   const title = "Majestic Seo Backlinks: The Key to Dominating Google Rankings in 2025";
