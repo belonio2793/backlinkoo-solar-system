@@ -32,9 +32,6 @@ const MajesticSeoBacklinks: React.FC = () => {
   <p>Create superior content that outshines competitors, then promote it to earn backlinks. The skyscraper technique, popularized by Brian Dean of Backlinko, involves improving upon top-ranking content and pitching it to sites linking to the original. This can lead to a surge in Majestic SEO backlinks, especially if your content is shareable and optimized with keywords like "dofollow links."</p>
   <p>Additionally, infographics, videos, and in-depth guides are link magnets. For more on automation, check out <Link to="/xrumer">XRumer for posting</Link> to forums and blogs efficiently.</p>
   
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
   
   <h2>Buying Majestic SEO Backlinks: Pros, Cons, and Safe Tips</h2>
   <p>While organic methods are ideal, buying Majestic SEO backlinks can accelerate growth when done safely. However, it's a double-edged sword—Google penalizes manipulative practices, so caution is key.</p>

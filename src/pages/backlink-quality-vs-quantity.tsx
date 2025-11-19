@@ -39,9 +39,6 @@ const BacklinkQualityVsQuantity: React.FC = () => {
   <h3>Broken Link Building: Turning Errors into Opportunities</h3>
   <p>Broken link building identifies dead links on authoritative sites and suggests your content as a replacement. This strategy emphasizes quality over quantity, as each link comes from a relevant, high-authority source.</p>
 
-  <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Link Quality Over Quantity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
   
   <p>Tools like Ahrefs' Broken Link Checker can help find opportunities. Reach out politely, and you'll often secure valuable backlinks. Remember, in the <strong>backlink quality vs quantity</strong> equation, one fixed broken link from a DR 70 site is worth more than 10 from low-DR forums.</p>
   

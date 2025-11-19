@@ -39,9 +39,6 @@ const BuzzsumoForLinkOpportunities: React.FC = () => {
     <p>BuzzSumo's influencer search feature is invaluable for link opportunities. Identify key opinion leaders with high engagement and propose collaborations, such as roundups or interviews, which often include dofollow links.</p>
     <p>According to a Backlinko study, influencer collaborations can yield backlinks with an average domain authority of 70+. Use BuzzSumo to track their shared content and tailor your outreach accordingly.</p>
     
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3MnqGJb3PGE" title="Using BuzzSumo for Backlinks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-      </div>
     
     <h3>Resource Page Link Building</h3>
     <p>Search BuzzSumo for "resource pages" in your niche to find curated lists. If your content fits, pitch it for inclusion. This is a low-effort, high-reward strategy for gaining authoritative backlinks.</p>
