@@ -49,9 +49,6 @@ const BacklinkRoiCalculation: React.FC = () => {
     <h3>Industry-Specific Impact: Performance Metrics</h3>
     <p>The Performance Metrics industry faces unique challenges and opportunities with backlink roi calculation. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h2>Core Strategies for Backlink ROI Calculation</h2>
     <h3>Guest Posting Excellence</h3>

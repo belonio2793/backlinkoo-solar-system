@@ -160,10 +160,6 @@ const BacklinkDrVsUrMetrics: React.FC = () => {
     <p><em>SEO rating systems (Source: Backlinkoo)</em></p>
   </div>
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>FAQ: DR vs UR Metrics</h2>
   

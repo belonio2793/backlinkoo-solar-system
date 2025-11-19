@@ -192,10 +192,6 @@ const BacklinkOptimizationForRankingDrops: React.FC = () => {
     </div>
 
 
-  <div class="media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-    <p><em>Video tutorial on this topic</em></p>
-  </div>
 
   <h2>Conclusion: Your Path Forward</h2>
     <p>Implementing effective backlink optimization for ranking drops requires strategic planning, quality execution, and sustained commitment. By following the principles outlined in this guide—prioritizing quality, maintaining diversity, and focusing on relevance—you can build a sustainable backlink profile that delivers lasting SEO results.</p>
