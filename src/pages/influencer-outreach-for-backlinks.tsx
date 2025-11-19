@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SEOPageLayout } from '@/components/SEOPageLayout';
 
 const InfluencerOutreachForBacklinks: React.FC = () => {
-  const htmlContent = `<h1 style="font-size: 2.5em; margin-bottom: 20px;">Influencer Outreach for Backlinks: The Ultimate Guide</h1>
+  const htmlContent = `<h2>What is Influencer Outreach for Backlinks and Why It Matters</h2>
   
   <p>In the ever-evolving world of SEO, <strong>influencer outreach for backlinks</strong> has emerged as a powerhouse strategy for boosting your website's visibility and authority. At Backlinkoo.com, we specialize in helping businesses like yours harness the power of high-quality link building to climb search engine rankings. This comprehensive guide will walk you through everything you need to know about influencer outreach for backlinks, from foundational concepts to advanced tactics. Whether you're a beginner or a seasoned marketer, you'll find actionable insights here to elevate your SEO game.</p>
   
@@ -180,23 +181,11 @@ const InfluencerOutreachForBacklinks: React.FC = () => {
   <p>For more insights, check out Google's <a href="https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines" target="_blank" rel="noopener noreferrer">Webmaster Guidelines</a> or explore our tools like <Link to="/senuke" style="color: #007bff; text-decoration: underline;">SENUKE</Link> and <Link to="/xrumer" style="color: #007bff; text-decoration: underline;">XRumer</Link>.</p>`;
 
   return (
-    <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Influencer Outreach For Backlinks: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
-    </>
+    <SEOPageLayout
+      title="Influencer Outreach for Backlinks: The Ultimate Guide"
+      subtitle="Learn how to identify and engage with influencers to secure high-quality backlinks and amplify your brand's reach and authority."
+      htmlContent={htmlContent}
+    />
   );
 };
 

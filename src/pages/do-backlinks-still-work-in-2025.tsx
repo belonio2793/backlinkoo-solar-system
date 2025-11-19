@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SEOPageLayout } from '@/components/SEOPageLayout';
 
 const DoBacklinksStillWorkIn2025: React.FC = () => {
-  const htmlContent = `<h1 style="text-align: center; margin-bottom: 40px;">Do Backlinks Still Work in 2025?</h1>
+  const htmlContent = `<h2>What Are Backlinks and Why Do They Matter in 2025?</h2>
     
     <p>In the ever-evolving world of SEO, one question keeps popping up: <strong>do backlinks still work in 2025</strong>? As search engines like Google continue to refine their algorithms, many website owners and digital marketers wonder if link building remains a viable strategy. At Backlinkoo.com, we're here to dive deep into this topic, providing you with expert insights, strategies, and tools to help you navigate the landscape. Backlinks, or inbound links from other websites, have long been a cornerstone of SEO, influencing domain authority and search rankings. But with updates like Google's Helpful Content Update and the rise of AI-driven search, it's crucial to understand their relevance today.</p>
     
@@ -205,23 +206,11 @@ const DoBacklinksStillWorkIn2025: React.FC = () => {
     <p style="font-style: italic;">This article is based on expertise from Backlinkoo's SEO specialists, drawing from sources like <a href="https://backlinko.com/seo-stats" target="_blank" rel="noopener noreferrer">Backlinko stats</a> and <a href="https://www.searchenginejournal.com/" target="_blank" rel="noopener noreferrer">Search Engine Journal</a>.</p>`;
 
   return (
-    <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Do Backlinks Still Work In 2025: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
-    </>
+    <SEOPageLayout
+      title="Do Backlinks Still Work in 2025? The Truth About Links in Modern SEO"
+      subtitle="Discover whether backlinks remain a critical ranking factor in 2025 and learn proven strategies to build an effective backlink profile."
+      htmlContent={htmlContent}
+    />
   );
 };
 
