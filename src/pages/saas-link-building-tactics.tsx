@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/saas-link-building-tactics.css';
 
 const SaasLinkBuildingTactics: React.FC = () => {
   const htmlContent = `<div>
@@ -152,7 +153,7 @@ const SaasLinkBuildingTactics: React.FC = () => {
   `;
 
   return (
-    <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+    <div className="slbt-article" dangerouslySetInnerHTML={{ __html: htmlContent }} />
   );
 };
 
