@@ -29,6 +29,7 @@ export const GenericPageTemplate: React.FC<GenericPageProps> = ({
   htmlContent,
   keywords = '',
   description = subtitle,
+  schemaMarkup,
 }) => {
   const [sections, setSections] = useState<Section[]>([]);
   const [active, setActive] = useState<string>('');
