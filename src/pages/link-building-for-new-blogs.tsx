@@ -49,9 +49,6 @@ const LinkBuildingForNewBlogs: React.FC = () => {
     <h3>Industry-Specific Impact: Blogging</h3>
     <p>The Blogging industry faces unique challenges and opportunities with link building for new blogs. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h3>Core Strategies for Link Building for New Blogs</h3>
     <h3>Guest Posting Excellence</h3>
