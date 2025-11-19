@@ -1,0 +1,244 @@
+/* SaaS Link Building Tactics page stylesheet — based on senuke design
+   Scope: only affects /saas-link-building-tactics via article class names
+   Notes: prefers CSS variables, responsive design, a11y focus */
+
+:root {
+  --slbt-bg-grad-1: 255, 255, 255;
+  --slbt-bg-grad-2: 240, 247, 255;
+  --slbt-ink: 15, 23, 42;
+  --slbt-ink-2: 51, 65, 85;
+  --slbt-ink-3: 100, 116, 139;
+  --slbt-brand-1: 79, 70, 229;
+  --slbt-brand-2: 168, 85, 247;
+  --slbt-brand-3: 56, 189, 248;
+  --slbt-card: 255, 255, 255;
+  --slbt-border: 15, 23, 42;
+  --slbt-soft: 245, 247, 255;
+  --slbt-radius: 14px;
+}
+
+.dark :root, .dark {
+  --slbt-bg-grad-1: 2, 6, 23;
+  --slbt-bg-grad-2: 15, 23, 42;
+  --slbt-ink: 241, 245, 249;
+  --slbt-ink-2: 203, 213, 225;
+  --slbt-ink-3: 148, 163, 184;
+  --slbt-brand-1: 99, 102, 241;
+  --slbt-brand-2: 168, 85, 247;
+  --slbt-brand-3: 56, 189, 248;
+  --slbt-card: 2, 6, 23;
+  --slbt-border: 71, 85, 105;
+  --slbt-soft: 5, 12, 30;
+}
+
+/* Article wrapper */
+.slbt-article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  color: rgba(var(--slbt-ink), .95);
+}
+
+/* Typography */
+.slbt-article h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  color: rgb(var(--slbt-ink));
+}
+
+.slbt-article h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: rgb(var(--slbt-ink));
+}
+
+.slbt-article h3 {
+  font-size: clamp(1.1rem, 1.5vw, 1.4rem);
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: rgb(var(--slbt-ink-2));
+}
+
+.slbt-article p {
+  color: rgba(var(--slbt-ink-2), 1);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.slbt-article strong {
+  font-weight: 700;
+  color: rgb(var(--slbt-brand-1));
+}
+
+.slbt-article a {
+  color: rgb(var(--slbt-brand-1));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity 0.2s ease;
+}
+
+.slbt-article a:hover {
+  opacity: 0.8;
+}
+
+/* Lists */
+.slbt-article ul, .slbt-article ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.slbt-article li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: rgba(var(--slbt-ink-2), 1);
+}
+
+/* Tables */
+.slbt-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border: 1px solid rgba(var(--slbt-border), .1);
+  border-radius: var(--slbt-radius);
+  overflow: hidden;
+}
+
+.slbt-article th {
+  background: linear-gradient(135deg, rgba(var(--slbt-brand-1), .08), rgba(var(--slbt-brand-2), .06));
+  padding: 1rem;
+  text-align: left;
+  font-weight: 700;
+  color: rgb(var(--slbt-ink));
+  border-bottom: 2px solid rgba(var(--slbt-border), .1);
+}
+
+.slbt-article td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(var(--slbt-border), .06);
+  color: rgba(var(--slbt-ink-2), 1);
+}
+
+.slbt-article tr:hover {
+  background: rgba(var(--slbt-soft), .5);
+}
+
+/* Media (images and iframes) */
+.slbt-article .media {
+  margin: 2rem 0;
+  border-radius: var(--slbt-radius);
+  overflow: hidden;
+  border: 1px solid rgba(var(--slbt-border), .08);
+}
+
+.slbt-article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slbt-article iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slbt-article .media p {
+  margin: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: rgba(var(--slbt-ink-3), 1);
+}
+
+/* Buttons */
+.slbt-article .cta-button {
+  background: linear-gradient(90deg, rgb(var(--slbt-brand-2)), rgb(var(--slbt-brand-1)));
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: var(--slbt-radius);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 2rem 0;
+}
+
+.slbt-article .cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(var(--slbt-brand-2), .2);
+}
+
+/* Em and emphasis */
+.slbt-article em {
+  font-style: italic;
+  color: rgba(var(--slbt-ink-2), 1);
+}
+
+/* Blockquotes */
+.slbt-article blockquote {
+  border-left: 3px solid rgba(var(--slbt-brand-1), .45);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: rgba(var(--slbt-ink-2), 1);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slbt-article {
+    padding: 1.5rem 1rem;
+  }
+
+  .slbt-article h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .slbt-article h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .slbt-article table {
+    font-size: 0.9rem;
+  }
+
+  .slbt-article th, .slbt-article td {
+    padding: 0.75rem;
+  }
+
+  .slbt-article .cta-button {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+/* Prevent overflow */
+.slbt-article {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.slbt-article * {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+  min-width: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Print */
+@media print {
+  .slbt-article .cta-button {
+    display: none;
+  }
+}
