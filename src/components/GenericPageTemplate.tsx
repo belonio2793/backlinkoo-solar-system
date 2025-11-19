@@ -20,6 +20,7 @@ interface GenericPageProps {
   htmlContent: string;
   keywords?: string;
   description?: string;
+  schemaMarkup?: any;
 }
 
 export const GenericPageTemplate: React.FC<GenericPageProps> = ({
