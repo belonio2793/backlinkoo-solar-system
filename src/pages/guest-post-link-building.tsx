@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const GuestPostLinkBuilding: React.FC = () => {
   const htmlContent = `<h1>Guest Post Link Building: The Ultimate Guide to Boosting Your SEO</h1>
@@ -166,14 +167,8 @@ const GuestPostLinkBuilding: React.FC = () => {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto px-5 py-8 font-sans leading-relaxed text-gray-800">
-        <h1>Guest Post Link Building: The Key to Dominating Google Rankings in 2025</h1>
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <div className="author-bio">
-          <p><strong>About the Author</strong>: Jane Doe, SEO Director at Backlinkoo with 10+ years in link building. Featured on Forbes.</p>
-        </div>
-
+      <SeoArticlePage htmlContent={htmlContent} />
+      <div className="article-page" style={{ textAlign: 'center', padding: '2rem 1.5rem' }}>
         <button className="cta-button" onClick={() => window.location.href = '/register'}>
           Register for Backlink ∞ Today – Get Your First 10 links Free!
         </button>
