@@ -21,9 +21,9 @@ function pascalToKebab(str: string): string {
 // Populate route map from discovered page modules
 Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
   // Convert file path to route
-  // e.g., '/src/pages/Blog.tsx' -> 'Blog'
-  //       '/src/pages/blog/Index.tsx' -> 'Index'
-  const withoutExt = filePath.replace('/src/pages', '').replace(/\.tsx$/i, '');
+  // e.g., '../pages/Blog.tsx' -> 'Blog'
+  //       '../pages/blog/Index.tsx' -> 'Index'
+  const withoutExt = filePath.replace(/^\.\.\/pages/, '').replace(/\.tsx$/i, '');
 
   // Handle index files
   let route = withoutExt;
