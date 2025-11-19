@@ -21,18 +21,27 @@ function pascalToKebab(str: string): string {
 // Populate route map from discovered page modules
 Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
   // Convert file path to route
-  // e.g., '../pages/Blog.tsx' -> 'Blog'
-  //       '../pages/blog/Index.tsx' -> 'Index'
-  const withoutExt = filePath.replace(/^\.\.\/pages/, '').replace(/\.tsx$/i, '');
+  // e.g., '../pages/Blog.tsx' -> '/blog'
+  //       '../pages/blog/Index.tsx' -> '/blog'
+  // Remove the glob prefix and file extension
+  let withoutExt = filePath.replace(/^\.\.\/pages/, '').replace(/\.tsx$/i, '');
 
-  // Handle index files
+  // Remove leading slash if present
+  if (withoutExt.startsWith('/')) {
+    withoutExt = withoutExt.slice(1);
+  }
+
+  // Handle index files - convert 'blog/index' -> 'blog'
   let route = withoutExt;
   if (route.endsWith('/index')) {
     route = route.replace(/\/index$/, '');
   }
+  if (route === 'index' || route === '') {
+    route = '/';
+  }
 
   // Extract the file base name
-  const segments = route.split('/').filter(Boolean);
+  const segments = route === '/' ? [] : route.split('/').filter(Boolean);
   const last = segments.length > 0 ? segments[segments.length - 1] : '';
   const parentPath = segments.length > 1 ? '/' + segments.slice(0, -1).join('/') : '';
 
@@ -45,18 +54,20 @@ Object.entries(pageModules).forEach(([filePath, moduleImport]) => {
   // Generate all possible route variations
   const routes = new Set<string>();
 
-  // 1. Full path lowercase (e.g., RoosterMeReview -> /roostermeview)
-  if (route) {
-    routes.add('/' + route.toLowerCase());
-    routes.add(route.toLowerCase());
+  // 1. Full path lowercase (e.g., 'RoosterMeReview' -> '/roostermeireview')
+  if (route && route !== '/') {
+    const lowerRoute = route.toLowerCase();
+    routes.add('/' + lowerRoute);
+    if (!lowerRoute.startsWith('/')) {
+      routes.add(lowerRoute);
+    }
   }
 
-  // 2. Kebab-case conversion (e.g., RoosterMeReview -> /rooster-me-review)
+  // 2. Kebab-case conversion (e.g., 'RoosterMeReview' -> '/rooster-me-review')
   if (last) {
     const kebab = pascalToKebab(last);
     const kebabRoute = parentPath ? parentPath + '/' + kebab : '/' + kebab;
     routes.add(kebabRoute);
-    if (!kebabRoute.startsWith('/')) routes.add('/' + kebabRoute);
   }
 
   // 3. Add all variations to the map
