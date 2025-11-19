@@ -154,14 +154,6 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
   <h3>How does Backlinkoo help with this?</h3>
   <p>We provide comprehensive services, from analysis to acquisition, ensuring safe and effective link building.</p>
   </div>
-
-        <button className="cta-button" onClick={() => window.location.href = '/register'}>
-          Register for Backlink ∞ Today – Get Your First 10 links Free!
-        </button>
-        <p><em>Ready to transform your SEO? Join 10,000+ users building unbreakable link profiles.</em></p>
-
-        <p>Related Reads: <Link to="/senuke">SENUKE Review</Link> | <Link to="/xrumer">XRumer Setup</Link> | <a href="https://searchengineland.com/backlinks-2025-456789" target="_blank" rel="noopener noreferrer">Search Engine Land Trends</a></p>
-      </div>
   `;
 
   return (
