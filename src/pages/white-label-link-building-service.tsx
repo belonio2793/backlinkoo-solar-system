@@ -49,9 +49,6 @@ const WhiteLabelLinkBuildingService: React.FC = () => {
     <h3>Industry-Specific Impact: Reseller Services</h3>
     <p>The Reseller Services industry faces unique challenges and opportunities with white-label link building service. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h3>Core Strategies for White-Label Link Building Service</h3>
     <h3>Guest Posting Excellence</h3>
