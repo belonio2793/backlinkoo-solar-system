@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/competitor-backlink-gap-analysis.css';
+import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const CompetitorBacklinkGapAnalysis: React.FC = () => {
   const htmlContent = `<div>
@@ -167,9 +167,7 @@ const CompetitorBacklinkGapAnalysis: React.FC = () => {
     </div>
   `;
 
-  return (
-    <div className="cbga-article" dangerouslySetInnerHTML={{ __html: htmlContent }} />
-  );
+  return <SeoArticlePage htmlContent={htmlContent} />;
 };
 
 export default CompetitorBacklinkGapAnalysis;
