@@ -49,9 +49,6 @@ const RankingImprovementCaseStudies: React.FC = () => {
     <h3>Industry-Specific Impact: Proof & Results</h3>
     <p>The Proof & Results industry faces unique challenges and opportunities with ranking improvement case studies. Understanding these nuances is critical for achieving competitive advantage in your market segment.</p>
 
-    <div class="media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zhjRlYxwD6I" title="Link building best practices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
 
     <h2>Core Strategies for Ranking Improvement Case Studies</h2>
     <h3>Guest Posting Excellence</h3>
