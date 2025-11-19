@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SeoArticlePage } from '@/components/SeoArticlePage';
 
 const HaroLinkBuildingGuide: React.FC = () => {
   const htmlContent = `<h1>HARO Link Building Guide: Master the Art of Earning High-Quality Backlinks</h1>
