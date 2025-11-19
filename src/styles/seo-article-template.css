@@ -1,0 +1,382 @@
+/* Universal SEO Article Template Stylesheet
+   High performance, fast load times, excellent SEO score
+   Used by all keyword/SEO-targeted pages for consistent styling */
+
+:root {
+  --article-max-width: 900px;
+  --article-padding: 2rem 1.5rem;
+  --article-gap: 1.5rem;
+  --text-primary: 15, 23, 42;
+  --text-secondary: 51, 65, 85;
+  --text-tertiary: 100, 116, 139;
+  --brand-primary: 79, 70, 229;
+  --brand-secondary: 168, 85, 247;
+  --border-color: 15, 23, 42;
+  --bg-light: 245, 247, 255;
+  --radius: 12px;
+}
+
+.dark {
+  --text-primary: 241, 245, 249;
+  --text-secondary: 203, 213, 225;
+  --text-tertiary: 148, 163, 184;
+  --brand-primary: 99, 102, 241;
+  --border-color: 71, 85, 105;
+  --bg-light: 5, 12, 30;
+}
+
+/* Main article container */
+.article-page {
+  max-width: var(--article-max-width);
+  margin: 0 auto;
+  padding: var(--article-padding);
+  color: rgba(var(--text-secondary), 1);
+  line-height: 1.7;
+}
+
+/* Headings */
+.article-page h1 {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin: 0 0 1.5rem 0;
+  color: rgb(var(--text-primary));
+}
+
+.article-page h2 {
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 2.5rem 0 1rem 0;
+  color: rgb(var(--text-primary));
+}
+
+.article-page h3 {
+  font-size: clamp(1.1rem, 1.75vw, 1.35rem);
+  font-weight: 700;
+  margin: 1.5rem 0 0.75rem 0;
+  color: rgb(var(--text-secondary));
+}
+
+.article-page h4,
+.article-page h5,
+.article-page h6 {
+  font-weight: 700;
+  margin: 1.25rem 0 0.75rem 0;
+  color: rgb(var(--text-secondary));
+}
+
+/* Paragraphs and text */
+.article-page p {
+  margin: 0 0 1.25rem 0;
+  color: rgba(var(--text-secondary), 1);
+}
+
+.article-page strong {
+  font-weight: 700;
+  color: rgb(var(--brand-primary));
+}
+
+.article-page em {
+  font-style: italic;
+  color: rgba(var(--text-secondary), 1);
+}
+
+.article-page a {
+  color: rgb(var(--brand-primary));
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.18s ease;
+}
+
+.article-page a:hover {
+  opacity: 0.8;
+}
+
+.article-page a:focus-visible {
+  outline: 2px solid rgb(var(--brand-primary));
+  outline-offset: 2px;
+}
+
+/* Lists */
+.article-page ul,
+.article-page ol {
+  margin: var(--article-gap) 0;
+  padding-left: 2rem;
+}
+
+.article-page li {
+  margin-bottom: 0.65rem;
+  color: rgba(var(--text-secondary), 1);
+}
+
+.article-page ul li::marker {
+  color: rgba(var(--brand-primary), 0.7);
+}
+
+.article-page ol li::marker {
+  color: rgba(var(--brand-primary), 0.7);
+}
+
+/* Tables */
+.article-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border: 1px solid rgba(var(--border-color), 0.08);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.article-page thead {
+  background: rgba(var(--brand-primary), 0.04);
+}
+
+.article-page th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 700;
+  color: rgb(var(--text-primary));
+  border-bottom: 2px solid rgba(var(--border-color), 0.1);
+}
+
+.article-page td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(var(--border-color), 0.06);
+  color: rgba(var(--text-secondary), 1);
+}
+
+.article-page tbody tr:hover {
+  background: rgba(var(--bg-light), 0.5);
+}
+
+/* Media elements */
+.article-page .media {
+  margin: 2rem 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(var(--border-color), 0.08);
+}
+
+.article-page img,
+.article-page video,
+.article-page iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-page .media > p {
+  margin: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(var(--text-tertiary), 1);
+}
+
+/* Blockquotes */
+.article-page blockquote {
+  border-left: 3px solid rgba(var(--brand-primary), 0.4);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(var(--bg-light), 0.3);
+  color: rgba(var(--text-secondary), 1);
+  font-style: italic;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Code blocks */
+.article-page code,
+.article-page pre {
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  overflow-x: auto;
+}
+
+.article-page code {
+  background: rgba(var(--brand-primary), 0.08);
+  color: rgb(var(--brand-primary));
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  word-break: break-word;
+}
+
+.article-page pre {
+  background: rgba(var(--text-primary), 0.08);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  border: 1px solid rgba(var(--border-color), 0.1);
+}
+
+.article-page pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* Buttons and CTA */
+.article-page .cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, rgb(var(--brand-secondary)), rgb(var(--brand-primary)));
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  margin: 1.5rem 0;
+  text-decoration: none;
+}
+
+.article-page .cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(var(--brand-secondary), 0.18);
+}
+
+.article-page .cta-button:active {
+  transform: translateY(0);
+}
+
+/* Horizontal rule */
+.article-page hr {
+  border: none;
+  height: 1px;
+  background: rgba(var(--border-color), 0.08);
+  margin: 2.5rem 0;
+}
+
+/* Spacing utilities */
+.article-page > * + * {
+  margin-top: 0;
+}
+
+/* Accessibility - focus visible */
+.article-page *:focus-visible {
+  outline: 2px solid rgb(var(--brand-primary));
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .article-page {
+    padding: 1.5rem 1rem;
+  }
+
+  .article-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .article-page h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .article-page table {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+  }
+
+  .article-page th,
+  .article-page td {
+    padding: 0.75rem;
+  }
+
+  .article-page blockquote {
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+  }
+
+  .article-page ul,
+  .article-page ol {
+    padding-left: 1.5rem;
+  }
+
+  .article-page .cta-button {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-page {
+    padding: 1rem 0.75rem;
+  }
+
+  .article-page h1 {
+    font-size: 1.35rem;
+  }
+
+  .article-page h2 {
+    font-size: 1.1rem;
+  }
+
+  .article-page pre {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .article-page .cta-button {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .article-page {
+    padding: 0;
+  }
+
+  .article-page a {
+    text-decoration: none;
+  }
+
+  .article-page .cta-button {
+    display: none;
+  }
+
+  .article-page table,
+  .article-page img,
+  .article-page video {
+    page-break-inside: avoid;
+  }
+}
+
+/* Performance: disable unnecessary animations */
+@media (prefers-reduced-motion: reduce) {
+  .article-page a,
+  .article-page .cta-button {
+    transition: none;
+  }
+}
+
+/* Typography optimization for body text */
+.article-page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Prevent layout shift */
+.article-page img,
+.article-page video,
+.article-page iframe {
+  display: block;
+}
+
+/* Prevent overflow on all browsers */
+.article-page {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.article-page * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
