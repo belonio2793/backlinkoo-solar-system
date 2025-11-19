@@ -140,21 +140,26 @@ export const GenericPageTemplate: React.FC<GenericPageProps> = ({
     link.href = canonical;
 
     const existingScript = document.getElementById('generic-page-jsonld');
-    if (!existingScript) {
-      const script = document.createElement('script');
-      script.type = 'application/ld+json';
-      script.id = 'generic-page-jsonld';
-      script.text = JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        headline: title,
-        description: description,
-        url: canonical,
-        author: { '@type': 'Organization', name: 'Backlinkoo' },
-      });
-      document.head.appendChild(script);
+    if (existingScript) {
+      existingScript.remove();
     }
-  }, [title, description, keywords, canonical]);
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'generic-page-jsonld';
+
+    const jsonldData = schemaMarkup || {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: description,
+      url: canonical,
+      author: { '@type': 'Organization', name: 'Backlinkoo' },
+    };
+
+    script.text = JSON.stringify(jsonldData);
+    document.head.appendChild(script);
+  }, [title, description, keywords, canonical, schemaMarkup]);
 
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
