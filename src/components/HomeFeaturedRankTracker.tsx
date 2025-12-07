@@ -81,12 +81,20 @@ export function HomeFeaturedRankTracker() {
     const windowEnv = typeof window !== 'undefined' ? (window as any) : {};
 
     const candidates = [
+      // Local relative paths (for same-origin deployments)
       '/api/homeFeaturedSearchRank',
       '/.netlify/functions/homeFeaturedSearchRank',
+
+      // Environment-configured endpoints (for cross-origin deployments)
       envAny?.VITE_NETLIFY_FUNCTIONS_URL ? `${envAny.VITE_NETLIFY_FUNCTIONS_URL.replace(/\/$/, '')}/homeFeaturedSearchRank` : null,
       envAny?.VITE_NETLIFY_DEV_FUNCTIONS ? `${envAny.VITE_NETLIFY_DEV_FUNCTIONS.replace(/\/$/, '')}/homeFeaturedSearchRank` : null,
       nodeEnv.VITE_NETLIFY_FUNCTIONS_URL ? `${nodeEnv.VITE_NETLIFY_FUNCTIONS_URL.replace(/\/$/, '')}/homeFeaturedSearchRank` : null,
       nodeEnv.NETLIFY_FUNCTIONS_URL ? `${nodeEnv.NETLIFY_FUNCTIONS_URL.replace(/\/$/, '')}/homeFeaturedSearchRank` : null,
+
+      // Fallback to known Netlify site if available
+      envAny?.VITE_NETLIFY_SITE_ID ? `https://backlinkoo.netlify.app/.netlify/functions/homeFeaturedSearchRank` : null,
+
+      // Window environment variables
       windowEnv?.VITE_NETLIFY_FUNCTIONS_URL ? `${windowEnv.VITE_NETLIFY_FUNCTIONS_URL.replace(/\/$/, '')}/homeFeaturedSearchRank` : null,
       windowEnv?.NETLIFY_FUNCTIONS_URL ? `${windowEnv.NETLIFY_FUNCTIONS_URL.replace(/\/$/, '')}/homeFeaturedSearchRank` : null
     ].filter(Boolean) as string[];
