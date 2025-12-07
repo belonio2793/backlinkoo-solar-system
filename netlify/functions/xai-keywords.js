@@ -143,7 +143,7 @@ async function runJob(_promptIgnored, apiKeyOverride) {
   return { ok: true, data: payload, cacheError, tried };
 }
 
-export async function handler(event) {
+exports.handler = async (event, context) => {
   if (event.httpMethod === 'OPTIONS') {
     return { statusCode: 200, headers: headersBase, body: '' };
   }
@@ -183,4 +183,6 @@ export async function handler(event) {
   } catch (e) {
     return { statusCode: 500, headers: headersBase, body: JSON.stringify({ ok: false, error: e?.message || String(e) }) };
   }
-}
+};
+
+exports.config = config;
