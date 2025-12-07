@@ -104,10 +104,12 @@ export function CombinedSearchSection() {
       if (tried.has(endpoint)) continue;
       tried.add(endpoint);
       try {
+        console.log('Trying endpoint:', endpoint);
         const res = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: normalizedUrl, save, userId }) });
+        console.log('Response status:', res.status, 'for endpoint:', endpoint);
         if (!res.ok) {
           const body = await res.text().catch(() => '');
-          console.warn('callGrok candidate failed:', endpoint, res.status, body);
+          console.warn('callGrok candidate failed:', endpoint, res.status, body?.substring(0, 200));
           continue;
         }
         const contentType = res.headers.get('content-type') || '';
