@@ -13,7 +13,7 @@ const headersBase = {
   'Content-Type': 'application/json'
 };
 
-export const config = { schedule: '0 0 * * *' };
+const config = { schedule: '0 0 * * *' };
 
 async function getSupabaseAdmin() {
   try {
