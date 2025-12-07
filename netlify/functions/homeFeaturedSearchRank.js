@@ -8,10 +8,10 @@ const headers = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-  'Content-Type': 'text/plain'
+  'Content-Type': 'application/json'
 };
 
-export async function handler(event) {
+exports.handler = async (event, context) => {
   if (event.httpMethod === 'OPTIONS') {
     return { statusCode: 200, headers, body: '' };
   }
