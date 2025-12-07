@@ -364,7 +364,10 @@ export function HomeFeaturedRankTracker() {
                         )}
 
                         <div className="mt-3 flex items-center justify-between">
-                          <div>
+                          <div className="flex gap-2">
+                            {result?.isDemoMode && (
+                              <Badge className="bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">Demo</Badge>
+                            )}
                             {result?.premium && (
                               <Badge className="bg-gold-100 text-gold-700 dark:bg-gold-900/40 dark:text-gold-300"><Zap className="w-3 h-3 mr-1" />Premium</Badge>
                             )}
