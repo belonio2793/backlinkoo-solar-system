@@ -46,7 +46,10 @@ exports.handler = async (event, context) => {
       return {
         statusCode: 500,
         headers: headers,
-        body: 'API key not configured. Please contact support.'
+        body: JSON.stringify({
+          ok: false,
+          error: 'API key not configured. Please contact support.'
+        })
       };
     }
 
@@ -59,7 +62,10 @@ exports.handler = async (event, context) => {
         return {
           statusCode: 400,
           headers: headers,
-          body: 'Invalid request format. Please send valid JSON.'
+          body: JSON.stringify({
+            ok: false,
+            error: 'Invalid request format. Please send valid JSON.'
+          })
         };
       }
     }
@@ -70,7 +76,10 @@ exports.handler = async (event, context) => {
       return {
         statusCode: 400,
         headers: headers,
-        body: 'URL is required. Please provide a domain or website URL.'
+        body: JSON.stringify({
+          ok: false,
+          error: 'URL is required. Please provide a domain or website URL.'
+        })
       };
     }
 
@@ -83,7 +92,10 @@ exports.handler = async (event, context) => {
       return {
         statusCode: 400,
         headers: headers,
-        body: 'Invalid URL format. Please provide a valid domain like example.com.'
+        body: JSON.stringify({
+          ok: false,
+          error: 'Invalid URL format. Please provide a valid domain like example.com.'
+        })
       };
     }
 
