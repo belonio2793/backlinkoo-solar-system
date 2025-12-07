@@ -121,11 +121,16 @@ exports.handler = async (event, context) => {
     const jsonResponse = await response.json();
     const content = jsonResponse?.choices?.[0]?.message?.content || 'No analysis available';
 
-    // Return the plain text response directly
+    // Return JSON response with the analysis
     return {
       statusCode: 200,
       headers: headers,
-      body: content
+      body: JSON.stringify({
+        ok: true,
+        success: true,
+        data: content,
+        report: content
+      })
     };
   } catch (error) {
     console.error('Error in homeFeaturedSearchRank:', error);
