@@ -1,9 +1,3 @@
-/*
-  homeFeaturedSearchRank.js
-  Uses Grok AI to analyze a URL and provide SEO insights.
-  Accepts { url } and returns plain text analysis from Grok.
-*/
-
 const headers = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
@@ -11,11 +5,17 @@ const headers = {
   'Content-Type': 'application/json'
 };
 
-exports.handler = async (event, context) => {
+async function handler(event) {
+  // Handle CORS preflight
   if (event.httpMethod === 'OPTIONS') {
-    return { statusCode: 200, headers, body: '' };
+    return { 
+      statusCode: 200, 
+      headers, 
+      body: '' 
+    };
   }
 
+  // Handle GET (health check)
   if (event.httpMethod === 'GET') {
     const ok = !!process.env.X_API;
     return {
@@ -29,13 +29,14 @@ exports.handler = async (event, context) => {
     };
   }
 
+  // Only allow POST
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
-      headers: headers,
+      headers,
       body: JSON.stringify({
         ok: false,
-        error: 'Method not allowed. Please use POST.'
+        error: 'Method not allowed. Use POST.'
       })
     };
   }
@@ -45,45 +46,43 @@ exports.handler = async (event, context) => {
     if (!apiKey) {
       return {
         statusCode: 500,
-        headers: headers,
+        headers,
         body: JSON.stringify({
           ok: false,
-          error: 'API key not configured. Please contact support.'
+          error: 'API key not configured'
         })
       };
     }
 
-    const rawBody = typeof event.body === 'string' ? event.body : '';
     let body = {};
-    if (rawBody) {
+    if (event.body) {
       try {
-        body = JSON.parse(rawBody);
+        body = typeof event.body === 'string' ? JSON.parse(event.body) : event.body;
       } catch (e) {
         return {
           statusCode: 400,
-          headers: headers,
+          headers,
           body: JSON.stringify({
             ok: false,
-            error: 'Invalid request format. Please send valid JSON.'
+            error: 'Invalid JSON'
           })
         };
       }
     }
 
-    const url = typeof body?.url === 'string' ? body.url.trim() : '';
-
+    const url = body?.url;
     if (!url) {
       return {
         statusCode: 400,
-        headers: headers,
+        headers,
         body: JSON.stringify({
           ok: false,
-          error: 'URL is required. Please provide a domain or website URL.'
+          error: 'URL is required'
         })
       };
     }
 
-    // Validate URL format
+    // Validate URL
     let normalizedUrl = url;
     try {
       const urlObj = new URL(url.includes('://') ? url : `https://${url}`);
@@ -91,25 +90,16 @@ exports.handler = async (event, context) => {
     } catch (e) {
       return {
         statusCode: 400,
-        headers: headers,
+        headers,
         body: JSON.stringify({
           ok: false,
-          error: 'Invalid URL format. Please provide a valid domain like example.com.'
+          error: 'Invalid URL format'
         })
       };
     }
 
-    // Construct prompt for AI to analyze the website
-    // Request unique analysis without templated format
-    const prompt = `how many backlinks would you recommend for ${normalizedUrl} and what keywords would you target? Respond in one paragraph or a few sentences.
-`;
-
-    const messages = [
-      {
-        role: 'user',
-        content: prompt
-      }
-    ];
+    // Call Grok API
+    const prompt = `how many backlinks would you recommend for ${normalizedUrl} and what keywords would you target? Respond in 2-3 sentences.`;
 
     const response = await fetch('https://api.x.ai/v1/chat/completions', {
       method: 'POST',
@@ -119,21 +109,21 @@ exports.handler = async (event, context) => {
       },
       body: JSON.stringify({
         model: 'grok-4',
-        messages: messages,
+        messages: [{ role: 'user', content: prompt }],
         temperature: 0.3,
         max_tokens: 2048
       })
     });
 
     if (!response.ok) {
-      const errorText = await response.text();
-      console.error('Grok API error:', errorText);
+      const errorText = await response.text().catch(() => 'Unknown error');
+      console.error('Grok API error:', response.status, errorText);
       return {
-        statusCode: response.status || 500,
-        headers: headers,
+        statusCode: 502,
+        headers,
         body: JSON.stringify({
           ok: false,
-          error: 'Unable to generate analysis at this time. Please try again later.'
+          error: 'Unable to analyze website'
         })
       };
     }
@@ -141,10 +131,9 @@ exports.handler = async (event, context) => {
     const jsonResponse = await response.json();
     const content = jsonResponse?.choices?.[0]?.message?.content || 'No analysis available';
 
-    // Return JSON response with the analysis
     return {
       statusCode: 200,
-      headers: headers,
+      headers,
       body: JSON.stringify({
         ok: true,
         success: true,
@@ -152,15 +141,18 @@ exports.handler = async (event, context) => {
         report: content
       })
     };
+
   } catch (error) {
-    console.error('Error in homeFeaturedSearchRank:', error);
+    console.error('Function error:', error);
     return {
       statusCode: 500,
-      headers: headers,
+      headers,
       body: JSON.stringify({
         ok: false,
-        error: 'An error occurred while analyzing your website. Please try again.'
+        error: 'Server error'
       })
     };
   }
-};
+}
+
+exports.handler = handler;
