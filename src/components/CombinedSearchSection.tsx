@@ -254,26 +254,31 @@ export function CombinedSearchSection() {
         const r: RankResult = {
           success: true,
           ok: true,
-          report: JSON.stringify((data as any).data ?? data, null, 2),
+          report: (data as any).report ?? JSON.stringify((data as any).data ?? data, null, 2),
           url: normalized,
           saved: Boolean((data as any).saved),
           savedCount: (data as any).savedCount || 0,
-          savedIds: (data as any).savedIds || []
+          savedIds: (data as any).savedIds || [],
+          isDemoMode: Boolean((data as any).isDemoMode),
+          demo: Boolean((data as any).demo)
         };
         setResult(r);
         setShowRankOverlay(true);
-        const msg = r.saved ? `Saved ${r.savedCount} results` : 'Analysis generated';
+        const msg = r.isDemoMode ? 'Demo analysis generated' : (r.saved ? `Saved ${r.savedCount} results` : 'Analysis generated');
         toast({ title: 'Ranking Analysis Complete', description: `${msg} for ${normalized}` });
       } else {
         const parsed: RankResult = typeof data === 'object' && data !== null ? ({
           success: Boolean((data as any).success ?? true),
           report: (data as any).report ?? (typeof data === 'string' ? data : JSON.stringify(data)),
           url: normalized,
+          isDemoMode: Boolean((data as any).isDemoMode),
+          demo: Boolean((data as any).demo)
         } as RankResult) : { success: true, report: String(data), url: normalized };
         if (!parsed.success) throw new Error(parsed.error || 'Analysis failed');
         setResult(parsed);
         setShowRankOverlay(true);
-        toast({ title: 'Ranking Analysis Complete', description: `Analysis generated for ${normalized}` });
+        const toastMsg = parsed.isDemoMode ? 'Demo analysis generated' : 'Analysis generated';
+        toast({ title: 'Ranking Analysis Complete', description: `${toastMsg} for ${normalized}` });
       }
     } catch (err: any) {
       console.error('Ranking check error:', err);
