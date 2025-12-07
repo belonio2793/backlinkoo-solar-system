@@ -114,7 +114,10 @@ exports.handler = async (event, context) => {
       return {
         statusCode: response.status || 500,
         headers: headers,
-        body: 'Unable to generate analysis at this time. Please try again later.'
+        body: JSON.stringify({
+          ok: false,
+          error: 'Unable to generate analysis at this time. Please try again later.'
+        })
       };
     }
 
