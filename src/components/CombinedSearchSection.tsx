@@ -406,7 +406,33 @@ export function CombinedSearchSection() {
                                 Analyzing rankings...
                               </div>
                             ) : (
-                              <div className="text-sm leading-relaxed text-white/90">{result?.report ? result.report.split('\n').slice(0,3).join(' ') : 'Ranking analysis generated.'}</div>
+                              <div className="text-sm leading-relaxed text-white/90 max-h-96 overflow-y-auto space-y-3">
+                                {result?.report ? (
+                                  result.report.split('\n\n').map((paragraph, idx) => {
+                                    // Handle headers (### text)
+                                    if (paragraph.startsWith('###')) {
+                                      const title = paragraph.replace(/^###\s*/, '').trim();
+                                      return (
+                                        <div key={idx} className="font-semibold text-white text-sm mt-3">
+                                          {title}
+                                        </div>
+                                      );
+                                    }
+                                    // Handle bold text (**text**)
+                                    const boldFormatted = paragraph.replace(/\*\*(.+?)\*\*/g, (_, text) => text);
+                                    // Handle italics (*text*)
+                                    const fullyFormatted = boldFormatted.replace(/\*(.+?)\*/g, (_, text) => text);
+
+                                    return (
+                                      <div key={idx} className="text-white/90 whitespace-pre-wrap">
+                                        {fullyFormatted}
+                                      </div>
+                                    );
+                                  })
+                                ) : (
+                                  'Ranking analysis generated.'
+                                )}
+                              </div>
                             )}
 
                             <div className="mt-3 flex items-center justify-between">
