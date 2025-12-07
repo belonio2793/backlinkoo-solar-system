@@ -327,7 +327,7 @@ export function CombinedSearchSection() {
                       {estimateLoading ? (
                         <>
                           <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                          Analyzing…
+                          Analyzing...
                         </>
                       ) : (
                         <>
@@ -347,7 +347,7 @@ export function CombinedSearchSection() {
                   {(estimateLoading || (!showEstimateOverlay && !!estimateText)) && (
                     <div className="mt-4 flex items-center justify-center">
                       {estimateLoading ? (
-                        <div className="text-sm text-muted-foreground">Analyzing keyword��</div>
+                        <div className="text-sm text-muted-foreground">Analyzing keyword...</div>
                       ) : (
                         <Button
                           variant="ghost"
