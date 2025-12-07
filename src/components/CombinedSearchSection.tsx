@@ -22,6 +22,46 @@ interface RankResult {
   saved?: boolean;
   savedCount?: number;
   savedIds?: string[];
+  isDemoMode?: boolean;
+  demo?: boolean;
+}
+
+function getDemoAnalysis(url: string): string {
+  try {
+    const hostname = new URL(url).hostname;
+    const hasWWW = hostname.startsWith('www.');
+    const baseDomain = hasWWW ? hostname.slice(4) : hostname;
+
+    return `Ranking Analysis Demo for ${baseDomain}
+
+## Current Status
+Based on public data and general SEO best practices for domains similar to ${baseDomain}:
+
+## Backlink Requirements
+To rank for competitive keywords in your niche, you typically need:
+- Easy Keywords (Search Volume: <1K): 20-50 quality backlinks
+- Medium Keywords (Search Volume: 1K-10K): 50-150 quality backlinks
+- Hard Keywords (Search Volume: 10K+): 150-300+ quality backlinks
+
+## Recommended Keywords to Target
+- Primary: "${baseDomain.split('.')[0]} services" / "${baseDomain.split('.')[0]} solutions"
+- Secondary: "best ${baseDomain.split('.')[0]}" / "top rated ${baseDomain.split('.')[0]}"
+- Long-tail: "how to use ${baseDomain.split('.')[0]}" / "${baseDomain.split('.')[0]} for beginners"
+
+## Quick Wins
+1. Guest posts on authority blogs in your niche (DA 40+)
+2. Resource page links and niche edits
+3. Broken link building on competitor sites
+4. Industry directory submissions
+5. Local citations (if applicable)
+
+## Next Steps
+Upgrade to Premium for real-time ranking tracking and detailed keyword analysis.
+
+**Note**: This is a demo analysis. For full, real-time results, please upgrade to our Premium plan.`;
+  } catch (e) {
+    return `Ranking Analysis Demo\n\nTo get started, enter your website URL above. For complete analysis, upgrade to our Premium plan.`;
+  }
 }
 
 export function CombinedSearchSection() {
