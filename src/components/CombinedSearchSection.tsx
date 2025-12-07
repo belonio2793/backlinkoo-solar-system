@@ -178,7 +178,17 @@ export function CombinedSearchSection() {
 
     // Provide more specific error message based on what failed
     if (lastStatusCode === 404 || errors.some(e => e.includes('404'))) {
-      throw new Error('The ranking service endpoint is not available. Make sure to run "netlify dev" for local testing, or check your deployment.');
+      // Return a graceful fallback response instead of throwing
+      console.warn('[RankTracker] All endpoints returned 404. Service is unavailable. Returning demo response.');
+      return {
+        ok: true,
+        success: true,
+        data: getDemoAnalysis(normalizedUrl),
+        report: getDemoAnalysis(normalizedUrl),
+        url: normalizedUrl,
+        isDemoMode: true,
+        demo: true
+      };
     }
 
     throw new Error('Unable to reach the ranking analysis service. All endpoints failed. Please ensure your connection is stable and try again.');
