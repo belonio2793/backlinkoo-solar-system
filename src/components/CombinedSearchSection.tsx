@@ -99,29 +99,80 @@ export function CombinedSearchSection() {
     ].filter(Boolean) as string[];
 
     const tried = new Set<string>();
+    const errors: string[] = [];
+    let lastStatusCode = 0;
 
     for (const endpoint of candidates) {
       if (tried.has(endpoint)) continue;
       tried.add(endpoint);
       try {
-        console.log('Trying endpoint:', endpoint);
-        const res = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: normalizedUrl, save, userId }) });
-        console.log('Response status:', res.status, 'for endpoint:', endpoint);
+        console.log('[RankTracker] Attempting endpoint:', endpoint);
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url: normalizedUrl, save, userId }),
+          signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+
+        lastStatusCode = res.status;
+        console.log('[RankTracker] Response status:', res.status, 'for endpoint:', endpoint);
+
         if (!res.ok) {
           const body = await res.text().catch(() => '');
-          console.warn('callGrok candidate failed:', endpoint, res.status, body?.substring(0, 200));
+          const errorDetail = `${endpoint}: ${res.status}`;
+          errors.push(errorDetail);
+          console.warn('[RankTracker] Endpoint failed:', endpoint, res.status);
+
+          // If we get a 503, the service is not configured
+          if (res.status === 503) {
+            try {
+              const errData = JSON.parse(body);
+              throw new Error(errData.error || 'Service not configured');
+            } catch (e) {
+              throw new Error('Ranking service is not properly configured. Please try again later.');
+            }
+          }
+          // If it's HTML (404), skip to next candidate
+          if (body.includes('<html') || body.includes('<!DOCTYPE')) {
+            console.warn('[RankTracker] Got HTML response (likely 404), trying next endpoint');
+            continue;
+          }
           continue;
         }
         const contentType = res.headers.get('content-type') || '';
         if (contentType.includes('application/json')) return await res.json();
         return { success: true, report: await res.text() };
-      } catch (err) {
-        console.warn('callGrok fetch error for', endpoint, err?.message || err);
+      } catch (err: any) {
+        const errorMsg = err?.message || String(err);
+
+        // Re-throw configuration errors immediately
+        if (errorMsg.includes('Service not configured') || errorMsg.includes('not properly configured')) {
+          throw err;
+        }
+
+        // Skip timeout errors and continue
+        if (errorMsg.includes('abort') || errorMsg.includes('timeout')) {
+          console.warn('[RankTracker] Request timeout for:', endpoint);
+          errors.push(`${endpoint}: timeout`);
+          continue;
+        }
+
+        console.warn('[RankTracker] Fetch error for', endpoint, errorMsg);
+        errors.push(`${endpoint}: ${errorMsg}`);
         continue;
       }
     }
 
-    throw new Error('All endpoints failed for ranking lookup (404/timeout).');
+    // Provide more specific error message based on what failed
+    if (lastStatusCode === 404 || errors.some(e => e.includes('404'))) {
+      throw new Error('The ranking service endpoint is not available. Make sure to run "netlify dev" for local testing, or check your deployment.');
+    }
+
+    throw new Error('Unable to reach the ranking analysis service. All endpoints failed. Please ensure your connection is stable and try again.');
   };
 
   const handleCheckRanking = async (e: React.FormEvent) => {
