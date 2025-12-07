@@ -52,13 +52,16 @@ async function handler(event) {
 
   // Health check
   if (event.httpMethod === 'GET') {
+    const apiKey = process.env.X_API;
     return {
       statusCode: 200,
       headers,
       body: JSON.stringify({
-        ok: !!process.env.X_API,
-        status: process.env.X_API ? 'ready' : 'unconfigured',
-        service: 'homeFeaturedSearchRank'
+        ok: !!apiKey,
+        status: apiKey ? 'ready' : 'unconfigured',
+        service: 'homeFeaturedSearchRank',
+        hasApiKey: !!apiKey,
+        keyLength: apiKey ? apiKey.length : 0
       })
     };
   }
@@ -74,10 +77,15 @@ async function handler(event) {
   try {
     const apiKey = process.env.X_API;
     if (!apiKey) {
+      console.error('X_API environment variable not configured');
       return {
         statusCode: 503,
         headers,
-        body: JSON.stringify({ ok: false, error: 'Service not configured' })
+        body: JSON.stringify({
+          ok: false,
+          error: 'Service not configured - X_API key missing. Please check Netlify environment variables.',
+          available: false
+        })
       };
     }
 
