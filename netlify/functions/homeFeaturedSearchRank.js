@@ -18,12 +18,14 @@ exports.handler = async (event, context) => {
 
   if (event.httpMethod === 'GET') {
     const ok = !!process.env.X_API;
-    const status = ok ? 'ready' : 'not_configured';
-    const text = `ok=${ok}\nstatus=${status}\nservice=homeFeaturedSearchRank`;
     return {
       statusCode: 200,
       headers,
-      body: text
+      body: JSON.stringify({
+        ok: ok,
+        status: ok ? 'ready' : 'not_configured',
+        service: 'homeFeaturedSearchRank'
+      })
     };
   }
 
@@ -31,7 +33,10 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 405,
       headers: headers,
-      body: 'Method not allowed. Please use POST.'
+      body: JSON.stringify({
+        ok: false,
+        error: 'Method not allowed. Please use POST.'
+      })
     };
   }
 
