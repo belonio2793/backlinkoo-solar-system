@@ -92,27 +92,48 @@ export function HomeFeaturedRankTracker() {
     ].filter(Boolean) as string[];
 
     const tried = new Set<string>();
+    const errors = [];
 
     for (const endpoint of candidates) {
       if (tried.has(endpoint)) continue;
       tried.add(endpoint);
       try {
         const res = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: normalizedUrl, save, userId }) });
+
         if (!res.ok) {
           const body = await res.text().catch(() => '');
-          console.warn('callGrok candidate failed:', endpoint, res.status, body);
+          const errorDetail = `${endpoint}: ${res.status}`;
+          errors.push(errorDetail);
+          console.warn('callGrok candidate failed:', endpoint, res.status, body?.substring(0, 100));
+
+          // If we get a 503, the service is not configured
+          if (res.status === 503) {
+            try {
+              const errData = JSON.parse(body);
+              throw new Error(errData.error || 'Service not configured');
+            } catch (e) {
+              throw new Error('Ranking service is not properly configured. Please try again later.');
+            }
+          }
           continue;
         }
+
         const contentType = res.headers.get('content-type') || '';
         if (contentType.includes('application/json')) return await res.json();
         return { success: true, report: await res.text() };
-      } catch (err) {
-        console.warn('callGrok fetch error for', endpoint, err?.message || err);
+      } catch (err: any) {
+        // Re-throw 503 errors immediately
+        if (err?.message?.includes('Service not configured') || err?.message?.includes('not properly configured')) {
+          throw err;
+        }
+        const errorMsg = err?.message || String(err);
+        console.warn('callGrok fetch error for', endpoint, errorMsg);
+        errors.push(`${endpoint}: ${errorMsg}`);
         continue;
       }
     }
 
-    throw new Error('All endpoints failed for ranking lookup (404/timeout).');
+    throw new Error('Unable to reach the ranking analysis service. All endpoints failed. Please ensure your connection is stable and try again.');
   };
 
   const handleCheckRanking = async (e: React.FormEvent) => {
