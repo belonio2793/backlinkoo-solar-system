@@ -218,10 +218,22 @@ export function CombinedSearchSection() {
       }
     } catch (err: any) {
       console.error('Ranking check error:', err);
+
       const errMsg = err?.message || 'Failed to analyze ranking. Please try again.';
-      setResult({ success: false, report: errMsg, url: normalized });
+
+      // Provide more helpful error messages
+      let userFriendlyMsg = errMsg;
+      if (errMsg.includes('not properly configured')) {
+        userFriendlyMsg = 'The ranking service is currently unavailable. Please try again in a few moments.';
+      } else if (errMsg.includes('endpoints failed') || errMsg.includes('404') || errMsg.includes('not available')) {
+        userFriendlyMsg = 'Unable to connect to the ranking service. Please check your internet connection and try again.';
+      } else if (errMsg.includes('timeout')) {
+        userFriendlyMsg = 'The ranking analysis took too long. Please try again.';
+      }
+
+      setResult({ success: false, report: userFriendlyMsg, url: normalized });
       setShowRankOverlay(true);
-      toast({ title: 'Error', description: errMsg, variant: 'destructive' });
+      toast({ title: 'Analysis Failed', description: userFriendlyMsg, variant: 'destructive' });
     } finally {
       setLoading(false);
     }
