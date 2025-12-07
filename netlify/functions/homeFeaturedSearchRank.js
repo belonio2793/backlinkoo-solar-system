@@ -157,7 +157,10 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 500,
       headers: headers,
-      body: `An error occurred while analyzing your website. Please try again.`
+      body: JSON.stringify({
+        ok: false,
+        error: 'An error occurred while analyzing your website. Please try again.'
+      })
     };
   }
-}
+};
