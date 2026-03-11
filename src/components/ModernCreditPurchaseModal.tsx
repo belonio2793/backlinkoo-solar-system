@@ -5,12 +5,14 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Shield, CheckCircle, CreditCard, ExternalLink } from "lucide-react";
+import { Shield, CheckCircle, CreditCard, ExternalLink, Wallet } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useAuth } from "@/hooks/useAuth";
 import { useAuthModal } from "@/contexts/ModalContext";
 import { stripeWrapper } from "@/services/stripeWrapper";
 import InlineStripeCredits from '@/components/InlineStripeCredits';
+import { CryptoPaymentModal } from '@/components/CryptoPaymentModal';
+import { PRIMARY_CRYPTOS, CRYPTO_ADDRESSES } from '@/config/cryptoPayments';
 
 interface ModernCreditPurchaseModalProps {
   isOpen: boolean;
@@ -42,6 +44,7 @@ export function ModernCreditPurchaseModal({
   const [isLoading, setIsLoading] = useState(false);
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const [showCryptoModal, setShowCryptoModal] = useState(false);
 
   // If user is signed in, prefill names from user metadata and hide inputs
   useEffect(() => {
@@ -322,8 +325,43 @@ export function ModernCreditPurchaseModal({
             <div className="text-xs text-muted-foreground text-center">
               Powered by Stripe • Secure checkout • Credits activated automatically via webhooks
             </div>
+
+            {/* Crypto Payment Option */}
+            <div className="space-y-2">
+              <div className="text-sm font-medium text-gray-700">Or pay with crypto</div>
+              <Button
+                onClick={() => setShowCryptoModal(true)}
+                variant="outline"
+                className="w-full border-2 hover:border-purple-300 hover:bg-purple-50"
+              >
+                <Wallet className="h-4 w-4 mr-2" />
+                Pay with Cryptocurrency
+              </Button>
+
+              {/* Quick crypto icons */}
+              <div className="flex gap-1 justify-center">
+                {PRIMARY_CRYPTOS.slice(0, 5).map((key) => (
+                  <button
+                    key={key}
+                    onClick={() => setShowCryptoModal(true)}
+                    className="text-xl hover:scale-125 transition-transform"
+                    title={CRYPTO_ADDRESSES[key].name}
+                  >
+                    {CRYPTO_ADDRESSES[key].icon}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
+
+        {/* Crypto Payment Modal */}
+        <CryptoPaymentModal
+          isOpen={showCryptoModal}
+          onClose={() => setShowCryptoModal(false)}
+          creditsAmount={getCreditsAmount() || initialCredits || 200}
+          priceUSD={getPriceAmount()}
+        />
       </DialogContent>
     </Dialog>
   );

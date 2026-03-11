@@ -11,6 +11,8 @@ import { CreditCard, Wallet, Shield, ExternalLink, AlertTriangle } from "lucide-
 import { useToast } from "@/hooks/use-toast";
 import { CreditPaymentService } from "@/services/creditPaymentService";
 import { useAuth } from "@/hooks/useAuth";
+import { CryptoPaymentModal } from '@/components/CryptoPaymentModal';
+import { PRIMARY_CRYPTOS, CRYPTO_ADDRESSES } from '@/config/cryptoPayments';
 
 interface ImprovedPaymentModalProps {
   isOpen: boolean;
@@ -26,10 +28,11 @@ export const ImprovedPaymentModal = ({
   const CREDIT_PRICE = 1.40;
   const { toast } = useToast();
   const { user } = useAuth();
-  
+
   const [amount, setAmount] = useState(() => initialCredits ? (initialCredits * CREDIT_PRICE).toFixed(2) : "");
   const [credits, setCredits] = useState(() => initialCredits ? initialCredits.toString() : "");
   const [loading, setLoading] = useState(false);
+  const [showCryptoModal, setShowCryptoModal] = useState(false);
 
   // Check if we're on the production domain
   const isProductionDomain = typeof window !== 'undefined' && window.location.hostname === 'backlinkoo.com';
@@ -308,6 +311,41 @@ export const ImprovedPaymentModal = ({
             <span>Checkout opens in new window for security</span>
           </div>
         </div>
+
+        {/* Crypto Payment Option */}
+        <div className="space-y-3 border-t pt-4">
+          <p className="text-sm text-gray-600 text-center font-medium">Or pay with cryptocurrency</p>
+          <Button
+            onClick={() => setShowCryptoModal(true)}
+            variant="outline"
+            className="w-full border-2 hover:border-purple-300 hover:bg-purple-50"
+          >
+            <Wallet className="h-4 w-4 mr-2" />
+            Pay with Crypto
+          </Button>
+
+          {/* Quick crypto icons */}
+          <div className="flex gap-1 justify-center">
+            {PRIMARY_CRYPTOS.slice(0, 5).map((key) => (
+              <button
+                key={key}
+                onClick={() => setShowCryptoModal(true)}
+                className="text-xl hover:scale-125 transition-transform"
+                title={CRYPTO_ADDRESSES[key].name}
+              >
+                {CRYPTO_ADDRESSES[key].icon}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Crypto Payment Modal */}
+        <CryptoPaymentModal
+          isOpen={showCryptoModal}
+          onClose={() => setShowCryptoModal(false)}
+          creditsAmount={parseInt(credits) || initialCredits || 200}
+          priceUSD={parseFloat(amount) || 280}
+        />
       </DialogContent>
     </Dialog>
   );

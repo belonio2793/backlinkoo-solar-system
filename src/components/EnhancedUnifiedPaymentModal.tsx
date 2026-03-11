@@ -27,8 +27,11 @@ import {
   Calculator,
   DollarSign,
   Info,
-  ExternalLink
+  ExternalLink,
+  Bitcoin
 } from 'lucide-react';
+import { CryptoPaymentModal } from '@/components/CryptoPaymentModal';
+import { PRIMARY_CRYPTOS, CRYPTO_ADDRESSES } from '@/config/cryptoPayments';
 
 interface EnhancedUnifiedPaymentModalProps {
   isOpen: boolean;
@@ -66,15 +69,16 @@ export function EnhancedUnifiedPaymentModal({
   // Flow management
   const [currentStep, setCurrentStep] = useState<FlowStep>('selection');
   const [isProcessing, setIsProcessing] = useState(false);
-  
+
   // Payment configuration
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('stripe');
   const [checkoutType, setCheckoutType] = useState<CheckoutType>('user');
-  
+
   // Credits state
   const [selectedCreditPlan, setSelectedCreditPlan] = useState<string>('');
   const [customCredits, setCustomCredits] = useState(initialCredits || 200);
   const [showCustomCredits, setShowCustomCredits] = useState(false);
+  const [showCryptoModal, setShowCryptoModal] = useState(false);
   
   const CREDIT_PRICE = 1.40;
   const CREDITS_CHECKOUT_URL = 'https://buy.stripe.com/9B63cv1tmcYe';
@@ -512,6 +516,35 @@ export function EnhancedUnifiedPaymentModal({
           )}
         </Button>
 
+        {/* Crypto Payment Option */}
+        <div className="space-y-3 pt-2">
+          <Separator />
+          <p className="text-sm text-gray-600 text-center font-medium">Or pay with cryptocurrency</p>
+          <Button
+            onClick={() => setShowCryptoModal(true)}
+            variant="outline"
+            className="w-full border-2 hover:border-purple-300 hover:bg-purple-50"
+            size="lg"
+          >
+            <Wallet className="mr-2 h-4 w-4" />
+            Pay with Crypto
+          </Button>
+
+          {/* Quick crypto icons */}
+          <div className="flex gap-1 justify-center pt-1">
+            {PRIMARY_CRYPTOS.slice(0, 5).map((key) => (
+              <button
+                key={key}
+                onClick={() => setShowCryptoModal(true)}
+                className="text-2xl hover:scale-125 transition-transform"
+                title={CRYPTO_ADDRESSES[key].name}
+              >
+                {CRYPTO_ADDRESSES[key].icon}
+              </button>
+            ))}
+          </div>
+        </div>
+
         <div className="flex justify-center pt-4 border-t">
           <Button
             variant="outline"
@@ -575,6 +608,14 @@ export function EnhancedUnifiedPaymentModal({
         {currentStep === 'payment' && renderPayment()}
         {currentStep === 'processing' && renderProcessing()}
         {currentStep === 'success' && renderSuccess()}
+
+        {/* Crypto Payment Modal */}
+        <CryptoPaymentModal
+          isOpen={showCryptoModal}
+          onClose={() => setShowCryptoModal(false)}
+          creditsAmount={getFinalSelection()?.credits || 200}
+          priceUSD={getFinalSelection()?.price || 280}
+        />
       </DialogContent>
     </Dialog>
   );
